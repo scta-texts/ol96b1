@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="207"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c66896"> <!-- l1d4p2-prae -->
+            <head xml:id="ol96b1-c66896-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c66896-d1e104">
+               <lb ed="#L" n="90"/>CAPJTVLVM SECVNDVM.
+    </p>
+            <p xml:id="ol96b1-c66896-d1e109">
+               <lb ed="#L" n="91"/>Opinio quorundam dicentium, tres 
+      perso<lb ed="#L" break="no" n="92"/>nas esse vnum Deum, vnam substantiam: 
+      <lb ed="#L" n="93"/>sed non e conuerso, scilicet vnum Deum, 
+      <lb ed="#L" n="94"/>vel vnam substantiam esse tres personas.
+    </p>
+            <p xml:id="ol96b1-c66896-d1e120">
+               <lb ed="#L" n="95"/>Quidam tamen veritatis aduersarij, &amp;. 
+    </p>
+            <p xml:id="ol96b1-c66896-d1e126">
+               <lb ed="#L" n="96"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-c66896-d1e131">
+               <lb ed="#L" n="97"/>
+               <quote xml:id="ol96b1-c66896-Qd1e135">QVIDAM tamen veritatis aduersarij</quote>, 
+      <lb ed="#L" n="98"/>&amp;c. Postquam Magister prosecutus 
+      <lb ed="#L" n="99"/>est intentum principale, hic 
+      diuer<lb ed="#L" break="no" n="100"/>tit ad quoddam incidentale: illud 
+      <lb ed="#L" n="101"/>autem incidentale oritur ex fine 
+      <lb ed="#L" n="102"/>praecedentis particulae, vt dicit 
+      Ma<lb ed="#L" break="no" n="103"/>gister, quod vnus Deus est Pater, &amp; Filius, &amp; 
+      Spi<lb ed="#L" break="no" n="104"/>ritus sanctus. fuerunt namque aliqui sicut Porre 
+      <lb ed="#L" n="105"/>tanus, vt imponitur sibi, qui concesserunt Deum, 
+      <lb ed="#L" n="106"/>vel Diuinam essentiam praedicari de tribus 
+      per<lb ed="#L" break="no" n="107"/>sonis, dicendo, Tres personas esse vnum Deum, 
+      <lb ed="#L" n="108"/>vel vnam substantiam: negauerunt tamen 
+      con<lb ed="#L" break="no" n="109"/>uersam, videlicet tres personas praedicari de 
+      <lb ed="#L" n="110"/>diuina essentia, vel de vno Deo; vnde dixerunt, 
+      <lb ed="#L" n="111"/>quod haec propositio non est vera, vnus Deus 
+      <lb ed="#L" n="112"/>est tres personae, vel, vnus Deus est Trinitas, 
+      <lb ed="#L" n="113"/>vel vnus Deus, est Pater, &amp; Filius, &amp; Spiritus 
+      san<lb ed="#L" break="no" n="114"/>ctus. Contra hoc ergo Magister inducit sex 
+      au<lb ed="#L" break="no" n="115"/>ctoritates confirmantes fidem Catholicam, quae 
+      prae<lb ed="#L" break="no" n="116"/>dicat tres personas esse vnum Deum; siue vnam 
+      sub<lb ed="#L" break="no" n="117"/>stantiam, &amp; econuerso vnum Deum, seu vnam 
+      sub<lb ed="#L" break="no" n="118"/>stantiam esse tres personas, &amp; patet in litera. 
+      <lb ed="#L" n="119"/>Postmodum ibi: Nunc ad praemissam quaestionem. re 
+      <lb ed="#L" n="120"/>dit Magist. ad propositum principale, &amp; facit duo. 
+      <lb ed="#L" n="121"/>Primo enim quaestionem repetit, dicens, Reuerta 
+      <lb ed="#L" n="122"/>mur ad quaestionem, qua quaerebatur, vtrum Deus Pa 
+      <lb ed="#L" n="123"/>ter genuerit se Deum, an alium Deum. Secundo ibi: Ad 
+      <lb ed="#L" n="124"/>quod dicimus. Respondet, quod neutrum debet con 
+      <lb ed="#L" n="125"/>cedi, nec sunt contradictoria: nam se, notat 
+      iden<lb ed="#L" break="no" n="126"/>titatem personae, &amp; ideo non debet concedi, quod 
+      <lb ed="#L" n="127"/>genuerit se Deum: alius autem cum Deo, notat 
+      <lb ed="#L" n="128"/>alietatem essentiae, &amp; ideo concedi non debet, 
+      <lb ed="#L" n="129"/>quod genuit alium Deum, sed est dare medium, 
+      <lb ed="#L" n="130"/>videlicet, quod genuit eundem in essentia, &amp; 
+      <!--0208.xml-->
+      <pb ed="#L" n="208"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>&amp; alium in persona. Instat autem Magister ex 
+      ver<lb ed="#L" break="no" n="2"/>bis Augustini, qui videtur dicere, quod Deus Pa 
+      <lb ed="#L" n="3"/>ter genuit alterum se, &amp; respondet Magist. quod 
+      <lb ed="#L" n="4"/>intelligi debet, Patrem genuisse alium se, hoc est 
+      <lb ed="#L" n="5"/>alterum a se in persona, vel potest dici, quod hoc 
+      <lb ed="#L" n="6"/>dictum est ad expressionem identitatis essentiae, 
+      <lb ed="#L" n="7"/>vt sit sensus, quod genuit alterum, qui est hoc 
+      <lb ed="#L" n="8"/>idem, quod ipsum, &amp; haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="149"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c47683"> <!-- l1d2p3-prae -->
+            <head xml:id="ol96b1-c47683-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c47683-d1e104">
+      <!--0149.xml-->
+               <pb ed="#L" n="149"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>TERTJA PARS. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e115">
+               <lb ed="#L" n="2"/>asonaran que pluralitatem. 
+      Post<lb ed="#L" break="no" n="3"/>quam Magister induxit auctorita 
+      <lb ed="#L" n="4"/>tes probantes, vnitatem essentiae, 
+      <lb ed="#L" n="5"/>hic inducit illas, quae probant 
+      fi<lb ed="#L" break="no" n="6"/>mul vnitatem naturae, &amp; 
+      plurali<lb ed="#L" break="no" n="7"/>tatem personarum. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e131">
+               <lb ed="#L" n="8"/>Et circa haec duo facit: inducit namque primo 
+      <lb ed="#L" n="9"/>vetus testamentum, secundo nouum, ibi: Nuic 
+      <lb ed="#L" n="10"/>post astimonium veteris Testamenti. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e141">
+               <lb ed="#L" n="11"/>Adhuc circa primum duo facit. primo namque 
+      <lb ed="#L" n="12"/>ponit auctoritates, quae probant personarum 
+      <lb ed="#L" n="13"/>Irinitatem. Secundo eas, quae probant ex illis 
+      <lb ed="#L" n="14"/>personis, vnam habere rationem Filij, aliam 
+      <lb ed="#L" n="15"/>Spiritus sancti. secunda, ibi: Dauid quoque aeternam. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e154">
+               <lb ed="#L" n="16"/>Adhuc circa primum duo facit. Primo 
+      nam<lb ed="#L" break="no" n="17"/>que ponit auctoritates ex libris Moysi. Secundo 
+      <lb ed="#L" n="18"/>ex libris Prophetae Dauid. secunda, ibi: Ille esse 
+      <lb ed="#L" n="19"/>maximus.
+    </p>
+            <p xml:id="ol96b1-c47683-d1e165">
+               <lb ed="#L" n="20"/>Circa primum duo facit, secundum duas 
+      au<lb ed="#L" break="no" n="21"/>ctoritates, quas ponit. secunda ibi: Nunc ad 
+      pro<lb ed="#L" break="no" n="22"/>positum redeamus. Dicit itaque primo, quod 
+      Do<lb ed="#L" break="no" n="23"/>minus Genes. 1. cum ait: Faciamus hominem ad 
+      <lb ed="#L" n="24"/>imaginem, &amp; similitudinem nostram. ostendit 
+      essen<lb ed="#L" break="no" n="25"/>tin vnitatem, dicendo in singulari: Ad imaginem, 
+      <lb ed="#L" n="26"/>&amp; similitudinem; &amp; personarum pluralitatem, 
+      <lb ed="#L" n="27"/>dicendo, Faciamus, &amp; Nostram, in plurali: &amp; 
+      <lb ed="#L" n="28"/>hoc Magister confirmat auctoritate Augustini, 
+      <lb ed="#L" n="29"/>qui ait, quod si vere illa natura esset tantum vna 
+      <lb ed="#L" n="30"/>persona, non diceret, Faciamus, &amp; Nostram, &amp; 
+      <lb ed="#L" n="31"/>si essent plures naturae, non diceret, Ad 
+      imagi<lb ed="#L" break="no" n="32"/>nem. &amp; idem probat auctoritate Hilarij, qui ait, 
+      <lb ed="#L" n="33"/>quod professio consortij, cum dixit: Faciamus, 
+      <lb ed="#L" n="34"/>&amp; Nostram, sustulit intelligentiam personae 
+      sin<lb ed="#L" break="no" n="35"/>gularis, vt intelligatur, Deus non esse solitarius, 
+      <lb ed="#L" n="36"/>sed trinus in personis. In fine autem Magister 
+      <lb ed="#L" n="37"/>dicit, quod Trinitas, &amp; pluralitas, &amp; similia iu 
+      <lb ed="#L" n="38"/>Deo non sunt positiua, sed tantummodo 
+      remo<lb ed="#L" break="no" n="39"/>tiua, in quo a Doctoribus communiter non tene 
+      <lb ed="#L" n="40"/>tur, sicut infra patebit dist. 24 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e213">
+               <lb ed="#L" n="41"/>Postmodum ibi: <quote xml:id="ol96b1-c47683-Qd1e217">Nunc ad propositum</quote>. inducit 
+      <lb ed="#L" n="42"/>aliam auctoritatem Moysi, dicentis: In principio 
+      <lb ed="#L" n="43"/>creauit Deus caelum, &amp; terram. per Deum enim hic 
+      <lb ed="#L" n="44"/>intelligitur Pater, per principium Filius, &amp; per 
+      <lb ed="#L" n="45"/>hoc etiam, quod habetur in Hebraeo, non Deus 
+      <lb ed="#L" n="46"/>in singulari, sed Heloym in plurali, quod potest 
+      <lb ed="#L" n="47"/>interpretari Dij, siue Iudices, potest 
+      intelli<lb ed="#L" break="no" n="48"/>gi pluralitas personarum, vnde illud, quod dixit 
+      <lb ed="#L" n="49"/>Serpens, Eritis sicut Heloym, vbi nos habemus, 
+      <lb ed="#L" n="50"/>Sicut Dij. Idem est dictu, quod eritis sicut 
+      Diui<lb ed="#L" break="no" n="51"/>nae personae. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e242">
+               <lb ed="#L" n="52"/>Postmodum ibi: <quote xml:id="ol96b1-c47683-Qd1e246">Ille etiam maximus</quote>. Inducit 
+      <lb ed="#L" n="53"/>quatuor auctoritates, tres Dauid, &amp; vnam Isaiae. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e251">
+               <lb ed="#L" n="54"/>Prima quidem Dauid scriptam in Psalmo 8o. 
+      <lb ed="#L" n="55"/>vbi ait: Ifrael, si me audieris, non erit in te Deus 
+      re<lb ed="#L" break="no" n="56"/>cens. quod exponens Ambrosius ait, quod si 
+      Fi<lb ed="#L" break="no" n="57"/>lius, vel Spiritus sanctus, sunt Patre 
+      posterio<lb ed="#L" break="no" n="58"/>res, recentes sunt, &amp; si vnius Deitatis non sunt, 
+      <lb ed="#L" n="59"/>adoratur Deus alienus a Patre. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e268">
+               <lb ed="#L" n="60"/>Secundam vero scriptam in Psalm. 33. vbi 
+      di<lb ed="#L" break="no" n="61"/>citur: Verbo Domini Caeli firmati sunt, &amp; Spiritu oris 
+      <lb ed="#L" n="62"/>eius omnis virtus eorum. Per Dominum autem 
+      Pa<lb ed="#L" break="no" n="63"/>ter intelligitur, per Verbum, Filius, per 
+      Spiri<lb ed="#L" break="no" n="64"/>tum oris, Spiritus sanctus. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e281">
+               <lb ed="#L" n="65"/>Tertiam quoque scriptam in Psal. 6o. 
+      Benedi<lb ed="#L" break="no" n="66"/>cat nos Deus, Deus noster, benedicat nos Deus. Vbi 
+      <!--0149.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="67"/>trina professio, Trinitatem exprimit personarum: 
+      <lb ed="#L" n="68"/>cum vero subiungitur: Et metuant cum omnes fines 
+      <lb ed="#L" n="69"/>terrae, vnitas essentiae aperitur. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e299">
+               <lb ed="#L" n="70"/>Quartam autem scriptam in Isaia, vbi intro⸗ 
+      <lb ed="#L" n="71"/>ducit se audiuisse Seraphim clamantia, Sanctus, 
+      <lb ed="#L" n="72"/>Sanctus, Sanctus Dominus Deus Sabaoth, 
+      re<lb ed="#L" break="no" n="73"/>plicando namque ter sanctus, exprimit 
+      Trinita<lb ed="#L" break="no" n="74"/>tem. Vnitatem vero, cum dicit, Dominus Deus 
+      <lb ed="#L" n="75"/>Sabaoth.
+    </p>
+            <p xml:id="ol96b1-c47683-d1e315">
+               <lb ed="#L" n="76"/>Postmodum ibi: Dauid quoque. Inducit 
+      aucto<lb ed="#L" break="no" n="77"/>ritates, quae probant, quod ex istis personis vna 
+      <lb ed="#L" n="78"/>sit filius, &amp; alia Spiritus sanctus. Secundam 
+      fa<lb ed="#L" break="no" n="79"/>cit ibi: De Spiritu sancto. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e326">
+               <lb ed="#L" n="80"/>Circa primum ergo ponit quinque auctorita 
+      <lb ed="#L" n="81"/>tes, quibus probatur, quod persona Filij est 
+      in<lb ed="#L" break="no" n="82"/>Deo. Primam quidem Dauid Psal. 2. vbi ait, Domi 
+      <lb ed="#L" n="83"/>nus dixit ad me: Filius meus es tu, ego hodie genui te. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e337">
+               <lb ed="#L" n="84"/>Secundam vero Isaiae: Generationem eiunquis 
+      e<lb ed="#L" break="no" n="85"/>narrabit? 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e345">
+               <lb ed="#L" n="86"/>Tertiam quoque Sapientis Prouerb. vbi ait 
+      <lb ed="#L" n="87"/>Sapientia aeterna: Necdum erant abysi, &amp; ego iam 
+      <lb ed="#L" n="88"/>concepta eram. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e354">
+               <lb ed="#L" n="89"/>Quartam autem Sapientis Ecclesiast. vbi 
+      di<lb ed="#L" break="no" n="90"/>citur in persona Sapientiae aeternae: Ego ex ore Al 
+      <lb ed="#L" n="91"/>tissimi, primogenita ante omnem creaturam. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e363">
+               <lb ed="#L" n="92"/>Quintam autem Micheae, vbi dicitur de Filio 
+      <lb ed="#L" n="93"/>Dei, quod egressus eius ab initio, &amp; d diebus 
+      aeter<lb ed="#L" break="no" n="94"/>nitatis. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e372">
+               <lb ed="#L" n="95"/>Postmodum ibi: De Spiritu sancto, inducit alias 
+      <lb ed="#L" n="96"/>quinque auctoritates, ad probandum, quod in 
+      <lb ed="#L" n="97"/>Deo sit persona Spiritus sancti. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e381">
+               <lb ed="#L" n="98"/>Prima scribitur Genes. 1. Spiritus Domini 
+      fere<lb ed="#L" break="no" n="99"/>batur super aquas. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e388">
+               <lb ed="#L" n="100"/>Secunda, Psalm. Quo ibo a Spiritu tuo. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e394">
+               <lb ed="#L" n="101"/>Tertia, Sapientiae: Spiritus sanctus disciplinae 
+      ef<lb ed="#L" break="no" n="102"/>fugiet fictum. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e401">
+               <lb ed="#L" n="103"/>Quarta, Sapient. Benignus est Spiritus sapientiae. 
+      <lb ed="#L" n="104"/>Quinta Isaiae: Spiritus Domini super me. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e408">
+               <lb ed="#L" n="105"/>Postmodum ibi: Nunc post testimonia. Inducit 
+      <lb ed="#L" n="106"/>Magister auctoritates noui Testamenti, &amp; ponit 
+      <lb ed="#L" n="107"/>septem auctoritates per ordinem. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e417">
+               <lb ed="#L" n="108"/>Primam Saluatoris scriptam Matth. Baptizan. 
+      <lb ed="#L" n="109"/>tes omnes gentes in nomine Patris, &amp; Filij, &amp; 
+      Spiri<lb ed="#L" break="no" n="110"/>tus sancti. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e426">
+               <lb ed="#L" n="111"/>Secundam Ioannis: Ego, &amp; Pater, vnum sumus. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e431">
+               <lb ed="#L" n="112"/>Tertiam ponit eiusdem loannis: Tres sunt, qui 
+      <lb ed="#L" n="113"/>testimonium dant in terra, &amp;c. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e439">
+               <lb ed="#L" n="114"/>Quartam eiusdem scriptam in Euangelio: In 
+      <lb ed="#L" n="115"/>principio erat Verbum. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e446">
+               <lb ed="#L" n="116"/>Quintam Apostoli ad Galatas, Misit Deus 
+      Spi<lb ed="#L" break="no" n="117"/>ritum Filij sui in corda nostra. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e453">
+               <lb ed="#L" n="118"/>Sexta, eiusdem ad Romanos: Si Spiritus eius, 
+      <lb ed="#L" n="119"/>qui suscitauit Iesum habitat in nobis. 
+    </p>
+            <p xml:id="ol96b1-c47683-d1e460">
+               <lb ed="#L" n="120"/>Septimam eiusdem ad Rom. Ex ipso, &amp; per 
+      ip<lb ed="#L" break="no" n="121"/>sum, &amp; in ipso sunt omnia. ex ipso enim dicitur 
+      pro<lb ed="#L" break="no" n="122"/>pter Patrem, &amp; per ipsum propter Spiritum san 
+      <lb ed="#L" n="123"/>ctum. In fine autem Magister concludit, quod 
+      <lb ed="#L" n="124"/>pene omnes syllabae noui Testamenti mysterium 
+      <lb ed="#L" n="125"/>annuntiant huius ineffabilis Trinitatis. Haec est 
+      <lb ed="#L" n="126"/>sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

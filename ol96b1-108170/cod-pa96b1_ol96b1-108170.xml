@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="332"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-108170"> <!-- l1d9p2-q1 -->
+            <head xml:id="ol96b1-108170-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-108170-Hd1e104" type="question-title">
+        Utrum generatio Filii mensuretur. 
+      </head>
+            <p xml:id="ol96b1-108170-d1e107">
+               <lb ed="#L" n="48"/>Vtrum generatio Filij mensuretur. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e112">
+               <lb ed="#L" n="49"/>ET quia Magister hic quaerit, an Filij 
+      gene<lb ed="#L" break="no" n="50"/>ratio sit in continuo fieri, ita quod dici pos 
+      <lb ed="#L" n="51"/>sit de eo, quod continuo generatur, aut sit in fa 
+      <lb ed="#L" n="52"/>cto esse, &amp; completo, ita vt melius dicatur, quod 
+      <lb ed="#L" n="53"/>semper natus est, ideo inquirendum occurrit, 
+      <lb ed="#L" n="54"/>vtrum generatio mensuretur aeternitate. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e129">
+               <lb ed="#L" n="55"/>Et videtur primo, quod non; illud enim non 
+      <lb ed="#L" n="56"/>mensuratur aeternitate, de quo enunciantur ver 
+      <lb ed="#L" n="57"/>ba praesentis temporis, &amp; futuri, quia aeternitas 
+      <lb ed="#L" n="58"/>est extra omne tempus, sed de generatione Filij 
+      <lb ed="#L" n="59"/>enunciantur verba ista, dicitur enim in praeteri 
+      <lb ed="#L" n="60"/>to per Prophetam: Ante Luciferum genui te, &amp; 
+      <lb ed="#L" n="61"/>per Sapientem de praesenti: Ante omnes colles 
+      <lb ed="#L" n="62"/>generat me Dominus, &amp; de futuro dicitur, quo 
+      <lb ed="#L" n="63"/>ad Spiritum sanctum, qui de meo accipiet, &amp; 
+      <lb ed="#L" n="64"/>eodem modo posset dici de Filio. ergo 
+      huiusmo<lb ed="#L" break="no" n="65"/>di generatio non mensuratur aeternitate.
+    </p>
+            <p xml:id="ol96b1-108170-d1e155">
+      <!--0332.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>Praeterea: Illud, quod intelligitur per modum flu 
+      <lb ed="#L" n="67"/>xus, &amp; cuiusdam egressus, non potest mensurari aeter 
+      <lb ed="#L" n="68"/>nitate, quia fluxus videtur importare 
+      mutabi<lb ed="#L" break="no" n="69"/>le aliquid ad transitum quendam, qui repugnat 
+      <lb ed="#L" n="70"/>aeternitati, sed generatio Filij est per modum 
+      <lb ed="#L" n="71"/>cuiusdam egressus. ait enim Propheta Michaeae 
+      <lb ed="#L" n="72"/>5. quod egressus eius est ab initio ex diebus 
+      a<lb ed="#L" break="no" n="73"/>ternitatis. ergo generatio non mensuratur 
+      ae<lb ed="#L" break="no" n="74"/>ternitate. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e181">
+               <lb ed="#L" n="75"/>Praeterea: Generatio Filij coaequatur 
+      dura<lb ed="#L" break="no" n="76"/>tioni Dei, sed Deus excedit aeternum secundum 
+      <lb ed="#L" n="77"/>illud 1. Reg. 2. Dominus regnauit in aeternum, 
+      <lb ed="#L" n="78"/>&amp; vltra. ergo generatio Filij excedit aeternum. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e192">
+               <lb ed="#L" n="79"/>Praeterea: Duratio creaturae non coaequatur 
+      <lb ed="#L" n="80"/>generationi Diuinae, sed aliquae creaturae 
+      ma<lb ed="#L" break="no" n="81"/>nent in aeternum, secundum illud Ecclesiast. 1. 
+      <lb ed="#L" n="82"/>Terra autem in aeternum stat. ergo idem, quod 
+      <lb ed="#L" n="83"/>prius. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e205">
+               <lb ed="#L" n="84"/>Praeterea: Quod fit, non est, sed Filius in 
+      aeter<lb ed="#L" break="no" n="85"/>num est. ergo non generatur in aeternum. non 
+      <lb ed="#L" n="86"/>ergo generatio mensuratur aenernitate. 
+      <lb ed="#L" n="87"/>Praeterea: Nil mensuratur, nisi qnantum, sed 
+      <lb ed="#L" n="88"/>generatio Filij non habet quantitatem, nec 
+      per<lb ed="#L" break="no" n="89"/>manentem, nec successiuam. ergo nec 
+      mensu<lb ed="#L" break="no" n="90"/>ratur aeternitate. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e223">
+               <lb ed="#L" n="91"/>Praeterea: Si generatio Filij mensuraretur aeter 
+      <lb ed="#L" n="92"/>nitate, erunt plures aeternitates in Deo, quia 
+      a<lb ed="#L" break="no" n="93"/>lia aeternitate mensurabitur processio Spiritus 
+      <lb ed="#L" n="94"/>sancti, alia generatio Filij, &amp; alia essentia. quot 
+      <lb ed="#L" n="95"/>enim sunt res, tot debent esse aeternitates, sed 
+      <lb ed="#L" n="96"/>hoc poni non potest, quia aeternitas est perfectio 
+      <lb ed="#L" n="97"/>simpliciter, quae non plurificatur in Diuinis. 
+      er<lb ed="#L" break="no" n="98"/>go generratio Filij non mensuratur aeternitate. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e244">
+               <lb ed="#L" n="99"/>Quod Filij generatio aeternitate mensuretur.
+    </p>
+            <p xml:id="ol96b1-108170-d1e249">
+               <lb ed="#L" n="100"/>SED in oppositum videtur, quod Augustinus 
+      <lb ed="#L" n="101"/>dicit 83. quaestio. ait enim, quod Filius est, 
+      <lb ed="#L" n="102"/>quia natus est: semper autem Filius est. semper 
+      <lb ed="#L" n="103"/>ergo natus est. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e260">
+               <lb ed="#L" n="104"/>Praeterea: Filius a Patre nascitur, sicut facit 
+      <lb ed="#L" n="105"/>splendor a Sole secundum illud Apost. ad Hebr. 
+      <lb ed="#L" n="106"/>1. dicentis de Filio, quod est splendor, gloria, &amp; 
+      <lb ed="#L" n="107"/>figura substantiae eius, sed splendor semper 
+      na<lb ed="#L" break="no" n="108"/>scitur, quamdiu Sol existit. sicut Aug. dicit s. de 
+      <lb ed="#L" n="109"/>Trin. quod splendor, qui gignitur ab igne 
+      coae<lb ed="#L" break="no" n="110"/>uus est igni, &amp; esset coaeternus, si ignis esset 
+      aeter<lb ed="#L" break="no" n="111"/>nus. ergo generatio fiiij a Patre est aeterna. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e280">
+               <lb ed="#L" n="112"/>Praeterea: Generare, &amp; generari simul sunt, 
+      <lb ed="#L" n="113"/>sed generare Patris mensuratur aeternitate. 
+      er<lb ed="#L" break="no" n="114"/>go &amp; generari filij. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e289">
+               <lb ed="#L" n="115"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-108170-d1e294">
+               <lb ed="#L" n="116"/>AD istam quaestionem respondendo, hoc 
+      or<lb ed="#L" break="no" n="117"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e302">
+               <lb ed="#L" n="118"/>Primo namque inquiretur, quae sit aeternitas, 
+      <lb ed="#L" n="119"/>secundum opinionem Doctorum. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e309">
+               <lb ed="#L" n="120"/>Secundo vero dicetur, quid sit iuxta id, quod 
+      <lb ed="#L" n="121"/>videtur. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e316">
+               <lb ed="#L" n="122"/>Tertio quoque inquiretur, an sit vna 
+      aeterni<lb ed="#L" break="no" n="123"/>tas omnium, quae sunt in Deo. 
+    </p>
+            <p xml:id="ol96b1-108170-d1e323">
+               <lb ed="#L" n="124"/>Quarto ex hoc videbitur, quomodo aeternita 
+      <lb ed="#L" n="125"/>te mensuretur, &amp; per quae verba melius 
+      expri<lb ed="#L" break="no" n="126"/>matur.
+    </p>
+            <div xml:id="ol96b1-108170-Dd1e332">
+               <head xml:id="ol96b1-108170-Hd1e334">Articulus 1</head>
+               <p xml:id="ol96b1-108170-d1e336">
+      <!--0333.xml-->
+                  <pb ed="#L" n="333"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e347">
+                  <lb ed="#L" n="2"/>Opinio S. Tham. I. p. q.Io. art. I.
+    </p>
+               <p xml:id="ol96b1-108170-d1e352">
+                  <lb ed="#L" n="3"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="4"/>aliqui dicere voluerunt rationem 
+      aeternita<lb ed="#L" break="no" n="5"/>tis consistere in apprehensione vniformitatis 
+      e<lb ed="#L" break="no" n="6"/>ius, quod omnino est extra motum, sicut ratio 
+      <lb ed="#L" n="7"/>temporis consistit in apprehensione 
+      difformita<lb ed="#L" break="no" n="8"/>tis motus secundum prius, &amp; posterius, cum 
+      ni<lb ed="#L" break="no" n="9"/>hil aliud sit tempus, quam numerus motus, scilicet 
+      <lb ed="#L" n="10"/>prius, &amp; posterius, &amp; est vlterius aduertendum, 
+      <lb ed="#L" n="11"/>quod sicut apprehensio temporis causatur in no 
+      <lb ed="#L" n="12"/>bis, eo, quod apprehendimus fluxum ipsius nunc, 
+      <lb ed="#L" n="13"/>ita apprehensio aeternitatis, inquantum 
+      appre<lb ed="#L" break="no" n="14"/>hendimus nunc stans, vnde nunc stans causat 
+      ae<lb ed="#L" break="no" n="15"/>ternitatem. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e383">
+                  <lb ed="#L" n="16"/>Sed haec opinio stare non potest, quo ad tria, 
+      <lb ed="#L" n="17"/>quae ponit. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e391">
+                  <lb ed="#L" n="18"/>Primum quidem, quod ait, aeternitatem 
+      consi<lb ed="#L" break="no" n="19"/>stere in apprehensione vniformitatis eius, quod 
+      <lb ed="#L" n="20"/>omnino est extra motum. sicut enim se habet 
+      tem<lb ed="#L" break="no" n="21"/>pus ad difformitatem motus, sic se habet 
+      aeterni<lb ed="#L" break="no" n="22"/>tas ad vniformitatem eorum, quae sunt extra mo 
+      <lb ed="#L" n="23"/>tum, sed ratio temporis non consistit in difformi 
+      <lb ed="#L" n="24"/>tate ipsius motus, sed in mora difformitatis. 
+      er<lb ed="#L" break="no" n="25"/>go nec ratio aeternitatis consistit in 
+      vniformita<lb ed="#L" break="no" n="26"/>te eorum, quae sunt extra motum, nec in 
+      appre<lb ed="#L" break="no" n="27"/>hensione vniformitatis, sed in apprehensione mo 
+      <lb ed="#L" n="28"/>rae istius vniformitatis. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e417">
+                  <lb ed="#L" n="29"/>Praeterea: Ratio aeternitatis non consistit 
+      in<lb ed="#L" break="no" n="30"/>opposito motus, sed vniformitas opponitur 
+      va<lb ed="#L" break="no" n="31"/>rietati motus. non ergo consistit aeternitas in 
+      v<lb ed="#L" break="no" n="32"/>niformitate, sed magis in mora vniformitatis, 
+      <lb ed="#L" n="33"/>sicut &amp; tempus non consistebat in 
+      difformitate<lb ed="#L" break="no" n="34"/>motus, sed in mora difformitatis. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e433">
+                  <lb ed="#L" n="35"/>Praeterea: Ratio mensurae non consistit in 
+      ra<lb ed="#L" break="no" n="36"/>tione mensurati, sed vniformitas est illud, quod 
+      <lb ed="#L" n="37"/>mensuratur per aeternitatem. ergo ratio 
+      aeterni<lb ed="#L" break="no" n="38"/>tatis non consistit in vniformitate, sed in 
+      dura<lb ed="#L" break="no" n="39"/>tione, &amp; mora ipsius. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e446">
+                  <lb ed="#L" n="40"/>Praeterea: Sicut se habet tempus ad motus va 
+      <lb ed="#L" n="41"/>rietatem, sic aeternitas ad Dei immutabilitatem, 
+      <lb ed="#L" n="42"/>sed ratio temporis consistit in numeratione mo 
+      <lb ed="#L" n="43"/>tus secundum prius, &amp; posterius, quod nihil aliud 
+      <lb ed="#L" n="44"/>est, q́ motum summare, vt ita dici liceat. sicut enim 
+      <lb ed="#L" n="45"/>numerus est summa permanentium, cum dicitur 
+      <lb ed="#L" n="46"/>decem, vel mille, sic tempus est summa 
+      successi<lb ed="#L" break="no" n="47"/>uorum, vnde cum summatur motus, tunc 
+      causa<lb ed="#L" break="no" n="48"/>tur tempus, quod nil aliud est, quam summa 
+      mo<lb ed="#L" break="no" n="49"/>tus secundum prius, &amp; posterius. ergo sic se 
+      ha<lb ed="#L" break="no" n="50"/>bebit aeternitas ad vnifor mitatem nei, quod non 
+      <lb ed="#L" n="51"/>erit ipsa vniformitas, sed summa durationis, &amp; 
+      <lb ed="#L" n="52"/>morae ipsius.
+    </p>
+               <p xml:id="ol96b1-108170-d1e477">
+                  <lb ed="#L" n="53"/>Praeterea: Vniformitas, &amp; incommutabilitas 
+      <lb ed="#L" n="54"/>idem sunt, sed ratio aeternitatis non consistit for 
+      <lb ed="#L" n="55"/>maliter in apprehensione incommutabilitatis. 
+      <lb ed="#L" n="56"/>aliud enim attributum est incommutabilitas, &amp; 
+      <lb ed="#L" n="57"/>aliud aeternitas. ergo non consistit ratio 
+      aeterni<lb ed="#L" break="no" n="58"/>tatis in apprehensione vniformitatis. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e493">
+                  <lb ed="#L" n="59"/>Secundum vero, in quo stare non potest, est, 
+      <lb ed="#L" n="60"/>quia dicit, quod in Deo est nunc stans, causans 
+      <lb ed="#L" n="61"/>aeternitatem secundum nostram apprehensionem. 
+      <lb ed="#L" n="62"/>nunc enim nullo modo potest Deo attribui 
+      se<lb ed="#L" break="no" n="63"/>cundum verum intellectum. quod enim 
+      abstra<lb ed="#L" break="no" n="64"/>hira tota linea successionis, abstrahit a nūc, quia 
+      <lb ed="#L" n="65"/>nunt non inuenitur extra successionem. sicut e- 
+      <!--0333.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>nim indiuisibile positionis, quod est punctus, non 
+      <lb ed="#L" n="67"/>inuenitur extra lineam permanentem, sic indiui 
+      <lb ed="#L" n="68"/>sibile durationis, quod est nunc, non inuenitur 
+      <lb ed="#L" n="69"/>extra decursum successionis, cuius ratioest, quia 
+      <lb ed="#L" n="70"/>indiuisibile positionis non potest imaginari per 
+      <lb ed="#L" n="71"/>modum cuiusdam solitarij, sed per modum 
+      ter<lb ed="#L" break="no" n="72"/>mini lineae, &amp; ideo punctus diuisio appellatur, &amp; 
+      <lb ed="#L" n="73"/>consimiliter imaginari non potest indiuisibile 
+      <lb ed="#L" n="74"/>durationis, nisi vt terminus decursus duratiui, 
+      <lb ed="#L" n="75"/>qui est succeslio. sed constat, quod Deus 
+      abstra<lb ed="#L" break="no" n="76"/>hit ab omni succeslione. ergo absrahit ab 
+      om<lb ed="#L" break="no" n="77"/>ni nunc. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e542">
+                  <lb ed="#L" n="78"/>Et si dicatur, quod verum est nunc temporis 
+      <lb ed="#L" n="79"/>non esse in Deo, non tamen est verum de nunc 
+      <lb ed="#L" n="80"/>aeternitatis, non valet hoc, quod probatum est, 
+      <lb ed="#L" n="81"/>quod de formali ratione ipsius nunc, inquantum 
+      <lb ed="#L" n="82"/>nunc est, quod sit terminus durationis, &amp; decur 
+      <lb ed="#L" n="83"/>sus successiui, &amp; tollere a nunc hanc rationem, 
+      <lb ed="#L" n="84"/>est tollere, ne sit nunc. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e560">
+                  <lb ed="#L" n="85"/>Praeterea: Sic se habet nunc ad Deum, sicut 
+      <lb ed="#L" n="86"/>instans, &amp; iam, &amp; modo, &amp; similia 
+      aequipollen<lb ed="#L" break="no" n="87"/>tia ipsi nunc, sed constat, quod instans, &amp; iam, &amp; 
+      <lb ed="#L" n="88"/>modo non habent locum in Deo. non potest enim 
+      <lb ed="#L" n="89"/>intelligi instans circa aliquid, cui nihil instat, aut 
+      <lb ed="#L" n="90"/>adest, aut accidit, quoniam instans dicitur ab 
+      in<lb ed="#L" break="no" n="91"/>stando, &amp; hoc modo concipitur. ergo nunc non 
+      <lb ed="#L" n="92"/>potest attribui Deo. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e580">
+                  <lb ed="#L" n="93"/>Praeterea: Illud, quod sua formali ratione non 
+      <lb ed="#L" n="94"/>est aliud, quam accessus, non potest poni in Deo, 
+      <lb ed="#L" n="95"/>cui nihil accedit de nouo, sed nunc concipi non 
+      <lb ed="#L" n="96"/>potest, nisi per modum accessus. est enim illud, 
+      <lb ed="#L" n="97"/>quo mutatum esse instat, accedit, &amp; adest, vnde 
+      <lb ed="#L" n="98"/>nullus potest concipere nunc, nisi per modum cu 
+      <lb ed="#L" n="99"/>iusdam accedentis, &amp; instantis, &amp; quod habet 
+      <lb ed="#L" n="100"/>adesse. ergo impossibile est, quod attribuatur neo. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e600">
+                  <lb ed="#L" n="101"/>Praeterea: Nunc, &amp; tunc dicuntur adinuicem. 
+      <lb ed="#L" n="102"/>vbicumque enim est nunc, ibi est tunc, &amp; olim 
+      <lb ed="#L" n="103"/>quod apparet, quod sicut hic, &amp; ibi sunt 
+      differen<lb ed="#L" break="no" n="104"/>tiae positionis, ita nunc, &amp; tunc sunt differentiae 
+      <lb ed="#L" n="105"/>durationis: impossibile est enim reperire hic, 
+      si<lb ed="#L" break="no" n="106"/>ne ibi, &amp; alibi. ideo enim vna pars lineae est hic, 
+      <lb ed="#L" n="107"/>quia alia est ibi, &amp; alia ibi, quod si omnia essent 
+      adni<lb ed="#L" break="no" n="108"/>hilata praeter vnam lineam, tota linea non posset 
+      assi<lb ed="#L" break="no" n="109"/>gnari alicubi, quia non posset aliquid aliud, quod 
+      <lb ed="#L" n="110"/>alibi poneretur, sed cum ponitur infra caelum, 
+      <lb ed="#L" n="111"/>tunc potest alicubi assignari, quia sunt alia, quae 
+      <lb ed="#L" n="112"/>habent alibi esse; vnde totus mundus non habet, 
+      <lb ed="#L" n="113"/>vbi assignetur, nec potest aliquis intellectus 
+      di<lb ed="#L" break="no" n="114"/>cere, mundus est hic, quod non est aliquid habens 
+      <lb ed="#L" n="115"/>esse alibi, respectu cuius mundus dicatur hic 
+      es<lb ed="#L" break="no" n="116"/>se, consimiliter intelligendum est de nunc, quia 
+      <lb ed="#L" n="117"/>nil est nunc secundum propriam rationem, nisi 
+      <lb ed="#L" n="118"/>in ordine ad tunc: sed constat, quod Deus non 
+      <lb ed="#L" n="119"/>habet tunc, quia nihil est ibi praeteritum. ergo 
+      <lb ed="#L" n="120"/>nec in Deo erit ratio ipsius nunc. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e646">
+                  <lb ed="#L" n="121"/>Praeterea: Idem est nunc, &amp; tunc dictu, quod 
+      <lb ed="#L" n="122"/>prius, &amp; posterius: sed in Deo non est posterius 
+      <lb ed="#L" n="123"/>aliquid. ergo in Deo non est nunc secundum 
+      <lb ed="#L" n="124"/>suam rationem. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e657">
+                  <lb ed="#L" n="125"/>Nec valet, quod aliqui consucuerunt dicere, 
+      <lb ed="#L" n="126"/>quod duplex est nunc, vnum partiale, quod 
+      dici<lb ed="#L" break="no" n="127"/>tur respectu tunc, &amp; illud est nunc temporis, quod 
+      <lb ed="#L" n="128"/>nullo modo est in Deo; &amp; aliud totale, &amp; 
+      perma<lb ed="#L" break="no" n="129"/>nens, quod est nunc aeternitatis, &amp; potest poni 
+      <lb ed="#L" n="130"/>tale in Deo: siquidem hoc non valet. est enim 
+      <lb ed="#L" n="131"/>similis distinctio, ac si diceretur, quod est duplex 
+      <lb ed="#L" n="132"/>Filius, vnus, qui relatiue dicitur ad Patrem, &amp; 
+      <!--0334.xml-->
+      <pb ed="#L" n="334"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>alius, qui dicitur absolute sine habitudine ad Pa 
+      <lb ed="#L" n="2"/>trem. nec enim ex sua formali ratione idem 
+      <lb ed="#L" n="3"/>est, quod instans, &amp; accedens: &amp; ideo nouitatem 
+      <lb ed="#L" n="4"/>importat, &amp; dicitur relatiue ad tunc, sicut 
+      di<lb ed="#L" break="no" n="5"/>ctum est de ibi, &amp; hic, qui relatiue dicuntur in 
+      <lb ed="#L" n="6"/>positione, &amp; situ. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e697">
+                  <lb ed="#L" n="7"/>Tertium quoque, in quo stare non potest, hoc 
+      <lb ed="#L" n="8"/>est, quod dicit, nunc posse concipi per modum 
+      <lb ed="#L" n="9"/>stantis, &amp; permanentis, &amp; ita nunc stans 
+      causa<lb ed="#L" break="no" n="10"/>re aeternitatem. illud enim, quod de ratione sua 
+      <lb ed="#L" n="11"/>consistit in quodam accedere, instare, &amp; adesse, 
+      <lb ed="#L" n="12"/>non potest apprehendi per modum permanentis, 
+      <lb ed="#L" n="13"/>nisi accedere, &amp; adesse, &amp; instare concipi possit 
+      <lb ed="#L" n="14"/>per modum permanentis, quod est impossibile; 
+      <lb ed="#L" n="15"/>contractoria namque sunt, sed probatum est, quod 
+      <lb ed="#L" n="16"/>conceptus ipsius nunc consistit in quodam 
+      ades<lb ed="#L" break="no" n="17"/>se, &amp; instare, atque accedere. ergo non potest con 
+      <lb ed="#L" n="18"/>cipi per modum stantis, aut permanentis. 
+      <lb ed="#L" n="19"/>Praeterea: Illud non potest concipi per modum 
+      <lb ed="#L" n="20"/>permanentis, quod non potest bis demonstrari 
+      <lb ed="#L" n="21"/>ab aliquo imaginante, sed nullus, qui 
+      apprehen<lb ed="#L" break="no" n="22"/>dat nunc, potest ipsum bis per 
+      imaginationem<lb ed="#L" break="no" n="23"/>significare, aut demonstrare. postquam enim ip 
+      <lb ed="#L" n="24"/>sum semel demonstrauit, si redeat iterum, iam 
+      <lb ed="#L" n="25"/>transiuit in tunc, &amp; hoc est, quod dicit 
+      Philoso<lb ed="#L" break="no" n="26"/>phus 4. Physic. vbi dicit Commentator, quod 
+      <lb ed="#L" n="27"/>instans non potest bis demonstrari, adeo quod 
+      <lb ed="#L" n="28"/>instans demonstratum secundo est aliud ab eo, 
+      <lb ed="#L" n="29"/>quod demonstrabatur primo, &amp; sequitur, quod 
+      <lb ed="#L" n="30"/>non est possibile idem instans demonstrari bis, 
+      <lb ed="#L" n="31"/>nisi fuerimus imaginati, quod fuerit, sicut 
+      pi<lb ed="#L" break="no" n="32"/>ctus, &amp; reprehendit ibidem Themistium ex hoc, 
+      <lb ed="#L" n="33"/>vnde expressa mens est Philosophi secundum 
+      expo<lb ed="#L" break="no" n="34"/>sitionem Commentatoris, quod impossibile sit 
+      <lb ed="#L" n="35"/>nunc, vel instans imaginari per modum stantis. 
+      <lb ed="#L" n="36"/>ergo nunc stans nil potest causare, sicut nec 
+      al<lb ed="#L" break="no" n="37"/>bedo nigra, nec calor frigidus, &amp; si dicatur, quod 
+      <lb ed="#L" n="38"/>ipsi loquuntur de nunc temporis, dicendum, quod 
+      <lb ed="#L" n="39"/>ipsi loquuntur de quidditatiua ratione ipsius, 
+      se<lb ed="#L" break="no" n="40"/>cundum quam apparet, quod dictum est. Et in 
+      <lb ed="#L" n="41"/>hoc primus Articulus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-108170-Dd1e776">
+               <head xml:id="ol96b1-108170-Hd1e778">Articulus 2</head>
+               <p xml:id="ol96b1-108170-d1e780">
+                  <lb ed="#L" n="42"/>ARTJCVLVS SECVNDVS.
+    </p>
+               <p xml:id="ol96b1-108170-d1e785">
+                  <lb ed="#L" n="43"/>Quid dicendum iuxta illud, quod videtur, &amp; 
+      <lb ed="#L" n="44"/>primo quod aeternitas non est 
+      dura<lb ed="#L" break="no" n="45"/>tio formaliter. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e794">
+                  <lb ed="#L" n="46"/>CIRCA secundum autem considerandum, 
+      <lb ed="#L" n="47"/>quod ratio aeternitatis colligi potest ex tri 
+      <lb ed="#L" n="48"/>bus propositionibus. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e803">
+                  <lb ed="#L" n="49"/>Prima quidem, quod non est duratio 
+      forma<lb ed="#L" break="no" n="50"/>liter, secundo nihil est duratio formaliter, nisi tem 
+      <lb ed="#L" n="51"/>pus, aut terminus temporis, quod est nunc, vel 
+      <lb ed="#L" n="52"/>instans, hoc autem potest multipliciter declarari, 
+      <lb ed="#L" n="53"/>omnis duratio durationi alteri comparata, vel 
+      <lb ed="#L" n="54"/>est maior, vel minor, vel aequalis, quod patet ex 
+      <lb ed="#L" n="55"/>durantibus. acceptis enim quibuscumque, quae 
+      <lb ed="#L" n="56"/>durant, necesse est, quod vel durent aequaliter, 
+      <lb ed="#L" n="57"/>vel vnum plus altero, sed nulla duratio potest 
+      <lb ed="#L" n="58"/>esse maior, vel minor, nisi consistat in quadam suc 
+      <lb ed="#L" n="59"/>cessione secundum prius &amp; posterius, quare enim 
+      <lb ed="#L" n="60"/>durabit aliquid plus, quam aliud durauit, non est, 
+      <lb ed="#L" n="61"/>nisi quia fuit ante, &amp; prius, vel quia erit 
+      poste<lb ed="#L" break="no" n="62"/>rius, nec exclusa ratione prioris, &amp; posterioris 
+      <lb ed="#L" n="63"/>potest concipi de aliquo, quod durauit plus, vel 
+      <lb ed="#L" n="64"/>minus aliquo alio, constat autem, quod prius, &amp; 
+      <!--0334.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>posterius sunt de ratione temporis. ergo nulla 
+      <lb ed="#L" n="66"/>est formaliter duratio, nisi tempus. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e850">
+                  <lb ed="#L" n="67"/>Praeterea: Omnis duratio intelligitur per 
+      mo<lb ed="#L" break="no" n="68"/>dum cuiusdam morae, &amp; distensionis. aut ergo 
+      <lb ed="#L" n="69"/>talis distensio, &amp; mora apprehenditur secundum 
+      <lb ed="#L" n="70"/>ante, &amp; post, aut secundum quandam simultatem, 
+      <lb ed="#L" n="71"/>&amp; permanentiam, sed non secundum quandam 
+      <lb ed="#L" n="72"/>simultatem, quia quantumcumque esset maior 
+      <lb ed="#L" n="73"/>distensio, non esset maior duratio, cum simul 
+      es<lb ed="#L" break="no" n="74"/>set tota distensio. relinquitur ergo, quod omnis 
+      <lb ed="#L" n="75"/>mora, &amp; distensio duratiua apprehendatur secun 
+      <lb ed="#L" n="76"/>dum ante, &amp; post, &amp; ita per modum cuiusdam 
+      <lb ed="#L" n="77"/>successiui, &amp; temporis. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e876">
+                  <lb ed="#L" n="78"/>Praeterea: Omnis duratio habet formaliter, 
+      <lb ed="#L" n="79"/>vnde possit dici tanta, vel tanta, quaeritur enim 
+      <lb ed="#L" n="80"/>de omni durante, quantum durauit, aut quantum 
+      <lb ed="#L" n="81"/>durabit; sed constat, quod non est quantitas, nec 
+      <lb ed="#L" n="82"/>tantitas, nisi sit ibi aliqua multitudo, &amp; 
+      plurali<lb ed="#L" break="no" n="83"/>tas, nec quaelibet multitudo, quia non pormanen 
+      <lb ed="#L" n="84"/>tium, sed sibi inuicem succedentium secundum 
+      <lb ed="#L" n="85"/>ante, &amp; post, vnde patet ex terminis, quod appre 
+      <lb ed="#L" n="86"/>hendens aliquid plus durasse, apprehendit, quod 
+      <lb ed="#L" n="87"/>habuit plus de priori, &amp; postetiori, nec 
+      etiam<lb ed="#L" break="no" n="88"/>potest concipi de Deo, quod plus durauit, quam 
+      <lb ed="#L" n="89"/>mundus, nisi quia concipitur fuisse ante, vel post, 
+      <lb ed="#L" n="90"/>&amp; habuisse plus de priori. ergo impossibile est, 
+      <lb ed="#L" n="91"/>durationem formalem esse aliquid, nisi tempus. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e909">
+                  <lb ed="#L" n="92"/>Praeterea: Sicut se habet extensio permanens 
+      <lb ed="#L" n="93"/>ad lineam, sic extensio successiua ad tempus, sed 
+      <lb ed="#L" n="94"/>impossibile est imaginari extensionem 
+      permanen<lb ed="#L" break="no" n="95"/>tem, quin linea apprehendatur. non est enim 
+      a<lb ed="#L" break="no" n="96"/>liud linea, quam extensio permansiua; ergo nec 
+      <lb ed="#L" n="97"/>successiua distensio est aliquid, nisi tempus. 
+      con<lb ed="#L" break="no" n="98"/>stat autem, quod omnis duratio, &amp; omnis mora 
+      <lb ed="#L" n="99"/>est quidam decursus secundum ante, &amp; post, 
+      vn<lb ed="#L" break="no" n="100"/>de quidquid imaginamur plus durasse, 
+      imagina<lb ed="#L" break="no" n="101"/>mur prius fuisse. ergo nihil est duratio 
+      formali<lb ed="#L" break="no" n="102"/>ter, nisi tempus.
+    </p>
+               <p xml:id="ol96b1-108170-d1e935">
+                  <lb ed="#L" n="103"/>Quod aeternitas, prout se tenet ex parte Dei, non 
+      <lb ed="#L" n="104"/>estt formaliter duratio, sed vis, qua 
+      <lb ed="#L" n="105"/>Deus attingit omnem 
+      dura<lb ed="#L" break="no" n="106"/>tionem possibilem. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e946">
+                  <lb ed="#L" n="107"/>SECVNDA vero propositio est, quod 
+      aeter<lb ed="#L" break="no" n="108"/>nitas, prout se tenet ex parte Dei non est du 
+      <lb ed="#L" n="109"/>ratio formaliter, sed illud, quo Deus attingit om 
+      <lb ed="#L" n="110"/>ne tempus, siue omnem durationem 
+      imaginabi<lb ed="#L" break="no" n="111"/>lem, ita quod nulla potest apprehendi duratio, 
+      <lb ed="#L" n="112"/>nec in ante, nec in post, quin Deus semper 
+      assi<lb ed="#L" break="no" n="113"/>stat, sicut enim se habet immensitas ad Deum in 
+      <lb ed="#L" n="114"/>ordine ad locum, sic se habet aeternitas in 
+      ordi<lb ed="#L" break="no" n="115"/>ne ad durationem, sed immensitas non ponit in 
+      <lb ed="#L" n="116"/>Deo aliquam magnitudinem permansiuam, aut 
+      <lb ed="#L" n="117"/>aliquam extensionem, sed tantummodo dicit vim, 
+      <lb ed="#L" n="118"/>qua Deus omnem locum attingit absque sui 
+      ex<lb ed="#L" break="no" n="119"/>tensione. ergo aeternitas non dicit allquam 
+      du<lb ed="#L" break="no" n="120"/>rationem, aut moram Diuini esse formaliter, sed 
+      <lb ed="#L" n="121"/>vim, qua Deus attingit omnem durationem 
+      <lb ed="#L" n="122"/>imaginari possibilem absque successione, &amp; 
+      suc<lb ed="#L" break="no" n="123"/>cessiua distensione. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e985">
+                  <lb ed="#L" n="124"/>Praeterea: Omne illud, quod est duratio 
+      for<lb ed="#L" break="no" n="125"/>maliter, includit prius, &amp; posterius, &amp; 
+      successio<lb ed="#L" break="no" n="126"/>nem, sicut probatum est, sed prius, &amp; posterius. 
+      <lb ed="#L" n="127"/>non est in Deo, licet sit vis in eo, qua 
+      omne<lb ed="#L" break="no" n="128"/>prius attingit, &amp; omne posterius, ita vt nullum 
+      <lb ed="#L" n="129"/>prius, aut posterius imaginari possit, quin Dema 
+      <!--0335.xml-->
+      <pb ed="#L" n="335"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>consistat, vel quin illud Deo assistat. ergo 
+      aeter<lb ed="#L" break="no" n="2"/>nitas non est duratio, prout se tenet ex parte 
+      <lb ed="#L" n="3"/>Dei, sed vis, qua Deus omnem durationem 
+      <lb ed="#L" n="4"/>attingit. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1017">
+                  <lb ed="#L" n="5"/>Praeterea: Dictum est supra, quod attributa 
+      <lb ed="#L" n="6"/>dicunt Diuinam essentiam formaliter cum 
+      cer<lb ed="#L" break="no" n="7"/>to connotato constat autem, quod aeternitas est 
+      <lb ed="#L" n="8"/>vnum de attributis. ergo importabat Diuinam 
+      <lb ed="#L" n="9"/>essentiam, prout virtute eius, non virtute aliqua 
+      <lb ed="#L" n="10"/>addita attingit Deus omne tempus, quod 
+      ima<lb ed="#L" break="no" n="11"/>ginari potest. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1035">
+                  <lb ed="#L" n="12"/>Est autem hic considerandum, quod mens ap 
+      <lb ed="#L" n="13"/>prehendens Deum aeternum, non concipit circa 
+      <lb ed="#L" n="14"/>Deum aliquam moram, aut durationem, quam 
+      <lb ed="#L" n="15"/>sibi formaliter attribuat, alioquin imaginaretur 
+      <lb ed="#L" n="16"/>Deum subiectum prioris, &amp; posterioris, &amp; per 
+      <lb ed="#L" n="17"/>consequens temporis, quod esse non potest, si 
+      ima<lb ed="#L" break="no" n="18"/>ginatur moram, &amp; durationem absque 
+      termi<lb ed="#L" break="no" n="19"/>nis, cui Deus virtute sua coexistit, sicut qui con 
+      <lb ed="#L" n="20"/>cipit Deum immensum, non debet imaginari 
+      di<lb ed="#L" break="no" n="21"/>stensionem aliquam circa eum, aut 
+      magnitudi<lb ed="#L" break="no" n="22"/>nem permansiuam, sed debet apprehendere vim 
+      <lb ed="#L" n="23"/>in Deo, qua omni magnitudine, &amp; loco imagina 
+      <lb ed="#L" n="24"/>ri possibili coassistit: haec autem vis non est aliud, 
+      <lb ed="#L" n="25"/>quam Deitas ipsa. secundum hoc ergo accipien 
+      <lb ed="#L" n="26"/>dus est Deus aeternus, non quia apprehendatur 
+      <lb ed="#L" n="27"/>aliqua mora, aut duratio circa ipsum, sed quia 
+      <lb ed="#L" n="28"/>vim habet, qua de necessitate attingit omnem 
+      <lb ed="#L" n="29"/>imaginabilem durationem, &amp; moram, vnde tem 
+      <lb ed="#L" n="30"/>pus, quod imaginatur absque fine, &amp; principio, 
+      <lb ed="#L" n="31"/>dicitur aeternitas formaliter, eo modo, quo 
+      Phi<lb ed="#L" break="no" n="32"/>losophus probat mundum ab aeterno esse: Deus 
+      <lb ed="#L" n="33"/>autem dicitur aeternus, quia illi coexistit. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1085">
+                  <lb ed="#L" n="34"/>Huic tamen obuiare videtur, quod omnis 
+      per<lb ed="#L" break="no" n="35"/>manentia videtur mora aliqua mensurari, &amp; 
+      si<lb ed="#L" break="no" n="36"/>militer esse non potest intelligi absque 
+      duratio<lb ed="#L" break="no" n="37"/>ne, vt dictum est supra. sed Deus verissime manet, 
+      <lb ed="#L" n="38"/>&amp; est, siue existit. ergo habet formaliter 
+      perma<lb ed="#L" break="no" n="39"/>nere, &amp; existentiae suae moram, quae cum non 
+      ha<lb ed="#L" break="no" n="40"/>beat principium, nec finem, erit aeternitas, &amp; ita 
+      <lb ed="#L" n="41"/>aeternitas est formaliter duratio apprehensa cir 
+      <lb ed="#L" n="42"/>ca esse Diuinum. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1107">
+                  <lb ed="#L" n="43"/>Praeterea: Impossibile est, quod aliquid 
+      dura<lb ed="#L" break="no" n="44"/>tioni coexistat, nisi duret formaliter. coexistere 
+      <lb ed="#L" n="45"/>enim durationi es habere durationem 
+      simulta<lb ed="#L" break="no" n="46"/>neam: simultas autem durationis exigit ex vtra 
+      <lb ed="#L" n="47"/>que parte durans. est enim relatio fundata super 
+      <lb ed="#L" n="48"/>duabus relationibus, sicut aequalitas est vnitas 
+      <lb ed="#L" n="49"/>duarum quantitatum, sed iam dictum est, quod 
+      <lb ed="#L" n="50"/>Deus attingit omnem durationem imaginari 
+      <lb ed="#L" n="51"/>possibilem. ergo in scipso formaliter durat. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1129">
+                  <lb ed="#L" n="52"/>Praeterea: Duratio non videtur aliud, quam 
+      <lb ed="#L" n="53"/>summa permanentia, summare videlicet, 
+      quam<lb ed="#L" break="no" n="54"/>diu res permansit; sed permanentia rei 
+      vnifor<lb ed="#L" break="no" n="55"/>miter se habentis, ita potest summari, sicut &amp; 
+      <lb ed="#L" n="56"/>permanentia, seu mora motus, vnde potest 
+      ap<lb ed="#L" break="no" n="57"/>prehendi, quandiu Michael in eodem statu 
+      per<lb ed="#L" break="no" n="58"/>mansit, sicut &amp; quamdiu motus caeli durauit. 
+      er<lb ed="#L" break="no" n="59"/>gocirca rem inuariabiliter existentem potest ap 
+      <lb ed="#L" n="60"/>prehendi duratio formaliter. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1151">
+                  <lb ed="#L" n="61"/>Sed his non obstantibus, dicendum est illud, 
+      <lb ed="#L" n="62"/>quod prius. omnis enim duratio in 
+      apprehensio<lb ed="#L" break="no" n="63"/>ne consistit, cum non sit alind, quam quaedam nu 
+      <lb ed="#L" n="64"/>meratio, &amp; computatio secundum prius, &amp; 
+      po<lb ed="#L" break="no" n="65"/>sterius, seu quaedam distensio morae, qua mens 
+      col<lb ed="#L" break="no" n="66"/>ligit, vt Philosophus docet. impossibile est ergo, 
+      <lb ed="#L" n="67"/>quod mens durationem aliquam apprehendat, 
+      <!--0335.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>nisi per modum distensionis in ante, vel in post: 
+      <lb ed="#L" n="69"/>hoc autem est expresse tempus. omne ergo, quod 
+      <lb ed="#L" n="70"/>formaliter duratio est, tempus est, sicut manifeste 
+      <lb ed="#L" n="71"/>apparet ei, qui concipit terminos, propter quod 
+      <lb ed="#L" n="72"/>nec aeternitas, nec aeuiternitas duratio 
+      formali<lb ed="#L" break="no" n="73"/>ter dici potest, nisi quatenus intellectus fingens 
+      <lb ed="#L" n="74"/>tempus apprehendit, quod Deus omni parti 
+      tem<lb ed="#L" break="no" n="75"/>poris coexstit, quantumcumque imaginetur infi 
+      <lb ed="#L" n="76"/>nitum a parte ante, vel a parte post. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1194">
+                  <lb ed="#L" n="77"/>Est tamen intelligendum, quod haec coexisten 
+      <lb ed="#L" n="78"/>tia potest intelligi esse duarum quantitatum, ita 
+      <lb ed="#L" n="79"/>vt vtraque quantitas cadat sub imaginatione, &amp; 
+      <lb ed="#L" n="80"/>sic caelum, &amp; omnia corruptibilia corpora sunt 
+      <lb ed="#L" n="81"/>in tempore, nec quaedam per continentiam, sed 
+      <lb ed="#L" n="82"/>per coexistentiam, vel potest intelligi esse duarum 
+      <lb ed="#L" n="83"/>realitatum, &amp; sic abstrahitur ab omni 
+      quantita<lb ed="#L" break="no" n="84"/>te per intellectum ex parte alterius extremi, non 
+      <lb ed="#L" n="85"/>ex parte ipsius temporis, &amp; hoc modo Deus 
+      di<lb ed="#L" break="no" n="86"/>citur attingere omne tempus per coexistentiam 
+      <lb ed="#L" n="87"/>abstrahentem a quantitate ex parte ipsius Dei; 
+      <lb ed="#L" n="88"/>vnde dicit Commentator, quod corpora 
+      caele<lb ed="#L" break="no" n="89"/>stia, licet non sint in tempore, secuudum quod 
+      <lb ed="#L" n="90"/>tempus non continet ea, tamen sunt existentia 
+      <lb ed="#L" n="91"/>cum tempore, scilicet quod esse eorum est in mo 
+      <lb ed="#L" n="92"/>tu, &amp; eoexistens cum esse temporis coexistentia 
+      <lb ed="#L" n="93"/>quantitatis cum quantitate. Res vero separatae 
+      <lb ed="#L" n="94"/>non habent continentiam nec coexistentiam cum 
+      <lb ed="#L" n="95"/>esse temporis. Hoc ille; vnde secundum intentio 
+      <lb ed="#L" n="96"/>nem Philosophi, &amp; suam, non solum Deus, immo 
+      <lb ed="#L" n="97"/>omnia separata abstrahunt a duratione, &amp; dicum 
+      <lb ed="#L" n="98"/>tur aeterna propter vim attingendi omnem 
+      du<lb ed="#L" break="no" n="99"/>rationem imaginari possibilem; secundum fidem 
+      <lb ed="#L" n="100"/>vero, &amp; veritatem omnimodam solum Deus ha 
+      <lb ed="#L" n="101"/>bet huiusmodi virtutem; omnia vero alia, sicut 
+      <lb ed="#L" n="102"/>&amp; corpora caelestia sunt in tempore, 
+      coexisten<lb ed="#L" break="no" n="103"/>tia quantitatis cum quantitate, quoniam esse 
+      <lb ed="#L" n="104"/>tam caelorum, quam animarum, quam 
+      Angelo<lb ed="#L" break="no" n="105"/>rum est in quadam manutenentia, siue hoc fiat 
+      <lb ed="#L" n="106"/>per aliam actionem, quae appelletur 
+      conserua<lb ed="#L" break="no" n="107"/>tio, siue per continuationem primi influxus, 
+      vn<lb ed="#L" break="no" n="108"/>de esse omnium illorum dependet a quadam 
+      con<lb ed="#L" break="no" n="109"/>tinuatione, propter quod coexistunt tempori 
+      coe<lb ed="#L" break="no" n="110"/>xistentia quantitatis: solus autem Deus est 
+      sim<lb ed="#L" break="no" n="111"/>pliciter extra tempus, inquantum esse eius non 
+      <lb ed="#L" n="112"/>continuatur, vnde non coexistit partibus 
+      tempo<lb ed="#L" break="no" n="113"/>ris coexistentia quantitatis; reliqua vero entia 
+      <lb ed="#L" n="114"/>generabilia, &amp; corruptibilia sunt in tempore per 
+      <lb ed="#L" n="115"/>continentiam, inquantum sunt in esse 
+      transmu<lb ed="#L" break="no" n="116"/>tabili, per hoc, quod subsunt motui caelesti, &amp; ideo, 
+      <lb ed="#L" n="117"/>&amp; subsunt tempori, &amp; continentur ab ipso, vnde 
+      <lb ed="#L" n="118"/>tempus est causa corruptionis in eis, &amp; excedit 
+      <lb ed="#L" n="119"/>ea per modum continentis. sic ergo colligi potest 
+      <lb ed="#L" n="120"/>triplex habitudo entium respectu durationis. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1292">
+                  <lb ed="#L" n="121"/>Prima quidem corruptibilium, quae sunt in 
+      <lb ed="#L" n="122"/>tempore per quandam subiacentiam. subiacent 
+      <lb ed="#L" n="123"/>enim tempori, &amp; continentur ab eo. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1301">
+                  <lb ed="#L" n="124"/>Secunda vero incorruptibilium spirituum, 
+      <lb ed="#L" n="125"/>&amp; corporum, quae sunt in tempore per 
+      quan<lb ed="#L" break="no" n="126"/>dam assistentiam, inquantum esse eorum in 
+      <lb ed="#L" n="127"/>quadam continuatione existit, non tamen 
+      sub<lb ed="#L" break="no" n="128"/>sunt tempori, quia nec corrumpuntur, nec 
+      trans<lb ed="#L" break="no" n="129"/>mutantur in eo, nec etiam continentur a 
+      tem<lb ed="#L" break="no" n="130"/>pore, immo sibi aequantur. inceperunt enim cum 
+      <lb ed="#L" n="131"/>tempore, saltem caeli, &amp; separatae intelligentiae. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1321">
+                  <lb ed="#L" n="132"/>Tertia quoque est solius Dei, qui est extra om 
+      <lb ed="#L" n="133"/>nem durationem, &amp; aspicit eam per quandam 
+      <lb ed="#L" n="134"/>praesidentiam. praesidet enim cuilibet parti tem- 
+      <!--0336.xml-->
+      <pb ed="#L" n="336"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>poris, &amp; durationis imaginabilis in ante, &amp; post 
+      <lb ed="#L" n="2"/>in infinitum, eo modo, quo praesidet omni alteri 
+      <lb ed="#L" n="3"/>creaturae, vnde magis proprie dicitur aeternitas, 
+      <lb ed="#L" n="4"/>vel dici potest quaedam vis, qua Deus omni parti 
+      <lb ed="#L" n="5"/>durationis p̃sidet, &amp; omnis sibi subiacet, quam, 
+      <lb ed="#L" n="6"/>quod dicatur vis, qua Deus omni parti temporis 
+      <lb ed="#L" n="7"/>coexistit, hic notatur quaedam coaequatio, &amp; 
+      rela<lb ed="#L" break="no" n="8"/>tio aequalitatis, secundum quam videtur Deus 
+      <lb ed="#L" n="9"/>referri ad tempus, ibi non notatur praeeminentia, 
+      <lb ed="#L" n="10"/>secundum quam tempus subiacet Deo, &amp; refertur 
+      <lb ed="#L" n="11"/>ad ipsum, vt ita sit ex parte creaturae relatio, &amp; 
+      <lb ed="#L" n="12"/>sola denominatio ex parte Dei. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1363">
+                  <lb ed="#L" n="13"/>Praemissae vero instantiae non procedunt. 
+      Pri<lb ed="#L" break="no" n="14"/>ma siquidem non, quoniam nulla permanentia 
+      <lb ed="#L" n="15"/>potest mensurari secundum durationem ex 
+      ap<lb ed="#L" break="no" n="16"/>prehensione solius permanentis, ideo necesse est, 
+      <lb ed="#L" n="17"/>decursum aliquem successiuum mente apprehen 
+      <lb ed="#L" n="18"/>di, sub quo talis permanentia sit, &amp; sic mensurantur 
+      <lb ed="#L" n="19"/>omnia transmutabilia, velcum quo sit 
+      permanen<lb ed="#L" break="no" n="20"/>ita per modum cuiusdam coexistentiae, &amp; simultatis, 
+      <lb ed="#L" n="21"/>&amp; ita caelum, &amp; intelligentiae, quoad sui 
+      permanen<lb ed="#L" break="no" n="22"/>tiam mensurantur, vel super quam sit 
+      permanen<lb ed="#L" break="no" n="23"/>tia, &amp; sic dicitur mensurari esse Diuinum, se cun 
+      <lb ed="#L" n="24"/>dum nostram considerationem. vnde uullo 
+      mo<lb ed="#L" break="no" n="25"/>do non apprehenso tempore, potest aliqua res 
+      <lb ed="#L" n="26"/>mensurari duratiue. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1396">
+                  <lb ed="#L" n="27"/>Et per idem patet ad secundam, quia non proprie 
+      <lb ed="#L" n="28"/>dicitur Deus durationi coexistere, ne apprehenda 
+      <lb ed="#L" n="29"/>tur ratio simultatis, sed dicitur tempori 
+      praeside<lb ed="#L" break="no" n="30"/>re, vt concipiatur relatio, &amp; subiectio ex parte 
+      <lb ed="#L" n="31"/>temporis. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1410">
+                  <lb ed="#L" n="32"/>Per idem patet etiam ad tertiam. nulla enim 
+      <lb ed="#L" n="33"/>entitas potest summari duratiue, nisi apprehen 
+      <lb ed="#L" n="34"/>sopriori, &amp; posteriori.
+    </p>
+               <p xml:id="ol96b1-108170-d1e1419">
+                  <lb ed="#L" n="35"/>Quod omnia, quae de aeternitate dicuntur, 
+      referun<lb ed="#L" break="no" n="36"/>tur ad ea, quae dicta sunt. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1426">
+                  <lb ed="#L" n="37"/>TERTIA quoque propositio est, quod dicta 
+      <lb ed="#L" n="38"/>de aeternitate habent referri ad istum 
+      intel<lb ed="#L" break="no" n="39"/>lectum. Dionys. vero de diuinis nomini. exponit, 
+      <lb ed="#L" n="40"/>quare Deus dicitur Rex seculoram, &amp; dicit, quod 
+      <lb ed="#L" n="41"/>pater fecit esse tempora, &amp; aeuum existentium. Deus 
+      <lb ed="#L" n="42"/>enim non quodammodo est existens, sed 
+      simpli<lb ed="#L" break="no" n="43"/>citer, &amp; incircumscripte totum in se ipso esse acce 
+      <lb ed="#L" n="44"/>pit, &amp; praeaccepit, propter quod dicitur Rex 
+      sae<lb ed="#L" break="no" n="45"/>culorum. est enim totius esse, &amp; entis substitutus. 
+      <lb ed="#L" n="46"/>vnde ipse est aeuum aeuorum, qui est ante saecula: 
+      <lb ed="#L" n="47"/>omne quidem aeuum, &amp; tempus ex ipso est, &amp; 
+      <lb ed="#L" n="48"/>omnis seculi, ac temporis est praeexistens princi 
+      <lb ed="#L" n="49"/>pium, &amp; causa. Haec Dionys. vnde patet, quare 
+      <lb ed="#L" n="50"/>dicitur Rex seculorum Deus, &amp; ante secula, &amp; 
+      ae<lb ed="#L" break="no" n="51"/>uum aeuorum. Dicitur enim non per 
+      continen<lb ed="#L" break="no" n="52"/>tiam, quasi contineatur ab aliqua duratione, sed 
+      <lb ed="#L" n="53"/>per praesidentiam, quia omne tempus ab ipso 
+      <lb ed="#L" n="54"/>causatur. Idem quoque Dionys. dicit, quod Deus 
+      <lb ed="#L" n="55"/>vocatur antiquus dierum propter hoc, quod 
+      in<lb ed="#L" break="no" n="56"/>transmutabilis secundum omnem motum existens 
+      <lb ed="#L" n="57"/>aeui, &amp; temporis, &amp; dierum est causa, &amp; in fine 
+      ca<lb ed="#L" break="no" n="58"/>pituli dicit, quod Deum, sicut aeuum, &amp; sicut tem 
+      <lb ed="#L" n="59"/>pus laudare conuenit, sicut temporis, &amp; aeui 
+      cau<lb ed="#L" break="no" n="60"/>sam. est enim super aeuum, &amp; regnum ipsius, 
+      re<lb ed="#L" break="no" n="61"/>gnum omnium seculorum. Haec illae. Ex quo appa 
+      <lb ed="#L" n="62"/>ret, qualiter durationes dicuntur de Deo. non 
+      e<lb ed="#L" break="no" n="63"/>nim, nisi quia praesidet, sicut causa omnis 
+      dura<lb ed="#L" break="no" n="64"/>tionis, eodem autem capitulo assignans 
+      proprie<lb ed="#L" break="no" n="65"/>tates aeterni dicit, quod proprietates est antiquum, 
+      <lb ed="#L" n="66"/>inuariabile, totum secundum totum metiri, quod 
+      <!--0336.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>ergo dicit inuariabile, referri debet ad vim 
+      Dei<lb ed="#L" break="no" n="68"/>tatis, per quam Deus omne tempus attingit. quod 
+      <lb ed="#L" n="69"/>autem addit antiquum, referri debet ad 
+      duratio<lb ed="#L" break="no" n="70"/>nem imaginabilem infinitam in ante; quod vero 
+      <lb ed="#L" n="71"/>adiungitur totum secundum totum metiri, refer 
+      <lb ed="#L" n="72"/>ri habet ad praesidentiam, &amp; causalem 
+      attingen<lb ed="#L" break="no" n="73"/>tiam, qua Deus metiri dicitur totam 
+      duratio<lb ed="#L" break="no" n="74"/>nem imaginabilem, non secundum aliquam 
+      par<lb ed="#L" break="no" n="75"/>tem finitam, immo secundum totalem infinitam, 
+      <lb ed="#L" n="76"/>ac si apertius diceretur, aeternitas est quaedam 
+      in<lb ed="#L" break="no" n="77"/>uariabilis vis, qua Deus omnem antiquitatatem 
+      <lb ed="#L" n="78"/>secundum suam totalitatem metitur, 
+      causatiue<lb ed="#L" break="no" n="79"/>vero praesidendo attingit; Boetius autem de con 
+      <lb ed="#L" n="80"/>solatione dicit, quod aeternitas est 
+      interminabi<lb ed="#L" break="no" n="81"/>lis vitae tota simul, &amp; perfecta possessio, vt 
+      simul<lb ed="#L" break="no" n="82"/>tas referatur ad vim, interminabilitas vero 
+      vi<lb ed="#L" break="no" n="83"/>tae ad durationem imaginabilem absque 
+      termi<lb ed="#L" break="no" n="84"/>nis, quam Deus sua viuacitate attingit. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1537">
+                  <lb ed="#L" n="85"/>Sic ergo patet, quid sit aeternitas. formaliter 
+      e<lb ed="#L" break="no" n="86"/>nim loquendo, si debeat poni duratio, non est 
+      a<lb ed="#L" break="no" n="87"/>liud, quam tempus terminis carens, secundum 
+      <lb ed="#L" n="88"/>quod quaerit Philosophus, vtrum motus fuerit 
+      <lb ed="#L" n="89"/>ab aeterno: secundum vero, quod est in Deo, non 
+      <lb ed="#L" n="90"/>est formaliter duratio, sed illud, quo totam illam 
+      <lb ed="#L" n="91"/>durationem, quae caret terminis, quae vocatur tem 
+      <lb ed="#L" n="92"/>pus aeternum praesidendo Deus attingit, similiter 
+      <lb ed="#L" n="93"/>aeuiternitas formaliter, secundum est, duratio non 
+      <lb ed="#L" n="94"/>est aliud, quam tempus habens principium, &amp; 
+      <lb ed="#L" n="95"/>carens fine, prout vero competit caelo, vel 
+      An<lb ed="#L" break="no" n="96"/>gelis non est aliud, quam vis, qua eiusmodi tem 
+      <lb ed="#L" n="97"/>pus coexistendo attingunt, &amp; secundum hoc pa 
+      <lb ed="#L" n="98"/>tet, quanta est differentia inter aeternum, &amp; 
+      ae<lb ed="#L" break="no" n="99"/>uum, prout se tenet ex parte Dei, &amp; 
+      aeuiterno<lb ed="#L" break="no" n="100"/>rum. sunt enim diuersae virtutes deitatis, qua 
+      at<lb ed="#L" break="no" n="101"/>tingit Deus omne tempus, &amp; natura cuiussibet 
+      <lb ed="#L" n="102"/>aeuiterni, differunt etiam ex parte temporis con 
+      <lb ed="#L" n="103"/>notati; nam aeternitas connotat omne tempus, 
+      ae<lb ed="#L" break="no" n="104"/>uiternitas vero tempus carens fine, sed non prin 
+      <lb ed="#L" n="105"/>cipio, quia nulla creatura est possibilis ab 
+      aeter<lb ed="#L" break="no" n="106"/>no, vt in secundo declarabitur, differunt quoque 
+      <lb ed="#L" n="107"/>&amp; in modo se habendi. Deus enim, inquantum 
+      <lb ed="#L" n="108"/>aeternus attingit per modum praesidentis omne 
+      <lb ed="#L" n="109"/>tempus, aeuiternum autem coexistit tempori per modum 
+      <lb ed="#L" n="110"/>simul existentis, aeternitas itaque, prout est attri 
+      <lb ed="#L" n="111"/>butum dicit Deitatem cum certo connotato, 
+      vi<lb ed="#L" break="no" n="112"/>delicet cum duratione, &amp; tempore termino 
+      quo<lb ed="#L" break="no" n="113"/>cumque carente. Et in hoc secundus Articulus 
+      <lb ed="#L" n="114"/>terminetur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-108170-Dd1e1607">
+               <head xml:id="ol96b1-108170-Hd1e1609">Articulus 3</head>
+               <p xml:id="ol96b1-108170-d1e1611">
+                  <lb ed="#L" n="115"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-108170-d1e1616">
+                  <lb ed="#L" n="116"/>Vtrum sit vna aeternitas trium personarum, 
+      opi<lb ed="#L" break="no" n="117"/>nio quorundam. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1623">
+                  <lb ed="#L" n="118"/>CIRCA tertium ergo considerandum, quod 
+      <lb ed="#L" n="119"/>aliqui dicere voluerunt, aliam aeternitatem 
+      <lb ed="#L" n="120"/>esse in Patre, &amp; aliam in Filio, iuxta illud, quod 
+      <lb ed="#L" n="121"/>habetur extra de summa Trin. &amp; fide cathol. c. fir 
+      <lb ed="#L" n="122"/>miter, vbi dicendum, quod tres personae Pater, Fi 
+      <lb ed="#L" n="123"/>lius, &amp; Spiritus sanctus sunt coaequales, &amp; coaeter 
+      <lb ed="#L" n="124"/>ni, &amp; coomnipotentes, sed haec opini o stare non 
+      <lb ed="#L" n="125"/>potest, quia nulla perfectio simpliciter est 
+      perso<lb ed="#L" break="no" n="126"/>nalis in Diuinis. non est enim ponere bonitatem 
+      <lb ed="#L" n="127"/>personalem, nec perfectionalem; omnis quippe 
+      <lb ed="#L" n="128"/>perfectio communis est tribus personis, sed 
+      <lb ed="#L" n="129"/>aeternitas est perfectio simpliciter. ergo 
+      com<lb ed="#L" break="no" n="130"/>munis est tribus. non est ergo aliqua aeternitas 
+      <lb ed="#L" n="131"/>personalis.
+    </p>
+               <p xml:id="ol96b1-108170-d1e1656">
+      <!--0337.xml-->
+                  <pb ed="#L" n="337"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Propter quod dicunt alij, quod trium 
+      perso<lb ed="#L" break="no" n="2"/>narum est vna aeternitas, quia est vnum esse, sed 
+      <lb ed="#L" n="3"/>nec hoc videtur sufficere. constat enim, quod non 
+      <lb ed="#L" n="4"/>est eadem realitas paternitatis, &amp; filiationis, 
+      <lb ed="#L" n="5"/>&amp; quod Pater, &amp; Filius realiter distinguantur, 
+      <lb ed="#L" n="6"/>quamuis essentialiter sint vnum, propterea cum 
+      <lb ed="#L" n="7"/>realiter distinguantur, viderentur habere diuer 
+      <lb ed="#L" n="8"/>sas permanentias, &amp; distinctas aeternitates per 
+      <lb ed="#L" n="9"/>oppositum rationis illius. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1686">
+                  <lb ed="#L" n="10"/>Propterea: Dicendum est, quod aeternitas est 
+      <lb ed="#L" n="11"/>vis, qua Deus attingit praesidendo omnem 
+      <lb ed="#L" n="12"/>durationem imaginari possibilem secundum post, 
+      <lb ed="#L" n="13"/>&amp; ante. Sed vis illa in tribus personis non est, 
+      ni<lb ed="#L" break="no" n="14"/>si vnica, scilicet Deitas: quod patet ex hoc, quod 
+      <lb ed="#L" n="15"/>personae non praesident creaturis, nisi per 
+      ratio<lb ed="#L" break="no" n="16"/>nem Deitatis. &amp; item, quia vis illa, qua 
+      attingi<lb ed="#L" break="no" n="17"/>tur omne tempus, videtur pertinere ad 
+      necessi<lb ed="#L" break="no" n="18"/>tatem essendi; proprietates autem sunt 
+      necessa<lb ed="#L" break="no" n="19"/>riae formaliter propter indistinctionem, quam 
+      <lb ed="#L" n="20"/>habent ad essentiam, &amp; essentia ab eis. propter 
+      <lb ed="#L" n="21"/>hoc enim determinatur aliquid esse, &amp; repugnat 
+      <lb ed="#L" n="22"/>eis non esse, sicut &amp; essentiae, quae indistinguitur 
+      <lb ed="#L" n="23"/>ab eis. ergo vis attingendi omne tempus inest 
+      <lb ed="#L" n="24"/>eis ex essentia, cum qua identitantur: ad hoc 
+      e<lb ed="#L" break="no" n="25"/>tiam actus intellectus magis est praecisus, quam 
+      <lb ed="#L" n="26"/>quaecumque creatura. Dictum est autem supra, 
+      <lb ed="#L" n="27"/>quod tanta est connexio personarum propter 
+      in<lb ed="#L" break="no" n="28"/>distinctionem proprietatum personalium ab 
+      es<lb ed="#L" break="no" n="29"/>sentia, quod intellectus videns vnam personam ne 
+      <lb ed="#L" n="30"/>cessario videt tres: quare &amp; tempus non potest 
+      sub<lb ed="#L" break="no" n="31"/>iacere vni personae, quin eadem subiacentia subsit 
+      <lb ed="#L" n="32"/>tribus. Iterum etiam personae sic mutuo inexistunt, 
+      <lb ed="#L" n="33"/>&amp; immanent in seipsis, vt vbi est vna per immen 
+      <lb ed="#L" n="34"/>sitatem, ibi sit alia, vt declarabitur infra, quare 
+      <lb ed="#L" n="35"/>&amp; per aeternitatem nil attingit vna persona, quin 
+      <lb ed="#L" n="36"/>attingat &amp; reliqua. Relinqitur ergo, quod sit 
+      <lb ed="#L" n="37"/>trium personarum vna aeternitas, sicut &amp; vna 
+      <lb ed="#L" n="38"/>necessitas: propter quod Athanasius dicit, quod 
+      <lb ed="#L" n="39"/>non tres aeterni, sed vnus aeternus. Quod autem 
+      <lb ed="#L" n="40"/>cap. Firmiter dicit, quod tres sunt coaeterni; 
+      <lb ed="#L" n="41"/>&amp; similiter Athanas. dicit, quod totae tres 
+      perso<lb ed="#L" break="no" n="42"/>nae coaeternae, &amp; coaequales. dicendum, quod 
+      coae<lb ed="#L" break="no" n="43"/>ternum importat relationem pertingentium 
+      ean<lb ed="#L" break="no" n="44"/>dem aeternitatem, propter quod non potest dici, 
+      <lb ed="#L" n="45"/>quod sint tres aeterni; potest tamen dici, quod 
+      <lb ed="#L" n="46"/>sint tres coaeterni: quia dicendo, tres sunt 
+      <lb ed="#L" n="47"/>coaeternus, non appareret inter quos esset 
+      rela<lb ed="#L" break="no" n="48"/>tio, vnde proprietas locutionis cogit, vt fiat enum 
+      <lb ed="#L" n="49"/>ciatio in plurali: dici etiam potest, quod 
+      adie<lb ed="#L" break="no" n="50"/>ctiue tenetur, cum ponitur in plurali. 
+      substanti<lb ed="#L" break="no" n="51"/>ue vero, quando ponitur in singulari. adiectiuum 
+      <lb ed="#L" n="52"/>enim numeratur penes supposita, substantiuum 
+      <lb ed="#L" n="53"/>autem penes formam importatam. Et hic 
+      fini<lb ed="#L" break="no" n="54"/>tur tertius Articulus. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-108170-Dd1e1787">
+               <head xml:id="ol96b1-108170-Hd1e1789">Articulus 4</head>
+               <p xml:id="ol96b1-108170-d1e1791">
+                  <lb ed="#L" n="55"/>ARTJCVLVS QVARTVS.
+    </p>
+               <p xml:id="ol96b1-108170-d1e1796">
+                  <lb ed="#L" n="56"/>An Filij generatio mensuretur aeternitate, &amp; per 
+      <lb ed="#L" n="57"/>quae verba proprius exprimatur. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1803">
+                  <lb ed="#L" n="58"/>CIRCA quartum autem considerandum, 
+      <lb ed="#L" n="59"/>quod aliqui imaginantur, aeternitatem esse 
+      <lb ed="#L" n="60"/>quandam durationem formaliter apprehensam, 
+      <lb ed="#L" n="61"/>circa esse Diuinum, &amp; isti habent ponere 
+      conse<lb ed="#L" break="no" n="62"/>quenter, quod generatio Filij mensuratur illa 
+      <lb ed="#L" n="63"/>duratione. hoc autem dici non potest, omnis 
+      nam<lb ed="#L" break="no" n="64"/>que duratiua mensura, apprehenditur secundum 
+      <lb ed="#L" n="65"/>decursum prioris, &amp; posterioris, vt supra pro- 
+      <!--0337.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>batum est: omnis namque talis decursus est tem 
+      <lb ed="#L" n="67"/>pus. ergo dici non potest, quod generatio Filij 
+      <lb ed="#L" n="68"/>taliter intrinsece mensuretur: propterea 
+      dicen<lb ed="#L" break="no" n="69"/>dum, quod generatio Filij non dicitur 
+      mensura<lb ed="#L" break="no" n="70"/>ri aliqua duratione intrinseca, quae aeternitas ap 
+      <lb ed="#L" n="71"/>pelletur; sed quatenus habet vim, qua aeterno 
+      ten<lb ed="#L" break="no" n="72"/>pori praesidet attingendo: vnde aeterno 
+      tempo<lb ed="#L" break="no" n="73"/>re dicitur a nobis mensurari, non quidem 
+      subia<lb ed="#L" break="no" n="74"/>cendo eo modo, quo mutabilia, nec 
+      coexisten<lb ed="#L" break="no" n="75"/>do eo modo, quo coaeuiterna, sed attingendo per 
+      <lb ed="#L" n="76"/>quandam praesidentiam, vt duratio intelligatur 
+      <lb ed="#L" n="77"/>per modum subiacentis, &amp; infinitatis, &amp; hoc mo 
+      <lb ed="#L" n="78"/>do dicitur generatio Filij mensurari aeternitate. 
+      <lb ed="#L" n="79"/>non intellecto quidem tempore, impossibile est 
+      <lb ed="#L" n="80"/>ipsam mensurari. apprehenso autem eo per mo 
+      <lb ed="#L" n="81"/>dum subiacentis ipsi Deo, &amp; generationi ipsius, 
+      <lb ed="#L" n="82"/>statim concipitur Filij generatio, vt aeterna. 
+      il<lb ed="#L" break="no" n="83"/>lud enim dicitur aeternum, quod attingit omnem 
+      <lb ed="#L" n="84"/>durationem imaginari possibilem, secundum post, 
+      <lb ed="#L" n="85"/>&amp; ante; generari autem Diuinum est quaedam 
+      <lb ed="#L" n="86"/>res praeeminens, &amp; excellens, cui subijcitur 
+      om<lb ed="#L" break="no" n="87"/>ne tempus, &amp; omnis duratio carens terminis 
+      <lb ed="#L" n="88"/>imaginanda est, vt sibi subiecta. ergo 
+      mensura<lb ed="#L" break="no" n="89"/>tur per hunc modum aeternitate, non quidem 
+      for<lb ed="#L" break="no" n="90"/>maliter, sed quasi connotatiue, &amp; subiectiue, 
+      <lb ed="#L" n="91"/>quia sibi subiicitur mensura; temporalia quidem 
+      <lb ed="#L" n="92"/>mensurantur, tamquam subiecta mensurae: Deus 
+      <lb ed="#L" n="93"/>autem, &amp; generatio Filij mensurantur per 
+      subie<lb ed="#L" break="no" n="94"/>ctam mensuram, vnde dicuntur in aeternum 
+      du<lb ed="#L" break="no" n="95"/>rare, quia praesident aeternae durationi. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1892">
+                  <lb ed="#L" n="96"/>Ex his quoque patere potest, quomodo per 
+      <lb ed="#L" n="97"/>verba cuiuslibet temporis potest illa ineffabilis 
+      <lb ed="#L" n="98"/>generatio explicari, dicendum, quod semper 
+      <lb ed="#L" n="99"/>est genitus, semper generabitur, &amp; semper 
+      ge<lb ed="#L" break="no" n="100"/>neratur. non enim enunciantur ista, tamquam for 
+      <lb ed="#L" n="101"/>maliter, &amp; intrinsece dicta, sed extrinsece, &amp; 
+      <lb ed="#L" n="102"/>modo subiecto, vt sit sensus, Filius semper 
+      geni<lb ed="#L" break="no" n="103"/>tus est, post sempiternum tempus imaginabile 
+      <lb ed="#L" n="104"/>impreteritum, si quis apprehenderet ipsum, 
+      <lb ed="#L" n="105"/>inueniret subijci Filij generationi, &amp; praesens 
+      <lb ed="#L" n="106"/>similiter, ac futurum: propter quod dicitur, 
+      <lb ed="#L" n="107"/>quod generabitur, &amp; generatur: omne namque 
+      <lb ed="#L" n="108"/>incommutabile quãlibet durationem attingit: 
+      <lb ed="#L" n="109"/>Filij autem duratio incommutabilis est, &amp; ita 
+      <lb ed="#L" n="110"/>omnem apprehensibilem durationem attingit. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1928">
+                  <lb ed="#L" n="111"/>Et si quaeratur per quod tempus melius expri 
+      <lb ed="#L" n="112"/>matur, dicendum, quod tempus quodlibet 
+      prae<lb ed="#L" break="no" n="113"/>cise dictum induceret errorem. qui enim 
+      praeci<lb ed="#L" break="no" n="114"/>se diceret Filium semper genitum, nec nasci, 
+      <lb ed="#L" n="115"/>aut nasciturum, non dubium, quod erraret: &amp; 
+      <lb ed="#L" n="116"/>similiter, qui diceret ipsum nasci, nec semper 
+      <lb ed="#L" n="117"/>fuisse natum, secundum quod Magister 
+      deter<lb ed="#L" break="no" n="118"/>minat in littera: quia tamen haeretici 
+      occasio<lb ed="#L" break="no" n="119"/>nem calumniae magis accipiebant ex verbo 
+      prae<lb ed="#L" break="no" n="120"/>sentis temporis, concedendo scilicet, quod sem 
+      <lb ed="#L" n="121"/>per generatur, quam ex verbo praeterito, dum di 
+      <lb ed="#L" n="122"/>ceretur, quod semper genitus est. ex primo 
+      e<lb ed="#L" break="no" n="123"/>nim conabantur nouitatem inferre. ex sec undo 
+      <lb ed="#L" n="124"/>vero non poterant, idcirco dicit Gregorius, 
+      <lb ed="#L" n="125"/>quod verius dicitur semper natus, &amp; idem 
+      ap<lb ed="#L" break="no" n="126"/>propriat Augustinus 83. quaestionum, 
+      quaestio<lb ed="#L" break="no" n="127"/>ne de semper nato. Et in hoc quartus 
+      Articu<lb ed="#L" break="no" n="128"/>lus finitur. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e1970">
+                  <lb ed="#L" n="129"/>Responsio ad obiecta.
+    </p>
+               <p xml:id="ol96b1-108170-d1e1975">
+                  <lb ed="#L" n="130"/>AD ea vero, quae superius inducuntur, 
+      dicen<lb ed="#L" break="no" n="131"/>dum est. Ad primum quidem, quod licet 
+      <!--0338.xml-->
+      <pb ed="#L" n="338"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>filij aeternitas sit extra omne tempus, &amp; omnem 
+      <lb ed="#L" n="2"/>durationem, nihilominus omnem durationem, 
+      <lb ed="#L" n="3"/>tamquam sibi subiectam attingit, vel potius sub 
+      <lb ed="#L" n="4"/>ea omnis duratio decurrit, &amp; profluit, vnde per 
+      <lb ed="#L" n="5"/>omne tempus potest congrue explicari, habito 
+      <lb ed="#L" n="6"/>isto respectu. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e2001">
+                  <lb ed="#L" n="7"/>Ad secundum dicendum, quod generatio filij 
+      <lb ed="#L" n="8"/>intelligitur per modum cuiusdam fluxus, eo 
+      mo<lb ed="#L" break="no" n="9"/>do, quo productum dicitur effluere, &amp; exire a 
+      <lb ed="#L" n="10"/>producente, sed si intelligatur per fluxum succes 
+      <lb ed="#L" n="11"/>siuus decursus, non est verum, quod filius hoc mo 
+      <lb ed="#L" n="12"/>do egrediatur a patre per modum fluxus. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e2017">
+                  <lb ed="#L" n="13"/>Ad tertium dicendum, quod aeternum saepe 
+      <lb ed="#L" n="14"/>sumitur in Scriptura pro diutino tempore, sicut 
+      <lb ed="#L" n="15"/>Dionys. docet 10. de Diui. nom. dicit enim, quod 
+      <lb ed="#L" n="16"/>Scriptura multoties antiquissima aeui, seu 
+      aeter<lb ed="#L" break="no" n="17"/>ni nominatione figurat; vnde &amp; Dauidi promisit 
+      <lb ed="#L" n="18"/>Deus regnum aeternum, quia in tempus 
+      longin<lb ed="#L" break="no" n="19"/>quum. sic ergo debet intelligi, quod Dominus 
+      <lb ed="#L" n="20"/>regnabit in aeternum, &amp; vltra, quia vltra 
+      quod<lb ed="#L" break="no" n="21"/>cumque tempus, quantumcumque longinquum. 
+      <lb ed="#L" n="22"/>Et per idem patet ad quartum. tantum enim 
+      pro<lb ed="#L" break="no" n="23"/>pter diuturnitatem durationis, dicitur stare in 
+      <!--0338.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>aeternum, vel quia finem non habebit eius 
+      dura<lb ed="#L" break="no" n="25"/>tio, quamuis habuit principium. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e2052">
+                  <lb ed="#L" n="26"/>Ad quintum dicendum, quod generatio filij 
+      <lb ed="#L" n="27"/>dat filio, quod generetur, &amp; quod genitus sit: 
+      il<lb ed="#L" break="no" n="28"/>la quoque propositio, quod fit, intelligi debet 
+      <lb ed="#L" n="29"/>in his, quae fiunt per motum, &amp; successiuam 
+      pro<lb ed="#L" break="no" n="30"/>ductionem, non de his, quae productione 
+      indiui<lb ed="#L" break="no" n="31"/>sibili capiunt esse. illa enim, quae producuntur, 
+      <lb ed="#L" n="32"/>sunt, sicut patet de radio in aere diffuso a sole, 
+      <lb ed="#L" n="33"/>quia cum diffunditur, est. filius ergo capit esse 
+      <lb ed="#L" n="34"/>productione indiuisibili, non quidem 
+      instanta<lb ed="#L" break="no" n="35"/>nea, nec aliqua mensura intrinsece mensurata, 
+      <lb ed="#L" n="36"/>sed quatenus ipsa incommutabilis existens 
+      om<lb ed="#L" break="no" n="37"/>ne tempus attingit, propter quod per eam 
+      dici<lb ed="#L" break="no" n="38"/>tur filius genitus ratione infiniti praeteriti imagi 
+      <lb ed="#L" n="39"/>nari possibilis, quod attingit, &amp; dicitur 
+      genera<lb ed="#L" break="no" n="40"/>ri ratione praesentis, &amp; quod generabitur ratione 
+      <lb ed="#L" n="41"/>futuri. &amp; per hoc patet ad sextum. 
+    </p>
+               <p xml:id="ol96b1-108170-d1e2090">
+                  <lb ed="#L" n="42"/>Ad vltimum dicendum, quod licet actiua 
+      ge<lb ed="#L" break="no" n="43"/>neratio, &amp; passiua sint duae res, nihilominus 
+      ha<lb ed="#L" break="no" n="44"/>bent eandem necessitatem essendi, &amp; vim 
+      dura<lb ed="#L" break="no" n="45"/>tionem omnem attingendi, propter quod 
+      esea<lb ed="#L" break="no" n="46"/>rum vna aeternitas.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

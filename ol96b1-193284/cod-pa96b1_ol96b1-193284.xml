@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="595"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-193284"> <!-- l1d27p1-prae -->
+            <head xml:id="ol96b1-193284-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-193284-d1e104">
+      <!--0595.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="53"/>AN EASDEM PROPRJETATES ASSJGNENT 
+      <lb ed="#L" n="54"/>Augustinus, &amp; Hilarius: &amp; an istae sint, quae dicuntur 
+      <lb ed="#L" n="55"/>paternitas, filiatio, &amp; spiratio. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e117">
+               <lb ed="#L" n="56"/>DISTINCTIO XXVII.
+    </p>
+            <p xml:id="ol96b1-193284-d1e122">
+      <!--0595.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="57"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e132">
+               <lb ed="#L" n="58"/>HIc quaeri potest, &amp;c. Postquam 
+      <lb ed="#L" n="59"/>Magister determinauit de 
+      <lb ed="#L" n="60"/>proprietatibus personali-- 
+      <lb ed="#L" n="61"/>bus, prout exprimuntur per 
+      <lb ed="#L" n="62"/>nomina paternitatis, 
+      filia<lb ed="#L" break="no" n="63"/>tionis, &amp; spirationis, hic 
+      <lb ed="#L" n="64"/>agit de eiusdem, prout 
+      ex<lb ed="#L" break="no" n="65"/>primuntur per aliqua 
+      voca<lb ed="#L" break="no" n="66"/>bula. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e154">
+               <lb ed="#L" n="67"/>Primo enim agit de ipsis, prout 
+      exprimun<lb ed="#L" break="no" n="68"/>tur per generationem, natiuitatem, &amp; 
+      pro<lb ed="#L" break="no" n="69"/>cessionem. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e163">
+               <lb ed="#L" n="70"/>Secundo agit de ipsis, prout exprimuntur per 
+      <lb ed="#L" n="71"/>genitorem, genitum, verbum, imaginem 
+      secun<lb ed="#L" break="no" n="72"/>da ibi: Hoc non est praetermittendum. Circa primum 
+      <lb ed="#L" n="73"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e174">
+               <lb ed="#L" n="74"/>Primo namque ponit in quaestione, an 
+      pater<lb ed="#L" break="no" n="75"/>nitas, &amp; generatio, filiatio, &amp; nascibilitas, 
+      pro<lb ed="#L" break="no" n="76"/>cessio, &amp; donum, seu spiritus sunt eaedem 
+      proprie<lb ed="#L" break="no" n="77"/>tates. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e185">
+               <lb ed="#L" n="78"/>Secundo vero ponit responsionem. secunda 
+      <lb ed="#L" n="79"/>ibi: Ad quod sine praeiudicio. Dicit itaque primo, 
+      <lb ed="#L" n="80"/>quod hic oritur quaestio, an sint eaedem 
+      proprie<lb ed="#L" break="no" n="81"/>tates illae, quas exprimit paternitas, filiatio, 
+      <lb ed="#L" n="82"/>&amp; spiratio, cum illis, quas exprimunt 
+      genera<lb ed="#L" break="no" n="83"/>ri, &amp; procedere, &amp; videtur, quod non, quia si 
+      <lb ed="#L" n="84"/>eandem proprietatem importarent paternitas, 
+      <lb ed="#L" n="85"/>&amp; generare, quicquid esset pater genuisset, hoc 
+      <!--0595.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="86"/>autem non est verum; nam essentia diuina non 
+      <lb ed="#L" n="87"/>genuit filium, &amp; tamen est vere pater. ergo non 
+      <lb ed="#L" n="88"/>est idem gignere filium, &amp; esse patrem. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e216">
+               <lb ed="#L" n="89"/>Postmodum ibi: Ad quod sine praeiudicio. 
+      Re<lb ed="#L" break="no" n="90"/>spondet ad hanc quaestionem, &amp; tria facit. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e224">
+               <lb ed="#L" n="91"/>Primo namque ponit respontionem, dicens, 
+      <lb ed="#L" n="92"/>quod absque praeiudicio aliorum possumus 
+      di<lb ed="#L" break="no" n="93"/>cere, quod haec vocabula proprietates casdem 
+      <lb ed="#L" n="94"/>important, illae namque proprietates, quae dant 
+      <lb ed="#L" n="95"/>effectum eumdem formalem, sunt proprietates 
+      <lb ed="#L" n="96"/>eaedem, sed pater est pater, quia genuit, seu per 
+      <lb ed="#L" n="97"/>generare secundum Augustinum, &amp; secundum 
+      <lb ed="#L" n="98"/>Hilarium est pater per paternitatem. ergo 
+      ge<lb ed="#L" break="no" n="99"/>nerare, &amp; paternitas sunt eadem proprietas. &amp; 
+      <lb ed="#L" n="100"/>similiter potest de filiatione, &amp; nascibilitate, 
+      <lb ed="#L" n="101"/>seu generari, &amp; de spiritu sancto, vel dono 
+      pro<lb ed="#L" break="no" n="102"/>cedere. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e253">
+               <lb ed="#L" n="103"/>Secundo ibi: Nec tamen videtur. Modificat 
+      <lb ed="#L" n="104"/>praedictam responsionem, dicens, quod esse 
+      pa<lb ed="#L" break="no" n="105"/>trem, &amp; genuisse filium aliqualiter differre 
+      vi<lb ed="#L" break="no" n="106"/>dentur, quoniam pater videtur importare in 
+      <lb ed="#L" n="107"/>suo significato non solum proprietatem, vel 
+      hy<lb ed="#L" break="no" n="108"/>postasim, sed personam, generare, vel gigni solas 
+      <lb ed="#L" n="109"/>relationes: &amp; ideo conceditur, quod diuina 
+      es<lb ed="#L" break="no" n="110"/>sentia sit pater, hoc est suppositum 
+      generatio<lb ed="#L" break="no" n="111"/>nis, non tamen conceditur, quod essentia 
+      gene<lb ed="#L" break="no" n="112"/>ret, vel generetur, quia tunc solae notiones 
+      prae<lb ed="#L" break="no" n="113"/>dicarent, &amp; esset sensus, quod essentia haberet 
+      <lb ed="#L" n="114"/>filium, vel patrem, quod falsum est, quia 
+      pro<lb ed="#L" break="no" n="115"/>prietates huiusmodi, &amp; notiones non determi- 
+      <!--0596.xml-->
+      <pb ed="#L" n="596"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nant essentiam, sed solas personas, ideo non 
+      re<lb ed="#L" break="no" n="2"/>cipitur earum praedicatio de essentia, sed 
+      tan<lb ed="#L" break="no" n="3"/>tum de personis. 
+    </p>
+            <p xml:id="ol96b1-193284-d1e297">
+               <lb ed="#L" n="4"/>Tertio ibi: Illae enim proprietates. Probat aucto 
+      <lb ed="#L" n="5"/>ritate Damasceni hoc, quod assumpserat, 
+      vide<lb ed="#L" break="no" n="6"/>licet, quod proprietates sint determinatiuae, &amp; 
+      <lb ed="#L" n="7"/>distinctiuae personarum, &amp; inducit 
+      auctorita<lb ed="#L" break="no" n="8"/>tes tres, quae in littera patent. haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

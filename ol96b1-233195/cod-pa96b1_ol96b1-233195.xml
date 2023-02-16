@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="719"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-233195"> <!-- l1d32p1-prae -->
+            <head xml:id="ol96b1-233195-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-233195-d1e104">
+      <!--0719.xml-->
+               <pb ed="#L" n="719"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>VTRVM PATER, VEL FJLJVS SPJRJTV 
+      <lb ed="#L" n="2"/>sancto diligat, cum diligere idem Deo sit, quod esse. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e117">
+               <lb ed="#L" n="3"/>DISTINCTIO XXXIJ. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e122">
+      <!--0719.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e132">
+               <lb ed="#L" n="5"/>HIc oritur quaestio, &amp;c. 
+      Post<lb ed="#L" break="no" n="6"/>quam Magister determinauit 
+      <lb ed="#L" n="7"/>de nominibus communibus 
+      <lb ed="#L" n="8"/>appropriatis personis, hic 
+      <lb ed="#L" n="9"/>mouet quasdam 
+      dubitatio<lb ed="#L" break="no" n="10"/>nes, habentes ortum ex 
+      prae<lb ed="#L" break="no" n="11"/>dictis. Dictum est enim 
+      sta<lb ed="#L" break="no" n="12"/>tim in fine superioris 
+      distin<lb ed="#L" break="no" n="13"/>ctionis, quod spiritus sanctus est amor, quo 
+      pa<lb ed="#L" break="no" n="14"/>ter diligit filium, &amp; filius diligit patrem; vnde 
+      <lb ed="#L" n="15"/>oritur dubium, vtrum haec sit concedenda, 
+      Pa<lb ed="#L" break="no" n="16"/>ter, &amp; filius diligunt se spiritu sancto. Et circa 
+      <lb ed="#L" n="17"/>hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e163">
+               <lb ed="#L" n="18"/>Primo namque mouet hanc quaestionem, &amp; su 
+      <lb ed="#L" n="19"/>perficialiter tractat eam. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e170">
+               <lb ed="#L" n="20"/>Secundo vero mouet vnam aliam similem. 
+      <lb ed="#L" n="21"/>Tertio ex illa redit ad inquirendum magis di 
+      <lb ed="#L" n="22"/>ligenter priorem. secunda ibi: Praeterea diligenter 
+      <lb ed="#L" n="23"/>inuestigari oportet. tertia ibi: Praeterea diligenter 
+      no<lb ed="#L" break="no" n="24"/>tandum. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e183">
+               <lb ed="#L" n="25"/>Primo enim mouet quaestionem, dicens, quod 
+      <lb ed="#L" n="26"/>merito quaeritur, vtrum pater, vel filius per spi 
+      <lb ed="#L" n="27"/>ritum sanctum, vel spiritu sancto se diligant. 
+      <lb ed="#L" n="28"/>&amp; videtur, quod sic, auctoritatibus multis. Sed 
+      <lb ed="#L" n="29"/>in oppositum est, quod cum diligere, &amp; esse sint 
+      <lb ed="#L" n="30"/>idem in Deo, sicut Augustinus dicit 15. de 
+      Tri<lb ed="#L" break="no" n="31"/>nitate, quod secundum essentiam Deus est 
+      sa<lb ed="#L" break="no" n="32"/>piens, &amp; diligens; sequitur, quod si pater, vel 
+      <lb ed="#L" n="33"/>filius diligit per spiritum sanctum, habeant esse 
+      <lb ed="#L" n="34"/>per spiritum, &amp; quod non tantum diligant per 
+      <lb ed="#L" n="35"/>essentiam, sed etiam per donum suum: quae 
+      ab<lb ed="#L" break="no" n="36"/>sona videntur. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e212">
+               <lb ed="#L" n="37"/>Secundo ibi: Huic quaestioni. Magister 
+      super<lb ed="#L" break="no" n="38"/>ficialiter respondet, dicens, quod pater, &amp; 
+      fi<lb ed="#L" break="no" n="39"/>lius diligunt se non solum essentia sua, immo &amp; 
+      <lb ed="#L" n="40"/>dono proprio suo, videlicet spiritu sancto, &amp; 
+      <lb ed="#L" n="41"/>hoc probat duabus auctoritatibus Augustini, 
+      <lb ed="#L" n="42"/>quae patent in littera. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e228">
+               <lb ed="#L" n="43"/>Postmodum ibi: Praeterea. Mouet similem 
+      <lb ed="#L" n="44"/>quaestionem huic, videlicet, vtrum pater sit 
+      sa<lb ed="#L" break="no" n="45"/>piens sapientia genita. Et circa hoc quatuor 
+      <lb ed="#L" n="46"/>facit, secundum quod mouet quatuor 
+      dubita<lb ed="#L" break="no" n="47"/>tiones. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e242">
+               <lb ed="#L" n="48"/>Primo ergo quaerit, vtrum pater sit sapiens 
+      <lb ed="#L" n="49"/>sapientia, quam genuit: &amp; videtur, quod sic. 
+      <lb ed="#L" n="50"/>quia dicit Apostolus prima ad Corinth. primo, 
+      <lb ed="#L" n="51"/>Christum esse Dei virtutem, &amp; Dei sapientiam, 
+      <lb ed="#L" n="52"/>sed dicendum ad hoc, secundum Augustinum, 
+      se<lb ed="#L" break="no" n="53"/>ptimo de Trinitate, quod hoc concedendum 
+      <lb ed="#L" n="54"/>non est. Idem enim est patri esse, quam sapere; 
+      <lb ed="#L" n="55"/>certum est autem, quod non per sapientiam, quam 
+      <lb ed="#L" n="56"/>genuit. ergo nec sapit per sapientiam illam. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e264">
+               <lb ed="#L" n="57"/>Secundo ibi: Poshaec quaeri solet. Mouet 
+      Ma<lb ed="#L" break="no" n="58"/>gister secundam quaestionem, an saltem filius 
+      <lb ed="#L" n="59"/>sit sapiens sapientia genita, vel ingenita. si enim 
+      <lb ed="#L" n="60"/>sapientia genita, sequitur, quod non est sapiens illa sa 
+      <!--0719.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="61"/>pientia, qua pater est sapiens, cum pater per sapien 
+      <lb ed="#L" n="62"/>tiam ingenitam sit sapiens. si vero non sit sapiens sa 
+      <lb ed="#L" n="63"/>pientia genita, non erit sapiens per seipsum, cum fi 
+      <lb ed="#L" n="64"/>lius sit sapientia genita. Et respondet Magister, 
+      <lb ed="#L" n="65"/>quod vna, &amp; eadem sapientia est in filio, &amp; in 
+      <lb ed="#L" n="66"/>patre, sed in patre est a se, in filio vero a patre, 
+      <lb ed="#L" n="67"/>&amp; ita potest concedi, quod pater est sapiens 
+      sa<lb ed="#L" break="no" n="68"/>pientia ingenita; filius vero sapientia genita: 
+      <lb ed="#L" n="69"/>nec tamen sapientia ista est alia ab illa, sicut pa 
+      <lb ed="#L" n="70"/>ter est Deus ingenitus, &amp; filius Deus genitus; 
+      <lb ed="#L" n="71"/>&amp; tamen non sunt duo Dij. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e303">
+               <lb ed="#L" n="72"/>Tertio ibi: Quaeri autem solet. Mouet tertiam 
+      <lb ed="#L" n="73"/>quaestionem, dicens, quod ab aliquibus quaeri 
+      <lb ed="#L" n="74"/>solet, vtrum filius sit sapiens se ipso, vel per se 
+      <lb ed="#L" n="75"/>ipsum. &amp; respondet, quod si ly, per, notat 
+      cau<lb ed="#L" break="no" n="76"/>sam formalem, concedendum est, quod filius 
+      <lb ed="#L" n="77"/>per essentiam suam est formaliter sapiens; si 
+      ve<lb ed="#L" break="no" n="78"/>ro notet principium originans, dicendus est 
+      sa<lb ed="#L" break="no" n="79"/>piens non a se, sed a patre, sicut nec est a se, nec 
+      <lb ed="#L" n="80"/>agit a se, &amp; ad hoc inducit auctoritatem Hilar. 
+      <lb ed="#L" n="81"/>quae in littera patet. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e327">
+               <lb ed="#L" n="82"/>Quarto ibi: Post hoc a quibusdam. Mouet 
+      quar<lb ed="#L" break="no" n="83"/>tam dubitationem, dicens, quod quaeritur a 
+      <lb ed="#L" n="84"/>quibusdam, vtrum sint duae sapientiae in diuinis, 
+      <lb ed="#L" n="85"/>vna quidem ingenita, &amp; alia genita. &amp; videtur 
+      <lb ed="#L" n="86"/>quod sic, quia pater est sapiens sapientia 
+      inge<lb ed="#L" break="no" n="87"/>nita, non tamen sapiens sapientia genita. 
+      er<lb ed="#L" break="no" n="88"/>go sunt duae sapientiae; &amp; respondet, quod non 
+      <lb ed="#L" n="89"/>est nisi vna sapientia, tamen diuerso modo: nam 
+      <lb ed="#L" n="90"/>cum dicitur sapientia genita, intelligitur perso 
+      <lb ed="#L" n="91"/>na filij, &amp; cum dicitur sapientia ingenita, 
+      intel<lb ed="#L" break="no" n="92"/>ligitur persona patris, &amp; tamen vtraque est vna 
+      <lb ed="#L" n="93"/>sapientia communis, &amp; idem intelligi oportet 
+      <lb ed="#L" n="94"/>de amore procedente, &amp; amore patris, &amp; filij, 
+      <lb ed="#L" n="95"/>quia non sunt duo amores, sed est vna tantum 
+      <lb ed="#L" n="96"/>dilectio, quae non est aliud, quam essentia ipsa 
+      <lb ed="#L" n="97"/>Deitatis. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e364">
+               <lb ed="#L" n="98"/>Postmodum ibi: Praeterea diligenter. Redit ad 
+      <lb ed="#L" n="99"/>soluendam quaestionem, primo propositam, &amp; 
+      <lb ed="#L" n="100"/>facit duo. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e373">
+               <lb ed="#L" n="101"/>Primo ponit difficultatem eius, dicens, quod 
+      <lb ed="#L" n="102"/>sicut non conceditur, quod pater sit sapiens 
+      sa<lb ed="#L" break="no" n="103"/>pientia, quam genuit, sic videtur non esse 
+      con<lb ed="#L" break="no" n="104"/>eedendum, quod pater, &amp; filius se diligant 
+      dile<lb ed="#L" break="no" n="105"/>ctione, quae ab ipso procedit: &amp; ita, quod non 
+      di<lb ed="#L" break="no" n="106"/>ligunt se spiritu sancto, alioquin essent ipso 
+      spi<lb ed="#L" break="no" n="107"/>ritu sancto, &amp; per consequens non 
+      procede<lb ed="#L" break="no" n="108"/>ret ab eis. 
+    </p>
+            <p xml:id="ol96b1-233195-d1e394">
+               <lb ed="#L" n="109"/>Secundo ibi: Difficilem hanc fateor. Magister 
+      <lb ed="#L" n="110"/>respondens ad quaestionem dicit, quod cum de 
+      <lb ed="#L" n="111"/>rebus Dei sermo sit, &amp; concedamus sibi 
+      cogni<lb ed="#L" break="no" n="112"/>tionem dictis, quod eius pia veneratione 
+      fal<lb ed="#L" break="no" n="113"/>leremur: &amp; sic relinquit quaestionem 
+      insolu<lb ed="#L" break="no" n="114"/>tam, addens, quod ad erroris exclusionem debet 
+      <lb ed="#L" n="115"/>intelligi, quod pater, &amp; filius sic diligunt se spiri 
+      <lb ed="#L" n="116"/>tu sancto, quod etiam diligunt se per essentiam 
+      <lb ed="#L" n="117"/>suam: haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

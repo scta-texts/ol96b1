@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="310"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-100783"> <!-- l1d8p4-prae -->
+            <head xml:id="ol96b1-100783-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-100783-d1e104">
+      <!--0310.xml-->
+               <pb ed="#L" n="310"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVARTA PARS. 
+      <lb ed="#L" n="2"/>Deus ob. suam ipsius simplicitatem nulli 
+      <lb ed="#L" n="3"/>praedicamentorum subiicitur. 
+    </p>
+            <p xml:id="ol96b1-100783-d1e120">
+               <lb ed="#L" n="4"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-100783-d1e125">
+               <lb ed="#L" n="5"/>QVoD autem in natura Deitatis, 
+      <lb ed="#L" n="6"/>&amp;c. Postquam inquisiuit. 
+      Ma<lb ed="#L" break="no" n="7"/>gister Diuinam simplicitarem, 
+      <lb ed="#L" n="8"/>discurrendo per creaturam 
+      <lb ed="#L" n="9"/>omnem, hic ostendit eam, 
+      di<lb ed="#L" break="no" n="10"/>scurrendo per 
+      praedicamen<lb ed="#L" break="no" n="11"/>talem coordinationem. Et 
+      <lb ed="#L" n="12"/>circa hoc duo facit.
+    </p>
+            <p xml:id="ol96b1-100783-d1e146">
+               <lb ed="#L" n="13"/>Primo enim ostendit, quod Deus 
+      nonclaudi<lb ed="#L" break="no" n="14"/>tur sub aliquo praedicamento accidentali, dicens, 
+      <lb ed="#L" n="15"/>quod in natura Deitatis, nullum est accidens. 
+      <lb ed="#L" n="16"/>Primo debemus eum intelligere sine qualitate, 
+      <lb ed="#L" n="17"/>bonum, sine quantitate, magnum, sine relatiua 
+      <lb ed="#L" n="18"/>coindigentia creatorem, sine situali positione 
+      <lb ed="#L" n="19"/>omnibus praesidentem, sine locali ambitu, 
+      om<lb ed="#L" break="no" n="20"/>nia continentem, sine vbi, vbique totum, sine 
+      tem<lb ed="#L" break="no" n="21"/>pore, sempiternum, sine mutatione agentem, 
+      ni<lb ed="#L" break="no" n="22"/>hilque penitus patientem. Ex quo patet, contra 
+      <lb ed="#L" n="23"/>praedicamenta artis Dialecticae Dei naturae, quae 
+      <lb ed="#L" n="24"/>nullis accidentibus subiecta est, minime conueuire: 
+    </p>
+            <p xml:id="ol96b1-100783-d1e175">
+               <lb ed="#L" n="25"/>Secundo ibi: Vnde nec proprie. ostendit Magister, 
+      <lb ed="#L" n="26"/>quod Deus non est in praedicamento, substantiali, 
+      <lb ed="#L" n="27"/>dicens, quod cum substantia dicatur a subsistendo, eo 
+      <lb ed="#L" n="28"/>quod accidentibus substet, sicut esse ab essendo, non 
+      <lb ed="#L" n="29"/>proprie dici potest Deus in praedicamento 
+      sub<lb ed="#L" break="no" n="30"/>stantiae, cum nullis accidentibus substet. 
+    </p>
+            <p xml:id="ol96b1-100783-d1e191">
+               <lb ed="#L" n="31"/>Vltimo ibi: Huiusmodi autem essentiae. Inducit 
+      <lb ed="#L" n="32"/>multiplicem auctoritatem, per quam 
+      ostendi<lb ed="#L" break="no" n="33"/>tur, in quo consistit simplicitas Diuina, &amp; est pri 
+      <lb ed="#L" n="34"/>ma auctoritas Hilarij dicentis, quod non ex com 
+      <lb ed="#L" n="35"/>positis est Deus, qui vita est. Secunda vero 
+      e<lb ed="#L" break="no" n="36"/>iusdem dicentis, quod non est in Deo aliud 
+      ha<lb ed="#L" break="no" n="37"/>bens, &amp; quod habetur. Tertia quoque Boetij 
+      di<lb ed="#L" break="no" n="38"/>centis, quod in Deo nullus est numerus, sed 
+      quid<lb ed="#L" break="no" n="39"/>quid ibi est, vnum est. Quarta autem est 
+      Augu<lb ed="#L" break="no" n="40"/>stini dicentis, quod quidquid in Deo est, non est 
+      <lb ed="#L" n="41"/>aliud, quam substantia, &amp; essentia Dei. Quinta 
+      <lb ed="#L" n="42"/>est eiusdem Augustini, quod in Deo, qui habet 
+      <lb ed="#L" n="43"/>&amp; hoc, quod idem est. Sexta vero Isidori 
+      dicen<lb ed="#L" break="no" n="44"/>tis, quod Deus adeo simplex est, quod non 
+      amit<lb ed="#L" break="no" n="45"/>tit illud, quod habet, nec amittit, quod ipse non 
+      <lb ed="#L" n="46"/>est. Vltima quoque Augustini dicentis, quod ideo 
+      <lb ed="#L" n="47"/>simplex Deus dicitur, quia est hoc, quod habet, 
+      <lb ed="#L" n="48"/>excepto, quod relatiue quaelibet persona dicitur 
+      <lb ed="#L" n="49"/>ad alteram. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

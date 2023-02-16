@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="183"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c58767"> <!-- l1d3p2-q1 -->
+            <head xml:id="ol96b1-c58767-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-c58767-Hd1e104" type="question-title">
+        Utrum per rationem vestigij in creaturis reperti 
+        possit declarari Trinitas personarum.  
+      </head>
+            <p xml:id="ol96b1-c58767-d1e107">
+               <lb ed="#L" n="13"/>Vtrum per rationem vestigij in creaturis reperti 
+      <lb ed="#L" n="14"/>possit declarari Trinitas personarum. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e114">
+               <lb ed="#L" n="15"/>ET quia Magister declarat hic personarum 
+      <lb ed="#L" n="16"/>L trinarium per vestigium repertum in 
+      crea<lb ed="#L" break="no" n="17"/>tura: idcirco inquirendum occurrit: Vtrum per 
+      <lb ed="#L" n="18"/>rationem vestigij in creaturis reperti possit 
+      de<lb ed="#L" break="no" n="19"/>clarari Trinitas personarum.
+    </p>
+            <p xml:id="ol96b1-c58767-d1e128">
+               <lb ed="#L" n="20"/>Et videtur, quod non: per ea enim, quae 
+      di<lb ed="#L" break="no" n="21"/>stinguuntur tantummodo formaliter, vel 
+      secun<lb ed="#L" break="no" n="22"/>dum rationem, non potest perueniri ad distincta 
+      <lb ed="#L" n="23"/>realiter in Deo, cum sit maior distinctio in crea 
+      <lb ed="#L" n="24"/>tura, quam in Deo. ea enim quae separatim, &amp; 
+      <lb ed="#L" n="25"/>diuisim sunt in ea, sunt vnitiue in ipso Deo, sed 
+      <lb ed="#L" n="26"/>vnitas species, siue vnitas, &amp; ordo, qui est 
+      boni<lb ed="#L" break="no" n="27"/>tas, distinguuntur tantum formaliter in creaturis, 
+      <lb ed="#L" n="28"/>&amp; secundum rationem. si enim realiter in 
+      quoli<lb ed="#L" break="no" n="29"/>bet eorum reperirentur omnia tria, 
+      procedere<lb ed="#L" break="no" n="30"/>tur in infinitum. ergo per istam Trinitatem, qua 
+      <lb ed="#L" n="31"/>dicitur repertum vestigium in creaturis, 
+      perue<lb ed="#L" break="no" n="32"/>niri non potest ad Trinitatem personarum. 
+      <lb ed="#L" n="33"/>Praeterea: Per ea, quae sunt accidentia creatu 
+      <lb ed="#L" n="34"/>ris, non potest probari Trinitas personarum, 
+      <lb ed="#L" n="35"/>quia personae sunt subsistentes, sed vestigium in 
+      <lb ed="#L" n="36"/>creaturis consistit in quibusdam proprietatibus 
+      <lb ed="#L" n="37"/>accidentalibus. ergo non potest probari per hoc 
+      <lb ed="#L" n="38"/>Trinitas personarum. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e172">
+               <lb ed="#L" n="39"/>Praeterea: Per illud, quod dicit mere 
+      respe<lb ed="#L" break="no" n="40"/>ctus rationis, aut aliquid negatiuum, non 
+      vide<lb ed="#L" break="no" n="41"/>tur posse probari Trinitas, quae est realis, &amp; 
+      po<lb ed="#L" break="no" n="42"/>sitiua; sed vnitas dicit priuationem secundum 
+      <lb ed="#L" n="43"/>Commentatorem 4. Metaph. pulchritudo autem, 
+      <lb ed="#L" n="44"/>&amp; ordo videntur dicere respectus rationis, 
+      quo<lb ed="#L" break="no" n="45"/>niam si reales, oportet, quod res ordinis 
+      habe<lb ed="#L" break="no" n="46"/>ret ordinem, &amp; res pulchritudinis 
+      pulchritudi<lb ed="#L" break="no" n="47"/>nem, &amp; sic in infinitum. ergo non videtur, quod 
+      <lb ed="#L" n="48"/>possint ducere in notitiam Trinitatis. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e196">
+               <lb ed="#L" n="49"/>Praeterea: Illud, quod non consistit in solo Tri 
+      <lb ed="#L" n="50"/>nario, immo etiam in nouennario, &amp; in 
+      nume<lb ed="#L" break="no" n="51"/>ro ampliori, non declarat Trinarium 
+      persona<lb ed="#L" break="no" n="52"/>rum, pari etiam ratione probaret nouennarium, 
+      <lb ed="#L" n="53"/>vel numerum maiorem, sed vestigium in 
+      creatu<lb ed="#L" break="no" n="54"/>ris attenditur penes haec tria, vnitas, 
+      pulchritu<lb ed="#L" break="no" n="55"/>do, &amp; ordo; &amp; iterum penes haec tria, numerus, 
+      <lb ed="#L" n="56"/>mensura, &amp; pondus; &amp; iterum penes haec tria, 
+      <lb ed="#L" n="57"/>principium, medium, &amp; finis; &amp; penes multa 
+      <lb ed="#L" n="58"/>alia. ergo non ducit vestigium in Trinitatem 
+      <lb ed="#L" n="59"/>personarum. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e222">
+               <lb ed="#L" n="60"/>Praeterea: Illud, quod non reperitur in omni 
+      <lb ed="#L" n="61"/>creatura, non videtur ducere in notitiam 
+      Tri<lb ed="#L" break="no" n="62"/>nitatis, cum aeque dependeat vna creatura a 
+      <lb ed="#L" n="63"/>Trinitate, sicut reliqua; sed species non 
+      reperi<lb ed="#L" break="no" n="64"/>tur in materia prima, quae caret omni forma se- 
+      <!--0183.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="65"/>cundum Augustinum, lux etiam secundum 
+      Am<lb ed="#L" break="no" n="66"/>brosium in suo Exameron, non est creata in 
+      nu<lb ed="#L" break="no" n="67"/>mero, pondere, &amp; mensura. ergo ista non ducunt 
+      <lb ed="#L" n="68"/>in notitiam Trinitatis. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e248">
+               <lb ed="#L" n="69"/>Praeterea: Illud non ducit in notitiam 
+      perso<lb ed="#L" break="no" n="70"/>narum, quod aeque reperiretur in creatura, si non 
+      <lb ed="#L" n="71"/>esset nisi vna persona in Deo; sed totum 
+      vesti<lb ed="#L" break="no" n="72"/>gium esset in creatura, dato, quod non esset 
+      ni<lb ed="#L" break="no" n="73"/>si vna persona Diuina. non enim singula 
+      perso<lb ed="#L" break="no" n="74"/>na imprimit singulam partem vestigij, immo 
+      <lb ed="#L" n="75"/>quaelibet imprimit totum. ergo per vestigium 
+      <lb ed="#L" n="76"/>non potest probari Trinitas personarum. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e268">
+               <lb ed="#L" n="77"/>Quod possit probari Trinitas per rationem 
+      <lb ed="#L" n="78"/>vestigij. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e276">
+               <lb ed="#L" n="79"/>SED in oppositum videtur, quod dicit 
+      Au<lb ed="#L" break="no" n="80"/>gustinus 6. de Trinitate cap. vlt. quod 
+      opor<lb ed="#L" break="no" n="81"/>tet, vt per ea, quae facta sunt Trinitatem 
+      intel<lb ed="#L" break="no" n="82"/>ligamus. huius enim Trinitatis vestigium 
+      in<lb ed="#L" break="no" n="83"/>creaturis apparet. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e289">
+               <lb ed="#L" n="84"/>Praeterea: Vestigium dicitur ab inuestigando, 
+      <lb ed="#L" n="85"/>quia per per ipsum aliud potest inuestigari; sed 
+      <lb ed="#L" n="86"/>in creaturis est vestigium, vt supponitur. ergo 
+      <lb ed="#L" n="87"/>per ipsum pote st trinitas declarari. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e300">
+               <lb ed="#L" n="88"/>Praeterea: Omnis effectus repraesentat suam 
+      <lb ed="#L" n="89"/>causam, sed summa causa subsistit in quadam 
+      Tri<lb ed="#L" break="no" n="90"/>nitate. ergo videtur, quod in omni efectu 
+      crea<lb ed="#L" break="no" n="91"/>to reperiatur aliquis trinarius, qui sit vestigium 
+      <lb ed="#L" n="92"/>&amp; similitudo Trinitatis. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e313">
+               <lb ed="#L" n="93"/>Praeterea: Philosophus dicit, quod omnis 
+      per<lb ed="#L" break="no" n="94"/>fectio cuiusslibet naturae consistit in quodam 
+      tri<lb ed="#L" break="no" n="95"/>nario. ergo videtur, quod per hoc possit 
+      proba<lb ed="#L" break="no" n="96"/>ri naturam perfectissimam consistere in tribus. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e324">
+               <lb ed="#L" n="97"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-c58767-d1e329">
+               <lb ed="#L" n="98"/>AD istam quaestionem respondendo hoc 
+      or<lb ed="#L" break="no" n="99"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-c58767-d1e337">
+               <lb ed="#L" n="100"/>Primo quidem inquiret ur quid sit vestigium, 
+      <lb ed="#L" n="101"/>&amp; in quo differt ab imagine. 
+      <lb ed="#L" n="102"/>Secundo vero inquiretur, in quibus sit vestigium 
+      <lb ed="#L" n="103"/>Tertio quoque penes quid attendatur. 
+      <lb ed="#L" n="104"/>Quarto autem quomodo distinguatur ab eo, 
+      <lb ed="#L" n="105"/>in quo est. 
+      <lb ed="#L" n="106"/>Quinto quoque, an per ipsum possit Trinitas 
+      <lb ed="#L" n="107"/>declarari. 
+    </p>
+            <div xml:id="ol96b1-c58767-Dd1e357">
+               <head xml:id="ol96b1-c58767-Hd1e359">Articulus 1</head>
+               <p xml:id="ol96b1-c58767-d1e361">
+                  <lb ed="#L" n="108"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e366">
+                  <lb ed="#L" n="109"/>Opinio S. Thomae par. I. q. 45. art. 7.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e371">
+                  <lb ed="#L" n="110"/>CIRCA primum ergo considerandum est, 
+      <lb ed="#L" n="111"/>quod aliqui dicere voluerunt, quod ratio 
+      <lb ed="#L" n="112"/>vestigij sit repraesentatio causalitatis tantum 
+      <lb ed="#L" n="113"/>absque repraesentatione formae, sicut patet, quod 
+      <lb ed="#L" n="114"/>fumus, vel adustio repraesentat ignem, vnde 
+      ra<lb ed="#L" break="no" n="115"/>tio vestigij demonstrat motum alicuius 
+      transeun<lb ed="#L" break="no" n="116"/>tis: sed non qualis ille sit, vnde secundum hoc de 
+      ra<lb ed="#L" break="no" n="117"/>tione eius sunt tria, scilicet similitudo, 
+      imperfe<lb ed="#L" break="no" n="118"/>ctio similitudinis, &amp; quod per ipsum in rem, 
+      <lb ed="#L" n="119"/>cuius est vestigium deueniatur, &amp; quia in 
+      crea<lb ed="#L" break="no" n="120"/>turis reperiuntur aliqua tria, quae non repraesen 
+      <lb ed="#L" n="121"/>tant formales rationes personarum, puta modum 
+      <lb ed="#L" n="122"/>procedendi, &amp; per modum amoris, &amp; verbi; 
+      ni<lb ed="#L" break="no" n="123"/>hilominus tamen repraesentant Trinitatem imper 
+      <lb ed="#L" n="124"/>fecte, &amp; ducunt in aliqualem notitiam, immo in 
+      <!--0184.xml-->
+      <pb ed="#L" n="184"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>eis est vestigium ad differentiam imaginis 
+      reprae<lb ed="#L" break="no" n="2"/>sentatae in anima quoad intellectum, &amp; 
+      volunta<lb ed="#L" break="no" n="3"/>tem. repraesentant enim ista modos 
+      emanatio<lb ed="#L" break="no" n="4"/>num amoris, &amp; Verbi expresse, &amp; quasi in sua 
+      <lb ed="#L" n="5"/>forma, sed hic modus dicendi videtur deficere 
+      <lb ed="#L" n="6"/>quoad tria. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e426">
+                  <lb ed="#L" n="7"/>Primo quidem, quia dicit rationem vestigij 
+      <lb ed="#L" n="8"/>consistere in repraesentatione solius causalitatis 
+      <lb ed="#L" n="9"/>ipsius causae: constat autem, quod Trinitas 
+      per<lb ed="#L" break="no" n="10"/>sonarum in ratione quaternitatis nullam 
+      causa<lb ed="#L" break="no" n="11"/>litatem habet super creaturas; quaelibet namque 
+      <lb ed="#L" n="12"/>persona causat totam creaturam quantum ad 
+      <lb ed="#L" n="13"/>omnia, &amp; iterum proprietates personales, non 
+      <lb ed="#L" n="14"/>sunt rationes productiuae, &amp; iterum, si non esset 
+      <lb ed="#L" n="15"/>in Deo, nisi vna persona, sicut imaginabantur 
+      <lb ed="#L" n="16"/>Philosophi, &amp; Pagani, adhuc reperirentur in 
+      crea<lb ed="#L" break="no" n="17"/>turis omnia, quae reperiuntur. Sed constat, quod 
+      <lb ed="#L" n="18"/>vestigium dicitur in repraesentando Trinitatem 
+      <lb ed="#L" n="19"/>personalem. ergo non consistit in 
+      repraesentatio<lb ed="#L" break="no" n="20"/>ne illius solius causalitatis. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e460">
+                  <lb ed="#L" n="21"/>Secundo vero, quia dicit, quod vestigium 
+      pe<lb ed="#L" break="no" n="22"/>dis repraesentat pedem, &amp; formam pedis, &amp; si to 
+      <lb ed="#L" n="23"/>tum animal applicetur pulueri in ambulando, 
+      si<lb ed="#L" break="no" n="24"/>cut est de serpente, tota impressio animalis 
+      pos<lb ed="#L" break="no" n="25"/>set vestigium appellari, sed tunc 
+      repraesentare<lb ed="#L" break="no" n="26"/>tur forma animalis. ergo videtur, quod non 
+      tol<lb ed="#L" break="no" n="27"/>lat rationem vestigij, si repraesentet causam 
+      se<lb ed="#L" break="no" n="28"/>cundum formam. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e480">
+                  <lb ed="#L" n="29"/>Tertio quoque, quia ait similitudinem, &amp; 
+      im<lb ed="#L" break="no" n="30"/>perfectionem, etiam ducere in notitiam alterius 
+      in<lb ed="#L" break="no" n="31"/>tegrare vestigij rationem. constat enim, quod 
+      <lb ed="#L" n="32"/>imagini competunt ista tria, cum similitudo im 
+      <lb ed="#L" n="33"/>perfecta etiam ducat in notitiam Trinitatis. 
+      er<lb ed="#L" break="no" n="34"/>go non est assignatio competens. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e496">
+                  <lb ed="#L" n="35"/>Opinio Scoti lib. I. dist. 3.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e501">
+                  <lb ed="#L" n="36"/>PROPTEREA dixerunt alij, quod vestigium, 
+      <lb ed="#L" n="37"/>l &amp; imago differunt, quia vestigium est 
+      reprae<lb ed="#L" break="no" n="38"/>sentatio partis, &amp; totius per partem arguitiue, 
+      <lb ed="#L" n="39"/>ita, quod si pars esset amputata a toto, erraret 
+      <lb ed="#L" n="40"/>aliquis circa ipsum, &amp; quia in Diuinis personae 
+      <lb ed="#L" n="41"/>sunt quasi partes, ideo vestigium attribuitur 
+      e<lb ed="#L" break="no" n="42"/>tiam creaturis penes aliqua repraesentantia 
+      ap<lb ed="#L" break="no" n="43"/>propriata personis. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e521">
+                  <lb ed="#L" n="44"/>Sed hic modus videtur deficere. constat enim, 
+      <lb ed="#L" n="45"/>quod i mago etiam est repraesentatiua Trinitatis 
+      <lb ed="#L" n="46"/>personarum, quae quidem personae sunt quasi par 
+      <lb ed="#L" n="47"/>tes: sed ratio vestigij, &amp; imaginis non sunt 
+      cae<lb ed="#L" break="no" n="48"/>dem. ergo ratio vestigij non est repraesentatio 
+      <lb ed="#L" n="49"/>totius per partem, cum idem competat imagini. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e537">
+                  <lb ed="#L" n="50"/>Et si dicatur, vt volunt aliqui, quod personae 
+      <lb ed="#L" n="51"/>sunt quasi pars superior, appropriata vero, 
+      qua<lb ed="#L" break="no" n="52"/>si pars, &amp; portio inferior, &amp; ita vestigium est, 
+      <lb ed="#L" n="53"/>quod repraesentat totum, appropriata videntur 
+      <lb ed="#L" n="54"/>quasi repraesentatio partis, hoc quidem si 
+      dica<lb ed="#L" break="no" n="55"/>tur, videtur imaginatio. constat enim, quod 
+      <lb ed="#L" n="56"/>appropriata, cum sint perfectiones simpliciter, 
+      <lb ed="#L" n="57"/>non sunt inferiora proprietatibus 
+      personali<lb ed="#L" break="no" n="58"/>bus. Et iterum posset magis imaginari, &amp; 
+      me<lb ed="#L" break="no" n="59"/>lius, quod appropriata sint, quasi desuper 
+      ve<lb ed="#L" break="no" n="60"/>nientia. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e564">
+                  <lb ed="#L" n="61"/>Praeterea: Fumus, &amp; adustio sunt vestigium 
+      <lb ed="#L" n="62"/>ignis. dicimus enim de domo combusta, quod 
+      <lb ed="#L" n="63"/>adhuc ibi remanet vestigium ignis: sed constat, 
+      <lb ed="#L" n="64"/>quod non repraesentat partem ignis. ergo illud, 
+      <lb ed="#L" n="65"/>quod prius.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e577">
+      <!--0184.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>Praeterea: Illa vnctuositas, quam derelinquit 
+      <lb ed="#L" n="67"/>serpens reptando super lapidem, vel quaedam 
+      a<lb ed="#L" break="no" n="68"/>nimalia alia, appellatur vestigium, sed 
+      con<lb ed="#L" break="no" n="69"/>stat, quod ibi non est repraesentatio partis. ergo 
+      <lb ed="#L" n="70"/>illud, quod supra. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e595">
+                  <lb ed="#L" n="71"/>Opinio quorumdam. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e600">
+                  <lb ed="#L" n="72"/>Et ideo dixerunt alij, quod vestigium 
+      reprae<lb ed="#L" break="no" n="73"/>sentat speciem, non indiuiduum, sicut 
+      pa<lb ed="#L" break="no" n="74"/>tet de vestigio aequi. potest enim perueniri ad 
+      il<lb ed="#L" break="no" n="75"/>lud, quod transiuit aequus, sed non quod talis, 
+      <lb ed="#L" n="76"/>vel talis. Imago autem repraesentat indiuiduum, 
+      <lb ed="#L" n="77"/>puta, Petrum, Paulum, vel Caesarem, &amp; quia 
+      <lb ed="#L" n="78"/>in Diuinis natura est quasi species, &amp; personae, 
+      <lb ed="#L" n="79"/>vt indiuiduum, ideo, quae repraesentant 
+      bonita<lb ed="#L" break="no" n="80"/>tem, sapientiam, &amp; caetera essentialia, quae 
+      ap<lb ed="#L" break="no" n="81"/>propriantur personis, dicuntur habere rationem 
+      <lb ed="#L" n="82"/>vestigij: amor autem, &amp; conceptus mentis 
+      ra<lb ed="#L" break="no" n="83"/>tionem imaginis, quia distincte repraesentant 
+      <lb ed="#L" n="84"/>personas. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e631">
+                  <lb ed="#L" n="85"/>Sed hic modus dicendi deficit in duobus.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e636">
+                  <lb ed="#L" n="86"/>Primo, quod ait, vestigium tantummodo 
+      spe<lb ed="#L" break="no" n="87"/>ciem repraesentare. constat enim, quod 
+      cogno<lb ed="#L" break="no" n="88"/>scens quantitatem, &amp; formam pedis equi 
+      parti<lb ed="#L" break="no" n="89"/>cularis, aliquando deuenit in notitiam talis equi 
+      <lb ed="#L" n="90"/>ex vestigio, vnde videmus inuestigatores cogno 
+      <lb ed="#L" n="91"/>scere aliquando, quis equus, aut quis homo tran 
+      <lb ed="#L" n="92"/>siuit, &amp; iterum ex odore tamquam ex vestigio, 
+      <lb ed="#L" n="93"/>sic ducitur canis in ceruum, vt si occurrat 
+      vesti<lb ed="#L" break="no" n="94"/>gium alterius cerui, semper insequitur primum, 
+      <lb ed="#L" n="95"/>&amp; derelinquit secundum, vt attestantur 
+      vena<lb ed="#L" break="no" n="96"/>tores, vnde ex imperfectione nostrae notitiae est, 
+      <lb ed="#L" n="97"/>quod vestigium non ducat in cognitionem 
+      indi<lb ed="#L" break="no" n="98"/>uidui, sed tantummodo speciei. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e668">
+                  <lb ed="#L" n="99"/>Secundo vero deficit, quod ait de imagine, 
+      <lb ed="#L" n="100"/>quod repraesentat indiuiduum. constat enim, 
+      <lb ed="#L" n="101"/>quod fuerunt imagines auium, &amp; quadrupedum 
+      <lb ed="#L" n="102"/>&amp; per eas non ducitur homo in notitiam 
+      alicu<lb ed="#L" break="no" n="103"/>ius indiuidui, sed speciei solius. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e681">
+                  <lb ed="#L" n="104"/>Praeterea: Quod dixerunt alij, quod vestigium 
+      <lb ed="#L" n="105"/>est in carentibus ratione, imago autem in 
+      ratio<lb ed="#L" break="no" n="106"/>nalibus tantum. intellectus enim, &amp; voluntas, 
+      <lb ed="#L" n="107"/>ex quibus integratur imago, bonitas autem, &amp; 
+      <lb ed="#L" n="108"/>species, &amp; ordo, &amp; similia, reperiuntur in omni 
+      <lb ed="#L" n="109"/>creatura. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e697">
+                  <lb ed="#L" n="110"/>Sed hic modus dicendi etiam deficit: nam 
+      di<lb ed="#L" break="no" n="111"/>stinctio non debet accipi penes materiam: 
+      con<lb ed="#L" break="no" n="112"/>stat enim, quod sphaera eiusdem rationis, siue 
+      <lb ed="#L" n="113"/>fiat in cupro, siue in aere, &amp; iterum vestigium 
+      <lb ed="#L" n="114"/>inuenitur in intellectualibus, sicut patet. non 
+      er<lb ed="#L" break="no" n="115"/>go imago, &amp; vestigium penes hoc differebant. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e713">
+                  <lb ed="#L" n="116"/>Propter quod alij dicere voluerunt, quod ima 
+      <lb ed="#L" n="117"/>go dicitur similitudo repraesentans totum, &amp; par 
+      <lb ed="#L" n="118"/>tes, distinctionem, distantiam, &amp; habitudinem 
+      <lb ed="#L" n="119"/>partium, &amp; quia intellectus, &amp; voluntas sic se 
+      <lb ed="#L" n="120"/>habent ad personas, idcirco consistit in eis 
+      ima<lb ed="#L" break="no" n="121"/>go, vestigium autem repraesentat, &amp; confuse, &amp; 
+      <lb ed="#L" n="122"/>indistincte, nec etiam habitudinem partium 
+      <lb ed="#L" n="123"/>aut distantiam, &amp; quantitatem. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e733">
+                  <lb ed="#L" n="124"/>Sed nec ille modus est competens: tum quia 
+      <lb ed="#L" n="125"/>magis, &amp; minus non variant species, vt 
+      Philoso<lb ed="#L" break="no" n="126"/>phus dicit primo Politic. tum quia videmus in 
+      <lb ed="#L" n="127"/>vestigio leporis, vel pedis humani, quod 
+      reprae<lb ed="#L" break="no" n="128"/>sentantur digiti, &amp; distantia, ac quantitas, &amp; 
+      <lb ed="#L" n="129"/>mutua habitudo. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e749">
+      <!--0185.xml-->
+                  <pb ed="#L" n="185"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quid sit vestigium, &amp; imago, iuxia id, quod 
+      <lb ed="#L" n="2"/>videtur. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e763">
+                  <lb ed="#L" n="3"/>DEINDE ergo dicendum est, quod differunt 
+      <lb ed="#L" n="4"/>vestigium, &amp; imago, &amp; in modo ducendi 
+      <lb ed="#L" n="5"/>in notitiam, quia vestigium ducit arguitiue, &amp; 
+      <lb ed="#L" n="6"/>per modum effectus, imago autem 
+      repraesenta<lb ed="#L" break="no" n="7"/>tiúe, &amp; per modum similitudinis, &amp; differunt 
+      <lb ed="#L" n="8"/>quantum ad illud, quod sunt: nam imago de 
+      ra<lb ed="#L" break="no" n="9"/>tione sua est similitudo, &amp; accidit sibi, quod sit 
+      <lb ed="#L" n="10"/>impressa ab eo, cuius est similitudo; vestigium 
+      <lb ed="#L" n="11"/>autem de ratione sua non est, nisi impressio, &amp; 
+      ac<lb ed="#L" break="no" n="12"/>cidit sibi, quod sit similitudo, vt sic vestigium sit 
+      <lb ed="#L" n="13"/>impressio quaecumque ducens in aliqualem noti 
+      <lb ed="#L" n="14"/>tiam imprimentis, dicitur autem quaecumque. 
+      <lb ed="#L" n="15"/>non enim oportet, quod sit similitudo: nam 
+      adu<lb ed="#L" break="no" n="16"/>stio, vel fumus, dicuntur ignis vestigium, &amp; 
+      simi<lb ed="#L" break="no" n="17"/>liter odor leporis, nec tamen sibi asfimilatur, 
+      <lb ed="#L" n="18"/>nec oportet, quod sit figura per necessitatem, 
+      <lb ed="#L" n="19"/>quamuis aliquando sit, vt in vestigio pedis, nec 
+      <lb ed="#L" n="20"/>quod sit quantitas, aut qualitas, sicut patet, quod 
+      <lb ed="#L" n="21"/>aliquando humor vnctuosus, repraesentat 
+      vesti<lb ed="#L" break="no" n="22"/>gium animalis viscosi, &amp; idcirco, quaecumque 
+      <lb ed="#L" n="23"/>impressio habet rationem vestigij. Additur autem, 
+      <lb ed="#L" n="24"/>quod ducat in qualemcumque notitiam, siue 
+      in<lb ed="#L" break="no" n="25"/>diuidui, siue speciei. aliquando enim sic ducit, &amp; 
+      <lb ed="#L" n="26"/>aliquando sic, quod est maior, &amp; fortior vis distin 
+      <lb ed="#L" n="27"/>ctiua, &amp; cognitiua in inuestigante, imago autem per 
+      <lb ed="#L" n="28"/>oppositum est similitudo, repraesentatiue ducens 
+      <lb ed="#L" n="29"/>in aliud: dicitur autem similitudo, quia non 
+      quod<lb ed="#L" break="no" n="30"/>cumque iudicium est imago, nisi assimiletur in 
+      <lb ed="#L" n="31"/>quantitate distincta, &amp; habitudine partium, nec 
+      <lb ed="#L" n="32"/>oportet, quod sit impressio eius, cuius imago est. non 
+      <lb ed="#L" n="33"/>enim imagines Caesaris, aut Petri, aut Pauli 
+      fue<lb ed="#L" break="no" n="34"/>runt impressae ab eis, &amp; si aliquando contingat, quod 
+      <lb ed="#L" n="35"/>imprimatur, tunc erit simul vestigium, &amp; imago, 
+      <lb ed="#L" n="36"/>sicut forte facies Christi, quae Veronica 
+      appella<lb ed="#L" break="no" n="37"/>tur, potest dici vestigium, &amp; imago, vestigium 
+      <lb ed="#L" n="38"/>inquantum impressa, imago inquantum similitu 
+      <lb ed="#L" n="39"/>do repraesentatiua. Additur autem, quod ducat 
+      <lb ed="#L" n="40"/>in notitiam repraesentatiuae, non arguitiue tantum, 
+      <lb ed="#L" n="41"/>sicut vestigium, vnde facit imaginari 
+      repraesen<lb ed="#L" break="no" n="42"/>tatum, vt sic cognitio, quae colligitur ex imagine 
+      <lb ed="#L" n="43"/>sit formatio imaginaria similitudinis: notitia ve 
+      <lb ed="#L" n="44"/>ro vestigij, sit arguitiua deductio, per quam 
+      qua<lb ed="#L" break="no" n="45"/>liter sit imaginari, non contingit quantum est 
+      <lb ed="#L" n="46"/>ex ratione vestigij. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e861">
+                  <lb ed="#L" n="47"/>Ad propositum ergo dicendum, quod cum 
+      in<lb ed="#L" break="no" n="48"/>tellectus, &amp; voluntas clare ducant, per modum 
+      <lb ed="#L" n="49"/>repraesentatiuae similitudinis, ad imaginandum 
+      <lb ed="#L" n="50"/>intellectualiter Trinitatem, vt infra dicetur, idcir 
+      <lb ed="#L" n="51"/>co in eis consistit imago, quia vero perfectiones 
+      <lb ed="#L" n="52"/>repertae in creaturis, puta vnitas, veritas, 
+      boni<lb ed="#L" break="no" n="53"/>tas arguitiue deducunt, quod in Deo est aliquid maxi 
+      <lb ed="#L" n="54"/>mum, scilicet Pater, a quo profluit omnis multitu 
+      <lb ed="#L" n="55"/>do, &amp; aliqua summa vnitas, &amp; summa species, &amp; 
+      <lb ed="#L" n="56"/>pulchritudo, quae est Filius, &amp; aliqua summa 
+      sua<lb ed="#L" break="no" n="57"/>uitas, quaeest Spiritus sanctus, nec tamen ducunt 
+      <lb ed="#L" n="58"/>ad clare illud imaginandum, nec per rationem simili 
+      <lb ed="#L" n="59"/>tudinis, sed solius impressionis, non quidem a perso 
+      <lb ed="#L" n="60"/>nis, sed ab illo, in quo personae sunt, ideo vestigium 
+      <lb ed="#L" n="61"/>appellantur, &amp; si uicatur, quod ducunt per 
+      mo<lb ed="#L" break="no" n="62"/>dum alicuius similitudinis, vt sicut in creatis est 
+      <lb ed="#L" n="63"/>vnitas, ata in Creatore, dicendum, quod 
+      vesti<lb ed="#L" break="no" n="64"/>gium sic habet rationem imperfectae imaginis, sed 
+      <lb ed="#L" n="65"/>tota ratio vestigij consistit, quia potest probari, 
+      <!--0185.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>ex quo veritas, &amp; vnitas sunt perfectiones, quae 
+      <lb ed="#L" n="67"/>multo fortius sunt in creatore, &amp; perfectius, simi 
+      <lb ed="#L" n="68"/>liter etiam licet partes imaginis possint 
+      ar<lb ed="#L" break="no" n="69"/>guitiue deducere, &amp; ita habere rationem 
+      vesti<lb ed="#L" break="no" n="70"/>gij, nihilominus hoc accidit eis, inquantum par 
+      <lb ed="#L" n="71"/>tes imaginis, vt superius dicebatur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c58767-Dd1e923">
+               <head xml:id="ol96b1-c58767-Hd1e925">Articulus 2</head>
+               <p xml:id="ol96b1-c58767-d1e927">
+                  <lb ed="#L" n="72"/>ARTJCVLVS SECVNDVS.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e932">
+                  <lb ed="#L" n="73"/>In quibus sit vestigium. Opinio S. Thomae in 
+      <lb ed="#L" n="74"/>Summa, vbi supra. 
+      <lb ed="#L" n="75"/>
+                  <!-- line coord error -->
+               </p>
+               <p xml:id="ol96b1-c58767-d1e943">
+                  <lb ed="#L" n="76"/>CIRCA secundum dixerunt aliqui, quod 
+      ra<lb ed="#L" break="no" n="77"/>tio vestigij non inuenitur in accidentibus, 
+      <lb ed="#L" n="78"/>sed in substantiis tantum, quod apparet 
+      duplici<lb ed="#L" break="no" n="79"/>ter. Primo, quia substantiae, cum sint res subsisten 
+      <lb ed="#L" n="80"/>tes habent proprie rationem creaturae: 
+      acciden<lb ed="#L" break="no" n="81"/>tia vero non, cum sint inhaerentia, nec habentia 
+      es<lb ed="#L" break="no" n="82"/>se, nisi dependens a substantia. Secundo vero, quia 
+      <lb ed="#L" n="83"/>accidentia magis sunt modi, &amp; ordines 
+      substan<lb ed="#L" break="no" n="84"/>tiarum penes, quae vestigium attenditur, quam 
+      ha<lb ed="#L" break="no" n="85"/>beant ordinem, modum, vel speciem, vnde Aug. 
+      di<lb ed="#L" break="no" n="86"/>cit, quod species corporum sunt figurae, vel qualitates, 
+      <lb ed="#L" n="87"/>doctrinae autem, &amp; artes species animarum; ordo au 
+      <lb ed="#L" n="88"/>tem in corporibus sunt collocationes, &amp; 
+      ponde<lb ed="#L" break="no" n="89"/>ra, in animabus autem amores, &amp; delectationes.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e976">
+                  <lb ed="#L" n="90"/>Sed haec opinio stare non potest. constat enim, 
+      <lb ed="#L" n="91"/>quod in specie, numero, &amp; ordine consistit vestigium, 
+      <lb ed="#L" n="92"/>secundum August. sed albedo habet suum 
+      nume<lb ed="#L" break="no" n="93"/>rum, cum sit vna, &amp; suam speciem, cum sit forma, &amp; 
+      <lb ed="#L" n="94"/>suum ordinem, cum inclinetur ad operationem propriam, 
+      <lb ed="#L" n="95"/>quae est disgregare. ergo in albedine ratiovestigii 
+      <lb ed="#L" n="96"/>reperitur, quae tamen non est indiuiduum substantiae. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e995">
+                  <lb ed="#L" n="97"/>Praeterea: Penes substantiam, virtutem, &amp; 
+      opera<lb ed="#L" break="no" n="98"/>tionem ponitur aliqua assignatio vestigij, sed con 
+      <lb ed="#L" n="99"/>stat, quod in accidentibus est essentialis realitas, 
+      <lb ed="#L" n="100"/>virtus, &amp; operatio. ergo ibi est ratio vestigij. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1006">
+                  <lb ed="#L" n="101"/>Praeterea: Vnitas, bonitas, &amp; veritas reperiun 
+      <lb ed="#L" n="102"/>tur in accidentibus: in istis autem est ratio vestigij, 
+      <lb ed="#L" n="103"/>secundum vnam assignationem. ergo illud, quod prius. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1015">
+                  <lb ed="#L" n="104"/>Praeterea: Ordo, &amp; modus, seu species, vnum 
+      <lb ed="#L" n="105"/>sunt, in quibus ratio vestigij consistit secundum 
+      <lb ed="#L" n="106"/>Aug. sed Comment. demonstrat, quod vnum non 
+      <lb ed="#L" n="107"/>est accidens enti, &amp; quod potentiae naturales, quae 
+      <lb ed="#L" n="108"/>sunt inclinationes ad operationes proprias non 
+      <lb ed="#L" n="109"/>sunt aliud a substantialibus formis. constat etiam, 
+      <lb ed="#L" n="110"/>quod species substantialis non est aliud a forma, 
+      <lb ed="#L" n="111"/>ergo non est verum, quod ista positio dicit 
+      mo<lb ed="#L" break="no" n="112"/>dum, ordinem, &amp; numerum, &amp; alias partes vesti 
+      <lb ed="#L" n="113"/>gij attendi, penes accidentia. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1039">
+                  <lb ed="#L" n="114"/>Dicendum ergo, quod sicut se habent res ad 
+      <lb ed="#L" n="115"/>entitatem, sic se habent ad vestigium, &amp; ideo pri 
+      <lb ed="#L" n="116"/>ma materia, &amp; accidentia, &amp; omnia, quae sunt, 
+      <lb ed="#L" n="117"/>sunt vestigium Trinitatis, nihilominus principa 
+      <lb ed="#L" n="118"/>liter substantia, sicut principaliter est. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1052">
+                  <lb ed="#L" n="119"/>Nec obuiant supra inducta, primum, non, quia 
+      <lb ed="#L" n="120"/>non probat, nisi quod principale vestigium est in 
+      <lb ed="#L" n="121"/>substantia, sicut est principale ens, &amp; 
+      principa<lb ed="#L" break="no" n="122"/>liter causatum. secundum vero non, quia non est 
+      <lb ed="#L" n="123"/>verum, quod accidentia sunt ordines, aut 
+      spe<lb ed="#L" break="no" n="124"/>cies, sicut assumit, &amp; quod de Augustino 
+      induci<lb ed="#L" break="no" n="125"/>tur, dicendum est, quod substantia, &amp; habet mo 
+      <lb ed="#L" n="126"/>dum, &amp; speciem essentialem, &amp; similiter acciden 
+      <lb ed="#L" n="127"/>talem. nihil ergo prohibet, quod accidentia sint 
+      <lb ed="#L" n="128"/>modi accidentales substantiae, sed praeter hoc ha 
+      <lb ed="#L" n="129"/>bet substantia suum substantialem modum, aut 
+      nume<lb ed="#L" break="no" n="130"/>rum, a quibus habet, quod sit vestigium Trinitatis. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c58767-Dd1e1082">
+               <head xml:id="ol96b1-c58767-Hd1e1084">Articulus 3</head>
+               <p xml:id="ol96b1-c58767-d1e1086">
+      <!--0186.xml-->
+                  <pb ed="#L" n="186"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTJCVLVS TERTJVS. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1097">
+                  <lb ed="#L" n="2"/>Penes, quae attenditur ratio vestigij. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1102">
+                  <lb ed="#L" n="3"/>CIRCA tertium autem considerandum, quod 
+      <lb ed="#L" n="4"/>penes diuersos trinarios potest Trinitatis 
+      <lb ed="#L" n="5"/>vestigium assignari, vt penes illum trinarium, 
+      <lb ed="#L" n="6"/>substantia, virtus, &amp; operatio, &amp; illud 
+      princi<lb ed="#L" break="no" n="7"/>pium, medium, &amp; finis, quos Philosophus ponit 
+      <lb ed="#L" n="8"/>primo caeli, &amp; mundi. &amp; penes illum, numerus, 
+      <lb ed="#L" n="9"/>pondus, &amp; mensura, qui ponitur Sapient. 10. &amp; 
+      <lb ed="#L" n="10"/>penes illum, vnitas, species, &amp; ordo, quem 
+      Augu<lb ed="#L" break="no" n="11"/>stinus ponit 6. de Trinit. in libro autem de natu 
+      <lb ed="#L" n="12"/>ra boni, loco vnitatis ponit modum, &amp; penes 
+      il<lb ed="#L" break="no" n="13"/>lum, quod constat, quod discernitur, quod 
+      con<lb ed="#L" break="no" n="14"/>gruit, quem Augustinus ponit in libro. 83. 
+      quae<lb ed="#L" break="no" n="15"/>stionum. &amp; sic de multis aliis trinariis, qui 
+      pos<lb ed="#L" break="no" n="16"/>sunt varie reperiri. Et idcirco danda est hic 
+      <lb ed="#L" n="17"/>regula generalis, quod omnes perfectiones 
+      sim<lb ed="#L" break="no" n="18"/>pliciter, quae possunt ad trinarium reduci sub 
+      <lb ed="#L" n="19"/>quadam connexione mutua, &amp; quae repraesentant 
+      <lb ed="#L" n="20"/>appropriata personis, constituunt rationem 
+      v<lb ed="#L" break="no" n="21"/>nius vestigialis trinarij, vt patet, quod a substan 
+      <lb ed="#L" n="22"/>tia procedit virtus, sicut a Patre Filius, &amp; a 
+      sub<lb ed="#L" break="no" n="23"/>stantia, &amp; virtute procedit operatio, sicut Spiri 
+      <lb ed="#L" n="24"/>tus sanctus a Patre, &amp; a Filio, idcirco ille 
+      trina<lb ed="#L" break="no" n="25"/>rius vestigialis est, &amp; similiter quia Pater 
+      princi<lb ed="#L" break="no" n="26"/>pium, Filius medium, Spiritus sanctus persona 
+      <lb ed="#L" n="27"/>vltima, &amp; finalis; ideo iste secundus trinarius 
+      per<lb ed="#L" break="no" n="28"/>tinet ad vestigium. Adhuc quia Pater habet 
+      ra<lb ed="#L" break="no" n="29"/>tionem vnius, a quo profluit omnis numerus: 
+      Fi<lb ed="#L" break="no" n="30"/>lius autem speciei, &amp; imaginis, &amp; Spiritus 
+      san<lb ed="#L" break="no" n="31"/>ctus ordinis, &amp; inclinationis, cum sit benignitas, 
+      <lb ed="#L" n="32"/>&amp; donum, penes tertium trinarium attenditur 
+      <lb ed="#L" n="33"/>vestigium, &amp; sic de aliis. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1172">
+                  <lb ed="#L" n="34"/>Est autem considerandum, quod ad vnum, ve 
+      <lb ed="#L" n="35"/>rum, &amp; bonum, quasi omnes illae assignationes re 
+      <lb ed="#L" n="36"/>duci possunt, maxime illae Augustini. quod enim 
+      <lb ed="#L" n="37"/>vnitas ad hoc pertineat, patet: species autem, &amp; 
+      <lb ed="#L" n="38"/>pulchritudo ipsa est veritas. vnde Augustinus de 
+      <lb ed="#L" n="39"/>vera relig. dicit, quod perfecta pulchritudo 
+      in<lb ed="#L" break="no" n="40"/>telligitur Filius, veritas Patris. nulla enim ex 
+      <lb ed="#L" n="41"/>parte dissimilis; ordo autem ipse bonitas est: bonum 
+      <lb ed="#L" n="42"/>enim in ordine consistit, vnde quaelibet 
+      creatu<lb ed="#L" break="no" n="43"/>ra ex hoc bona est, quod ad aliquid ordinatur: 
+      <lb ed="#L" n="44"/>alia vero assignatio etiam reducitur ad idem: 
+      <lb ed="#L" n="45"/>nam quod constat, &amp; solidum est, constat per 
+      v<lb ed="#L" break="no" n="46"/>nitatem: quod autem discernitur, discernitur 
+      <lb ed="#L" n="47"/>per vnitatem: quod autem congruit, congruit 
+      <lb ed="#L" n="48"/>per ordinem, &amp; bonitatem. tertia vero 
+      assigna<lb ed="#L" break="no" n="49"/>tio Sapientis redit in idem: omnia namque sunt 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c58767-Dd1e1210">
+               <head xml:id="ol96b1-c58767-Hd1e1212">Articulus 4</head>
+               <p xml:id="ol96b1-c58767-d1e1214">
+                  <lb ed="#L" n="50"/>ARTJCVLVS QVARTVS.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1219">
+                  <lb ed="#L" n="51"/>Quomodo distinguuntur ea penes, quae attenditur 
+      <lb ed="#L" n="52"/>vestigium. opinio S. Thomae prima parte 
+      <lb ed="#L" n="53"/>quaest. 44. art. 7. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1228">
+                  <lb ed="#L" n="54"/>CIRCA quartum autem dixerunt aliqui, quod 
+      <lb ed="#L" n="55"/>vnitas, veritas, bonitas, siue modus, 
+      spe<lb ed="#L" break="no" n="56"/>cies, &amp; ordo realiter distinguuntur, &amp; inter se, &amp; 
+      <lb ed="#L" n="57"/>a vestigatio, vnde sunt accidentia eius: hoc 
+      au<lb ed="#L" break="no" n="58"/>tem stare non potest, tum quia quaelibet res, ex 
+      <lb ed="#L" n="59"/>quo causata est, habet ista, &amp; idcirco, si quaelibet 
+      <lb ed="#L" n="60"/>illarum est res, procedetur in infinitum, quia 
+      <lb ed="#L" n="61"/>quaelibet habebit illa tria in se: tum quia absque 
+      <lb ed="#L" n="62"/>constituta in numero vnitatis, in pondere 
+      boni<lb ed="#L" break="no" n="63"/>tatis, &amp; ordinis, &amp; mensura veritatis. 
+      <!--0186.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>contradictione Deus potest substantiam omni 
+      <lb ed="#L" n="65"/>accidente spoliare, &amp; cum constat, quod adhùc 
+      <lb ed="#L" n="66"/>remanet creatura, sequitur, quod in ea sit 
+      vesti<lb ed="#L" break="no" n="67"/>gium Trinitatis: tum quia supra dictum est, quod 
+      <lb ed="#L" n="68"/>quaelibet substantia per essentiam suam est vna, &amp; 
+      <lb ed="#L" n="69"/>per essentiam suam intelligitur, &amp; ideo vera, &amp; spe 
+      <lb ed="#L" n="70"/>ciem habens per essentiam, &amp; diligibilis, &amp; ordi 
+      <lb ed="#L" n="71"/>nata ad aliquid, &amp; ideo bona, &amp; ordinem tenens. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1274">
+                  <lb ed="#L" n="72"/>Et propter hoc dixerunt aliqui, quod 
+      distin<lb ed="#L" break="no" n="73"/>guuntur formaliter. &amp; ex natura rei, sic, quod 
+      <lb ed="#L" n="74"/>aliud quidditatiue est bonitas, aliud vnitas, 
+      <lb ed="#L" n="75"/>&amp; sunt haec omnia in vna re simplici eadem 
+      <lb ed="#L" n="76"/>realiter, formaliter tamen distincta. De 
+      vnita<lb ed="#L" break="no" n="77"/>te tamen in speciali, quod sit aliquid positiuum, 
+      <lb ed="#L" n="78"/>&amp; non pura priuatio, probatur: tum quia nume 
+      <lb ed="#L" n="79"/>rus in abstracto est aliquid positiuum: 
+      constitui<lb ed="#L" break="no" n="80"/>tur autem ex vnitatibus in abstracto, quare 
+      <lb ed="#L" n="81"/>oportet, quod vnitas in abstracto sit aliquid 
+      po<lb ed="#L" break="no" n="82"/>sitiuum; vnde qui imaginatur numerum in 
+      ab<lb ed="#L" break="no" n="83"/>stracto, non concipit vnitates per modum purae 
+      <lb ed="#L" n="84"/>priuationis: tum quia rationi vnius competit 
+      <lb ed="#L" n="85"/>mensurare, ratio autem mensurae formaliter non 
+      <lb ed="#L" n="86"/>potest esse negatiua: tum quia vnitas secundum 
+      <lb ed="#L" n="87"/>suam rationem dicit perfectionem simpliciter, 
+      <lb ed="#L" n="88"/>nulla autem priuatio est porfectio simpliciter: 
+      <lb ed="#L" n="89"/>tum quia multitudo, &amp; vnitas opponuntur, sicut 
+      <lb ed="#L" n="90"/>habitus, &amp; priuatio, vt dicitur 1o. Metaph. mul 
+      <lb ed="#L" n="91"/>titudo autem non potest esse habitus, cum sit 
+      i<lb ed="#L" break="no" n="92"/>gnobilior vnitate. ergo vnitas addit rationem 
+      <lb ed="#L" n="93"/>positiuam rei, &amp; similiter veritas, &amp; bonitas, &amp; 
+      <lb ed="#L" n="94"/>cum constet, quod non distinguantur realiter, 
+      <lb ed="#L" n="95"/>vt supra probatum est, restat, quod solum 
+      ratio<lb ed="#L" break="no" n="96"/>nibus suis formalibus distinguantur, quae insint 
+      <lb ed="#L" n="97"/>ex natura rei. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1334">
+                  <lb ed="#L" n="98"/>Haec autem opinio, quoad illud, quod ponit in 
+      <lb ed="#L" n="99"/>eadem re simplici aliqua ex natura rei distingui 
+      <lb ed="#L" n="100"/>dimittatur ad praesens, sed quoad illud, quod 
+      propo<lb ed="#L" break="no" n="101"/>situm praesens tangit, non videtur habere verita 
+      <lb ed="#L" n="102"/>tem, videlicet, quod vnitas sit aliqua ratio 
+      posi<lb ed="#L" break="no" n="103"/>tiua distincta formaliter ab entitate rei, &amp; a 
+      ve<lb ed="#L" break="no" n="104"/>ritate, &amp; a bonitate. illud enim, quod 
+      concipi<lb ed="#L" break="no" n="105"/>tur, vt indistinctum in se, &amp; distincttum a 
+      quoli<lb ed="#L" break="no" n="106"/>bet alio, concipitur vt vnum, vt patet 4. Metaph. 
+      <lb ed="#L" n="107"/>Sed si ratio entitatis est alia formaliter, &amp; ratio 
+      <lb ed="#L" n="108"/>veritatis est alia formaliter, &amp; positiua, &amp; 
+      simi<lb ed="#L" break="no" n="109"/>liter ratio bonitatis, &amp; ratio vnitatis in re sunt 
+      <lb ed="#L" n="110"/>quatuor, quae concipiuntur, vt indiuisa in se, sin 
+      <lb ed="#L" n="111"/>gula in se ipsis, diuisa autem, atque distincta 
+      in<lb ed="#L" break="no" n="112"/>ter se. ergo quodlibet eorum concipitur vt vnum. 
+      <lb ed="#L" n="113"/>Impossibile est autem aliquid concipi, vt vnum, 
+      <lb ed="#L" n="114"/>circumscripta vnitate. ergo vnitas, quae 
+      distin<lb ed="#L" break="no" n="115"/>guitur vt ratio positiua ab entitate, non 
+      distin<lb ed="#L" break="no" n="116"/>guitur ab entitate, immo includitur in ea, 
+      vn<lb ed="#L" break="no" n="117"/>de patet, quod est contradictio in his dictis, 
+      scili<lb ed="#L" break="no" n="118"/>cet, quod vnitas sit ratio positiua distincta ab 
+      en<lb ed="#L" break="no" n="119"/>titate, &amp; econuerso. In hoc enim, quod ponitur 
+      <lb ed="#L" n="120"/>entitas formaliter, distinguitur ab vnitate, 
+      poni<lb ed="#L" break="no" n="121"/>tur quod habet vnitatem in se, &amp; si dicatur, quod 
+      <lb ed="#L" n="122"/>illa est alia vnitas, quam prima, tunc quaeretur, 
+      <lb ed="#L" n="123"/>qualiter ista vnitas entitatis se habet ad 
+      entita<lb ed="#L" break="no" n="124"/>tem. aut enim est formaliter distincta ab ea, &amp; sic 
+      <lb ed="#L" n="125"/>procedetur in infinitum, aut non formaliter 
+      distin<lb ed="#L" break="no" n="126"/>cta, &amp; sic habetur propositum, quia idem est de 
+      prio<lb ed="#L" break="no" n="127"/>ri vnitate, immo non est in entitate alia vnitas, 
+      <lb ed="#L" n="128"/>quam prima. vnde patet, quod demonstratio 
+      Com<lb ed="#L" break="no" n="129"/>ment. ita procedit, si ponatur vnitas, formalitas 
+      <lb ed="#L" n="130"/>positiua addita enti, sicut si ponatur realitas. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1408">
+      <!--0187.xml-->
+                  <pb ed="#L" n="187"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Praeterea: Idem patet de veritate. omne enim, 
+      <lb ed="#L" n="2"/>quod potest se manifestare intellectui est verum: 
+      <lb ed="#L" n="3"/>sed si entitas, &amp; veritas formaliter distinguuntur, 
+      <lb ed="#L" n="4"/>entitas sine veritate potest concipi, &amp; intellectui 
+      <lb ed="#L" n="5"/>manifestari. ergo entitas sine veritate erit vera, 
+      <lb ed="#L" n="6"/>quod est contradictio manifesta, quod si dicatur, 
+      <lb ed="#L" n="7"/>quod erit illa alia vnitas, tunc procedetur in 
+      in<lb ed="#L" break="no" n="8"/>finitum, vt prius dictumest de vnitate, &amp; iterum 
+      <lb ed="#L" n="9"/>plures vnitates in vnare, vel forte infinitae. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1437">
+                  <lb ed="#L" n="10"/>Praeterea: Omne illud est bonum, quod potest 
+      <lb ed="#L" n="11"/>appeti, &amp; amari, nam omnia bonum appetunt, pri 
+      <lb ed="#L" n="12"/>mo enti, sed si bonitas est aliqua ratio positiua 
+      <lb ed="#L" n="13"/>distincta ab entitate formaliter, entitas, vt distiu 
+      <lb ed="#L" n="14"/>cta potest amari. multi enim amant, &amp; volunt, 
+      <lb ed="#L" n="15"/>quod entitas sit formalitas distincta a bonitate, 
+      <lb ed="#L" n="16"/>immo pugnant pro hac opinione, tamquam pro 
+      <lb ed="#L" n="17"/>re affectata. ergo formalitas entitatis potest 
+      a<lb ed="#L" break="no" n="18"/>mari sine bonitate, &amp; per consequens sine 
+      ama<lb ed="#L" break="no" n="19"/>bilitate, cum bonitas sit ratio appetendi. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1461">
+                  <lb ed="#L" n="20"/>Et ob hoc alij dicere voluerunt, quod 
+      distin<lb ed="#L" break="no" n="21"/>guuntur ab opere intellectus, operantis rem ad 
+      <lb ed="#L" n="22"/>intellectum, &amp; voluntatem, &amp; ad aliqua alia, &amp; 
+      <lb ed="#L" n="23"/>sic habet rationem veri, &amp; boni. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1472">
+                  <lb ed="#L" n="24"/>Sed illud stare non potest, tum quia bonum, 
+      <lb ed="#L" n="25"/>&amp; malum sunt in rebus, etiam circumscripto 
+      a<lb ed="#L" break="no" n="26"/>ctu intellectus, vt Philosophus dicit 6. Metaph. 
+      <lb ed="#L" n="27"/>tum quia bonum, &amp; perfectum idem sunt: res 
+      au<lb ed="#L" break="no" n="28"/>tem sunt perfectae, circumscripto omni actu 
+      in<lb ed="#L" break="no" n="29"/>tellectus: tum quia bonum est, quod 
+      ama<lb ed="#L" break="no" n="30"/>tur, &amp; appetitur: terra autem appetit centrum, 
+      <lb ed="#L" n="31"/>tamquam sibi bonum, circumscripto actu 
+      intel<lb ed="#L" break="no" n="32"/>lectus: tum quia verum est, quod est 
+      manifesta<lb ed="#L" break="no" n="33"/>tum intellectui. ergo vnitas praecedit omnem 
+      <lb ed="#L" n="34"/>actum intellectus, &amp; multa alia, quae sequuntur 
+      <lb ed="#L" n="35"/>ad istam positionem. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1501">
+                  <lb ed="#L" n="36"/>Quomodo distinguuntur ea penes, quae attenditur 
+      <lb ed="#L" n="37"/>vestigium secundum veritatem. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1509">
+                  <lb ed="#L" n="38"/>RESTAT ergo dicere, quod videtur sub 
+      tri<lb ed="#L" break="no" n="39"/>A bus propositionibus.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1516">
+                  <lb ed="#L" n="40"/>Prima quidem, quod nec realiter re absoluta, nec 
+      <lb ed="#L" n="41"/>respectiua, nec formaliter ex natura rei, nec 
+      ra<lb ed="#L" break="no" n="42"/>tione aliqua positiua, apprehensa circa rem, 
+      ve<lb ed="#L" break="no" n="43"/>ritas, bonitas vnitas distinguuntur, quod quidem 
+      <lb ed="#L" n="44"/>sic patet. illud enim est impossibile, ex quo de 
+      <lb ed="#L" n="45"/>necessitate sequitur effectum formalem esse, siue 
+      <lb ed="#L" n="46"/>formaliter concipi sine forma: impossibile est 
+      <lb ed="#L" n="47"/>enim rectum esse, vel intelligi sine rectitudine, 
+      <lb ed="#L" n="48"/>sed si vnitas ponitur distingui re absoluta, vel 
+      <lb ed="#L" n="49"/>relatiua a lapideitate, contingit concipi 
+      lapidei<lb ed="#L" break="no" n="50"/>tatem vnam sine vnitate. ex quo enim 
+      distingui<lb ed="#L" break="no" n="51"/>tur ab vnitate, tãquam a re, concipietur, vt 
+      indi<lb ed="#L" break="no" n="52"/>uisa in se, &amp; indistincta ab vnitate, &amp; per 
+      conse<lb ed="#L" break="no" n="53"/>quens vnum, quia vnum est indiuisum in se, &amp; 
+      di<lb ed="#L" break="no" n="54"/>uisum ab alio quocumque, similiter si veritas est 
+      <lb ed="#L" n="55"/>res absoluta, vel relatiua, addita lapideitati, ali 
+      <lb ed="#L" n="56"/>quid erit verum sine veritate. constat enim, quod 
+      <lb ed="#L" n="57"/>intellectus rem entitatis distinguit contra rem 
+      <lb ed="#L" n="58"/>vnitatis, &amp; sic entitatem concipit, vt quoddam 
+      <lb ed="#L" n="59"/>distinctum a veritate: omne autem, quod 
+      distin<lb ed="#L" break="no" n="60"/>cte concipitur, verum est. entitas ergo vera est sine 
+      <lb ed="#L" n="61"/>veritate, &amp; vt distinguitur ab ea. Similiter si 
+      bo<lb ed="#L" break="no" n="62"/>nitas est res alia ab entitate, vel absoluta, vel 
+      re<lb ed="#L" break="no" n="63"/>latiua intellectus concipit entitatem, prout distin 
+      <lb ed="#L" n="64"/>guitur esse quid bonum, cum vt sic sit amabile, &amp; 
+      com<lb ed="#L" break="no" n="65"/>placens Diuinae voluntati, quae in omni essentia 
+      <lb ed="#L" n="66"/>complacet, vt sic etiam est ens: ens autem, &amp; bo- 
+      <!--0187.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>num conuertuntur. relinquitur ergo, quod sine 
+      <lb ed="#L" n="68"/>bonitate est bona, &amp; vt distinguitur ab ea: si 
+      ve<lb ed="#L" break="no" n="69"/>ro distinguitur formaliter, idem sequitur, vt 
+      su<lb ed="#L" break="no" n="70"/>perius est deductum: si autem ratione ab 
+      intel<lb ed="#L" break="no" n="71"/>lectu fabricata, idem penitus habetur, quoniam 
+      <lb ed="#L" n="72"/>intellectus rationem veritatis distinguendo a ra 
+      <lb ed="#L" n="73"/>tione entitatis, rationem illam intelligeret vnam, 
+      <lb ed="#L" n="74"/>&amp; distinctam sine vnitate, similiter rationem en 
+      <lb ed="#L" n="75"/>titatis, intelliget absque veritate, &amp; rationem 
+      <lb ed="#L" n="76"/>veritatis amabit voluntas absque ratione 
+      boni<lb ed="#L" break="no" n="77"/>tatis. verum est enim per se quoddam 
+      amabile<lb ed="#L" break="no" n="78"/>intellectui, vt Philosophus dicit 6. Ethic. 
+      bonita<lb ed="#L" break="no" n="79"/>tem etiam intellectus intelliget absque veritate, 
+      <lb ed="#L" n="80"/>&amp; cum omne intelligibile sit verum, &amp; 
+      amabile<lb ed="#L" break="no" n="81"/>bonum, veritas erit bona sine bonitate, &amp; 
+      boni<lb ed="#L" break="no" n="82"/>tas vera sine veritate. ergo impossibile est, quod 
+      <lb ed="#L" n="83"/>ista distinguantur, vel realiter, vel formaliter, 
+      <lb ed="#L" n="84"/>aut ratione. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1620">
+                  <lb ed="#L" n="85"/>Praeterea: Illa, quae sic se habent, quod 
+      vnum<lb ed="#L" break="no" n="86"/>quodque eorum inest omni rei, &amp; omni rationi 
+      <lb ed="#L" n="87"/>per se, &amp; praecise sumptae non differunt re, aut ra 
+      <lb ed="#L" n="88"/>tione ab omni realitate, aut quacunque ratione: 
+      <lb ed="#L" n="89"/>nam si differunt, non omnis ratio praecise 
+      sum<lb ed="#L" break="no" n="90"/>pta habebit illa, sed de omni ratione 
+      praecise<lb ed="#L" break="no" n="91"/>sumpta, uerum est, quod aliquid verum, &amp; quod 
+      <lb ed="#L" n="92"/>est aliquid bonum, &amp; quod est aliquid vnum, 
+      iu<lb ed="#L" break="no" n="93"/>xta illud Commentatoris 1o. Metaphys. 
+      dicen<lb ed="#L" break="no" n="94"/>tis, quod hoc nomen, Ens, &amp; vnum significat 
+      im<lb ed="#L" break="no" n="95"/>mediate, quod est in vnoquoque 
+      praedicamento<lb ed="#L" break="no" n="96"/>rum, &amp; conceptus vnius. ergo verum, &amp; bonum, 
+      <lb ed="#L" n="97"/>&amp; vnum, &amp; ens nullam distinctionem habent 
+      in<lb ed="#L" break="no" n="98"/>ter se, nec realem, nec formalem, nec rationis, 
+      <lb ed="#L" n="99"/>quantum ad illud, quod formaliter dicunt.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1655">
+                  <lb ed="#L" n="100"/>Secunda vero propositio est, quod 
+      distinguun<lb ed="#L" break="no" n="101"/>tur in extrinsecis, &amp; penes connotata. 
+      quando<lb ed="#L" break="no" n="102"/>cumque enim aliqua sic se habent, quod eidem 
+      <lb ed="#L" n="103"/>insunt re, &amp; ratione, &amp; ratione nihilominus 
+      di<lb ed="#L" break="no" n="104"/>uersa oportet cointelligere, si illa debeant 
+      ines<lb ed="#L" break="no" n="105"/>se, illa non differre, nisi penes extrinseca, &amp; 
+      con<lb ed="#L" break="no" n="106"/>notata. si enim non possunt intelligi inesse alicui, 
+      <lb ed="#L" n="107"/>hisi quatenus diuersa concipiuntur, apparet, 
+      <lb ed="#L" n="108"/>quod in extrinsecis est distinctio. Si autem 
+      ex<lb ed="#L" break="no" n="109"/>trinseca sic intelliguntur, quod nec aliqua res, 
+      <lb ed="#L" n="110"/>aut ratio se tenens formaliter ex parte illius, cui 
+      <lb ed="#L" n="111"/>attribuuntur per intellectum addatur, restat, 
+      <lb ed="#L" n="112"/>quod sic penes extrinseca distinguantur, quod 
+      <lb ed="#L" n="113"/>nullo modo aliter, sed sumpta quauis realitate, 
+      <lb ed="#L" n="114"/>aut ratione, vt verbi gratia lapideitate, ipsa est 
+      <lb ed="#L" n="115"/>vna, inquantum circa eam concipitur diuisio ab 
+      <lb ed="#L" n="116"/>omni alio, &amp; indiuisio in seipsa, est etiam 
+      vni<lb ed="#L" break="no" n="117"/>tas in abstracto, inquantum est, qua lapis 
+      forma<lb ed="#L" break="no" n="118"/>liter est indiuisus a se, &amp; ab omni alio 
+      coindiui<lb ed="#L" break="no" n="119"/>sus, sicut Commentator ait 4. Metaphys. quod 
+      <lb ed="#L" n="120"/>substantia vniuscuiusque rei est vna essentialiter, 
+      <lb ed="#L" n="121"/>similiter lapideitas est quoddam verum, cum per 
+      <lb ed="#L" n="122"/>se sit intelligibilis, &amp; est veritas in abstracto, cum 
+      <lb ed="#L" n="123"/>sit ratio, &amp; illud, quo ipsa est intelligibilis. non 
+      <lb ed="#L" n="124"/>est enim intelligibilis aliquo addito, aut secundum 
+      <lb ed="#L" n="125"/>rem, aut secundum rationem, &amp; similiter ipsa 
+      <lb ed="#L" n="126"/>est bona, cum sit quoddam appetibile per se, &amp; 
+      <lb ed="#L" n="127"/>est bonitas cum per propriam rationem sit appe 
+      <lb ed="#L" n="128"/>tibilis, &amp; per consequens lapideitas per propriam 
+      <lb ed="#L" n="129"/>rationem est vna, &amp; cum vnitas fundet 
+      indiui<lb ed="#L" break="no" n="130"/>sionem, &amp; per propriam rationem, &amp; penitus 
+      nul<lb ed="#L" break="no" n="131"/>lo addito est etiam bona, cum sit appetibilis, vel 
+      <lb ed="#L" n="132"/>saltem obiectum diuinae complacentiae, ac 
+      boni<lb ed="#L" break="no" n="133"/>tas, cum hoc fiat per propriam rationem. ergo 
+      <!--0188.xml-->
+      <pb ed="#L" n="188"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>impossibile est, quod ista distinguantur, nisi 
+      pe<lb ed="#L" break="no" n="2"/>nes extrinseca, &amp; connotata. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1742">
+                  <lb ed="#L" n="3"/>Tertia vero propositio est, quod haec tria, 
+      ve<lb ed="#L" break="no" n="4"/>rum, bonum, vnum includunt conceptum entis 
+      <lb ed="#L" n="5"/>in generali cum certo connotato, &amp; ideo 
+      coinci<lb ed="#L" break="no" n="6"/>dunt in idem re, &amp; ratione cum omni propria en 
+      <lb ed="#L" n="7"/>titate reali, vel rationis, ad quam applicantur, 
+      <lb ed="#L" n="8"/>verbi gratia: vnum est aliquid indiuisum in se, 
+      <lb ed="#L" n="9"/>&amp; diuisum ab alio, vnitas vero in abstracto, quo 
+      <lb ed="#L" n="10"/>quid est sic indiuisum, verum autem, quod se po 
+      <lb ed="#L" n="11"/>test manifestare intellectui, &amp; veritas, quod quid 
+      <lb ed="#L" n="12"/>se manifestat, similiter bonum est, quod allicit 
+      <lb ed="#L" n="13"/>aliquem appetitum, &amp; bonitas, qua quid allicit 
+      <lb ed="#L" n="14"/>ipsum. in istis ergo conceptibus generalibus sem 
+      <lb ed="#L" n="15"/>per includitur quid, &amp; aliquid, &amp; ita conceptus 
+      <lb ed="#L" n="16"/>entis, &amp; additur certum connotatum, vt 
+      indiui<lb ed="#L" break="no" n="17"/>sio, vel motio intellectus, vel terminus 
+      appeti<lb ed="#L" break="no" n="18"/>tus: cum autem ista applicantur ad rosam, vel la 
+      <lb ed="#L" n="19"/>pidem coincidunt in rationem propriam rosae, 
+      <lb ed="#L" n="20"/>vel lapidis, nullo addito, nec secundum rem, nec 
+      <lb ed="#L" n="21"/>secundum rationem, quod patet ex duobus. 
+      Pri<lb ed="#L" break="no" n="22"/>mo quidem, quia conceptus entis sic determina 
+      <lb ed="#L" n="23"/>tur per lapideitatem, vel per rationem rosae, vt 
+      <lb ed="#L" n="24"/>penitus nil addatur, vt dictum est supra in conce 
+      <lb ed="#L" n="25"/>ptu de ente, quare idem conceptus, cum additur 
+      <lb ed="#L" n="26"/>connotatum, dicendo aliquid indiuisum in se, &amp; 
+      <lb ed="#L" n="27"/>diuisum ab alio, sic coincidet in rationem 
+      lapidei<lb ed="#L" break="no" n="28"/>tatis, vel rosae, vt penitus nil addatur, &amp; sic unum 
+      <lb ed="#L" n="29"/>nil addit ad rosam, nisi certum connotatum. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1803">
+                  <lb ed="#L" n="30"/>Secundo idem patet, quia rosa per propriam 
+      <lb ed="#L" n="31"/>rationem nullo addito, nec realiter, nec 
+      conce<lb ed="#L" break="no" n="32"/>ptibiliter mouet intellectum, &amp; terminat 
+      appe<lb ed="#L" break="no" n="33"/>titum, &amp; etiam est duplicis negationis 
+      fundamen<lb ed="#L" break="no" n="34"/>tum, scilicet indiuisionis in se, &amp; diuisionis ab 
+      <lb ed="#L" n="35"/>alio quocumque, quare relinquitur, quod 
+      ve<lb ed="#L" break="no" n="36"/>rum, &amp; bonum, &amp; vnum coincidant 
+      formali<lb ed="#L" break="no" n="37"/>ter in idem, differant tamen penes extrinseca, &amp; 
+      <lb ed="#L" n="38"/>connotata.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1826">
+                  <lb ed="#L" n="39"/>Sed forte dicetur, quod hoc incidit in 
+      positio<lb ed="#L" break="no" n="40"/>nem illorum, qui dicunt, quod differunt penes 
+      <lb ed="#L" n="41"/>respectus rationis: connotare enim, non est aliud 
+      <lb ed="#L" n="42"/>quam exprimere, &amp; significare, aut dare 
+      intelli<lb ed="#L" break="no" n="43"/>gi aliquem terminum, sed nullum dat intelligi 
+      <lb ed="#L" n="44"/>quodcumque, quin ibi sit respectus realis, vel sal 
+      <lb ed="#L" n="45"/>tem rationis. ergo verum, &amp; bonum dicunt 
+      re<lb ed="#L" break="no" n="46"/>spectus reales, vel saltem rationis. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1846">
+                  <lb ed="#L" n="47"/>Et confirmatur, quia notare, &amp; notatum 
+      ali<lb ed="#L" break="no" n="48"/>quid pertinens esse videtur ad intellectum. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1853">
+                  <lb ed="#L" n="49"/>Praeterea: Dicetur, quod secundum hunc 
+      mo<lb ed="#L" break="no" n="50"/>dum dicendi, verum, bonum, &amp; vnum, sunt 
+      sino<lb ed="#L" break="no" n="51"/>nima, cum coincidant in idem re, &amp; ratione, &amp; 
+      <lb ed="#L" n="52"/>erit praedicatio per se verum est bonum, &amp; bonum, 
+      <lb ed="#L" n="53"/>est verum, ac quidditatiua, quod nullus dicit. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1866">
+                  <lb ed="#L" n="54"/>Praeterea: Supra probatum est, quod ratio 
+      vni<lb ed="#L" break="no" n="55"/>tatis est ratio positiua addita cuilibet realitati. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1873">
+                  <lb ed="#L" n="56"/>Praeterea: Ratio boni est ratio finis, vt 
+      Philo<lb ed="#L" break="no" n="57"/>sophus dicit tertio Metaphysicae, &amp; 
+      Auicen<lb ed="#L" break="no" n="58"/>na in 6. adhuc ratio boni est ratio conuenientis, 
+      <lb ed="#L" n="59"/>vt Augustinus innuit 83. quaestionum, dicens, 
+      <lb ed="#L" n="60"/>quod illud est bonum, quod congruit, adhuc 
+      ra<lb ed="#L" break="no" n="61"/>tio boni est ratio vnius, quia bonum est idem vni 
+      <lb ed="#L" n="62"/>secundum Proculum, adhuc ratio boni est ratio 
+      <lb ed="#L" n="63"/>appetibilis secundum Philosophum primo Eth. 
+      <lb ed="#L" n="64"/>adhuc ratio boni est ratio diffusiui, &amp; sui 
+      com<lb ed="#L" break="no" n="65"/>le municatiui secundum Dionys. cum ergo omnes 
+      <lb ed="#L" n="66"/>r. rationes istae aliquid addere videantur ad 
+      lapi<lb ed="#L" break="no" n="67"/>deitatem formaliter, &amp; intrinsece, non videtur, 
+      <!--0188.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>quod solum distinguantur penes extrinseca, &amp; 
+      <lb ed="#L" n="69"/>connotata.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1910">
+                  <lb ed="#L" n="70"/>Sed istis non obstantibus dicendum est, sicut 
+      <lb ed="#L" n="71"/>prius. dicit enim Commentator primo caeli, &amp; 
+      <lb ed="#L" n="72"/>mundi, quod locus a diuisione, &amp; ab inductione 
+      <lb ed="#L" n="73"/>est sufficiens ad declarandum ea, quae sunt laten 
+      <lb ed="#L" n="74"/>tiora primis cognitionibus, &amp; apertiora conclu 
+      <lb ed="#L" n="75"/>sionibus primis. sunt enim aliqua, quae nec sunt 
+      <lb ed="#L" n="76"/>prima principia, nec tamen possunt 
+      demonstra<lb ed="#L" break="no" n="77"/>tiue terminari, &amp; talia debent per inductionem, 
+      <lb ed="#L" n="78"/>&amp; diuisionem ostendi: nunc autem ostensum 
+      <lb ed="#L" n="79"/>est, quod ratio lapideitatis seipsam fundat iudi 
+      <lb ed="#L" n="80"/>uisionem sui, &amp; diuisionem ab alio, nec oportet 
+      <lb ed="#L" n="81"/>imaginari rationem aliquam mediantem, seipsa 
+      <lb ed="#L" n="82"/>etiam mouet intellectum, non cointellecta 
+      ali<lb ed="#L" break="no" n="83"/>qua alia ratione, &amp; similiter potest terminare 
+      <lb ed="#L" n="84"/>seipsa aliquem appetitum, non coinclusa aliqua 
+      <lb ed="#L" n="85"/>alia ratione, &amp; eodem modo potest induci de ro 
+      <lb ed="#L" n="86"/>sa, &amp; flore, &amp; de omni contento sub ente, &amp; ideo 
+      <lb ed="#L" n="87"/>manifeste verum est, quod haec non differunt 
+      pe<lb ed="#L" break="no" n="88"/>nes aliquid intrinsecum, additum lapideitati, 
+      <lb ed="#L" n="89"/>sed penes extrinsecum additum, &amp; connotatum. 
+      <lb ed="#L" n="90"/>Nec instantiae istae procedunt. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1959">
+                  <lb ed="#L" n="91"/>Prima siquidem non: nam expresse patet, quod 
+      <lb ed="#L" n="92"/>lapideitas est apta nata mouere intellectum, nullo 
+      <lb ed="#L" n="93"/>respectu mediante; vnde lapideitas notat 
+      mo<lb ed="#L" break="no" n="94"/>tionem intellectus, non per aliquid additum. Et 
+      <lb ed="#L" n="95"/>si dicatur, quod posset mouere intellectum, illud 
+      <lb ed="#L" n="96"/>notat respectum, dicendum est, quod non potest 
+      <lb ed="#L" n="97"/>intellectus concipere lapideitatem, &amp; motionem, 
+      <lb ed="#L" n="98"/>eo modo, quo sunt in re, sed nullus respectus 
+      rea<lb ed="#L" break="no" n="99"/>lis mediat inter lapideitatem, &amp; motionem 
+      in<lb ed="#L" break="no" n="100"/>tellectus, immo connectuntur absque omni 
+      respe<lb ed="#L" break="no" n="101"/>ctu medio. ergo &amp; intellectus potest ea connecte 
+      <lb ed="#L" n="102"/>re absque medio respectu, &amp; sic remanebit, quod 
+      <lb ed="#L" n="103"/>lapideitas intellectui exprimit per modum con 
+      <lb ed="#L" n="104"/>notati motionem intellectus. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e1992">
+                  <lb ed="#L" n="105"/>Et confirmatur, quod Deitas exemplat omnes 
+      <lb ed="#L" n="106"/>res, &amp; ponit inesse exemplato absque omni 
+      respe<lb ed="#L" break="no" n="107"/>ctu reali, cum Deus non referatur realiter ad crea 
+      <lb ed="#L" n="108"/>turam, nec ratione, cum circumscripto omni 
+      <lb ed="#L" n="109"/>actu intellectus, adhuc ponat omnes res in esse 
+      <lb ed="#L" n="110"/>exemplato. Quod autem additur, quod notare 
+      <lb ed="#L" n="111"/>videtur se tenere ex parte intellectus, dicendum, 
+      <lb ed="#L" n="112"/>quod immo ex parte rei, est quod lapideitas con 
+      <lb ed="#L" n="113"/>cipiatur absolute, &amp; sic sub ratione lapideitatis, 
+      <lb ed="#L" n="114"/>&amp; ex parte rei est, quod exprimat sibi motionem 
+      <lb ed="#L" n="115"/>intellectus, tamquam aliquid possibile egredi a 
+      <lb ed="#L" n="116"/>se, &amp; sic concipitur sub ratione veri, absque hoc, 
+      <lb ed="#L" n="117"/>quod addatur respectus rationis de necessitate, 
+      <lb ed="#L" n="118"/>&amp; idem est de bonitate: de hoc autem erit 
+      ser<lb ed="#L" break="no" n="119"/>mo prolixior, cum agetur de attributis. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2027">
+                  <lb ed="#L" n="120"/>Secunda etiam non procedit: nam ens in com 
+      <lb ed="#L" n="121"/>muni, &amp; verum in communi, ac bonum, &amp; vnum, 
+      <lb ed="#L" n="122"/>quantum ad illud, quod ducit principaliter, &amp; 
+      <lb ed="#L" n="123"/>intrinsece, idem sunt penitus, &amp; re, &amp; ratione, &amp; 
+      <lb ed="#L" n="124"/>ideo dicit Commentator 1o. Meta. quod hoc no 
+      <lb ed="#L" n="125"/>men Vnum, &amp; Ens, sunt sinonima, quod 
+      manife<lb ed="#L" break="no" n="126"/>stum est ex hoc, quod aequaliter diuiduntur 
+      prae<lb ed="#L" break="no" n="127"/>dicata secundum ea: quantum autem ad 
+      extrin<lb ed="#L" break="no" n="128"/>seca, &amp; connotata differunt, cum vnum 
+      conno<lb ed="#L" break="no" n="129"/>tet indiuisionem. estt enim aliquid indiuisum, &amp; 
+      <lb ed="#L" n="130"/>verum, aliquid intelligibile, &amp; bonum, aliquid 
+      <lb ed="#L" n="131"/>appetibile, &amp; hoc est, quod Commentator vocat 
+      <lb ed="#L" n="132"/>propalationem 4. Metaphys. aliud enim 
+      propa<lb ed="#L" break="no" n="133"/>lat vnum, quam ens, videlicet indiuisionem 
+      <lb ed="#L" n="134"/>quia vero illud, quod vnum propalat, &amp; quod no 
+      <!--0189.xml-->
+      <pb ed="#L" n="189"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tat, continetur sub ente in communi, idcirco ens 
+      <lb ed="#L" n="2"/>praedicatur de vno, &amp; vero, &amp; quantum ad illud, 
+      <lb ed="#L" n="3"/>quod principaliter dicunt, in quo idem sunt, &amp; 
+      <lb ed="#L" n="4"/>quantum ad connotatum: de lapideitate autem 
+      <lb ed="#L" n="5"/>etiam de se inuicem non praedicantur nisi 
+      deno<lb ed="#L" break="no" n="6"/>minatiue, ratione alterius connotati.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2082">
+                  <lb ed="#L" n="7"/>Tertia etiam non procedit: nam verum est, 
+      <lb ed="#L" n="8"/>quod vnitas in abstracto est ratio positiua, 
+      nihi<lb ed="#L" break="no" n="9"/>lominus non est addita enti, aut alicui entitati 
+      <lb ed="#L" n="10"/>particulari, vt dictum est, &amp; si dicatur, quod 
+      vi<lb ed="#L" break="no" n="11"/>detur dicere indiuisionem, dicendum, quod non 
+      <lb ed="#L" n="12"/>est verum, sed per modum connotati, &amp; per 
+      pro<lb ed="#L" break="no" n="13"/>palationem. non enim indiuisio est formaliter 
+      <lb ed="#L" n="14"/>vnitas, sed illud, quo inest indiuisio dicitur 
+      vni<lb ed="#L" break="no" n="15"/>tas, &amp; quia res per essentiam sunt indiuisae, ideo 
+      <lb ed="#L" n="16"/>essentia rei est vnitas, addita indiuisione per mo 
+      <lb ed="#L" n="17"/>dum causati, &amp; profuentis ab ea, &amp; sic apparet, 
+      <lb ed="#L" n="18"/>qualiter numerus constituitur ex vnitatibus. non 
+      <lb ed="#L" n="19"/>enim ex indiuisionibus, sed ex aliquitatibus, 
+      <lb ed="#L" n="20"/>substratis indiuisioni, &amp; quomodo vnitas est 
+      mem<lb ed="#L" break="no" n="21"/>sura. non enim indiuisio mensurat, sed illud, in 
+      <lb ed="#L" n="22"/>quo indiuisio inest, &amp; quod est formaliter vnitas, 
+      <lb ed="#L" n="23"/>&amp; quomodo vnitas est magis positiua, quam 
+      <lb ed="#L" n="24"/>multitudo. ex perfectione enim procedit indiui 
+      <lb ed="#L" n="25"/>sio, ac diuisio ex imperfectione. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2126">
+                  <lb ed="#L" n="26"/>Quarta etiam non procedit: nam omnes illae 
+      <lb ed="#L" n="27"/>rationes boni coincidunt in eandem. ratio enim 
+      <lb ed="#L" n="28"/>boni, idcirco est ratio finis, quoniam terminat 
+      <lb ed="#L" n="29"/>aliquem appetitum, vel naturalem, vel 
+      appre<lb ed="#L" break="no" n="30"/>hensiuum, &amp; siquidem terminet vltimate, 
+      dici<lb ed="#L" break="no" n="31"/>tur finis vltimus: si vero non, dicitur vtile, &amp; ad 
+      <lb ed="#L" n="32"/>finem: ratio vero perfecti, ideo dicitur, quia 
+      per<lb ed="#L" break="no" n="33"/>fectum est vnumquodque, dum adipiscitur, quod 
+      <lb ed="#L" n="34"/>ei debetur, secundum suam naturam, &amp; ad quod 
+      <lb ed="#L" n="35"/>inclinatur per appetitum naturalem, ratio 
+      au<lb ed="#L" break="no" n="36"/>tem conuenientis, ideo dicitur, quod 
+      vnumquod<lb ed="#L" break="no" n="37"/>que appetitur, prout est conueniens appetenti, 
+      <lb ed="#L" n="38"/>i ratio autem vnius dicitur, quo vnumquodque 
+      <lb ed="#L" n="39"/>appetit vnionem, &amp; acquisitionem eius, quod 
+      si<lb ed="#L" break="no" n="40"/>bi debetur: ratio autem diffusiui, &amp; communica 
+      <lb ed="#L" n="41"/>tiui dicitur, quo vnumquodque appetit sui 
+      com<lb ed="#L" break="no" n="42"/>municationem, &amp; diffusionem, &amp; ita bonum 
+      vi<lb ed="#L" break="no" n="43"/>detur connotare appetitum. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2168">
+                  <lb ed="#L" n="44"/>Et si dicatur, quod non omnia cadunt sub 
+      ap<lb ed="#L" break="no" n="45"/>petitu, puta relatione, &amp; multa talia, dicendum, 
+      <lb ed="#L" n="46"/>quod immo saltem sub appetitu Diuino, qui 
+      com<lb ed="#L" break="no" n="47"/>placet in omnibus, quae fecit, secundum illud: 
+      <lb ed="#L" n="48"/>Diligis omnia, quae sunt, &amp; nil odisti eorum quae fecisti. 
+      <lb ed="#L" n="49"/>Sapien. I1. vel appetitu humano, inquantum om 
+      <lb ed="#L" n="50"/>nia sunt quaedam intelligibilia, &amp; delectantia 
+      in<lb ed="#L" break="no" n="51"/>telligentem, vel appetitu naturali cuiuslibet rei, 
+      <lb ed="#L" n="52"/>inquantum fundamenta appetunt relationes, 
+      <lb ed="#L" n="53"/>vel appetitu naturae vniuersali, inquantum 
+      om<lb ed="#L" break="no" n="54"/>nia faciunt ad integritatem vniuersi. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2195">
+                  <lb ed="#L" n="55"/>Nec valet etiam si dicatur, quod tunc appeti 
+      <lb ed="#L" n="56"/>tus non feretur super res absolute, sed quatenus 
+      <lb ed="#L" n="57"/>sunt appetibiles. &amp; similiter intellectus non 
+      fere<lb ed="#L" break="no" n="58"/>tur super res, nisi quatenus intelligibiles sunt, 
+      <lb ed="#L" n="59"/>sed appetibilitas clauditur intra ration em 
+      bo<lb ed="#L" break="no" n="60"/>ni, &amp; intelligibilitas infra rationem veri. 
+      Siqui<lb ed="#L" break="no" n="61"/>dem hoc non valet: non enim intra rationem 
+      <lb ed="#L" n="62"/>boni, &amp; veri ista clauduntur formaliter, &amp; 
+      prin<lb ed="#L" break="no" n="63"/>cipaliter, sed extrinsecae, &amp; connotatiue. 
+      quan<lb ed="#L" break="no" n="64"/>tum enim ad principale significatum, ipsa 
+      coin<lb ed="#L" break="no" n="65"/>cidunt, cum omni entitate, &amp; re, &amp; ratione, vt di 
+      <lb ed="#L" n="66"/>ctum est, propter quod omnis entitas sub propria 
+      <lb ed="#L" n="67"/>ratione appeti, &amp; intelligi potest: non oportet 
+      <!--0189.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>autem intellectum recurrere ad connotata, nisi 
+      <lb ed="#L" n="69"/>dum vult distinctionem ponere inter ipsa, &amp; sine 
+      <lb ed="#L" n="70"/>dubio distingui non possunt absque connotatis. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c58767-Dd1e2238">
+               <head xml:id="ol96b1-c58767-Hd1e2240">Articulus 5</head>
+               <p xml:id="ol96b1-c58767-d1e2242">
+                  <lb ed="#L" n="71"/>ARTJCVLVS QVJNTVS. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2247">
+                  <lb ed="#L" n="72"/>Quod non potest demonstrari Trinitas ex 
+      vesti<lb ed="#L" break="no" n="73"/>gio, sed multum probabiliter declarari. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2254">
+                  <lb ed="#L" n="74"/>CIRCA quintum autem considerandum est, 
+      <lb ed="#L" n="75"/>quod ex vestigiali trinario non potest 
+      de<lb ed="#L" break="no" n="76"/>monstratiue Trinitas declarari, potest tamen 
+      <lb ed="#L" n="77"/>probabiliter satis. illud enim, quod Philosophi 
+      <lb ed="#L" n="78"/>aliqualiter concluserunt, videtur probabiliter 
+      <lb ed="#L" n="79"/>esse conclusum, &amp; maxime de Aristotele, de quo 
+      <lb ed="#L" n="80"/>dixit Commentator, quod numquam dixit 
+      ali<lb ed="#L" break="no" n="81"/>quid sine forti probatione, sed ipse dicit primo 
+      <lb ed="#L" n="82"/>caeli, &amp; mundi, quod trinitas est numerus 
+      cuius<lb ed="#L" break="no" n="83"/>libet rei, &amp; istum numerum extrahimus ex 
+      na<lb ed="#L" break="no" n="84"/>tura, &amp; secundum istum numerum debemus ma 
+      <lb ed="#L" n="85"/>gnificare Deum, vbi dicit Commentator, quod 
+      <lb ed="#L" n="86"/>natura omnium rerum est trina, &amp; haec est causa, 
+      <lb ed="#L" n="87"/>quare lex praecepit, vt orationes essent tres, aut 
+      <lb ed="#L" n="88"/>sacrificia, &amp; quod Legislator non inuenit istum 
+      <lb ed="#L" n="89"/>numerum, nisi, vt sequeretur naturam, &amp; secun 
+      <lb ed="#L" n="90"/>dum hunc numerum tenemur magnificare crea 
+      <lb ed="#L" n="91"/>torem, remotum a modis creaturarum 
+      oratio<lb ed="#L" break="no" n="92"/>nibus, &amp; sacrificijs. ergo videtur, quod natura 
+      <lb ed="#L" n="93"/>Diuina aliqualiter sit trina, ex quo omnis 
+      natu<lb ed="#L" break="no" n="94"/>ra, &amp; omnis lex, sic magnificat Trinitatem. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2302">
+                  <lb ed="#L" n="95"/>Praeterea: Sicut Deus determinat sibi omnem 
+      <lb ed="#L" n="96"/>perfectionem simpliciter repertam in creaturis, 
+      <lb ed="#L" n="97"/>ita perfectionem repertam in numeris, sed 
+      pri<lb ed="#L" break="no" n="98"/>mus numerus importans perfectionem est trina 
+      <lb ed="#L" n="99"/>rius, quia totum perfectum, &amp; omne est idem: 
+      <lb ed="#L" n="100"/>nunc autem de duobus hominibus non dicitur 
+      <lb ed="#L" n="101"/>omnes duo veniatis: de tribus autem dicitur om 
+      <lb ed="#L" n="102"/>nes tres, vnitas autem dicit perfectionem 
+      sim<lb ed="#L" break="no" n="103"/>pliciter. ergo videtur, quod Deus de numeris ap 
+      <lb ed="#L" n="104"/>propriet sibi vnitatem, &amp; trinitatem, &amp; sic 
+      vni<lb ed="#L" break="no" n="105"/>tatem essentiae, &amp; substantiae, vt supra probatum 
+      <lb ed="#L" n="106"/>est, &amp; trinitatem aliqualiter realem, aliam 
+      stan<lb ed="#L" break="no" n="107"/>tem cum ista vnitate. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2334">
+                  <lb ed="#L" n="108"/>Et confirmatur, quia perfectiones 
+      creatura<lb ed="#L" break="no" n="109"/>rum, disponuntur per trinarios, vt substantia, 
+      <lb ed="#L" n="110"/>virtus, &amp; operatio, vnitas, bonitas, veritas, &amp; 
+      si<lb ed="#L" break="no" n="111"/>milia: haec sufficiant de quaestione. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2345">
+                  <lb ed="#L" n="112"/>Responsio ad obiecta primo. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2350">
+                  <lb ed="#L" n="113"/>A Dea ergo, quae in oppositum inducuntur, 
+      <lb ed="#L" n="114"/>dicendum est.
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2357">
+                  <lb ed="#L" n="115"/>Ad primum quidem, quod perfectiones, in 
+      <lb ed="#L" n="116"/>quibus consistit vestigium, non distinguuntur 
+      rea<lb ed="#L" break="no" n="117"/>liter, nec formaliter, sed sicut dictum est in 
+      cor<lb ed="#L" break="no" n="118"/>pore quaestionis, nec per cas probatur 
+      demon<lb ed="#L" break="no" n="119"/>stratiue trinitas rerum in Deo vno, immo eaedem 
+      <lb ed="#L" n="120"/>perfectiones, vt sunt in Deo, non distinguuntur 
+      <lb ed="#L" n="121"/>etiam, nisi penes connotata, vt inferius apparebit. 
+      <lb ed="#L" n="122"/>probatur ergo aliqualiter trinitas pro eo, quod 
+      <lb ed="#L" n="123"/>probabile est, quod ex numeris appropriet sibi 
+      <lb ed="#L" n="124"/>realem trinitatem, &amp; realem vnitatem, &amp; per 
+      <lb ed="#L" n="125"/>hoc patet ad secundum, &amp; tertium. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2383">
+                  <lb ed="#L" n="126"/>Ad quartum dicendum, quod siue 
+      nouenna<lb ed="#L" break="no" n="127"/>rius, siue duodenarius perfectionem reperiat 
+      <lb ed="#L" n="128"/>in creaturis nihilominus communiter 
+      conne<lb ed="#L" break="no" n="129"/>ctuntur de tribus in tribus, quasi numerus, il- 
+      <!--0190.xml-->
+      <pb ed="#L" n="190"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>le sacratus sit in primo principio rerum. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2403">
+                  <lb ed="#L" n="2"/>Ad quintum dicendum, quod in omni 
+      creatu<lb ed="#L" break="no" n="3"/>ra inuenitur aliqualiter vnitas, bonitas, veritas, 
+      <lb ed="#L" n="4"/>&amp; per consequens, modus, species, &amp; ordo, &amp; 
+      <lb ed="#L" n="5"/>quod dicitur, quod prima materia careat omni 
+      <lb ed="#L" n="6"/>specie, verum est quod careat specie actuali, est 
+      <lb ed="#L" n="7"/>tamen aliquid quidditatiue, &amp; in potentia, 
+      vn<lb ed="#L" break="no" n="8"/>de informitas respondet sibi pro specie, &amp; 
+      for<lb ed="#L" break="no" n="9"/>ma. Quod autem additur de luce, quod non fuit 
+      <lb ed="#L" n="10"/>creata in numero, pondere, &amp; mensura, 
+      dicen<lb ed="#L" break="no" n="11"/>dum est, quod hoc dicit Ambrosius, quia 
+      vi<lb ed="#L" break="no" n="12"/>detur, quod diffusissime excedit, &amp; non tenet 
+      <lb ed="#L" n="13"/>mensuram, sed tamen secundum veritatem est 
+      <lb ed="#L" n="14"/>mensurata, &amp; limitata, vnde &amp; amor Dei, qui 
+      <lb ed="#L" n="15"/>non videtur seruare modum, sicut dicit Bernar 
+      <lb ed="#L" n="16"/>dus, secundum veritatem mensuram habet, 
+      quam<lb ed="#L" break="no" n="17"/>uis videatur excedere. 
+    </p>
+               <p xml:id="ol96b1-c58767-d1e2441">
+                  <lb ed="#L" n="18"/>Ad sextum dicendum, quod argumentum 
+      pro<lb ed="#L" break="no" n="19"/>bat, quod demonstratiue ex vestigio non potest 
+      <lb ed="#L" n="20"/>probari Trinitas, vel dicendum, quod forte 
+      om<lb ed="#L" break="no" n="21"/>nis natura non esset ita trina, nisi ille numerus es 
+      <lb ed="#L" n="22"/>set ita extractus exemplariter, &amp; transcriptus a 
+      <lb ed="#L" n="23"/>primo principio rerum, &amp; hoc innuit 
+      Philoso<lb ed="#L" break="no" n="24"/>phus primo caeli, &amp; mundi. vbi dicit, quod 
+      natu<lb ed="#L" break="no" n="25"/>ra naturata ita fecit, &amp; nos sequimur opus eius, 
+      <lb ed="#L" n="26"/>quod exponit Commentator dicens, quod in 
+      re<lb ed="#L" break="no" n="27"/>bus voluntarijs inuenitur trinitas, quoniam 
+      na<lb ed="#L" break="no" n="28"/>tura ita fecit in rebus naturalibus, &amp; supra dixe 
+      <lb ed="#L" n="29"/>rat, quod nos extrahimus istum numerum a 
+      na<lb ed="#L" break="no" n="30"/>turis rerum, &amp; ita videtur, quod etiam natura il 
+      <lb ed="#L" n="31"/>lum extraxerit a primo principio rerum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

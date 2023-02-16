@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="182"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c58552"> <!-- l1d3p2-prae -->
+            <head xml:id="ol96b1-c58552-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c58552-d1e104">
+      <!--0182.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="67"/>CAPJTVLVM SECVNDVM. 
+      <lb ed="#L" n="68"/>Quomodo in creaturis appareat 
+      vesti<lb ed="#L" break="no" n="69"/>gium Trinitatis. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e117">
+               <lb ed="#L" n="70"/>Nunc restat ostendere, &amp; c. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e122">
+               <lb ed="#L" n="71"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e128">
+               <lb ed="#L" n="72"/>NVNC restat ostendere, &amp;c. Postquam 
+      <lb ed="#L" n="73"/>Magister induxit rationes ex 
+      crea<lb ed="#L" break="no" n="74"/>turis ad probandum diuinae 
+      essen<lb ed="#L" break="no" n="75"/>tiae vnitatem, hic rationes inducit 
+      <lb ed="#L" n="76"/>ad probandum personarum 
+      Trini<lb ed="#L" break="no" n="77"/>tatem. Et circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e144">
+               <lb ed="#L" n="78"/>Primo enim Trinitatem probat ex ratione 
+      vesti<lb ed="#L" break="no" n="79"/>gii, quod reperitur in omni creatura 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e151">
+      <!-- missing line break -->Secundo ex ratione imaginis, quae 
+      reperi<lb ed="#L" break="no" n="80"/>tur in rationali creatura. secunda ibi: Nunc 
+      ve<lb ed="#L" break="no" n="81"/>ro ad eam. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e160">
+               <lb ed="#L" n="82"/>Circa primum facit quatuor. 
+      <lb ed="#L" n="83"/>Primo enim venatur quandam Trinitatem 
+      <lb ed="#L" n="84"/>in creaturis. 
+      <lb ed="#L" n="85"/>Secundo supponit quandam aliam in diuinis. 
+      <lb ed="#L" n="86"/>Tertio ostendit, qualis sit ille modus 
+      proba<lb ed="#L" break="no" n="87"/>tionis, quia non necessarius, sed probabilis 
+      tan<lb ed="#L" break="no" n="88"/>tum. secunda ibi: <quote xml:id="ol96b1-c58552-Qd1e177">In illa enim Trinitate</quote>. tertia ibi: 
+      <lb ed="#L" n="89"/>
+               <quote xml:id="ol96b1-c58552-Qd1e181">Per considerationem itaque creaturarum</quote>. quarta ibi: 
+      <lb ed="#L" n="90"/>
+               <quote xml:id="ol96b1-c58552-Qd1e186">Ecce ostensum est</quote>. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e189">
+               <lb ed="#L" n="91"/>Dicit itaque primo, quod postquam Dei 
+      vni<lb ed="#L" break="no" n="92"/>tas ex creaturis ostensa est, per ea, quae perfecta 
+      <lb ed="#L" n="93"/>sunt, haberi potuit aliquod indicium Trinitatis, 
+      <lb ed="#L" n="94"/>&amp; inducit verba Augustini dicentis quod vestigium 
+      <lb ed="#L" n="95"/>Trinitatis apparet in creaturis, in quibus est 
+      <lb ed="#L" n="96"/>quaedam vnitas, &amp; quaedam species, &amp; quidam ordo. 
+      <lb ed="#L" n="97"/>omnia enim vnum aliquid sunt, sicut patet, quod 
+      quae<lb ed="#L" break="no" n="98"/>libet natura corporum est aliquid vnum, &amp; similiter 
+      <lb ed="#L" n="99"/>natura quaelibet animarum, omnia quoque entia ali 
+      <lb ed="#L" n="100"/>qua pulchritudine, &amp; specie formantur, sicut 
+      figu<lb ed="#L" break="no" n="101"/>ra, &amp; qualitates sunt formae corporum, doctri nae 
+      <lb ed="#L" n="102"/>autem, vel artes pulchritudines animarũ: omnia 
+      <lb ed="#L" n="103"/>etiam aliquem ordinem tenent, &amp; petunt, sicut patet, 
+      <lb ed="#L" n="104"/>quod in corporibus sint quaedam pondera, &amp; 
+      inclina<lb ed="#L" break="no" n="105"/>tiones, in animabus autem amores, &amp; 
+      delectatio<lb ed="#L" break="no" n="106"/>nes, &amp; ita in creaturis lucet Trinitas aliqualis. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e226">
+               <lb ed="#L" n="107"/>Postmodum ibi: <quote xml:id="ol96b1-c58552-Qd1e230">In illa enim Trinitate</quote>. explicat 
+      <lb ed="#L" n="108"/>Trinitatem similem in diuinis, dicens, quod 
+      <lb ed="#L" n="109"/>in illa Trinitate, est summa origo omnium, &amp; 
+      <lb ed="#L" n="110"/>delectatio beatissima, &amp; perfectissima 
+      pulchri<lb ed="#L" break="no" n="111"/>tudo, summa autem origo est in Patre, a quo &amp; 
+      <lb ed="#L" n="112"/>creaturae omnes, &amp; Spiritus sanctus, &amp; Filius 
+      <lb ed="#L" n="113"/>oriuntur: perfectissima autem pulchritudo est 
+      <lb ed="#L" n="114"/>in Filio, qui est veritas, per omnia Patri similis, 
+      <lb ed="#L" n="115"/>&amp; conformis; perfectissima autem delectatio, &amp; 
+      <lb ed="#L" n="116"/>bonitas est in Spiritu sancto, qui est donum 
+      <lb ed="#L" n="117"/>Patris, &amp; Filij, aeque incommutabilis est in 
+      <lb ed="#L" n="118"/>vtroque. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e258">
+               <lb ed="#L" n="119"/>Postmodum ibi: Per considerationem itaque crea 
+      <lb ed="#L" n="120"/>turarum. concludit Trinitatem praeexistentem 
+      <lb ed="#L" n="121"/>in Diuinis extrinsece repertam in creaturis, 
+      di<lb ed="#L" break="no" n="122"/>cens, quod per considerationem creaturarum, 
+      <lb ed="#L" n="123"/>in quibus relucet vnitas, possumus intelligere in 
+      <lb ed="#L" n="124"/>Deo esse Patrem, a quo omnia profluunt, sicut 
+      <lb ed="#L" n="125"/>numeri ab vnitate, &amp; iterum, quia in eis 
+      relu<lb ed="#L" break="no" n="126"/>cet pulchritudo; possumus in eo intelligere 
+      Fi<lb ed="#L" break="no" n="127"/>lium, qui est forma perfectissima, &amp; pulchritudo 
+      <lb ed="#L" n="128"/>summa, &amp; iterum quia in eis relucet ordo, seu 
+      <!--0183.xml-->
+      <pb ed="#L" n="183"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>inclinatio possumus in Deo intelligere Spiritum 
+      <lb ed="#L" n="2"/>sanctum, qui est bonitas, &amp; beatissima delectatio, 
+      <lb ed="#L" n="3"/>ac benignitas, &amp; donum, quo reconciliamur. 
+    </p>
+            <p xml:id="ol96b1-c58552-d1e295">
+               <lb ed="#L" n="4"/>Postmodum ibi: Ecce ostensum est. Declarat 
+      <lb ed="#L" n="5"/>qualis est huiusmodi probatio, &amp; dicit, quod non 
+      <lb ed="#L" n="6"/>est sufficiens, vt per eam sine doctrina &amp; 
+      reuela<lb ed="#L" break="no" n="7"/>tione Diuina, possit in Trinitatis notitiam 
+      per<lb ed="#L" break="no" n="8"/>ueniri, vnde antiqui Philosophi modo 
+      vmbrati<lb ed="#L" break="no" n="9"/>li, vnitatem viderunt, defecerunt tamen in 
+      cla<lb ed="#L" break="no" n="10"/>ro contuitu Trinitatis, sicut Magi Pharaonis 
+      <lb ed="#L" n="11"/>defecerunt in tertio signo, vt scribitur Exo. c. 8. 
+      <lb ed="#L" n="12"/>Haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

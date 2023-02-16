@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="474"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-153749"> <!-- l1d19p2-q1 -->
+            <head xml:id="ol96b1-153749-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-153749-Hd1e104" type="question-title">
+        Utrum personae diuinae sint omnino coaequales.
+      </head>
+            <p xml:id="ol96b1-153749-d1e107">
+               <lb ed="#L" n="8"/>Vtrum personae diuinae sint omnino coaequales. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e112">
+               <lb ed="#L" n="9"/>ET quia Magister hic agit de personarum 
+      <lb ed="#L" n="10"/>aequalitate, excludendo omnem rationem 
+      to<lb ed="#L" break="no" n="11"/>tius, &amp; partis ab eis; idcirco inquirendum 
+      oc<lb ed="#L" break="no" n="12"/>currit, Vtrum tres personae sint penitus 
+      coaequa<lb ed="#L" break="no" n="13"/>les. Et videtur, quod non. Impossibile est enim 
+      <lb ed="#L" n="14"/>passionem reperiri extra suum subiectum, sed 
+      <lb ed="#L" n="15"/>aequalitas est passio quantitatis, vt Philosophus 
+      <lb ed="#L" n="16"/>dicit in praedicamentis; quantitas autem non 
+      <lb ed="#L" n="17"/>habet locum in diuinis, immo Deus dicitur 
+      si<lb ed="#L" break="no" n="18"/>ne qualitate bonus, &amp; sine quantitate magnus, 
+      <lb ed="#L" n="19"/>vt Aug. ait 5. de Trin. ergo inter diuinas 
+      perso<lb ed="#L" break="no" n="20"/>nas non potest esse aequalitas. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e142">
+               <lb ed="#L" n="21"/>Praeterea: Vbi est auctoritas, &amp; subauctoritas, 
+      <lb ed="#L" n="22"/>ibi non videtur esse aequalitas, sed Hilarius 
+      di<lb ed="#L" break="no" n="23"/>cit nono de Trinitate, quod donantis 
+      auctori<lb ed="#L" break="no" n="24"/>tate pater maior est. maior enim donans est. 
+      <lb ed="#L" n="25"/>ergo inter diuinas personas aequalitas non est, 
+      <lb ed="#L" n="26"/>vt videtur. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e158">
+               <lb ed="#L" n="27"/>Praeterea: Illa non videntur esse aequalia, 
+      quo<lb ed="#L" break="no" n="28"/>rum vnum habet plures perfectiones, quam 
+      a<lb ed="#L" break="no" n="29"/>liud, sed. spiritus sanctus non habet, nisi vnam 
+      <lb ed="#L" n="30"/>proprietatem, scilicet spirari; pater autem 
+      ha<lb ed="#L" break="no" n="31"/>bet duas, videlicet spirare, &amp; generare, &amp; 
+      simi<lb ed="#L" break="no" n="32"/>liter filius alias duas. ergo pater, &amp; Flius sunt 
+      <lb ed="#L" n="33"/>inequales spiritui sancto. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e176">
+               <lb ed="#L" n="34"/>Praeterea: Impossibile est plura alterius 
+      ra<lb ed="#L" break="no" n="35"/>tionis esse in eodem gradu perfectionis, vt 
+      supe<lb ed="#L" break="no" n="36"/>rius dictum fuit, sed personae diuinae alterius ra 
+      <lb ed="#L" n="37"/>tionis sunt, cum proprietates, quibus distinguum 
+      <lb ed="#L" n="38"/>tur, &amp; constituuntur sint alterius rationis, vt 
+      <lb ed="#L" n="39"/>patet. ergo impossibile est, vt sint in aequali 
+      gra<lb ed="#L" break="no" n="40"/>du perfectionis. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e194">
+               <lb ed="#L" n="41"/>Praeterea: Producens aequiuocum est 
+      nobi<lb ed="#L" break="no" n="42"/>lius producto, sed generari, &amp; generare 
+      aequi<lb ed="#L" break="no" n="43"/>uoca sunt, quia pertinent ad diuersa 
+      praedica<lb ed="#L" break="no" n="44"/>menta, vtpote generare ad praedicamentum 
+      a<lb ed="#L" break="no" n="45"/>ctionis; generari vero ad praedicamentum 
+      pas<lb ed="#L" break="no" n="46"/>sionis, generare infert generari, vt superius 
+      di<lb ed="#L" break="no" n="47"/>ctum fuit. ergo generare est nobilius, quam 
+      ge<lb ed="#L" break="no" n="48"/>nerari, &amp; per consequens pater, quam filius. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e214">
+               <lb ed="#L" n="49"/>Praeterea: Vbicumque est ratio generis, &amp; plu 
+      <lb ed="#L" n="50"/>rium specierum, ibi est aliqua inaequalitas, quia 
+      <lb ed="#L" n="51"/>duarum specierum, semper vna est habitus, 
+      re<lb ed="#L" break="no" n="52"/>liqua vero priuatio, vt Philosophus dicit 1o. Me 
+      <lb ed="#L" n="53"/>taph. sed generare, &amp; spirare videntur duae 
+      spe<lb ed="#L" break="no" n="54"/>cies contentae sub productione actiua, &amp; 
+      gene<lb ed="#L" break="no" n="55"/>rari, &amp; spirari sub producttione passiua. ergo 
+      <lb ed="#L" n="56"/>id, quod prius. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e234">
+               <lb ed="#L" n="57"/>Praeterea: Aequalitas est relatio 
+      aequiperan<lb ed="#L" break="no" n="58"/>tiae. aequale enim est suo aequa li aequale, &amp; 
+      econ<lb ed="#L" break="no" n="59"/>uerso, sed filius in diuinis est aequalis patri, non 
+      <lb ed="#L" n="60"/>tamen est econuerso secundum illud August. 9. 
+      <lb ed="#L" n="61"/>de Trinitate, dicentis, quod filius patri 
+      aequa<lb ed="#L" break="no" n="62"/>lis est, quia imago si perfecte implet illud, cuius 
+      <lb ed="#L" n="63"/>imago est ipsa coaequatur ei, non illud imagini 
+      <lb ed="#L" n="64"/>suae. ergo in diuinis non est aequalitas. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e255">
+               <lb ed="#L" n="65"/>Praeterea: Sicut se habet magnitudo ad essen- 
+      <!--0474.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>tiam, sic aequalitas ad identitatem, sed in 
+      diui<lb ed="#L" break="no" n="67"/>nis magnitudo in essentiam transit, vt August. di 
+      <lb ed="#L" n="68"/>cit 6. de Trinit. ergo &amp; aequalitas transit in 
+      iden<lb ed="#L" break="no" n="69"/>titatem. non est ergo in diuinis aequalitas. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e273">
+               <lb ed="#L" n="70"/>Praeterea: Sicut in diuinis est aequalitas, ita 
+      <lb ed="#L" n="71"/>&amp; similitudo: sed similitudo non est aliud, quam 
+      <lb ed="#L" n="72"/>identitas. ergo nec aequalitas aliud erit. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e282">
+               <lb ed="#L" n="73"/>Praeterea: In diuinis personis non videtur 
+      es<lb ed="#L" break="no" n="74"/>se multiplicatio plurium eiusdem rationis, cum 
+      <lb ed="#L" n="75"/>omnis ratio, quae sit in diuinis, sit tota 
+      quiddi<lb ed="#L" break="no" n="76"/>tas subsistens: sed si aequalitas esset in diuinis 
+      <lb ed="#L" n="77"/>personis, quilibet haberet suam aequalitatem, 
+      <lb ed="#L" n="78"/>cum relationes multiplicentur secundum 
+      fun<lb ed="#L" break="no" n="79"/>damenta sua. ergo id, quod prius. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e300">
+               <lb ed="#L" n="80"/>Quod personae sint coaequales.
+    </p>
+            <p xml:id="ol96b1-153749-d1e305">
+               <lb ed="#L" n="81"/>SED in oppositum videtur, quod Athanasius 
+      <lb ed="#L" n="82"/>dicit in Symbolo, tres personas coaeternas 
+      <lb ed="#L" n="83"/>esse, &amp; coaequales. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e314">
+               <lb ed="#L" n="84"/>Praeterea: Quod comparatur alteri, nec 
+      ex<lb ed="#L" break="no" n="85"/>ceditur, nec excedit est sibi coaequale, sed 
+      per<lb ed="#L" break="no" n="86"/>sona quaelibet alteri comparata, vel duabus, 
+      <lb ed="#L" n="87"/>vel tribus, nec exceditur, nec excedit omnino 
+      <lb ed="#L" n="88"/>in aliquo. ergo est sibi coaequalis. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e328">
+               <lb ed="#L" n="89"/>Responsio ad quaestionem. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e333">
+               <lb ed="#L" n="90"/>AD quaestionem istam respondendo, hoc 
+      or<lb ed="#L" break="no" n="91"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e340">
+               <lb ed="#L" n="92"/>Primo namque inquiretur, an personarum 
+      <lb ed="#L" n="93"/>aequalitatem impediat defectus quantitatis. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e347">
+               <lb ed="#L" n="94"/>Secundo inquiretur, an impediat positio 
+      au<lb ed="#L" break="no" n="95"/>ctoritatis, &amp; subauctoritatis. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e354">
+               <lb ed="#L" n="96"/>Tertio, an ipsam impediat pluralitas 
+      pro<lb ed="#L" break="no" n="97"/>prietatum in vno supposito, &amp; paucitas in 
+      <lb ed="#L" n="98"/>alio. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e363">
+               <lb ed="#L" n="99"/>Quarto, an ipsam impediat suppositorum spe 
+      <lb ed="#L" n="100"/>cifica distinctio. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e371">
+               <lb ed="#L" n="101"/>Quinto, vtrum ipsam impediat totius 
+      mi<lb ed="#L" break="no" n="102"/>uersalis positio. 
+    </p>
+            <p xml:id="ol96b1-153749-d1e378">
+               <lb ed="#L" n="103"/>Sexto, an impediat defectus conuersiuae 
+      ade<lb ed="#L" break="no" n="104"/>quationis. 
+    </p>
+            <div xml:id="ol96b1-153749-Dd1e385">
+               <head xml:id="ol96b1-153749-Hd1e387">Articulus 1</head>
+               <p xml:id="ol96b1-153749-d1e389">
+                  <lb ed="#L" n="105"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e394">
+                  <lb ed="#L" n="106"/>Opinio S. Thomae parte I. quaest. 42art. I. &amp; Herueis 
+      <lb ed="#L" n="107"/>1. Sent. dist. 19.
+    </p>
+               <p xml:id="ol96b1-153749-d1e401">
+                  <lb ed="#L" n="108"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="109"/>aliqui dicere voluerunt tres personas 
+      esse<lb ed="#L" break="no" n="110"/>aequales, pro eo, quod aequalitas exigit pro 
+      fun<lb ed="#L" break="no" n="111"/>damento, non solum quantitatem dimensiuam, 
+      <lb ed="#L" n="112"/>immo sufficit quantitas perfectionis, &amp; 
+      virtu<lb ed="#L" break="no" n="113"/>tis, quae attenditur in tribus. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e417">
+                  <lb ed="#L" n="114"/>Primo siquidem in radice, hoc est in ipsa 
+      <lb ed="#L" n="115"/>perfectione naturae, vel formae, secundum quod 
+      <lb ed="#L" n="116"/>calor dicitur magnus propter suam 
+      intentio<lb ed="#L" break="no" n="117"/>nem, &amp; perfectionem, de qua magnitudine 
+      di<lb ed="#L" break="no" n="118"/>cit Augustinus sexto de Trinit. quod in his, quae 
+      <lb ed="#L" n="119"/>non mole magna sunt, hoc est maius esse, quod 
+      <lb ed="#L" n="120"/>melius. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e436">
+                  <lb ed="#L" n="121"/>Secundo vero ex hoc, quod immediate fluit a 
+      <lb ed="#L" n="122"/>forma suae essentiae; hoc autem est suum esse, 
+      <lb ed="#L" n="123"/>nam omnis res habet esse per suam formam. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e445">
+                  <lb ed="#L" n="124"/>Tertio vero in hoc, quod effluat a forma, sed 
+      <lb ed="#L" n="125"/>mediante videlicet in operatione, nam omne agens 
+      <!--0475.xml-->
+      <pb ed="#L" n="475"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>agit per suam formam. secundum hoc ergo quan 
+      <lb ed="#L" n="2"/>titas virtualis attenditur secundum 
+      perfectio<lb ed="#L" break="no" n="3"/>nem essentiae, &amp; durationem essentiae, &amp; 
+      magni<lb ed="#L" break="no" n="4"/>tudinem potentiae ad agendum. cum ergo 
+      re<lb ed="#L" break="no" n="5"/>periantur ista in personis diuinis, apparet, quod 
+      <lb ed="#L" n="6"/>ibi est quantitas virtualis, quae est 
+      fundamen<lb ed="#L" break="no" n="7"/>tum aequalitatis. Requirit autem vlterius aequa 
+      <lb ed="#L" n="8"/>litas negationem maioris, &amp; minoris, quia 
+      aequa<lb ed="#L" break="no" n="9"/>le dicitur negatiue secundum Philosophum 1o. 
+      <lb ed="#L" n="10"/>Metaphysicae. vnde non requiritur ad aequalita 
+      <lb ed="#L" n="11"/>tem commensuratio. licet ergo in diuinis 
+      per<lb ed="#L" break="no" n="12"/>sonis non sit commensuratio quantitatis, seu 
+      <lb ed="#L" n="13"/>magnitudinis: tum quia non sunt plures 
+      quan<lb ed="#L" break="no" n="14"/>titates, sed vna tantum in tribus: tum quia 
+      quan<lb ed="#L" break="no" n="15"/>titas, seu magnitudo diuina est omnino 
+      infini<lb ed="#L" break="no" n="16"/>ta, &amp; ideo commensurari non potest: tum quia 
+      <lb ed="#L" n="17"/>est prima mensura, &amp; ideo mensurari non potest, 
+      <lb ed="#L" n="18"/>nihilominus ibi est quantitas virtualis cum 
+      <lb ed="#L" n="19"/>priuatione maioris, &amp; minoris, &amp; idcirco est in 
+      <lb ed="#L" n="20"/>personis diuinis quicquid requiritur ad 
+      aequa<lb ed="#L" break="no" n="21"/>litatem perfectionis, &amp; virtutis; est autem 
+      vlte<lb ed="#L" break="no" n="22"/>rius attendendum, quod identitas, aequalitas, 
+      <lb ed="#L" n="23"/>&amp; similitudo in hoc differunt, quod identitas 
+      <lb ed="#L" n="24"/>fundatur super vnitatem essentiae, non solum 
+      <lb ed="#L" n="25"/>super vnitatem substantiae, vt aliqui 
+      imaginan<lb ed="#L" break="no" n="26"/>tur. albedo enim, &amp; omnis essentia 
+      quantumcum<lb ed="#L" break="no" n="27"/>que accidentalis potest fundare identitatem. 
+      <lb ed="#L" n="28"/>sicut enim sortes idem est sibi ipsi, ita &amp; albedos 
+      <lb ed="#L" n="29"/>Similitudo autem fundatur super aequalitatem, 
+      <lb ed="#L" n="30"/>saluata diuersitate habentium illam; 
+      aequali<lb ed="#L" break="no" n="31"/>tas autem super vnitatem quantitatis, siue sit 
+      <lb ed="#L" n="32"/>quantitas molis, siue quantitas virtualis: 
+      per<lb ed="#L" break="no" n="33"/>sonae itaque diuinae dicuntur similes, &amp; aequales, 
+      <lb ed="#L" n="34"/>inquantum communicant in vna forma Deita 
+      <lb ed="#L" n="35"/>tis, similes sunt; inquantum vero illam habent 
+      <lb ed="#L" n="36"/>aeque perfecte, intantum sunt aequales, vt prius 
+      <lb ed="#L" n="37"/>excludatur error Eunomij, &amp; per secundum er 
+      <lb ed="#L" n="38"/>ror Arrianorum. sic ergo patet, quod in diuinis 
+      <lb ed="#L" n="39"/>sit aequalitas, &amp; similitudo. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e543">
+                  <lb ed="#L" n="40"/>Haec autem opinio videtur deficere in 
+      duo<lb ed="#L" break="no" n="41"/>bus, primo quidem, quod ait aequalitatem, prout 
+      <lb ed="#L" n="42"/>distinguitur a similitudine, &amp; identitate 
+      funda<lb ed="#L" break="no" n="43"/>ri super quantitate virtutis. hoc enim non 
+      vi<lb ed="#L" break="no" n="44"/>detur habere veritatem. sicut enim se habet 
+      si<lb ed="#L" break="no" n="45"/>militudo ad identitatem, sic &amp; aequalitas se 
+      vi<lb ed="#L" break="no" n="46"/>detur habere ad eam, vbi aequalitas fundatur 
+      <lb ed="#L" n="47"/>super essentia, sicut similitudo, &amp; identitas, sed 
+      <lb ed="#L" n="48"/>constat, quod similitudo, &amp; identitas fundatae 
+      <lb ed="#L" n="49"/>super essentiam idem sunt. Sortes enim, &amp; 
+      pla<lb ed="#L" break="no" n="50"/>to sunt similes essentialiter, &amp; sunt idem, nec 
+      <lb ed="#L" n="51"/>sunt aliter idem, nisi identitate similitudinis. 
+      <lb ed="#L" n="52"/>Vnde Philosophus 1. topic. agens de identitate 
+      <lb ed="#L" n="53"/>generis, &amp; speciei determinat de 
+      consideratio<lb ed="#L" break="no" n="54"/>ne similitudinis innuens, quod non est aliud 
+      ta<lb ed="#L" break="no" n="55"/>lis identitas, quam similitudo, &amp; Commentator 
+      <lb ed="#L" n="56"/>12. Met aphys. dicit, quod intellectus considerat 
+      <lb ed="#L" n="57"/>indiuiduorum similitudinem, &amp; ponit ea vnam 
+      <lb ed="#L" n="58"/>intentionem generis, vel speciei, &amp; sic de alijs 
+      <lb ed="#L" n="59"/>vniuersalibus, per hoc innuens, quod identitas 
+      <lb ed="#L" n="60"/>specifica non est, nisi quaedam similitudo. ergo 
+      <lb ed="#L" n="61"/>nec aequalitas essentialis erit, nisi quaedam 
+      si<lb ed="#L" break="no" n="62"/>militudo, &amp; quaedam identitas. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e595">
+                  <lb ed="#L" n="63"/>Praeterea: Sicut se habet fundamentum ad 
+      <lb ed="#L" n="64"/>fundamentum, sic se videtur habere habitudo 
+      <lb ed="#L" n="65"/>ad habitudinem, sed fundamentum identitatis 
+      <lb ed="#L" n="66"/>est essentia; aequalitatis vero gradus essentiae; 
+      <!--0475.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>probatum est autem supra, quod gradus 
+      essen<lb ed="#L" break="no" n="68"/>tiae non differt ab esse. quaelibet enim forma est 
+      <lb ed="#L" n="69"/>quaedam portio entitatis. ergo &amp; aequalitas, ac 
+      <lb ed="#L" n="70"/>similitudo, &amp; identitas non videntur differre. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e619">
+                  <lb ed="#L" n="71"/>Praeterea: Si similitudo, &amp; aequalitas, prout 
+      <lb ed="#L" n="72"/>distinguuntur inter se, &amp; ab identitate fundaren 
+      <lb ed="#L" n="73"/>tur super forma substantiali, tunc debuisset Phi 
+      <lb ed="#L" n="74"/>losophus pro proprietate substantiae assignare, 
+      <lb ed="#L" n="75"/>quod secundum eam aliquid dicitur simile, vel 
+      <lb ed="#L" n="76"/>dissimile, aequale, vel inaequale, non facit tunc, 
+      <lb ed="#L" n="77"/>sed quod proprium aequa litatis secundum eam 
+      <lb ed="#L" n="78"/>simile, vel dissimile dici; secundum quantitatem 
+      <lb ed="#L" n="79"/>vero aequale, vel iuaequale. ergo similitudo, &amp; 
+      <lb ed="#L" n="80"/>aequalitas, prout fundantur in substantia non 
+      <lb ed="#L" n="81"/>differunt ab identitate. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e645">
+                  <lb ed="#L" n="82"/>Praeterea: Philosophus in praedicamentis 
+      di<lb ed="#L" break="no" n="83"/>cit, quod affectio, &amp; dispositio, aequalis, &amp; 
+      inae<lb ed="#L" break="no" n="84"/>qualis non multum dicitur, sed similis, &amp; album 
+      <lb ed="#L" n="85"/>aequale, &amp; inaequale non multum dicitur, sed 
+      si<lb ed="#L" break="no" n="86"/>mile, per hoc innuens, quod aequalitas, quae 
+      at<lb ed="#L" break="no" n="87"/>tenditur, penes gradum albedinum, &amp; 
+      cuiusli<lb ed="#L" break="no" n="88"/>bet qualitatis non dicitur proprie aequalitas, 
+      <lb ed="#L" n="89"/>sed magis similitudo, &amp; similiter Philosophus 
+      <lb ed="#L" n="90"/>10. Metaphysicae, &amp; Commentator ibidem 
+      po<lb ed="#L" break="no" n="91"/>nunt plures modos similitudinis, quorum 
+      pri<lb ed="#L" break="no" n="92"/>mus est participantium eandem qualitatem 
+      se<lb ed="#L" break="no" n="93"/>cundum magis, &amp; minus, &amp; in eodem gradu; 
+      Se<lb ed="#L" break="no" n="94"/>cundus vero participantium eandem 
+      qualita<lb ed="#L" break="no" n="95"/>tem secundum magis, &amp; minus, per hoc innuens, 
+      <lb ed="#L" n="96"/>quod inaequalitas est minoi similitudo; 
+      per<lb ed="#L" break="no" n="97"/>fecta autem similitudo includit aequalitatem; 
+      <lb ed="#L" n="98"/>hoc autem non esset, si aequalitas; &amp; similitudo 
+      <lb ed="#L" n="99"/>essent duae habitudines, prout fundantur super 
+      <lb ed="#L" n="100"/>eadem essentia. ergo identitas, similitudo, &amp; 
+      <lb ed="#L" n="101"/>aequalitas, prout fundantur super eodem non 
+      <lb ed="#L" n="102"/>videntur distingui; secundo vero deficit in hoc, 
+      <lb ed="#L" n="103"/>quod ait, quod ad aequalitatem iufficit negatio 
+      <lb ed="#L" n="104"/>rei maioris, &amp; minoris absque 
+      commensuratio<lb ed="#L" break="no" n="105"/>ne. sicut enim se habet commensurari ad 
+      coae<lb ed="#L" break="no" n="106"/>quari, sic commensuratio ad aequalitatem, sed 
+      <lb ed="#L" n="107"/>nil aliud est in ista linea esse commensurabilem, 
+      <lb ed="#L" n="108"/>vel commensurari, nisi lineam lineae coaequari, 
+      <lb ed="#L" n="109"/>&amp; esse coaequalem. ergo nil aliud est 
+      commen<lb ed="#L" break="no" n="110"/>suratio, quam aequalitas. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e711">
+                  <lb ed="#L" n="111"/>Praeterea: Aequalitas est quaedam habitudo 
+      <lb ed="#L" n="112"/>vnius quantitatis ad aliam, sed negatio 
+      maio<lb ed="#L" break="no" n="113"/>ritatis, &amp; minoritatis habitudinem non impor 
+      <lb ed="#L" n="114"/>tat, nisi aliqua alia habitudo, quae fundatur 
+      su<lb ed="#L" break="no" n="115"/>per quantitatem secundum suam propriam ra 
+      <lb ed="#L" n="116"/>tionem idem sit, quod mensura; habitudo 
+      ve<lb ed="#L" break="no" n="117"/>ro mensurae ad mensuram non videtur esse alia 
+      <lb ed="#L" n="118"/>secundum propriam rationem mensurae, nisi 
+      <lb ed="#L" n="119"/>commensuratio. ergo de ratione aequalitatis, 
+      <lb ed="#L" n="120"/>est quod sit quaedam commensuratio. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e735">
+                  <lb ed="#L" n="121"/>Praeterea: Sicut quantitas finita 
+      commen<lb ed="#L" break="no" n="122"/>suratur finitae, &amp; sic infinita aequatur 
+      infini<lb ed="#L" break="no" n="123"/>tae, sic &amp; commensuratur. vnde non plus est de 
+      <lb ed="#L" n="124"/>ratione commensurationis finitas, quam de 
+      ra<lb ed="#L" break="no" n="125"/>tione aequalitatis, aut coaequationis. non ergo 
+      <lb ed="#L" n="126"/>propter hoc oportet dicere, quod ad 
+      quamli<lb ed="#L" break="no" n="127"/>bet aequalitatem semper requiritur 
+      commen<lb ed="#L" break="no" n="128"/>suratio, quod infinita si ponerentur essent 
+      aequa<lb ed="#L" break="no" n="129"/>lia, non tamen commensurabilia, codem 
+      qui<lb ed="#L" break="no" n="130"/>dem modo commensurarentur, &amp; 
+      coaequaren<lb ed="#L" break="no" n="131"/>tur, vt patet. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e761">
+      <!--0476.xml-->
+                  <pb ed="#L" n="476"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Opinio quorundam. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e772">
+                  <lb ed="#L" n="2"/>PROPTEREA dixerunt alij, quod duplex 
+      <lb ed="#L" n="3"/>est quantitas, vna quidem 
+      praedicamenta<lb ed="#L" break="no" n="4"/>lis, &amp; ista non est, alia vero perfectionalis, quae 
+      <lb ed="#L" n="5"/>est tantum incedens, &amp; non est aliud, quam gra 
+      <lb ed="#L" n="6"/>dus intrinsecus cuiussibet entitatis. Prima 
+      qui<lb ed="#L" break="no" n="7"/>dem fundat per se aequalitatem. vnde duae lineae 
+      <lb ed="#L" n="8"/>per se sumptae sine subiecto aliquo dici possent 
+      <lb ed="#L" n="9"/>aequales, vel inaequales. Secunda vero non 
+      fun<lb ed="#L" break="no" n="10"/>dat, nisi quatenus est in aliquo substituto. vnde 
+      <lb ed="#L" n="11"/>duo albi dicuntur aequalia in albedine, quae est 
+      <lb ed="#L" n="12"/>eiusdem gradus, gradus vero per se non fundant 
+      <lb ed="#L" n="13"/>tantum inaequalitatem. quia ergo in diuinis est 
+      <lb ed="#L" n="14"/>sapientia in eodem gradu, &amp; bonitas, &amp; ceterae 
+      <lb ed="#L" n="15"/>perfectiones, &amp; similiter Deitas, idcirco tres 
+      <lb ed="#L" n="16"/>personae dicuntur aequales, ex quo patet, 
+      quo<lb ed="#L" break="no" n="17"/>modo differunt identitas, similitudo &amp; 
+      aequali<lb ed="#L" break="no" n="18"/>tas. identitas enim dicitur respectu essentiae; 
+      <lb ed="#L" n="19"/>similitudo vero respectu perfectionum, quae sunt, 
+      <lb ed="#L" n="20"/>quasi qualitatiuae, vt sapientia, scientia, &amp; sic de 
+      <lb ed="#L" n="21"/>alijs perfectionibus simpliciter; aequalitas 
+      ve<lb ed="#L" break="no" n="22"/>ro est respectu gradus intrinseci omnis, qui 
+      <lb ed="#L" n="23"/>est infinitas quamuis autem istae tres 
+      habitudi<lb ed="#L" break="no" n="24"/>nes non sint totaliter in diuinis idem etiam ex 
+      <lb ed="#L" n="25"/>natura rei, magis tamen inter se distinguuntur 
+      <lb ed="#L" n="26"/>similitudo, &amp; identitas, quam aequalitas 
+      distin<lb ed="#L" break="no" n="27"/>guatur ab eis, cuius ratio est, quia perfectiones 
+      <lb ed="#L" n="28"/>simpliciter, quae sunt fundamentum 
+      similitudi<lb ed="#L" break="no" n="29"/>nis magis distinguuntur ex natura rei ab essen 
+      <lb ed="#L" n="30"/>tia, quae est fundamentum identitatis, quam 
+      <lb ed="#L" n="31"/>gradus intrinsecus essentiae, vel per fectionum, 
+      <lb ed="#L" n="32"/>quae est infinitas, &amp; quae est fundamentum aequa 
+      <lb ed="#L" n="33"/>litatis ab esse, vel perfectionibus distinguatur.l 
+      <lb ed="#L" n="34"/>nam gradus intrinsecus rei non distert ab ipsa 
+      <lb ed="#L" n="35"/>re. vnde infinitas non est speciale attributum 
+      <lb ed="#L" n="36"/>in diuinis. Si autem quaeratur vtrum in diuinis 
+      <lb ed="#L" n="37"/>sint plures aequalitates, dicendum, quod sic. quot 
+      <lb ed="#L" n="38"/>enim sunt in attributa, tot sunt in infinitates, 
+      <lb ed="#L" n="39"/>nam sapientia habet suam propriam 
+      infinita<lb ed="#L" break="no" n="40"/>tem, &amp; similiter iustitia; hoc autem apparet ex 
+      <lb ed="#L" n="41"/>hoc, quod sapientia secundum se sumpta exten 
+      <lb ed="#L" n="42"/>ditur ad infinita, secundum illud Prophetae: 
+      Sa<lb ed="#L" break="no" n="43"/>pientiae eius non est numerus. &amp; similiter iustitia, 
+      <lb ed="#L" n="44"/>quia iustitia Domini plena est terra, &amp; iterum 
+      <lb ed="#L" n="45"/>si sapientia esset infinita subiectiua 
+      participa<lb ed="#L" break="no" n="46"/>tione in fundamentis essentiae, non esset magis 
+      <lb ed="#L" n="47"/>infinita, quam relationes personales, &amp; iterum 
+      <lb ed="#L" n="48"/>perfectiones simpliciter sunt in creaturis secun 
+      <lb ed="#L" n="49"/>dum magis, &amp; minus, quare oportet, quod in 
+      <lb ed="#L" n="50"/>Deo quaelibet secundum suam propriam 
+      ratio<lb ed="#L" break="no" n="51"/>nem sit summa. vnde si non esset in Deo, nisi so 
+      <lb ed="#L" n="52"/>la sapientia, adhuc illa esset infinita. 
+      relinqui<lb ed="#L" break="no" n="53"/>tur ergo quod tot sunt infinitates, quot sunt 
+      perfe<lb ed="#L" break="no" n="54"/>ctiones simpliciter, &amp; similiter tot aequalitates. 
+      <lb ed="#L" n="55"/>vnde personae alia aequalitate sunt aequales, vt 
+      <lb ed="#L" n="56"/>sapientia, &amp; alia, vt iustitia, &amp; sic de ceteris. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e894">
+                  <lb ed="#L" n="57"/>Sed haec opinio vltra hoc, quod dicit cum 
+      ip<lb ed="#L" break="no" n="58"/>sa, quod identitas, similitudo, &amp; aequalitas non 
+      <lb ed="#L" n="59"/>sunt caedem habitudines in diuinis, videtur 
+      de<lb ed="#L" break="no" n="60"/>ficere in duobus. Primo quidem quod ait, quan 
+      <lb ed="#L" n="61"/>titatem praedicamentalem per se sumptam pos 
+      <lb ed="#L" n="62"/>se fundare aequalitatem perfectionalem; non ve 
+      <lb ed="#L" n="63"/>ro in aliquo substracto; siquidem nec 
+      praedica<lb ed="#L" break="no" n="64"/>mentalis, nec virtualis potest, nisi in substrato. 
+      <lb ed="#L" n="65"/>illud enim, quod partes non habet aequalitatem, 
+      <!--0476.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>vel inaequalitatem fundare non potest, sed quan 
+      <lb ed="#L" n="67"/>titas separata partes non habet, sed est 
+      parti<lb ed="#L" break="no" n="68"/>bilitas pura, nec excedens vnquam, sed est quo 
+      <lb ed="#L" n="69"/>aliquid formaliter extenditur, nec est longum, 
+      <lb ed="#L" n="70"/>sed id, quo aliud est longum. ergo quantitas per 
+      <lb ed="#L" n="71"/>se sumpta aequalitatem, vel inaequalitatem 
+      fun<lb ed="#L" break="no" n="72"/>dare non potest. vnde imaginatio decipit sic di 
+      <lb ed="#L" n="73"/>centes. imaginantur. enim, quod duae lineae sepa 
+      <lb ed="#L" n="74"/>ratae sint, quasi duo longa, &amp; quantitas, quasi ha 
+      <lb ed="#L" n="75"/>bens partes, cum tamen quantitas non sit, nisi 
+      <lb ed="#L" n="76"/>pura partibilitas habens se sic ad partes, sicut 
+      <lb ed="#L" n="77"/>symitas ad symum, &amp; similiter linea sit, quo aliud 
+      <lb ed="#L" n="78"/>est longum, sicut rectitudo, quo aliud est rectum. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e949">
+                  <lb ed="#L" n="79"/>Praeterea: Secundum quantitatem substituta 
+      <lb ed="#L" n="80"/>dicuntur aequalia, vel inaequalia. vnde vnum 
+      li<lb ed="#L" break="no" n="81"/>gnum est aequale alteri in ligneitate, vel 
+      inae<lb ed="#L" break="no" n="82"/>quale, &amp; hoc est, quod Philosophus dicit in 
+      prae<lb ed="#L" break="no" n="83"/>dicamentis, quod proprium est quantitatis, 
+      se<lb ed="#L" break="no" n="84"/>cundum eam aequale, vel inaequale dici. cum 
+      er<lb ed="#L" break="no" n="85"/>go non dicat, quod sit proprium quantitatis 
+      <lb ed="#L" n="86"/>aequalem, vel inaequalem dici, sed secundum eam 
+      <lb ed="#L" n="87"/>aliquid aequale, vel inaequale dici, manifestum 
+      <lb ed="#L" n="88"/>est, quod quantitas per se sumpta non est 
+      fun<lb ed="#L" break="no" n="89"/>damentum aequalitatis, sed est ratio, quod 
+      al<lb ed="#L" break="no" n="90"/>teri insit, vt subiecto. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e979">
+                  <lb ed="#L" n="91"/>Secundo vero deficit in hoc, quod ait tot 
+      <lb ed="#L" n="92"/>aequalitates esse, quot sunt perfectiones simpli 
+      <lb ed="#L" n="93"/>citer. quandocumque enim aliqua sunt idem 
+      <lb ed="#L" n="94"/>penitus, &amp; re, &amp; ratione in se, distinguuntur au 
+      <lb ed="#L" n="95"/>tem tantummodo in subiectis, seu terminis cō- 
+      <lb ed="#L" n="96"/>notatis talia non habent plures aequalitates, sed 
+      <lb ed="#L" n="97"/>declaratum est supra, quod perfectiones simpli 
+      <lb ed="#L" n="98"/>citer coincidunt in deitatem secundum rem, &amp; 
+      <lb ed="#L" n="99"/>rationem, &amp; solum differunt in subiectis, siue 
+      <lb ed="#L" n="100"/>terminis connotatis, inquautum sapientia 
+      di<lb ed="#L" break="no" n="101"/>cit deitatem, prout illi sunt omnia in prospectu, 
+      <lb ed="#L" n="102"/>&amp; iustitia dicit eam, prout reddit vnicuique, 
+      <lb ed="#L" n="103"/>quod suum est, &amp; sic de ceteris attributis ergo 
+      <lb ed="#L" n="104"/>in diuinis non sunt plures aequalitates, nec 
+      plu<lb ed="#L" break="no" n="105"/>res infinitates intrinsece, quamuis extrinsece 
+      <lb ed="#L" n="106"/>connotentur plura, &amp; infinita, inquantum 
+      mi<lb ed="#L" break="no" n="107"/>sericordia connotat infinitos modos subuenien 
+      <lb ed="#L" n="108"/>di, similiter sapientia infinitos modos, &amp; 
+      infi<lb ed="#L" break="no" n="109"/>nitas partes magnitudinis scibiles, &amp; sic de 
+      <lb ed="#L" n="110"/>aliis scibilibus infinitis. vnde non aliter dicitur 
+      <lb ed="#L" n="111"/>sapientia formaliter infinita, nisi in connotatis. 
+      <lb ed="#L" n="112"/>in scipsa enim non dicit rem, nec rationem 
+      ali<lb ed="#L" break="no" n="113"/>quam, nisi ipsammet rationem Deitatis purissi 
+      <lb ed="#L" n="114"/>mam, &amp; sinceram, non addita formalitate, aut 
+      <lb ed="#L" n="115"/>aliqua ratione, nec ea, quae isti adducunt, aliam 
+      <lb ed="#L" n="116"/>infinitatem probant, nisi tantum in connotatis.
+    </p>
+               <p xml:id="ol96b1-153749-d1e1038">
+                  <lb ed="#L" n="117"/>Quid dicendum secundum veritatem, &amp; primo quod 
+      <lb ed="#L" n="118"/>identitas, &amp; aequalitas, &amp; similitudo sunt 
+      <lb ed="#L" n="119"/>eadem habitudines in diuinis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1047">
+                  <lb ed="#L" n="120"/>RESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="121"/>sub duplici propositione. Prima quidem 
+      <lb ed="#L" n="122"/>quod iste tres habitudines omnino sunt idem 
+      <lb ed="#L" n="123"/>in diuinis. Est enim considerandum quod 
+      quae<lb ed="#L" break="no" n="124"/>dam est qualitas fundata super quantitate 
+      dif<lb ed="#L" break="no" n="125"/>ferente ab essentia, sicut in creaturis differt 
+      <lb ed="#L" n="126"/>quantitas dimensiua, &amp; in talibus alia 
+      habitu<lb ed="#L" break="no" n="127"/>do est aequalitas, &amp; alia identitas; quaedam 
+      ve<lb ed="#L" break="no" n="128"/>ro est quantitas, quae non differt a substrato, 
+      si<lb ed="#L" break="no" n="129"/>cut gradus perfectionis specificae non differt ab 
+      <!--0477.xml-->
+      <pb ed="#L" n="477"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ipsa specifica ratione, vt supra probatum fuit, 
+      <lb ed="#L" n="2"/>cum ageretur de vnitate Dei, &amp; talis 
+      aequa<lb ed="#L" break="no" n="3"/>litas non est aliud, quam identitas specifica. 
+      <lb ed="#L" n="4"/>non est enim aliud aequalitas, quam identitas 
+      <lb ed="#L" n="5"/>specifica. non est enim aliud aequalitas fundata 
+      <lb ed="#L" n="6"/>super gradualitate perfectionis, quam vnitas 
+      <lb ed="#L" n="7"/>gradus perfectionis, vnitas autem gradus est 
+      <lb ed="#L" n="8"/>unitas perfectionis, quia ille gradus est 
+      intrin<lb ed="#L" break="no" n="9"/>seca perfectio, &amp; ipsamet perfectio est ipsa 
+      spe<lb ed="#L" break="no" n="10"/>cifica ratio, &amp; idcirco vnitas rationis 
+      specifi<lb ed="#L" break="no" n="11"/>cae, quae est identitas, est vnitas gradus 
+      per<lb ed="#L" break="no" n="12"/>fectionis. similiter ergo aequalitas comparata 
+      <lb ed="#L" n="13"/>ad similitudinem: nam vbi differt qualitas a quan 
+      <lb ed="#L" n="14"/>titate, ibi est aliud aequalitas, &amp; similitudo, sicut 
+      <lb ed="#L" n="15"/>in ligno albo, vbi vero quantitas non differt a 
+      <lb ed="#L" n="16"/>qualitate, ibi similitudo, &amp; aequalitas sunt eadem 
+      <lb ed="#L" n="17"/>relatio, &amp; inaequalitas, &amp; dissimilitudo, sicut pa 
+      <lb ed="#L" n="18"/>tet, quod duo participantes albedinem in diuer 
+      <lb ed="#L" n="19"/>sis gradibus, sicut dicuntur inaequales in albedi 
+      <lb ed="#L" n="20"/>ne, sic dicuntur dissimiles; participantes vero 
+      <lb ed="#L" n="21"/>in eodem gradu dscuntur similes. vnde 
+      aequali<lb ed="#L" break="no" n="22"/>tas non est noua relatio, sed intentio similitudi 
+      <lb ed="#L" n="23"/>nis, sicut &amp; gradus non est noua quantitas, sed 
+      <lb ed="#L" n="24"/>intentio prioris quantitatis, similiter, &amp; identi 
+      <lb ed="#L" n="25"/>tas potest comparari ad similitudinem. vbi 
+      e<lb ed="#L" break="no" n="26"/>nim aequalitas differt ab essentia, ibi similitudo 
+      <lb ed="#L" n="27"/>&amp; identitas distinguuntur, sicut patet in Sorte, 
+      <lb ed="#L" n="28"/>&amp; Platone, qui sunt idem in specie, &amp; dissimiles 
+      <lb ed="#L" n="29"/>in qualitate; vbi vero qualitas sumitur 
+      essen<lb ed="#L" break="no" n="30"/>tialiter, sic differentia dicit quale essentiale, 
+      <lb ed="#L" n="31"/>ibi idem est esse simile, quod esse idem. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1145">
+                  <lb ed="#L" n="32"/>Ad propositum ergo, quod in diuinis 
+      perfe<lb ed="#L" break="no" n="33"/>ctiones simpliciter, quae uidentur qualitatiue 
+      <lb ed="#L" n="34"/>dici coincidunt, &amp; re, &amp; ratione in rationem dei 
+      <lb ed="#L" n="35"/>tatis, &amp; per consequens nulla est ibi qualitas, ni 
+      <lb ed="#L" n="36"/>si ipsamet forma, &amp; essentia deitatis, necesse 
+      <lb ed="#L" n="37"/>est quod identitas, &amp; similitudo sint idem, &amp; ideo 
+      <lb ed="#L" n="38"/>dicit Damascenus lib. 1. cap. 11. postquam 
+      osten<lb ed="#L" break="no" n="39"/>derat, Trinitatem habere eandem bonitatem, 
+      <lb ed="#L" n="40"/>&amp; potestatem, &amp; virtutem, &amp; sic de ceteris 
+      at<lb ed="#L" break="no" n="41"/>tributis, non dixi ait istorum similitudinem, sed 
+      <lb ed="#L" n="42"/>identitatem, similiter cum in diuinis non sit alia 
+      <lb ed="#L" n="43"/>quantitas, quam gradus perfectionis, quam 
+      dei<lb ed="#L" break="no" n="44"/>tas importat: Deitas autem non est quaedam 
+      por<lb ed="#L" break="no" n="45"/>tio entitatis, sed est tota entitas formaliter, &amp; 
+      <lb ed="#L" n="46"/>per consequens immensitas quaedam, necesse 
+      <lb ed="#L" n="47"/>est, quod vnitas trium personarum in deitate, 
+      <lb ed="#L" n="48"/>quae vocatur identitas sit idem, quod vnitas in 
+      <lb ed="#L" n="49"/>tota entitate, &amp; in magnitudine, quae 
+      appella<lb ed="#L" break="no" n="50"/>tur aequalitas. vnde cum sit eadem magnitudo, 
+      <lb ed="#L" n="51"/>quae essentia secundum Augustinum, necessario 
+      <lb ed="#L" n="52"/>idem est aequalitas, &amp; identitas, &amp; ita patet 
+      as<lb ed="#L" break="no" n="53"/>sumpta propositio, quod illae tres habitudines 
+      <lb ed="#L" n="54"/>eaedem sunt in diuinis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1197">
+                  <lb ed="#L" n="55"/>Nec debet quis permoueri, quod essentia, prout 
+      <lb ed="#L" n="56"/>inducit rationem quid, &amp; qualis, &amp; quanti, 
+      vi<lb ed="#L" break="no" n="57"/>detur ratione differre, &amp; similiter aequalitas, 
+      si<lb ed="#L" break="no" n="58"/>militudo, identitas different ratione, dicendum 
+      <lb ed="#L" n="59"/>quidem, quod hoc est impossibile. essentia enim 
+      <lb ed="#L" n="60"/>sicut tres personas quiddificat, sic &amp; eas reddit 
+      <lb ed="#L" n="61"/>immensas, quoniam sub ratione deitatis est to 
+      <lb ed="#L" n="62"/>ta entitas, &amp; per consequens immensitas, &amp; 
+      <lb ed="#L" n="63"/>magnitudo. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1219">
+                  <lb ed="#L" n="64"/>Nec debet moueri etiam, quod aequalitas im 
+      <lb ed="#L" n="65"/>portat coaequationem, &amp; commensurationem; 
+      <lb ed="#L" n="66"/>similitudo vero conformationem, &amp; ita uiden- 
+      <!--0477.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>tur ratione distingui. dicendum enim, quod 
+      <lb ed="#L" n="68"/>identitas importat conformitatem in essentia; 
+      <lb ed="#L" n="69"/>similitudo vero conformitatem in qualitate, &amp; 
+      <lb ed="#L" n="70"/>aequalitas conformitatem in quantitate, &amp; ideo 
+      <lb ed="#L" n="71"/>vbi quantitas, qualitas, &amp; quidditas idem sunt 
+      <lb ed="#L" n="72"/>secundum rem, &amp; rationem, ibi non est triplex 
+      <lb ed="#L" n="73"/>conformitas, &amp; vna; hoc autem locum habet in 
+      <lb ed="#L" n="74"/>creaturis, vbi distincta realiter non habent 
+      ali<lb ed="#L" break="no" n="75"/>quam vnitatem, nisi conformitatis; in diuinis 
+      <lb ed="#L" n="76"/>vero non est vnitas conformitatis, sed 
+      indistin<lb ed="#L" break="no" n="77"/>ctionis. vnde tres personae habent conformem 
+      <lb ed="#L" n="78"/>identitatem, aut qualitatem, seu quantitatem, 
+      <lb ed="#L" n="79"/>sed sunt indistinctae in istis, &amp; quia ista 
+      coinci<lb ed="#L" break="no" n="80"/>dunt in idem re, &amp; ratione, puta in deitatem, 
+      <lb ed="#L" n="81"/>idcirco non est in eis, nisi vnica indistinctio, &amp; 
+      <lb ed="#L" n="82"/>per consequens idem sunt identitas, aequalitas, 
+      <lb ed="#L" n="83"/>&amp; similitudo. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1270">
+                  <lb ed="#L" n="84"/>Quod tres personae nerissime sunt aequales. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1275">
+                  <lb ed="#L" n="85"/>SECVNDA vero propositio, quod tres 
+      per<lb ed="#L" break="no" n="86"/>sonae verissime sunt aequales. perfectior enim 
+      <lb ed="#L" n="87"/>est aequalitas, quae cedit in identitatem, &amp; 
+      simi<lb ed="#L" break="no" n="88"/>litudinem, quam illa quae distinguitur a 
+      simili<lb ed="#L" break="no" n="89"/>tudine, &amp; identitate; similitudo quoque, 
+      identi<lb ed="#L" break="no" n="90"/>tas, &amp; aequalitas multo perfectior est, cum 
+      im<lb ed="#L" break="no" n="91"/>portat qualitatis, quidditatis, &amp; quantitatis 
+      in<lb ed="#L" break="no" n="92"/>distinctionem, quam dum importat solam 
+      con<lb ed="#L" break="no" n="93"/>formitatem; non autem in diuinis istae tres 
+      ha<lb ed="#L" break="no" n="94"/>bitudines idem sunt, nec important 
+      conformi<lb ed="#L" break="no" n="95"/>tatem, sed omnimodam distinctionem. ergo in 
+      <lb ed="#L" n="96"/>diuinis personis est aequalitas perfectissima, &amp; 
+      <lb ed="#L" n="97"/>per consequens perfectissime sunt aequales. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1306">
+                  <lb ed="#L" n="98"/>Ex his patet quid est aequalitas in diuinis. non 
+      <lb ed="#L" n="99"/>est enim aliud, quam distinctorum, puta 
+      suppo<lb ed="#L" break="no" n="100"/>sitorum indistinctio in quadam re omnimode 
+      <lb ed="#L" n="101"/>indistincta; haec autem indistinctio est idem, quod 
+      <lb ed="#L" n="102"/>identitas, secundum quam vna persona dicitur al 
+      <lb ed="#L" n="103"/>teri identice immanere. secundum hoc 
+      circumin<lb ed="#L" break="no" n="104"/>cessio, &amp; aequalitas idem sunt, propter quod Ma 
+      <lb ed="#L" n="105"/>gister in praesenti distinctione, cum egit de 
+      aequa<lb ed="#L" break="no" n="106"/>litate, statim se transfert ad circumcessionem. 
+      <lb ed="#L" n="107"/>vnde qui concipit indiuiduam Trinitatem, seu 
+      <lb ed="#L" n="108"/>Trinitatem distinctam in quodam 
+      indisttingui<lb ed="#L" break="no" n="109"/>bili indistinctam habet omne illud, quod impor 
+      <lb ed="#L" n="110"/>tant omnes habitudines illae. non ergo 
+      impedi<lb ed="#L" break="no" n="111"/>tur personarum aequalitas propter defectum 
+      <lb ed="#L" n="112"/>quantitatis, quoniam non est ibi aequalitas 
+      eius<lb ed="#L" break="no" n="113"/>dem rationis cum illa, quae est propria passio 
+      <lb ed="#L" n="114"/>quantitatis, sed illa quae coincidit cum identi 
+      <lb ed="#L" n="115"/>tate, &amp; similitudine essentiali. &amp; in hoc primus 
+      <lb ed="#L" n="116"/>articulus terminatur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-153749-Dd1e1351">
+               <head xml:id="ol96b1-153749-Hd1e1353">Articulus 2</head>
+               <p xml:id="ol96b1-153749-d1e1355">
+                  <lb ed="#L" n="117"/>ARTJCVLVS SECVNDVS.
+    </p>
+               <p xml:id="ol96b1-153749-d1e1360">
+                  <lb ed="#L" n="118"/>Quod auctoritas, &amp; subauctoritas non impediunt 
+      <lb ed="#L" n="119"/>aequalitatem personarum in diuinis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1367">
+                  <lb ed="#L" n="120"/>CIRCA secundum autem considerandum 
+      <lb ed="#L" n="121"/>est, quod aliqui dicere voluerunt, quod au 
+      <lb ed="#L" n="122"/>ctoritas, qua pater secundum Hilar. videtur es 
+      <lb ed="#L" n="123"/>se filio magis authenticus in diuinis non re 
+      pu<lb ed="#L" break="no" n="124"/>gnat aequalitati perlonarum propter hoc, quod in 
+      <lb ed="#L" n="125"/>filio non est subauctoritas, nec filius est minor, 
+      <lb ed="#L" n="126"/>licet pater auctoritate generationis sit maior, 
+      <lb ed="#L" n="127"/>&amp; hoc est, quod dicit Hilar. 9. de Trin. ait enim, 
+      <!--0478.xml-->
+      <pb ed="#L" n="478"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quod licet maior sit, donans auctoritate donan 
+      <lb ed="#L" n="2"/>tis, &amp; loquitur de patre, non tamen minor est, 
+      <lb ed="#L" n="3"/>cui vnum esse donatur, &amp; loquitur de filio, &amp; 
+      si<lb ed="#L" break="no" n="4"/>militer Aug. dicit 4. de Trinx. vlt. quod non ideo mi 
+      <lb ed="#L" n="5"/>nor est filius, quia missus est a patre, sed dicitur 
+      <lb ed="#L" n="6"/>hoc propter auctoritatem principij commendan 
+      <lb ed="#L" n="7"/>dam. sic ergo auctoritas, quae patri attribuitur non 
+      <lb ed="#L" n="8"/>tollit aequalitatem propter hoc, quod filius non 
+      <lb ed="#L" n="9"/>est minor, nec habens subauctoritatem. vnde in 
+      <lb ed="#L" n="10"/>diuinis recipitur ratio totalitatis, &amp; 
+      auctorita<lb ed="#L" break="no" n="11"/>tis, &amp; fimilium, quae perfectionem important, 
+      <lb ed="#L" n="12"/>sed ratio partis, &amp; subauctoritatis non est ibi 
+      <lb ed="#L" n="13"/>propter imperfectionem, quae in istis 
+      rationi<lb ed="#L" break="no" n="14"/>bus importatur.
+    </p>
+               <p xml:id="ol96b1-153749-d1e1424">
+                  <lb ed="#L" n="15"/>Sed hic modus dicendi stare non potest, quia 
+      <lb ed="#L" n="16"/>impossibile est, vnum relatiuum separari a suo 
+      <lb ed="#L" n="17"/>correlatiuo, auctoritas autem, &amp; 
+      subauctori<lb ed="#L" break="no" n="18"/>tas correlatiua sunt. ergo si pater habet 
+      aucto<lb ed="#L" break="no" n="19"/>ritatem respectu filij, filius habebit 
+      subaucto<lb ed="#L" break="no" n="20"/>ritatem respectu patris.
+    </p>
+               <p xml:id="ol96b1-153749-d1e1441">
+                  <lb ed="#L" n="21"/>Praeterea: Si auctoritas recipitur quia 
+      digni<lb ed="#L" break="no" n="22"/>tatem importat; subauctoritas vero non 
+      pro<lb ed="#L" break="no" n="23"/>pter indignitatem. tunc saltem pater respectu fi 
+      <lb ed="#L" n="24"/>lij dignior est, &amp; dignitatem habebit, sed hoc 
+      <lb ed="#L" n="25"/>est impossibile. ergo nec auctoritas dignitatem 
+      <lb ed="#L" n="26"/>importat, nec subauctoritas indignitatem.
+    </p>
+               <p xml:id="ol96b1-153749-d1e1457">
+                  <lb ed="#L" n="27"/>Propterea dicendum est, quod auctoritas, 
+      <lb ed="#L" n="28"/>&amp; subauctoritas duplex est. quaedam enim, quae 
+      <lb ed="#L" n="29"/>fundatur super diuersa conditione potestatis, 
+      <lb ed="#L" n="30"/>&amp; dignitatis, inquantum ille, qui habet 
+      altio<lb ed="#L" break="no" n="31"/>rem potestatem, debet habere auctoritatem, &amp; 
+      <lb ed="#L" n="32"/>qui inferiorem potestatem habet, habere dicitur 
+      <lb ed="#L" n="33"/>subauctoritatem, &amp; hoc modo nec auctoritas, 
+      <lb ed="#L" n="34"/>nec subauctoritas in diuinis recipitur, cum sit 
+      <lb ed="#L" n="35"/>omnino eadem potestas in tribus personis; 
+      quae<lb ed="#L" break="no" n="36"/>dam vero fundatur super modo diuerso haben 
+      <lb ed="#L" n="37"/>di eandem potestatem in numero, vt cum 
+      ali<lb ed="#L" break="no" n="38"/>quis habet potestatem ali quam a se; alius vero 
+      <lb ed="#L" n="39"/>habet penitus eandem ab alio, &amp; sic pater in 
+      di<lb ed="#L" break="no" n="40"/>uinis habet omnem potentiam a se, sicut Deitatem; 
+      <lb ed="#L" n="41"/>filius vero a patre. auctoritas ergo, &amp; subaucto 
+      <lb ed="#L" n="42"/>ritas primo modo sumptae important 
+      perfectio<lb ed="#L" break="no" n="43"/>nem, &amp; imperfectionem, secundo vero modo sum 
+      <lb ed="#L" n="44"/>ptae notant diuersitatem originis, &amp; non gradum 
+      <lb ed="#L" n="45"/>perfectionis, &amp; ita patet, quod filius agit subau 
+      <lb ed="#L" n="46"/>ctoritate, sicut &amp; pater auctoritate, non 
+      distin<lb ed="#L" break="no" n="47"/>guendo potestatem, sed ad originem 
+      referen<lb ed="#L" break="no" n="48"/>do, &amp; ideo dicit filius: Ioan. 14. Pater in me 
+      ma<lb ed="#L" break="no" n="49"/>nens ipse facit opera. &amp; Ioann. 5. Non potest filius 
+      <lb ed="#L" n="50"/>quidquam facere, nisi quod viderit patrem facientem. 
+      <lb ed="#L" n="51"/>talis ergo auctoritas, &amp; subauctoritas non 
+      im<lb ed="#L" break="no" n="52"/>pedit personarum aequalitatem, nec obstant ver 
+      <lb ed="#L" n="53"/>ba Hilarij, quia nec auctoritas in patre ponit 
+      <lb ed="#L" n="54"/>auctoritatem, nec minoritatem subauctoritas 
+      <lb ed="#L" n="55"/>in filio, sed accipitur maioritas pro prioritate 
+      <lb ed="#L" n="56"/>originis, nullo modo pro aliqua dignitate: 
+      vo<lb ed="#L" break="no" n="57"/>luerunt tamen aliqui dicere, quod pater 
+      dici<lb ed="#L" break="no" n="58"/>tur maior vere realiter, licet filius non sit 
+      mi<lb ed="#L" break="no" n="59"/>nor. ad hoc enim quod aliquis sit maior, sufficit, 
+      <lb ed="#L" n="60"/>quod habeat aliquam dignitatem, si vero debet 
+      <lb ed="#L" n="61"/>aliquis dici minor, non sufficit, quod careat illa 
+      <lb ed="#L" n="62"/>dignitate, sed oportet, quod includat 
+      indigni<lb ed="#L" break="no" n="63"/>tatem, nunc autem pater dignitatem habet pri 
+      <lb ed="#L" n="64"/>mum in diuinis; filius vero etsi careat illa 
+      di<lb ed="#L" break="no" n="65"/>gnitate, nullam tamen indignitatem importat, 
+      <lb ed="#L" n="66"/>&amp; ita filius non est minor, licet pater sit maior, 
+      <!--0478.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>sicut sonant verba Hilarij. Sed hic modus 
+      di<lb ed="#L" break="no" n="68"/>cendi deficit, tum quia saltem ista vera esset, pa 
+      <lb ed="#L" n="69"/>ter est dignior filio, &amp; plures dignitates habens: 
+      <lb ed="#L" n="70"/>filius vero minus dignus: tum quia impossibile 
+      <lb ed="#L" n="71"/>est, quod aliquis sit maior alio, &amp; ille non sit mi 
+      <lb ed="#L" n="72"/>nor, nam relatiuum suppositionis requirit 
+      ter<lb ed="#L" break="no" n="73"/>minum sibi supponi. vnde non potest poni 
+      Do<lb ed="#L" break="no" n="74"/>minus sine seruo, nec maior sine minori. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1568">
+                  <lb ed="#L" n="75"/>Propter quod aliqui dicere voluerunt, quod 
+      <lb ed="#L" n="76"/>loquendo secundum rem-pater non est maior 
+      <lb ed="#L" n="77"/>filio, sed secundum nostrum modum intelligen 
+      <lb ed="#L" n="78"/>di. in agentibus enim vniuocis, &amp; causatis non 
+      <lb ed="#L" n="79"/>est nobilior natura in patre, qua m in filio, sed 
+      <lb ed="#L" n="80"/>tantum modo nobiliori habet eam pater, quam 
+      <lb ed="#L" n="81"/>filius, inquantum natura filij dependet a natura pa 
+      <lb ed="#L" n="82"/>tris. vnde tenetur filius ad obedientiam, 
+      reue<lb ed="#L" break="no" n="83"/>rentiam, &amp; honorem impendendum patri; in 
+      <lb ed="#L" n="84"/>diuinis autem natura in patre, &amp; in filio est 
+      ea<lb ed="#L" break="no" n="85"/>dem numero, &amp; ideo aeque nobilis, &amp; quo ad 
+      ra<lb ed="#L" break="no" n="86"/>tionem naturae, &amp; quo ad modum habendi, quia 
+      <lb ed="#L" n="87"/>non dependet. non enim competit sibi 
+      produ<lb ed="#L" break="no" n="88"/>ci, sed tantum communicari; quantum vero ad 
+      <lb ed="#L" n="89"/>nostrum modum intelligendi, quia pater in di 
+      <lb ed="#L" n="90"/>uinis assimilatur quodammodo patri creato, vi 
+      <lb ed="#L" n="91"/>detur quod natura sit in patre secundum modum 
+      <lb ed="#L" n="92"/>essendi nobiliorem, &amp; ita potest pater dici 
+      ma<lb ed="#L" break="no" n="93"/>ior filio quo ad modum habendi naturam, non 
+      <lb ed="#L" n="94"/>quidem secundum rem, sed secundum modum 
+      <lb ed="#L" n="95"/>concipiendi, sed nec ille modus dicendi 
+      suffi<lb ed="#L" break="no" n="96"/>cit: tum quia est vere productus 
+      quomodocum<lb ed="#L" break="no" n="97"/>que sit de natura, &amp; ita saltem in esse suppositi 
+      <lb ed="#L" n="98"/>videtur habere modum ignobiliorem, quam pa 
+      <lb ed="#L" n="99"/>ter, si ratio illa procederet: tum quia pater ha 
+      <lb ed="#L" n="100"/>bet naturam a se, filius vero a patre, &amp; ita 
+      mo<lb ed="#L" break="no" n="101"/>dus habendi naturam est nobilior, sed illud 
+      ex<lb ed="#L" break="no" n="102"/>cludit; tum quia dependentia naturae, &amp; 
+      pro<lb ed="#L" break="no" n="103"/>ductio ponit ignobilitatem in natura, sed habe 
+      <lb ed="#L" n="104"/>re ab alio ponit ignobilitatem in modo essendi. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1636">
+                  <lb ed="#L" n="105"/>Quapropter dicendum est, sicut prius, quod 
+      <lb ed="#L" n="106"/>habere naturam a se non ponit dignitatem, nec 
+      <lb ed="#L" n="107"/>maioritatem, sed intantum ponit auctoritatem, quod 
+      <lb ed="#L" n="108"/>habens a se aeque potest naturam, &amp; quicquid ope 
+      <lb ed="#L" n="109"/>ratur, attribuere sibi authentice; habens vero ab 
+      <lb ed="#L" n="110"/>alio, intantum auctoritate caret, &amp; 
+      subauctori<lb ed="#L" break="no" n="111"/>tatem habet, quod non potest e am attribuere 
+      <lb ed="#L" n="112"/>sibi ipsi, quasi habeat eam a se, nec quod 
+      opere<lb ed="#L" break="no" n="113"/>tur, quasi a se, &amp; haec est veritas, quam exprimit 
+      <lb ed="#L" n="114"/>nobis sermonis circumstantia, quo semper 
+      vte<lb ed="#L" break="no" n="115"/>batur in euangelijs Christus, dum de diuinis 
+      <lb ed="#L" n="116"/>perfectionibus loqueretur. quasi enim omnia 
+      <lb ed="#L" n="117"/>negabat a se, &amp; attribuebat patri. In hoc 
+      arti<lb ed="#L" break="no" n="118"/>culus secundus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-153749-Dd1e1670">
+               <head xml:id="ol96b1-153749-Hd1e1672">Articulus 3</head>
+               <p xml:id="ol96b1-153749-d1e1674">
+                  <lb ed="#L" n="119"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-153749-d1e1679">
+                  <lb ed="#L" n="120"/>An pluralitas proprietatum in vna persona impediat 
+      <lb ed="#L" n="121"/>aequalitatem respectu alterius, non habentis tot 
+      <lb ed="#L" n="122"/>proprietates. opinio Scoti 1. sentent. 
+      <lb ed="#L" n="123"/>distin. 19. quaest. 1. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1690">
+                  <lb ed="#L" n="124"/>CIRCA tertium vero considerandum, quod 
+      <lb ed="#L" n="125"/>secundum aliquos persona, quae habet 
+      plu<lb ed="#L" break="no" n="126"/>res proprietates non est perfectior illa, quae ha 
+      <lb ed="#L" n="127"/>bet pauciores, propter hoc, quod proprietates 
+      <lb ed="#L" n="128"/>relatiuae nec dicunt perfectionem, nec imperfe 
+      <lb ed="#L" n="129"/>ctionem. vnde nec sunt finitae, nec infinitae, hoc 
+      <!--0479.xml-->
+      <pb ed="#L" n="479"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>autem patet, quia finitum, &amp; infinitum sunt pas 
+      <lb ed="#L" n="2"/>siones quantitatis, vt Philosophus dicit 1. 
+      Phy<lb ed="#L" break="no" n="3"/>sicorum; nunc autem relationi non competit 
+      <lb ed="#L" n="4"/>nec quantitas molis, nec quantitas virtutis, cum 
+      <lb ed="#L" n="5"/>non sit principium actionis, quare relatio 
+      secun<lb ed="#L" break="no" n="6"/>pum genus suum non est capax finitatis, aut 
+      in<lb ed="#L" break="no" n="7"/>finitatis, &amp; iterum relatio non suscipit magis, 
+      <lb ed="#L" n="8"/>&amp; minus secundum suam formalem rationem, 
+      <lb ed="#L" n="9"/>sed tantum per fundamentum, vt patet in 
+      prae<lb ed="#L" break="no" n="10"/>dicamentis, &amp; per consequens nec finitatem, 
+      <lb ed="#L" n="11"/>nec infinitatem. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1736">
+                  <lb ed="#L" n="12"/>Et insuper si relationes essent infinitae 
+      for<lb ed="#L" break="no" n="13"/>maliter, sequeretur, quod personae essent 
+      for<lb ed="#L" break="no" n="14"/>maliter infinitae, &amp; ita essent tres infiniti 
+      indi<lb ed="#L" break="no" n="15"/>uinis, &amp; ideo contra regulam Athanasij non tres 
+      <lb ed="#L" n="16"/>immensi, sed vnus immensus, &amp; adhuc essent plu 
+      <lb ed="#L" n="17"/>res res infinitae, cum tamen non possint esse plu 
+      <lb ed="#L" n="18"/>ra infinita; si vero essent finitae, maius 
+      inconue<lb ed="#L" break="no" n="19"/>nieniens sequeretur, quia &amp; personae diuinae 
+      es<lb ed="#L" break="no" n="20"/>sent finitae, &amp; aliquid limitatum esset in Deo, &amp; 
+      <lb ed="#L" n="21"/>idem, quod Deus. vnde relinquitur, quod nec 
+      <lb ed="#L" n="22"/>sint finitae, nec infinitae proprietates relatiuae, 
+      <lb ed="#L" n="23"/>&amp; per consequens non est perfectior persona, 
+      <lb ed="#L" n="24"/>quae plures proprietates habet. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1768">
+                  <lb ed="#L" n="25"/>Opinio aliorum. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1773">
+                  <lb ed="#L" n="26"/>DIXERVNT vero alij, quod proprietates 
+      <lb ed="#L" n="27"/>perfectionem important, pro eo quod res 
+      <lb ed="#L" n="28"/>sunt, &amp; res, &amp; bonum, &amp; verum conuertuntur, 
+      <lb ed="#L" n="29"/>nec tamen propter hoc vna persona est 
+      perfe<lb ed="#L" break="no" n="30"/>ctior alia, quia realiter transeunt in diuinam 
+      <lb ed="#L" n="31"/>essentiam, quae cadem est in tribus. illud enim 
+      <lb ed="#L" n="32"/>sufficere non videtur, quia licet transirent in 
+      <lb ed="#L" n="33"/>substantiam, nihilominus vna persona non 
+      tran<lb ed="#L" break="no" n="34"/>sit in aliam, &amp; ita retinent suas proprietates, 
+      <lb ed="#L" n="35"/>quare si quaelibet perfectionem importat, sequi 
+      <lb ed="#L" n="36"/>tur necessario, quod vna sit perfectior alia, 
+      vt<lb ed="#L" break="no" n="37"/>pote plures habens perfectiones. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1802">
+                  <lb ed="#L" n="38"/>Quid dicendum secundum reritatem, &amp; primo quod 
+      <lb ed="#L" n="39"/>relationes diuinae persectionem simpliciter non 
+      <lb ed="#L" n="40"/>imponant, quamuis prima facie aliquae 
+      <lb ed="#L" n="41"/>relationes videantur importare. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1813">
+                  <lb ed="#L" n="42"/>PROPTEREA dicendum quod videtur sub 
+      <lb ed="#L" n="43"/>tribus propositionibus. Prima quidem, quod 
+      <lb ed="#L" n="44"/>relationes diuinae, quae sunt proprietates 
+      per<lb ed="#L" break="no" n="45"/>sonales non dicunt perfectionem simpliciter, 
+      <lb ed="#L" n="46"/>quamuis non sit irrationale, quod aliquae 
+      rela<lb ed="#L" break="no" n="47"/>tiones perfectiones simpliciter importent, quan 
+      <lb ed="#L" n="48"/>tum prima facie videntur, &amp; primum quidem 
+      <lb ed="#L" n="49"/>patet per rationem communem, quae de 
+      mon<lb ed="#L" break="no" n="50"/>stratiue concludit, quia si proprietates 
+      relati<lb ed="#L" break="no" n="51"/>uae perfectionem dicerent, nulla persona esset 
+      <lb ed="#L" n="52"/>simpliciter perfecta, cum quaelibet careat 
+      ali<lb ed="#L" break="no" n="53"/>qua proprietate, non est autem simpliciter 
+      per<lb ed="#L" break="no" n="54"/>fectum, cui deficit aliquid de perfectione 
+      cuius<lb ed="#L" break="no" n="55"/>libet generis, vt Philosophus, &amp; Commentator 
+      <lb ed="#L" n="56"/>dicunt 5. Metaphysicae, sed omnino est absonum, 
+      <lb ed="#L" n="57"/>quin quaelibet persona sit perfecta simpliciter. 
+      <lb ed="#L" n="58"/>ergo proprietates personales nullam 
+      perfe<lb ed="#L" break="no" n="59"/>ctionem simpliciter important. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1855">
+                  <lb ed="#L" n="60"/>Praeterea: Nulla res est proprie perfectio sim 
+      <lb ed="#L" n="61"/>pliciter. ub ratione realitatis iuae, nisi prout 
+      <lb ed="#L" n="62"/>connotat aliqua sibi subiecta. vnde Angelus non 
+      <!--0479.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>est perfectio simpliciter, sed intellectus, vel 
+      sa<lb ed="#L" break="no" n="64"/>pientia, &amp; hinc est, quod superius de finiebatur 
+      <lb ed="#L" n="65"/>perfectio simpliciter, quod dicit conceptum 
+      in<lb ed="#L" break="no" n="66"/>determinatum, &amp; re, &amp; ratione acceptum a cer 
+      <lb ed="#L" n="67"/>to connotato, &amp; ratio huius est, quia si diceret, 
+      <lb ed="#L" n="68"/>aut rem, aut rationem determinatam, non 
+      pos<lb ed="#L" break="no" n="69"/>set vnicuique adaptati, ita quod esset melips il 
+      <lb ed="#L" n="70"/>li esse tale, quam suum oppositum, sed 
+      manife<lb ed="#L" break="no" n="71"/>stum est, quod paternitas importat rem in 
+      di<lb ed="#L" break="no" n="72"/>uinis, nec connotat aliquid subiectum, sicut 
+      sa<lb ed="#L" break="no" n="73"/>pientia, &amp; iustitia, &amp; huiusmodi. ergo 
+      paterni<lb ed="#L" break="no" n="74"/>tas perfectionem simpliciter non importat. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1894">
+                  <lb ed="#L" n="75"/>Est ergo considerandum pro regula 
+      genera<lb ed="#L" break="no" n="76"/>li, quod perfectio simpliciter importat quid commu 
+      <lb ed="#L" n="77"/>nicabile omni rei, &amp; rationi secundum illam 
+      <lb ed="#L" n="78"/>definitionem Ansel. monol. 15. dicentis, quod id, 
+      <lb ed="#L" n="79"/>quod est melius in vnoquoque ipsum, quam non 
+      <lb ed="#L" n="80"/>ipsum est perfectio simpliciter, id autem, quod 
+      <lb ed="#L" n="81"/>est sic communicabile, impossibile est, quod 
+      <lb ed="#L" n="82"/>aliquam rem determinatam, aut rationem 
+      im<lb ed="#L" break="no" n="83"/>portet. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1917">
+                  <lb ed="#L" n="84"/>Et si dicatur, quod secundum hoc res 
+      deita<lb ed="#L" break="no" n="85"/>tis non est perfectio simpliciter, dicendum, quod 
+      <lb ed="#L" n="86"/>secundum hoc perfectio dicitur, quod in eam 
+      <lb ed="#L" n="87"/>coincidunt omnes conceptus perfectionales, 
+      <lb ed="#L" n="88"/>vt superius dictum fuit, in paternitate vero, aut 
+      <lb ed="#L" n="89"/>filiatione nullus talis conceptus perfectionalis 
+      <lb ed="#L" n="90"/>concidit, sicut patet. Secundum vero quod 
+      sci<lb ed="#L" break="no" n="91"/>licet aliquae sint relationes, perfectionem 
+      sim<lb ed="#L" break="no" n="92"/>pliciter importantes, videretur ex hoc, quod 
+      <lb ed="#L" n="93"/>Augustinus dicit, quod aequalitas inaequalitati 
+      <lb ed="#L" n="94"/>iure preponitur, &amp; sicut Philos. 12. Metaphys. 
+      <lb ed="#L" n="95"/>dicit, quod bonum vniuersi consistit in ordine. 
+      <lb ed="#L" n="96"/>vnde ordinatum est simpliciter melius, quam 
+      <lb ed="#L" n="97"/>inordinatum, &amp; ita videtur, quod ordo, &amp; aequa 
+      <lb ed="#L" n="98"/>litas sint perfectiones simpliciter. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e1952">
+                  <lb ed="#L" n="99"/>Sed dicendum est, quod nulla relatio 
+      impor<lb ed="#L" break="no" n="100"/>tat perfectionem simpliciter: tum quia Ansel. 
+      <lb ed="#L" n="101"/>expresse illud determinans dicit, quod nullum 
+      <lb ed="#L" n="102"/>eorum, quae relatiue dicuntur signisicat 
+      ali<lb ed="#L" break="no" n="103"/>quid tale, quod sit simpliciter melius: tum quia 
+      <lb ed="#L" n="104"/>secundum hoc in diuinis deberent poni omnes 
+      <lb ed="#L" n="105"/>tales relationes perfectionem importantes. vn 
+      <lb ed="#L" n="106"/>de ibi esset relatio ordinis, &amp; relatio 
+      aequalita<lb ed="#L" break="no" n="107"/>tis. cum tamen Deus sit extra omnem ordinem, 
+      <lb ed="#L" n="108"/>&amp; aequalitas personarum non sit relatio, sed 
+      in<lb ed="#L" break="no" n="109"/>dinctio essentialis magnitudinis, vt supra dictum 
+      <lb ed="#L" n="110"/>est, &amp; dicetur inferius dist. 35. tum quia nulla 
+      <lb ed="#L" n="111"/>relatio connotat subiectionem talium 
+      termi<lb ed="#L" break="no" n="112"/>norum, ex quibus oriatur perfectio, eo modo, 
+      <lb ed="#L" n="113"/>quo scientia connotat omnia scibilia Deitati 
+      <lb ed="#L" n="114"/>fore subiecta. ille enim respectus, quem impor 
+      <lb ed="#L" n="115"/>tat intelligere, aut scire in nobis, non pertinet 
+      <lb ed="#L" n="116"/>ad sapientiam, prout est perfectio simpliciter: 
+      <lb ed="#L" n="117"/>tum quia ordo non est melius in vnoquoque, 
+      <lb ed="#L" n="118"/>quam non ordo, sed in rebus ordinabilibus. 
+      vn<lb ed="#L" break="no" n="119"/>de dicendum est, quod nulla relatio 
+      perfectio<lb ed="#L" break="no" n="120"/>nem simpliciter importat, sed 
+      tantum<lb ed="#L" break="no" n="121"/>modo illae res, vel rationes, quibus 
+      <lb ed="#L" n="122"/>sunt applicabiles conceptus 
+      in<lb ed="#L" break="no" n="123"/>determinati a certo 
+      con<lb ed="#L" break="no" n="124"/>notato assumpti, de 
+      <lb ed="#L" n="125"/>quibus dictum 
+      <lb ed="#L" n="126"/>est saepe.
+    </p>
+               <p xml:id="ol96b1-153749-d1e2015">
+      <!--0480.xml-->
+                  <pb ed="#L" n="480"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quod relationes diuina, sunt infinitae, &amp; quod omnis 
+      <lb ed="#L" n="2"/>relatio, si sit res est finita, nel infinita. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2028">
+                  <lb ed="#L" n="3"/>SECVNDA vero propositio est, quod 
+      rela<lb ed="#L" break="no" n="4"/>tiones persona les sunt formaliter infinitae, 
+      <lb ed="#L" n="5"/>quamuis non fint perfectiones simpliciter, 
+      im<lb ed="#L" break="no" n="6"/>mo, &amp; omnes relationes, si tamen in rerum 
+      na<lb ed="#L" break="no" n="7"/>tura sint, necesse est, quod vel finitae, vel 
+      infini<lb ed="#L" break="no" n="8"/>tae sint. Et primum, quidem patet, quod verbum 
+      <lb ed="#L" n="9"/>infinitorum est necessario infinitum, sub 
+      ratio<lb ed="#L" break="no" n="10"/>nem, qua verbum est; verbum namque duorum 
+      <lb ed="#L" n="11"/>maius est, quam vnius, &amp; trium amplius est 
+      duo<lb ed="#L" break="no" n="12"/>rum, quare necesse est, vt infinitorum ad 
+      infini<lb ed="#L" break="no" n="13"/>tum, sed diuinum verbum est verbum formatum 
+      <lb ed="#L" n="14"/>de scibilibus infinitis, cum pater, &amp; essentiam 
+      <lb ed="#L" n="15"/>suam, &amp; vniuersam creaturam factam, vel factibilem 
+      <lb ed="#L" n="16"/>dixerit verbo suo coaeterno secundum August. 
+      <lb ed="#L" n="17"/>ergo cum non sit dubium, quod scibilia sint infi 
+      <lb ed="#L" n="18"/>nita. ne cesse est, vt verbum sub ratione, qua ver 
+      <lb ed="#L" n="19"/>bum sit formaliter infinitum; proprietas autem 
+      <lb ed="#L" n="20"/>verbi, &amp; filiationis idem sunt, quia filiatio 
+      infi<lb ed="#L" break="no" n="21"/>nita erit, &amp; per consequens paternitas, &amp; 
+      cete<lb ed="#L" break="no" n="22"/>rae proprietates. Secundum vero patet, quod nulla 
+      <lb ed="#L" n="23"/>res potest poni, quin dicat aliquem gradum 
+      en<lb ed="#L" break="no" n="24"/>titatis, &amp; aliquam actualitatem; illa autem actua 
+      <lb ed="#L" n="25"/>litas necessario vel est finita, vel infinita. ergo 
+      <lb ed="#L" n="26"/>necesse, quod relatio vbicumque ponatur, vt 
+      <lb ed="#L" n="27"/>res sit finita, vel infinita. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2085">
+                  <lb ed="#L" n="28"/>Praeterea: Licet non omnis res sit finita, vel 
+      <lb ed="#L" n="29"/>infinita dimensione, quia non angelus, qui 
+      ab<lb ed="#L" break="no" n="30"/>strahit ab omni dimensione, nec etiam 
+      virtua<lb ed="#L" break="no" n="31"/>liter, &amp; actiue, quia non omnis res est 
+      princi<lb ed="#L" break="no" n="32"/>pium agendi, omne tamen quod est, finitum est, vel 
+      <lb ed="#L" n="33"/>infinitum, infinitum quidem, sicut Deus, finitum vero, 
+      <lb ed="#L" n="34"/>&amp; limitatum. vt omnis creatura. ergo omnis 
+      re<lb ed="#L" break="no" n="35"/>latio vbi ponitur, res erit finita, vel infinita. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2105">
+                  <lb ed="#L" n="36"/>Praeterea: Illud secundum quod genus suum 
+      <lb ed="#L" n="37"/>suscipit magis, &amp; minus, &amp; summum secundum 
+      <lb ed="#L" n="38"/>genus suum suscipit finitatem, vel infinitatem, 
+      <lb ed="#L" n="39"/>sed tale est relatio. inuenitur enim similitudo 
+      <lb ed="#L" n="40"/>maior, &amp; minor, &amp; summa, &amp; similiter 
+      propin<lb ed="#L" break="no" n="41"/>quitas reperitur summa. ergo genus relationis 
+      <lb ed="#L" n="42"/>suscipit finitatem, &amp; infinitatem. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2124">
+                  <lb ed="#L" n="43"/>Sed an sit aliqua relatio infinita in actu in 
+      <lb ed="#L" n="44"/>creaturis, videretur alicui, quia duo albi in 
+      eo<lb ed="#L" break="no" n="45"/>dem gradu similes sunt in summo, &amp; si albedo 
+      <lb ed="#L" n="46"/>vnius diminuatur in duplo, tunc fuerunt 
+      similio<lb ed="#L" break="no" n="47"/>res in duplo, quamsint; tres sivero in triplo, fiunt 
+      <lb ed="#L" n="48"/>similiores in triplo, si vero in centuplo, fiunt 
+      si<lb ed="#L" break="no" n="49"/>miliores in centuplo, &amp; sic de omnibus 
+      specie<lb ed="#L" break="no" n="50"/>bus numerorum. illa ergo similitudo est 
+      infini<lb ed="#L" break="no" n="51"/>ta, qua aliqua sunt similia absque omni 
+      nume<lb ed="#L" break="no" n="52"/>ro. numeri enim in potentia sunt infiniti. sic 
+      er<lb ed="#L" break="no" n="53"/>go aliqua sunt plus similia in infinitum, &amp; per 
+      <lb ed="#L" n="54"/>consequens, &amp; pluribus modis, quam sint 
+      possi<lb ed="#L" break="no" n="55"/>biles numeri illa videntur actu similia in 
+      infini<lb ed="#L" break="no" n="56"/>tum, &amp; per consequens similitudo videtur 
+      infi<lb ed="#L" break="no" n="57"/>nita, sed ita probatum est esse de simillimis in 
+      <lb ed="#L" n="58"/>eodem gradu. ergo &amp; similitudo potest esse infi 
+      <lb ed="#L" n="59"/>nita, &amp; est dare propinquitatem infinitam, &amp; 
+      <lb ed="#L" n="60"/>sic de alijs relationibus, vt videtur, hoc autem 
+      <lb ed="#L" n="61"/>quamuis ab aliquibus concedatur, verum non 
+      <lb ed="#L" n="62"/>est. codem enim modo potest probari de 
+      quali<lb ed="#L" break="no" n="63"/>bet magnitudine, quae sit actu infinita, quia pos 
+      <lb ed="#L" n="64"/>sunt resecari ab ea partes minores in infinitum, 
+      <lb ed="#L" n="65"/>&amp; secundum omnem numerum, &amp; similiier quae- 
+      <!--0480.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>libet forma diminui potest in infinitum, saltem 
+      <lb ed="#L" n="67"/>per diuinam potentiam, quamuis sit dare 
+      pri<lb ed="#L" break="no" n="68"/>mam partem esse possibilem. est enim dare 
+      mi<lb ed="#L" break="no" n="69"/>nimum ignem, &amp; minimam partem albedinis, 
+      <lb ed="#L" n="70"/>vt Philosophus dicit, &amp; Commentator expresse 
+      <lb ed="#L" n="71"/>deducit 6. Physic. Comm. 32. non est ergo vera 
+      <lb ed="#L" n="72"/>propositio, dicens, quod illud est actu infinitum, 
+      <lb ed="#L" n="73"/>quod sic excedit secundum omnem numerum, 
+      <lb ed="#L" n="74"/>quia secundum omnem numerum potest fieri 
+      <lb ed="#L" n="75"/>minor numero, eo quod finitum, vt dictum est, 
+      <lb ed="#L" n="76"/>habet in potentia partes infinitas minores se. 
+      <lb ed="#L" n="77"/>quamuis ergo nulla creata relatio sit actu 
+      infi<lb ed="#L" break="no" n="78"/>nita; diuinae tamen relationes sunt formaliter 
+      <lb ed="#L" n="79"/>infinitae, cum ibi sit paternitas tota subsistens, 
+      <lb ed="#L" n="80"/>quae nil aliud est, quam actiua verbi conceptio, 
+      <lb ed="#L" n="81"/>&amp; ibi sit verbum formatum de scibilibus 
+      infi<lb ed="#L" break="no" n="82"/>nitis, &amp; per consequens verbi ratio infinita. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2217">
+                  <lb ed="#L" n="83"/>Nec valent motiua primae opinionis. Primum 
+      <lb ed="#L" n="84"/>siquidem non, quia licet relationi quantitas 
+      mo<lb ed="#L" break="no" n="85"/>lis, aut virtutis non congruat, competit sibi 
+      ta<lb ed="#L" break="no" n="86"/>men gradus, &amp; quantitas entitatis. vnde neces 
+      <lb ed="#L" n="87"/>sario vel habet entitatem limitatam, vel 
+      illimi<lb ed="#L" break="no" n="88"/>tatam. Non valet etiam secundum, quia non est 
+      <lb ed="#L" n="89"/>verum, quod relatio suscipiat magis, &amp; minus 
+      <lb ed="#L" n="90"/>tantummodo per funda mentum, quia secundum 
+      <lb ed="#L" n="91"/>hoc albissimi in summo gradu essent 
+      similio<lb ed="#L" break="no" n="92"/>res, quam duo minus albi constituti in eodem 
+      <lb ed="#L" n="93"/>gradu. vnde patet, quod secundum intentionem 
+      <lb ed="#L" n="94"/>albedinis non intenditur, similitudo vero 
+      ali<lb ed="#L" break="no" n="95"/>quando intenditur secundum remissionem 
+      al<lb ed="#L" break="no" n="96"/>bedinis, vtpote cum magis albus diminuitur, 
+      <lb ed="#L" n="97"/>donec ad gradum minus albi. Nec etiam tertium 
+      <lb ed="#L" n="98"/>valet, quia quaelibet persona est infinita 
+      perso<lb ed="#L" break="no" n="99"/>na. vnde verbum in diuinis habet rationem 
+      ver<lb ed="#L" break="no" n="100"/>bi, nec tamen propter hoc absolute potest 
+      con<lb ed="#L" break="no" n="101"/>cedi, quod tres personae sint tria infinita 
+      simpli<lb ed="#L" break="no" n="102"/>citer, sed semper cum additione, quod sunt tres 
+      <lb ed="#L" n="103"/>infinitae personalitates, vel quod verbum 
+      diui<lb ed="#L" break="no" n="104"/>num est infinitum verbum, &amp; spiritus est 
+      infini<lb ed="#L" break="no" n="105"/>tum donum, &amp; pater est infinitus dicens, &amp; 
+      ra<lb ed="#L" break="no" n="106"/>tio huius est, quia si absolute concederetur, q 
+      <lb ed="#L" n="107"/>sunt tres infiniti, intelligeretur, quod sunt tres 
+      <lb ed="#L" n="108"/>dij, vtpote quia absolute, &amp; simpliciter infiniti. 
+      <lb ed="#L" n="109"/>vnde ad hoc aspiciens Athanasius dixit non tres 
+      <lb ed="#L" n="110"/>immensi, sed vnus immensus, vel dicendum, q 
+      <lb ed="#L" n="111"/>immensitas refertur ad magnitudinem 
+      perfe<lb ed="#L" break="no" n="112"/>ctionum simpliciter, &amp; declaratum est supra, 
+      <lb ed="#L" n="113"/>quod proprietates huiusmodi perfectionem sim 
+      <lb ed="#L" n="114"/>pliciter non important. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2289">
+                  <lb ed="#L" n="115"/>Quod non obstante pluralitate proprietatum persona 
+      <lb ed="#L" n="116"/>diuinae sint coaequales. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2296">
+                  <lb ed="#L" n="117"/>TERTIA quoque propositio est, quod 
+      per<lb ed="#L" break="no" n="118"/>sonae diuinae sunt coaequales, non obstante, 
+      <lb ed="#L" n="119"/>quod in vna persona sint plures proprietates, 
+      <lb ed="#L" n="120"/>quam in alia, quarum quaelibet infinita sit 
+      secun<lb ed="#L" break="no" n="121"/>dum propriam rationem, immo ratio tota 
+      sub<lb ed="#L" break="no" n="122"/>sistens. aequalitas enim, &amp; in aequalitas, de qua 
+      <lb ed="#L" n="123"/>hic loquimur attenditur secundum 
+      perfectio<lb ed="#L" break="no" n="124"/>nes simpliciter. nec enim esset melius patri, quod 
+      <lb ed="#L" n="125"/>haberet proprietates filij, quia ex hoc 
+      amitte<lb ed="#L" break="no" n="126"/>ret esse patrem, nec similiter esset melior filio, 
+      <lb ed="#L" n="127"/>si haberet proprietates spiritus sancti, vel 
+      pa<lb ed="#L" break="no" n="128"/>tris. ergo personae coaequales sunt, &amp; 
+      simplici<lb ed="#L" break="no" n="129"/>ter perfecte eadem perfectione. Hic tamen duo 
+      <!--0481.xml-->
+      <pb ed="#L" n="481"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dubia oriuntur. Primum quidem, quod si 
+      pro<lb ed="#L" break="no" n="2"/>prietates infinitae sunt formaliter, quod omne 
+      <lb ed="#L" n="3"/>infinitum sit perfectum simpliciter, erunt 
+      sim<lb ed="#L" break="no" n="4"/>pliciter perfectiones. Secundum vero, quia cum 
+      <lb ed="#L" n="5"/>saltem sint perfectiones aliquae, immo perfectio 
+      <lb ed="#L" n="6"/>nes infinitae, videbitur, quod penes eas aliqua 
+      <lb ed="#L" n="7"/>inaequalitas attenditur. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2348">
+                  <lb ed="#L" n="8"/>Sed dicendum ad primum, quod non est idem 
+      <lb ed="#L" n="9"/>infinitum formaliter, &amp; perfecte simpliciter. 
+      <lb ed="#L" n="10"/>si enim tota quidditas albedinis poneretur sub 
+      <lb ed="#L" n="11"/>sistens, non propter hoc esset perfectio 
+      simpli<lb ed="#L" break="no" n="12"/>citer, &amp; tamen esset formaliter infinita. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2361">
+                  <lb ed="#L" n="13"/>Ad secundum vero dicendum, quod ad 
+      per<lb ed="#L" break="no" n="14"/>sonalitatem perfectam patris exiguuntur duae 
+      <lb ed="#L" n="15"/>proprietates cum essentia, vt superius dictum 
+      <lb ed="#L" n="16"/>fuit, ideo ad personalitatem spiritus sancti, 
+      <lb ed="#L" n="17"/>sufficit vna proprietas cum essentia. non ergo 
+      <lb ed="#L" n="18"/>personalitas patris est perfectior 
+      personalita<lb ed="#L" break="no" n="19"/>te spiritus sancti, pro eo, quod de ratione 
+      pa<lb ed="#L" break="no" n="20"/>tris est, quod constituatur hoc modo, de 
+      ratio<lb ed="#L" break="no" n="21"/>ne spiritus, quod constituatur illo modo. 
+      quam<lb ed="#L" break="no" n="22"/>uis enim in creaturis aliquando plura 
+      concur<lb ed="#L" break="no" n="23"/>runt ad conititutionem vnius, quam ad 
+      consti<lb ed="#L" break="no" n="24"/>tutionem alterius, dum tamen constitutum 
+      <lb ed="#L" n="25"/>aequae perfectum sit, pluralitas nihil facit; nunc au 
+      <lb ed="#L" n="26"/>tem patris personalitas est aeque perfecta 
+      per<lb ed="#L" break="no" n="27"/>sonalitas, sicut spiritus sancti, &amp; econuerso; 
+      <lb ed="#L" n="28"/>vtrum autem aequalitas personarum 
+      attenda<lb ed="#L" break="no" n="29"/>tur non solum secundum essentiam, immo 
+      se<lb ed="#L" break="no" n="30"/>cundum personalitates, in 6. articulo locum 
+      <lb ed="#L" n="31"/>habet; pro nunc vero sufficiat, quod 
+      proprieta<lb ed="#L" break="no" n="32"/>tum pluralitas aequalitatem non impedit. Et 
+      <lb ed="#L" n="33"/>finitur tertius articulus. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-153749-Dd1e2410">
+               <head xml:id="ol96b1-153749-Hd1e2412">Articulus 4</head>
+               <p xml:id="ol96b1-153749-d1e2414">
+                  <lb ed="#L" n="34"/>ARTJCVLVS QVARTVS. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2419">
+                  <lb ed="#L" n="35"/>An impediatur aequalitas ex hoc, quod personae sint 
+      <lb ed="#L" n="36"/>alterius rationis opinio quorundam, quod 
+      <lb ed="#L" n="37"/>personae diuinae, quasi specie 
+      <lb ed="#L" n="38"/>distinguantur. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2430">
+                  <lb ed="#L" n="39"/>CIRCA quartum autem considerandum, 
+      <lb ed="#L" n="40"/>quod si personae sunt, quasi indiuidua sub 
+      <lb ed="#L" n="41"/>specie, non videtur difficile, quomodo in eis sal 
+      <lb ed="#L" n="42"/>uetur aequalitas, pro eo, quod indiuidua 
+      par<lb ed="#L" break="no" n="43"/>ticipant eundem gradum specificae 
+      perfectio<lb ed="#L" break="no" n="44"/>nis; si vero sint, quasi species sub genere, vt sint 
+      <lb ed="#L" n="45"/>alterius rationis, difficile est aequalitatem 
+      sal<lb ed="#L" break="no" n="46"/>uare, cum supradictum fuerit, quod 
+      impossi<lb ed="#L" break="no" n="47"/>bile est, duas species fieri, vel poni in eodem 
+      <lb ed="#L" n="48"/>gradu perfectionis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2454">
+                  <lb ed="#L" n="49"/>Dixerunt ergo aliqui, quod personae sunt 
+      al<lb ed="#L" break="no" n="50"/>terius rationis, &amp; sunt quasi species sub 
+      gene<lb ed="#L" break="no" n="51"/>re; hoc autem potest multipliciter declarari. 
+      <lb ed="#L" n="52"/>illae enim, quae differunt in forma, differunt spe 
+      <lb ed="#L" n="53"/>cifice, vt patet 10. Metaphysicae, sed diuinae 
+      <lb ed="#L" n="54"/>personae differunt in hoc, quod est formale in 
+      <lb ed="#L" n="55"/>eis. proprietates enim personas constituunt, 
+      <lb ed="#L" n="56"/>&amp; ipsas distinguunt, &amp; essentiam ad distinctas 
+      <lb ed="#L" n="57"/>personalitates determinant, &amp; trahunt; hae 
+      au<lb ed="#L" break="no" n="58"/>tem videntur esse proprietates formae, &amp; 
+      dif<lb ed="#L" break="no" n="59"/>ferentiae formales, distinguere, constituere, 
+      <lb ed="#L" n="60"/>contrahere, ac determinare. ergo personae 
+      di<lb ed="#L" break="no" n="61"/>uinae, cum differant formaliter, &amp; earum dif- 
+      <!--0481.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="62"/>ferentiae distinctiuae sint alterius rationis, 
+      vi<lb ed="#L" break="no" n="63"/>dentur. quasi specifice distingui. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2494">
+                  <lb ed="#L" n="64"/>Praeterea: Quae conueniunt in eo, quod 
+      se<lb ed="#L" break="no" n="65"/>cundum nostrum modum intelligendi habet ra 
+      <lb ed="#L" n="66"/>tionem potentialis, &amp; differunt in his, quae 
+      <lb ed="#L" n="67"/>concipiuntur, vt actus, talia videntur, quasi 
+      <lb ed="#L" n="68"/>conuenire in genere, &amp; quasi specifice 
+      distin<lb ed="#L" break="no" n="69"/>gui; genus vero habet modum potentialis, &amp; 
+      <lb ed="#L" n="70"/>quasi materiae, vt patet 5. Metaphysicae, sed 
+      <lb ed="#L" n="71"/>personae diuinae conueniunt in essentia, quae 
+      <lb ed="#L" n="72"/>concipitur per modum cuiusdam potentialis, 
+      <lb ed="#L" n="73"/>materialis, ac substracti; distinguuntur autem 
+      <lb ed="#L" n="74"/>proprietatibus, quae concipiuntur per modum 
+      <lb ed="#L" n="75"/>aduenientium, &amp; actuantium, &amp; videntur 
+      qua<lb ed="#L" break="no" n="76"/>si genere conuenire, &amp; specie differre. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2525">
+                  <lb ed="#L" n="77"/>Praeterea: Nullum eiusdem rationis 
+      vide<lb ed="#L" break="no" n="78"/>tur plurificabile in diuinis, alioquin erit ibi 
+      <lb ed="#L" n="79"/>ratio vniuersalis, sed personalitas plurificatur. 
+      <lb ed="#L" n="80"/>ergo non sunt eiusdem rationis, vt videtur. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2536">
+                  <lb ed="#L" n="81"/>Praeterea: Si personae essent eiusdem 
+      ratio<lb ed="#L" break="no" n="82"/>nis pater filium generaret generatione 
+      vni<lb ed="#L" break="no" n="83"/>uoca; hoc autem non videtur; quia vniuoca 
+      <lb ed="#L" n="84"/>generatio non est, nisi ad conseruationem 
+      spe<lb ed="#L" break="no" n="85"/>ciei. ergo personae in diuinis non sunt eiusdem 
+      <lb ed="#L" n="86"/>rationis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2552">
+                  <lb ed="#L" n="87"/>Praeterea: Productiones alterius rationis 
+      <lb ed="#L" n="88"/>terminantur ad producta alterius rationis, 
+      <lb ed="#L" n="89"/>sed generatio, &amp; spiratio differunt, quasi 
+      spe<lb ed="#L" break="no" n="90"/>cie, &amp; sunt alterius rationis. ergo filius, &amp; 
+      spi<lb ed="#L" break="no" n="91"/>ritus, quasi specie distinguuntur. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2565">
+                  <lb ed="#L" n="92"/>Praeterea: Multiplicatio plurium eiusdem 
+      <lb ed="#L" n="93"/>speciei fit per materiam, &amp; cetera, quasi per 
+      <lb ed="#L" n="94"/>accidens, nec quasi per se intenta, quia 
+      po<lb ed="#L" break="no" n="95"/>test procedere in infinitum, sed manifestum 
+      <lb ed="#L" n="96"/>est, quod hoc non congruit diuinis personis. 
+      <lb ed="#L" n="97"/>ergo non sunt plura eiusdem rationis, immo 
+      <lb ed="#L" n="98"/>distinguuntur, quasi specifice. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2583">
+                  <lb ed="#L" n="99"/>Opinio oliorum quod distinguuntur, quasi 
+      <lb ed="#L" n="100"/>indiuidua sub specie, &amp; sunt 
+      <lb ed="#L" n="101"/>eiusdem rationis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2593">
+                  <lb ed="#L" n="102"/>DIXERVNT autem alij, quod magis 
+      as<lb ed="#L" break="no" n="103"/>similantur indiuiduis existentibus sub 
+      <lb ed="#L" n="104"/>specie. vnde sunt eiusdem rationis, quia quae 
+      <lb ed="#L" n="105"/>distinguuntur proprietatibus hypostaticis, &amp; 
+      <lb ed="#L" n="106"/>indiuidualibus, &amp; conueniunt in ratione 
+      quid<lb ed="#L" break="no" n="107"/>ditatiua, talia licet dentur esse eiusdem 
+      spe<lb ed="#L" break="no" n="108"/>ciei, &amp; quasi indiuidua differre, sed tres 
+      per<lb ed="#L" break="no" n="109"/>sonae conueniunt in eo, quod est ratio 
+      quid<lb ed="#L" break="no" n="110"/>ditatiua in eis, videlicet in essentia. quaelibet 
+      <lb ed="#L" n="111"/>enim persona est quidditatiue Deus; difterunt 
+      <lb ed="#L" n="112"/>autem in proprietatibus, quasi hypostaticis, 
+      <lb ed="#L" n="113"/>&amp; indiuidualibus. vnde dicit Damascenus lib. 
+      <lb ed="#L" n="114"/>primo, quod solum hypostaticis proprietatibus 
+      <lb ed="#L" n="115"/>adinuicem differunt esie tres hypostases, non 
+      <lb ed="#L" n="116"/>substantia caractherizata, nam hypostases 
+      ea<lb ed="#L" break="no" n="117"/>rum proprie indiuisibiliter sunt diuisae. ergo 
+      <lb ed="#L" n="118"/>personae, vt videtur sunt quasi indiuidua sub 
+      <lb ed="#L" n="119"/>specie distincta. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2635">
+                  <lb ed="#L" n="120"/>Praeterea: Esse producens aequiuocum nobi 
+      <lb ed="#L" n="121"/>lius est producto, sed persona producens non est 
+      <lb ed="#L" n="122"/>nobilior producta. ergo non sunt aequiuocae, 
+      <lb ed="#L" n="123"/>aut alterius rationis, &amp; per consequens non 
+      di<lb ed="#L" break="no" n="124"/>stinguuntur, quasi specie.
+    </p>
+               <p xml:id="ol96b1-153749-d1e2648">
+      <!--0482.xml-->
+                  <pb ed="#L" n="482"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Praeterea: Damasc. dicit lib. 3. quod 
+      nume<lb ed="#L" break="no" n="2"/>ro, &amp; non natura differunt beatae hypostases, 
+      <lb ed="#L" n="3"/>ideoque nec differunt ab inuicem secundum 
+      <lb ed="#L" n="4"/>substantiam, sed secundum accidentia, quae sunt 
+      <lb ed="#L" n="5"/>characteristica, idest designantia hypostasis, 
+      <lb ed="#L" n="6"/>non naturae, vnde perfecta est earum 
+      substan<lb ed="#L" break="no" n="7"/>tia, quae sub eadem sunt specie personarum, 
+      <lb ed="#L" n="8"/>sed manifestum est, quod si distinguerentur, 
+      <lb ed="#L" n="9"/>quasi specifice, non dicerentur distingui solo 
+      <lb ed="#L" n="10"/>numero, nec solis accidentalibus 
+      proprietati<lb ed="#L" break="no" n="11"/>bus designatiuis indiuiduorum, ergo id, quod 
+      <lb ed="#L" n="12"/>prius. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2683">
+                  <lb ed="#L" n="13"/>Quid dicendum secundum veritatem, &amp; primo quod 
+      <lb ed="#L" n="14"/>bypostases non se habent, nt species sub genere, 
+      <lb ed="#L" n="15"/>nec vt in diuidua sub specie, sed vt tres 
+      <lb ed="#L" n="16"/>numero essendi eiusdem rei. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2694">
+                  <lb ed="#L" n="17"/>NVNC ergo dicendum est id, quod 
+      vide<lb ed="#L" break="no" n="18"/>tur sub duplici propositione. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2701">
+                  <lb ed="#L" n="19"/>Prima quidem quod est reperire modum alium, 
+      <lb ed="#L" n="20"/>secundum quem personae diuinae se habent ad 
+      <lb ed="#L" n="21"/>essentiam. non enim sunt sub Deo, quasi 
+      spe<lb ed="#L" break="no" n="22"/>cies sub genere, aut indiuidua sub specie, sed 
+      <lb ed="#L" n="23"/>quasi tres modi existendi, &amp; subsistendi eiusdon 
+      <lb ed="#L" n="24"/>rei. vnde non debet dici, quod sint tres 
+      perso<lb ed="#L" break="no" n="25"/>nae eiusdem rationis, vel tria supposita, sed 
+      po<lb ed="#L" break="no" n="26"/>tius, quod est eadem ratio, vtpote idem Deus 
+      <lb ed="#L" n="27"/>triplici modo existens, seu trine subsistens, hoc 
+      <lb ed="#L" n="28"/>autem patet a simili in omni natura 
+      rationa<lb ed="#L" break="no" n="29"/>li, in vna, &amp; eadem in numero existens 
+      sub<lb ed="#L" break="no" n="30"/>sistit in se, vt conspiciens ante se, vt conspicua 
+      <lb ed="#L" n="31"/>per actum intellecttus extra se, vt impulsa, &amp; 
+      <lb ed="#L" n="32"/>per amorem impensa, vt supra dictum fuit se 
+      <lb ed="#L" n="33"/>cundum Augustinum, &amp; insuper omnis natura 
+      <lb ed="#L" n="34"/>non intellectualis potest habere duos modos es 
+      <lb ed="#L" n="35"/>sendi, vtpote in anima esse conspicuum, &amp; 
+      for<lb ed="#L" break="no" n="36"/>matum, &amp; extra esse mater iale, nec propter hoc 
+      <lb ed="#L" n="37"/>sunt duae res, sed vna tantum, se cundum duos mo 
+      <lb ed="#L" n="38"/>dos essendi. secundum hoc ergo est reperire 
+      <lb ed="#L" n="39"/>pluralitatem aliquorum distinctorum 
+      conue<lb ed="#L" break="no" n="40"/>nientium in aliquo, sicut species conueniunt 
+      <lb ed="#L" n="41"/>in genere, &amp; aliquorum conuenientium, sicut 
+      <lb ed="#L" n="42"/>indiuidua in specie, &amp; tettio aliquorum 
+      con<lb ed="#L" break="no" n="43"/>uenientium, sicut distincti modi essendi in re 
+      <lb ed="#L" n="44"/>eadem numerali, quae secundum illos modos 
+      <lb ed="#L" n="45"/>existit. cum ergo in creaturis ille tertius 
+      mo<lb ed="#L" break="no" n="46"/>dus reperiatur intentionaliter, nullum est 
+      in<lb ed="#L" break="no" n="47"/>conueniens, vt excluso prinio, &amp; secundo, hic 
+      <lb ed="#L" n="48"/>modus tertius locum habeat in diuinis, 
+      exclu<lb ed="#L" break="no" n="49"/>sa imperfectione, quam intentionaliter impor 
+      <lb ed="#L" n="50"/>tat, &amp; adiecta conditione realitatis. vnde 
+      quae<lb ed="#L" break="no" n="51"/>renti, an haec iupposita sint alterius rationis, 
+      <lb ed="#L" n="52"/>&amp; quasi alterius speciei, vel ciusdem, 
+      responde<lb ed="#L" break="no" n="53"/>ri oportet, quod nec hoc, nec illud, quia 
+      ra<lb ed="#L" break="no" n="54"/>tionis identitas, ac diuersitas refertur non ad 
+      <lb ed="#L" n="55"/>modum existendi, sed ad naturam, quae existit; 
+      <lb ed="#L" n="56"/>Deus autem idem est, qui secundum modos 
+      al<lb ed="#L" break="no" n="57"/>terius rationis subsistit; haec autem est 
+      respon<lb ed="#L" break="no" n="58"/>sio Augustini septimo, de Trinit. dicentis, quod 
+      <lb ed="#L" n="59"/>nec species est diuina esentia, &amp; personae 
+      indi<lb ed="#L" break="no" n="60"/>uidua. si enim species esset, ut homo, sicut 
+      <lb ed="#L" n="61"/>non dicitur vnus homo, Abraham, Isaac, &amp; 
+      <!--0482.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="62"/>Jacob, ita non dicerentur vna esse tres personae; 
+      <lb ed="#L" n="63"/>non itaque secundum genus, aut speciem 
+      di<lb ed="#L" break="no" n="64"/>cimus ista, &amp; sic Damascenus lib. primo, dicit, 
+      <lb ed="#L" n="65"/>quod non dicimus Deum speciem esse ex 
+      hypo<lb ed="#L" break="no" n="66"/>stasibus, sed in hypostasibus esse. vnus enim 
+      <lb ed="#L" n="67"/>vere Deus est pater, &amp; verbum, &amp; spiritus 
+      <lb ed="#L" n="68"/>sanctus. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2817">
+                  <lb ed="#L" n="69"/>Nec valent motiua primae opinionis.
+    </p>
+               <p xml:id="ol96b1-153749-d1e2822">
+                  <lb ed="#L" n="70"/>Prima siquidem non, quia personae non 
+      dis<lb ed="#L" break="no" n="71"/>ferunt in forma, immo sunt vna forma 
+      Deita<lb ed="#L" break="no" n="72"/>tis, sicut in nobis est vna anima 
+      intentionali<lb ed="#L" break="no" n="73"/>ter subsistens. Et quod additur de 
+      proprieta<lb ed="#L" break="no" n="74"/>tibus, quod distinguunt, constituunt, &amp; 
+      con<lb ed="#L" break="no" n="75"/>trahunt essentiam, dicendum quod distinguunt 
+      <lb ed="#L" n="76"/>modos existendi, non tamen ipsum existens, 
+      <lb ed="#L" n="77"/>nec existentiam, quia Deus idem est, qui triplici 
+      <lb ed="#L" n="78"/>modo existit, &amp; quia Deus sub illo modo 
+      tripli<lb ed="#L" break="no" n="79"/>ci habet tres per se vnitates, &amp; perseitates 
+      ter<lb ed="#L" break="no" n="80"/>tij modi, idcirco dicitur tres habere subsisten. 
+      <lb ed="#L" n="81"/>tias, &amp; personalitates, licet sit vnus terminus. 
+      <lb ed="#L" n="82"/>differentia ergo formalis, quae constituit 
+      spe<lb ed="#L" break="no" n="83"/>ciem, distinguit essentiam, &amp; rationem 
+      quid<lb ed="#L" break="no" n="84"/>ditatiuam, &amp; non solum modum essendi, 
+      pro<lb ed="#L" break="no" n="85"/>pter quod ratio specifica dicunt, in nullo 
+      com<lb ed="#L" break="no" n="86"/>petit proprietatibus diuinis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2861">
+                  <lb ed="#L" n="87"/>Nec valet et iam secundum. patet enim, quod 
+      <lb ed="#L" n="88"/>rosa posita in esse conspicuo, non facit 
+      com<lb ed="#L" break="no" n="89"/>positionem cum illo esse, nec rosa sic posita est 
+      <lb ed="#L" n="90"/>diuisibilis in duo, cum sit vnus conceptus 
+      sim<lb ed="#L" break="no" n="91"/>plex, nec habet se rosa ad illud esse per 
+      mo<lb ed="#L" break="no" n="92"/>dum substituti respectu ipsius, sed per modum 
+      <lb ed="#L" n="93"/>subsistentis, &amp; existentis secundum tale esse. 
+      <lb ed="#L" n="94"/>vnde rosa in esse formato subsistit, non illi esse 
+      <lb ed="#L" n="95"/>subest, aut subsistit, &amp; eodem modo 
+      intelligen<lb ed="#L" break="no" n="96"/>dum est de Deo verbo, &amp; multo perfectius. 
+      <lb ed="#L" n="97"/>vnde falsum est, quod essentia diuina 
+      potentia<lb ed="#L" break="no" n="98"/>lis sit, aut substituta proprietati, immo est 
+      sub<lb ed="#L" break="no" n="99"/>sistens secundum illam proprietatem, illa quip 
+      <lb ed="#L" n="100"/>pe proprietates non sunt, nisi quidam modi exi 
+      <lb ed="#L" n="101"/>stendi relatiui, vt dictum est saepe. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2896">
+                  <lb ed="#L" n="102"/>Non valet quoque tertium, quia quod est 
+      <lb ed="#L" n="103"/>eiusdem rationis non est ibi plurificatum, 
+      im<lb ed="#L" break="no" n="104"/>mo omnino idem, habens tamen tres modos 
+      <lb ed="#L" n="105"/>subsistendi alterius rationis; quomodo autem 
+      <lb ed="#L" n="106"/>ab illis abstrahatur vnus conceptus 
+      perlonali<lb ed="#L" break="no" n="107"/>tatis communiter, infra dicetur nec 
+      genera<lb ed="#L" break="no" n="108"/>tione vniuoca, nec aequiuoca, cum agetur de 
+      <lb ed="#L" n="109"/>persona. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2916">
+                  <lb ed="#L" n="110"/>Nec etiam quartum valet, quia pater 
+      ge<lb ed="#L" break="no" n="111"/>nerat filium, nec generatione vniuoca, nec 
+      <lb ed="#L" n="112"/>aequiuoca, cum esentia non sit formalis 
+      ter<lb ed="#L" break="no" n="113"/>minus generationis, vt supra dictum fuit. 
+      com<lb ed="#L" break="no" n="114"/>municatur enim non per modum termini, sed 
+      <lb ed="#L" n="115"/>per modum formae symbolae, &amp; communis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2932">
+                  <lb ed="#L" n="116"/>Et ex codem deficit quintum. 
+      Productio<lb ed="#L" break="no" n="117"/>nes enim arguunt, quod proprietates 
+      constti<lb ed="#L" break="no" n="118"/>tut iuae sint alterius rationis, sed quia se tenent 
+      <lb ed="#L" n="119"/>ex parte modi essendi, verum quidem erit, 
+      <lb ed="#L" n="120"/>quod cadem res subsistit secundum modos 
+      al<lb ed="#L" break="no" n="121"/>terius rationis, non propter hoc tamen se 
+      ha<lb ed="#L" break="no" n="122"/>bet, sicut diuersae species, quia diuersitas 
+      spe<lb ed="#L" break="no" n="123"/>cifica non est secundum modos essendi, sed 
+      <lb ed="#L" n="124"/>secundum diuersas essentias, &amp; rationes 
+      quid<lb ed="#L" break="no" n="125"/>ditatiuas. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2957">
+                  <lb ed="#L" n="126"/>Nec valet etiam sextum pro eo, quod in di- 
+      <!--0483.xml-->
+      <pb ed="#L" n="483"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>uinis non est multiplicatio eiusdem, immo idem 
+      <lb ed="#L" n="2"/>est, quod secundum diuersos modos subsistit, 
+      <lb ed="#L" n="3"/>nec isti modi sunt in infinitum multiplicabiles, 
+      <lb ed="#L" n="4"/>immo ad trinarium reducuntur ex ratione 
+      in<lb ed="#L" break="no" n="5"/>tellectuali. naturae enim competit ter 
+      subsiste<lb ed="#L" break="no" n="6"/>re per hunc modum. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e2981">
+                  <lb ed="#L" n="7"/>Motiua quoque secundae opinionis 
+      procede<lb ed="#L" break="no" n="8"/>re non videntur. Primum siquidem non 
+      pro<lb ed="#L" break="no" n="9"/>cedit, quia proprietates indiuiduales 
+      deter<lb ed="#L" break="no" n="10"/>minant, &amp; numerant naturam; hoc autem non 
+      <lb ed="#L" n="11"/>competit proprietatibus diuinis, &amp; iterum 
+      pro<lb ed="#L" break="no" n="12"/>prietates hypostaticae non se tenent solum ex 
+      <lb ed="#L" n="13"/>parte modi existendi, immo ex parte essentiae 
+      <lb ed="#L" n="14"/>numeralis; proprietates autem diuinae tenent 
+      <lb ed="#L" n="15"/>se ex ex parte modi existendi, se cundum quem 
+      <lb ed="#L" n="16"/>essentia subsistit. vnde dicit Damascenus lib. 
+      <lb ed="#L" n="17"/>3. quod substantia secundum seipsam non 
+      subsi<lb ed="#L" break="no" n="18"/>stit, sed in hypostasibus contemplatur. cum 
+      er<lb ed="#L" break="no" n="19"/>go vocat Damascenus proprietates istas 
+      cara<lb ed="#L" break="no" n="20"/>cteristicas, hoc est consignatiuas. dicuntur enim 
+      <lb ed="#L" n="21"/>a caractere, nil aliud vult intelligere, nisi quod 
+      <lb ed="#L" n="22"/>proprietates sunt notiones, quibus distincte 
+      <lb ed="#L" n="23"/>cognoscuntur, &amp; nominantur personae. 
+      Secun<lb ed="#L" break="no" n="24"/>dum etiam non procedit, quia iam dictum est, 
+      <lb ed="#L" n="25"/>quod pater non est producens, nec generans 
+      <lb ed="#L" n="26"/>vniuocum, aut aequiuocum, quia diuinam 
+      es<lb ed="#L" break="no" n="27"/>sentiam per modum termini non attingit. 
+      Ter<lb ed="#L" break="no" n="28"/>tium etiam non procedit, quia Damascenus 
+      <lb ed="#L" n="29"/>intelligit, personas numero distingui, hoc est 
+      <lb ed="#L" n="30"/>numeraliter, quia possunt numerari distincte, 
+      <lb ed="#L" n="31"/>cum habeant proprias vnitates, &amp; sic exponit 
+      <lb ed="#L" n="32"/>Magister. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3040">
+                  <lb ed="#L" n="33"/>Quod modus essendi alterius rationis non 
+      impe<lb ed="#L" break="no" n="34"/>dit aequalitatem personarum. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3047">
+                  <lb ed="#L" n="35"/>SECVNDA vero propositio, quod modi 
+      exi<lb ed="#L" break="no" n="36"/>stendi alterius rationis, qui competunt 
+      per<lb ed="#L" break="no" n="37"/>sonis diuinis, non impediunt aequalitatem 
+      ea<lb ed="#L" break="no" n="38"/>rum: oppositum tamen videretur ex tribus. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3058">
+                  <lb ed="#L" n="39"/>Primo quidem, quia subsistere per modum 
+      <lb ed="#L" n="40"/>spiritus amorosi dicitur esse nobilius, quam per 
+      <lb ed="#L" n="41"/>modum verbi conspicui, &amp; formati. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3067">
+                  <lb ed="#L" n="42"/>Secundo vero, quia subsistere modo, quo res 
+      <lb ed="#L" n="43"/>extra existunt, videtur nobilius, quam 
+      subsi<lb ed="#L" break="no" n="44"/>stere illo modo, quo sunt in mente obiectiue. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3077">
+                  <lb ed="#L" n="45"/>Tertio quoque quia proprietates sunt 
+      alte<lb ed="#L" break="no" n="46"/>rius rationis, &amp; vna est, quasi actiua, vtputa 
+      ge<lb ed="#L" break="no" n="47"/>nerare, aliae quasi passiuae, vt generari, &amp; 
+      spi<lb ed="#L" break="no" n="48"/>rari. pater ergo qui subsistit per modum 
+      gene<lb ed="#L" break="no" n="49"/>rantis, &amp; quasi extra existentis, videtur 
+      nobi<lb ed="#L" break="no" n="50"/>liorem modum possidere, quam filius, qui 
+      exi<lb ed="#L" break="no" n="51"/>stit per modum geniti, &amp; esse obiectiui. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3095">
+                  <lb ed="#L" n="52"/>His tamen non obstantibus, dicendum est, 
+      <lb ed="#L" n="53"/>sicut prius, &amp; potest sumi ratio, quod anima 
+      <lb ed="#L" n="54"/>ter posita non est nobilior in vno modo essendi, 
+      <lb ed="#L" n="55"/>quam in alio, nisi quatenus vnus est realis, &amp; 
+      <lb ed="#L" n="56"/>duo intentionales, puta cum ponitur, vt 
+      con<lb ed="#L" break="no" n="57"/>cepta, &amp; cum ponitur, vt spirata, propter quod 
+      <lb ed="#L" n="58"/>cum ista esse sint relatiua in diuinis, &amp; Deus 
+      <lb ed="#L" n="59"/>idem sit secundum istos tres modos reales 
+      sub<lb ed="#L" break="no" n="60"/>sistens, aequalis erit nobilitas in omnibus istis 
+      <lb ed="#L" n="61"/>modis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3119">
+                  <lb ed="#L" n="62"/>Non valet. ergo quod primo dicitur, modum, 
+      <lb ed="#L" n="63"/>quo spiritus subsistit nobiliorem esse modo, 
+      <lb ed="#L" n="64"/>quo verbum subsistit, aut modum, quo pater 
+      <!--0483.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>subsistit a modo verbi, &amp; videtur quoddam exi 
+      <lb ed="#L" n="66"/>stere obiectiuum, aut quod vnus modus est, 
+      <lb ed="#L" n="67"/>quasi actiuus, alius, quasi passiuus, aut quod 
+      <lb ed="#L" n="68"/>modi sunt alterius rationis, &amp; ita de 
+      necessita<lb ed="#L" break="no" n="69"/>te vnus nobilior alio, siquidem haec non valent, 
+      <lb ed="#L" n="70"/>quia secus est de realitatibus, quae habent 
+      es<lb ed="#L" break="no" n="71"/>se praecisum, secus de realitatibus indistinctis, 
+      <lb ed="#L" n="72"/>quae sunt modi essendi eiusdem rei, &amp; 
+      confor<lb ed="#L" break="no" n="73"/>mantur nobilitati illius rei, nec competit eis 
+      <lb ed="#L" n="74"/>hoc, quod inest alijs realitatibus alterius 
+      ra<lb ed="#L" break="no" n="75"/>tionis, pro eo quod non sunt propriae res, &amp; 
+      <lb ed="#L" n="76"/>praecisae, sed modi essendi eiusdem rei; tales 
+      <lb ed="#L" n="77"/>autem sunt modi existendi, qui competunt 
+      <lb ed="#L" n="78"/>diuinis personis. vnde existere per modum 
+      <lb ed="#L" n="79"/>verbi, vel spiritus, non minus nobile, quam 
+      <lb ed="#L" n="80"/>existere per modum dicentis, &amp; spirantis, 
+      si<lb ed="#L" break="no" n="81"/>cut in eadem anima patet, quasi vt intra se 
+      <lb ed="#L" n="82"/>conspiciens, &amp; ante se conspicua, &amp; extra se 
+      <lb ed="#L" n="83"/>spirata existit in nobiliori modo, aut 
+      ignobi<lb ed="#L" break="no" n="84"/>liori existit, nisi quatenus duo sunt 
+      intentio<lb ed="#L" break="no" n="85"/>nales. Et in hoc quartus articulus 
+      termi<lb ed="#L" break="no" n="86"/>netur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-153749-Dd1e3182">
+               <head xml:id="ol96b1-153749-Hd1e3184">Articulus 5</head>
+               <p xml:id="ol96b1-153749-d1e3186">
+                  <lb ed="#L" n="87"/>ARTJCVLVS QVJNTVS. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3191">
+                  <lb ed="#L" n="88"/>Quod totalitatis ratio non impedit 
+      perso<lb ed="#L" break="no" n="89"/>narum aequalitatem. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3198">
+                  <lb ed="#L" n="90"/>CIRCA quintum vero considerandum est, 
+      <lb ed="#L" n="91"/>quod personarum aequalitas non 
+      impedi<lb ed="#L" break="no" n="92"/>tur ex ratione totalitatis. constat enim quod 
+      <lb ed="#L" n="93"/>ibi non est totum essentiale, quasi persona 
+      con<lb ed="#L" break="no" n="94"/>stituatur ex essentia, &amp; proprietate, vt ex 
+      duo<lb ed="#L" break="no" n="95"/>bus essentijs, quarum vna potentialis sit, &amp; 
+      re<lb ed="#L" break="no" n="96"/>liqua actualis. sicut enim de materia, &amp; ferma. 
+      <lb ed="#L" n="97"/>determinatum est enim, quod proprietas non est, 
+      ni<lb ed="#L" break="no" n="98"/>si quidam modus existendi relatiuus, sicut 
+      ro<lb ed="#L" break="no" n="99"/>sam existere per modum cuiusdam verbi 
+      con<lb ed="#L" break="no" n="100"/>spicui, &amp; formati, non est, nisi modus 
+      existen<lb ed="#L" break="no" n="101"/>di intentionalis. si enim esset realis, non esset, 
+      <lb ed="#L" n="102"/>nisi modus existendi realis; forma autem, &amp; 
+      ma<lb ed="#L" break="no" n="103"/>teria non esse habent, sicut res, &amp; modus existen 
+      <lb ed="#L" n="104"/>di rei. vnde manifestum est, quod persona non 
+      <lb ed="#L" n="105"/>est totum essentiale; constat etiam, quod non 
+      <lb ed="#L" n="106"/>est totum integrale, quia partes totius 
+      inte<lb ed="#L" break="no" n="107"/>gralis possunt saltem per intellectum 
+      praescin<lb ed="#L" break="no" n="108"/>di ab inuicem, nec quae libet dicit totum; 
+      mo<lb ed="#L" break="no" n="109"/>dus autem in existendi, quem importat 
+      pro<lb ed="#L" break="no" n="110"/>prietas in diuinis, non potest praescindi ab 
+      es<lb ed="#L" break="no" n="111"/>sentia, nec econuerso. vnde non se habent per 
+      <lb ed="#L" n="112"/>modum partis, nec persona est aliquid 
+      inte<lb ed="#L" break="no" n="113"/>grale constitutum; constat etiam, quod ibi non 
+      <lb ed="#L" n="114"/>est totum perfectionale, quasi diuina essentia 
+      <lb ed="#L" n="115"/>sit ex multis perfectionibus constituta, multis 
+      <lb ed="#L" n="116"/>inquam, vel secundum rem, vel secundum 
+      ra<lb ed="#L" break="no" n="117"/>tionem, quia supra probatum est, quod 
+      om<lb ed="#L" break="no" n="118"/>nes perfectiones coincidunt &amp; re, &amp; ratione in 
+      <lb ed="#L" n="119"/>propriam rationem deitatis. vnde multa 
+      po<lb ed="#L" break="no" n="120"/>test dici connotatiue, sed nullo modo 
+      formali<lb ed="#L" break="no" n="121"/>ter, vt determinatum est supra, constat etiam 
+      <lb ed="#L" n="122"/>quod ibi non est totum vniuersale, 
+      compa<lb ed="#L" break="no" n="123"/>rando essentiam ad personas, vel Deum ad 
+      pa<lb ed="#L" break="no" n="124"/>trem, &amp; filium, &amp; spiritum sanctum. totum 
+      <lb ed="#L" n="125"/>enim vniuersale constituitur ex inferioribus, 
+      <lb ed="#L" n="126"/>tamquam aliquod confusum ex particularibus 
+      <!--0484.xml-->
+      <pb ed="#L" n="484"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>constitutum, prout indistincte continentur in 
+      <lb ed="#L" n="2"/>eo; nunc autem Deus distincte, &amp; idem in 
+      nu<lb ed="#L" break="no" n="3"/>mero subsistit secundum triplicem modum 
+      pa<lb ed="#L" break="no" n="4"/>tris, &amp; filij, &amp; spiritus sancti, &amp; claudit eos 
+      <lb ed="#L" n="5"/>explicite, &amp; distincte, nec potest concipi, 
+      ni<lb ed="#L" break="no" n="6"/>si in tribus distinctis, vt alias fuit dictum, sed 
+      <lb ed="#L" n="7"/>de relationibus vtrum ab eis possit abstrahi 
+      <lb ed="#L" n="8"/>communis conceptus, &amp; ibi est maior 
+      diffi<lb ed="#L" break="no" n="9"/>cultas. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3307">
+                  <lb ed="#L" n="10"/>Opinio Durandi 1. sent. dist. 19. quaest. 1.
+    </p>
+               <p xml:id="ol96b1-153749-d1e3313">
+                  <lb ed="#L" n="11"/>DIXERVNT namque aliqui quod ea, quae 
+      <lb ed="#L" n="12"/>sunt in diuinis possunt considerari 
+      secun<lb ed="#L" break="no" n="13"/>dum esse reale, quod habent extra animam, &amp; 
+      <lb ed="#L" n="14"/>secundum hoc nullum, quod sit in Deo habet 
+      <lb ed="#L" n="15"/>rationem vniuersalis: tum quia quicquid est 
+      <lb ed="#L" n="16"/>in re extra, singulare est secundum illud 
+      Boe<lb ed="#L" break="no" n="17"/>tij omne, quod est, ideo est, quia vnum 
+      nume<lb ed="#L" break="no" n="18"/>ro est: tum quia si diuinum aliquod poneretur 
+      <lb ed="#L" n="19"/>vniuersale, illud esset essentia, quod esse non 
+      <lb ed="#L" n="20"/>potest, quia eius vnitas non est rationis, sed 
+      <lb ed="#L" n="21"/>realis, &amp; numeralis, &amp; quia vniuersale dicit 
+      <lb ed="#L" n="22"/>quicquid est in persona, quia relationem 
+      inclu<lb ed="#L" break="no" n="23"/>dit suppositis. vnde importat suppositum 
+      in<lb ed="#L" break="no" n="24"/>determinatum; essentia vero non importat 
+      quic<lb ed="#L" break="no" n="25"/>quid est in persona, quia relationem non 
+      in<lb ed="#L" break="no" n="26"/>cludit, quae est constitutiua personae, vel ea, 
+      <lb ed="#L" n="27"/>quae in diuinis sunt considerari possunt 
+      secun<lb ed="#L" break="no" n="28"/>dum esse, quod habent in anima, &amp; sic non est 
+      <lb ed="#L" n="29"/>inconueniens, rationem vniuersalis reperiri in 
+      <lb ed="#L" n="30"/>Deo. relatio enim in communi accepta 
+      vide<lb ed="#L" break="no" n="31"/>tur habere rationem totius vniuersalis ad 
+      pa<lb ed="#L" break="no" n="32"/>ternitatem, &amp; filiationem, &amp; spirationem 
+      acti<lb ed="#L" break="no" n="33"/>uam, &amp; passiuam, &amp; similiter persona ad 
+      pa<lb ed="#L" break="no" n="34"/>trem, &amp; filium, &amp; spiritum sanctum, cuius 
+      ra<lb ed="#L" break="no" n="35"/>tio sumi potest ex ratione vniuersalis; 
+      vniuer<lb ed="#L" break="no" n="36"/>sale namque est, quod dicitur de multis per se, 
+      <lb ed="#L" n="37"/>&amp; plurificatur realiter in eis, &amp; dicit in 
+      com<lb ed="#L" break="no" n="38"/>muni totam naturam singularium, sed 
+      mani<lb ed="#L" break="no" n="39"/>festum est, quod hoc competit personae 
+      respe<lb ed="#L" break="no" n="40"/>ctu trium suppositorum, &amp; similiter relationi 
+      <lb ed="#L" n="41"/>in communi acceptae re spectu quatuor 
+      pro<lb ed="#L" break="no" n="42"/>prietatum. ergo tam persona, quam relatio 
+      <lb ed="#L" n="43"/>in communi habent rationem vniuersalis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3387">
+                  <lb ed="#L" n="44"/>Quid dicendum secundum veritatem.
+    </p>
+               <p xml:id="ol96b1-153749-d1e3392">
+                  <lb ed="#L" n="45"/>SED hoc quantum ad id, quod tangit 
+      ra<lb ed="#L" break="no" n="46"/>tionem personae, veritatem non habet, quia 
+      <lb ed="#L" n="47"/>non aliter est commune respectu trium 
+      perso<lb ed="#L" break="no" n="48"/>narum esse suppositum, vel personam, quam 
+      <lb ed="#L" n="49"/>sit commune Sorti, vel Platoni esse primam 
+      sub<lb ed="#L" break="no" n="50"/>stantiam, vel esse per se tertio modo, vel esse 
+      ali<lb ed="#L" break="no" n="51"/>quem hominem, de quibus constat, quod non 
+      <lb ed="#L" n="52"/>habent rationem vniuersalis, sed de hoc magis 
+      <lb ed="#L" n="53"/>inferius apparebit, dum tractabitur de 
+      perso<lb ed="#L" break="no" n="54"/>na. Quantum vero ad id, quod tangit 
+      relatio<lb ed="#L" break="no" n="55"/>nem in communi, etiam non est verum, quod ra 
+      <lb ed="#L" n="56"/>tio vniuersalis possit sibi attribui, nec quod a 
+      <lb ed="#L" n="57"/>diuinis proprietatibus possit communis 
+      con<lb ed="#L" break="no" n="58"/>ceptus relationis abstrahi, qui habeat rationem 
+      <lb ed="#L" n="59"/>vniuersalis, noc autem potest multipliciter 
+      de<lb ed="#L" break="no" n="60"/>clarari: omnis namque ratio generis per 
+      diffe<lb ed="#L" break="no" n="61"/>rentias diuisa, necessario exigit, vt altera 
+      dif<lb ed="#L" break="no" n="62"/>ferentiarum sit habitus, &amp; altera quasi priua- 
+      <!--0484.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>tio, &amp; per consequens, quod vna species sit 
+      ha<lb ed="#L" break="no" n="64"/>bitualis respectu alterius, &amp; nobilior; altera 
+      <lb ed="#L" n="65"/>vero quasi priuatiua, sicut superius extitit 
+      de<lb ed="#L" break="no" n="66"/>claratum, sed proprietates dei, quae sunt 
+      alte<lb ed="#L" break="no" n="67"/>rius rationis sic se habent, quod vna non est 
+      <lb ed="#L" n="68"/>nobilior altera. ergo non abstrahitur ab eis 
+      ra<lb ed="#L" break="no" n="69"/>tio in communi, quae se habeat, sicut genus. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3453">
+                  <lb ed="#L" n="70"/>Praeterea: Si talis ratio abstrahibilis esset, 
+      <lb ed="#L" n="71"/>tunc personales proprietates essent in 
+      praedi<lb ed="#L" break="no" n="72"/>camento relationis, sed August. dicit 5. de 
+      Tri<lb ed="#L" break="no" n="73"/>nit. quod nullum decem praedicamentorum 
+      lo<lb ed="#L" break="no" n="74"/>cum habet in diuinis, &amp; Magister etiam dicit 
+      <lb ed="#L" n="75"/>distinctione octaua, quod ex verbis Augustini 
+      <lb ed="#L" n="76"/>apparet praedicamenta artis dialecticae diuina 
+      <lb ed="#L" n="77"/>naturae minime conuenire; Doctores etiam 
+      di<lb ed="#L" break="no" n="78"/>cunt modum duorum praedicamentorum, puta 
+      <lb ed="#L" n="79"/>substantiae, &amp; relationis reperiri in diuinis, &amp; 
+      <lb ed="#L" n="80"/>nullo modo ipsa praedicamenta; relatio etiam 
+      <lb ed="#L" n="81"/>praedicamentalis est accidens; nullum autem 
+      <lb ed="#L" n="82"/>accidens locum habet in Deo. ergo talis 
+      com<lb ed="#L" break="no" n="83"/>munis conceptus relationis non potest 
+      abstra<lb ed="#L" break="no" n="84"/>hi a proprietatibus personalibus in diuinis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3488">
+                  <lb ed="#L" n="85"/>Praeterea: Ab actione; &amp; passione non 
+      po<lb ed="#L" break="no" n="86"/>test in creaturis abstrahi communis conceptus, 
+      <lb ed="#L" n="87"/>alioquin non essent actio, &amp; passio duo 
+      conce<lb ed="#L" break="no" n="88"/>ptus generalissimi altissimi primi, cuius 
+      oppo<lb ed="#L" break="no" n="89"/>situm Philosophus dicit in praedicamentis, &amp; 
+      <lb ed="#L" n="90"/>5. Metaphysicae, vbi enumerat ea inter decem 
+      <lb ed="#L" n="91"/>praedicamenta, sed proprietas patris, quae est 
+      <lb ed="#L" n="92"/>generare, &amp; proprietas filij, quae est generari 
+      <lb ed="#L" n="93"/>se habent, quasi vt actio, &amp; passio, &amp; similiter spi 
+      <lb ed="#L" n="94"/>rare, &amp; spirari. ergo ab eis non potest 
+      abstra<lb ed="#L" break="no" n="95"/>hi vnus communis conceptus. Et si dicatur, 
+      <lb ed="#L" n="96"/>quod verum est de ipsis productionibus: de 
+      rela<lb ed="#L" break="no" n="97"/>tionibus tamen fundatis super eas non videtur 
+      <lb ed="#L" n="98"/>concludi, dicendum, quod non valet, quia 
+      re<lb ed="#L" break="no" n="99"/>lationes non differunt a productionibus in 
+      diui<lb ed="#L" break="no" n="100"/>nis saltem realiter, &amp; si dicatur, quod differant 
+      ratio<lb ed="#L" break="no" n="101"/>ne, quod hoc non dicendum quia non potest ab eis 
+      ab<lb ed="#L" break="no" n="102"/>strahi communis conceptus. Ratio itaque a 
+      prio<lb ed="#L" break="no" n="103"/>ri, quare proprietates diuinae, siue 
+      concipian<lb ed="#L" break="no" n="104"/>tur per modum productionum, siue per 
+      mo<lb ed="#L" break="no" n="105"/>dum relationum, non sunt in praedicamento, 
+      <lb ed="#L" n="106"/>nec potest ab eis communis ratio abstrahi, 
+      <lb ed="#L" n="107"/>aut aliquis conceptus vniuersalis hoc est, quod 
+      <lb ed="#L" n="108"/>vt dictum est saepe, essentia diuina est de 
+      con<lb ed="#L" break="no" n="109"/>ceptu, &amp; intelligibilitate ipsarum, &amp; 
+      econuer<lb ed="#L" break="no" n="110"/>so. vnde non possunt ab inuicem praescindi. si 
+      <lb ed="#L" n="111"/>ergo ab eis abstraheretur aliquis communis 
+      <lb ed="#L" n="112"/>conceptus, non explicite, nec distincte, sed 
+      con<lb ed="#L" break="no" n="113"/>fuse, &amp; vniuersaliter importaret diuinam essen 
+      <lb ed="#L" n="114"/>tiam vniuersaliter, &amp; confuse. si enim 
+      distin<lb ed="#L" break="no" n="115"/>cte eam includeret, &amp; proprietates 
+      include<lb ed="#L" break="no" n="116"/>ret distincte, si vero nullo modo deitatem 
+      in<lb ed="#L" break="no" n="117"/>cluderet, nec proprietates clauderet in 
+      seip<lb ed="#L" break="no" n="118"/>so, cum claudi non possint absque essentia, sed 
+      <lb ed="#L" n="119"/>manifestum est, quod diuina essentia non 
+      po<lb ed="#L" break="no" n="120"/>test concipi in vniuersali. non enim sub 
+      ratio<lb ed="#L" break="no" n="121"/>ne substantiae, vt declaratum fuit supra 
+      distin<lb ed="#L" break="no" n="122"/>ctione octaua, nec suppositione Deitatis 
+      com<lb ed="#L" break="no" n="123"/>munis, cum sit deitatis ratio subsistens. ergo 
+      <lb ed="#L" n="124"/>nec proprietates possunt habere communem 
+      con<lb ed="#L" break="no" n="125"/>ceptum. vnde quaelibet earum est tota ratio sua 
+      <lb ed="#L" n="126"/>subsistens, vt non possit conceptus specificus 
+      <lb ed="#L" n="127"/>abstrahi ab aliqua illarum; claudunt etiam in 
+      <lb ed="#L" n="128"/>sua intelligibilitate diuinam essentiam, a qua 
+      <!--0485.xml-->
+      <pb ed="#L" n="485"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nulla ratio abstrahi potest, sed semper 
+      conci<lb ed="#L" break="no" n="2"/>pitur; vt determinata, &amp; per consequens 
+      sem<lb ed="#L" break="no" n="3"/>per ipsae proprierates habent determinate 
+      intel<lb ed="#L" break="no" n="4"/>ligi, nec possunt concipi vniuersaliter, vel 
+      con<lb ed="#L" break="no" n="5"/>fuse. Quod vero dicitur in recitata opinione re 
+      <lb ed="#L" n="6"/>lationem in communi accptam praedicari de 
+      <lb ed="#L" n="7"/>huiusmodi proprietatibus, dicendum quod sic 
+      <lb ed="#L" n="8"/>qui imaginantur, decipiuntur de hoc, quod 
+      quam<lb ed="#L" break="no" n="9"/>diu sumus in via de proprietatibus diuinis 
+      lo<lb ed="#L" break="no" n="10"/>quimur, sicut de alijs relationibus, &amp; de diuina 
+      <lb ed="#L" n="11"/>essentia, quasi de vna alia quidditate. non enim 
+      <lb ed="#L" n="12"/>intelligimus eas secundum proprias rationes, 
+      <lb ed="#L" n="13"/>propter quod &amp; a diuina essentia putamus nos 
+      <lb ed="#L" n="14"/>abstrahere communem aliquam rationem, &amp; 
+      <lb ed="#L" n="15"/>a proprietatibus illis, sed qui considerat earum 
+      <lb ed="#L" n="16"/>conditiones, videt hoc esse impossibile. &amp; hic 
+      <lb ed="#L" n="17"/>articulus quintus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-153749-Dd1e3630">
+               <head xml:id="ol96b1-153749-Hd1e3632">Articulus 6</head>
+               <p xml:id="ol96b1-153749-d1e3634">
+                  <lb ed="#L" n="18"/>ARTJCVLVS SEXTVS. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3639">
+                  <lb ed="#L" n="19"/>An aequalitatem impediat, quod inter patrem, &amp; 
+      fi<lb ed="#L" break="no" n="20"/>lium non videtur esse aequatio versiua 
+      opi<lb ed="#L" break="no" n="21"/>nio S. Thomae par. 1. q.42, art. 1. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3648">
+                  <lb ed="#L" n="22"/>CIRCA sextum autem considerandum, quod 
+      <lb ed="#L" n="23"/>aliqui dicere voluerunt, aequalitatem, &amp; 
+      si<lb ed="#L" break="no" n="24"/>militudinem posse assignari in diuinis, scilicet 
+      <lb ed="#L" n="25"/>per nomina, &amp; per verba. secundum ergo quod 
+      <lb ed="#L" n="26"/>per nomina significatur, dicitur mutua 
+      aequali<lb ed="#L" break="no" n="27"/>tas, &amp; similitudo in diuinis personis. filius enim 
+      <lb ed="#L" n="28"/>est aequalis, &amp; similis patri, &amp; econuerso, &amp; hoc 
+      <lb ed="#L" n="29"/>ideo, quia filius habet magnitudinem patris, &amp; 
+      <lb ed="#L" n="30"/>pater magnitudinem filij, secundum autem, 
+      q<lb ed="#L" break="no" n="31"/>per verba aequalitas significatur, importatur 
+      <lb ed="#L" n="32"/>aequalitas cum motu, &amp; licet motus in diuinis, 
+      <lb ed="#L" n="33"/>non sit, est tamen ibi accipere naturam, &amp; 
+      ma<lb ed="#L" break="no" n="34"/>gnitudinem, &amp; omnem perfectionem. filius enim 
+      <lb ed="#L" n="35"/>accipit a patre, &amp; non econuerso. quia ergo 
+      <lb ed="#L" n="36"/>aequalitatem a patre filius accipit, &amp; non econ 
+      <lb ed="#L" n="37"/>uerso, propter hoc dicimus, quod filius coaequa 
+      <lb ed="#L" n="38"/>tur patri, sed non econuerso. est ergo in 
+      diui<lb ed="#L" break="no" n="39"/>nis aequalitas, &amp; mutua diuersificatio per nomi 
+      <lb ed="#L" n="40"/>na, non tamen est ibi coaequatio, cum 
+      signifi<lb ed="#L" break="no" n="41"/>catur per verba. Sed hic modus dicendi non vi 
+      <lb ed="#L" n="42"/>detur posse stare. de duabus enim lineis, sic 
+      di<lb ed="#L" break="no" n="43"/>citur verbaliter, quod vna aequatur alteri, 
+      si<lb ed="#L" break="no" n="44"/>cut quod sit aequalis nominaliter 
+      pronuncian<lb ed="#L" break="no" n="45"/>do: sed constat, quod vna linea ab alia 
+      aequali<lb ed="#L" break="no" n="46"/>tatem non accipit. ergo non est de ratione eius, 
+      <lb ed="#L" n="47"/>quod alteri verbaliter coaequatur, quod 
+      aequa<lb ed="#L" break="no" n="48"/>litatem ab illo accipiat. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3709">
+                  <lb ed="#L" n="49"/>Praeterea: Quamuis coaequari aequalitatem 
+      <lb ed="#L" n="50"/>significet per modum fluxus, &amp; fieri, sicut 
+      ver<lb ed="#L" break="no" n="51"/>bum, non tamen significat, quod ab illo, cui 
+      di<lb ed="#L" break="no" n="52"/>citur coaequari aequalitatem accipiat, sicut nec 
+      <lb ed="#L" n="53"/>si aliquid dicitur lucere, propter hoc dicitur, 
+      <lb ed="#L" n="54"/>quod lucem accipiat. vnde si duae 
+      magnitudi<lb ed="#L" break="no" n="55"/>nes coaequantur, non propter hoc sensus est. 
+      <lb ed="#L" n="56"/>quod vna ab alia aliquid sumat. consuetum est 
+      <lb ed="#L" n="57"/>enim dici de duobus similibus, quod vnus 
+      as<lb ed="#L" break="no" n="58"/>similatur alteri, nec propter hoc datur 
+      intel<lb ed="#L" break="no" n="59"/>ligi, quod vnus ab alio similitudinem accipiat. 
+      <lb ed="#L" n="60"/>ergo pari ratione poterit dici pater ass imilari 
+      <lb ed="#L" n="61"/>filio, vel coaequari absque hoc, quod ab illo 
+      ali<lb ed="#L" break="no" n="62"/>quid accipiat.
+    </p>
+               <p xml:id="ol96b1-153749-d1e3743">
+                  <lb ed="#L" n="63"/>Praeterea: Nil aliud est coaequari, nisi actus 
+      <!--0485.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>primus aequalitatis, sicut lucere est actus 
+      pri<lb ed="#L" break="no" n="65"/>mus lucis. vnde lucere est lux posita in actu, &amp; 
+      <lb ed="#L" n="66"/>in exercitio, &amp; in vsu lucendi, vt supra dictum 
+      <lb ed="#L" n="67"/>est de esse, &amp; essentia, sed mani festum, est quod 
+      <lb ed="#L" n="68"/>pater est in actu, &amp; in exercitio coaequandi, 
+      <lb ed="#L" n="69"/>cum filio. non enim habet solum aequalitatem 
+      <lb ed="#L" n="70"/>in potentia, &amp; habitu, sed in actu, &amp; in vsu 
+      <lb ed="#L" n="71"/>coaequandi. ergo non solum potest dici, quod 
+      <lb ed="#L" n="72"/>in patre sit aequalitas respectu filij, immo quod 
+      <lb ed="#L" n="73"/>&amp; filio coaequatur. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3774">
+                  <lb ed="#L" n="74"/>Praeterea: Augustinus primo de Doctrina 
+      <lb ed="#L" n="75"/>Christiana dicit, quod proprietas filij est 
+      aequa<lb ed="#L" break="no" n="76"/>litas nominaliter, proferens aequalitatem, &amp; 
+      <lb ed="#L" n="77"/>non verbaliter. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3785">
+                  <lb ed="#L" n="78"/>Opinio aliorum. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3790">
+                  <lb ed="#L" n="79"/>PROPTEREA dixerunt alij, quod 
+      simili<lb ed="#L" break="no" n="80"/>Ttudo, aequalitas, &amp; adaequatio videntur se 
+      <lb ed="#L" n="81"/>habere per ordinem. addit enim aequalitas ad 
+      <lb ed="#L" n="82"/>similitudinem priuationem intentionis, &amp; 
+      re<lb ed="#L" break="no" n="83"/>missionis, sicut aequaliter sunt alba, quae 
+      par<lb ed="#L" break="no" n="84"/>ticipant albedinem non secundum magis, &amp; 
+      <lb ed="#L" n="85"/>minus, adaequatio addit super aequalitatem 
+      ra<lb ed="#L" break="no" n="86"/>tionem imitatiui. quod alteri enim adaequatur, 
+      <lb ed="#L" n="87"/>est ad esse imaginem. Ex his ergo patet, quod 
+      <lb ed="#L" n="88"/>in diuinis aequalitas est conuersio, quia aequalitas 
+      <lb ed="#L" n="89"/>est relatio aequiparantiae. vnde vbicumque est, 
+      <lb ed="#L" n="90"/>mutua est &amp; conuersiua, sed non est in 
+      diui<lb ed="#L" break="no" n="91"/>nis adaequatio conuersiua, nam omnis 
+      adaequa<lb ed="#L" break="no" n="92"/>tio est alicuius se habentis ad aliud per modum 
+      <lb ed="#L" n="93"/>imaginis ad exemplar, sicut imago Herculis, 
+      <lb ed="#L" n="94"/>coaequatur Herculi, tamquam suo exemplari: 
+      <lb ed="#L" n="95"/>sed manifestum est, quou in diuinis filius 
+      imi<lb ed="#L" break="no" n="96"/>tatur patrem, &amp; non econuerso, cum sit 
+      ima<lb ed="#L" break="no" n="97"/>go ipsius, &amp; similiter spiritus sanctus imitatur 
+      <lb ed="#L" n="98"/>patrem, &amp; filium. ergo filius corquatur patri, 
+      <lb ed="#L" n="99"/>sed non econuerso, &amp; spiritus sanctus vtrique, 
+      <lb ed="#L" n="100"/>&amp; non econuerso. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3840">
+                  <lb ed="#L" n="101"/>Sed nec hic dicendi modus videtur 
+      conue<lb ed="#L" break="no" n="102"/>niens; adaequatio namque ad aequalitatem ex 
+      <lb ed="#L" n="103"/>vi sermonis non addit imitationem, nam 
+      dici<lb ed="#L" break="no" n="104"/>mus, quod linea lineae adaequatur, 
+      coaequa<lb ed="#L" break="no" n="105"/>tur, &amp; aequatur, nec tamen est eius imago, &amp; 
+      <lb ed="#L" n="106"/>iterum, non videtur posse sobrie dici, quod 
+      <lb ed="#L" n="107"/>pater sit exemplar respectu filij, quia 
+      exem<lb ed="#L" break="no" n="108"/>plar, &amp; exemplatum le debent habere, sicut 
+      <lb ed="#L" n="109"/>mensura ad mensuratum; mensura vero de sui 
+      <lb ed="#L" n="110"/>ratione importat primitatem, &amp; dignitatem 
+      <lb ed="#L" n="111"/>respectu mensurati. vnde non videtur proprie 
+      <lb ed="#L" n="112"/>dici, quod pater sit exemplar filij, praesertim 
+      <lb ed="#L" n="113"/>cum relationes tertij modi modo mensurati, 
+      <lb ed="#L" n="114"/>&amp; mensurae non ponantur secundum personas 
+      <lb ed="#L" n="115"/>diuinas. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3875">
+                  <lb ed="#L" n="116"/>Quid dicendum secundum veritatem. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3881">
+                  <lb ed="#L" n="117"/>ET idcirco dicendum est, quod sicut 
+      simi<lb ed="#L" break="no" n="118"/>Lilitudo dicitur essentialiter, &amp; personaliter 
+      <lb ed="#L" n="119"/>in diuinis, sic &amp; aequalitas; similitudo quidem 
+      <lb ed="#L" n="120"/>est quaedam proprietas esfentialis, secundum 
+      <lb ed="#L" n="121"/>quam pater dicitur similis filio, &amp; 
+      econuer<lb ed="#L" break="no" n="122"/>so propter identitatem essentiae; quando 
+      ve<lb ed="#L" break="no" n="123"/>ro sumitur pro personali proprietate filij, 
+      in<lb ed="#L" break="no" n="124"/>quantum filius dicitur imago, &amp; 
+      similitu<lb ed="#L" break="no" n="125"/>do patris. tunc enim similitudo non est aliud, 
+      <!--0486.xml-->
+      <pb ed="#L" n="486"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quam proprietas verbi, cum verbum sit similli 
+      <lb ed="#L" n="2"/>mum scientiae, de qua nascitur secundum Aug. 
+      <lb ed="#L" n="3"/>similiter etiam aequalitas aliquando respicit 
+      ma<lb ed="#L" break="no" n="4"/>gnitudinem essentiae diuinae, quae eadem est in 
+      <lb ed="#L" n="5"/>tribus, &amp; secundum hoc pater est aequalis filio, 
+      <lb ed="#L" n="6"/>&amp; econuerso, quandoque vero respicit 
+      proprie<lb ed="#L" break="no" n="7"/>tatem filij personalem; emanat namque filius, 
+      <lb ed="#L" n="8"/>sicut verbum, &amp; sicut imago; verbum autem ita 
+      <lb ed="#L" n="9"/>oportet, vt sit aequale scientiae, de qua nascitur, 
+      <lb ed="#L" n="10"/>si fuerit perfectum, sicut oportet, quod sit simil 
+      <lb ed="#L" n="11"/>limum, immo nil aliud est esse simillimum, nisi per 
+      <lb ed="#L" n="12"/>omnia esse aequale, &amp; ideo dicit Aug. 6. de Trin. 
+      <lb ed="#L" n="13"/>quod imago si perfecta sit, implet id, cuius est 
+      <lb ed="#L" n="14"/>imago. sic ergo aequalitas est proprietas 
+      perso<lb ed="#L" break="no" n="15"/>nalis filij, sicut imago, &amp; similitudo, &amp; verbum. 
+      <lb ed="#L" n="16"/>vnde 15. de Trin. c. 14. dicit Aug. quod verbum 
+      <lb ed="#L" n="17"/>Dei patris est per omnia sibi simile, &amp; aequale. 
+      <lb ed="#L" n="18"/>non enim seipsum integre perfecteque dixisset, 
+      <lb ed="#L" n="19"/>si aliquid minus, aut amplius esset in eius 
+      ver<lb ed="#L" break="no" n="20"/>bo, quam in seipso. Cum ergo inquiritur an 
+      in<lb ed="#L" break="no" n="21"/>ter patrem, &amp; filium sit aequalitas conuersiua, 
+      di<lb ed="#L" break="no" n="22"/>cendum est, quod sic, loquendo de aequalitate 
+      <lb ed="#L" n="23"/>essentiali, quia respicit omnem perfectionem, 
+      <lb ed="#L" n="24"/>siue per verba, siue per nomina huiusmodi aequa 
+      <lb ed="#L" n="25"/>litas exprimatur. vnde pater est aequalis filio, 
+      <lb ed="#L" n="26"/>&amp; coaequatur filio in omni perfectione; si vero 
+      <lb ed="#L" n="27"/>loquamur de aequalitate personali, quae nil aliud 
+      <lb ed="#L" n="28"/>est, quam verbi proprietas, nec nominaliter, 
+      <lb ed="#L" n="29"/>nec verbaliter dicitur conuersiue. filius enim 
+      <lb ed="#L" n="30"/>est imago, similitudo, &amp; aequalitas patris. non e 
+      <lb ed="#L" n="31"/>conuerso, &amp; ideo dicit Aug. i. de Doct. 
+      Christia<lb ed="#L" break="no" n="32"/>na, quod in filio est prima aequalitas, &amp; 6. de Trinit. 
+      <lb ed="#L" n="33"/>quod imago coaequatur illi, cuius imago est, non 
+      <lb ed="#L" n="34"/>illud imagini suae. sic ergo non impedit 
+      aequali<lb ed="#L" break="no" n="35"/>tatem patris, &amp; filij inadaequatio ista; adaequatur 
+      <lb ed="#L" n="36"/>namque conuersiue aequalitate essentiali, sicut 
+      <lb ed="#L" n="37"/>&amp; assimilantur in omni perfectione, sed non 
+      aequa<lb ed="#L" break="no" n="38"/>litate, aut similitudine personali, sicut nec in 
+      <lb ed="#L" n="39"/>esse imaginem, aut verbum. &amp; sic finitur 
+      arti<lb ed="#L" break="no" n="40"/>culus sextus. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e3996">
+                  <lb ed="#L" n="41"/>Responsio ad obiecta.
+    </p>
+               <p xml:id="ol96b1-153749-d1e4001">
+                  <lb ed="#L" n="42"/>AD ea, quae superius inducuntur dicendum 
+      <lb ed="#L" n="43"/>est ad primum quidem, quod aequalitas, prout 
+      <lb ed="#L" n="44"/>est indiuisum, est illa, quae est passio quantitatis, 
+      <lb ed="#L" n="45"/>immo nec est relatio realis, aut rationis, sed ma 
+      <lb ed="#L" n="46"/>gis vnitas, &amp; indistinctio essentiae diuinae, quae 
+      <lb ed="#L" n="47"/>est quaedam immensitas, sicut inferius 
+      distinctio<lb ed="#L" break="no" n="48"/>ne trigesima prima amplius apparebit. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e4019">
+                  <lb ed="#L" n="49"/>Ad secundum dicendum, quod auctoritas, quae 
+      <lb ed="#L" n="50"/>est in patre, non aliud importat, nisi quod esse 
+      <lb ed="#L" n="51"/>Deum, &amp; omnem operationem potest attribue 
+      <lb ed="#L" n="52"/>re sibi, quae est Deus, omnia a se habens, &amp; non 
+      <lb ed="#L" n="53"/>ab alio; filius vero non est Dominus a se, nec 
+      <lb ed="#L" n="54"/>operatur a se, quia non est a se, sed a patre, &amp; 
+      <lb ed="#L" n="55"/>hoc notatur in eo subauctoritas; talis autem 
+      <lb ed="#L" n="56"/>auctoritas, &amp; subauctoritas non inducunt 
+      impie<lb ed="#L" break="no" n="57"/>tatem, aut inaequalitatem, sed distinguit 
+      origi<lb ed="#L" break="no" n="58"/>nis habitudinem, &amp; ideo dicit Augustinus 
+      con<lb ed="#L" break="no" n="59"/>tra Maxim. lib. 3. quod talis quaestic est 
+      origi<lb ed="#L" break="no" n="60"/>nis, &amp; non aequalitatis. notat enim, quis de qua 
+      <lb ed="#L" n="61"/>sit, &amp; non qualis, aut quantus sit. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e4050">
+                  <lb ed="#L" n="62"/>Ad tertium dicendum, quod pluralitas 
+      pro<lb ed="#L" break="no" n="63"/>prietatum personalium non impedit 
+      aequalita<lb ed="#L" break="no" n="64"/>tem, vt visum est in corpore quaestionis.
+    </p>
+               <p xml:id="ol96b1-153749-d1e4059">
+      <!--0486.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>Ad quartum dicendum, quod proprietates 
+      <lb ed="#L" n="66"/>non sunt sic alterius rationis, quod 
+      continean<lb ed="#L" break="no" n="67"/>tur sub aliqua ratione communi, quae 
+      diuidi<lb ed="#L" break="no" n="68"/>tur in eas per differentias, quarum vna sit 
+      ha<lb ed="#L" break="no" n="69"/>bitus, &amp; reliqua priuatio, &amp; ideo non oportet, 
+      <lb ed="#L" n="70"/>quod vna sit alia perfectior, aut nobilior. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e4080">
+                  <lb ed="#L" n="71"/>Ad quintum dicendum, quod pater filium 
+      <lb ed="#L" n="72"/>non generat generatione aequiuoca, aut 
+      vniuo<lb ed="#L" break="no" n="73"/>ca, quia essentia non accipitur per modum 
+      ter<lb ed="#L" break="no" n="74"/>mini, sed transfunditur per modum cuiufdam 
+      <lb ed="#L" n="75"/>symboli, &amp; communis. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e4093">
+                  <lb ed="#L" n="76"/>Ad sextum dicendum, quod generare, &amp; spira 
+      <lb ed="#L" n="77"/>re non sunt species contentae sub aliqua 
+      ratio<lb ed="#L" break="no" n="78"/>ne communi, quae possit abstrahi ab eisdem, ve 
+      <lb ed="#L" n="79"/>declaratum est. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e4104">
+                  <lb ed="#L" n="80"/>Ad septimum dicendum, quod aequalitas in 
+      <lb ed="#L" n="81"/>diuinis, prout est proprietas personalis verbi, 
+      <lb ed="#L" n="82"/>sicut similitudo, &amp; imago ad patrem dicitur 
+      <lb ed="#L" n="83"/>relatiue, &amp; non econuerso, sed aequalitas 
+      essen<lb ed="#L" break="no" n="84"/>tialis dicitur conuersiue. 
+    </p>
+               <p xml:id="ol96b1-153749-d1e4117">
+                  <lb ed="#L" n="85"/>Ad octauum dicendum, quod aequalitas, simi 
+      <lb ed="#L" n="86"/>litudo &amp; identitas idem sunt in diuinis. vnde 
+      <lb ed="#L" n="87"/>eaedem habitudines sunt, si ponantur 
+      relatio<lb ed="#L" break="no" n="88"/>nes, sicut aliqui volunt, vel eadem indistinctio 
+      <lb ed="#L" n="89"/>non ponatur, quod sunt vnitas indistinctionis, 
+      <lb ed="#L" n="90"/>tamen conformitatis, quod verius est, vt 
+      infe<lb ed="#L" break="no" n="91"/>rius apparebit. Et per idem patet ad nonum, 
+      <lb ed="#L" n="92"/>&amp; decimum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

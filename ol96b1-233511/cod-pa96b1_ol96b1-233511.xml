@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="720"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-233511"> <!-- l1d32p1-q1 -->
+            <head xml:id="ol96b1-233511-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-233511-Hd1e104" type="question-title">
+        Utrum sit concedendum, quod Pater, et Filius diligant se Spiritus sancto. 
+      </head>
+            <p xml:id="ol96b1-233511-d1e107">
+      <!--0720.xml-->
+               <pb ed="#L" n="720"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Vtrum sit concedendum, quod Pater, &amp; Filius diligant 
+      <lb ed="#L" n="2"/>se Spiritus sancto.
+    </p>
+            <p xml:id="ol96b1-233511-d1e120">
+               <lb ed="#L" n="3"/>ET quia Magister quaerit hic de 
+      veritate<lb ed="#L" break="no" n="4"/>istius propositionis, Pater, &amp; filius diligunt 
+      <lb ed="#L" n="5"/>se spiritu sancto, idcirco de ea inquirendum 
+      oc<lb ed="#L" break="no" n="6"/>currit, vtrum sit concedenda, vel non. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e132">
+               <lb ed="#L" n="7"/>Et videtur, quod non; impossibile est enim, 
+      <lb ed="#L" n="8"/>quod pater, &amp; filius bis diligunt se, aut 
+      duo<lb ed="#L" break="no" n="9"/>bus. sed constat, quod diligunt se per essentiam 
+      <lb ed="#L" n="10"/>suam. ergo non diligunt se per spiritum sanctum. 
+      <lb ed="#L" n="11"/>Et confirmatur, quia diligerent se bis, semel 
+      <lb ed="#L" n="12"/>per spiritum, &amp; semel per se ipsos. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e148">
+               <lb ed="#L" n="13"/>Praeterea: Sicut se habent pater, &amp; filius ad 
+      <lb ed="#L" n="14"/>sapere, sic se habent ad diligere: sed pater non 
+      <lb ed="#L" n="15"/>sapit sapientia genita, quae est filius, secundum 
+      <lb ed="#L" n="16"/>Augustinum septimo de Trinitate, ergo nec 
+      pa<lb ed="#L" break="no" n="17"/>ter, &amp; filius diligunt amore procedente, qui est 
+      <lb ed="#L" n="18"/>spiritus sanctus. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e164">
+               <lb ed="#L" n="19"/>Praeterea: Eo se diligunt pater, &amp; filius, quo 
+      <lb ed="#L" n="20"/>sunt, cum esse, &amp; diligere in Deo idem sint, vt 
+      <lb ed="#L" n="21"/>ait Augustinus 15. de Trinit. sed pater, &amp; filius 
+      <lb ed="#L" n="22"/>non sunt spiritus sanctus. ergo nec diligunt 
+      spi<lb ed="#L" break="no" n="23"/>ritu sancto. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e177">
+               <lb ed="#L" n="24"/>Praeterea: Spiritus sanctus non est principium 
+      <lb ed="#L" n="25"/>formale, quo se diligunt pater, &amp; filius: nam 
+      <lb ed="#L" n="26"/>realiter distinguitur ab eis. sed si diligerent se 
+      <lb ed="#L" n="27"/>spiritu sancto, esset eis spiritus sanctus 
+      princi<lb ed="#L" break="no" n="28"/>pium dilectionis. ergo id concedi non potest. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e190">
+               <lb ed="#L" n="29"/>Praeterea: Pater eodem amore, quo diligit 
+      <lb ed="#L" n="30"/>se, diligit filium; sed non diligit se spiritu 
+      san<lb ed="#L" break="no" n="31"/>cto, quia dilectio illa, vel esset essentialis, &amp; 
+      <lb ed="#L" n="32"/>per eam constat, quod non diligit se spiritu 
+      <lb ed="#L" n="33"/>santto, cum illa sit communis tribus, vnde 
+      <lb ed="#L" n="34"/>spiritus sanctus non est amor essentialis. Vel 
+      es<lb ed="#L" break="no" n="35"/>set notionalis; &amp; etiam patet de illa, quod 
+      pa<lb ed="#L" break="no" n="36"/>ter non diligit se dilectione notionali: tum quia 
+      <lb ed="#L" n="37"/>non spirat se; dilectio autem notionalis, &amp; 
+      <lb ed="#L" n="38"/>spirare sunt idem: tum quia actus notionales 
+      <lb ed="#L" n="39"/>non sunt reflexiui. ergo impossibile est, quod pa 
+      <lb ed="#L" n="40"/>ter diligat filium, vel quod ambo diligant se, per 
+      <lb ed="#L" n="41"/>spiritum sanctum. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e221">
+               <lb ed="#L" n="42"/>Praeterea: Ablatiuus ille, cum dicitur pater, 
+      <lb ed="#L" n="43"/>&amp; filius diligunt se spiritu sancto, oportet, quod 
+      <lb ed="#L" n="44"/>exponatur per aliquam propositionem 
+      designan<lb ed="#L" break="no" n="45"/>tem habitudinem causae, dicendo, secundum quod 
+      <lb ed="#L" n="46"/>diligunt se per spiritum sanctum, vel a spiritu 
+      <lb ed="#L" n="47"/>sancto. sed constat, quod vtrumque est falsum, 
+      <lb ed="#L" n="48"/>cum spiritus sanctus nullam causalitatem 
+      ha<lb ed="#L" break="no" n="49"/>beat super dilectionem patris, &amp; filij. ergo non 
+      <lb ed="#L" n="50"/>est verum, quod diligant se spiritu sancto. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e244">
+               <lb ed="#L" n="51"/>Praeterea: Sicut se habet dilectio ad spiritum 
+      <lb ed="#L" n="52"/>sanctum, sic intellectio ad verbum, sed non con 
+      <lb ed="#L" n="53"/>ceditur, quod pater intelligat verbo. ergo nec 
+      <lb ed="#L" n="54"/>debet concedi, quod pater, &amp; filius diligant se 
+      <lb ed="#L" n="55"/>spiritu sancto.
+    </p>
+            <p xml:id="ol96b1-233511-d1e257">
+               <lb ed="#L" n="56"/>Quod sit concedendum, quod Pater, &amp; Filius diligant 
+      <lb ed="#L" n="57"/>se Spiritu sancto.
+    </p>
+            <p xml:id="ol96b1-233511-d1e264">
+               <lb ed="#L" n="58"/>SED in oppositum videtur, quod circa 
+      ma<lb ed="#L" break="no" n="59"/>teriam diuinorum stari debet dictis 
+      Sancto<lb ed="#L" break="no" n="60"/>rum: sed Sancti concedunt istam. ait enim 
+      Hie<lb ed="#L" break="no" n="61"/>ronymus super Psalmum 17. quod spiritus 
+      san<lb ed="#L" break="no" n="62"/>ctus est dilectio, quam habet pater in filium, &amp; 
+      <lb ed="#L" n="63"/>silius in patrem. Et <sic>Austustinus</sic> 15. de 
+      Trinita<lb ed="#L" break="no" n="64"/>te dicit, quod spiritus sanctus communem, qua 
+      <!--0720.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="65"/>inuicem se diligunt pater, &amp; filius, nobis 
+      insi<lb ed="#L" break="no" n="66"/>nuat charitatem. ergo concedi debet 
+      catholi<lb ed="#L" break="no" n="67"/>ce, quod pater, &amp; filius spiritu sanctto se diligunt. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e295">
+               <lb ed="#L" n="68"/>Praeterea: Augustinus dicit. 16. de Trinitate, 
+      <lb ed="#L" n="69"/>quod spiritus sanctus est, quo genitus a 
+      gignen<lb ed="#L" break="no" n="70"/>te diligitur, genitoremque suum diligit, sed ista 
+      <lb ed="#L" n="71"/>aequipollent huic: Pater, &amp; filius diligunt se mu 
+      <lb ed="#L" n="72"/>tuo spiritu sancto. ergo ista debet concedi: Pa 
+      <lb ed="#L" n="73"/>ter, &amp; filius spiritu sancto se diligunt. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e311">
+               <lb ed="#L" n="74"/>Praeterea: Hugo de sancto Victore arguit, 
+      <lb ed="#L" n="75"/>quod sicut vnus homo diligit alium amore, qui 
+      <lb ed="#L" n="76"/>ab eo procedit, sic pater., &amp; filius dingnat 
+      <lb ed="#L" n="77"/>se amore, qui ab ipsis procedit: hic autem 
+      a<lb ed="#L" break="no" n="78"/>mor spiritus sanctus est. ergo spiritu sancto 
+      se<lb ed="#L" break="no" n="79"/>diligunt. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e327">
+               <lb ed="#L" n="80"/>Responsio ad quaestionem. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e333">
+               <lb ed="#L" n="81"/>AD quaestionem istam respondendo, hoc 
+      or<lb ed="#L" break="no" n="82"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-233511-d1e340">
+               <lb ed="#L" n="83"/>primo namque inquiretur. de veritate huius: 
+      <lb ed="#L" n="84"/>Pater, &amp; filius spiritu sancto se diligunt. 
+      <lb ed="#L" n="85"/>Secundo de veritate istius: Pater est sapiens 
+      <lb ed="#L" n="86"/>sapientia genita, vel est sapiens verbo, aut filio. 
+      <lb ed="#L" n="87"/>Tertio quoque, an sit in diuinis duplex 
+      sa<lb ed="#L" break="no" n="88"/>pientia, &amp; duplex amor, productus scilicet, &amp; 
+      <lb ed="#L" n="89"/>improductus. 
+    </p>
+            <div xml:id="ol96b1-233511-Dd1e358">
+               <head xml:id="ol96b1-233511-Hd1e360">Articulus 1</head>
+               <p xml:id="ol96b1-233511-d1e362">
+                  <lb ed="#L" n="90"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e367">
+                  <lb ed="#L" n="91"/>Quod Pater, &amp; Filius Spiritu sancto se diligant.
+    </p>
+               <p xml:id="ol96b1-233511-d1e372">
+                  <lb ed="#L" n="92"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="93"/>licet ab antiquo multipliciter dictum 
+      fue<lb ed="#L" break="no" n="94"/>rit in praesenti quaesito; quia dixerunt aliqui, 
+      <lb ed="#L" n="95"/>quod hanc propositionem retractauit 
+      Augusti<lb ed="#L" break="no" n="96"/>nus in sua simili, cum dixit, quod pater non 
+      <lb ed="#L" n="97"/>est sapiens sapientia genita. quod tamen 
+      non<lb ed="#L" break="no" n="98"/>videtur, cum eodem libro de Trinitate, 
+      post<lb ed="#L" break="no" n="99"/>quam in sexto illam negauerat de sapientia, con 
+      <lb ed="#L" n="100"/>cessit de spiritu sancto in libro 15. Item 
+      consue<lb ed="#L" break="no" n="101"/>uit Augustinus ea, quae retractare voluit, expri 
+      <lb ed="#L" n="102"/>mere in particulari. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e398">
+                  <lb ed="#L" n="103"/>Et idcirco dixerunt alij, quod propositio est 
+      <lb ed="#L" n="104"/>propria, &amp; exponenda, quod pater, &amp; filius diligāt 
+      <lb ed="#L" n="105"/>se amore essentiali, qui spiritui sancto 
+      appro<lb ed="#L" break="no" n="106"/>priatur. quod etiam non videtur verum, quia 
+      <lb ed="#L" n="107"/>pari ratione posset concedi, quod sint boni, vel 
+      <lb ed="#L" n="108"/>clementes spiritu sancto, cum bonitas, &amp; 
+      cle<lb ed="#L" break="no" n="109"/>mentia sibi approprientur. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e417">
+                  <lb ed="#L" n="110"/>Alij vero dixerunt, quod est propria, quia 
+      con<lb ed="#L" break="no" n="111"/>struitur ablatiuus in habitudine signi, vt sit 
+      sen<lb ed="#L" break="no" n="112"/>sus, quod spiritus sanctus est signum dilectionis 
+      mu<lb ed="#L" break="no" n="113"/>tuae patris, &amp; filij. quod etiam non videtur, quia 
+      <lb ed="#L" n="114"/>pari ratione concedi posset, quod se diligunt 
+      <lb ed="#L" n="115"/>creatura, cum creatura sit signum dilectionis 
+      <lb ed="#L" n="116"/>diuinae, vel quod ignis comburit ligna fumo, 
+      <lb ed="#L" n="117"/>quia fumus est signum combustionis. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e437">
+                  <lb ed="#L" n="118"/>Alij vero, quod construitur ablatiuus in 
+      ha<lb ed="#L" break="no" n="119"/>bitudine causae formalis. quod esse non potest, 
+      <lb ed="#L" n="120"/>cum sprritus sanctus non sit patri, &amp; filio 
+      forma<lb ed="#L" break="no" n="121"/>le principium diligendi; licet, inquam, secundum 
+      <lb ed="#L" n="122"/>hos modos processum fuerit ab antiquo in ista 
+      <lb ed="#L" n="123"/>quaestione: moderni tamen aliqui dicere 
+      volue<lb ed="#L" break="no" n="124"/>runt, quod ablatiuus construitur in habitudine 
+      <lb ed="#L" n="125"/>effectus formalis, vbi considerandum secundum 
+      <lb ed="#L" n="126"/>istos, quod dilectio accipitur hic pro dilectio- 
+      <!--0721.xml-->
+      <pb ed="#L" n="721"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ne essentiali, quia ptiur, eina dicuntur se 
+      di<lb ed="#L" break="no" n="2"/>ligere hoc modo amore essentiali denomina 
+      ti<lb ed="#L" break="no" n="3"/>uet&amp; sicut principio illius acum di ligunt se cha 
+      <lb ed="#L" n="4"/>ritate, quu est substomiodiuimd, sed sumitur no 
+      <lb ed="#L" n="5"/>tionaliter, secundum quod non est aliud 
+      dilige<lb ed="#L" break="no" n="6"/>ro, quam spirare amorem, siont dicere, 
+      produ<lb ed="#L" break="no" n="7"/>norre verbum. nunc autem sic est, agens 
+      denomi<lb ed="#L" break="no" n="8"/>natur a termino monente actionem in obliquo. 
+      <lb ed="#L" n="9"/>dum tanien ille torminus includatur in actiono. 
+      <lb ed="#L" n="10"/>vnde dicitur, quod ignis est calefaciem ligna 
+      <lb ed="#L" n="11"/>culore, qui procedit ab eo; &amp; quod arbor est sto 
+      <lb ed="#L" n="12"/>runs floribus, quamuis non sint forma arboris, 
+      <lb ed="#L" n="13"/>ed quidam afectus ab ipsa procedentes. 
+      opon<lb ed="#L" break="no" n="14"/>cet autem, quod effectus determinetur, &amp; 
+      in<lb ed="#L" break="no" n="15"/>eudatur in ipsa actione, alioquimnod posset 
+      <lb ed="#L" n="16"/>actionis principium denominari ab effoctu, sed 
+      <lb ed="#L" n="17"/>solum ab actione, non enimdicimus, quod 
+      ar<lb ed="#L" break="no" n="18"/>bor producat florem flore, sed productione. sic 
+      <lb ed="#L" n="19"/>ergo pator, &amp; fllius dicuntur diligentes spiritu 
+      <lb ed="#L" n="20"/>sancto, vel amore producente, dilectione 
+      notio<lb ed="#L" break="no" n="21"/>nali, sicut arbor dicitur florere floribus, &amp; 
+      si<lb ed="#L" break="no" n="22"/>cut pater est dicens verbo, vel filio, se, &amp; creatu 
+      <lb ed="#L" n="23"/>ram: non autem conceditur, quod pater spiret 
+      <lb ed="#L" n="24"/>spiritu sancto, vel generet filio, quod infra 
+      spi<lb ed="#L" break="no" n="25"/>rare, &amp; generare non includatur determinatus 
+      <lb ed="#L" n="26"/>effectus, sed importetur tantummodo 
+      notiona<lb ed="#L" break="no" n="27"/>lis actus.
+    </p>
+               <p xml:id="ol96b1-233511-d1e524">
+                  <lb ed="#L" n="28"/>Sed iste modus dicendi deficit in tribus.
+    </p>
+               <p xml:id="ol96b1-233511-d1e529">
+                  <lb ed="#L" n="29"/>Primo quidem in hoc, quod ait, quod in actu 
+      <lb ed="#L" n="30"/>spirandi non includitur determinatus effectus, 
+      <lb ed="#L" n="31"/>sicut in actu diligendi. hoc quidem verum non 
+      <lb ed="#L" n="32"/>est: in actu namque includi dicitur terminus, 
+      <lb ed="#L" n="33"/>quoniam vnus denominatur ab altero, sicut 
+      flo<lb ed="#L" break="no" n="34"/>rere a flore, &amp; dilectio a diligere, &amp; sic de 
+      si<lb ed="#L" break="no" n="35"/>milibus; sed spiritus, &amp; spirare; genitus, &amp; 
+      ge<lb ed="#L" break="no" n="36"/>nerare dicuntur denominatiua adinuicem, mul 
+      <lb ed="#L" n="37"/>to fortius, quam spiritus, &amp; diligere. nam 
+      spi<lb ed="#L" break="no" n="38"/>ritus non dicitur a diligere, sed diligere a 
+      spiri<lb ed="#L" break="no" n="39"/>tu, sicut deriuatur a spirare, vel forsitan e 
+      con<lb ed="#L" break="no" n="40"/>uerso spirare a spiritu. ergo multo fortius 
+      spi<lb ed="#L" break="no" n="41"/>ritus includitur in spirare, quam diligere, &amp; ge 
+      <lb ed="#L" n="42"/>nitus in ipso generare. quare multo fortius con 
+      <lb ed="#L" n="43"/>cedendum esset, quod pater, &amp; filius spirarent 
+      <lb ed="#L" n="44"/>spiritu sancto, vel quod pater generat genito, 
+      <lb ed="#L" n="45"/>quam quod diligant spiritu sancto, si regula 
+      il<lb ed="#L" break="no" n="46"/>la sit vera, quod quando terminus productus 
+      <lb ed="#L" n="47"/>includitur productione, tunc terminus additur 
+      <lb ed="#L" n="48"/>in ablatiuo principio productiui producenti 
+      <lb ed="#L" n="49"/>cum ipsa productione, sicut cum dicitur, 
+      Ar<lb ed="#L" break="no" n="50"/>bor floret ipsa floribus. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e579">
+                  <lb ed="#L" n="51"/>Praeterea: Aedificare includit aedificium in 
+      <lb ed="#L" n="52"/>suo intellectu, &amp; similiter producere 
+      produ<lb ed="#L" break="no" n="53"/>ctum, sed nullus concedit, quod aedificator 
+      aedi<lb ed="#L" break="no" n="54"/>ficat aedificio, nec quod producens producit 
+      <lb ed="#L" n="55"/>producto. ergo ista regula non est vera. 
+      <lb ed="#L" n="56"/>Secundo vero deficit in hoc, quod florere ibi 
+      <lb ed="#L" n="57"/>non est florem producere, sed flores habere. da 
+      <lb ed="#L" n="58"/>to enim, quod Deus arbori flores impressisset, 
+      <lb ed="#L" n="59"/>nihilominus arbor diceretur forere, sed 
+      dili<lb ed="#L" break="no" n="60"/>gere sumptum notionaliter est producere 
+      spiri<lb ed="#L" break="no" n="61"/>tum sanctum. ergo non est similis constructio, 
+      <lb ed="#L" n="62"/>cum dicitur, quod arbor floret floribus, vel quod 
+      <lb ed="#L" n="63"/>hortus rubet rosis, cum illa, qua dicitur: Pater 
+      <lb ed="#L" n="64"/>&amp; filius diligunt se piritu sancto. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e612">
+                  <lb ed="#L" n="65"/>Praeterea: Sic est de flore respectu arboris, 
+      <lb ed="#L" n="66"/>sicut de calore respectu ignis, cum dicitur: 
+      <lb ed="#L" n="67"/>Jgnis calet calore, ablatiuus non construitur 
+      <!--0721.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>cum verbo per modum termini productionis, 
+      <lb ed="#L" n="69"/>non enim calor producitur per calere. ergo 
+      <lb ed="#L" n="70"/>noc cum dicitur: Arbor floret foribus, abla 
+      ti<lb ed="#L" break="no" n="71"/>uns construetur, vt terminus productionis. 
+      <lb ed="#L" n="72"/>Praeterea: Licet verbum actiuum 
+      construd<lb ed="#L" break="no" n="73"/>tur cum termino in ablatiuo, vt cum dicitur? 
+      <lb ed="#L" n="74"/>quod sol irradiat radio, vel quod ignis 
+      cule<lb ed="#L" break="no" n="75"/>faciat lignum calore impresso; verbum tamen 
+      <lb ed="#L" n="76"/>neutrum construitur cum termino 
+      produ<lb ed="#L" break="no" n="77"/>ctlonis, oum non habeat terminum, non enim 
+      <lb ed="#L" n="78"/>significat actionem productiuam, sicut patet 
+      <lb ed="#L" n="79"/>de lucere, &amp; calere: sed manifestum est, quod 
+      <lb ed="#L" n="80"/>florere est verbum neutrum, non actiuum, ergo 
+      <lb ed="#L" n="81"/>cum dicitur arbor florere floribus, ablatiuus 
+      <lb ed="#L" n="82"/>non construitur, vt terminus actionis. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e659">
+                  <lb ed="#L" n="83"/>Tertio quoque deficit in hoc, quod dicit, 
+      <lb ed="#L" n="84"/>ablatiuum construi in habitudine effoctus 
+      for<lb ed="#L" break="no" n="85"/>malis, sicut dicitur homo vestimento 
+      indu<lb ed="#L" break="no" n="86"/>tus: manifestum est enim, quod flos non 
+      se<lb ed="#L" break="no" n="87"/>habet ad florere, sicut effectus formalis ad 
+      cau<lb ed="#L" break="no" n="88"/>sam, iinmo potius e conuerso: nec 
+      vestimen<lb ed="#L" break="no" n="89"/>tum est effectus formalis; quoniam patius 
+      es<lb ed="#L" break="no" n="90"/>se vestitum, quod est de praedicamento 
+      ha<lb ed="#L" break="no" n="91"/>bitus, est effectus formalis indumenti, cum 
+      <lb ed="#L" n="92"/>supra dictum sit, quod habitus significat 
+      ali<lb ed="#L" break="no" n="93"/>quid, quod intellectus concipit derelinqui 
+      cir<lb ed="#L" break="no" n="94"/>ca habituatum; sed secundum illos construitur 
+      <lb ed="#L" n="95"/>ablatiuus in habitudine effectus formalis. 
+      er<lb ed="#L" break="no" n="96"/>go causa formalis construitur in habitudine 
+      es<lb ed="#L" break="no" n="97"/>fectus, quod dici non potest. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e694">
+                  <lb ed="#L" n="98"/>Praeterea: Spiritus sanctus magis rationem di 
+      <lb ed="#L" n="99"/>cit effectus causae efficientis, respectu patris, &amp; 
+      <lb ed="#L" n="100"/>filij, quam effectus causae formalis. ergo 
+      mul<lb ed="#L" break="no" n="101"/>to melius isti dixissent, quod construitur 
+      abla<lb ed="#L" break="no" n="102"/>tiuus in habitudine effectus formalis. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e707">
+                  <lb ed="#L" n="103"/>Opionio Henrici, quolibeto secundo quaestione 
+      <lb ed="#L" n="104"/>secunda. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e714">
+                  <lb ed="#L" n="105"/>ET ideo dixerunt alij, quod agens 
+      respi<lb ed="#L" break="no" n="106"/>cit tria, quae possunt cum eo construi in ha 
+      <lb ed="#L" n="107"/>bitudine ablatiui, scilicet actiuum principium, 
+      <lb ed="#L" n="108"/>actionem ipsam, &amp; formalem terminum: ignis 
+      <lb ed="#L" n="109"/>quidem dicitur calefacere calore sibi 
+      inhaeren<lb ed="#L" break="no" n="110"/>te, vt in actiuo principio, &amp; calefactione, 
+      tam<lb ed="#L" break="no" n="111"/>quam propria actione, &amp; calore impresso ipsi 
+      <lb ed="#L" n="112"/>aquae, tamquam effectu formali. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e734">
+                  <lb ed="#L" n="113"/>Est autem sciendum, quod tunc effectus 
+      pro<lb ed="#L" break="no" n="114"/>ductus denominat, cum accipitur aliquid aliud, 
+      <lb ed="#L" n="115"/>in quod transit, siue in illud transeat 
+      inhaeren<lb ed="#L" break="no" n="116"/>ter eo modo, quo dicitur ignis 
+      calefacere<lb ed="#L" break="no" n="117"/>aquam calore sibi impresso; siue non 
+      tran<lb ed="#L" break="no" n="118"/>seat inhaerenter, sed tantum denominatiue, 
+      <lb ed="#L" n="119"/>eo modo, quo repraesentans transit in 
+      reprae<lb ed="#L" break="no" n="120"/>sentatum, &amp; amans in amatum. vnde pictor, 
+      ima<lb ed="#L" break="no" n="121"/>ginem Herculis depingens in pariete, 
+      reprae<lb ed="#L" break="no" n="122"/>sentat Herculem imagine, ita quod imago in 
+      <lb ed="#L" n="123"/>ablatiuo construitur cum pingente pro eo, 
+      <lb ed="#L" n="124"/>quod imago transit denominatiue in 
+      Hercu<lb ed="#L" break="no" n="125"/>lem repraesentatum. sic ergo in proposito cum 
+      <lb ed="#L" n="126"/>spiritus sanctus sit quidam amor, &amp; transeat 
+      <lb ed="#L" n="127"/>secundum rationem intelligendi in amatum 
+      <lb ed="#L" n="128"/>in ratione formae denominantis; ideo proprie 
+      <lb ed="#L" n="129"/>dici potest, quod pater, &amp; filius diligunt 
+      spiri<lb ed="#L" break="no" n="130"/>tu sancto, hoc est amore producto, transeunte in 
+      <lb ed="#L" n="131"/>se ipsos, eo modo, quo amor transit in amatum. 
+      <lb ed="#L" n="132"/>se cundum hoc ergo ablatiuus construitur in ra 
+      <!--0722.xml-->
+      <pb ed="#L" n="722"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tione effectus formalis, vt dicatur effectus in 
+      <lb ed="#L" n="2"/>ordine ad patrem, &amp; filium, effectum large 
+      su<lb ed="#L" break="no" n="3"/>mendo pro omui producto; dicitur autem 
+      for<lb ed="#L" break="no" n="4"/>ma denominaus in ordine ad amata, non quod 
+      <lb ed="#L" n="5"/>effectus, &amp; formale referantur ad idem. &amp; sic 
+      <lb ed="#L" n="6"/>debet intelligi secunda opinio praecedens. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e799">
+                  <lb ed="#L" n="7"/>Sed hic modus dicendi deficit in duobus.
+    </p>
+               <p xml:id="ol96b1-233511-d1e805">
+                  <lb ed="#L" n="8"/>Primo quidem. in eo, quod dicit effectum for 
+      <lb ed="#L" n="9"/>malem sic debere intelligi. Philosophus 
+      nam<lb ed="#L" break="no" n="10"/>que in a. Perierm. docet, quod ex diuisis non 
+      <lb ed="#L" n="11"/>debet inferri coniunctum, vbi variatur in 
+      con<lb ed="#L" break="no" n="12"/>iuncto intelligentia diuisorum, vnde non 
+      sequi<lb ed="#L" break="no" n="13"/>tur: Es magnus, &amp; es clericus; ergo es magnus 
+      <lb ed="#L" n="14"/>elericus. Sed in proposito, cum spiritus sanctus 
+      <lb ed="#L" n="15"/>dicitur effectus, vel productus respectu parris, 
+      <lb ed="#L" n="16"/>&amp; filij, accipitur effectus, quasi principij 
+      effecti<lb ed="#L" break="no" n="17"/>ui: non autem sicut causae formalis. cum vero 
+      <lb ed="#L" n="18"/>dicitur forma denominans in ordine ad amata, 
+      <lb ed="#L" n="19"/>accipitur denominatio vel per modum essectus, 
+      <lb ed="#L" n="20"/>vel causae formalis. communiter autem effectus 
+      <lb ed="#L" n="21"/>formalis totaliter intelligentiam variat, vt 
+      pa<lb ed="#L" break="no" n="22"/>tet. ergo non licuit inferre ex hoc, quod 
+      spi<lb ed="#L" break="no" n="23"/>ritus sanctus sit, quasi effectus dilectionis 
+      no<lb ed="#L" break="no" n="24"/>tionis notionalis patris, &amp; filij, &amp; forma 
+      de<lb ed="#L" break="no" n="25"/>nominans patrem, &amp; filium in ratione amati, 
+      <lb ed="#L" n="26"/>quod propter hoc esset effectus formalis, aut 
+      <lb ed="#L" n="27"/>constituetur. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e851">
+                  <lb ed="#L" n="28"/>Secundo vero deficit in hoc, quod dicit 
+      spiri<lb ed="#L" break="no" n="29"/>tum sanctum denominare amatum, cum sit amor 
+      <lb ed="#L" n="30"/>productus; aut enim intelligunt sic dicentes, 
+      <lb ed="#L" n="31"/>quod spiritus sanctus vere, &amp; formaliter proce 
+      <lb ed="#L" n="32"/>dat, vt amor, aut filij similitudine pro eo, quod 
+      <lb ed="#L" n="33"/>est a duobus producentibus aeque perfecte. in 
+      <lb ed="#L" n="34"/>hoc enim videtur assimilari amori producto a 
+      <lb ed="#L" n="35"/>duobus ex admirabili societate. sed primum ha 
+      <lb ed="#L" n="36"/>bent negare, &amp; secundum concedere, secundum 
+      <lb ed="#L" n="37"/>dicta eorum; quia non ex alio spiritus sanctus 
+      <lb ed="#L" n="38"/>procedit, secundum eos per modum voluntatis, 
+      <lb ed="#L" n="39"/>nisi quia est a duobus, aeque perfecte producenti 
+      <lb ed="#L" n="40"/>bus, &amp; quia productio haec praesupponit aliam 
+      <lb ed="#L" n="41"/>productionem, vt superius patuit. ergo cum 
+      <lb ed="#L" n="42"/>spiritus sanctus non sit formaliter amor 
+      pro<lb ed="#L" break="no" n="43"/>ductus, per consequens non est propria sub hoc 
+      <lb ed="#L" n="44"/>sensu propositio illa: Pater, &amp; filius diligunt 
+      <lb ed="#L" n="45"/>se spiritu sancto. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e893">
+                  <lb ed="#L" n="46"/>Opinio Scoti 1. Sent. dist. 32. q. 1. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e898">
+                  <lb ed="#L" n="47"/>PROPTEREA dixerunt alij, quod quando 
+      <lb ed="#L" n="48"/>aliqua productio habet pro termino 
+      ali<lb ed="#L" break="no" n="49"/>quid, transiens in aliud obiectiue, potest agens 
+      <lb ed="#L" n="50"/>per actionem denominari transiens in aliud 
+      ob<lb ed="#L" break="no" n="51"/>iectiue productum. idcirco dici potest, quod pi 
+      <lb ed="#L" n="52"/>ctor pictura pingit se ipsum; nunc autem 
+      spiri<lb ed="#L" break="no" n="53"/>tus sanctus procedit, vt amor, amor autem 
+      tran<lb ed="#L" break="no" n="54"/>sit obiectiue in amata. vnde spiritus sanctus est 
+      <lb ed="#L" n="55"/>amor transiens in totam Trinitatem, &amp; omnem 
+      <lb ed="#L" n="56"/>creaturam, &amp; idcirco pater, &amp; filius 
+      dilectio<lb ed="#L" break="no" n="57"/>ne notionali, qua producunt spiritum sanctum, 
+      <lb ed="#L" n="58"/>possunt dici diligere se mutuo. vnde sensus est, 
+      <lb ed="#L" n="59"/>quod pater, &amp; filius diligunt se amore 
+      produ<lb ed="#L" break="no" n="60"/>cto, qui transit, vel reflectitur obiectiue in 
+      pa<lb ed="#L" break="no" n="61"/>trem, &amp; filium. Vnde sciendum, quod amor 
+      pro<lb ed="#L" break="no" n="62"/>ductus in nobis habet duplicem habitudinem, 
+      <lb ed="#L" n="63"/>vnam ad voluntatem producentem, &amp; haec est 
+      <lb ed="#L" n="64"/>de secundo modo, &amp; ideo est mutua; aliam 
+      ve<lb ed="#L" break="no" n="65"/>ro ad obiectum, &amp; haec est de tertio modo, &amp; ista 
+      <!--0722.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>non est mmtno momam qumam i lepe ted 
+      ama<lb ed="#L" break="no" n="67"/>bile, &amp; non esox ficut scintis 
+      abst<lb ed="#L" break="no" n="68"/>bile, &amp; non c mauerfriuthabis 
+      <lb ed="#L" n="69"/>dine, quam habinbo ame ine manli t Adohicus. 
+      <lb ed="#L" n="70"/>potest denominari prodpomu, eursnrimin 
+      <lb ed="#L" n="71"/>tine, non tamm fni t minen impessomuuui 
+      <lb ed="#L" n="72"/>exprimens ibiindioce ido ill mui a a omipm 
+      <lb ed="#L" n="73"/>ad hoc de erbos, quod hob ennomumulim 
+      <lb ed="#L" n="74"/>otiginiauuquau taft tit s oe 
+      e<lb ed="#L" break="no" n="75"/>nem dlimm, andelicet uopenum d etis. 
+      <lb ed="#L" n="76"/>est enimdd, qiro formaliter in aitlam hile⸗ 
+      <lb ed="#L" n="77"/>declaratun, quia in vi peoduotioni udam 
+      <lb ed="#L" n="78"/>mupicatur sibi, quod sit nminmiofuiobe 
+      <lb ed="#L" n="79"/>autem habitudo declarantio teumonan it us 
+      <lb ed="#L" n="80"/>formaliter, patri vero principianius ymion 
+      <lb ed="#L" n="81"/>ter declarat uerboi, &amp; dibit norbi ouot 
+      ice<lb ed="#L" break="no" n="82"/>rabile. d simili ergo inpuoppsito pater 
+      ol<lb ed="#L" break="no" n="83"/>lius dicuntur diligere spirim sanet, deos 
+      <lb ed="#L" n="84"/>anceptare, si accipiatur ibi diligem escom⸗ 
+      <lb ed="#L" n="85"/>liter, quia tunc diligunt se ipsis sumsliutii 
+      <lb ed="#L" n="86"/>pure, notionaliter, vt diligere sumata 
+      praspi<lb ed="#L" break="no" n="87"/>rare, quia falsum est, quod spitemtspirim 
+      s<lb ed="#L" break="no" n="88"/>cto, sed accipitur, quasi medio modo. con⸗- 
+      <lb ed="#L" n="89"/>tan enim productionem spiritus saneti, &amp; sigui 
+      <lb ed="#L" n="90"/>ficat habitudinem connotantem ipsum 
+      inordi<lb ed="#L" break="no" n="91"/>ne ad amatum, non quidem sormaites, sid 
+      <lb ed="#L" n="92"/>principiatiue: ratione autem istius 
+      habitudi<lb ed="#L" break="no" n="93"/>nis non est tantum spiritus sauotus, 
+      sedomne<lb ed="#L" break="no" n="94"/>necessario amabile: &amp; propter hoc sit conuersio, 
+      <lb ed="#L" n="95"/>&amp; reflexio non ratione notionalis connotati. 
+      <lb ed="#L" n="96"/>hanc autem mediam habitudinem possumus 
+      er<lb ed="#L" break="no" n="97"/>primere per acceptare, uel inflammare, 
+      etdi<lb ed="#L" break="no" n="98"/>camus, quod pater, &amp; filius acceptant se, vel 
+      <lb ed="#L" n="99"/>inammant amore producto. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1020">
+                  <lb ed="#L" n="100"/>Sed hic modus dicendi supponit, quod spitil 
+      <lb ed="#L" n="101"/>tus sanctus procedat, vt amor: aut enim 
+      iptel<lb ed="#L" break="no" n="102"/>ligit, quod solum sit amor per 
+      appropriatio<lb ed="#L" break="no" n="103"/>nem amoris essentialis, &amp; sic redis opinio 
+      anti<lb ed="#L" break="no" n="104"/>quorum reprobata superius, qui direrunt 
+      pro<lb ed="#L" break="no" n="105"/>positionem istam non esse propriam, vt sit 
+      se<lb ed="#L" break="no" n="106"/>sus, diligunt se spiritu sancto, hoc estamore 
+      es<lb ed="#L" break="no" n="107"/>sentiali, qui appropriatur spiritui sanctoraut 
+      <lb ed="#L" n="108"/>intelligit, quod spiritus sanctus sit formaliter 
+      <lb ed="#L" n="109"/>amor ex vi suae productionis, &amp; quod procedat, vt 
+      <lb ed="#L" n="110"/>amor subsistens. &amp; secundum hoc procedereto 
+      <lb ed="#L" n="111"/>pinio, &amp; esset vera, si tamen hoc esset posibile, &amp; 
+      <lb ed="#L" n="112"/>verum. ostensum est autem supra, quod spiritus 
+      <lb ed="#L" n="113"/>sanctus ex vi productionis non habet prius, quod 
+      <lb ed="#L" n="114"/>sit amor. sibi enim non competit ratione sus 
+      <lb ed="#L" n="115"/>possibilis proprietatis. vnde patet, quod tatio 
+      <lb ed="#L" n="116"/>ista cessat. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1059">
+                  <lb ed="#L" n="117"/>Quid dicendum secundum veritatem; &amp; primo, quid 
+      <lb ed="#L" n="118"/>spiritus est id, quo amans coniungitur 
+      ama<lb ed="#L" break="no" n="119"/>to, non quo formaliter, sed 
+      qua<lb ed="#L" break="no" n="120"/>si mediatiue. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1071">
+                  <lb ed="#L" n="121"/>RESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="122"/>sub triplici propositione. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1078">
+                  <lb ed="#L" n="123"/>Prima quidem, quod spiritus amantis in 
+      amu<lb ed="#L" break="no" n="124"/>te est id, quo amans coniungitur amato, ponsi 
+      <lb ed="#L" n="125"/>quidem quo formaliter, sed mediatiue. dictn 
+      <lb ed="#L" n="126"/>est enim supra, quod spiritus non est aliud, quia 
+      <lb ed="#L" n="127"/>ipsemet amans, procedens intentionaliter inaps 
+      <lb ed="#L" n="128"/>tum. ergo in esse intentionali positus, est quat 
+      <lb ed="#L" n="129"/>medium, &amp; vinculum, &amp; nexus inter amantaa 
+      <lb ed="#L" n="130"/>&amp; amatum; respicit namque amatum, yss⸗ 
+      <!--0723.xml-->
+      <pb ed="#L" n="723"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quem procedit, amantem vero, vt illum, qui per 
+      <lb ed="#L" n="2"/>hoc procedit, quod ponitur intelligi esse: &amp; ita 
+      <lb ed="#L" n="3"/>patet, quod spiritus amantis est id, quo, 
+      tam<lb ed="#L" break="no" n="4"/>quam medio, amans intentionaliter attingit 
+      a<lb ed="#L" break="no" n="5"/>matum. vnde quia non potest illud attingere 
+      <lb ed="#L" n="6"/>realiter, emittit se ipsum in esse intentionali ad 
+      <lb ed="#L" n="7"/>illud, vt per hoc attingat, quod in esse 
+      intentio<lb ed="#L" break="no" n="8"/>nali existens emittit. &amp; secundum hoc patet, 
+      <lb ed="#L" n="9"/>quod spiritus respicit amantem, tamquam a 
+      <lb ed="#L" n="10"/>quo est productum; &amp; sic amans dicitur 
+      spira<lb ed="#L" break="no" n="11"/>re, &amp; respicit amatum, tamquam illud, in quo 
+      <lb ed="#L" n="12"/>est obiectiue, &amp; sic amans dicitur spirare 
+      spiri<lb ed="#L" break="no" n="13"/>tum in amatum, &amp; respicit adhuc amans, 
+      tam<lb ed="#L" break="no" n="14"/>quam id, quo vnitur amato; vt sit ille ordo, 
+      <lb ed="#L" n="15"/>quod amans spirat spiritum, quo vnitur 
+      ama<lb ed="#L" break="no" n="16"/>to. &amp; quia amantem vniri amato est ipsum 
+      di<lb ed="#L" break="no" n="17"/>ligere, idcirco dilectio includit spiritum, 
+      tam<lb ed="#L" break="no" n="18"/>quam medium, quo fit vnio amorosa ad 
+      ama<lb ed="#L" break="no" n="19"/>tum. vnde diligere, &amp; spirare differunt, quia 
+      <lb ed="#L" n="20"/>spirare est actus perductiuus ipsius spiritus, &amp; 
+      <lb ed="#L" n="21"/>ideo non concomitatur spiritum, alias idem 
+      <lb ed="#L" n="22"/>produceret se ipsum; diligere vero respicit 
+      spi<lb ed="#L" break="no" n="23"/>ritum, tamquam medium inter se, &amp; amatum. 
+      <lb ed="#L" n="24"/>dilectio enim est attingentia, spiritus vero est 
+      <lb ed="#L" n="25"/>medium istius attingentiae: &amp; ideo diligere com 
+      <lb ed="#L" n="26"/>municatur spiritui, quia non oportet, quod me 
+      <lb ed="#L" n="27"/>dium ab attingentia realiter distinguatur. haec 
+      <lb ed="#L" n="28"/>autem omnia manifesta sunt ex dictis dist. 9. &amp; 
+      <lb ed="#L" n="29"/>ex aliis superius inductis.
+    </p>
+               <p xml:id="ol96b1-233511-d1e1167">
+                  <lb ed="#L" n="30"/>Quod pater, &amp; filius proprie dicuntur diligere se, &amp; 
+      <lb ed="#L" n="31"/>omnem creaturam, &amp; spiritum sanctum, 
+      <lb ed="#L" n="32"/>immo &amp; spiritus sanctus se dili 
+      <lb ed="#L" n="33"/>git spiritu sancto. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1178">
+                  <lb ed="#L" n="34"/>SECVNDA quoque propositio est, quod pater,
+      
+      <lb ed="#L" n="35"/>&amp; filius diligunt se spiritu sancto, &amp; omnem 
+      <lb ed="#L" n="36"/>creaturam, &amp; ipsummet spiritũsanctum, &amp; ipsemet 
+      <lb ed="#L" n="37"/>spiritus sanctus diligit se spiritu sancto. omne 
+      <lb ed="#L" n="38"/>nãque attingens aliquid, dicitur id attingere 
+      me<lb ed="#L" break="no" n="39"/>dio suo attingentiae, sicut patet, quod attingens 
+      la<lb ed="#L" break="no" n="40"/>pidem, baculo suo attingit: sed declaratum est, 
+      <lb ed="#L" n="41"/>quod diligere est quaedam attingentia, &amp; vnio 
+      <lb ed="#L" n="42"/>amantis cum amato. medium autem istius 
+      at<lb ed="#L" break="no" n="43"/>tingentiae est spiritus amantis. ergo proprie 
+      <lb ed="#L" n="44"/>dici potest, quod omnis amans amat suum ama 
+      <lb ed="#L" n="45"/>tum spiritu suo bono, maligno, vel pio. &amp; per 
+      <lb ed="#L" n="46"/>consequens quicquid Deus amat, diligit 
+      spiri<lb ed="#L" break="no" n="47"/>tu suo sancto. vnde &amp; pater diligit se spiritu suo 
+      <lb ed="#L" n="48"/>sancto, &amp; totam Trinitatem, &amp; omnem 
+      crea<lb ed="#L" break="no" n="49"/>turam, &amp; similiter filius omnia diligit spiritu 
+      <lb ed="#L" n="50"/>sanctto, &amp; eodem modo spiritus sanctus 
+      creatu<lb ed="#L" break="no" n="51"/>ras diligit spiritu sancto. 
+      <lb ed="#L" n="52"/>Huic tamen obuiare videtur, quod medium 
+      <lb ed="#L" n="53"/>attingentiae nullum esse videtur, immo ipsa 
+      at<lb ed="#L" break="no" n="54"/>tingentia est medium inter attingens, &amp; 
+      atta<lb ed="#L" break="no" n="55"/>ctum; vnde amor est medium vnitiuum, nec 
+      in<lb ed="#L" break="no" n="56"/>diget alio medio; sed spiritus sanctus est 
+      me<lb ed="#L" break="no" n="57"/>dium, quo amans attingit amatum, secundum 
+      <lb ed="#L" n="58"/>istum modum dicendi. ergo spiritus sanctus est 
+      <lb ed="#L" n="59"/>ipse amor formaliter, quod intenditur euitari. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1237">
+                  <lb ed="#L" n="60"/>Praeterea: Si pater diligit spiritu sancto, &amp; 
+      <lb ed="#L" n="61"/>diligit amore, sequitur, quod diligat duobus; 
+      <lb ed="#L" n="62"/>sed hoc est inconueniens, ergo &amp; illud. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1246">
+                  <lb ed="#L" n="63"/>Praeterea: Secundum ista, Spiritus sanctus 
+      <lb ed="#L" n="64"/>diligit intimius, quam aliqua persona, pater 
+      <lb ed="#L" n="65"/>enim diligit amore, qui est ipse, &amp; spiritu san- 
+      <!--0723.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>cto, qui non est ipse; spiritus vero sanctus diligit 
+      <lb ed="#L" n="67"/>amore, qui est ipse, &amp; spiritu sancto, qui est 
+      ip<lb ed="#L" break="no" n="68"/>se, &amp; ita perfectius amat, quam pater. sed hoc 
+      <lb ed="#L" n="69"/>est inconueniens, ergo &amp; illud. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1269">
+                  <lb ed="#L" n="70"/>Praeterea: Nullum notionale praecedit 
+      essen<lb ed="#L" break="no" n="71"/>tiale, aut ingreditur rationem ipsius. sed 
+      spi<lb ed="#L" break="no" n="72"/>ritus est quoddam personale, ergo non 
+      ingredi<lb ed="#L" break="no" n="73"/>tur rationem amoris per modum medij, nec 
+      e<lb ed="#L" break="no" n="74"/>ius productio praecedit amorem. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1282">
+                  <lb ed="#L" n="75"/>Praeterea: Non inuenitur concessum a 
+      San<lb ed="#L" break="no" n="76"/>ctis, quod spiritus sanctus diligit patrem, aut 
+      <lb ed="#L" n="77"/>filium spiritu sancto, sed inuenitur aliud, 
+      scili<lb ed="#L" break="no" n="78"/>cet, quod pater diligit filium spiritu sancto, 
+      <lb ed="#L" n="79"/>&amp; e conuerso. ergo ista concedenda est, &amp; 
+      <lb ed="#L" n="80"/>non illa. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1298">
+                  <lb ed="#L" n="81"/>Sed istis non obstantibus, dicendum est, 
+      si<lb ed="#L" break="no" n="82"/>cut prius. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1305">
+                  <lb ed="#L" n="83"/>Vbi considerandum, quod attingentia illa 
+      <lb ed="#L" n="84"/>secundum quam amans dicitur vniri amato, &amp; 
+      <lb ed="#L" n="85"/>ipsum attingere, integratur ex duplici habitudi 
+      <lb ed="#L" n="86"/>ne, &amp; ex vno medio, illas habitudines connecten 
+      <lb ed="#L" n="87"/>te, si tamen debent habitudines nuncupari. sunt 
+      <lb ed="#L" n="88"/>enim magis contractiones, &amp; est vna contractio 
+      <lb ed="#L" n="89"/>inter amantem, positum in esse intentionali, &amp; 
+      <lb ed="#L" n="90"/>ipsum amantem, manentem in esse reali. Est 
+      e<lb ed="#L" break="no" n="91"/>nim amans positus in esse intentionali, idque 
+      <lb ed="#L" n="92"/>amans in esse reali attingit; amatum autem 
+      v<lb ed="#L" break="no" n="93"/>nitur sibi, aut tendit in ipsum; nam prout 
+      ma<lb ed="#L" break="no" n="94"/>net in esse reali, sistit intra se ipsum, nec se 
+      inti<lb ed="#L" break="no" n="95"/>mat in amatum, sed per hoc, quod progreditur 
+      <lb ed="#L" n="96"/>extra se in esse intentionali, dicitur attingere 
+      <lb ed="#L" n="97"/>ipsum. sicut ergo connectitur spiritus amantis, 
+      <lb ed="#L" n="98"/>qui est amans in esse intentionali posito &amp; cum 
+      <lb ed="#L" n="99"/>amato, &amp; cum amante, &amp; ita est vinculum 
+      v<lb ed="#L" break="no" n="100"/>triusque, vt per hoc amans connectatur amato: 
+      <lb ed="#L" n="101"/>&amp; quia amans amore formaliter connectitur, ma 
+      <lb ed="#L" n="102"/>nifeste patet, quod vltra absolutam realitatem, 
+      <lb ed="#L" n="103"/>quam importat amor, necesse est, quod in sui 
+      <lb ed="#L" n="104"/>ratione formali includat totam istam 
+      conne<lb ed="#L" break="no" n="105"/>xionem, vt sit id, quo formaliter amans 
+      conne<lb ed="#L" break="no" n="106"/>ctitur suo spiritui: &amp; ex consequenti, quia spiri 
+      <lb ed="#L" n="107"/>tus connectitur amato, sequitur, quod per amo 
+      <lb ed="#L" n="108"/>rem amans connectitur amato. nec illa realis rea 
+      <lb ed="#L" n="109"/>litas amoris, prout est id, quo amans procedit 
+      <lb ed="#L" n="110"/>in esse intentionali, seu id, quo producitur 
+      spi<lb ed="#L" break="no" n="111"/>ritus, appellatur spirare: spirare autem attingit 
+      <lb ed="#L" n="112"/>spiritum productiue, dando sibi habitudinem 
+      il<lb ed="#L" break="no" n="113"/>lam, quod sit scilicet in amatum tendens; &amp; sic 
+      <lb ed="#L" n="114"/>spirare, &amp; amare formaliter distinguuntur. In 
+      <lb ed="#L" n="115"/>diuinis itaque, cum amans procedit in essse 
+      rea<lb ed="#L" break="no" n="116"/>li, oportet, quod spirare sit aliquod reale, 
+      con<lb ed="#L" break="no" n="117"/>tractio vero inter spiritum, &amp; amatum non est 
+      <lb ed="#L" n="118"/>realis, nec etiam inter amantem, &amp; spiritum: 
+      <lb ed="#L" n="119"/>&amp; ideo pater, &amp; filius producunt spiritum, 
+      po<lb ed="#L" break="no" n="120"/>nendo Deitatem in esse dato, seu lato ad 
+      quod<lb ed="#L" break="no" n="121"/>cumque amatum, siue sit Deus, siue creatura 
+      <lb ed="#L" n="122"/>cum autem sic ponunt, adhuc remanet spiritus, 
+      <lb ed="#L" n="123"/>vt connectens patrem, &amp; filium cum omni co, in 
+      <lb ed="#L" n="124"/>quod spiritus tendit, &amp; ita cum amato: &amp; tamen 
+      <lb ed="#L" n="125"/>tam pater, quam filius sunt amati, quam etiam 
+      <lb ed="#L" n="126"/>spiri tus sanctus. ergo sequitur, quod spiritus san 
+      <lb ed="#L" n="127"/>ctus connectat patrem cum filio per modum doni, 
+      <lb ed="#L" n="128"/>cūmunionis, &amp; nexus, &amp; similiter patrem cum se 
+      <lb ed="#L" n="129"/>ipso, &amp; cum spiritu sancto, &amp; cum omni creato. cō 
+      <lb ed="#L" n="130"/>municatur spiritui sancto non quidem spirare seip 
+      <lb ed="#L" n="131"/>sum, quod est impossibile, nec etiam alium spiritu: 
+      <lb ed="#L" n="132"/>quia cum in diuinis non sit nisi vnus amor, nec 
+      <!--0724.xml-->
+      <pb ed="#L" n="724"/>
+                  <!-- column order mixup in coordinate file-->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est, nisi vnus spiritus, vel vnum positum in esse 
+      <lb ed="#L" n="2"/>lato, &amp; dono. communicatur ergo sibi non habi 
+      <lb ed="#L" n="3"/>tudo, quam importat spirare, sed illa 
+      connota<lb ed="#L" break="no" n="4"/>tio, quam importat amare: est enim in eo 
+      diui<lb ed="#L" break="no" n="5"/>nitas, tamquam id, quo fit coniunctio cum 
+      spi<lb ed="#L" break="no" n="6"/>ritu, &amp; mediante spiritu cum amato. secundum 
+      <lb ed="#L" n="7"/>hoc ergo patet, quod spiritus sanctus est medium, 
+      <lb ed="#L" n="8"/>quo totus amor diuinus vnitur cum omni 
+      ama<lb ed="#L" break="no" n="9"/>to, in quocumque sit ille amor. &amp; ideo verum est, 
+      <lb ed="#L" n="10"/>quod pater, filius, &amp; spiritus sanctus diligunt 
+      spi<lb ed="#L" break="no" n="11"/>ritu sancto, tamquam vinculo, &amp; medio 
+      conne<lb ed="#L" break="no" n="12"/>ctente. hoc autem est, quod intelligit August. 
+      <lb ed="#L" n="13"/>cum dicit 15. de Trinita. quod communio 
+      quae<lb ed="#L" break="no" n="14"/>dam consubstantialis patris, &amp; filij est spiritus 
+      <lb ed="#L" n="15"/>amborum. &amp; septimo de Trinitate, cum dicit, 
+      <lb ed="#L" n="16"/>quod est vnitas amborum, siue sanctitas, &amp; 
+      do<lb ed="#L" break="no" n="17"/>num, quia suo proprio dono sunt seruantes 
+      spi<lb ed="#L" break="no" n="18"/>ritus vnitatem in vinculo pacis. est enim ipsa 
+      <lb ed="#L" n="19"/>communio consubstantialis, &amp; coaeterna vtrique. 
+      <lb ed="#L" n="20"/>Nec procedunt instantiae. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1468">
+                  <lb ed="#L" n="21"/>Prima siquidem non procedit; amor namque 
+      <lb ed="#L" n="22"/>dicitur attingentia, inquantum claudit 
+      realita<lb ed="#L" break="no" n="23"/>tem absolutam, cum connexione spiritus, quo 
+      <lb ed="#L" n="24"/>mediante attingit amatum. vnde necesse est, 
+      <lb ed="#L" n="25"/>quod spiritus claudatur per modum medij in ista 
+      <lb ed="#L" n="26"/>attingentia: connotat quidem spiritus absolutum 
+      <lb ed="#L" n="27"/>amoris, &amp; ipsum amatum: amatum quidem, vt 
+      <lb ed="#L" n="28"/>in quod; absolutum vero amoris, vt a quo, vel 
+      <lb ed="#L" n="29"/>mediante quo producitur, &amp; tunc est spirare; 
+      <lb ed="#L" n="30"/>vel cui competit connectere, &amp; tunc est amare, 
+      <lb ed="#L" n="31"/>&amp; secundum hoc spiritus est vinculum totius 
+      ten<lb ed="#L" break="no" n="32"/>dentiae amorosae, &amp; quasi medium incidens in 
+      <lb ed="#L" n="33"/>tendentia ipsa, ex vna parte connexum cum amo 
+      <lb ed="#L" n="34"/>re, &amp; ex alia cum amato, vt per ipsum amor fiat 
+      <lb ed="#L" n="35"/>connexio amantis cum amato. nec est 
+      intelli<lb ed="#L" break="no" n="36"/>gendum, quod sint ibi habitudines, quae sint 
+      re<lb ed="#L" break="no" n="37"/>spectus reales, vel rationis, sed sicut supra 
+      dice<lb ed="#L" break="no" n="38"/>batur de verbo, ipsamet prorpietas spiritus con 
+      <lb ed="#L" n="39"/>nectit tres terminos. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1512">
+                  <lb ed="#L" n="40"/>Primum quidem, vt principium productiuum, 
+      <lb ed="#L" n="41"/>&amp; ita inter illud, &amp; spiritum est realis relatio 
+      <lb ed="#L" n="42"/>producentis, &amp; producti, spirare quidem ex par 
+      <lb ed="#L" n="43"/>te principij; spirari vero ex parte spiritus prin 
+      <lb ed="#L" n="44"/>cipiati. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1526">
+                  <lb ed="#L" n="45"/>Alium vero, vt obiectum, in quod tendit, 
+      vi<lb ed="#L" break="no" n="46"/>delicet amatum: &amp; inter spiritum, &amp; illum non 
+      <lb ed="#L" n="47"/>est relatio intermedia, sed se ipso connotat 
+      il<lb ed="#L" break="no" n="48"/>lum, sicut verbum creaturas 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1537">
+                  <lb ed="#L" n="49"/>Tertium quoque, vt id connectit, videlicet 
+      <lb ed="#L" n="50"/>absolutum amoris, nec etiam est aliqua relatio 
+      <lb ed="#L" n="51"/>inter illa, sed propter suam proprietatem 
+      spiri<lb ed="#L" break="no" n="52"/>tus dicitur illud connotare, tamquam id, quod 
+      <lb ed="#L" n="53"/>connectitur per ipsum, &amp; ligatur cum amato. 
+      <lb ed="#L" n="54"/>patet ergo, quid est amor formaliter: est enim 
+      <lb ed="#L" n="55"/>realitas illa, quam connotat spiritus, vt qua con 
+      <lb ed="#L" n="56"/>nectitur cum amato: &amp; ideo amans per amorem 
+      <lb ed="#L" n="57"/>connectitur, quasi per id, quod primo 
+      conne<lb ed="#L" break="no" n="58"/>xum est per spiritum, tamquam per medium, &amp; 
+      <lb ed="#L" n="59"/>vinculum, &amp; connexum. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1563">
+                  <lb ed="#L" n="60"/>Nec procedit secunda; nullum est enim 
+      in<lb ed="#L" break="no" n="61"/>conueniens, quod diligat per amorem 
+      formali<lb ed="#L" break="no" n="62"/>ter, &amp; per spiritum, tamquam per medium 
+      con<lb ed="#L" break="no" n="63"/>nexiuum, quia non est, nisi vnum diligere 
+      clau<lb ed="#L" break="no" n="64"/>dens vtrumque, amorem quidem, tamquam 
+      <lb ed="#L" n="65"/>formale principium, &amp; spiritum tamquam id, 
+      <lb ed="#L" n="66"/>per quod, quasi per medium, amor connectitur 
+      <lb ed="#L" n="67"/>cum amato. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1583">
+      <!--0724.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>Nec valet etiam tertia, quia amor, quo patr 
+      <lb ed="#L" n="69"/>diligit, non differt realiter a spiritu sancto, cum 
+      <lb ed="#L" n="70"/>sit essentia diuina, &amp; ideo spiritus aeque intimùs 
+      <lb ed="#L" n="71"/>est amori, quo pater diligit, sicut amori, quo 
+      di<lb ed="#L" break="no" n="72"/>ligit spiritus sanctus; non tamen aeque intimus 
+      <lb ed="#L" n="73"/>est proprietati patris, immo realiter spiritus 
+      <lb ed="#L" n="74"/>differt ab ea, vt patet. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1605">
+                  <lb ed="#L" n="75"/>Nec valet etiam quarta; verum est enim, quod 
+      <lb ed="#L" n="76"/>nullum notionale ingreditur formaliter aliquid 
+      <lb ed="#L" n="77"/>essentiale. quin tamen connotatiue possit ingre 
+      <lb ed="#L" n="78"/>di, non est verum, quia etiam creatura, de 
+      <lb ed="#L" n="79"/>qua minus videtur, ingreditur: nam 
+      omni<lb ed="#L" break="no" n="80"/>potentia connotat creaturas. nec est 
+      absur<lb ed="#L" break="no" n="81"/>dum, quod aliquod notionale praecedat absolu 
+      <lb ed="#L" n="82"/>tum essentiale, quamuis possittpraecedere hoc, 
+      <lb ed="#L" n="83"/>quod exigit connotatiue, vt apparebit in secun 
+      <lb ed="#L" n="84"/>do de verbo, quod praecedit omnem 
+      intellectio<lb ed="#L" break="no" n="85"/>nem, cum intelligere non sit aliud, nisi id, cui 
+      <lb ed="#L" n="86"/>verbum dicitur, &amp; apparet. &amp; hoc etiam satis 
+      <lb ed="#L" n="87"/>patet ex iis, quae dicta sunt in quaest. de verbo. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1636">
+                  <lb ed="#L" n="88"/>Non valet etiam quinta, quod licet non inue 
+      <lb ed="#L" n="89"/>niatur expressim, quod spiritus sanctus diligat 
+      <lb ed="#L" n="90"/>patrem, aut filium spiritu sancto, &amp; quod 
+      spiri<lb ed="#L" break="no" n="91"/>tus sanctus diligat se spiritu sancto; non tamen 
+      <lb ed="#L" n="92"/>inuenitur negatum, immo potest concludi ex 
+      <lb ed="#L" n="93"/>hoc, quod inuenitur concessum, quod creatura 
+      <lb ed="#L" n="94"/>diligitur spiritu sancto. dignius quidem est, quod 
+      <lb ed="#L" n="95"/>ipsemet spiritus sanctus diligatur spiritu 
+      san<lb ed="#L" break="no" n="96"/>cto, quam aliqua creatura. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1659">
+                  <lb ed="#L" n="97"/>Quod dilectio illa non est notionalis, sed proprie 
+      <lb ed="#L" n="98"/>essentialis. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1666">
+                  <lb ed="#L" n="99"/>TERTIA quoque propositio est, quod 
+      di<lb ed="#L" break="no" n="100"/>lectio ista, qua pater, &amp; filius se diligunt 
+      <lb ed="#L" n="101"/>spiritu sancto, non est notionalis: tum quia com 
+      <lb ed="#L" n="102"/>munis est tribus, &amp; est amor, quo Trinitas attin 
+      <lb ed="#L" n="103"/>git omne amatum, vt dictum est: tum quia 
+      num<lb ed="#L" break="no" n="104"/>quam talis propositio conceditur cum actu 
+      no<lb ed="#L" break="no" n="105"/>tionali. vnde non est verum, quod pater 
+      spi<lb ed="#L" break="no" n="106"/>ret spiritu sancto. Si vero quaeratur, in qua 
+      <lb ed="#L" n="107"/>habitudine construitur ablatiuus, cum dicitur 
+      <lb ed="#L" n="108"/>pater, &amp; filius diligere spiritu sancto; dicendum, 
+      <lb ed="#L" n="109"/>quod non in habitudine effectus efficientis, nec 
+      <lb ed="#L" n="110"/>causae formalis, aut effectus formalis, sed in ha 
+      <lb ed="#L" n="111"/>bitudine medij connectentis. &amp; hoc innuit 
+      Au<lb ed="#L" break="no" n="112"/>gustinus 6. de Trinit. cum dicit, quod spiritus 
+      <lb ed="#L" n="113"/>sanctus non aliquis duorum est, sed primo 
+      vtrum<lb ed="#L" break="no" n="114"/>que coniungit, &amp; quo genitus a gignente 
+      dili<lb ed="#L" break="no" n="115"/>gatur. in hoc ergo art. primus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-233511-Dd1e1706">
+               <head xml:id="ol96b1-233511-Hd1e1708">Articulus 2</head>
+               <p xml:id="ol96b1-233511-d1e1710">
+                  <lb ed="#L" n="116"/>ARTJCVLVS SECVNDVS.
+    </p>
+               <p xml:id="ol96b1-233511-d1e1715">
+                  <lb ed="#L" n="117"/>An Pater sit sapientia genita, an sit sapiens verbo, aut 
+      <lb ed="#L" n="118"/>Filio, opin. S. Thomae. primo Sent. dist. 32. 
+      <lb ed="#L" n="119"/>quaest. 5. art. primo. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1724">
+                  <lb ed="#L" n="120"/>CIRCA secundum vero considerandum est, 
+      <lb ed="#L" n="121"/>quod nullo modo concedendum est, quod 
+      <lb ed="#L" n="122"/>pater sit sapiens verbo suo, quamuis dicat 
+      ver<lb ed="#L" break="no" n="123"/>bo suo: cuius ratio est, quia sapientia significatur 
+      <lb ed="#L" n="124"/>per modum formae maioritatis in eo, cuius est; 
+      <lb ed="#L" n="125"/>vnde nec potest denominari aliquis sapiens per 
+      <lb ed="#L" n="126"/>id, quod ab ipso est per modum formae dantis ali 
+      <lb ed="#L" n="127"/>quod esse. constat autem, quod filius non est for 
+      <lb ed="#L" n="128"/>ma in patre, dans esse, &amp; propter hoc non pon 
+      <lb ed="#L" n="129"/>concedi, quod pater sit sapiens filio, vel sapiera 
+      <!--0725.xml-->
+      <pb ed="#L" n="725"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>genita. Dicere vero est operatio productiua, 
+      <lb ed="#L" n="2"/>&amp; ideo pater denominatur dicens non genitus, 
+      <lb ed="#L" n="3"/>sicut denominatur producens ab illo, quod 
+      pro<lb ed="#L" break="no" n="4"/>greditur; vnde pater dicitur diligens 
+      amore<lb ed="#L" break="no" n="5"/>procedente, &amp; pari ratione potest denominari 
+      <lb ed="#L" n="6"/>dicens a verbo procedente. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1768">
+                  <lb ed="#L" n="7"/>Sed hic modus dicendi non videtur sufficiens; 
+      <lb ed="#L" n="8"/>arguit enim Augustinus sexto de Trinitate con 
+      <lb ed="#L" n="9"/>tra haereticum, quod si aliquando fuit pater, quan 
+      <lb ed="#L" n="10"/>do non fuit filius, sequitur, quod aliquando fuit 
+      <lb ed="#L" n="11"/>pater sine virtute, &amp; sapientia, quia dicit 
+      Apo<lb ed="#L" break="no" n="12"/>stolus Corinth. Christum Dei virtutem, &amp; Dei sa 
+      <lb ed="#L" n="13"/>pientiam. hoc autem argumentum non teneret, 
+      <lb ed="#L" n="14"/>nisi aliquo modo, &amp; sic aliqua habitudine 
+      ver<lb ed="#L" break="no" n="15"/>bum ad Dei sapientiam pertineret. ergo 
+      vide<lb ed="#L" break="no" n="16"/>tur, quod aliquo modo ad sapientiam 
+      per<lb ed="#L" break="no" n="17"/>tineat. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1795">
+                  <lb ed="#L" n="18"/>Nec valet, si dicatur, quod loquitur Augusti 
+      <lb ed="#L" n="19"/>nus de sapientia essentiali, quia secundum hoc 
+      <lb ed="#L" n="20"/>nihil probaret de coaeternitate filij Augustinus, 
+      <lb ed="#L" n="21"/>quam tamen probare intendit.
+    </p>
+               <p xml:id="ol96b1-233511-d1e1806">
+                  <lb ed="#L" n="22"/>Praeterea: Res posita in esse apparenti, &amp; 
+      ob<lb ed="#L" break="no" n="23"/>iectiuo, facit ad intellectionem, &amp; sapientiam 
+      <lb ed="#L" n="24"/>actualem. impossibile est enim imaginari 
+      sapien<lb ed="#L" break="no" n="25"/>tiam, aut intelligentiam actualem, sine 
+      intelli<lb ed="#L" break="no" n="26"/>gentia, aut sapientia obiectiua; sed verbum in 
+      <lb ed="#L" n="27"/>diuinis procedit per modum intelligentiae obie 
+      <lb ed="#L" n="28"/>ciuae: nam est quid in diuinis positum in esse 
+      <lb ed="#L" n="29"/>conspicuo, &amp; apparenti. ergo verbum aliquid 
+      <lb ed="#L" n="30"/>facit ad intellectionem, &amp; sapientiam Dei 
+      pa<lb ed="#L" break="no" n="31"/>tris, immo ad intellectionem diuinam, in 
+      qua<lb ed="#L" break="no" n="32"/>cumque persona reperiatur intellectio, &amp; 
+      sa<lb ed="#L" break="no" n="33"/>pientia diuina. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1835">
+                  <lb ed="#L" n="34"/>Praeterea: Non minus dilectio denominatur 
+      <lb ed="#L" n="35"/>per modum formae manentis in eo, cuius est, 
+      <lb ed="#L" n="36"/>quam sapientia, nam est operatio immanens 
+      <lb ed="#L" n="37"/>diligere, sicut &amp; sapere. sed hoc non obstante, 
+      <lb ed="#L" n="38"/>diligere aliquam habitudinem habet ad ipsum, 
+      <lb ed="#L" n="39"/>ita vt concedatur, quod pater diligat se 
+      spiri<lb ed="#L" break="no" n="40"/>tu sancto. ergo verbum habebit aliquam 
+      habi<lb ed="#L" break="no" n="41"/>tudinem ad sapere, vel intelligere in diuinis. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1855">
+                  <lb ed="#L" n="42"/>Nec valet, si dicatur, quod diligere 
+      notiona<lb ed="#L" break="no" n="43"/>liter teneat, non valet inquam, quia non conce 
+      <lb ed="#L" n="44"/>ditur, quod pater spiritu sancto se spiret; &amp; 
+      ta<lb ed="#L" break="no" n="45"/>men conceditur, quod spiritu sancto se diligit. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1866">
+                  <lb ed="#L" n="46"/>Opinio Scoti 1. sen. dist. 32.4.2. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1871">
+                  <lb ed="#L" n="47"/>PROPTEREA dixerunt alij, quod non 
+      con<lb ed="#L" break="no" n="48"/>ceditur: Pater est sapiens verbo, quamuis 
+      <lb ed="#L" n="49"/>concedatur, quod dicat se verbo. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1881">
+                  <lb ed="#L" n="50"/>Ad cuius euidentiam considerandum, quod 
+      <lb ed="#L" n="51"/>verbum dicit habitudinem ad dicentem, &amp; haec 
+      <lb ed="#L" n="52"/>est habitudo originis de secundo modo 
+      relati<lb ed="#L" break="no" n="53"/>uorum, &amp; dicit habitudinem declarantis ad decla 
+      <lb ed="#L" n="54"/>ratum obiectiue: haec autem habitudo 
+      commu<lb ed="#L" break="no" n="55"/>nis est tribus, &amp; essentialis, quia omnis notitia 
+      <lb ed="#L" n="56"/>habet declarare suum obiectum, appropriatur 
+      <lb ed="#L" n="57"/>tamen verbo, quia emanat per modum notitiae. 
+      <lb ed="#L" n="58"/>secundum hoc ergo vocabulum, Dicere, potest 
+      <lb ed="#L" n="59"/>signficare relationem originis, &amp; hoc modo solus 
+      <lb ed="#L" n="60"/>pater dicit, secundum Augustinum 7. de Trinit. 
+      <lb ed="#L" n="61"/>qui ait, quod dicens illo aeterno verbo non 
+      sin<lb ed="#L" break="no" n="62"/>gulariter intelligitur, sed solus pater, vel potest 
+      <lb ed="#L" n="63"/>significare habitudinem rationis, &amp; hoc est 
+      de<lb ed="#L" break="no" n="64"/>clarare, &amp; hoc prout conuenit alicui formaliter 
+      <lb ed="#L" n="65"/>se ipso, inquantum formaliter sibi competit, quod 
+      <!--0725.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>sit notitia declaratiua, &amp; sic loquitur August. 7. 
+      <lb ed="#L" n="67"/>de Trin. dicens, quod si verbum, quod nos 
+      pro<lb ed="#L" break="no" n="68"/>ferimus temporale, &amp; transitorium, se ipsum 
+      <lb ed="#L" n="69"/>ostendit, quanto magis verbum Dei, per quod 
+      <lb ed="#L" n="70"/>facta sunt omnia, ostendit patrem, sicut est, vel 
+      <lb ed="#L" n="71"/>hoc vocabulum, Dicere, potest fignificare istam 
+      <lb ed="#L" n="72"/>habitudinem declarantis, prout conuenit alicui 
+      <lb ed="#L" n="73"/>non formaliter, sed principiatiue? &amp; hoc modo 
+      <lb ed="#L" n="74"/>soli patri competit verbo dicere, quoniam ipse 
+      <lb ed="#L" n="75"/>solus verbum principiat, quod habet 
+      habitudi<lb ed="#L" break="no" n="76"/>nem declarantis. sic ergo, quia dicere isto vltimo 
+      <lb ed="#L" n="77"/>modo acceptum, non est pure essentiale, nec 
+      pu<lb ed="#L" break="no" n="78"/>re notionale, sed est vtrumque includens, essen 
+      <lb ed="#L" n="79"/>tiale quidem, inquantum importat habitudinem 
+      <lb ed="#L" n="80"/>declarantis, notionale vero, inquantum illam 
+      <lb ed="#L" n="81"/>importat, vt competit principiatiue alicui: 
+      <lb ed="#L" n="82"/>ideo conceditur, quod pater est dicens uerbo, 
+      <lb ed="#L" n="83"/>quod declarans se, &amp; omne declarabile actiue 
+      <lb ed="#L" n="84"/>principiando verbum, quod habet formaliter 
+      <lb ed="#L" n="85"/>declarare. non autem conceditur, quod sit 
+      sa<lb ed="#L" break="no" n="86"/>piens verbo, aut sapientia genita, quia sapere, 
+      <lb ed="#L" n="87"/>&amp; intelligere accipiuntur essentialiter tantum. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1970">
+                  <lb ed="#L" n="88"/>Sed nec hic modus dicendi congruus est in. 
+      <lb ed="#L" n="89"/>duobus. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e1977">
+                  <lb ed="#L" n="90"/>Primo quidem in hoc, quod ait illam 
+      habitu<lb ed="#L" break="no" n="91"/>dinem declarationis esse communem, &amp; 
+      essen<lb ed="#L" break="no" n="92"/>tialem, nec aliud esse, quam habitudinem 
+      no<lb ed="#L" break="no" n="93"/>titiae infinitae ad intelligentiam, quae 
+      manife<lb ed="#L" break="no" n="94"/>statur in ea. ostensum est quidem supra in 
+      quae<lb ed="#L" break="no" n="95"/>stione de verbo, quod verbo competit 
+      crea<lb ed="#L" break="no" n="96"/>turas, &amp; omne, quod verbo dicitur, connotare, 
+      <lb ed="#L" n="97"/>non quidem ratione cogniti, per hoc, quod est 
+      <lb ed="#L" n="98"/>notitia prima in ratione dicti ex sua 
+      proprie<lb ed="#L" break="no" n="99"/>tate. aliud est enim esse dictum, &amp; aliud esse 
+      <lb ed="#L" n="100"/>intellectum; vnde verbum proprietatem 
+      locu<lb ed="#L" break="no" n="101"/>tionis, quae verbum est, denominat, &amp; dicitur 
+      <lb ed="#L" n="102"/>ipso verbo; non autem ratione infinitae notitiae, 
+      <lb ed="#L" n="103"/>quae communis est tribus, &amp; quae sibi 
+      communi<lb ed="#L" break="no" n="104"/>catur ex vi productionis, sed quod est in verbo 
+      <lb ed="#L" n="105"/>ratione suae proprietatis, non est essentiale, 
+      im<lb ed="#L" break="no" n="106"/>mo notionale. ergo respectus relationis, vel 
+      po<lb ed="#L" break="no" n="107"/>tius dictionis non est essentialis. &amp; hoc patet 
+      <lb ed="#L" n="108"/>ex his, quae dicta sunt in praefata quaestione 
+      <lb ed="#L" n="109"/>de verbo. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2023">
+                  <lb ed="#L" n="110"/>Secundo vero deficit in hoc, quod ait sapere, 
+      <lb ed="#L" n="111"/>vel intelligere non habere habitudinem ad 
+      ver<lb ed="#L" break="no" n="112"/>bum, quia sunt quid essentiale. Anselmus enim 
+      <lb ed="#L" n="113"/>Monol. dicit, quod vnusquisque trium est dicens, 
+      <lb ed="#L" n="114"/>sicut intelligens, quia nil aliud est dicere, quam 
+      <lb ed="#L" n="115"/>cogitando intueri: &amp; quod quemadmodum 
+      sin<lb ed="#L" break="no" n="116"/>gularis pater, singularis filius, &amp; singularis 
+      eo<lb ed="#L" break="no" n="117"/>rum spiritus est sciens, &amp; intelligens, &amp; tamen 
+      <lb ed="#L" n="118"/>hi tres plures non sunt intelligentes, sed vnus 
+      <lb ed="#L" n="119"/>sciens, &amp; vnus intelligens, ita singularis 
+      quis<lb ed="#L" break="no" n="120"/>que dicens est, nec sunt tres dicentes, sed vnus 
+      <lb ed="#L" n="121"/>dicens. non est enim scire, &amp; intelligere aliud, 
+      <lb ed="#L" n="122"/>quam dicere, id est semper prae sens intueri, ex 
+      <lb ed="#L" n="123"/>quibus patet, quod omnes tres dicunt verbo, 
+      <lb ed="#L" n="124"/>inquantum dicere est idem, quod intelligere, &amp; 
+      <lb ed="#L" n="125"/>intueri: &amp; hoc nom esset, nisi posset concedi sub 
+      <lb ed="#L" n="126"/>alio sensu, quod omnes intelligunt, &amp; 
+      intuen<lb ed="#L" break="no" n="127"/>tur verbo, quamuis vnus solus notionaliter 
+      di<lb ed="#L" break="no" n="128"/>cat verbo. ergo sub aliquo sensu hoc 
+      conceden<lb ed="#L" break="no" n="129"/>dum videtur.
+    </p>
+               <p xml:id="ol96b1-233511-d1e2069">
+      <!--0726.xml-->
+                  <pb ed="#L" n="726"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quid dicendum secundum veritatem.
+    </p>
+               <p xml:id="ol96b1-233511-d1e2080">
+                  <lb ed="#L" n="2"/>RESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="3"/>sub triplici propositione. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2088">
+                  <lb ed="#L" n="4"/>Prima quidem, quod, sicut patet ex 
+      supradi<lb ed="#L" break="no" n="5"/>ctis, intelligere in diuinis, &amp; sapere non sunt 
+      a<lb ed="#L" break="no" n="6"/>liud, nec re, nec ratione ab ipsa Deitate, nisi tan 
+      <lb ed="#L" n="7"/>tum connotatiue. Deitas enim, inquantum sibi 
+      <lb ed="#L" n="8"/>esse cognoscibile praesens est, &amp; positum in esse 
+      <lb ed="#L" n="9"/>apparenti, intantum dicitur omnia intelligere: 
+      <lb ed="#L" n="10"/>illud autem sic positum in esse apparenti, non 
+      <lb ed="#L" n="11"/>est aliud, quam verbum, vel conceptus, &amp; ita 
+      <lb ed="#L" n="12"/>intelligere, vel sapere connotant verbum, vel 
+      <lb ed="#L" n="13"/>potius econuerso, verbum connotat Deitatem, 
+      <lb ed="#L" n="14"/>tamquam id, cui formatur, &amp; dicitur, &amp; 
+      appa<lb ed="#L" break="no" n="15"/>ret. Deitas autem, vt sic, communis est tribus, 
+      <lb ed="#L" n="16"/>&amp; idcirco sapere &amp; intelligere est commune tri 
+      <lb ed="#L" n="17"/>bus. dicere vero, quod non est aliud, quam esse 
+      <lb ed="#L" n="18"/>cognoscibile in esse apparenti, ponere, 
+      siue<lb ed="#L" break="no" n="19"/>formare verbum, est vtique actus realis indistin 
+      <lb ed="#L" n="20"/>ctus a diuinitate, constituens primum 
+      supposi<lb ed="#L" break="no" n="21"/>tum distinctum ab ipso verbo, &amp; illud non 
+      com<lb ed="#L" break="no" n="22"/>municatur dicere, seu producere ipsum verbum. 
+      <lb ed="#L" n="23"/>secundum hoc ergo patet, quod omnes tres 
+      per<lb ed="#L" break="no" n="24"/>sonae, inquantum sapiunt, &amp; intelligunt, conno 
+      <lb ed="#L" n="25"/>tant ipsum verbum, tamquam id, quod 
+      obiici<lb ed="#L" break="no" n="26"/>tur, &amp; est praesens cuilibet per Deitatem, quae 
+      <lb ed="#L" n="27"/>quidem praesentia eadem est in tribus, sicut &amp; 
+      <lb ed="#L" n="28"/>Deitas, &amp; ita intelligere, &amp; sapere in ratione 
+      <lb ed="#L" n="29"/>obiecti connotant ipsum verbum, vt quid 
+      essen<lb ed="#L" break="no" n="30"/>tiale, &amp; personis tribus commune. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2149">
+                  <lb ed="#L" n="31"/>Secunda vero propositio est, quod sapere, &amp; 
+      <lb ed="#L" n="32"/>intelligere, transeunt quidem in obiectum 
+      co<lb ed="#L" break="no" n="33"/>gnitum, sed mediante verbo, sicut patet in 
+      no<lb ed="#L" break="no" n="34"/>bis, quod res exteriores dicuntur intelligi, &amp; 
+      <lb ed="#L" n="35"/>cognosci ex eo, quod in quodam esse 
+      intentio<lb ed="#L" break="no" n="36"/>nali fiunt praesentes intelligenti, nec 
+      attinge<lb ed="#L" break="no" n="37"/>rentur a cognoscente, nisi per hoc, quod sunt 
+      <lb ed="#L" n="38"/>in esse intentionali sibi praesentes. vnde 
+      manife<lb ed="#L" break="no" n="39"/>stum est, quod cognoscens habet quidem 
+      prae<lb ed="#L" break="no" n="40"/>sentes res, quae sunt exterius, per hoc, quod 
+      <lb ed="#L" n="41"/>sunt praesentes interius in esse intentionali, ita 
+      <lb ed="#L" n="42"/>quod res exterius praesentes sunt, non quidem 
+      <lb ed="#L" n="43"/>vere, sed denominatiue; res vero in esse 
+      inten<lb ed="#L" break="no" n="44"/>tionali sunt, quae intellectui obiiciuntur: &amp; 
+      ra<lb ed="#L" break="no" n="45"/>tione huiusmodi praesentiae, res exteriores dicun 
+      <lb ed="#L" n="46"/>tur denominatiue praesentes. secundum hoc 
+      er<lb ed="#L" break="no" n="47"/>go sapere, &amp; intelligere transeunt in res 
+      cogni<lb ed="#L" break="no" n="48"/>tas denominatiue verbo, in quo habent esse 
+      <lb ed="#L" n="49"/>apparens, quemadmodum dicebatur, quod me 
+      <lb ed="#L" n="50"/>diante spiritu amans vnitur amato, &amp; non est dif 
+      <lb ed="#L" n="51"/>ferentia, nisi quod vnio amantis debet intelligi 
+      <lb ed="#L" n="52"/>processiue, quod amans per spiritum in 
+      ama<lb ed="#L" break="no" n="53"/>tum procedat. in intellectu vero debet 
+      conci<lb ed="#L" break="no" n="54"/>pi receptiue, quod intelligens recipiat in se 
+      <lb ed="#L" n="55"/>res mediante verbo, siue esse apparenti earum. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2206">
+                  <lb ed="#L" n="56"/>Tertia quoque propositio est, quod cum 
+      <lb ed="#L" n="57"/>filius non procedat, vt sapientia formalis, siue 
+      <lb ed="#L" n="58"/>vt intellectus actualis, sed potius, vt sapientia, 
+      <lb ed="#L" n="59"/>&amp; intelligentia obiectiua, quod non est aliud, 
+      <lb ed="#L" n="60"/>nisi id, quod apparet de re cognita obiectiue: 
+      <lb ed="#L" n="61"/>haec propositio, Pater est sapiens verbo, aut 
+      sa<lb ed="#L" break="no" n="62"/>pientia genita, potest habere duplicem 
+      sen<lb ed="#L" break="no" n="63"/>sum, quia ablatiuus ille, vel construitur in 
+      ha<lb ed="#L" break="no" n="64"/>bitudine principij formalis, &amp; tunc 
+      proposi<lb ed="#L" break="no" n="65"/>tio falsa est, vel in habitudine cuiusdam medij, 
+      <lb ed="#L" n="66"/>&amp; secundum hoc videtur posse concedi. esset 
+      <!--0726.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>enim sensus, cum sapere non sit aliud, quam 
+      <lb ed="#L" n="68"/>sibi aliquid apparere; pater sapit se verbo, aut 
+      <lb ed="#L" n="69"/>intuetur se verbo, quod apparet sibi ipsi per ver 
+      <lb ed="#L" n="70"/>bum. &amp; hoc vtique verum est, quia, sicut 
+      su<lb ed="#L" break="no" n="71"/>perius dictum fuit, pater non apparet sibi 
+      ap<lb ed="#L" break="no" n="72"/>parentia, quae sit ipse pater, sed apparentia, quae 
+      <lb ed="#L" n="73"/>est verbum. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2252">
+                  <lb ed="#L" n="74"/>Est tamen sciendum, quod primo aspectu 
+      con<lb ed="#L" break="no" n="75"/>cipitur primus sensus sibi falsus. est enim 
+      diffi<lb ed="#L" break="no" n="76"/>cile ad intellectum secundum, qui verus est, 
+      <lb ed="#L" n="77"/>peruenire, &amp; ideo magis debet negari, quam 
+      <lb ed="#L" n="78"/>concedi, nisi exponeretur ad istum vltimum 
+      <lb ed="#L" n="79"/>intellectum; propter quod Augustinus 
+      aliquan<lb ed="#L" break="no" n="80"/>do legitur concessisse, attendendo ad hoc; 
+      ali<lb ed="#L" break="no" n="81"/>quando vero negasse, quia facit intelligentiam, quod 
+      <lb ed="#L" n="82"/>pater sit sapiens formaliter, tãquam per 
+      princi<lb ed="#L" break="no" n="83"/>pium sapiendi per verbum. quod omnino 
+      fal<lb ed="#L" break="no" n="84"/>sum est, cum pater eo sit formaliter, quo 
+      sa<lb ed="#L" break="no" n="85"/>piens est; nam sapere, &amp; esse sunt idem in Deo. 
+      <lb ed="#L" n="86"/>&amp; in hoc 2. art. finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-233511-Dd1e2284">
+               <head xml:id="ol96b1-233511-Hd1e2286">Articulus 3</head>
+               <p xml:id="ol96b1-233511-d1e2288">
+                  <lb ed="#L" n="87"/>ARTJCVLVS TERTJVS. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2293">
+                  <lb ed="#L" n="88"/>An sint duae sapientiae, &amp; duo amores in diuinis. 
+      <lb ed="#L" n="89"/>Opinio quorumdam. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2300">
+                  <lb ed="#L" n="90"/>CIRCA tertium autem consideratum est,
+      <!-- missing line break -->quod aliqui dixerunt, in diuinis esse duas
+      <lb ed="#L" n="91"/>notitias, vnam quidem simplicem, quae est 
+      es<lb ed="#L" break="no" n="92"/>sentialis; aliam vero declaratiuam, quae est no 
+      <lb ed="#L" n="93"/>tionalis, &amp; verbum, siue sapientia genita. &amp; 
+      <lb ed="#L" n="94"/>similiter posuerunt amorem duplicem, vnum 
+      <lb ed="#L" n="95"/>quidem simplicem, &amp; per modum operis, qui 
+      <lb ed="#L" n="96"/>est essentialis; alium vero relatiuum, &amp; 
+      fllam<lb ed="#L" break="no" n="97"/>meum, qui excutitur de illo simplici amore, 
+      <lb ed="#L" n="98"/>&amp; ille est amor productus, qui est spiritus 
+      <lb ed="#L" n="99"/>sanctus. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2326">
+                  <lb ed="#L" n="100"/>Alij vero dixerunt, quod in diuinis est 
+      du<lb ed="#L" break="no" n="101"/>plex notitia, vna quidem esientialis, &amp; commu 
+      <lb ed="#L" n="102"/>nis, &amp; improducta; alia vero notionalis, a 
+      me<lb ed="#L" break="no" n="103"/>moria realiter producta, tamquam aliquid 
+      sub<lb ed="#L" break="no" n="104"/>sistens: &amp; illud est verbum. &amp; similiter duo sunt 
+      <lb ed="#L" n="105"/>amores, vnus quidem communis, &amp; 
+      essentia<lb ed="#L" break="no" n="106"/>lis, &amp; improductus. iste autem non sufficit, sed 
+      <lb ed="#L" n="107"/>voluntas foecunda est productiua amoris 
+      subsi<lb ed="#L" break="no" n="108"/>stentis per se, qui est spiritus sanctus, &amp; ita 
+      spi<lb ed="#L" break="no" n="109"/>ritus sanctus est amor productus, sicut est 
+      ver<lb ed="#L" break="no" n="110"/>bum sapientia genita. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2353">
+                  <lb ed="#L" n="111"/>Quid dicendum secundum veritatem; &amp; primo, quod 
+      <lb ed="#L" n="112"/>nullus amor, nullaque notitia actiua 
+      produ<lb ed="#L" break="no" n="113"/>citur in diuinis. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2362">
+                  <lb ed="#L" n="114"/>RESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="115"/>sub triplici propositione. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2369">
+                  <lb ed="#L" n="116"/>Prima quidem, quod nullo modo amor aliquis, 
+      <lb ed="#L" n="117"/>aut actualis intellectio producitur in diuinis. 
+      <lb ed="#L" n="118"/>quandocumque enim aliqua sunt vnum, &amp; idem 
+      <lb ed="#L" n="119"/>secundum rem, &amp; rationem, si vnum non 
+      attin<lb ed="#L" break="no" n="120"/>gitur per productionem realem, nec reliquum; 
+      <lb ed="#L" n="121"/>sed essentia in diuinis est idem, quod amor, &amp; 
+      in<lb ed="#L" break="no" n="122"/>tellectio secundum rem, &amp; rationem, solum con 
+      <lb ed="#L" n="123"/>notatiue differens, vt supra dictum est, nec aliquis 
+      <lb ed="#L" n="124"/>negat, quin saltem secundum rem sunt idem. er 
+      <lb ed="#L" n="125"/>go non est possibile, quod essentia producatur, 
+      <lb ed="#L" n="126"/>quod tamen concilium determinat, &amp; quod amor, 
+      <lb ed="#L" n="127"/>aut intellectio producantur, aut producant.
+    </p>
+               <p xml:id="ol96b1-233511-d1e2398">
+      <!--0727.xml-->
+                  <pb ed="#L" n="727"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Praeterea: Quamuis tota persona filij 
+      dica<lb ed="#L" break="no" n="2"/>tur producta, non tamen in ea est aliqua 
+      reali<lb ed="#L" break="no" n="3"/>tas esse capiens productiue, nisi sola proprietas 
+      <lb ed="#L" n="4"/>personalis: alioquin si essentia, quae est in 
+      fi<lb ed="#L" break="no" n="5"/>lio, non solum caperet esse in filio, sed acciperet 
+      <lb ed="#L" n="6"/>simpliciter esse, impossibile foret, quod 
+      ea<lb ed="#L" break="no" n="7"/>dem esset cum essentia patris, quae est a se 
+      <lb ed="#L" n="8"/>nec esse capiens aliunde. sic ergo patet, quod 
+      <lb ed="#L" n="9"/>nulla realitas, quae sit in filio esse capit, nisi 
+      pro<lb ed="#L" break="no" n="10"/>prietas: &amp; idem oportet dicere de Spiritu 
+      san<lb ed="#L" break="no" n="11"/>cto. sed constat, quod intellectio infinita non 
+      <lb ed="#L" n="12"/>est idem, quod processio, quae sunt 
+      proprieta<lb ed="#L" break="no" n="13"/>tes personales verbi, &amp; spiritus. ergo non potest 
+      <lb ed="#L" n="14"/>catholice concedi, quod sit in filio aliqua sapien 
+      <lb ed="#L" n="15"/>tia actualis producta, nec amor aliquis in 
+      Spi<lb ed="#L" break="no" n="16"/>ritu sancto. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2442">
+                  <lb ed="#L" n="17"/>Praeterea: Filius dicitur sapientia genita, 
+      <lb ed="#L" n="18"/>&amp; Spiritus amor productus. aut intelligitur 
+      <lb ed="#L" n="19"/>communicatio, aut vera productio, sed non 
+      <lb ed="#L" n="20"/>potest primum intelligi, quia aeque posset dici 
+      <lb ed="#L" n="21"/>Filius est esse genitum, quia per generationem 
+      <lb ed="#L" n="22"/>communicatur sibi esse. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2458">
+                  <lb ed="#L" n="23"/>Et si dicatur, quod per prius communicatur 
+      <lb ed="#L" n="24"/>sibi intellectio, quam essentia Deitatis; per 
+      <lb ed="#L" n="25"/>prius ergo erit verbum intelligens, quam Deus, 
+      <lb ed="#L" n="26"/>&amp; Spiritus sanctus erit per prius amor, quam 
+      <lb ed="#L" n="27"/>Deus: &amp; ita Pater, qui est per prius Deus 
+      ordi<lb ed="#L" break="no" n="28"/>ne rationis, quam amans, vel intelligens erit 
+      <lb ed="#L" n="29"/>per prius secundum rationem quid nobilius, 
+      <lb ed="#L" n="30"/>quam Filius, vel Spiritus sanctus. Nec etiam 
+      <lb ed="#L" n="31"/>potest dari secundum, eo, quod tunc amor, qui 
+      <lb ed="#L" n="32"/>est in Spiritu sancto, caperet esse vere, &amp; 
+      simi<lb ed="#L" break="no" n="33"/>liter intellectio, quae existit in Filio: &amp; cum iste 
+      <lb ed="#L" n="34"/>amor, aut intellectio non sit aliud, quam esse 
+      <lb ed="#L" n="35"/>Deitatis, quod non est proprietas personalis, vt 
+      <lb ed="#L" n="36"/>dictum est, sequeretur, quod essentia 
+      Diuini<lb ed="#L" break="no" n="37"/>tatis vere produceretur, quod erroneum est. 
+      <lb ed="#L" n="38"/>ergo concedi non potest, quod in verbo sit 
+      ali<lb ed="#L" break="no" n="39"/>qua sapientia genita, accipiendo sapientiam 
+      <lb ed="#L" n="40"/>pro intellectione actuali, nec quod in Spiritu 
+      <lb ed="#L" n="41"/>sancto sit aliquis amor productus. est ergo 
+      <lb ed="#L" n="42"/>sciendum, quod cum dicitur sapientia genita, 
+      <lb ed="#L" n="43"/>exponi debet pro hypostasi genita, quae tamen 
+      <lb ed="#L" n="44"/>est sapientia, non quod realitas sapientiae sit 
+      ali<lb ed="#L" break="no" n="45"/>quid genitum, &amp; sic exponit Magister supra 
+      <lb ed="#L" n="46"/>distinct. 5. &amp; expresse de sapientia distinct. 27. 
+      <lb ed="#L" n="47"/>sic etiam exponi debet amor procedens, hoc 
+      <lb ed="#L" n="48"/>est persona procedens, quae vere est amor, ac 
+      <lb ed="#L" n="49"/>si diceretur essentia procedens, vel essentia 
+      <lb ed="#L" n="50"/>genita. Spiritus quidem sanctus, qui vere est 
+      <lb ed="#L" n="51"/>procedens, est essentia, &amp; amor, &amp; sapientia. 
+      <lb ed="#L" n="52"/>dicitur tamen amor per quandam 
+      appropria<lb ed="#L" break="no" n="53"/>tionem, non quia in eo sit aliquis amor, qui 
+      pro<lb ed="#L" break="no" n="54"/>ducatur, aut esse capiat, aut procedat plus, 
+      <lb ed="#L" n="55"/>quam essentia, vel sapientia 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2533">
+                  <lb ed="#L" n="56"/>Quod impossibile est duas sapientias esse, aut duos 
+      amo<lb ed="#L" break="no" n="57"/>res in diuinis, nnum quidem essentialem, alterum 
+      <lb ed="#L" n="58"/>vero personalem, &amp; subsistentem. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2542">
+                  <lb ed="#L" n="59"/>SECVNDA vero propositio est, quod non 
+      <lb ed="#L" n="60"/>possunt poni duo amores, aut duae sapientiae 
+      <lb ed="#L" n="61"/>in diuinis, quorum vnus essentialis sit, &amp; alius 
+      <lb ed="#L" n="62"/>personalis. impossibile est enim duas Deitates 
+      <lb ed="#L" n="63"/>poni in diuinis, vnam quidem essentialem, &amp; 
+      <lb ed="#L" n="64"/>aliam personalem. sed amor, &amp; sapientia, cum 
+      <!--0727.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>sint perfectiones simpliciter, non sunt aliud, 
+      <lb ed="#L" n="66"/>quam Deitas, immo cum amor sit quoddam 
+      <lb ed="#L" n="67"/>formaliter infinitum, &amp; similiter sapientia 
+      <lb ed="#L" n="68"/>omnino multiplicatio eorum, quae sunt infinita 
+      <lb ed="#L" n="69"/>formaliter non est possibilis. ergo poni non 
+      <lb ed="#L" n="70"/>possunt duo tales amores. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2575">
+                  <lb ed="#L" n="71"/>Praeterea: Si ponuntur duo amores, vnus 
+      es<lb ed="#L" break="no" n="72"/>sentialis, &amp; alius subsistens, aut in Spiritu 
+      san<lb ed="#L" break="no" n="73"/>cto est solus amor subsistens sine essentiali, aut 
+      <lb ed="#L" n="74"/>subsistens cum essentiali, distinctus realiter, &amp; 
+      <lb ed="#L" n="75"/>formaliter, aut distinctus formaliter, &amp; 
+      indi<lb ed="#L" break="no" n="76"/>stinctus realiter, aut indistinctus re, &amp; 
+      ratio<lb ed="#L" break="no" n="77"/>ne. sed non potest dari primum: tum quia amor 
+      <lb ed="#L" n="78"/>essentialis non esset in Spiritu sancto, quod est 
+      <lb ed="#L" n="79"/>erroneum: nec secundum, quod Spiritus 
+      san<lb ed="#L" break="no" n="80"/>ctus duplici realitate esset amans, amore 
+      scili<lb ed="#L" break="no" n="81"/>cet essentiali, &amp; amore subsistenti: &amp; cum 
+      amo<lb ed="#L" break="no" n="82"/>res illi sint subiecti, &amp; infiniti, esset duplici 
+      rea<lb ed="#L" break="no" n="83"/>litate vocatiuus, &amp; infinitiuus, &amp; ita magis, 
+      <lb ed="#L" n="84"/>quam pater. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2608">
+                  <lb ed="#L" n="85"/>Nec potest dari tertium, quia idem 
+      inconue<lb ed="#L" break="no" n="86"/>niens sequeretur, quod saltem formaliter, &amp; 
+      <lb ed="#L" n="87"/>secundum rationem esset magis infinitus, quam 
+      <lb ed="#L" n="88"/>pater. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2619">
+                  <lb ed="#L" n="89"/>Nec etiam potest dari quartum, quia amor 
+      <lb ed="#L" n="90"/>essentialis non est subsistens, ille vero 
+      produ<lb ed="#L" break="no" n="91"/>ctus, ille procedens, ille communis tribus, iste 
+      <lb ed="#L" n="92"/>proprius vni personae. ergo duplex amor poni 
+      <lb ed="#L" n="93"/>non potest, vnus essentialis, &amp; alius subsistens: 
+      <lb ed="#L" n="94"/>&amp; idem potest de sapientia concludi. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2635">
+                  <lb ed="#L" n="95"/>Est tamen sciendum, quod si accipiatur 
+      sa<lb ed="#L" break="no" n="96"/>pientia obiectiua, sicut intelligentia, vel 
+      noti<lb ed="#L" break="no" n="97"/>tia, vel cogitatio obiectiua, concedi potest, quod 
+      <lb ed="#L" n="98"/>in Deo sunt duae sapientiae, vna quidem 
+      forma<lb ed="#L" break="no" n="99"/>liter, quae est communis tribus, &amp; est perfectio 
+      <lb ed="#L" n="100"/>simpliciter, &amp; quae non est aliud, quam Deitas, 
+      <lb ed="#L" n="101"/>prout sibi omnia sunt improducta, tamquam 
+      <lb ed="#L" n="102"/>aperta, &amp; nuda, alia vero obiectiua, quae non 
+      <lb ed="#L" n="103"/>est perfectio, sed ipsum verbum, claudens in se 
+      <lb ed="#L" n="104"/>Deitatem cum proprietate indistincta ab ea 
+      <lb ed="#L" n="105"/>scilicet cum apparentia reali. sic etiam de 
+      amo<lb ed="#L" break="no" n="106"/>re possumus dicere, quod est duplex amor, vnus 
+      <lb ed="#L" n="107"/>quidem formalis perfectio simpliciter, &amp; 
+      com<lb ed="#L" break="no" n="108"/>munis tribus, alius vero processus, qui non est 
+      <lb ed="#L" n="109"/>aliud, quam Spiritus amantis, seu vinculum 
+      <lb ed="#L" n="110"/>gourt de iaat 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2673">
+                  <lb ed="#L" n="111"/>Quod filius non est sapiens sapientia genita.
+    </p>
+               <p xml:id="ol96b1-233511-d1e2678">
+                  <lb ed="#L" n="112"/>TERTIA quoque propositio est, quod haec 
+      <lb ed="#L" n="113"/>simpliciter non est concedenda: Filius est 
+      <lb ed="#L" n="114"/>sapiens sapientia genita. est tamen 
+      consideran<lb ed="#L" break="no" n="115"/>dum, quod triplex potest esse intelligentia 
+      hu<lb ed="#L" break="no" n="116"/>ius dicti. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2691">
+                  <lb ed="#L" n="117"/>Prima quidem, quod sit in eo aliqua 
+      sapien<lb ed="#L" break="no" n="118"/>tia generata, esse capiens per generationem. 
+      <lb ed="#L" n="119"/>&amp; hic intellectus est falsus, quia sicut non est in 
+      <lb ed="#L" n="120"/>filio aliqua generata essentia, sic nec aliqua 
+      sa<lb ed="#L" break="no" n="121"/>pientia, aut aliqua perfectio, sed totum 
+      essen<lb ed="#L" break="no" n="122"/>tiae communicatum, absque quod productionem 
+      <lb ed="#L" n="123"/>capiant, quod sint res, etiam vt existunt in 
+      <lb ed="#L" n="124"/>filio. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2711">
+                  <lb ed="#L" n="125"/>Secunda vero, quod fiat relatio ad 
+      hyposta<lb ed="#L" break="no" n="126"/>sim, &amp; sit sensus, quod filius, qui est hypostasis 
+      <!--0728.xml-->
+      <pb ed="#L" n="728"/>
+                  <!-- column order error in coord file -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>genita, sit sapiens se ipso, referendo ad totam 
+      <lb ed="#L" n="2"/>hypostasim, vel proprietatem personalem: &amp; sic 
+      <lb ed="#L" n="3"/>etiam non est verum, quod filius sit sapiens 
+      to<lb ed="#L" break="no" n="4"/>ta sua personalitate, quae genita est, aut sua 
+      pro<lb ed="#L" break="no" n="5"/>prietate personali; quia non est sapiens eo, quo 
+      <lb ed="#L" n="6"/>persona genita, nec quo verbum, secundum Au 
+      <lb ed="#L" n="7"/>gustinum, sed eo, quo Deus. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2742">
+                  <lb ed="#L" n="8"/>Tertia quoque intelligentia potest esse, vt 
+      ac<lb ed="#L" break="no" n="9"/>cipiatur sapientia genita pro sapientia per 
+      ge<lb ed="#L" break="no" n="10"/>nerationem communicata, tamquam forma 
+      <lb ed="#L" n="11"/>symbolica, &amp; penitus improducta, vt superius 
+      <lb ed="#L" n="12"/>dictum fuit: &amp; sic concedi potest, quod filius 
+      <lb ed="#L" n="13"/>est sapiens sapientia per generationem sibi 
+      com<lb ed="#L" break="no" n="14"/>municata, a sicut est per essentiam sibi 
+      commu<lb ed="#L" break="no" n="15"/>nicata, &amp; amat amore sibi communicato &amp; 
+      <lb ed="#L" n="16"/>quicquid habet hic modus, habet per 
+      genera<lb ed="#L" break="no" n="17"/>tionem communicatam. sed quia proprie 
+      for<lb ed="#L" break="no" n="18"/>ma symbolica non dicitur genita, idcirco 
+      sim<lb ed="#L" break="no" n="19"/>pliciter loquendo, non est ista locutio 
+      conce<lb ed="#L" break="no" n="20"/>denda. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2773">
+                  <lb ed="#L" n="21"/>Ex hoc patet, vtrum sit concedendum, quod 
+      <lb ed="#L" n="22"/>filius sit sapiens se ipso si enim neget originem, 
+      <lb ed="#L" n="23"/>non est verum, quod sit sapiens a seipso, immo 
+      <lb ed="#L" n="24"/>a patre. si non referatur ad causalitatem 
+      for<lb ed="#L" break="no" n="25"/>malem, vel refertur ad totam personalitatem, 
+      <lb ed="#L" n="26"/>nec adhuc verum est, quod tota personalitate, 
+      <lb ed="#L" n="27"/>sit formaliter sapiens: vel ad proprietatem 
+      <lb ed="#L" n="28"/>personalem, nec adhuc habet veritatem: vel ad 
+      <lb ed="#L" n="29"/>essentiam, &amp; tunc est verum, &amp; sensus est, 
+      sa<lb ed="#L" break="no" n="30"/>piens per essentiam, quae est id ipsum, quod 
+      fi<lb ed="#L" break="no" n="31"/>anatet, ceotniequetnt &amp; tsrnpieuta s ieso. &amp; 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2800">
+                  <lb ed="#L" n="32"/>Responsio ad obiecta. 
+      <lb ed="#L" n="33"/>AD ea ergo, quae superius inducuntur 
+      di<lb ed="#L" break="no" n="34"/>cendum est. 
+      <lb ed="#L" n="35"/>Ad primum quidem, quod non diligit se 
+      pa<lb ed="#L" break="no" n="36"/>ter, &amp; filius bis, quamuis diligant se per 
+      essen<lb ed="#L" break="no" n="37"/>tiam, &amp; per Spiritum sanctum nam per essentiam 
+      <lb ed="#L" n="38"/>diligunt se formaliter, per Spiritum sanctum 
+      <lb ed="#L" n="39"/>vero, quasi per nexum: haec autem occurrunt 
+      <lb ed="#L" n="40"/>ad vnicam dilectionem, cum diligere in 
+      diui<lb ed="#L" break="no" n="41"/>nis non sit aliud, quam Deitas, prout vnit 
+      ali<lb ed="#L" break="no" n="42"/>cui per seipsum, positum in esse lato, &amp; dato 
+      il<lb ed="#L" break="no" n="43"/>li: sic autem est Spiritus sanctus, &amp; ita 
+      Dei<lb ed="#L" break="no" n="44"/>tas, vt est amor, connotat Spiritum sanctum per
+      <!--0728.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="45"/>modum vinculi, vel medij, quo aliud attingit, 
+      <lb ed="#L" n="46"/>tamquam datum illi. non est ergo bis diligere, 
+      <lb ed="#L" n="47"/>sed ad vnum diligere concurrere principium 
+      <lb ed="#L" n="48"/>formale, &amp; nexum mediantem 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2844">
+                  <lb ed="#L" n="49"/>Ad secundum dicendum, quod pater non 
+      <lb ed="#L" n="50"/>est sapiens sapientia genita, tamquam formali 
+      <lb ed="#L" n="51"/>principio, sed quando sapiat res, &amp; se ipsum, 
+      <lb ed="#L" n="52"/>&amp; omnia, quae concipit mediante ipso verbo 
+      <lb ed="#L" n="53"/>obiectiue, nullum inconueniens est, immo opor 
+      <lb ed="#L" n="54"/>tet. necesse est enim, quod omnis creatura, &amp; 
+      <lb ed="#L" n="55"/>intelligibile omni Deitati appareat, &amp; hoc est 
+      <lb ed="#L" n="56"/>Deitatem esse intelligibile quoddam subsistens, 
+      <lb ed="#L" n="57"/>&amp; sapere eminens; apparentia vero obiectiua 
+      <lb ed="#L" n="58"/>omnis intelligibilis est ipsum verbum, vt 
+      di<lb ed="#L" break="no" n="59"/>ctum est. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2870">
+                  <lb ed="#L" n="60"/>Ad tertium dicendum, quod probat 
+      Spiri<lb ed="#L" break="no" n="61"/>tum sanctum, non esse formale principium, quo 
+      <lb ed="#L" n="62"/>se diligunt Pater, &amp; Filius; sed quod non sit 
+      <lb ed="#L" n="63"/>vniens medium, non concludit, &amp; per 
+      idem<lb ed="#L" break="no" n="64"/>patet ad quartum 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2883">
+                  <lb ed="#L" n="65"/>Ad quintum dicendum, quod Pater diligit, 
+      <lb ed="#L" n="66"/>se Spiritu sancto, dilectione essentiali, 
+      inquan<lb ed="#L" break="no" n="67"/>tum est nexus omnis vnionis eo modo, quo 
+      <lb ed="#L" n="68"/>dictum est. Potest etiam dici, quod 
+      reflecti<lb ed="#L" break="no" n="69"/>tur supra se aliquo modo, mediante actu 
+      no<lb ed="#L" break="no" n="70"/>tionali. licet enim non spiret se, spirat tamen 
+      <lb ed="#L" n="71"/>erga se, &amp; erga esse amatum 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2901">
+                  <lb ed="#L" n="72"/>Ad sextum dicendum, quod ista loquutio, 
+      <lb ed="#L" n="73"/>resolui potest in propositionem. verum est 
+      q<lb ed="#L" break="no" n="74"/>nim, quod Pater, &amp; Filius diligunt se per 
+      Spi<lb ed="#L" break="no" n="75"/>ritum sanctnm, non quod notet propositio 
+      il<lb ed="#L" break="no" n="76"/>la per causalitatem Spiritus sancti, super 
+      dile<lb ed="#L" break="no" n="77"/>ctionem Patris, &amp; Filij, sed notat 
+      tantummo<lb ed="#L" break="no" n="78"/>do medij rationem; medium autem per hunc 
+      <lb ed="#L" n="79"/>modum construitur. dicitur enim 
+      proprie<lb ed="#L" break="no" n="80"/>quod licet vniantur per glutinum, &amp; per 
+      me<lb ed="#L" break="no" n="81"/>dium, vel glutino, tamquam medio. vnde 
+      me<lb ed="#L" break="no" n="82"/>dio non repugnat, quod cum alio construatur 
+      <lb ed="#L" n="83"/>in habitudine ablatiui. 
+    </p>
+               <p xml:id="ol96b1-233511-d1e2930">
+                  <lb ed="#L" n="84"/>Ad vltimum dicendum, quod non 
+      concedi<lb ed="#L" break="no" n="85"/>tur, quod intelligat Pater verbo, 
+      tamquam<lb ed="#L" break="no" n="86"/>formali principio si spiritus legat, vel capiat 
+      <lb ed="#L" n="87"/>res mediante verbo, tamquam medio 
+      obiecti<lb ed="#L" break="no" n="88"/>uo, concedere oportet. non est autem 
+      intelli<lb ed="#L" break="no" n="89"/>gere aliud, quam illud intra se apparere; haec 
+      <lb ed="#L" n="90"/>autem apparentia non est aliud, quam 
+      ipsum<lb ed="#L" break="no" n="91"/>vt dictum est saepe. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

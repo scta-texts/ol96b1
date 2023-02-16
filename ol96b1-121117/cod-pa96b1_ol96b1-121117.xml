@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="371"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-121117"> <!-- l1d13p1-prae -->
+            <head xml:id="ol96b1-121117-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-121117-d1e104">
+      <!--0371.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="53"/>QVARE SPJRJTVS SANCTVS, CVM SJT 
+      <lb ed="#L" n="54"/>de substantia Patris, non dicatur genitus, vel filius, sed tantum 
+      pro<lb ed="#L" break="no" n="55"/>cedens: cur vero Filius natus tantum, non autem procedens: quae 
+      <lb ed="#L" n="56"/>sit distinctio inter Generationem Filij, &amp; Processionem Spiritus 
+      <lb ed="#L" n="57"/>sancti, &amp; an Spiritus sanctus dicatur ingenitus. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e122">
+               <lb ed="#L" n="58"/>DISTINCTIO XIII.
+    </p>
+            <p xml:id="ol96b1-121117-d1e127">
+      <!--0371.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="59"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e137">
+               <lb ed="#L" n="60"/>POST hoc considerandum, &amp;c. 
+      <lb ed="#L" n="61"/>Postquam comparauit 
+      Ma<lb ed="#L" break="no" n="62"/>gister processionem spiritus 
+      <lb ed="#L" n="63"/>sancti ad terminum, 
+      princi<lb ed="#L" break="no" n="64"/>pium, &amp; modum, hic 
+      com<lb ed="#L" break="no" n="65"/>parat ipsammet ad suum 
+      di<lb ed="#L" break="no" n="66"/>sparatum, quod est 
+      genera<lb ed="#L" break="no" n="67"/>tio. Et circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e157">
+               <lb ed="#L" n="68"/>Primo enim inquirit, an spiritus sanctus 
+      nun<lb ed="#L" break="no" n="69"/>cupari possit natus, seu filius. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e164">
+               <lb ed="#L" n="70"/>Secundo inquirit, quae sit differentia inter 
+      fi<lb ed="#L" break="no" n="71"/>lij, &amp; spiritus sancti processionem. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e171">
+               <lb ed="#L" n="72"/>Tertio inquirit, an spiritus sanctus saltem 
+      in<lb ed="#L" break="no" n="73"/>genitus dici possit. secunda ibi: Inter generationem. 
+      <lb ed="#L" n="74"/>tertia ibi: Nunc considerandum est. Circa primum 
+      <lb ed="#L" n="75"/>tria facit. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e182">
+               <lb ed="#L" n="76"/>Primo enim inquirit, cur spiritus sanctus non 
+      <lb ed="#L" n="77"/>dicatur natus, seu filius, &amp; dicit, quod hoc est, 
+      <lb ed="#L" n="78"/>quia cum sit amborum spiritus, amborum filius 
+      <lb ed="#L" n="79"/>diceretur, filius autem nullus est duorum, nisi pa 
+      <lb ed="#L" n="80"/>tris, &amp; matris; absit autem, vt pater, &amp; mater lo 
+      <lb ed="#L" n="81"/>cum habeant in diuinis. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e198">
+               <lb ed="#L" n="82"/>Secundo ibi: Cum autem spiritus. Magister 
+      quae<lb ed="#L" break="no" n="83"/>rit, quare cum spiritus sanctus non dicatur 
+      ge<lb ed="#L" break="no" n="84"/>nitus, sed tantummodo procedens, filius dicatur 
+      <lb ed="#L" n="85"/>&amp; genitus, &amp; procedens, &amp; respondet, quod filius 
+      <!--0371.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="86"/>procedit nascendo, spiritus autem sanctus proce 
+      <lb ed="#L" n="87"/>dit per modum doni, &amp; dati, &amp; non per modum nati. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e219">
+               <lb ed="#L" n="88"/>Tertio ibi: Ac per hoc. Redit ad soluendam 
+      pri<lb ed="#L" break="no" n="89"/>mam quaestionem, dicens, quod per hoc elucesce 
+      <lb ed="#L" n="90"/>re potest, quare spiritus sanctus non dicatur 
+      fi<lb ed="#L" break="no" n="91"/>lius, &amp; dicit, quod hoc est, quia procedit per mo 
+      <lb ed="#L" n="92"/>dum doni; donum autem filius dici non potest, 
+      <lb ed="#L" n="93"/>quia munus ex sua ratione non habet, quod 
+      ge<lb ed="#L" break="no" n="94"/>neretur, aut nascatur. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e237">
+               <lb ed="#L" n="95"/>Postmodum ibi: Inter generationem vero. 
+      Ma<lb ed="#L" break="no" n="96"/>gister inquirit, quomodo distinguantur 
+      genera<lb ed="#L" break="no" n="97"/>tio filij, &amp; processio spiritus sancti. &amp; circa hoc 
+      <lb ed="#L" n="98"/>facit duo. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e248">
+               <lb ed="#L" n="99"/>Primo enim assignat differentiam quandam 
+      <lb ed="#L" n="100"/>inter spirationem, &amp; generationem, dicens, quod 
+      <lb ed="#L" n="101"/>Augustinus soluit hanc quaestionem Maximino 
+      <lb ed="#L" n="102"/>haeretico, eam saepius replicanti, quod ideo filius 
+      <lb ed="#L" n="103"/>est genitus, &amp; spiritus sanctus est procedens, quia 
+      <lb ed="#L" n="104"/>si filius diceretur, esset vtique amborum filius, quod 
+      <lb ed="#L" n="105"/>inconuenienter attribueretur patri, &amp; filio. 
+      videre<lb ed="#L" break="no" n="106"/>tur enim, quod vnus pater, &amp; alius esset mater. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e268">
+               <lb ed="#L" n="107"/>Secundo ibi: Quid autem excusat. se fert 
+      amplio<lb ed="#L" break="no" n="108"/>ri inuestigatione, dicens, quod intantum differt 
+      <lb ed="#L" n="109"/>processio, &amp; generatio, quod omne, quod 
+      nasci<lb ed="#L" break="no" n="110"/>tur procedit, sed non omne nascitur, quod proce 
+      <lb ed="#L" n="111"/>dit; vnde habet se in plus procedere, quam 
+      na<lb ed="#L" break="no" n="112"/>sci, sicut bipes communius est, quam homo, di- 
+      <!--0372.xml-->
+      <pb ed="#L" n="372"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>stinguere autem exquisitius nescio, non valeo, 
+      <lb ed="#L" n="2"/>non sufficio, quia scriptum est Isaiae 53. 
+      Genera<lb ed="#L" break="no" n="3"/>tionem eius quis enarrabit? 
+    </p>
+            <p xml:id="ol96b1-121117-d1e297">
+               <lb ed="#L" n="4"/>Postmodum ibi: Nunc considerandum est. Magister 
+      <lb ed="#L" n="5"/>inquirit, vtrum spiritus sanctus saltem dici 
+      pos<lb ed="#L" break="no" n="6"/>sit ingenitus. Et circa hoc quatuor facit. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e306">
+               <lb ed="#L" n="7"/>Primo enim determinat, quod non, ex dictis 
+      <lb ed="#L" n="8"/>Augustini dicentis, quod catholica fides 
+      decla<lb ed="#L" break="no" n="9"/>rat, spiritum sanctum, nec genitum, nec ingenitum 
+      <lb ed="#L" n="10"/>dici posse, ne si dicamus ipsum ingenitum, duos 
+      <lb ed="#L" n="11"/>patres concedere videamur, &amp; si genitum, duos 
+      <lb ed="#L" n="12"/>filios; vnde si Spiritus sanctus diceretur 
+      ingeni<lb ed="#L" break="no" n="13"/>tus in hoc vocabulo, duorum patrum suspicio 
+      ori<lb ed="#L" break="no" n="14"/>retur: putaret namque quispiam forsitan, quod 
+      <lb ed="#L" n="15"/>in illa Trinitate essent duo patres, vel duo, qui 
+      <lb ed="#L" n="16"/>non essent de alio, &amp; ob hoc vocabulum, 
+      ingeni<lb ed="#L" break="no" n="17"/>ti, appropriatur soli patri.
+    </p>
+            <p xml:id="ol96b1-121117-d1e333">
+               <lb ed="#L" n="18"/>Secundo ibi: Hieronymus tamen. Magister 
+      obii<lb ed="#L" break="no" n="19"/>cit ex dictis Hieronymi, qui dicit in regulis 
+      de<lb ed="#L" break="no" n="20"/>finitionum contra haereticos, quod spiritus 
+      san<lb ed="#L" break="no" n="21"/>ctu: pater non est, sed ingenitus, atque non factus. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e344">
+               <lb ed="#L" n="22"/>Tertio ibi: Sed vt ipsamet. Magister concordat 
+      <lb ed="#L" n="23"/>Hieronymum cum Augustino dicens, quod 
+      Au<lb ed="#L" break="no" n="24"/>gustinus accipit ingenitum pro improducto, vt 
+      <lb ed="#L" n="25"/>omnis modus productionis negetur, &amp; secundum 
+      <lb ed="#L" n="26"/>hoc dicit, quod spiritus sanctus non est ingenitus, 
+      <lb ed="#L" n="27"/>cum verissime sit productus. Hieronymus autem 
+      <lb ed="#L" n="28"/>accepit ingenitum pro non producto per 
+      gene<lb ed="#L" break="no" n="29"/>rationem, &amp; secundum hoc verum est, quod 
+      spi<lb ed="#L" break="no" n="30"/>ritus sanctus est ingenitus, &amp; non factus, quia nec 
+      <lb ed="#L" n="31"/>factus, vt creaturae, nec generatus, vt filius. 
+    </p>
+            <p xml:id="ol96b1-121117-d1e368">
+               <lb ed="#L" n="32"/>Quarto ibi: Quod autem Hieronymus. Magister 
+      <lb ed="#L" n="33"/>ex verbis eiusdem Hieronymi praedictum elicit 
+      <lb ed="#L" n="34"/>intellectum, &amp; ponit quandam diuisionem, quae 
+      <lb ed="#L" n="35"/>patet in littera. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

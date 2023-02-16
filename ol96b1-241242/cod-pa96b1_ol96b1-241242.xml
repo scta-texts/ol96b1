@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="743"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-241242"> <!-- l1d34p1-q1 -->
+            <head xml:id="ol96b1-241242-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-241242-Hd1e104" type="question-title">
+        Utrum essentialia nomina debeant appropriari personis 
+      </head>
+            <p xml:id="ol96b1-241242-d1e107">
+               <lb ed="#L" n="87"/>Vtrum essentialia nomina debeant 
+      appropria<lb ed="#L" break="no" n="88"/>ri personis. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e114">
+               <lb ed="#L" n="89"/>ET quia Magister inquirit hic, quomodo se 
+      <lb ed="#L" n="90"/>habeat natura, &amp; suppositum in diuinis, &amp; ite 
+      <lb ed="#L" n="91"/>rum de nominibus translatis, &amp; de nominibus 
+      <lb ed="#L" n="92"/>essentialibus, quae personis appropriantur, &amp; 
+      <lb ed="#L" n="93"/>de nomine Homousion, quod idem significat, 
+      <lb ed="#L" n="94"/>quod consubstantiale, aut vnius, eiusdemque 
+      <lb ed="#L" n="95"/>naturae; inquirendum quidem esset &amp; de 
+      natu<lb ed="#L" break="no" n="96"/>ra, &amp; supposito, siue de concreto, &amp; abstracto, 
+      <lb ed="#L" n="97"/>&amp; similiter de essentia, an praedicetur de 
+      perso<lb ed="#L" break="no" n="98"/>nis. sed quia materia ista supra tractata est 
+      di<lb ed="#L" break="no" n="99"/>stinctione 2. quaest. 2. ideo pro aliis inquirendum 
+      <lb ed="#L" n="100"/>occurrit, vtrum essentialia nomina debeant 
+      ap<lb ed="#L" break="no" n="101"/>propriari personis. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e146">
+               <lb ed="#L" n="102"/>Et videtur, quod non; illud enim non debet 
+      <lb ed="#L" n="103"/>theologice fieri, quod praebet occasionem erro 
+      <lb ed="#L" n="104"/>ris, sed appropriatio essentialium ad personas 
+      <lb ed="#L" n="105"/>potest praebere occasionem erroris, inquantum 
+      <lb ed="#L" n="106"/>possunt aliqui opinari, quod non sit alia bonitas 
+      <lb ed="#L" n="107"/>in Deo, quam spiritus; aut alius amor, aut 
+      a<lb ed="#L" break="no" n="108"/>lia sapientia, vel intellectio, nisi filius. ergo non 
+      <lb ed="#L" n="109"/>videtur conueniens, quod nomina communia 
+      <lb ed="#L" n="110"/>approprientur personis. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e168">
+               <lb ed="#L" n="111"/>Praeterea: Quando aliqua vnum, &amp; idem significant, 
+      <lb ed="#L" n="112"/>si vnum non appropriatur, nec reliquum; sed no 
+      <lb ed="#L" n="113"/>mina essentialia significant id ipsum, quod 
+      sub<lb ed="#L" break="no" n="114"/>stantia, vel natura. nullus autem omnem 
+      sub<lb ed="#L" break="no" n="115"/>stantiam, vel naturam appropriauit personis; 
+      <lb ed="#L" n="116"/>vnde non appropriatur patri Deitas, aut filio. 
+      <lb ed="#L" n="117"/>ergo nec nomina essentialia debent appropriari. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e186">
+               <lb ed="#L" n="118"/>Praeterea: Appropriatio debet fieri ratione 
+      <lb ed="#L" n="119"/>maioris similitudinis; sed omnes personae sunt 
+      <lb ed="#L" n="120"/>similes, &amp; aequales in essentialibus. ergo non 
+      <lb ed="#L" n="121"/>debet aliquod essentiale appropriari personis. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e197">
+               <lb ed="#L" n="122"/>Praeterea: Illud non debet appropriari vni 
+      per<lb ed="#L" break="no" n="123"/>sonae, quod appropriatur alteri, ne per hoc 
+      vi<lb ed="#L" break="no" n="124"/>deantur confundi. sed Apostolus prima ad 
+      Co<lb ed="#L" break="no" n="125"/>rinth. 1. appropriat filio potentiam, &amp; virtutem, 
+      <lb ed="#L" n="126"/>dicens Christum Dei sapientiam, &amp; Dei 
+      virtu<lb ed="#L" break="no" n="127"/>tem. similiter &amp; Saluator appropriat patri 
+      sa<lb ed="#L" break="no" n="128"/>pientiam Ioan. 7. cum ait: Mea doctrina non est 
+      <lb ed="#L" n="129"/>mea, sed eius, qui misit me, &amp; Io. 5. cum dicit: Non 
+      <lb ed="#L" n="130"/>potest filius quicquam facere, nisi quodviderit 
+      <lb ed="#L" n="131"/>patrem facientem. similiter amor, &amp; dilectio 
+      <lb ed="#L" n="132"/>videtur appropriari patri Io. 6. cum dicitur: Sic 
+      <!--0744.xml-->
+      <pb ed="#L" n="744"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Deus dilexit mundum, vt filium suum 
+      vnigeni<lb ed="#L" break="no" n="2"/>tum daret. ergo quod potentia approprietur 
+      pa<lb ed="#L" break="no" n="3"/>tri, &amp; sapientia filio, &amp; clementia spiritui 
+      san<lb ed="#L" break="no" n="4"/>cto, non videtur rationaliter fieri. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e238">
+               <lb ed="#L" n="5"/>Praeterea: Appropriatio non debet fieri, nisi 
+      <lb ed="#L" n="6"/>propter conuenientiam maiorem cum proprio 
+      <lb ed="#L" n="7"/>personae primae; sed sapientia magis conuenit cum 
+      <lb ed="#L" n="8"/>proprietate patris, quae est dicere, quam cum 
+      <lb ed="#L" n="9"/>proprietate filij, quae est verbum, vel dictum. 
+      sa<lb ed="#L" break="no" n="10"/>pientis enim est dicere, nec verbum est 
+      proprie<lb ed="#L" break="no" n="11"/>sapiens in humauis. similiter &amp; bonum, quod est sui 
+      <lb ed="#L" n="12"/>ipsius diffusiuum secundum Diony. videtur maxime 
+      <lb ed="#L" n="13"/>conuenire cum ipso generare, &amp; cum persona patris, 
+      <lb ed="#L" n="14"/>quae est fontana diuinitatis, &amp; principium totius 
+      <lb ed="#L" n="15"/>Deitatis. nam &amp; aeque conuenit personae filij, sicut 
+      <lb ed="#L" n="16"/>&amp; sapientia; procedit enim per modum, 
+      inquan<lb ed="#L" break="no" n="17"/>tum filius, sicut per modum sapientiae, 
+      inquan<lb ed="#L" break="no" n="18"/>tum verbum. ergo appropriatio illa videtur 
+      <lb ed="#L" n="19"/>inconueniens. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e273">
+               <lb ed="#L" n="20"/>Praeterea: Appropriationes illae deberent esse 
+      <lb ed="#L" n="21"/>vniformes. multiplicitas enim parit 
+      confusio<lb ed="#L" break="no" n="22"/>nem; sed non sunt vniformes, quia Hilarius ap- 
+    </p>
+            <p xml:id="ol96b1-241242-d1e283">
+               <lb ed="#L" n="23"/>propriat patri aeternitatem, filio speciem, 
+      spiri<lb ed="#L" break="no" n="24"/>tui sancto vsum: Augustinus vero patri 
+      vnita<lb ed="#L" break="no" n="25"/>tem, filio aequalitatem, &amp; spiritui sancto 
+      concor<lb ed="#L" break="no" n="26"/>diam vtriusque. Magister in praesenti 
+      distinctio<lb ed="#L" break="no" n="27"/>ne dicit patri appropriari potentiam, filio 
+      sapien<lb ed="#L" break="no" n="28"/>tiam, &amp; spiritui sancto benignitatem, &amp; 
+      clemen<lb ed="#L" break="no" n="29"/>tiam. ergo videtur, quod tales appropriationes 
+      <lb ed="#L" n="30"/>non sint conuenientes. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e303">
+               <lb ed="#L" n="31"/>Quod essentialia conuenienter appropriantur 
+      <lb ed="#L" n="32"/>personis. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e310">
+               <lb ed="#L" n="33"/>SED in oppositum videtur, quod essentialia 
+      <lb ed="#L" n="34"/>conuenienter approprientur personis. vsus 
+      <lb ed="#L" n="35"/>namque Scripturae, &amp; Sanctorum auctoritates no 
+      <lb ed="#L" n="36"/>bis sunt aemulandae, secundum quod Magister dicit 
+      <lb ed="#L" n="37"/>in littera. sed appropriationes istae int roductae 
+      <lb ed="#L" n="38"/>sunt ex vsu Scripturae, &amp; auctoritate Sanctorum, 
+      <lb ed="#L" n="39"/>sicut patet, quod Apostolus appropriauit filio 
+      <lb ed="#L" n="40"/>sapientiam, 1. Cor. 1. spiritui sancto vero 
+      bonita<lb ed="#L" break="no" n="41"/>tem, &amp; clementiam Sapientiae 12. dicens: O quam 
+      <lb ed="#L" n="42"/>bonus, &amp; quam suauis est Domine spiritus tuus 
+      <lb ed="#L" n="43"/>in nobis. Hilarius quoque, &amp; Augustinus appro 
+      <lb ed="#L" n="44"/>priationes suas fecerunt, vt patet de Hilar. a. de 
+      <lb ed="#L" n="45"/>Trinit. de Augustino vero 1. de doctr. 
+      Christia<lb ed="#L" break="no" n="46"/>na. ergo tales appropriationes possunt fieri 
+      <lb ed="#L" n="47"/>congruenter. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e345">
+               <lb ed="#L" n="48"/>Praeterea: Non solum ex imagine 
+      conscendi<lb ed="#L" break="no" n="49"/>mus ad notitiam Trinitatis, immo &amp; ex 
+      vesti<lb ed="#L" break="no" n="50"/>gio, sed vestigium non inducit in perfectiones ap 
+      <lb ed="#L" n="51"/>propriatas, sed sapientiam, bonitatem, &amp; 
+      poten<lb ed="#L" break="no" n="52"/>tiam, vel vnitatem, speciem, &amp; originem, seu 
+      a<lb ed="#L" break="no" n="53"/>morem: imago autem ducit ad propria, &amp; ad ha 
+      <lb ed="#L" n="54"/>bitudines originum. ergo appropriatio 
+      essen<lb ed="#L" break="no" n="55"/>tialium nominum realiter fieri debet. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e365">
+               <lb ed="#L" n="56"/>Praeterea: Illud videtur personis 
+      appropria<lb ed="#L" break="no" n="57"/>ri posse, secundum quod dicuntur procedere; sed 
+      <lb ed="#L" n="58"/>dicimus, quod fiiius procedit per modum 
+      sa<lb ed="#L" break="no" n="59"/>pientiae, &amp; intellectus, &amp; spiritus sanctus per 
+      <lb ed="#L" n="60"/>modum amoris, &amp; voluntatis. ergo 
+      pertinen<lb ed="#L" break="no" n="61"/>tia ad intellectum appropriari poterunt 
+      con<lb ed="#L" break="no" n="62"/>grue filio, pertinentia vero ad voluntatem, 
+      spi<lb ed="#L" break="no" n="63"/>ritui sancto.
+    </p>
+            <p xml:id="ol96b1-241242-d1e385">
+      <!--0744.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="64"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-241242-d1e395">
+               <lb ed="#L" n="65"/>AD quaestionem istam respondendo, hoc 
+      or<lb ed="#L" break="no" n="66"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e402">
+               <lb ed="#L" n="67"/>primo namque inquiretur de nominibus 
+      <lb ed="#L" n="68"/>communibus, an sint appropriata personis. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e409">
+               <lb ed="#L" n="69"/>Secundo vero, de nominibus translatis, atrum 
+      <lb ed="#L" n="70"/>habeant locum in diuinis. 
+    </p>
+            <p xml:id="ol96b1-241242-d1e416">
+               <lb ed="#L" n="71"/>Tertio quoque de hoc nomine, Homousion, 
+      <lb ed="#L" n="72"/>vtrum concedendum sit, quod tres personae sint 
+      <lb ed="#L" n="73"/>vnius essentiae, &amp; eiusdem naturae. 
+    </p>
+            <div xml:id="ol96b1-241242-Dd1e425">
+               <head xml:id="ol96b1-241242-Hd1e427">Articulus 1</head>
+               <p xml:id="ol96b1-241242-d1e429">
+                  <lb ed="#L" n="74"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e434">
+                  <lb ed="#L" n="75"/>De nominibus supra positis appropriatis personis. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e439">
+                  <lb ed="#L" n="76"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="77"/>de nominibus appropriatis notitia poterit 
+      <lb ed="#L" n="78"/>colligi ex quadruplici propositione. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e448">
+                  <lb ed="#L" n="79"/>Prima quidem, quod appropriatio talis 
+      du<lb ed="#L" break="no" n="80"/>plici de causa inuenta. prima quidem ad 
+      re<lb ed="#L" break="no" n="81"/>mouendum ea, quae imperfectionis sunt a perso 
+      <lb ed="#L" n="82"/>nis, sicut potentia appropriatur patri,ne ex 
+      an<lb ed="#L" break="no" n="83"/>tiquitate debilis putetur. secunda vero ad 
+      ma<lb ed="#L" break="no" n="84"/>nuducendum in propria personarum, sicut 
+      fa<lb ed="#L" break="no" n="85"/>pientia manuducit ad verbum, clementia ad spi 
+      <lb ed="#L" n="86"/>ritum sanctum. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e469">
+                  <lb ed="#L" n="87"/>Secunda quoque propositio est, quod Hilar. 
+      <lb ed="#L" n="88"/>in sua appropriatione ponit tria appropriata, 
+      <lb ed="#L" n="89"/>&amp; tria propria. ait enim, quod aeternitas est in 
+      <lb ed="#L" n="90"/>patre, species in imagine, vsus in munere, pater 
+      <lb ed="#L" n="91"/>autem, imago, &amp; munus, siue donum sunt 
+      no<lb ed="#L" break="no" n="92"/>mina propria personarum; aeternitas, species, 
+      <lb ed="#L" n="93"/>&amp; vsus sunt essentialia, nihilominus personis ap 
+      <lb ed="#L" n="94"/>propriata: aeternitas quidem patri, &amp; ratione 
+      <lb ed="#L" n="95"/>primitatis, quia principium est omnis 
+      duratio<lb ed="#L" break="no" n="96"/>nis aeternitatis; &amp; ratione priuationis, quia 
+      ae<lb ed="#L" break="no" n="97"/>ternum caret principio. &amp; per primum quidem 
+      <lb ed="#L" n="98"/>manuducendo in notitiam paternitatis, per 
+      se<lb ed="#L" break="no" n="99"/>cundum vero in notitiam ingeniti, seu 
+      innasci<lb ed="#L" break="no" n="100"/>bilitatis, quae sunt duae notiones, &amp; 
+      proprieta<lb ed="#L" break="no" n="101"/>tes personae patris. species vero, seu 
+      pulchritu<lb ed="#L" break="no" n="102"/>do appropriatur filio, quia de ratione 
+      pulchri<lb ed="#L" break="no" n="103"/>tudinis est artificiosa compositio; filius autem 
+      <lb ed="#L" n="104"/>est ars plena omnium rationum, viuentium, 
+      se<lb ed="#L" break="no" n="105"/>cundum Augustinum 6. de Trinitate. adhuc 
+      de<lb ed="#L" break="no" n="106"/>ratione pulchritudinis est debita coloratio, &amp; 
+      <lb ed="#L" n="107"/>splendida, filius autem emanat, vt splendor: 
+      vn<lb ed="#L" break="no" n="108"/>de propriam rationem de figuratione, &amp; secun 
+      <lb ed="#L" n="109"/>dam tangit Apost. ad Hebr. 1. cum dicit, quod 
+      <lb ed="#L" n="110"/>est splendor gloriae, &amp; figura substantiae eius. &amp; 
+      <lb ed="#L" n="111"/>secundum hoc patet, quod pulchritudo 
+      expri<lb ed="#L" break="no" n="112"/>mit proprietatem verbi; vsus vero accipi 
+      po<lb ed="#L" break="no" n="113"/>test pro delectatione, &amp; quadam suauitate. 
+      spi<lb ed="#L" break="no" n="114"/>ritus autem sanctus emanat per modum nexus, 
+      <lb ed="#L" n="115"/>connectentis omnem amorem diuinum cum suo 
+      <lb ed="#L" n="116"/>amato, vt superius dictum fuit, propter quod 
+      si<lb ed="#L" break="no" n="117"/>bi appropriatur suauitas, &amp; vsus. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e539">
+                  <lb ed="#L" n="118"/>Tertia quoque proposirio est, quod 
+      appro<lb ed="#L" break="no" n="119"/>priatio Augustini rationalis est; congruit enim 
+      <lb ed="#L" n="120"/>vnitas patri, inquantum vnitas est principiuma 
+      <lb ed="#L" n="121"/>numerorum, &amp; ita exprimit paternitatem, &amp; 
+      <lb ed="#L" n="122"/>communem spirationem; est etiam carens 
+      om<lb ed="#L" break="no" n="123"/>ni principio, per quod exprimit 
+      innascibilita<lb ed="#L" break="no" n="124"/>tem. aequalitas vero appropriatur filio, quia de 
+      <lb ed="#L" n="125"/>ratione imaginis est, &amp; verbi, quod non excedat 
+      <lb ed="#L" n="126"/>alias erit finitum, nec excedatur, alias erit dimi 
+      <!--0745.xml-->
+      <pb ed="#L" n="745"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>natum: aequale autem est, quod nec exceditur, 
+      <lb ed="#L" n="2"/>nec excedit. Nexus autem, siue concordia appro 
+      <lb ed="#L" n="3"/>priatur spiritui sancto, non quod procedat, vt 
+      <lb ed="#L" n="4"/>amor, &amp; actus dilectionis, vt communiter 
+      di<lb ed="#L" break="no" n="5"/>citur, sed quia procedit, vt vinculum, per quod 
+      <lb ed="#L" n="6"/>amans vnitur amato, tamquam per medium, 
+      <lb ed="#L" n="7"/>vt dictum est supra: vnde si nexus, &amp; concordia 
+      <lb ed="#L" n="8"/>sumantur pro illo, quod per modum medij 
+      ne<lb ed="#L" break="no" n="9"/>ctit, tunc non sunt appropriata, sed propria 
+      <lb ed="#L" n="10"/>si vero pro eo, quod nectit formaliter, vtpote 
+      <lb ed="#L" n="11"/>pro amore, tunc sunt appropriata: amor 
+      qui<lb ed="#L" break="no" n="12"/>dem, &amp; charitas sunt communia tribus, sed 
+      ap<lb ed="#L" break="no" n="13"/>propriantur spiritui sancto. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e596">
+                  <lb ed="#L" n="14"/>Quarta demum propositio est, quod 
+      poten<lb ed="#L" break="no" n="15"/>tia, sapientia, bonitas, seu clementia 
+      appro<lb ed="#L" break="no" n="16"/>priantur communiter personis, &amp; 
+      conuenien<lb ed="#L" break="no" n="17"/>ter propter tres rationes, quas Magister tangit 
+      <lb ed="#L" n="18"/>in littera. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e609">
+                  <lb ed="#L" n="19"/>Posset autem appropriatio Augustini reduci 
+      <lb ed="#L" n="20"/>ad numeros, in patre namque est vnitas, in filio 
+      <lb ed="#L" n="21"/>vero binarius, seu aequalitas, quia pater, 
+      perso<lb ed="#L" break="no" n="22"/>na prima, filius vero, secunda, in spiritu vero est 
+      <lb ed="#L" n="23"/>Trinitas, &amp; quasi connexio, quia trinarius est 
+      <lb ed="#L" n="24"/>numerus connexus. &amp; in hoc primus articulus 
+      <lb ed="#L" n="25"/>terminetur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-241242-Dd1e628">
+               <head xml:id="ol96b1-241242-Hd1e630">Articulus 2</head>
+               <p xml:id="ol96b1-241242-d1e632">
+                  <lb ed="#L" n="26"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e637">
+                  <lb ed="#L" n="27"/>De nominibus translatiuis.
+    </p>
+               <p xml:id="ol96b1-241242-d1e642">
+                  <lb ed="#L" n="28"/>CIRCA secundum vero considerandum est, 
+      <lb ed="#L" n="29"/>quod nominum de Deo, translatiue 
+      dicto<lb ed="#L" break="no" n="30"/>rum, colligi potest notitia ex triplici 
+      proposi<lb ed="#L" break="no" n="31"/>tione. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e653">
+                  <lb ed="#L" n="32"/>Prima quidem, quod huiusmodi nomina, 
+      <lb ed="#L" n="33"/>dum praedicantur de Deo, significant idem, 
+      <lb ed="#L" n="34"/>quod aliquod proprium nomem, sicut speculum, 
+      <lb ed="#L" n="35"/>vel character, cum dicuntur de filio, 
+      signifi<lb ed="#L" break="no" n="36"/>cant id ipsum, quod imago, quae proprie 
+      dici<lb ed="#L" break="no" n="37"/>tur de verbo: similiter cum appellatur Deus 
+      <lb ed="#L" n="38"/>Leo, illud exprimitur fortis; cum vero Petra, 
+      <lb ed="#L" n="39"/>significat, quod est stabilis; cum vero 
+      agrico<lb ed="#L" break="no" n="40"/>la, significat, quod cuncta colit, &amp; nutrit: &amp; 
+      <lb ed="#L" n="41"/>secundum hoc talia nomina non dicuntur 
+      de<lb ed="#L" break="no" n="42"/>Deo secundum suam proprietatem, sed 
+      secun<lb ed="#L" break="no" n="43"/>dum similitudinem; vnde transferuntur ad signi 
+      <lb ed="#L" n="44"/>ficandum aliquam proprietatem, quae 
+      reperi<lb ed="#L" break="no" n="45"/>tur in re per talia nomina designata. ex quo pa 
+      <lb ed="#L" n="46"/>tet, quod talis translatio possibilis est, quia 
+      <lb ed="#L" n="47"/>multae perfectiones reperiuntur in creaturis, quae 
+      <lb ed="#L" n="48"/>aeminentiori modo sunt in Deo. &amp; hoc est, quod 
+      <lb ed="#L" n="49"/>Augustinus dicit super Ioannem: ait enim, quod 
+      <lb ed="#L" n="50"/>Deus dicitur vitis per similitudinem, non 
+      pro<lb ed="#L" break="no" n="51"/>prie, quemadmodum dicitur ouis, agnus, leo, 
+      <lb ed="#L" n="52"/>petra, &amp; cet era huiusmodi; vnde omnis propo 
+      <lb ed="#L" n="53"/>sitio, in qua nomen translatiuum praedicatur 
+      <lb ed="#L" n="54"/>de Deo, exponi potest per proprium: nam cum di 
+      <lb ed="#L" n="55"/>citur: Deus est leo, exponi potest, neus est fortis. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e709">
+                  <lb ed="#L" n="56"/>Secunda vero propositio est, quod nomina 
+      <lb ed="#L" n="57"/>creaturarum translata sunt ad diuina multis de 
+      <lb ed="#L" n="58"/>causis; vt itur enim Scriptura sacra talibus 
+      no<lb ed="#L" break="no" n="59"/>minibus propter multas vtilitates. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e720">
+                  <lb ed="#L" n="60"/>Prima quidem, vt veritas celetur indignis, 
+      <lb ed="#L" n="61"/>sicut scriptum est: Nolite sanctum dare 
+      cani<lb ed="#L" break="no" n="62"/>bus, aut margaritas ante porcos. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e729">
+                  <lb ed="#L" n="63"/>Secunda vero, vt simplices citius valeant ma 
+      <lb ed="#L" n="64"/>nuduci: per sensibilia namque ad intelligibi- 
+      <!--0745.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>lia facilior est assensus; vnde &amp; Philosophus 
+      di<lb ed="#L" break="no" n="66"/>cit a. Metaphysicae, quod multi sunt, qui non 
+      <lb ed="#L" n="67"/>possunt intelligere, quin imaginatio communi 
+      <lb ed="#L" n="68"/>cetur; imaginatio vero maxime per exempla 
+      <lb ed="#L" n="69"/>nutritur. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e751">
+                  <lb ed="#L" n="70"/>Tertia quoque est, vt Scriptura delectabilior 
+      <lb ed="#L" n="71"/>reddatur, &amp; facundior; nam Philosophus dicit 
+      <lb ed="#L" n="72"/>in sua Poetica, quod natura hominis 
+      repraesen<lb ed="#L" break="no" n="73"/>tationibus, &amp; similitudinibus delectatur; 
+      mul<lb ed="#L" break="no" n="74"/>ta tamen sunt delectabilia repraesentata, quae 
+      <lb ed="#L" n="75"/>tamen sunt contristantia, &amp; inferentia 
+      terro<lb ed="#L" break="no" n="76"/>rem, sicut patet de bellis, leonibus, 
+      serpenti<lb ed="#L" break="no" n="77"/>bus, quae delectabilia sunt, dum in picturis 
+      cer<lb ed="#L" break="no" n="78"/>nuntur, &amp; tamen terribilia sunt in re: vti etiam 
+      <lb ed="#L" n="79"/>exemplis, &amp; metaphoris facit ad facundiam, &amp; 
+      <lb ed="#L" n="80"/>ornatum; talibus enim vtitur rethor, vt 
+      secun<lb ed="#L" break="no" n="81"/>do, &amp; tertio Rethor. Philosophus docet. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e780">
+                  <lb ed="#L" n="82"/>Quarta quoque vtilitas est, vt Scriptura 
+      foe<lb ed="#L" break="no" n="83"/>cundior, vel multiplicior reddatur. plura enim 
+      <lb ed="#L" n="84"/>exprimuntur per res, quam exprimantur per 
+      <lb ed="#L" n="85"/>voces: vnde plures intellectus colligi possunt 
+      <lb ed="#L" n="86"/>ex talibus nominibus misticis propter multas 
+      <lb ed="#L" n="87"/>similitudines, quae reperiuntur in rebus, ex 
+      qui<lb ed="#L" break="no" n="88"/>bus translatio fit. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e798">
+                  <lb ed="#L" n="89"/>Quinta vero, vt erudiamur in via 
+      creatio<lb ed="#L" break="no" n="90"/>nis, secundum quam maxime cognoscitur neus 
+      <lb ed="#L" n="91"/>a nobis; vnde vt intelligamus non tam esse simi 
+      <lb ed="#L" n="92"/>litudinem, quam dissimilitudinem inter 
+      crea<lb ed="#L" break="no" n="93"/>turas, &amp; Deum, vtitur Scriptura nominibus 
+      si<lb ed="#L" break="no" n="94"/>gnificantibus creaturas. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e815">
+                  <lb ed="#L" n="95"/>Tertia quoque propositio est, quod talia 
+      no<lb ed="#L" break="no" n="96"/>mina translatiua non assumuntur a spiritibus, 
+      <lb ed="#L" n="97"/>sed a corporibus: non enim inuenitur Deus 
+      di<lb ed="#L" break="no" n="98"/>ctus Angelus, vel Seraphim, vel Cherubim; 
+      in<lb ed="#L" break="no" n="99"/>ter corpora vero frequentius sit translatio ab 
+      <lb ed="#L" n="100"/>ignobilibus, vt cum dicitur: Deus agricola, 
+      <lb ed="#L" n="101"/>vel lapis, vel leo; quam ab excellentibus, &amp; 
+      no<lb ed="#L" break="no" n="102"/>bilibus: raro enim dicitur, sol, &amp; luna. &amp; ratio 
+      <lb ed="#L" n="103"/>eius est, ne putetur Deus illa fore secundum 
+      <lb ed="#L" n="104"/>proprietatem. res enim viles 
+      comparatione<lb ed="#L" break="no" n="105"/>sua retrahunt animum ab errore. &amp; rationem 
+      <lb ed="#L" n="106"/>istam Dionynus tangit de caelest. hierarch. vbi 
+      quae<lb ed="#L" break="no" n="107"/>stionem istam pertractat. in hoc ergo secundus 
+      <lb ed="#L" n="108"/>articulus terminetur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-241242-Dd1e850">
+               <head xml:id="ol96b1-241242-Hd1e852">Articulus 3</head>
+               <p xml:id="ol96b1-241242-d1e854">
+                  <lb ed="#L" n="109"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-241242-d1e859">
+                  <lb ed="#L" n="110"/>De nomine Homousion, quod idem est, quod eiusdem 
+      <lb ed="#L" n="111"/>essentiae, &amp; eiusdem naturae. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e866">
+                  <lb ed="#L" n="112"/>CIRCA tertium autem considerandum est, 
+      <lb ed="#L" n="113"/>quod natura istius nominis, Homousion
+      <lb ed="#L" n="114"/>triplici propositione poterit apparere. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e875">
+                  <lb ed="#L" n="115"/>Prima quidem, quod componitur ex vsia, &amp; 
+      <lb ed="#L" n="116"/>ex vnitate, vnde aequipollet huic, vnius, 
+      eiusdem<lb ed="#L" break="no" n="117"/>que substantiae, secundum Augustinum contra 
+      <lb ed="#L" n="118"/>Maxim. libro secundo, vbi considerandum 
+      <lb ed="#L" n="119"/>quod vsia idem est, quod quidditas. est enim 
+      il<lb ed="#L" break="no" n="120"/>lud, quod importatur per definitionem. talia 
+      <lb ed="#L" n="121"/>enim sunt praedicata, quae in definitione 
+      ponun<lb ed="#L" break="no" n="122"/>tur, quod respondetur ad interrogationem 
+      fa<lb ed="#L" break="no" n="123"/>ctam per quid, &amp; inde definitio, quae talia 
+      prae<lb ed="#L" break="no" n="124"/>dicata colligit, dicitur quod quid est, seu 
+      quid<lb ed="#L" break="no" n="125"/>ditas rei. Arriani ergo, personarum substātiam 
+      <lb ed="#L" n="126"/>separantes, dixerunt tres personas esse vnum 
+      <lb ed="#L" n="127"/>Deum, quasi quidditatiue, &amp; per modum vsiae, 
+      si<lb ed="#L" break="no" n="128"/>cut tres homines sunt vnus homo definitiue, &amp; 
+      <!--0746.xml-->
+      <pb ed="#L" n="746"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in conceptu quidditatiuo; propterea illo 
+      tem<lb ed="#L" break="no" n="2"/>pore, prohibitus est vsus illius nominis in 
+      gene<lb ed="#L" break="no" n="3"/>rali Concilio, quia Arriani vsi sunt eo modo. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e922">
+                  <lb ed="#L" n="4"/>Postmodum vero proprietate vocabuli intel 
+      <lb ed="#L" n="5"/>lecta, a Catholicis receptum est, sicut prius 
+      or<lb ed="#L" break="no" n="6"/>dinatum est in Synodo Nicaena. refertur enim 
+      <lb ed="#L" n="7"/>vnitas vsiae, non quidem ad vnitatem specificam, 
+      <lb ed="#L" n="8"/>vt intelligebant haeretici, sed ad vnitatem 
+      sin<lb ed="#L" break="no" n="9"/>gularissimam, &amp; numeralem. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e938">
+                  <lb ed="#L" n="10"/>Secunda quoque propositio est, quod cum di 
+      <lb ed="#L" n="11"/>cuntur tres personae Homousion, vel vnius, eius 
+      <lb ed="#L" n="12"/>demque substantiae, diuersi diuersimode 
+      expo<lb ed="#L" break="no" n="13"/>nunt habitudinem genitiui illius, essentiae, vel 
+      <lb ed="#L" n="14"/>naturae. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e951">
+                  <lb ed="#L" n="15"/>Dixerunt enim quidam, quod tenetur in 
+      ha<lb ed="#L" break="no" n="16"/>bitudine fundamenti alia, quasi materiae; quia 
+      <lb ed="#L" n="17"/>proprietates fundamenti in essentia, &amp; per con 
+      <lb ed="#L" n="18"/>sequens in persona, proprietas est, quasi forma, 
+      <lb ed="#L" n="19"/>essentia vero, quasi materia, sed hoc stare non 
+      <lb ed="#L" n="20"/>potest: tum quia ratio materiae sonat 
+      imperfe<lb ed="#L" break="no" n="21"/>ctionem: tum quia essentia non se habet, vt 
+      fun<lb ed="#L" break="no" n="22"/>damentum ad proprietates, vt ex praedictis 
+      pa<lb ed="#L" break="no" n="23"/>tet. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e973">
+                  <lb ed="#L" n="24"/>Et ideo dixerunt alij, quod genitiuus 
+      ille<lb ed="#L" break="no" n="25"/>construitur n habitudine causae formalis; sed 
+      <lb ed="#L" n="26"/>nec illud etiam videtur, quia non est ibi proprie 
+      <lb ed="#L" n="27"/>forma, vbi non est formale: proprietates autem 
+      <lb ed="#L" n="28"/>non sunt, quasi materia, respectu essentiae, vt 
+      es<lb ed="#L" break="no" n="29"/>sentia possit habere rationem causae formalis. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e989">
+                  <lb ed="#L" n="30"/>Propterea dixerunt alij, quod construitur ex 
+      <lb ed="#L" n="31"/>vi designationis essentiae, sicut cum dicitur mu 
+      <lb ed="#L" n="32"/>lier egregiae formae, vel vir boni confilij, sed 
+      il<lb ed="#L" break="no" n="33"/>lud etiam non videtur: talia enim sunt 
+      extrin<lb ed="#L" break="no" n="34"/>seca, &amp; accidentalia rei. accidit enim species 
+      <lb ed="#L" n="35"/>mulieri, &amp; consilium viro. Itaque propositio 
+      <lb ed="#L" n="36"/>est, quod construitur in habitudine habiti per 
+      <lb ed="#L" n="37"/>modum quidditatis a supposito. sensus enim est, 
+      <lb ed="#L" n="38"/>quod sunt eiusdem naturae specificae: hic non 
+      <lb ed="#L" n="39"/>sumitur vnitas singularis. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e1013">
+                  <lb ed="#L" n="40"/>Et si dicatur, quod quidditas non habet 
+      lo<lb ed="#L" break="no" n="41"/>cum in diuinis, cum definitio non competat 
+      <lb ed="#L" n="42"/>Deo. dicendum, quod non solum definitio 
+      dici<lb ed="#L" break="no" n="43"/>tur quodquid est, immo omne, quod 
+      responde<lb ed="#L" break="no" n="44"/>tur ad interrogationem factam per quid, 
+      inter<lb ed="#L" break="no" n="45"/>rogato enim de patre, &amp; filio quid est, congrue 
+      <lb ed="#L" n="46"/>respondetur, quod Deus, &amp; hinc quod Deitas; 
+      <lb ed="#L" n="47"/>Deitas vero quidditas. Definitio autem appro 
+      <lb ed="#L" n="48"/>prietate dicitur quodquid est intellectiue, quod 
+      <lb ed="#L" n="49"/>continet omnia talia praedicata. &amp; in hoc 
+      ter<lb ed="#L" break="no" n="50"/>tius articulus terminetur. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e1040">
+                  <lb ed="#L" n="51"/>Responsio ad obiecta.
+    </p>
+               <p xml:id="ol96b1-241242-d1e1045">
+                  <lb ed="#L" n="52"/>AD ea ergo, quae superius inducuntur, 
+      di<lb ed="#L" break="no" n="53"/>cendum est. Ad primum quidem, quod 
+      <!--0746.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="54"/>appropriationes huiusmodi non inducunt erro 
+      <lb ed="#L" n="55"/>rem, quia cum hoc, quod essentialia aliqua 
+      <lb ed="#L" n="56"/>personis appropriantur propter similitudinem, 
+      <lb ed="#L" n="57"/>quam habent ad propria, statim ostenduntur 
+      <lb ed="#L" n="58"/>esse communia, &amp; aequa liter personis omnibus 
+      <lb ed="#L" n="59"/>conuenire. vnde Augustinus 6. de Trinitate 
+      di<lb ed="#L" break="no" n="60"/>cit, quod filius est sapientia patris, &amp; ambo 
+      si<lb ed="#L" break="no" n="61"/>mul vna sapientia, &amp; lumen de lumine, &amp; 
+      am<lb ed="#L" break="no" n="62"/>bo vnum lumen. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e1076">
+                  <lb ed="#L" n="63"/>Ad secundum dicendum, quod non est simila 
+      <lb ed="#L" n="64"/>de essentia, &amp; natura, &amp; de alijs nominibus 
+      sub<lb ed="#L" break="no" n="65"/>stantiam significantibus: nam sapientia, &amp; 
+      bo<lb ed="#L" break="no" n="66"/>nitas habent similitudinem aliquam cum 
+      pro<lb ed="#L" break="no" n="67"/>prijs personarum; non autem essentia, vel 
+      na<lb ed="#L" break="no" n="68"/>tura. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e1092">
+                  <lb ed="#L" n="69"/>Ad tertium dicendum, quod licet ommes 
+      per<lb ed="#L" break="no" n="70"/>sonae aequales sint, &amp; similes in essentia libus, 
+      ni<lb ed="#L" break="no" n="71"/>hilominus proprium spiritus sancti habet 
+      ali<lb ed="#L" break="no" n="72"/>quam proportionem ad amorem, cum sit 
+      ne<lb ed="#L" break="no" n="73"/>xus, &amp; vinculum, per quod amans connectitur 
+      <lb ed="#L" n="74"/>cum amato, &amp; similiter verbum cum 
+      sapien<lb ed="#L" break="no" n="75"/>tia. est enim sapientia obiectiua, vt ex praedictis 
+      <lb ed="#L" n="76"/>apparet. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e1112">
+                  <lb ed="#L" n="77"/>Ad quartum dicendum, quod non est 
+      incon<lb ed="#L" break="no" n="78"/>ueniens idem appropriari diuersis propter 
+      di<lb ed="#L" break="no" n="79"/>uersas rationes. virtus ergo, seu potentia 
+      ap<lb ed="#L" break="no" n="80"/>propriatur patri, inquantum virtus appropria 
+      <lb ed="#L" n="81"/>te dicitur aliquid, quod est fundamentum, vel 
+      <lb ed="#L" n="82"/>radix: fieri vero, inquantum per ipsum pater 
+      <lb ed="#L" n="83"/>operatur, quia per ipsum omnia facta sunt, &amp; 
+      <lb ed="#L" n="84"/>ita possunt rationes variae inueniri, secundum 
+      <lb ed="#L" n="85"/>quas vnum nomen appropriatur, 
+      quandoque<lb ed="#L" break="no" n="86"/>vni personae, quandoque alteri.
+    </p>
+               <p xml:id="ol96b1-241242-d1e1136">
+                  <lb ed="#L" n="87"/>Ad quintum dicendum, quod dicere non est 
+      <lb ed="#L" n="88"/>intelligere, nec sapere; verbum autem est 
+      obie<lb ed="#L" break="no" n="89"/>ctum sapientiae, medians inter sapere, &amp; 
+      obie<lb ed="#L" break="no" n="90"/>cta exteriora, propter quod maiorem 
+      propor<lb ed="#L" break="no" n="91"/>tionem habet sapientia cum proprio filij, quam 
+      <lb ed="#L" n="92"/>cum proprio patris: similiter nexus amoris 
+      vi<lb ed="#L" break="no" n="93"/>detur habere vicinitatem maiorem cum ipso 
+      <lb ed="#L" n="94"/>amore, &amp; suauitate, ac bonitate, quam proprium 
+      <lb ed="#L" n="95"/>patris. nam esse principium productiuum non 
+      <lb ed="#L" n="96"/>competit alijs, quam agentibus per amorem. 
+      <lb ed="#L" n="97"/>bonitas ergo, prout est idem, quod lenitas, &amp; 
+      <lb ed="#L" n="98"/>suauitas amorosa, appropriatur congrue spiri 
+      <lb ed="#L" n="99"/>tui sancto, natura vero non appropriatur filio, 
+      <lb ed="#L" n="100"/>quamuis per modum naturae procedat, pro eo, 
+      <lb ed="#L" n="101"/>quod natura competit principio, non 
+      princi<lb ed="#L" break="no" n="102"/>piato. 
+    </p>
+               <p xml:id="ol96b1-241242-d1e1174">
+                  <lb ed="#L" n="103"/>Ad sextum dicendum, quod pluralitas 
+      ap<lb ed="#L" break="no" n="104"/>propriationum non parit 
+      confusio<lb ed="#L" break="no" n="105"/>nem, sed facit, vt multi plex 
+      <lb ed="#L" n="106"/>sit scientia, &amp; ideo 
+      <lb ed="#L" n="107"/>non est 
+      inu<lb ed="#L" break="no" n="108"/>tilis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

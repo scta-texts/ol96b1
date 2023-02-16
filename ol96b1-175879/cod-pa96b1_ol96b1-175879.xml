@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="542"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-175879"> <!-- l1d24p1-prae -->
+            <head xml:id="ol96b1-175879-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-175879-d1e104">
+      <!--0542.xml-->
+               <pb ed="#L" n="542"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVOD SJGNJFJCETVR HJS NOMJNJBVS, 
+      <lb ed="#L" n="2"/>vnus vel vna, duo vel duae, tres vel tria, trinus vel trinitas, 
+      <lb ed="#L" n="3"/>plures vel pluralitas, distinctio vel distinctae, cum 
+      <lb ed="#L" n="4"/>his vtimur de Deo loquentes. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e122">
+               <lb ed="#L" n="5"/>DISTINCTIO XXJV.
+    </p>
+            <p xml:id="ol96b1-175879-d1e127">
+      <!--0542.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="6"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e137">
+               <lb ed="#L" n="7"/>HIc diligenter inquiri oportet, 
+      <lb ed="#L" n="8"/>&amp;c. Postquam Magister 
+      de<lb ed="#L" break="no" n="9"/>terminauit de hoc nomine, 
+      <lb ed="#L" n="10"/>Persona, hic agit de hoc 
+      no<lb ed="#L" break="no" n="11"/>mine, Trinitas, &amp; gratia 
+      e<lb ed="#L" break="no" n="12"/>ius de cunctis terminis 
+      nu<lb ed="#L" break="no" n="13"/>merabilibus quid significent 
+      <lb ed="#L" n="14"/>in diuinis. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e157">
+               <lb ed="#L" n="15"/>Et circa hoc tria facit. Primo namque 
+      pro<lb ed="#L" break="no" n="16"/>ponit dubitationem. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e164">
+               <lb ed="#L" n="17"/>Secundo vero ponit solutionem. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e169">
+               <lb ed="#L" n="18"/>Tertio inducit oppositionem. secunda ibi: 
+      <lb ed="#L" n="19"/>Sed diligenter. tertia ibi: Non est praetermittendum. 
+      <lb ed="#L" n="20"/>Dicit itaque primo hic oportet inquirere quid 
+      <lb ed="#L" n="21"/>vnus, duo, tres, trinitas, vel pluralitas significent 
+      <lb ed="#L" n="22"/>in diuinis. videmur enim hoc dicentes, numerum 
+      <lb ed="#L" n="23"/>in Deo ponere quantitatis, &amp; rerum 
+      multitudi<lb ed="#L" break="no" n="24"/>nem, quod poni non debet. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e187">
+               <lb ed="#L" n="25"/>Postmodum ibi. Sed diligenter. Ponit 
+      solutio<lb ed="#L" break="no" n="26"/>nem Magister, &amp; primo in generali, secundo in 
+      <lb ed="#L" n="27"/>speciali. Secunda ibi. Cum enim dicitur. Dicit 
+      er<lb ed="#L" break="no" n="28"/>go primo, quod vsus horum verborum magis in 
+      <lb ed="#L" n="29"/>troductus est ad remouendum, &amp; excludendum 
+      <lb ed="#L" n="30"/>a diuina simplicitate ea, quae in ipsa non sunt, 
+      <lb ed="#L" n="31"/>quam ad aliqua ponendum. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e205">
+               <lb ed="#L" n="32"/>Postmodum ibi. Cum enim dicitur. Solutionem 
+      <lb ed="#L" n="33"/>istam prosequitur in speciali discurrendo per 
+      <lb ed="#L" n="34"/>ista nomina. Et circa hoc facit octo. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e215">
+               <lb ed="#L" n="35"/>Primo enim dicit, quod hoc nomen vnum, vel 
+      <lb ed="#L" n="36"/>vnitas Deo attribuitur exclusiue, dicens, quod 
+      <lb ed="#L" n="37"/>cum dicitur Deus vnus, excluditur multitudo 
+      <lb ed="#L" n="38"/>Deorum, nec ponit aliquid circa Deum. vnum 
+      <lb ed="#L" n="39"/>enim, quod est principium quantitatis, nullo mo 
+      <lb ed="#L" n="40"/>do in Deo est, in quo nec numerus, nec 
+      quanti<lb ed="#L" break="no" n="41"/>tas poni potest. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e233">
+               <lb ed="#L" n="42"/>Secundo ibi: Similiter cum dicitur. Dicit, 
+      <lb ed="#L" n="43"/>quod significat hoc nomen vnum, quod additur 
+      <lb ed="#L" n="44"/>alicui, immo id, quod cum dicitur, pater est 
+      <lb ed="#L" n="45"/>vnus, vel quod vnus est filius, &amp; per hoc 
+      signi<lb ed="#L" break="no" n="46"/>ficatur, quod non sunt multi patres, &amp; multi 
+      fi<lb ed="#L" break="no" n="47"/>lij in diuinis, nec aliquid aliud ponitur. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e249">
+               <lb ed="#L" n="48"/>Quarto ibi: Item cum dicimus. Ostendit quid 
+      <lb ed="#L" n="49"/>significat pluralitas, cum additur ad personas, 
+      <lb ed="#L" n="50"/>dicens, quod cum dicimus plures personas, 
+      ni<lb ed="#L" break="no" n="51"/>hil ponere intendimus, sed singularitates, id 
+      <lb ed="#L" n="52"/>est, solitudinem intendimus excludere a 
+      per<lb ed="#L" break="no" n="53"/>sonis. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e265">
+               <lb ed="#L" n="54"/>Quarto ibi: Iterum etiam. Ostendit quid 
+      si<lb ed="#L" break="no" n="55"/>gnificat trinarius, dicit, quod non 
+      quantita<lb ed="#L" break="no" n="56"/>tem numeri, aut aliquam diuersitatem, sed 
+      in<lb ed="#L" break="no" n="57"/>telligentiam ad patrem, filium, &amp; spiritum 
+      <lb ed="#L" n="58"/>sanctum dirigendam significamus. est enim 
+      sen<lb ed="#L" break="no" n="59"/>sus, cum dicimus tres personas, quod in Deo, 
+      <!--0542.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="60"/>non tantum pater est, nec tantum filius, nec 
+      <lb ed="#L" n="61"/>tantum pater, &amp; filius, imo simul cum istis 
+      spi<lb ed="#L" break="no" n="62"/>ritus sanctus. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e291">
+               <lb ed="#L" n="63"/>Quinto ibi: Similiter cum dicimus. Ostendit 
+      <lb ed="#L" n="64"/>quid significat hoc nomen duo, cum dicimus, quod 
+      <lb ed="#L" n="65"/>pater, &amp; filius sunt duae persone, &amp; ait, quod hic 
+      <lb ed="#L" n="66"/>non intendimus per hoc ponere speciem 
+      nume<lb ed="#L" break="no" n="67"/>ri, quae dualitas appellatur, sed intendimus 
+      si<lb ed="#L" break="no" n="68"/>gnificare, quod non tantum pater est persona, 
+      <lb ed="#L" n="69"/>nec tantum filius est persona, sed quod pater, &amp; 
+      <lb ed="#L" n="70"/>filius quilibet sit persona.
+    </p>
+            <p xml:id="ol96b1-175879-d1e311">
+               <lb ed="#L" n="71"/>Sexto ibi: Cum autem. Ostendit quod 
+      signifi<lb ed="#L" break="no" n="72"/>catus distinctiuus dicens, quod cum dicimus 
+      per<lb ed="#L" break="no" n="73"/>sonas distinctas, non quid distinctum intendimus 
+      <lb ed="#L" n="74"/>ponere, sed sabellianam confusionem 
+      exclude<lb ed="#L" break="no" n="75"/>re, atque permixtionem. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e325">
+               <lb ed="#L" n="76"/>Septimo ibi: Ita etiam. Ostendit quid 
+      signifi<lb ed="#L" break="no" n="77"/>cat discretio, &amp; dicit, quod illud idem, quod 
+      <lb ed="#L" n="78"/>distinctio. Addit autem, quod distinctio 
+      acci<lb ed="#L" break="no" n="79"/>pitur in diuinis: non autem diuersitas, aut 
+      di<lb ed="#L" break="no" n="80"/>uisio, vel separatio secundum quod Ambrosius 
+      <lb ed="#L" n="81"/>testatur. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e341">
+               <lb ed="#L" n="82"/>Octauo ibi: Cum vero dicitur. Ostendit, quid 
+      <lb ed="#L" n="83"/>significet hoc nomen Trinitas, &amp; dicit, quod 
+      <lb ed="#L" n="84"/>non speciem quantitatis discretae, quantitas ap 
+      <lb ed="#L" n="85"/>pellatur, sed illud idem, quod significat tres, 
+      <lb ed="#L" n="86"/>vt supra exponebatur. 
+    </p>
+            <p xml:id="ol96b1-175879-d1e354">
+               <lb ed="#L" n="87"/>Postmodum ibi: Hoc non est praetermittendum. 
+      <lb ed="#L" n="88"/>Magister obiicit contra praedicta dicens, quod 
+      <lb ed="#L" n="89"/>Isidorus lib. primo de summo bono, &amp; septimo 
+      <lb ed="#L" n="90"/>Ethymol. dicit, quod vnitas in diuinis simplex 
+      <lb ed="#L" n="91"/>est, &amp; singularis; Trinitas vero multiplex, &amp; 
+      nu<lb ed="#L" break="no" n="92"/>meralis, &amp; secundum hoc videretur, quod in 
+      <lb ed="#L" n="93"/>Deo esset singularitas, &amp; numerus, ac multipli 
+      <lb ed="#L" n="94"/>citas, cuius oppositum dictum fuisset. Et respon 
+      <lb ed="#L" n="95"/>det Magister ad hoc, quod non accipit Isidorus 
+      <lb ed="#L" n="96"/>proprie numerum, aut singularitatem, sed 
+      eomo<lb ed="#L" break="no" n="97"/>do, quo alij accipiunt trinum, &amp; vnum. haec est 
+      <lb ed="#L" n="98"/>sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

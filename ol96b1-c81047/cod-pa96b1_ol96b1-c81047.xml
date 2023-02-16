@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="250"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c81047"> <!-- l1d7p2-prae -->
+            <head xml:id="ol96b1-c81047-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c81047-d1e104">
+               <lb ed="#L" n="47"/>SECVNDA PARS. 
+    </p>
+            <p xml:id="ol96b1-c81047-d1e109">
+               <lb ed="#L" n="48"/>Vtrum Pater natura sit potens gignere 
+      Fi<lb ed="#L" break="no" n="49"/>lium, &amp; an hoc sit aliqua potentia, 
+      <lb ed="#L" n="50"/>quae non sit in Filio. 
+    </p>
+            <p xml:id="ol96b1-c81047-d1e118">
+               <lb ed="#L" n="51"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-c81047-d1e124">
+               <lb ed="#L" n="52"/>
+               <quote xml:id="ol96b1-c81047-Qd1e128">ITEM queritur a quibusdam</quote>, &amp;c. 
+      Post<lb ed="#L" break="no" n="53"/>quam Magister inquisiuit quid sit 
+      <lb ed="#L" n="54"/>potentia generandi in patre, hic 
+      <lb ed="#L" n="55"/>inquirit, an reperiatur in filio. 
+      <lb ed="#L" n="56"/>Et circa hoc duo facit.
+    </p>
+            <p xml:id="ol96b1-c81047-d1e140">
+               <lb ed="#L" n="57"/>Primo enim inquirit, quomodo sit in filio 
+      po<lb ed="#L" break="no" n="58"/>tentia generandi.
+    </p>
+            <p xml:id="ol96b1-c81047-d1e147">
+      <!--0250.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="59"/>Secundo, quomodo sit in eo impotentia nega 
+      <lb ed="#L" n="60"/>tiue. secundum facit ibi: Ita etiam cum dicitur. 
+      <lb ed="#L" n="61"/>Circa primum facit tria.
+    </p>
+            <p xml:id="ol96b1-c81047-d1e160">
+               <lb ed="#L" n="62"/>Primo enim mouet quandam quaestionem, 
+      di<lb ed="#L" break="no" n="63"/>cens, quod quaeritur a quibusdam, Vtrum filius 
+      <lb ed="#L" n="64"/>habeat in se potentiam generandi. 
+    </p>
+            <p xml:id="ol96b1-c81047-d1e169">
+               <lb ed="#L" n="65"/>Secundo ibi: Ad quod dicimus. Magister respon 
+      <lb ed="#L" n="66"/>det, quod licet pater sit potens gignere filium 
+      <lb ed="#L" n="67"/>&amp; illa potentia sit natura, vel essentia, illam 
+      ean<lb ed="#L" break="no" n="68"/>dem potentiam habet filius, quam &amp; pater, sed 
+      <lb ed="#L" n="69"/>per illam pater potuit gignere, &amp; filius gigui. 
+      ea<lb ed="#L" break="no" n="70"/>dem enim potentia est omnino. 
+    </p>
+            <p xml:id="ol96b1-c81047-d1e185">
+               <lb ed="#L" n="71"/>Tertio ibi: Sed contra hoc opponitur. Magister 
+      <lb ed="#L" n="72"/>instat contra praedicta, dicens, quod aliud est 
+      gi<lb ed="#L" break="no" n="73"/>gnere, &amp; aliud gigni, &amp; sic videtur, quod alia sit 
+      <lb ed="#L" n="74"/>potentia, qua pater possit gignere, ab illa, qua 
+      <lb ed="#L" n="75"/>filius potuit gigni. &amp; respondet, quod licet 
+      gi<lb ed="#L" break="no" n="76"/>gnere, &amp; gigni sint alia, non tamen propter hoc 
+      <lb ed="#L" n="77"/>est alia potentia, sed est posse habere aliam 
+      <lb ed="#L" n="78"/>proprietatem, siue notionem. potest enim pater 
+      <lb ed="#L" n="79"/>habere proprietatem, qua genitor sit, &amp; filius 
+      a<lb ed="#L" break="no" n="80"/>liam, qua genitus sit; vnde patet, quod Magister 
+      <lb ed="#L" n="81"/>expresse est istius intentionis, quod nil aliud est 
+      <lb ed="#L" n="82"/>patrem posse gignere, quam posse habere 
+      pro<lb ed="#L" break="no" n="83"/>prietatem, qua genitor sit. constat autem, quod 
+      <lb ed="#L" n="84"/>nlit este u ecst qroiues tutiu &amp;r E 
+    </p>
+            <p xml:id="ol96b1-c81047-d1e219">
+               <lb ed="#L" n="85"/>Postmodum ibi: Ita &amp; cum dicitur. Magister 
+      <lb ed="#L" n="86"/>ostendit, quomodo in filio est non potentia 
+      ge<lb ed="#L" break="no" n="87"/>nerandi, dicens, quod cum dicitur, non habet 
+      <lb ed="#L" n="88"/>filius potentiam generandi, si intelligatur, quod 
+      <lb ed="#L" n="89"/>non potest esse pater, nec habere paternitatem, 
+      <lb ed="#L" n="90"/>nec generare, vtique verum est: si autem 
+      intelli<lb ed="#L" break="no" n="91"/>gatur, quod pater habeat aliquam potentiam, 
+      <lb ed="#L" n="92"/>quam non habet filius, falsum est. vbi sunt 
+      no<lb ed="#L" break="no" n="93"/>tanda duo. 
+    </p>
+            <p xml:id="ol96b1-c81047-d1e241">
+               <lb ed="#L" n="94"/>Primum quidem, quod necessitas, quae est 
+      per<lb ed="#L" break="no" n="95"/>fectio simpliciter, communis est tribus, propter 
+      <lb ed="#L" n="96"/>quod eadem necessitate, qua pater est pater, &amp; 
+      <lb ed="#L" n="97"/>habet proprietatem generationis, eadem 
+      neces<lb ed="#L" break="no" n="98"/>sitate filius est genitus, &amp; habet proprietatem 
+      <lb ed="#L" n="99"/>generationis. sumendo ergo potentiam pro 
+      ne<lb ed="#L" break="no" n="100"/>cessitate, verum est quod dicit Magister, quod 
+      <lb ed="#L" n="101"/>eadem est potentia, qua pater potuit generare, 
+      <lb ed="#L" n="102"/>&amp; filius potuit gigni. 
+    </p>
+            <p xml:id="ol96b1-c81047-d1e263">
+               <lb ed="#L" n="103"/>Secundum vero, quod filius non 
+      vultgenera<lb ed="#L" break="no" n="104"/>re, pater autem vult generare, nec propter hoc 
+      <lb ed="#L" n="105"/>aliquid vult parer, quod non vult filius, immo 
+      <lb ed="#L" n="106"/>si filius vellet generare, vellet vtique aliquid, 
+      <lb ed="#L" n="107"/>quod non vult pater. pater enim non vult, quod 
+      <lb ed="#L" n="108"/>filius generet: filius itaque volendo quod pater 
+      <lb ed="#L" n="109"/>generet, vult illud ipsum, quod pater, qui vult 
+      <lb ed="#L" n="110"/>generare, &amp; concordant hae duae voluntates. haec 
+      <lb ed="#L" n="111"/>est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

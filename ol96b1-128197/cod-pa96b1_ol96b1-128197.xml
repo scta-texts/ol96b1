@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="392"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-128197"> <!-- l1d15p1-q1 -->
+            <head xml:id="ol96b1-128197-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-128197-Hd1e104" type="question-title">
+      Utrum cuilibet personae competat mitti inuisibiliter, 
+      aut mittere.
+    </head>
+            <p xml:id="ol96b1-128197-d1e107">
+               <lb ed="#L" n="87"/>Vtrum cuilibet personae competat mitti inuisibiliter, 
+      <lb ed="#L" n="88"/>aut mittere. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e114">
+               <lb ed="#L" n="89"/>ET quia Magister inquirit hic de missione 
+      <lb ed="#L" n="90"/>inuisibili filij, quid sit, &amp; similiter de patre, 
+      <lb ed="#L" n="91"/>cum non legitur missus, &amp; de spiritu sancto, 
+      v<lb ed="#L" break="no" n="92"/>trum missus sit a seipso, ideo inquirendum occur 
+      <lb ed="#L" n="93"/>rit, vtrum cuilibet personae conueniat 
+      inuisibi<lb ed="#L" break="no" n="94"/>liter mitti, aut mittere. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e131">
+               <lb ed="#L" n="95"/>Quod omni personae diuinae competat mitti, &amp; 
+      <lb ed="#L" n="96"/>personae patris. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e138">
+               <lb ed="#L" n="97"/>ET videtur, quod omni personae diuinae 
+      com<lb ed="#L" break="no" n="98"/>petat mitti, etiam personae patris. sicut 
+      e<lb ed="#L" break="no" n="99"/>nim se habet sapientia ad filium, sic virtus cum 
+      <lb ed="#L" n="100"/>potentia se habet ad patrem: sed in dono sapien 
+      <lb ed="#L" n="101"/>tiae dicitur mitti filius secundum illud Sapientiae 
+      <lb ed="#L" n="102"/>9. scriptum, mitte illam de excelsis sanctis tuis, 
+      <lb ed="#L" n="103"/>&amp; a sede magnitudinis tuae. ergo in dono fortitu 
+      <lb ed="#L" n="104"/>dinis, &amp; virtutis mittetur persona patris, &amp; per 
+      <lb ed="#L" n="105"/>consequens, ad Sansonem videtur pater missus, 
+      <lb ed="#L" n="106"/>qui legitur orasse Iudith, &amp; dixisse: Domine peus 
+      <lb ed="#L" n="107"/>meus memento mei, &amp; redde mihi pristinam 
+      <lb ed="#L" n="108"/>fortitudinem. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e167">
+               <lb ed="#L" n="109"/>Praeterea: Duo sunt modi missionis, quos 
+      Au<lb ed="#L" break="no" n="110"/>gustinus tangit 4. de Trin. Primus quidem 
+      visibi<lb ed="#L" break="no" n="111"/>lis, cum persona diuina apparet in aliqua visibili 
+      <lb ed="#L" n="112"/>creatura. Secundus vero inuisibilis, dum 
+      parti<lb ed="#L" break="no" n="113"/>cipatur, &amp; cognoscitur mente: sed de persona 
+      <lb ed="#L" n="114"/>patris constat, quod mente a viris sanctis 
+      perci<lb ed="#L" break="no" n="115"/>pitur, sicut &amp; filius, vnde Matt. II. dicitur, quod 
+      <lb ed="#L" n="116"/>nec patrem quis nouit, nisi filius, &amp; cui voluerit 
+      <lb ed="#L" n="117"/>filius reuelare. constat etiam, quod in visibili, &amp; 
+      <lb ed="#L" n="118"/>corporali specie apparuit Abrahae, quoniam tres 
+      <lb ed="#L" n="119"/>vidit, &amp; vnum adorauit. consimiliter Moysi, &amp; 
+      <lb ed="#L" n="120"/>aliis Prophetis. ergo videtur, quod pater 
+      mis<lb ed="#L" break="no" n="121"/>sus fuerit, &amp; tam visibili, quam inuisibili missione. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e198">
+               <lb ed="#L" n="122"/>Praeterea: Si repugnaret patri inter diuinas 
+      <lb ed="#L" n="123"/>personas, vt mitteretur, hoc non esset ob aliud, 
+      <lb ed="#L" n="124"/>nisi quia a nulla persona procedit, sed hoc non 
+      <lb ed="#L" n="125"/>impedit: nam spiritus sanctus non procedit a se, 
+      <lb ed="#L" n="126"/>nec filius a spiritu sancto, &amp; tamen spiritus 
+      san<lb ed="#L" break="no" n="127"/>ctus missus est a scipso, &amp; filius a spiritu, vt 
+      te<lb ed="#L" break="no" n="128"/>statur Ambrosius lib. 3. de spiritu sancto. ergo &amp; 
+      <lb ed="#L" n="129"/>pater poterit mitti a seipso, vel a filio, &amp; spiritu 
+      <lb ed="#L" n="130"/>sancto, dato, quod procedat a nullo.
+    </p>
+            <p xml:id="ol96b1-128197-d1e220">
+      <!--0393.xml-->
+               <pb ed="#L" n="393"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Quod nulli personae competat mitti. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e231">
+               <lb ed="#L" n="2"/>VLTERIVS videtur, quod nulli personae 
+      di<lb ed="#L" break="no" n="3"/>Vuinae competat mitti, generaliter etiam 
+      <lb ed="#L" n="4"/>verum videtur, quod missus inferior sit 
+      mitten<lb ed="#L" break="no" n="5"/>te, sed Athanasius dicit, quod in Trinitate non 
+      <lb ed="#L" n="6"/>est prius, aut posterius, nec maius, aut minus. 
+      <lb ed="#L" n="7"/>ergo nulli personae existenti in Trinitate compe 
+      <lb ed="#L" n="8"/>tit mitti.
+    </p>
+            <p xml:id="ol96b1-128197-d1e250">
+               <lb ed="#L" n="9"/>Praeterea: Nullus mittitur vbi ante erat, sed 
+      <lb ed="#L" n="10"/>personae semper sunt, &amp; vbique. ergo non 
+      vide<lb ed="#L" break="no" n="11"/>tur, quod possint de nouo mitti. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e259">
+               <lb ed="#L" n="12"/>Praeterea: Patri non competit mitti, vt 
+      Augu<lb ed="#L" break="no" n="13"/>stinus dicit quarto de Trinit. similiter nec filio 
+      <lb ed="#L" n="14"/>competere videtur, quia aut mitteretur in 
+      qua<lb ed="#L" break="no" n="15"/>libet cognitione veritatis, &amp; secundum hoc 
+      <lb ed="#L" n="16"/>missus fuisset Philosophis, aut in cognitione 
+      <lb ed="#L" n="17"/>veritatis, quae pertinet ad donum sapientiae, &amp; 
+      <lb ed="#L" n="18"/>hoc non potest, quia donum sapientiae pertinet 
+      <lb ed="#L" n="19"/>ad spiritum sanctum, &amp; ita non ad filium, vt 
+      vi<lb ed="#L" break="no" n="20"/>detur, similiter nec spiritui sancto competit, 
+      <lb ed="#L" n="21"/>cum sint eiusdem rationis omnes personae diuinae, 
+      <lb ed="#L" n="22"/>&amp; iterum Angelis supremae hierarchiae, non 
+      com<lb ed="#L" break="no" n="23"/>petit, vt mittantur, secundum Dionysium, sed 
+      <lb ed="#L" n="24"/>tantum Angelis infimae hierarchiae. constat autem, 
+      <lb ed="#L" n="25"/>quod spiritus sanctus est eminentior illis, cum Deus 
+      <lb ed="#L" n="26"/>sit. ergo nulli personae diuinae competit mitti. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e294">
+               <lb ed="#L" n="27"/>Quod non omni personae diuinae competat mittere.
+    </p>
+            <p xml:id="ol96b1-128197-d1e299">
+               <lb ed="#L" n="28"/>VLTERJVS videtur, quod non omni 
+      perso<lb ed="#L" break="no" n="29"/>nae diuinae competat mittere. inter 
+      mit<lb ed="#L" break="no" n="30"/>tentem namque, &amp; missum debet esse auctoritas, 
+      <lb ed="#L" n="31"/>&amp; sub auctoritas. missus enim procedit 
+      auctori<lb ed="#L" break="no" n="32"/>tate mittentis, sed non omnis persona diuina 
+      <lb ed="#L" n="33"/>habet auctoritatem. fundatur enim auctoritas 
+      <lb ed="#L" n="34"/>super originem, &amp; ita persona, a qua nulla 
+      ori<lb ed="#L" break="no" n="35"/>ginatur videtur auctoritatem habere super 
+      nul<lb ed="#L" break="no" n="36"/>lam personam. ergo non omnis persuna diuina 
+      <lb ed="#L" n="37"/>potest mittere, vt videtur. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e323">
+               <lb ed="#L" n="38"/>Praeterea: Magister dicit, quod idem est 
+      per<lb ed="#L" break="no" n="39"/>sonam diuinam mitti, quod dari, &amp; procedere: 
+      <lb ed="#L" n="40"/>sed constat, quod non competit cuilibet 
+      diui<lb ed="#L" break="no" n="41"/>nae persone, vt ab ea procedat persona alia. 
+      er<lb ed="#L" break="no" n="42"/>go non competit cuilibet, vt mittat.
+    </p>
+            <p xml:id="ol96b1-128197-d1e336">
+               <lb ed="#L" n="43"/>Praeterea: Quando aliqua possunt adinuicem 
+      <lb ed="#L" n="44"/>combinari, si illa combinata reperiuntur 
+      ali<lb ed="#L" break="no" n="45"/>cubi, &amp; cum alterum illorum per se, videtur, 
+      <lb ed="#L" n="46"/>quod &amp; alterum per se reperiatur, sicut patet, 
+      <lb ed="#L" n="47"/>quod corpus, &amp; spiritus reperiuntur simul in 
+      <lb ed="#L" n="48"/>homine, &amp; cum hoc corpus reperitur per se, 
+      <lb ed="#L" n="49"/>sicut patet in natura corporea simpliciter, 
+      qua<lb ed="#L" break="no" n="50"/>re &amp; alterum videlicet spiritus reperitur per se, 
+      <lb ed="#L" n="51"/>sicut patet de intelligentiis separatis, sed inter 
+      <lb ed="#L" n="52"/>personas diuinas inuenitur aliqua, quae 
+      mitti<lb ed="#L" break="no" n="53"/>tur, &amp; mittit, vt filius, qui mittitur a patre, &amp; 
+      <lb ed="#L" n="54"/>mittit spiritum, &amp; aliqua, quae mittit, &amp; non 
+      <lb ed="#L" n="55"/>mittitur, vt pater. ergo reperietur, aliqua, 
+      <lb ed="#L" n="56"/>quae tantum mittitur, &amp; non mittit, puta 
+      spiri<lb ed="#L" break="no" n="57"/>tus sanctus, &amp; per consequens non omnes 
+      diui<lb ed="#L" break="no" n="58"/>nae personae mittent. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e374">
+               <lb ed="#L" n="59"/>Quod omni personae diuinae competat mittere, etsi 
+      <lb ed="#L" n="60"/>non mitti. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e381">
+               <lb ed="#L" n="61"/>SED in oppositum videtur, quod omni perso 
+      <lb ed="#L" n="62"/>nae diuinae comperat mittere, &amp; quod non 
+      <!--0393.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>mitti. de ratione enim mittentis est, quod faciat 
+      <lb ed="#L" n="64"/>aliquem nouum effectum in creatura, sed 
+      quaeli<lb ed="#L" break="no" n="65"/>bet persona diuina facit omnem effectum, qui 
+      <lb ed="#L" n="66"/>fit in creatura, quia indiuisa est operatio 
+      Trini<lb ed="#L" break="no" n="67"/>tatis; vnde quaelibet persona diuina operata est 
+      <lb ed="#L" n="68"/>incarnationem filij, secundum quam filius fuit 
+      <lb ed="#L" n="69"/>missus, &amp; operatur quotidie ad illustrationem 
+      <lb ed="#L" n="70"/>veri, secundum quam dicitur mitti verbum, &amp; 
+      <lb ed="#L" n="71"/>similiter ad sanctificationem animae, secundum 
+      <lb ed="#L" n="72"/>quam mittitur spiritus sanctus. ergo cuilibet 
+      di<lb ed="#L" break="no" n="73"/>uinae personae competit mittere. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e416">
+               <lb ed="#L" n="74"/>Praeterea: Illud competit cuilibet diuinae 
+      per<lb ed="#L" break="no" n="75"/>sonae, quod potest conuenire alicui in ordine ad 
+      <lb ed="#L" n="76"/>se, sed mittere est huiusmodi: nam filius dat se, 
+      <lb ed="#L" n="77"/>vt testatur Ambrosius lib. 3. de spiritu sancto. &amp; 
+      <lb ed="#L" n="78"/>similiter spiritus sanctus seipsum dat, &amp; mittit, 
+      <lb ed="#L" n="79"/>vt August. dicit 15. de Trinit. ergo videtur, quod 
+      <lb ed="#L" n="80"/>quaelibet persona mittat. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e434">
+               <lb ed="#L" n="81"/>Praeterea: Illi repugnat mitti, qui habet 
+      au<lb ed="#L" break="no" n="82"/>ctoritatem principij secundum Augustinum 4. 
+      <lb ed="#L" n="83"/>de Trin. sed pater indiuinis habet auctoritatem 
+      <lb ed="#L" n="84"/>principij secundum Augustinum. ergo sibi repu 
+      <lb ed="#L" n="85"/>gnat mitti, &amp; per consequens non mittitur 
+      quae<lb ed="#L" break="no" n="86"/>libet diuina persona. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e450">
+               <lb ed="#L" n="87"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-128197-d1e455">
+               <lb ed="#L" n="88"/>AD quaestionem istam respondendo, hoc 
+      <lb ed="#L" n="89"/>ordine procedetur.
+    </p>
+            <p xml:id="ol96b1-128197-d1e463">
+               <lb ed="#L" n="90"/>Primo namque inquirendum est quid sit misfio. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e468">
+               <lb ed="#L" n="91"/>Secundo vero inquirendum, in quibus donis 
+      <lb ed="#L" n="92"/>fiat missio. 
+    </p>
+            <p xml:id="ol96b1-128197-d1e475">
+               <lb ed="#L" n="93"/>Tertio quoque, quibus personis in diuinis 
+      <lb ed="#L" n="94"/>competat missio actiue, &amp; passiue sumpta. 
+    </p>
+            <div xml:id="ol96b1-128197-Dd1e482">
+               <head xml:id="ol96b1-128197-Hd1e484">Articulus 1</head>
+               <p xml:id="ol96b1-128197-d1e486">
+                  <lb ed="#L" n="95"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e491">
+                  <lb ed="#L" n="96"/>Opinio S. Thomae par. I. q. 43. art. 1. 6 2.
+    </p>
+               <p xml:id="ol96b1-128197-d1e496">
+                  <lb ed="#L" n="97"/>CIRCA primum ergo dixerunt aliqui, quod 
+      <lb ed="#L" n="98"/>nomine missionis duo importantur, 
+      quo<lb ed="#L" break="no" n="99"/>rum vnum est habitudo missi ad eum, a quo 
+      mit<lb ed="#L" break="no" n="100"/>titur, quod quidem videtur procedere, vel 
+      secun<lb ed="#L" break="no" n="101"/>dum imperium, sicut dominus mittit seruum, 
+      <lb ed="#L" n="102"/>vel secundum consilium, sicut consiliarius 
+      dici<lb ed="#L" break="no" n="103"/>tur mittere regem, vel secundum originem, sicut 
+      <lb ed="#L" n="104"/>dicitur, quod flos emittitur ab arbore, aliud non 
+      <lb ed="#L" n="105"/>importatur per missionem, quam habitudo mis 
+      <lb ed="#L" n="106"/>si ad terminum, quia oportet, vt aliquo modo 
+      <lb ed="#L" n="107"/>ibi de nouo esse incipiat, vel omnino de nouo, 
+      <lb ed="#L" n="108"/>quia ibi prius non erat, vel aliquo modo de 
+      <lb ed="#L" n="109"/>nouo, quia prius illo modo non erat, &amp; quia 
+      <lb ed="#L" n="110"/>personae diuinae alicui competit procedere, etsi 
+      <lb ed="#L" n="111"/>non secundum imperium, &amp; consilium, saltem 
+      <lb ed="#L" n="112"/>secundum originem, tamen competit etiam sibi, 
+      <lb ed="#L" n="113"/>vt de nouo alicubi esse incipiat, non quidem sim 
+      <lb ed="#L" n="114"/>pliciter, sed secundum aliquem modum, &amp; 
+      <lb ed="#L" n="115"/>aliquem effectum, ideo sibi competit, quod 
+      <lb ed="#L" n="116"/>mittatur. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e542">
+                  <lb ed="#L" n="117"/>Est autem differentia inter processionem, &amp; 
+      <lb ed="#L" n="118"/>dationem, &amp; missionem, quia in diuinis 
+      quae<lb ed="#L" break="no" n="119"/>dam important solam habitudinem originis ad 
+      <lb ed="#L" n="120"/>principium, sicut generatio, &amp; spiratio, 
+      quae<lb ed="#L" break="no" n="121"/>dam vero cum habitudine ad principium 
+      im<lb ed="#L" break="no" n="122"/>portant terminum temporalem, sicut missio, &amp; 
+      <lb ed="#L" n="123"/>datio. mittitur enim aliquid ad hoc, vt in 
+      ali<lb ed="#L" break="no" n="124"/>quo sit datus, sicut ad hoc, vt habeatur, quaedam 
+      <lb ed="#L" n="125"/>vero important habitudinem ad principium, &amp; 
+      <lb ed="#L" n="126"/>ad terminum aeternum, &amp; temporalem, sicut pro- 
+      <!--0394.xml-->
+      <pb ed="#L" n="394"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cessio, &amp; exitus, processit enim ab aeterno filius 
+      <lb ed="#L" n="2"/>a patre, vt esset Deus, procedit aut ex tempore, 
+      <lb ed="#L" n="3"/>vt sit homo. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e580">
+                  <lb ed="#L" n="4"/>Haec autem opinio quoad aliqua irrationaliter 
+      <lb ed="#L" n="5"/>procedit, primo siquidem in hoc, quod ait 
+      mis<lb ed="#L" break="no" n="6"/>sionem importare processionem secundum 
+      ori<lb ed="#L" break="no" n="7"/>ginem eo modo quo dicitur, quod flos emittitur 
+      <lb ed="#L" n="8"/>ab arbore, missio prout de ea hic loquimur non 
+      <lb ed="#L" n="9"/>est idem quod productio, nec missus est idem quod 
+      <lb ed="#L" n="10"/>productus, immo missio sumitur pro legatione, 
+      <lb ed="#L" n="11"/>missus dicitur legatus, sicut de filio dicitur 
+      Ab<lb ed="#L" break="no" n="12"/>diae primo auditum audiuimus a Domino, &amp; 
+      le<lb ed="#L" break="no" n="13"/>gatum ad gentes misit, sed flos non dicitur 
+      lega<lb ed="#L" break="no" n="14"/>ri ab arbore, nec originari, legari est: ergo 
+      mis<lb ed="#L" break="no" n="15"/>sio prout hic accipitur non importat 
+      habitudi<lb ed="#L" break="no" n="16"/>nem originis. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e611">
+                  <lb ed="#L" n="17"/>Praeterea: Missio non importat processionem 
+      <lb ed="#L" n="18"/>ab aliquo secundum rationem consilij, vel impe 
+      <lb ed="#L" n="19"/>rij, sed magis secundum acceptionem 
+      potesta<lb ed="#L" break="no" n="20"/>tis, auctoritatis &amp; dominij, vnde legatus dicitur 
+      <lb ed="#L" n="21"/>in humanis, qui potestatem, &amp; auctoritatem 
+      ac<lb ed="#L" break="no" n="22"/>cipit a legante, sed in diuinis filius, &amp; Spiritus san 
+      <lb ed="#L" n="23"/>ctus, accipiunt auctoritatem, &amp; potestatem a pa 
+      <lb ed="#L" n="24"/>tre, ille quidem nascendo, sed iste procedendo: er 
+      <lb ed="#L" n="25"/>go quamuis sit habitudo ibi originis, non tamen 
+      <lb ed="#L" n="26"/>secundum eam dicetur persona legari, seu 
+      mit<lb ed="#L" break="no" n="27"/>ti, sed secundum acceptionem auctoritatis, &amp; 
+      <lb ed="#L" n="28"/>potestatis. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e640">
+                  <lb ed="#L" n="29"/>Et si dicatur quod acceptio non est aliud quam 
+      <lb ed="#L" n="30"/>origo, non valet, quia si esset origo absque hoc 
+      <lb ed="#L" n="31"/>quod communicaretur auctoritas sicut est in flo 
+      <lb ed="#L" n="32"/>re qui oritur ab arbore talis origo non 
+      induce<lb ed="#L" break="no" n="33"/>ret missionem, &amp; similiter si esset auctoritatis 
+      <lb ed="#L" n="34"/>communicatio absque origine, sicut est in huma 
+      <lb ed="#L" n="35"/>nis, saluaretur vera legationis ratio, propter 
+      <lb ed="#L" n="36"/>quod origo filij non dicitur legatio inquantum 
+      <lb ed="#L" n="37"/>origo, sed inquantum auctoritatis transfusio, &amp; 
+      <lb ed="#L" n="38"/>communicatio quaedam 
+    </p>
+               <p xml:id="ol96b1-128197-d1e664">
+                  <lb ed="#L" n="39"/>Praeterea: Si filius diceretur mitti a patre 
+      se<lb ed="#L" break="no" n="40"/>cundum rationem illam, qua flos emittitur ab ar 
+      <lb ed="#L" n="41"/>bore, missio filij esset ab aeterno, namque filius est 
+      <lb ed="#L" n="42"/>a patre, vt radius a sole, &amp; flos, seu ramus ab 
+      ar<lb ed="#L" break="no" n="43"/>bore, sed in illo dicit quod filij missio sit 
+      aeter<lb ed="#L" break="no" n="44"/>na. non ergo accipitur missio secundum illam 
+      <lb ed="#L" n="45"/>rag?a, ss ero irrationabilis in hoc quod ait 
+      <lb ed="#L" n="46"/>de ratione missionis esse, quod missus in 
+      termi<lb ed="#L" break="no" n="47"/>no, ad quem mittitur de nouo aliquo modo essse 
+      in<lb ed="#L" break="no" n="48"/>cipiat, hoc quidem verum non est, immo sufficit 
+      <lb ed="#L" n="49"/>quod ibi prius existens de nouo auctoritatem 
+      ac<lb ed="#L" break="no" n="50"/>cipiat vel prius ibi existens, &amp; auctoritatem 
+      ha<lb ed="#L" break="no" n="51"/>bens de nouo auctoritate incipiat, sicut patet in 
+      <lb ed="#L" n="52"/>humanis, nam existenti Parisijs potest Papa 
+      au<lb ed="#L" break="no" n="53"/>ctoritate committere causam aliquam 
+      venti<lb ed="#L" break="no" n="54"/>landi, &amp; decidendi, &amp; talis quidem dicetur 
+      lega<lb ed="#L" break="no" n="55"/>tus, non quia de nouo veniret Parisiis, sed quod 
+      <lb ed="#L" n="56"/>iam ibi existens de nouo auctoritatem 
+      accipe<lb ed="#L" break="no" n="57"/>ret, similiter etiam si auctoritate accepta, 
+      man<lb ed="#L" break="no" n="58"/>daretur sibi de nouo, vt ea vti inciperet, non 
+      du<lb ed="#L" break="no" n="59"/>bium, quod diceretur quodammodo de 
+      no<lb ed="#L" break="no" n="60"/>uo legari, sic. ergo in proposito non est 
+      <lb ed="#L" n="61"/>de ratione personae diuinae 
+      quan<lb ed="#L" break="no" n="62"/>do legatur, quod de nouo es 
+      <lb ed="#L" n="63"/>se incipiat, sed quod 
+      <lb ed="#L" n="64"/>accepta 
+      auctori<lb ed="#L" break="no" n="65"/>tate de nouo 
+      <lb ed="#L" n="66"/>vtatur.
+    </p>
+               <p xml:id="ol96b1-128197-d1e727">
+      <!--0394.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>Quid dicendum secundum veritatem, &amp; primo 
+      <lb ed="#L" n="68"/>quid sit missio. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e738">
+                  <lb ed="#L" n="69"/>RESTAT ergo dicere quod videtur sub 
+      tri<lb ed="#L" break="no" n="70"/>bus propositionibus, prima quidem quod 
+      <lb ed="#L" n="71"/>mittere actiuum prout accipitur in diuinis, non 
+      <lb ed="#L" n="72"/>est aliud quam auctoritatem transfundere, &amp; po 
+      <lb ed="#L" n="73"/>testatem respectu alicuius operationis, &amp; 
+      de<lb ed="#L" break="no" n="74"/>trahere ad vsum illius auctoritatis, mitti vero 
+      <lb ed="#L" n="75"/>passiue, non est aliquam auctoritatem accipere, 
+      <lb ed="#L" n="76"/>&amp; determinari ad vtendum illa auctoritate, ad 
+      <lb ed="#L" n="77"/>illud autem dicitur missio fieri, contra quod 
+      <lb ed="#L" n="78"/>exercetur vsus auctoritatis.
+    </p>
+               <p xml:id="ol96b1-128197-d1e763">
+                  <lb ed="#L" n="79"/>Ad cuius euidentiam considerandum est, quod 
+      <lb ed="#L" n="80"/>licet pater personae filij communicet in diuinis 
+      <lb ed="#L" n="81"/>omnem perfectionem simpliciter, &amp; omnem po 
+      <lb ed="#L" n="82"/>testatem &amp; auctoritatem, ex modo tamen 
+      ema<lb ed="#L" break="no" n="83"/>nationis communicat sibi specialem 
+      auctorita<lb ed="#L" break="no" n="84"/>tem super cognoscibilem veritatem, ex qua ema 
+      <lb ed="#L" n="85"/>nat vt pulchritudo perfectissima, &amp; vnitas 
+      sum<lb ed="#L" break="no" n="86"/>ma, in nulla parte patri dissimilis vt Augustinus 
+      <lb ed="#L" n="87"/>dicit 6. de Trin. vnde filio appropriatur veritas 
+      <lb ed="#L" n="88"/>Ioan. I4. Ego sum veritas, via &amp; vita, &amp; 
+      appropria<lb ed="#L" break="no" n="89"/>tur sibi illustratio mentium ad cognitionem 
+      <lb ed="#L" n="90"/>veritatis iuxta illud Ioannis primo, vita erat lux 
+      <lb ed="#L" n="91"/>homo, &amp; erat lux vera quae illuminat omnem 
+      homi<lb ed="#L" break="no" n="92"/>nem venientem in hunc mundum, ratio autem istius 
+      ap<lb ed="#L" break="no" n="93"/>propriationis est, quia de ratione verbi est, vtper 
+      <lb ed="#L" n="94"/>ipsum nunc dicatur &amp; proferatur, nam verbum 
+      <lb ed="#L" n="95"/>dcitur verum bonum, vnde verbum ex suo modo 
+      <lb ed="#L" n="96"/>emanationis connotat creaturam, quam pater 
+      <lb ed="#L" n="97"/>dixit verbo similiter omnem veritatem, verbo 
+      <lb ed="#L" n="98"/>namque suo aeterno dicit quaecumque dicit 
+      secun<lb ed="#L" break="no" n="99"/>dum Augustinum, quia ergo eruditio veritatis 
+      <lb ed="#L" n="100"/>per verbum fit, Doctor enim docet per verbum, 
+      <lb ed="#L" n="101"/>competenter dicitur pater per verbum hominem 
+      <lb ed="#L" n="102"/>erudire, sicut &amp; per verbum omnia facere. ergo 
+      <lb ed="#L" n="103"/>quando mentem humanam, vel angelicam Deus 
+      <lb ed="#L" n="104"/>illustrat, &amp; erudit in notitia veritatis, tunc filius 
+      <lb ed="#L" n="105"/>dicitur mitti, nec est aliud mittere, quam filium 
+      <lb ed="#L" n="106"/>determinare ad vtendum auctoritate 
+      commu<lb ed="#L" break="no" n="107"/>nicata sibi a patre, haec autem auctoritas est eru 
+      <lb ed="#L" n="108"/>ditio veritatis, similiter est de Spiritu sancto in 
+      <lb ed="#L" n="109"/>ordine ad charitatiuum impulsum, &amp; amorosum 
+      <lb ed="#L" n="110"/>egressum animae in Deum, quia enim emanat Spi 
+      <lb ed="#L" n="111"/>ritus in diuinis per modum doni, &amp; cuiusdam 
+      <lb ed="#L" n="112"/>egredientis in amatum, idcirco ex modo 
+      emana<lb ed="#L" break="no" n="113"/>tionis videtur habere causalitatem quodam 
+      ap<lb ed="#L" break="no" n="114"/>pretiato modo super omnem amorosum 
+      im<lb ed="#L" break="no" n="115"/>pulsum: cum ego determinatur Spiritus ad illum 
+      <lb ed="#L" n="116"/>effectum, itavt mens amorose moueatur in Deum, tunc 
+      <lb ed="#L" n="117"/>dicitur mitti Spiritus sanctus, hoc est legatione 
+      <lb ed="#L" n="118"/>sua fungi &amp; auctoritate appropriate sibi collata. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e852">
+                  <lb ed="#L" n="119"/>Sed forte dicetur quod eruditio veritatis 
+      ae<lb ed="#L" break="no" n="120"/>que est a Spiritu sancto, sicut a filio, &amp; amorosus 
+      <lb ed="#L" n="121"/>impulsus mittitur in Deum aeque a filio, sicut a 
+      <lb ed="#L" n="122"/>Spiritu sancto, sunt enim communiter a tota Tri 
+      <lb ed="#L" n="123"/>nitate, &amp; verum forte dicetur, quod si filius ex vi 
+      <lb ed="#L" n="124"/>emanationis habet habitudinem ad veritatis 
+      <lb ed="#L" n="125"/>eruditionem, spiritus vero ad amorosam 
+      reda<lb ed="#L" break="no" n="126"/>mationem, videtur, quod aliquam causalitatem, 
+      <lb ed="#L" n="127"/>&amp; habitudinem ad perfectionem simpliciter 
+      ha<lb ed="#L" break="no" n="128"/>beat vna persona, quam alia non habet, &amp; ita non 
+      <lb ed="#L" n="129"/>dicitur verum, quia dictum est de 
+      auctoritate<lb ed="#L" break="no" n="130"/>filio sibi appropriata, vel Spiritui sancto. Sed 
+      di<lb ed="#L" break="no" n="131"/>cendum ad hoc. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e883">
+                  <lb ed="#L" n="132"/>Ad primum quidem, quod eruditio veritatis, 
+      <!--0395.xml-->
+      <pb ed="#L" n="395"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>&amp; omne verum, habet quidem habitudinem cō- 
+      <lb ed="#L" n="2"/>munem ad totam Trinitatem in ratione 
+      produ<lb ed="#L" break="no" n="3"/>cti, &amp; effectus, ex hoc vero impeditur, quin ex 
+      <lb ed="#L" n="4"/>modo emanationis auctoritas huiusmodi 
+      cau<lb ed="#L" break="no" n="5"/>salitatis appropriate sibi donetur, &amp; 
+      communi<lb ed="#L" break="no" n="6"/>cetur. non enim communicans auctoritatem, spo 
+      <lb ed="#L" n="7"/>liat se illa, nec oportet si vnus specialiter 
+      desti<lb ed="#L" break="no" n="8"/>netur secundum vnam auctoritatem, quod alij 
+      <lb ed="#L" n="9"/>careant illa. pater ergo, &amp; filius, &amp; spiritus 
+      san<lb ed="#L" break="no" n="10"/>ctus vtique docent &amp; instruunt veritatem, sed nihilo 
+      <lb ed="#L" n="11"/>minus ex modo communicationis, qua filio 
+      om<lb ed="#L" break="no" n="12"/>nia dantur per modum obiecti veritatis, sermo 
+      au<lb ed="#L" break="no" n="13"/>tem significatiuus principium est doctrinae secundum 
+      <lb ed="#L" n="14"/>Philosophum in de sensu, &amp; sensato, competit appro 
+      <lb ed="#L" n="15"/>priate filio, vt per eum doceat pater, tamquam 
+      <lb ed="#L" n="16"/>per verbum proprium &amp; sermonem suum, &amp; idem 
+      <lb ed="#L" n="17"/>intelligendum est de spiritu sancto respectu 
+      im<lb ed="#L" break="no" n="18"/>pulsionis amorosae. amans enim excirat amatum 
+      <lb ed="#L" n="19"/>ad redamandum per suum amorosum impulsum; 
+      <lb ed="#L" n="20"/>quia amor meretur redamationem secundum 
+      <lb ed="#L" n="21"/>quod Philosophus dicit 8. Ethic. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e940">
+                  <lb ed="#L" n="22"/>Ad secundum vero dicendum, quod nulla 
+      per<lb ed="#L" break="no" n="23"/>fectio simpliciter est in filio, quae non sit in 
+      spiri<lb ed="#L" break="no" n="24"/>tu sancto, nec aliqua auctoritas, nihilominus 
+      <lb ed="#L" n="25"/>omne verum habet aliquam specialem 
+      habitu<lb ed="#L" break="no" n="26"/>dinem ad verbum, ratione cuius appropriatur 
+      <lb ed="#L" n="27"/>veri eruditio ipsi verbo, &amp; similiter amoris 
+      con<lb ed="#L" break="no" n="28"/>donatio habet aliquam habitudinem ad spiritum 
+      <lb ed="#L" n="29"/>sanctum, qui est primus impulsus, &amp; prima 
+      con<lb ed="#L" break="no" n="30"/>donatio amorosa, propter quod charitatis 
+      dif<lb ed="#L" break="no" n="31"/>fusio per spiritum sanctum appropriate fieri 
+      di<lb ed="#L" break="no" n="32"/>citur in cordibus nostris secundum Apostolum 
+      <lb ed="#L" n="33"/>ad Roman. 6.
+    </p>
+               <p xml:id="ol96b1-128197-d1e969">
+                  <lb ed="#L" n="34"/>Quod missio passiua est semper notionalis, actiua vero 
+      <lb ed="#L" n="35"/>quandoque essentialis, quandoque notionalis. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e976">
+                  <lb ed="#L" n="36"/>SECVNDA vero propositio est, quod missio 
+      <lb ed="#L" n="37"/>passiua semper est notionalis, actiua vero 
+      <lb ed="#L" n="38"/>quandoque essentialis, quandoque vero 
+      notiona<lb ed="#L" break="no" n="39"/>lis, &amp; primum quidem patet, quoniam mitti est 
+      <lb ed="#L" n="40"/>determinari ad vtendum auctoritate 
+      commu<lb ed="#L" break="no" n="41"/>nicata &amp; condonata. nulla ergo persona mitti 
+      <lb ed="#L" n="42"/>dicitur, quae habeat auctoritatem aliunde 
+      com<lb ed="#L" break="no" n="43"/>municatam. omnis namque communicatio in 
+      <lb ed="#L" n="44"/>diuinis fit per originem, &amp; per consequens 
+      mit<lb ed="#L" break="no" n="45"/>ti includit originem passiuam, haec autem estno 
+      <lb ed="#L" n="46"/>tionalis. secundum vero patet ex hoc, quod 
+      mit<lb ed="#L" break="no" n="47"/>tere potest dupliciter accipi. Primo quidem per 
+      <lb ed="#L" n="48"/>hoc quod est auctoritatem communicare alteri; 
+      <lb ed="#L" n="49"/>&amp; ipsum determinare ad vsum illius 
+      auctorita<lb ed="#L" break="no" n="50"/>tis, &amp; sic includit notionale, cum communicare 
+      <lb ed="#L" n="51"/>in diuinis sit per productionem, &amp; actiuam 
+      ori<lb ed="#L" break="no" n="52"/>ginem: vnde mittens hoc modo personam origi 
+      <lb ed="#L" n="53"/>nat, &amp; producit. Secundo vero sumi potest, pro 
+      <lb ed="#L" n="54"/>sola determinatione auctoritatis ad vsum, &amp; 
+      <lb ed="#L" n="55"/>quia persona, quae auctoritatem accipit in 
+      diui<lb ed="#L" break="no" n="56"/>nis, puta filius, velspiritus sanctus determinatur 
+      <lb ed="#L" n="57"/>ad vsum huiusmodi auctoritatis praeter 
+      volun<lb ed="#L" break="no" n="58"/>tatem diuinam, quae communis est, &amp; essentialis, 
+      <lb ed="#L" n="59"/>necessario personam determinare ad vsum 
+      au<lb ed="#L" break="no" n="60"/>ctoritatis commune est tribus, vnde spiritus san 
+      <lb ed="#L" n="61"/>ctus determinat filium ad erudiendum 
+      verita<lb ed="#L" break="no" n="62"/>tem, &amp; pater determinat ipsum &amp; ipsemet 
+      de<lb ed="#L" break="no" n="63"/>terminat seipsum, velle enim erudire est 
+      deter<lb ed="#L" break="no" n="64"/>minare ipsum ad erudiendum, hoc est 
+      commu<lb ed="#L" break="no" n="65"/>ne tribus.
+    </p>
+               <p xml:id="ol96b1-128197-d1e1045">
+      <!--0395.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>Quod processio, missio &amp; datio differunt in diuinis.
+    </p>
+               <p xml:id="ol96b1-128197-d1e1054">
+                  <lb ed="#L" n="67"/>TERTIA propositio est, quod processio, 
+      mis<lb ed="#L" break="no" n="68"/>sio &amp; datio differunt circa personas diuinas 
+      <lb ed="#L" n="69"/>inquantum ad hoc, quod important ex parte 
+      ter<lb ed="#L" break="no" n="70"/>mini, processio namque, &amp; missio includunt 
+      ema<lb ed="#L" break="no" n="71"/>nationem ex parte personae procedentis, &amp; 
+      mis<lb ed="#L" break="no" n="72"/>sae, propter quod Trinitas mitti non dicitur, nec 
+      <lb ed="#L" n="73"/>procedere, datio vero ex parte dantis originem 
+      <lb ed="#L" n="74"/>non includit, quilibet enim potest dare seipsum; 
+      <lb ed="#L" n="75"/>nec oportet, quod donum suum sit productum 
+      <lb ed="#L" n="76"/>ab eo, alioquin non posset dare pecuniam, qui 
+      <lb ed="#L" n="77"/>pecuniam non fecisset, sed hinc est, quod 
+      tota<lb ed="#L" break="no" n="78"/>Trinitas dicitur nobis data. Est tamen hoc 
+      ad<lb ed="#L" break="no" n="79"/>uertendum, quod aliquid dari dicitur dupliciter; 
+      <lb ed="#L" n="80"/>vno modo, sicut impulsus amorosus, qui est 
+      ip<lb ed="#L" break="no" n="81"/>summet donum, &amp; sic spiritus sanctus dicitur 
+      da<lb ed="#L" break="no" n="82"/>ri a patre, &amp; filio, quae quidem datio non est aliud, 
+      <lb ed="#L" n="83"/>quam processio, &amp; per consequens talis datio 
+      si<lb ed="#L" break="no" n="84"/>cut &amp; processio emanationem includit, alio mo 
+      <lb ed="#L" n="85"/>do aliquid dicitur dari, sicut datum amoroso 
+      im<lb ed="#L" break="no" n="86"/>pulsu, non sicut ipse impulsus, quomodo dicitur 
+      <lb ed="#L" n="87"/>dari pecuniam, vel aliud quodcumque, quod 
+      <lb ed="#L" n="88"/>transfertur in alterius potestatem, &amp; quia 
+      to<lb ed="#L" break="no" n="89"/>ta Trinitas est in potestate illius, qui existit in 
+      <lb ed="#L" n="90"/>gratia. amicus enim est inter illa quae sunt 
+      <lb ed="#L" n="91"/>in hominis potestate, quoniam illa possumus, 
+      <lb ed="#L" n="92"/>quae per amicos possumus, vt philosophus dicit 
+      <lb ed="#L" n="93"/>in primo Ethic. amicus enim computatur 
+      in<lb ed="#L" break="no" n="94"/>ter personas tamquam nobilissima, &amp; 
+      potissi<lb ed="#L" break="no" n="95"/>ma vt patet 8. Ethic. vnde ditior est qui habet 
+      <lb ed="#L" n="96"/>multitudinem amicorum, quam habens 
+      mul<lb ed="#L" break="no" n="97"/>titudinem thesaurorum &amp; opum, secundum 
+      <lb ed="#L" n="98"/>hanc itaque considerationem Deus secundum 
+      <lb ed="#L" n="99"/>ternarinm personarum dicitur dari, &amp; 
+      posside<lb ed="#L" break="no" n="100"/>ri ab homine, primum tamen, quod Deus dat, est 
+      <lb ed="#L" n="101"/>amorosus suus impulsus, propter quod spiritus 
+      <lb ed="#L" n="102"/>sanctus habet rationem primi doni, ex parte autem 
+      <lb ed="#L" n="103"/>termini dicuntur ista tria, quoniam processio 
+      ac<lb ed="#L" break="no" n="104"/>cipitur secundum proprietatem. proprius nãq. ter 
+      <lb ed="#L" n="105"/>minus processionis aeternae participatur ab ani 
+      <lb ed="#L" n="106"/>ma existente in gratia, vt dictum est supra, propter 
+      <lb ed="#L" n="107"/>quod spiritus sanctus proprie procedit, &amp; 
+      trans<lb ed="#L" break="no" n="108"/>fertur in animas sanctas; missio vero accipitur 
+      <lb ed="#L" n="109"/>secundum appropriationem, eruditio namque 
+      <lb ed="#L" n="110"/>veritatis, secundum quam mittitur filius, est 
+      qui<lb ed="#L" break="no" n="111"/>dem ab eo appropriate, est autem a Deo proprie 
+      <lb ed="#L" n="112"/>quoniam simul fit a tribus personis, datio vero 
+      <lb ed="#L" n="113"/>accipitur secundum amicitiae rationem, inquan 
+      <lb ed="#L" n="114"/>tum illud, cui Trinitas datur, habere dicitur, vel 
+      <lb ed="#L" n="115"/>possidere ipsam secundum leges amicitiae, sicut 
+      <lb ed="#L" n="116"/>homo solet habere amicum, &amp; reductum ad sui 
+      po<lb ed="#L" break="no" n="117"/>testatem, quoad procurationem vtilium, &amp; 
+      com<lb ed="#L" break="no" n="118"/>pletionem votorum, vt Philosophus dicit in 2. 
+      <lb ed="#L" n="119"/>Rhet. patet ergo ex praedictis quid sit mitti 
+      per<lb ed="#L" break="no" n="120"/>sonae dininae. non enim est aliud personam 
+      diui<lb ed="#L" break="no" n="121"/>nam mitti, quam auctoritate ab aeterno 
+      acce<lb ed="#L" break="no" n="122"/>pta ex tempore vti. non enim de nouo legatur, 
+      <lb ed="#L" n="123"/>quia nouiter auctoritatem accipiat, sed quia 
+      <lb ed="#L" n="124"/>auctoritate aeternaliter accepta ex tempore 
+      vti<lb ed="#L" break="no" n="125"/>tur profluendo in actum, mittere vero nil aliud 
+      <lb ed="#L" n="126"/>est, quam personam determinare ad huiusmodi 
+      <lb ed="#L" n="127"/>vsum auctoritatis, quod fit per diuinam 
+      volun<lb ed="#L" break="no" n="128"/>tatem, quae communis est tribus, &amp; in hoc 
+      pri<lb ed="#L" break="no" n="129"/>mur Articulus terminetur.
+    </p>
+            </div>
+            <div xml:id="ol96b1-128197-Dd1e1194">
+               <head xml:id="ol96b1-128197-Hd1e1196">Articulus 2</head>
+               <p xml:id="ol96b1-128197-d1e1198">
+      <!--0396.xml-->
+                  <pb ed="#L" n="396"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1209">
+                  <lb ed="#L" n="2"/>Quae dona mittantur a persona diuina opin. S. Thom. 
+      <lb ed="#L" n="3"/>par. I. quaest. 43. art. 5. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1216">
+                  <lb ed="#L" n="4"/>CIRCA secundum autem considerandum 
+      <lb ed="#L" n="5"/>quod cum filij missio non sit aliquid aliud, 
+      <lb ed="#L" n="6"/>quam vti auctoritate, &amp; legatione sua fungi, 
+      <lb ed="#L" n="7"/>iuxta potestatem quae a patre sibi collata est, ap 
+      <lb ed="#L" n="8"/>propriate haec missio nil aliud erit, quam 
+      men<lb ed="#L" break="no" n="9"/>tis eruditio in hanc missionem veritatis, missio 
+      <lb ed="#L" n="10"/>vero spiritus sancti non est aliud, quam mentis 
+      <lb ed="#L" n="11"/>excitatio ad amorosum egressum, &amp; impulsum 
+      <lb ed="#L" n="12"/>charitatis in Deum, sunt autem hic duo dubia: 
+      <lb ed="#L" n="13"/>primum quidem quod eruditio veritatis 
+      attri<lb ed="#L" break="no" n="14"/>buitur filio, quia donum intellectus, sapientiae, 
+      <lb ed="#L" n="15"/>&amp; scientiae, &amp; consilij spectant ad eruditionem 
+      <lb ed="#L" n="16"/>veritatis, &amp; tamen Isaiae 11. attribuitur spiritui 
+      <lb ed="#L" n="17"/>sancto. vnde &amp; appellatur spiritus veritatis, qui 
+      <lb ed="#L" n="18"/>dodet omnem veritatem. Ioan. 15. secundum 
+      ve<lb ed="#L" break="no" n="19"/>ro quod dicitur filius mitti, dum mens percipit 
+      <lb ed="#L" n="20"/>veritatem: secundum hoc enim missus fuisset 
+      Phi<lb ed="#L" break="no" n="21"/>losophis, &amp; peccatoribus multis, quod quidem 
+      <lb ed="#L" n="22"/>inconueniens videtur esse, propterea dixerunt 
+      <lb ed="#L" n="23"/>quod non in quacumque cognitione veritatis 
+      <lb ed="#L" n="24"/>dicitur mitti filius, sed in dono sapientiae, quod 
+      <lb ed="#L" n="25"/>est sapientia, &amp; notitia amorosa, &amp; quod a 
+      cha<lb ed="#L" break="no" n="26"/>ritate causari non potest. vnde missio spiritus 
+      <lb ed="#L" n="27"/>sancti fit per donum charitatis, &amp; missio filij 
+      <lb ed="#L" n="28"/>per donum sapientiae, differunt quidem realiter, 
+      <lb ed="#L" n="29"/>quia charitas, &amp; sapientia realiter 
+      distinguun<lb ed="#L" break="no" n="30"/>tur, non tamen differunt per actualem 
+      separa<lb ed="#L" break="no" n="31"/>tionem, quia sapientia mitti non potest, nec da 
+      <lb ed="#L" n="32"/>ri absque charitate, &amp; hinc est, quod tota ista 
+      at<lb ed="#L" break="no" n="33"/>tribuuntur spiritui sancto.
+    </p>
+               <p xml:id="ol96b1-128197-d1e1284">
+                  <lb ed="#L" n="34"/>Quod autem missio filij a missione spiritus 
+      san<lb ed="#L" break="no" n="35"/>cti separari non possit, patet: tum quia non 
+      mit<lb ed="#L" break="no" n="36"/>titur filius, nisi in cognitione perfecti boni, ad 
+      <lb ed="#L" n="37"/>quam de necessitate sequitur dilectio, quia in 
+      <lb ed="#L" n="38"/>bono perfecto non inuenitur aliqua ratio mali, 
+      <lb ed="#L" n="39"/>aut ratio non diligibilis: tum quia non in 
+      diui<lb ed="#L" break="no" n="40"/>nis spirat, quia vero qui non spirat amorem, non 
+      <lb ed="#L" n="41"/>assimilatur personae filij, &amp; ita non mittitur 
+      fi<lb ed="#L" break="no" n="42"/>lius secundum notitiam talem, quia notitia, 
+      se<lb ed="#L" break="no" n="43"/>cundum quam dicitur filius mitti, est Dei 
+      noti<lb ed="#L" break="no" n="44"/>tia experimentalis a Deo, &amp; practica, &amp; 
+      suaui<lb ed="#L" break="no" n="45"/>tatem induceret, quae quidem absque charitate 
+      <lb ed="#L" n="46"/>haberi non potest, vnde patet, quod non 
+      separa<lb ed="#L" break="no" n="47"/>tur missio filij a missione spiritus sancti: sed haec 
+      <lb ed="#L" n="48"/>opinio videtur in duobus deficere. Primo quidem, 
+      <lb ed="#L" n="49"/>quod ait missionem verbi non posse separari a 
+      <lb ed="#L" n="50"/>missione spiritus sanctti per hoc innuens, quod 
+      <lb ed="#L" n="51"/>non per omnem perceptionem veritatis dicitur 
+      <lb ed="#L" n="52"/>mitti verbum, hoc autem non est verum, cum sa 
+      <lb ed="#L" n="53"/>pientia aliquorum malorum hominum 
+      attribua<lb ed="#L" break="no" n="54"/>tur dono Dei, vnde sapientia Salomonis 
+      perse<lb ed="#L" break="no" n="55"/>uerauit in eo tempore, quo extitit in peccato, 
+      <lb ed="#L" n="56"/>&amp; tamen secundum eam missum sibi verbum, 
+      <lb ed="#L" n="57"/>quod est sapientia, quam postulat: vbi ait mitte 
+      <lb ed="#L" n="58"/>n'unt c&amp;e frt, futs tuitu itceius cerges qust 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1342">
+                  <lb ed="#L" n="59"/>Praeterea: Eccles. 1. dicitur, quod omnis 
+      sa<lb ed="#L" break="no" n="60"/>pientia a Domino Deo est, &amp; quod fons 
+      sapien<lb ed="#L" break="no" n="61"/>tiae est verbum Dei in excelsis, &amp; loquitur ibi 
+      sa<lb ed="#L" break="no" n="62"/>piens de cognitione veritatis creaturarum, non so 
+      <lb ed="#L" n="63"/>lum de diuinorum cognitione, vnde ait 
+      altitu<lb ed="#L" break="no" n="64"/>dinem coeli, &amp; altitudinem terrae, &amp; profundum 
+      <!--0396.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>abissi quis dimensus est, &amp; tunc subdit, quod fons 
+      <lb ed="#L" n="66"/>sapientiae est verbum Dei in excelsis, sed hoc non 
+      <lb ed="#L" n="67"/>esset, nisi filius mitteretur, dum percipitur 
+      om<lb ed="#L" break="no" n="68"/>nis profunda veritas, esto etiam, quod spectet 
+      <lb ed="#L" n="69"/>ad charitatem. ergo illud quod prius. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1373">
+                  <lb ed="#L" n="70"/>Secundo vero deficit, quia dicit missionem 
+      spi<lb ed="#L" break="no" n="71"/>ritus sancti, &amp; filij esse idem per quandam 
+      con<lb ed="#L" break="no" n="72"/>comitantiam, quamuis formaliter 
+      distinguan<lb ed="#L" break="no" n="73"/>tur, ex hoc inuenere videtur, quod donum 
+      sapien<lb ed="#L" break="no" n="74"/>tiae, &amp; eruditio veritatis non spectet causaliter 
+      <lb ed="#L" n="75"/>ad spiritum sanctum, nec dicatur mitti spiritus 
+      san<lb ed="#L" break="no" n="76"/>ctus, dum anima eruditur in notitiam veritatis. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1391">
+                  <lb ed="#L" n="77"/>constat enim, quod scriptura, spiritui sancto 
+      il<lb ed="#L" break="no" n="78"/>lud attribuit, vt Sap. 7. optaui &amp; datus est 
+      mi<lb ed="#L" break="no" n="79"/>hi sensus, inuocaui, &amp; venit in me spiritus 
+      sapien<lb ed="#L" break="no" n="80"/>tiae. Ecclesiastici primi dicitur, quod ipse 
+      crea<lb ed="#L" break="no" n="81"/>uit eam, in quocumque dicatur a spiritu sancto 
+      <lb ed="#L" n="82"/>esse videtur. ergo donum sapientiae, &amp; 
+      cognitio<lb ed="#L" break="no" n="83"/>nis videtur ad spiritum sanctum, aliter quam 
+      <lb ed="#L" n="84"/>per concomitantiam pertinere. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1411">
+                  <lb ed="#L" n="85"/>Quid dicendum secundum quod videtur.
+    </p>
+               <p xml:id="ol96b1-128197-d1e1416">
+                  <lb ed="#L" n="86"/>Nvnc ergo dicendum, quod adistum 
+      articu<lb ed="#L" break="no" n="87"/>lum, quod primum donum diuinum in
+      <lb ed="#L" n="88"/>quo omnia dona donantur, est donum spiritus 
+      <lb ed="#L" n="89"/>sancti, sicut &amp; inter homines. Primum 
+      quod<lb ed="#L" break="no" n="90"/>dam est ipsemet amans, quando seipsum tribuit, 
+      <lb ed="#L" n="91"/>per amorem, &amp; ex hoc dat alia per seipsum 
+      pri<lb ed="#L" break="no" n="92"/>mo, de secundo autem in esse dato potius est spi, 
+      <lb ed="#L" n="93"/>ritus sanctus, sicut dictum est saepe, propter quod 
+      <lb ed="#L" n="94"/>in causa dono naturali gratuito, &amp; morali 
+      pro<lb ed="#L" break="no" n="95"/>cedit spiritus sanctus, vt declaratum prae extitit 
+      <lb ed="#L" n="96"/>in praecedenti q. Tertio haec cognitio veritatis, 
+      <lb ed="#L" n="97"/>&amp; donum sapientiae attribuitur spiritui 
+      san<lb ed="#L" break="no" n="98"/>cto: vlterius autem secundum specialem 
+      ratio<lb ed="#L" break="no" n="99"/>nem attribuitur sibi donum gratuitae 
+      causali<lb ed="#L" break="no" n="100"/>tatis, secundum quod causalitas habet specialem, 
+      <lb ed="#L" n="101"/>habitudinem a spiritu sancto, qui est causalitas 
+      <lb ed="#L" n="102"/>impulsus, &amp; per consequens numerum, &amp; 
+      men<lb ed="#L" break="no" n="103"/>suram: vnde charitatiua inflammatio 
+      appropria<lb ed="#L" break="no" n="104"/>tur legationi spiritus sancti similiter, quia 
+      ver<lb ed="#L" break="no" n="105"/>bum in diuinis est propria veritas, &amp; per 
+      conse<lb ed="#L" break="no" n="106"/>quens primum numerum, &amp; mensura veri 
+      con<lb ed="#L" break="no" n="107"/>ceptus, idcirco in omni vero videtur esse 
+      ali<lb ed="#L" break="no" n="108"/>qua diuinatio, seu destinatio, &amp; legatio primi, 
+      <lb ed="#L" n="109"/>verbi, vnde conceptus verbi dicemus, occurrens 
+      <lb ed="#L" n="110"/>menti videtur quidam nuntius verbi aeterni 
+      se<lb ed="#L" break="no" n="111"/>cundum hoc generaliter loquendo de omni dono, 
+      <lb ed="#L" n="112"/>omnia sunt a spiritu sanctto, prout tamen ab 
+      ip<lb ed="#L" break="no" n="113"/>so specialiter charitas diffundi, dum 
+      conformi<lb ed="#L" break="no" n="114"/>ter, &amp; a verbo dicitur mitti verus actus, vnde 
+      <lb ed="#L" n="115"/>vtitur verbum auctoritate sibi appropriata, dum 
+      <lb ed="#L" n="116"/>verum percipitur, &amp; spiritus sanctus, dum 
+      ani<lb ed="#L" break="no" n="117"/>ma inflammatur. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1488">
+                  <lb ed="#L" n="118"/>Et circa hoc patet ad instantias superius 
+      in<lb ed="#L" break="no" n="119"/>ductas, ad primam quidem, quod spiritui sancto 
+      <lb ed="#L" n="120"/>cognitio veritatis attribuitur, propter rationem 
+      <lb ed="#L" n="121"/>iam dictam, non quod habeat se per 
+      concomi<lb ed="#L" break="no" n="122"/>tantiam, vt opinio illa dicebat. Ad secundum ve 
+      <lb ed="#L" n="123"/>ro, quod omne verum, a quocumque percipitur 
+      <lb ed="#L" n="124"/>siue pagano, siue Philosopho, Deo debet 
+      attri<lb ed="#L" break="no" n="125"/>bui, iuxta illud Apostoli ad Rom. 1. nam Deo 
+      il<lb ed="#L" break="no" n="126"/>la manifestantur, vnde omnis verus conceptus 
+      <lb ed="#L" n="127"/>est nuntius primi conceptus, qui est verbum Dei, 
+      <lb ed="#L" n="128"/>in excelsis, &amp; secundum omne verbum, &amp; 
+      men<lb ed="#L" break="no" n="129"/>te perceptum, si verum sit, mittitur verbum Dei- 
+      <!--0397.xml-->
+      <pb ed="#L" n="397"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quia tamen verbum salutare, &amp; notitia 
+      amoro<lb ed="#L" break="no" n="2"/>sa, &amp; sapida perfectior est, &amp; vltimior, secundum 
+      <lb ed="#L" n="3"/>illam perfectius mitti dicitur sapientia 
+      increa<lb ed="#L" break="no" n="4"/>ta, quae filius Dei est; vnde secundum dona 
+      per<lb ed="#L" break="no" n="5"/>tinentia ad gratiam, &amp; ad gloriam perficientia 
+      <lb ed="#L" n="6"/>intellectum, vt sunt sapientia, &amp; visio aeterna, 
+      <lb ed="#L" n="7"/>filius dicitur maxime inuisibiliter mitti. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-128197-Dd1e1539">
+               <head xml:id="ol96b1-128197-Hd1e1541">Articulus 3</head>
+               <p xml:id="ol96b1-128197-d1e1543">
+                  <lb ed="#L" n="8"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-128197-d1e1548">
+                  <lb ed="#L" n="9"/>Inquiritur, an quilibet persona mittat, &amp; mittatur. 
+      <lb ed="#L" n="10"/>Opinio Magistri in praesenti dist. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1555">
+                  <lb ed="#L" n="11"/>CIRCA tertium autem considerandum, quod 
+      <lb ed="#L" n="12"/>Qopinio fuit Magistri Sententiarum, sicut pa 
+      <lb ed="#L" n="13"/>tet in littera, quod persona quaelibet non 
+      mit<lb ed="#L" break="no" n="14"/>tatur, quia non pater propter auctoritatem 
+      prin<lb ed="#L" break="no" n="15"/>cipij, omnis tamen persona mittit, &amp; filius 
+      mit<lb ed="#L" break="no" n="16"/>tit seipsum, vt probat. &amp; pro hac opinione sunt 
+      <lb ed="#L" n="17"/>rationes, &amp; auctoritates, quas Magister 
+      indu<lb ed="#L" break="no" n="18"/>cit in littera cap. 1. &amp; 2. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1575">
+                  <lb ed="#L" n="19"/>Opinio Scoti, I. Sent. dist. I4. &amp; I5. quaest. vnica. &amp; 
+      <lb ed="#L" n="20"/>multorum aliorum. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1583">
+                  <lb ed="#L" n="21"/>FVERVNT autem alij, qui dixerunt, quod 
+      <lb ed="#L" n="22"/>in diuinis est vna persona, quae non 
+      mitti<lb ed="#L" break="no" n="23"/>tur, sed tantum mittat, scilicet pater, &amp; una 
+      <lb ed="#L" n="24"/>tantum mittitur, &amp; non mittit, scilicet 
+      spiri<lb ed="#L" break="no" n="25"/>tus sanctus, &amp; vna, quae mittitur, &amp; mittit, 
+      sci<lb ed="#L" break="no" n="26"/>licet filius: &amp; secundum hoc sunt duae mittentes, 
+      <lb ed="#L" n="27"/>&amp; duae missae. ratio autem istorum fuit, quod 
+      <lb ed="#L" n="28"/>sicut mitti includit originem passiuam, ita 
+      mit<lb ed="#L" break="no" n="29"/>tere originem actiuam. hoc autem potest 
+      mul<lb ed="#L" break="no" n="30"/>tipliciter declarari secundum eos. mittere enim, 
+      <lb ed="#L" n="31"/>&amp; mitti sunt realiter opposita, sed mitti 
+      inclu<lb ed="#L" break="no" n="32"/>dit produci. ergo &amp; mittere includit suum 
+      cor<lb ed="#L" break="no" n="33"/>relatiuum, quod est producere. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1614">
+                  <lb ed="#L" n="34"/>Praeterea: Hoc, si oppositum de opposito, &amp; 
+      <lb ed="#L" n="35"/>propositum de proposito, sed mittere, &amp; mitti 
+      <lb ed="#L" n="36"/>sunt opposita. ergo mittere erit originare, cum 
+      <lb ed="#L" n="37"/>mitti sit originari. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1625">
+                  <lb ed="#L" n="38"/>Praeterea: Mittere, &amp; mitti videntur eandem 
+      <lb ed="#L" n="39"/>rem significare secundum diuersos modos gram 
+      <lb ed="#L" n="40"/>maticales, sed mitti significat respectum 
+      origi<lb ed="#L" break="no" n="41"/>nis ad intra; vnde cum significet actiue illud, 
+      <lb ed="#L" n="42"/>quod mitti significat passiue, mitti includit 
+      ori<lb ed="#L" break="no" n="43"/>ginari. ergo mittere includet originare. 
+      <lb ed="#L" n="44"/>Praeterea: Mittere est authentice dare secundum 
+      <lb ed="#L" n="45"/>acceptionem Sanctorum: sed dare authentice 
+      <lb ed="#L" n="46"/>non potest diuina persona, nisi secundum 
+      aucto<lb ed="#L" break="no" n="47"/>ritatem originis. ergo omnis persona, quae 
+      a<lb ed="#L" break="no" n="48"/>liam mittit, ipsam originat. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1651">
+                  <lb ed="#L" n="49"/>Praeterea: Si de ratione mittentis non est, quod 
+      <lb ed="#L" n="50"/>ipsam originet, intantum potuit mittere patrem, 
+      <lb ed="#L" n="51"/>sicut spiritus sanctus producitur a filio, sicut 
+      fi<lb ed="#L" break="no" n="52"/>lius a patre: sed Augustinus expresse dicit 4. de 
+      <lb ed="#L" n="53"/>Trinitate, quod pater non legitur missus 
+      pro<lb ed="#L" break="no" n="54"/>pter auctoritatem principij. ergo spiritus 
+      san<lb ed="#L" break="no" n="55"/>ctus non mitter filium, a quo procedit. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1669">
+                  <lb ed="#L" n="56"/>Praeterea: Persona mittens dicitur operari 
+      <lb ed="#L" n="57"/>per missam, sicut pater dicitur diffundere 
+      cha<lb ed="#L" break="no" n="58"/>ritatem per spiritum sanctum, erudire per 
+      fi<lb ed="#L" break="no" n="59"/>lium: sed nulla persona operari dicitur per 
+      a<lb ed="#L" break="no" n="60"/>liam, nisi quatenus originat eam. ergo illud, 
+      <lb ed="#L" n="61"/>quod prius.
+    </p>
+               <p xml:id="ol96b1-128197-d1e1685">
+      <!--0397.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="62"/>Opinio aliorum. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1695">
+                  <lb ed="#L" n="63"/>FVERVNT autem alij, qui nixi sunt ad 
+      con<lb ed="#L" break="no" n="64"/>cordiam reducere opinionem istorum, 
+      di<lb ed="#L" break="no" n="65"/>centes, quod cum dicitur persona mitti, 
+      designa<lb ed="#L" break="no" n="66"/>tur, quod ipsa persona ab alia existens est effectus 
+      in<lb ed="#L" break="no" n="67"/>uisibilis, secundum quem missio diuinae personae, 
+      <lb ed="#L" n="68"/>attenditur. si ergo mittens designetur, vt princi 
+      <lb ed="#L" n="69"/>pium personae, quae mittitur, sic non quaelibet perso 
+      <lb ed="#L" n="70"/>na mittit, sed solum illa, cui conuenit esse 
+      prin<lb ed="#L" break="no" n="71"/>cipium personae missae. Si vero persona mittens 
+      <lb ed="#L" n="72"/>intelligatur principium effectus, secundum quem 
+      <lb ed="#L" n="73"/>attenditur missio, sic tota Trinitas mittit 
+      per<lb ed="#L" break="no" n="74"/>sonam: sed hoc modo dicendi nil facit nos scire. 
+      <lb ed="#L" n="75"/>de hoc enim est dubium, vtrum persona mittens. 
+      <lb ed="#L" n="76"/>per hoc, quod dicitur mittere, designetur esse 
+      <lb ed="#L" n="77"/>principium, sicut persona, quae mittitur, 
+      desi<lb ed="#L" break="no" n="78"/>gnatur ex hoc, quod mitti dicitur esse 
+      princi<lb ed="#L" break="no" n="79"/>piata. In hoc enim difficultatem facit opinio 
+      se<lb ed="#L" break="no" n="80"/>cunda, mitti quidem, &amp; mittere videntur idem 
+      <lb ed="#L" n="81"/>significare, sed vnum actiue, &amp; reliquum 
+      passi<lb ed="#L" break="no" n="82"/>ue, propter quod si mitti importat originari, 
+      <lb ed="#L" n="83"/>videretur, quod mittere importet originare, &amp; 
+      <lb ed="#L" n="84"/>in hoc est difficultas huius quaesiti, quae non 
+      tol<lb ed="#L" break="no" n="85"/>litur per istum modum dicendi. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1747">
+                  <lb ed="#L" n="86"/>Opinio S. Bonauenturae I. Sent. dist. I5. quaest. 3. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1752">
+                  <lb ed="#L" n="87"/>FVERVNT alij, qui magis visibiliter nixi sunt 
+      <lb ed="#L" n="88"/>concordare, dicentes, quod mitti significat 
+      <lb ed="#L" n="89"/>&amp; manifestationem personae, quae est ab alio, &amp; 
+      <lb ed="#L" n="90"/>quod existat ab alio, secundum illud Augustini 
+      <lb ed="#L" n="91"/>4. de Trin. dicens, quod filium mitti est cognosci, 
+      <lb ed="#L" n="92"/>quod a patre sit. secundum hoc ergo in 
+      signifi<lb ed="#L" break="no" n="93"/>cato missionis includitur manifestatio 
+      emana<lb ed="#L" break="no" n="94"/>tionis principaliter, &amp; directa emanatio, nec 
+      <lb ed="#L" n="95"/>secundario, &amp; indirecte; vnde nil aliud est 
+      mit<lb ed="#L" break="no" n="96"/>ti personam, quam manifestari de illa, quod ab 
+      <lb ed="#L" n="97"/>aliqua persona procedit: mittere vero est 
+      ma<lb ed="#L" break="no" n="98"/>nifestare, quod illa persona procedit, &amp; quia 
+      <lb ed="#L" n="99"/>tota Trinitas manifestat, quod persona 
+      proce<lb ed="#L" break="no" n="100"/>dit. hoc enim manifestatur per donum creatum, 
+      <lb ed="#L" n="101"/>quod creaturae a tota Trinitate infunditur, 
+      ra<lb ed="#L" break="no" n="102"/>tionabiliter dici potest, quod tota Trinitas mit 
+      <lb ed="#L" n="103"/>tit, nec tamen mittitur, nisi persona producta. 
+      <lb ed="#L" n="104"/>Haec tamen opinio videtur insufficiens in duobus. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1794">
+                  <lb ed="#L" n="105"/>Primo quidem, quia missio videtur directe 
+      <lb ed="#L" n="106"/>dicere habitudinem inter personam mittentem, 
+      <lb ed="#L" n="107"/>&amp; missam. persona enim missa mittitur a mitten 
+      <lb ed="#L" n="108"/>te. secundum autem istum modum dicendi 
+      mis<lb ed="#L" break="no" n="109"/>sio dicit habitudinem principaliter, &amp; directe 
+      <lb ed="#L" n="110"/>inter effectum creatum, &amp; Trinitatem 
+      efficien<lb ed="#L" break="no" n="111"/>tem, vnde non est aliud mittere, quam donum 
+      <lb ed="#L" n="112"/>manifestatiuum infundere, nec mitti est aliud, 
+      <lb ed="#L" n="113"/>quam donum declaratiuum infundi, &amp; ita mitti, 
+      <lb ed="#L" n="114"/>&amp; mittere non sunt habitudines directe existen 
+      <lb ed="#L" n="115"/>tes inter personam, &amp; personam: sed ista, quod 
+      <lb ed="#L" n="116"/>tamen esse non potest. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1823">
+                  <lb ed="#L" n="117"/>Secundo, quia non videtur verum, quod 
+      ma<lb ed="#L" break="no" n="118"/>nifestari sit mitti. licet enim per donum, in quo 
+      <lb ed="#L" n="119"/>persona mittitur, fit manifestatio, &amp; 
+      forsi<lb ed="#L" break="no" n="120"/>tan fit missio ad manifestationem, 
+      <lb ed="#L" n="121"/>tamquam ad finem, non tamen 
+      <lb ed="#L" n="122"/>manifestari mitti 
+      forma<lb ed="#L" break="no" n="123"/>liter, vel legari, 
+      <lb ed="#L" n="124"/>aut 
+      desti<lb ed="#L" break="no" n="125"/>nari. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1845">
+      <!--0398.xml-->
+                  <pb ed="#L" n="398"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quid dicendum secundum quod videtur.
+    </p>
+               <p xml:id="ol96b1-128197-d1e1857">
+                  <lb ed="#L" n="2"/>PROPTEREA dicendum, quod legatio sumi 
+      <lb ed="#L" n="3"/>potest dupliciter, vno modo pro ipsius auctto 
+      <lb ed="#L" n="4"/>ritatis commissione, alio modo pro vsu 
+      aucto<lb ed="#L" break="no" n="5"/>ritatis, quod non est aliud, quam fungi legatione. 
+      <lb ed="#L" n="6"/>quandoque enim dicitur legari, seu destinari 
+      ali<lb ed="#L" break="no" n="7"/>quid pro illo tunc, quo sibi committitur 
+      auctori<lb ed="#L" break="no" n="8"/>tas, quando vero pro illo tunc, quo destinatur 
+      <lb ed="#L" n="9"/>ad vtendum auctoritate. secundum hoc ergo si primo 
+      <lb ed="#L" n="10"/>accipiatur missio in diuinis, mittere nil aliud 
+      <lb ed="#L" n="11"/>est, quam auctoritatem personae communicare, 
+      <lb ed="#L" n="12"/>&amp; delegare, &amp; sic soli personae producenti 
+      compe<lb ed="#L" break="no" n="13"/>tit mittere. pater enim mittit filium, quia sibi 
+      <lb ed="#L" n="14"/>auctoritatem communicat, &amp; potestatem. 
+      vn<lb ed="#L" break="no" n="15"/>de filius nil agit, nisi auctoritate delegata, sicut 
+      <lb ed="#L" n="16"/>ipse testatur Ioan. 14. dicens, Verba, quae ego 
+      lo<lb ed="#L" break="no" n="17"/>quor, a me ipso non loquor, pater autem in me manens, 
+      <lb ed="#L" n="18"/>ipse fatit opera. &amp; ita intelligendum est de 
+      spiri<lb ed="#L" break="no" n="19"/>tu sancto. Si vero accipiatur secundo modo 
+      le<lb ed="#L" break="no" n="20"/>gatio pro destinatione missi ad vsum legationis 
+      <lb ed="#L" n="21"/>&amp; vt fungatur auctoritate, sic mittere competit 
+      <lb ed="#L" n="22"/>toti Trinitati, cum per voluntatem diuinam, 
+      <lb ed="#L" n="23"/>quae essentialis est, &amp; communis destinetur, &amp; 
+      <lb ed="#L" n="24"/>determinetur persona ad vsum auctoritatis, &amp; 
+      <lb ed="#L" n="25"/>vt operetur secundum eam. vnde non solum 
+      fi<lb ed="#L" break="no" n="26"/>lius determinatur ad erudiendum intellectum 
+      <lb ed="#L" n="27"/>a voluntate paterna, immo &amp; a voluntate 
+      pro<lb ed="#L" break="no" n="28"/>pria, &amp; a voluntate spiritus sancti, cum sit vna 
+      <lb ed="#L" n="29"/>voluntas. sic ergo intelligendum est, cum dicitur 
+      <lb ed="#L" n="30"/>filius a spiritu sancto missus est. si enim eius mis 
+      <lb ed="#L" n="31"/>sio sit auctoritatis, per quam agit susceptio, tunc 
+      <lb ed="#L" n="32"/>filius mittitur a solo patre, &amp; spiritus sanctus 
+      <lb ed="#L" n="33"/>ab vtroque, si vero missio sit legari ad 
+      operan<lb ed="#L" break="no" n="34"/>dum destinatio, &amp; determinatio, sic mittitur 
+      fi<lb ed="#L" break="no" n="35"/>lius a tota Trinitate, quia in diuina voluntate 
+      <lb ed="#L" n="36"/>filius vtitur delegata sibi auctoritate a patre: 
+      <lb ed="#L" n="37"/>eadem namque auctoritas, quae in patre 
+      vide<lb ed="#L" break="no" n="38"/>tur authentice, est in filio modo subauthentico, 
+      <lb ed="#L" n="39"/>&amp; quasi subdele ga to. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1942">
+                  <lb ed="#L" n="40"/>Iste ergo modus dicendi concordat opinionem 
+      <lb ed="#L" n="41"/>Magistri cum opinione secundario posita aliorum 
+      <lb ed="#L" n="42"/>doctorum. Magister enim accipit mittere secun 
+      <lb ed="#L" n="43"/>do modo, &amp; ideo concessit, quod tota Trinitas 
+      <lb ed="#L" n="44"/>mittit, &amp; quod persona legat seipsam: alij vero 
+      <lb ed="#L" n="45"/>missionem intellexerunt secundum primum mo 
+      <lb ed="#L" n="46"/>dum, &amp; ideo dixerunt, quod sola persona mittit, 
+      <lb ed="#L" n="47"/>quae missam originat, &amp; producit, &amp; quia ille 
+      <lb ed="#L" n="48"/>modus est maxime proprius, idcirco persona 
+      <lb ed="#L" n="49"/>producens propriissime dicitur mittere, 
+      quam<lb ed="#L" break="no" n="50"/>uis omnis diuina persona mittat large, &amp; secun 
+      <lb ed="#L" n="51"/>dario accipiendo missionem. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1971">
+                  <lb ed="#L" n="52"/>Sed forte dicetur, quod auctoritatis 
+      com<lb ed="#L" break="no" n="53"/>municatio competit filio ab aeterno, &amp; ita ab 
+      <lb ed="#L" n="54"/>aeterno mittetur, &amp; non ex tempore, &amp; 
+      ite<lb ed="#L" break="no" n="55"/>rum iegati destinatio ad operandum, non vide 
+      <lb ed="#L" n="56"/>tur alicuius auctoritatis commissio, &amp; iterum 
+      <lb ed="#L" n="57"/>secundum hanc idem pater mitteret seipsum, &amp; 
+      <lb ed="#L" n="58"/>tota Trinitas simul mitteretur, cum voluntate 
+      <lb ed="#L" n="59"/>communi ad operandum simul determinetur. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e1991">
+                  <lb ed="#L" n="60"/>Sed dicendum, quod ista non obuiant. Primum 
+      si<lb ed="#L" break="no" n="61"/>quidem nō, quia licet ab aeterno concedatur aucto 
+      <lb ed="#L" n="62"/>ritas operandi, non tamen circa istum vel illum, nisi 
+      <lb ed="#L" n="63"/>identitate, propter quod cum determinate 
+      con<lb ed="#L" break="no" n="64"/>cedatur sibi auctoritas respectu alicuius dicitur 
+      <lb ed="#L" n="65"/>persona mitti ad illum, vnde vero incongrue potest 
+      <lb ed="#L" n="66"/>concedi, quod ab aeterno filius missus est indetermi 
+      <!--0398.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>nate, inquantum, vt missibilis generatus est, secun 
+      <lb ed="#L" n="68"/>dum Illud Greg. homil. 26. dicentis, quod missio 
+      <lb ed="#L" n="69"/>filij, iuxta naturam diuinitatis potest intelligi. 
+      <lb ed="#L" n="70"/>eo enim ipso filius a patre mitti dicitur, quoa 
+      <lb ed="#L" n="71"/>patre generatur, determinate tamen loquendo, 
+      <lb ed="#L" n="72"/>non dicitur ad istum, vel ad illum missus. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2026">
+                  <lb ed="#L" n="73"/>Secundum etiam non obsistit. non est enim ve 
+      <lb ed="#L" n="74"/>rum, quod auctoritatis commissio, &amp; auctorita 
+      <lb ed="#L" n="75"/>tis vsus sit idem, nec lgeatio infringi legatione, 
+      <lb ed="#L" n="76"/>vnde nec auctoritatemcommittere est vsum im 
+      <lb ed="#L" n="77"/>perare, immo patet, quod commissio potest prae 
+      <lb ed="#L" n="78"/>cedere vsum legationis. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2042">
+                  <lb ed="#L" n="79"/>Tertium quoque non obuiat. licet enim tota 
+      <lb ed="#L" n="80"/>Trinitas simul operetur, &amp; determinetur sua 
+      li<lb ed="#L" break="no" n="81"/>bera voluntate, nihilominus in operando pater 
+      <lb ed="#L" n="82"/>se habet, vt authenticus, spiritus autem, &amp; filius 
+      <lb ed="#L" n="83"/>quilibet se habet, vt legatus, inquantum agit au 
+      <lb ed="#L" n="84"/>ctoritate sibi communicata, non habita a se, 
+      <lb ed="#L" n="85"/>quemadmodum habet pater, &amp; ideo primum nun 
+      <lb ed="#L" n="86"/>quam mitti dicitur, nec agere, vt legatus, 
+      quan<lb ed="#L" break="no" n="87"/>uis eandem operationem agat cum aliis; filius 
+      <lb ed="#L" n="88"/>autem, &amp; spiritus agunt per modum legati, sed 
+      <lb ed="#L" n="89"/>filius in operatione, qua mens illustratur, spiri 
+      <lb ed="#L" n="90"/>tus autem in operatione, qua animus per chari 
+      <lb ed="#L" n="91"/>tatem inflammatur. Et in hoc Articulus tertius 
+      <lb ed="#L" n="92"/>terminetur. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2076">
+                  <lb ed="#L" n="93"/>Responsio ad obiecta. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2081">
+                  <lb ed="#L" n="94"/>AD ea ergo, quae superius primitus inducum 
+      <lb ed="#L" n="95"/>tur dicendum est. Ad primum quidem, 
+      <lb ed="#L" n="96"/>quod donum veritatis, &amp; fortitudinis etiam cor 
+      <lb ed="#L" n="97"/>poralis, quando supernaturaliter datur, 
+      attri<lb ed="#L" break="no" n="98"/>buitur spiritui sancto. vnde &amp; de Sansone 
+      le<lb ed="#L" break="no" n="99"/>gitur Iudic. 15. quod spiritus domini irruit 
+      in<lb ed="#L" break="no" n="100"/>Sansonem, &amp; vincula, quibus ligatus erat, 
+      dissi<lb ed="#L" break="no" n="101"/>pata sunt. ratio autem istius attributionis 
+      su<lb ed="#L" break="no" n="102"/>perius posita est, quod spiritus sanctus est 
+      pri<lb ed="#L" break="no" n="103"/>mum donum, in quo omnia dona donantur, nec 
+      <lb ed="#L" n="104"/>pater mitti dicitur secundum donum fortitudi 
+      <lb ed="#L" n="105"/>nis, quamuis furtitudinem largiatur, pro eo, 
+      <lb ed="#L" n="106"/>quod non dat fortitudinem auctoritate 
+      delega<lb ed="#L" break="no" n="107"/>tt, sed authentice, &amp; sicut habens potestatem a 
+      <lb ed="#L" n="108"/>se. Et per idem patet ad secundum. licet enim 
+      <lb ed="#L" n="109"/>pater legatur apparuisse, vel reuelatus fuisse, 
+      <lb ed="#L" n="110"/>non tamen auctoritate aliunde accepta, 
+      pro<lb ed="#L" break="no" n="111"/>pter quod non apparuit, vt legatus. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2123">
+                  <lb ed="#L" n="112"/>Ad tertium dicendum, quod pater nullo 
+      mo<lb ed="#L" break="no" n="113"/>do dicitur missus, quantumcumque veniat ad 
+      <lb ed="#L" n="114"/>mentem fidelem, pro eo, quod numquam venit 
+      <lb ed="#L" n="115"/>auctoritate habita aliunde. vnde venit 
+      authen<lb ed="#L" break="no" n="116"/>tice, nullo modo, vt legatus, vel missus: filius 
+      au<lb ed="#L" break="no" n="117"/>tem, &amp; spiritussanctus veniunt, vt legati, inquan 
+      <lb ed="#L" n="118"/>tum operantur auctoritate aliunde accepta. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2141">
+                  <lb ed="#L" n="119"/>Et si dicatur, quod filius non accepit 
+      auctori<lb ed="#L" break="no" n="120"/>tatem a spiritu sancto, nec etiam a seipso, &amp; per 
+      <lb ed="#L" n="121"/>consequens non debet dici missus a spiritu vel a se 
+      <lb ed="#L" n="122"/>ipso dicendum, quod verum est, si missio accipia 
+      <lb ed="#L" n="123"/>tur pro auctoritatis commissione; non autem 
+      <lb ed="#L" n="124"/>si accipiatur pro destinatione legati iam 
+      ha<lb ed="#L" break="no" n="125"/>bentis auctoritatem ad vsum legationis. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2159">
+                  <lb ed="#L" n="126"/>Quod si dicatur vlterius, quod a simili pater 
+      <lb ed="#L" n="127"/>potest dici legatus, quia a communi voluntate 
+      <lb ed="#L" n="128"/>omnium trium determinatur ad operandum 
+      v<lb ed="#L" break="no" n="129"/>na cum duabus. dicendum, quod non 
+      quaecum<lb ed="#L" break="no" n="130"/>que determinatio auctoritatis ad vsum dicitur 
+      <lb ed="#L" n="131"/>legatio, sed determinatio appellatur legatio, 
+      <lb ed="#L" n="132"/>vt faepe dictum est. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2177">
+      <!--0399.xml-->
+                  <pb ed="#L" n="399"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Responsio ad secundo obiecta. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2189">
+                  <lb ed="#L" n="2"/>AD ea vero, quae secundario inducuntur, 
+      <lb ed="#L" n="3"/>dicendum est. Ad primum quidem, quod 
+      <lb ed="#L" n="4"/>mittere, &amp; mitti non important maioritatem, 
+      <lb ed="#L" n="5"/>vel minoritatem, sed important potestatis 
+      au<lb ed="#L" break="no" n="6"/>ctoritatem, &amp; delegationem, hoc locum habet 
+      <lb ed="#L" n="7"/>in diuinis, inquantum in patre est omnis 
+      pote<lb ed="#L" break="no" n="8"/>stas authentice, &amp; a se: in filio autem, &amp; 
+      spiri<lb ed="#L" break="no" n="9"/>tu est communicata, &amp; transfusa, &amp; quasi dele 
+      <lb ed="#L" n="10"/>gata; vnde verbum Athanasij negat potestatis 
+      <lb ed="#L" n="11"/>maioritatem in diuinis personis, non tamen com 
+      <lb ed="#L" n="12"/>municationem, &amp; auctoritatem. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2215">
+                  <lb ed="#L" n="13"/>Ad secundum dicendum, quod missio 
+      perso<lb ed="#L" break="no" n="14"/>nae diuinae non importat, quod sit alicubi, vbi an 
+      <lb ed="#L" n="15"/>te non erat, sed incipiat vti auctoritate, qua 
+      an<lb ed="#L" break="no" n="16"/>tea non vtebatur, aut etiam vbi erat. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2226">
+                  <lb ed="#L" n="17"/>Ad tertium dicendum, quod pater non est 
+      <lb ed="#L" n="18"/>missus, quamuis mittantur alij duo propter 
+      ra<lb ed="#L" break="no" n="19"/>tionem iam tactam, quod additur de filio, 
+      di<lb ed="#L" break="no" n="20"/>cendum est, quod mittitur non solum in dono sa 
+      <lb ed="#L" n="21"/>pientiae charitatiuae, quod debetur existenti in 
+      <lb ed="#L" n="22"/>gratia, immo &amp; in qualibet reuelatione 
+      verita<lb ed="#L" break="no" n="23"/>tis. ipse enim est, qui reuelat mysteria, &amp; nouit 
+      <lb ed="#L" n="24"/>in tenebris constituta, &amp; lux cum eo est, vt 
+      di<lb ed="#L" break="no" n="25"/>citur Daniel 2. vnde &amp; Balaam, qui fuit malus 
+      <lb ed="#L" n="26"/>propheta, &amp; Salomoni, &amp; multis aliis locutus
+      <lb ed="#L" n="27"/>est Deus verbo suo coaeterno, ipsos erudiens.
+    </p>
+               <p xml:id="ol96b1-128197-d1e2252">
+                  <lb ed="#L" n="28"/>Et si dicatur, quod talis notitia non 
+      assimila<lb ed="#L" break="no" n="29"/>tur personae filij, qui non spirat amorem, nec ha 
+      <lb ed="#L" n="30"/>bet ante eum saporem, nec est donum 
+      perfe<lb ed="#L" break="no" n="31"/>ctum, dicendum, quod si non spirat amorem 
+      <lb ed="#L" n="32"/>Dei in omnibus malis, spirat tamen amorem sal 
+      <lb ed="#L" n="33"/>pientiae, &amp; delectationem, &amp; est donum 
+      perfe<lb ed="#L" break="no" n="34"/>ctum in genere suo. De philosophis autem 
+      <lb ed="#L" n="35"/>vtrum ad eos illustrandum missum fuit verbum 
+      <lb ed="#L" n="36"/>Dei; dicendum est, quod sic, vbi aliqua 
+      profun<lb ed="#L" break="no" n="37"/>da veritas fuit illis vltra humanum ingenium 
+      <lb ed="#L" n="38"/>reuelata, quod non est dubitandum aliquando 
+      <lb ed="#L" n="39"/>factum fuisse. non enim attribuere debemus 
+      so<lb ed="#L" break="no" n="40"/>lo humano ingenio, quidquid ab eis dictum. 
+      le<lb ed="#L" break="no" n="41"/>gitur, Apostolo testante, quod Deus illis 
+      mani<lb ed="#L" break="no" n="42"/>festauit: quod autem additur de spiritu sancto, 
+      <lb ed="#L" n="43"/>quod eiusdem rationis cum aliis personis, 
+      di<lb ed="#L" break="no" n="44"/>cendum, quod spiritus sanctus in hoc non est 
+      e<lb ed="#L" break="no" n="45"/>iusdem rationis cum patre, quia pater omnia 
+      <lb ed="#L" n="46"/>habet a se; illi vero a patre, &amp; quod dicitur de 
+      <lb ed="#L" n="47"/>angelicis spiritibus, dicendum, quod omnes 
+      di<lb ed="#L" break="no" n="48"/>cuntur missi in ministerium propter eos, qui hae 
+      <lb ed="#L" n="49"/>reditatem capiunt salutis, vt dicitur ad Hebr. 
+      <lb ed="#L" n="50"/>2. vel quod hoc perfectionis non est in angelis, 
+      <lb ed="#L" n="51"/>quia non sunt missi. hoc enim prouenit ex 
+      limi<lb ed="#L" break="no" n="52"/>tatione officiorum, quia angelorum, quidam 
+      <lb ed="#L" n="53"/>sunt assistentes, quidam administratores 
+      creatu<lb ed="#L" break="no" n="54"/>rarum existentes, nec habet vnus vtrumque 
+      of<lb ed="#L" break="no" n="55"/>ficium propter limitationem eorum, quia 
+      di<lb ed="#L" break="no" n="56"/>cit Damasc. lib. 1o. quod cum a Deo mittuntur 
+      <lb ed="#L" n="57"/>in terram, non remanent in caelo. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2320">
+                  <lb ed="#L" n="58"/>Responsio ad tertio obiecta. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2325">
+                  <lb ed="#L" n="59"/>AD ea vero, quae tertio inducuntur, 
+      dicen<lb ed="#L" break="no" n="60"/>dum est. Ad primum quidem, quod 
+      om<lb ed="#L" break="no" n="61"/>nis diuina persona habet auctoritatem, quam 
+      <lb ed="#L" n="62"/>exigit determinatio vsus legationis, non autem 
+      <lb ed="#L" n="63"/>auctoritatem, quam exigit communicatio, &amp; 
+      <!--0399.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>commissio potestatis. fit enim communicatio 
+      <lb ed="#L" n="65"/>potestatis per originem; vsus vero 
+      determina<lb ed="#L" break="no" n="66"/>rio per potestatis voluntatem, quae communis 
+      <lb ed="#L" n="67"/>est tribus. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2352">
+                  <lb ed="#L" n="68"/>Et per idem pater ad fecundum, quia non 
+      <lb ed="#L" n="69"/>competit alicui personae diuinae, quod a seipsa 
+      <lb ed="#L" n="70"/>procedat per originem, sed bene sibi congruit, 
+      <lb ed="#L" n="71"/>quod procedat in actum secundum voluntatem. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2363">
+                  <lb ed="#L" n="72"/>Ad tertium dicendum, quod sicut pater solus 
+      <lb ed="#L" n="73"/>dicitur mittere, hoc est auctoritatem operandi 
+      <lb ed="#L" n="74"/>communicare, &amp; potestatem, sic &amp; solus 
+      spi<lb ed="#L" break="no" n="75"/>ritus dicitur tantum missus, hoc est 
+      auctorita<lb ed="#L" break="no" n="76"/>tem tantummodo accepisse, filius vero &amp; 
+      acci<lb ed="#L" break="no" n="77"/>pit auctoritatem a patre, &amp; praestitit illam 
+      spiri<lb ed="#L" break="no" n="78"/>tui sancto, &amp; ita dicitur missus, &amp; misisse 
+      acci<lb ed="#L" break="no" n="79"/>piendo vero legationem pro determinatione 
+      le<lb ed="#L" break="no" n="80"/>gati ad vsum commissae auctoritatis, solus 
+      pa<lb ed="#L" break="no" n="81"/>ter di citur non legatus, quia tota. Trinitas com 
+      <lb ed="#L" n="82"/>muni voluntate: se determinat ad agendum, 
+      si<lb ed="#L" break="no" n="83"/>cut se habet ad actionem, quod filius, &amp; spiritus 
+      <lb ed="#L" n="84"/>sanctus agunt auctoritate delegata; pater vero 
+      <lb ed="#L" n="85"/>potestate authentica vnde respectu patris 
+      de<lb ed="#L" break="no" n="86"/>terminatio potestatis, non est legatio, cum non 
+      <lb ed="#L" n="87"/>sit eius potestas delegata. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2400">
+                  <lb ed="#L" n="88"/>Responsio ad oppositum. 
+    </p>
+               <p xml:id="ol96b1-128197-d1e2405">
+                  <lb ed="#L" n="89"/>AD ea vero, quae in oppositum inducuntur, 
+      <lb ed="#L" n="90"/>uicendum est, quod veritatem concludunt, 
+      <lb ed="#L" n="91"/>accipiendo mittere pro hoc, quod est legatum 
+      <lb ed="#L" n="92"/>determinare ad agendum. tale enim taittere est 
+      <lb ed="#L" n="93"/>essentiale, &amp; commune tribus, cum non sit aliud, 
+      <lb ed="#L" n="94"/>quam diuinum velle, vnde sic accipiendo ommis 
+      <lb ed="#L" n="95"/>diuina per sona mittit, intelligendo veroper 
+      mit<lb ed="#L" break="no" n="96"/>tere, potestatem committere, &amp; delegate, non 
+      <lb ed="#L" n="97"/>est commune tribus, sed tantum personis produ 
+      <lb ed="#L" n="98"/>centibus in diuinis: mitti autem semper 
+      inclu<lb ed="#L" break="no" n="99"/>dit, quod auctoritas eius, qui mittitur, 
+      delega<lb ed="#L" break="no" n="100"/>ta sit, &amp; communicata fuit, vt ita accipiatur mitti 
+      <lb ed="#L" n="101"/>pro acceptione auctoritatis in ordine ad 
+      cer<lb ed="#L" break="no" n="102"/>tum terminum, siue pro vsu illius aucoritatis, 
+      <lb ed="#L" n="103"/>&amp; sic patet, quod mitti semper aliquid 
+      notio<lb ed="#L" break="no" n="104"/>nale includit cum hoc essentiale. dicendum, quod 
+      <lb ed="#L" n="105"/>haec operatio non est de intraneitate mislionis, 
+      <lb ed="#L" n="106"/>sed passiua determinatio personae ad operandum, 
+      <lb ed="#L" n="107"/>haec autem communis est tribus, non essentialis; 
+      <lb ed="#L" n="108"/>quod autem principalius includatur in 
+      missio<lb ed="#L" break="no" n="109"/>ne passiua. dicendum, quod si accipiatur missio 
+      <lb ed="#L" n="110"/>pro acceptatione auctoritatis, &amp; potestatis ope 
+      <lb ed="#L" n="111"/>ratiue, respectu alicuius determinati termini, 
+      <lb ed="#L" n="112"/>tunc est proprie notionalis, cum vero. accipiatur 
+      <lb ed="#L" n="113"/>pro passiua determinatione ad operandum 
+      cir<lb ed="#L" break="no" n="114"/>ca terminum per potestatem commissam, &amp; 
+      com<lb ed="#L" break="no" n="115"/>municatam, tunc potestatis communicatio dat 
+      <lb ed="#L" n="116"/>determinationi passiuae ad operandum, quod 
+      <lb ed="#L" n="117"/>mislio dici possit propter illud, quod 
+      for<lb ed="#L" break="no" n="118"/>male, &amp; determinatiuum est; &amp; per 
+      <lb ed="#L" n="119"/>consequens principale, 
+      vnde<lb ed="#L" break="no" n="120"/>notionale formalius 
+      in<lb ed="#L" break="no" n="121"/>cluditur 
+      missio<lb ed="#L" break="no" n="122"/>ne, sic 
+      sum<lb ed="#L" break="no" n="123"/>pta. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

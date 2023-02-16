@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="856"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-277460"> <!-- l1d37p1-prae -->
+            <head xml:id="ol96b1-277460-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-277460-d1e104">
+      <!--0856.xml-->
+               <pb ed="#L" n="856"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVJBVS MODJS DICATVR DEVS 
+      <lb ed="#L" n="2"/>esse in rebus. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e117">
+               <lb ed="#L" n="3"/>DISTINCTIO XXXVJJ. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e122">
+      <!--0856.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e132">
+               <lb ed="#L" n="5"/>ET quia demonstratum est, &amp;c. 
+      <lb ed="#L" n="6"/>Postquam Magister 
+      expedi<lb ed="#L" break="no" n="7"/>uit primam, &amp; secundam 
+      <lb ed="#L" n="8"/>quaestionem, incidentaliter 
+      <lb ed="#L" n="9"/>introductas, hic expedit ter 
+      <lb ed="#L" n="10"/>tiam, scilicet, quomodo Deus 
+      <lb ed="#L" n="11"/>sit in rebus, &amp; circa hoc tria 
+      <lb ed="#L" n="12"/>facit. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e152">
+               <lb ed="#L" n="13"/>Primo enim ostendit Deum esse in rebus. 
+      <lb ed="#L" n="14"/>Secundo vero ostendit, quod ex hoc non 
+      se<lb ed="#L" break="no" n="15"/>vitus o e tmoututut iut aoutetut liusite 
+      <lb ed="#L" n="16"/>per auctoritates sanctorum dicta confirmat. 
+      Se<lb ed="#L" break="no" n="17"/>cunda ibi: Cumque diuina natura. Tertia ibi: 
+      Fa<lb ed="#L" break="no" n="18"/>teamur itaque. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e168">
+               <lb ed="#L" n="19"/>Primo namque ponit duos modos, quibus 
+      <lb ed="#L" n="20"/>Deus dicitur esse in rebus. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e175">
+               <lb ed="#L" n="21"/>Secundo vero illos modos declarat, &amp; 
+      per<lb ed="#L" break="no" n="22"/>quirit. Secunda ibi: In sanctis vero. Dicit itaque 
+      <lb ed="#L" n="23"/>primo, quia declaratum est, quomodo omnia 
+      <lb ed="#L" n="24"/>dicuntur esse in Deo; ideo addendum videtur, 
+      <lb ed="#L" n="25"/>quibus modis dicatur Deus esse in rebus. Et di, 
+      <lb ed="#L" n="26"/>cendum, quod dupliciter, quia in omnibus 
+      re<lb ed="#L" break="no" n="27"/>bus per essentiam, praesentiam, &amp; potentiam; sed 
+      <lb ed="#L" n="28"/>in sanctis spiritibus per gratiam. &amp; adducit 
+      au<lb ed="#L" break="no" n="29"/>ctoritates quattuor sanctorum Doctorum, 
+      vi<lb ed="#L" break="no" n="30"/>delicet Augustini, Ambrosij, Gregorij, Hilarij, 
+      <lb ed="#L" n="31"/>&amp; patent in littera. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e201">
+               <lb ed="#L" n="32"/>Postmodum ibi: In sanctis vero. Exequitur 
+      <lb ed="#L" n="33"/>istos modos, &amp; primo, quomodo Deus est in san 
+      <lb ed="#L" n="34"/>ctis per gratiam; secundo vero, quomodo est 
+      <lb ed="#L" n="35"/>vbique totus per essentiam; Secunda ibi: Ex 
+      prae<lb ed="#L" break="no" n="36"/>dictis patet. Adhuc circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e214">
+               <lb ed="#L" n="37"/>Primo enim declarat, quod vbi Deus est per 
+      <lb ed="#L" n="38"/>gratiam, ibi dicitur habitare: &amp; dicit, quod in 
+      <lb ed="#L" n="39"/>solis bonis, &amp; sanctis spiritibus habitat; quia 
+      <lb ed="#L" n="40"/>sunt capitulum, &amp; sedes eius, sicut anima, 
+      quam<lb ed="#L" break="no" n="41"/>uis sit in toto corpore, d icitur tamen specialiter 
+      <lb ed="#L" n="42"/>habitare in corde, quia ibi perfectiusoperatur, 
+      <lb ed="#L" n="43"/>consimiliter ipse Deus, quamuis sit in omnibus 
+      <lb ed="#L" n="44"/>rebus, in sanctis tamen, vbi operatur, per gratiam 
+      <lb ed="#L" n="45"/>dicitur singulariter habitare: &amp; ad hoc 
+      addu<lb ed="#L" break="no" n="46"/>cit duas auctoritates August. &amp; patent. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e239">
+               <lb ed="#L" n="47"/>Secundo ibi: Si autem quaeris. Mouet Magister 
+      <lb ed="#L" n="48"/>quaestionem, ex quo dictum est, quod Deus habet 
+      <lb ed="#L" n="49"/>habitaculum, &amp; capitulum suum in sanctis. vbi 
+      <lb ed="#L" n="50"/>ergo habitabat, antequam essent sancti? &amp; respon 
+      <lb ed="#L" n="51"/>det secundum Aug. quia apud se habitabat. non 
+      <lb ed="#L" n="52"/>enim sunt sancti sic domus Dei vt cadat Deus, 
+      <lb ed="#L" n="53"/>ipsa substrata, sed potius sancti cadunt, si disces 
+      <lb ed="#L" n="54"/>serit ipse. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e259">
+               <lb ed="#L" n="55"/>Tertio ibi: Illud quoque. Addit Magister ad 
+      <lb ed="#L" n="56"/>praedicta quoddam notabile, dicens, quod non solum 
+      <lb ed="#L" n="57"/>Deus inhabitator est sanctorum, cognoscentium 
+      <lb ed="#L" n="58"/>ipsum, immo, quod mirabile est, &amp; illorum, qui 
+      <lb ed="#L" n="59"/>nondum cognoscunt eum. nam ad capitulum Dei per- 
+      <!--0856.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="60"/>tinent paruuli, sanctificati sacramento baptisu. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e279">
+               <lb ed="#L" n="61"/>Postmodum ibi: Ex praedictis patet. Exequitur 
+      <lb ed="#L" n="62"/>Magister modum illum, quod Deus est vbique 
+      <lb ed="#L" n="63"/>totus per essentiam: &amp; circa hoc quattuor facit. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e288">
+               <lb ed="#L" n="64"/>Primo namque ostendit modum istum esse sum 
+      <lb ed="#L" n="65"/>me difficilem ad intelligendum, dicens secundum 
+      <lb ed="#L" n="66"/>Chrisos. quod quomodo vbique sit Deus, intells 
+      <lb ed="#L" n="67"/>ctu non capimus, immo considerationis huius 
+      <lb ed="#L" n="68"/>sublimitas, atque immensitas omnino mentis 
+      <lb ed="#L" n="69"/>humanae sensum excedit, 
+    </p>
+            <p xml:id="ol96b1-277460-d1e304">
+               <lb ed="#L" n="70"/>Secundo ibi: Quidam tamen. Excludit errorem 
+      <lb ed="#L" n="71"/>quorundam, qui non valentes intelligere istum 
+      <lb ed="#L" n="72"/>modum, negarunt, quod Deus non dicitur 
+      vbi<lb ed="#L" break="no" n="73"/>que esse per essentiam, sed per virtutem, &amp; per 
+      ope<lb ed="#L" break="no" n="74"/>rationem suam, quia vbique operari non cessan Et 
+      <lb ed="#L" n="75"/>dicit Magister, quod credendum est in illis verbis 
+      <lb ed="#L" n="76"/>sanctorum, quibus vtuntur, dicendo Deum esse 
+      <lb ed="#L" n="77"/>vbique per essentiam, &amp; substantiam, aliquid pim 
+      <lb ed="#L" n="78"/>contineri, quam isti dicant. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e326">
+               <lb ed="#L" n="79"/>Tertio ibi: Solet etiam ab eisdem. Inducit ratio 
+      <lb ed="#L" n="80"/>nem istorum, qui probant, quod Deus 
+      substan<lb ed="#L" break="no" n="81"/>tialiter non insit omnibus rebus, quia 
+      corpora<lb ed="#L" break="no" n="82"/>lium sordium inquinationibus videretur 
+      contiu<lb ed="#L" break="no" n="83"/>gi, &amp; respondet Magister, quod nō, sicut nec 
+      ra<lb ed="#L" break="no" n="84"/>dius solis, cum tamen sit super loca immunda. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e343">
+               <lb ed="#L" n="85"/>Quarto ibi: Postremo. Adducit Magister ratio 
+      <lb ed="#L" n="86"/>nem, propositum confirmantem, dicens, quod est 
+      <lb ed="#L" n="87"/>eligere vnum de tribus, videlicet quod diuina 
+      es<lb ed="#L" break="no" n="88"/>sentia nusquam sit, aut quod vbique sit, aut quod 
+      <lb ed="#L" n="89"/>alicubi sit, &amp; alicubi non sit; sed non potest dari 
+      <lb ed="#L" n="90"/>primum, vel tertium; ergo est eligendum secundum. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e359">
+               <lb ed="#L" n="91"/>Postmodum ibi: Cumque diuina natura. 
+      Decla<lb ed="#L" break="no" n="92"/>rat Magister, quod Deus non est subiectum motus, 
+      <lb ed="#L" n="93"/>quamuis vbique sit totus. &amp; circa hoc duo facit. 
+      <lb ed="#L" n="94"/>Primo enim ostendit, quod motus non 
+      ha<lb ed="#L" break="no" n="95"/>bet locum in Deo. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e372">
+               <lb ed="#L" n="96"/>Secundo vero incidentaliter introducit, quo 
+      <lb ed="#L" n="97"/>creatus spiritus fit, &amp; moueatur in loco. Secunda 
+      <lb ed="#L" n="98"/>ibi: De mutatione vero loci. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e381">
+               <lb ed="#L" n="99"/>Primo enim ostendit, quod Deus nec mutatur 
+      <lb ed="#L" n="100"/>per loca, nec etiam per tempora, dicens, quod Deus 
+      <lb ed="#L" n="101"/>non est ita localis, aut temporalis, quod 
+      circum<lb ed="#L" break="no" n="102"/>scribatur loco, aut faciat in loco distantiam, &amp; 
+      <lb ed="#L" n="103"/>per consequens nec mouetur localiter, omne ta 
+      <lb ed="#L" n="104"/>men corpus, &amp; oĩs creatus spũs sic mouetur. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e397">
+               <lb ed="#L" n="105"/>Secundo ibi: Mutari autem. Ostendit, quid est 
+      <lb ed="#L" n="106"/>dictu per tempora mutari, &amp; dicit, quod variari 
+      <lb ed="#L" n="107"/>secundum qualitates interiores, vtpote a gaudio 
+      <lb ed="#L" n="108"/>in dolorem, &amp; a scientia in obliuionem. haec 
+      au<lb ed="#L" break="no" n="109"/>tem locum non habent in Deo. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e410">
+               <lb ed="#L" n="110"/>Postmodum ibi: De mutatione vero. Magister 
+      <lb ed="#L" n="111"/>ostendit, qũo creati spiritus sunt, &amp; mouentur in 
+      <lb ed="#L" n="112"/>loco: &amp; facit tria, quia primo ponit opinionem 
+      <lb ed="#L" n="113"/>quorumdam, dicens, quod aliqui voluerunt ab 
+      <lb ed="#L" n="114"/>omni spiritu locum vniuersaliter remouere; quis 
+      <lb ed="#L" n="115"/>dimensionibus carent, &amp; hoc dicunt Aug. sensisse. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e427">
+               <lb ed="#L" n="116"/>Secundo ibi: Sed vt supra. Magister tollit istam. 
+      <lb ed="#L" n="117"/>opin. dicens, quod licet angeli non sint in loco dr- 
+      <!--0857.xml-->
+      <pb ed="#L" n="857"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cumscriptiue, sunt tamen definitione, ac per 
+      <lb ed="#L" n="2"/>hoc possunt de loco ad locum transire. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e445">
+               <lb ed="#L" n="3"/>Tertio: Sunt ergo spiritus creati. Concludit 
+      Ma<lb ed="#L" break="no" n="4"/>gister, quae dicta sunt, dicens, quod spiritus crea 
+      <lb ed="#L" n="5"/>ti sunt in loco, &amp; transeunt de loco ad locum, non 
+      <lb ed="#L" n="6"/>tamen omnino eo modo, quo creaturae 
+      corpo<lb ed="#L" break="no" n="7"/>reae; spiritus autem increatus, qui Deus est, 
+      li<lb ed="#L" break="no" n="8"/>cet vbique sit, est tamen incircumscriptibilis, 
+      <lb ed="#L" n="9"/>&amp; immensus. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e463">
+               <lb ed="#L" n="10"/>Vltimo ibi: Fateamur. Magister repetit ea 
+      <lb ed="#L" n="11"/>quae dicta sunt, &amp; per auctoritates confirmat, &amp; 
+      <lb ed="#L" n="12"/>facit duo. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e472">
+               <lb ed="#L" n="13"/>Primo enim probat auctoritatibus August. 
+      <lb ed="#L" n="14"/>&amp; Scripturae sacrae, quomodo Deus est vbique, 
+      <lb ed="#L" n="15"/>nec tamen mouetur. 
+    </p>
+            <p xml:id="ol96b1-277460-d1e481">
+               <lb ed="#L" n="16"/>Secundo ibi: Ad hoc autem solet opponi. Mouet 
+      <lb ed="#L" n="17"/>instantiam, dicens, cum quotidie fiant 
+      creatu<lb ed="#L" break="no" n="18"/>rae, quae ante non erant, &amp; incipiat de nouo esse 
+      <lb ed="#L" n="19"/>in eis, iam videtur Deus mutari, &amp; respondet, 
+      <lb ed="#L" n="20"/>quod immo absque sui mutatione incipit esse 
+      <lb ed="#L" n="21"/>in eis, demum autem epilogat ea, quae dicta sunt 
+      <lb ed="#L" n="22"/>in praesenti distinctione, &amp; ostendit, qua 
+      occasio<lb ed="#L" break="no" n="23"/>ne fuit praesens materia introducta. haec est 
+      sen<lb ed="#L" break="no" n="24"/>tentia 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="241"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c78019"> <!-- l1d7p1-prae -->
+            <head xml:id="ol96b1-c78019-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c78019-d1e104">
+      <!--0241.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="37"/>HIC QVAERJTVR, AN PATER POTVERJT 
+      <lb ed="#L" n="38"/>vel voluerit gignere Filium: &amp; si hoc potest natura: &amp; an 
+      <lb ed="#L" n="39"/>hoc sit potentia, quae non sit in Filio.
+    </p>
+            <p xml:id="ol96b1-c78019-d1e117">
+               <lb ed="#L" n="40"/>DISTINCTIO VII.
+    </p>
+            <p xml:id="ol96b1-c78019-d1e122">
+      <!--0241.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="41"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c78019-d1e132">
+               <lb ed="#L" n="42"/>HIc quaeri solet, &amp;c. Postquam 
+      <lb ed="#L" n="43"/>Magister comparauit actum 
+      <lb ed="#L" n="44"/>generationis ad voluntatem, 
+      <lb ed="#L" n="45"/>necessitatem, &amp; naturam, 
+      <lb ed="#L" n="46"/>hic comparat ad potentiam. 
+      <lb ed="#L" n="47"/>Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-c78019-d1e148">
+               <lb ed="#L" n="48"/>Primo inquirit, vtrum in 
+      <lb ed="#L" n="49"/>patre sit potentia generandi. 
+      <lb ed="#L" n="50"/>Secundo vero inquirit, vtrum illa potentia 
+      <lb ed="#L" n="51"/>possit in filio resperiri. secunda ibi: Item quaeri a 
+      <lb ed="#L" n="52"/>quibusdam. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c78019-d1e161">
+               <lb ed="#L" n="53"/>Primo enim mouet quandam quaestionem, &amp; soluit.
+    </p>
+            <p xml:id="ol96b1-c78019-d1e166">
+               <lb ed="#L" n="54"/>Secundo contra solutionem obiicit. secunda 
+      <lb ed="#L" n="55"/>ibi: Vehementer nos mouet. Circa primum facit duo. 
+      <lb ed="#L" n="56"/>Primo mouet quaestionem, &amp; obiectionem 
+      di<lb ed="#L" break="no" n="57"/>cens, quod quaeri solet, vtrum pater potuerit, 
+      <lb ed="#L" n="58"/>vel voluerit gignere filium, &amp; arguitur, quod non; 
+      <lb ed="#L" n="59"/>quia si voluerit, &amp; potuerit gignere filium, cum 
+      <lb ed="#L" n="60"/>filius, nec voluerit gignere, nec potuerit, videtur 
+      <lb ed="#L" n="61"/>quod pater aliquid &amp; possit, quod filius, nec vult 
+      <lb ed="#L" n="62"/>nec potest, &amp; ita non erit paris potentiae cum 
+      <lb ed="#L" n="63"/>patre, quod est omnino absurdum. 
+    </p>
+            <p xml:id="ol96b1-c78019-d1e190">
+               <lb ed="#L" n="64"/>Secundo ibi: <quote xml:id="ol96b1-c78019-Qd1e194">Tuae versutiae</quote>. Magister soluit 
+      di<lb ed="#L" break="no" n="65"/>cens, quod huic faciliter respondetur, quod 
+      pos<lb ed="#L" break="no" n="66"/>se, vel velle gignere filium, non est aliquid 
+      subie<lb ed="#L" break="no" n="67"/>ctum diuinae potentiae, aut voluntati, est tamen 
+      <lb ed="#L" n="68"/>aliqua potentia, vel voluntas, &amp; ideo 
+      distingue<lb ed="#L" break="no" n="69"/>re oportet, quod generatio filij non est de his, 
+      <lb ed="#L" n="70"/>quae subsunt potentiae, aut voluntati; vnde ex 
+      si<lb ed="#L" break="no" n="71"/>mili hoc possumus intueri. pater enim potest 
+      es<lb ed="#L" break="no" n="72"/>se pater, &amp; vult esse pater, &amp; filius nec vult, nec 
+      <lb ed="#L" n="73"/>potest esse pater, patet, quod non sequitur, ex hoc 
+      <lb ed="#L" n="74"/>quod pater possit, vel velit esse aliquid, quod 
+      fi<lb ed="#L" break="no" n="75"/>lius nec vult, nec potest, &amp; ratio huius est, quia 
+      <!--0241.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="76"/>esse patrem non est esse aliquid, sed aliquem, &amp; 
+      <lb ed="#L" n="77"/>similiter posse gignere filium non posse aliquid, 
+      <lb ed="#L" n="78"/>sed posse aliquem. 
+    </p>
+            <p xml:id="ol96b1-c78019-d1e232">
+               <lb ed="#L" n="79"/>Postmodum ibi: Sed vehementer nos mouet. Ma 
+      <lb ed="#L" n="80"/>gister obiicit. Et circa hoc quatuor facit. 
+    </p>
+            <p xml:id="ol96b1-c78019-d1e240">
+               <lb ed="#L" n="81"/>Primo namque inducit auctoritates Augusti 
+      <lb ed="#L" n="82"/>ni contra praedicta, dicens, quod August. contra 
+      <lb ed="#L" n="83"/>Maximinum, qui asserebat patrem potentiorem 
+      <lb ed="#L" n="84"/>filio, eoque quod genuit Deum, &amp; creatorem, filius 
+      <lb ed="#L" n="85"/>autem non genuit, dicit respondendo haeretico, 
+      <lb ed="#L" n="86"/>quod filius non genuit creatorem, non quia non 
+      <lb ed="#L" n="87"/>potuerit, sed quia non oportuit. immoderata 
+      e<lb ed="#L" break="no" n="88"/>nim esset Diuina generatio, si patri nepotem 
+      <lb ed="#L" n="89"/>genuisset filius, &amp; auo nepos gigneret 
+      pronepo<lb ed="#L" break="no" n="90"/>tem, &amp; sic in infinitum, secundum ista videtur 
+      <lb ed="#L" n="91"/>dicere Aug. quod ideo filius non genuerit, quia 
+      <lb ed="#L" n="92"/>non oportuit, non quin habeat bene potentiam 
+      <lb ed="#L" n="93"/>generandi. 
+    </p>
+            <p xml:id="ol96b1-c78019-d1e271">
+               <lb ed="#L" n="94"/>Secundo ibi: Hoc autem non videtur. Magister 
+      <lb ed="#L" n="95"/>ponit opinionem quorumdam negantium 
+      aucto<lb ed="#L" break="no" n="96"/>ritarem August. dicens, quod non placet 
+      aliqui<lb ed="#L" break="no" n="97"/>bus, quod filius potuerit generare. si enim potuit 
+      <lb ed="#L" n="98"/>gignere, potuit esse pater. aut ergo pater sui, 
+      <lb ed="#L" n="99"/>quod est impossibile, quia nulla res gignit se, aut 
+      <lb ed="#L" n="100"/>pater patris sui, &amp; hoc est magis impossibile, 
+      <lb ed="#L" n="101"/>cum ille innascibilis sit, aut pater spiritus sancti, 
+      <lb ed="#L" n="102"/>quia tunc spiritus sanctus posset esse filius, &amp; sic 
+      <lb ed="#L" n="103"/>mutabilis esset, aut pater alterius nescio 
+      cu<lb ed="#L" break="no" n="104"/>ius, quod minus esse potest, quia nulla alia 
+      per<lb ed="#L" break="no" n="105"/>sona est possibilis in Diuinis. relinquitur ergo, 
+      <lb ed="#L" n="106"/>quod filius non potuit generare.
+    </p>
+            <p xml:id="ol96b1-c78019-d1e302">
+               <lb ed="#L" n="107"/>Tertio ibi: Quomodo ergo accipietur. Magister 
+      <lb ed="#L" n="108"/>innuit magnam difficultatem istius quaesiti, &amp; 
+      <lb ed="#L" n="109"/>dicit, quod hoc non est sibi perspicuum, immo 
+      <lb ed="#L" n="110"/>vellet sub silentio pertransire, nisi eum 
+      frater<lb ed="#L" break="no" n="111"/>na instantia compulisset.
+    </p>
+            <p xml:id="ol96b1-c78019-d1e315">
+      <!--0242.xml-->
+               <pb ed="#L" n="242"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Quarto ibi: Potest ergo sic intelligi. Magister 
+      re<lb ed="#L" break="no" n="2"/>spondet, &amp; dicit, quod illa propositio non, quia 
+      <lb ed="#L" n="3"/>non potuit, debet intelligi, quod non ex 
+      impo<lb ed="#L" break="no" n="4"/>tentia aliqua, aut defectu potentiae illud fuit, 
+      <lb ed="#L" n="5"/>sicut nec est defectus potentiae, quod pater non 
+      <lb ed="#L" n="6"/>sit filius, vel filius pater, non oportuit, illa propo 
+      <lb ed="#L" n="7"/>sitio, non, debet intelligi cum repugnantia. filius 
+      <lb ed="#L" n="8"/>enim proprietate filiationis est filius, qua 
+      opor<lb ed="#L" break="no" n="9"/>tet hoc esse, necesse est eum non esse patrem, vt sic 
+      <lb ed="#L" n="10"/>intelligantur verba Augustini, quod filius non 
+      <lb ed="#L" n="11"/>generauit, non propter defectum potentiae, sed 
+      <lb ed="#L" n="12"/>quia oportuit ipsum non generare. haec est sent. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

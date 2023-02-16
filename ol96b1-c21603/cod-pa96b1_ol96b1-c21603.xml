@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="69"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c21603"> <!-- l1d1p1-prae -->
+            <head xml:id="ol96b1-c21603-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c21603-d1e104">
+      <!--0069.xml-->
+               <pb ed="#L" n="69"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>LJBER PRJMVS 
+      <lb ed="#L" n="2"/>SENTENTJARVM 
+      <lb ed="#L" n="3"/>DE MTSTERIO TRJNITATIS 
+      <lb ed="#L" n="4"/>DISTINCTIO PRJMA. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e122">
+      <!--0069.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>De materia huius Libri, &amp; librorum 
+      <lb ed="#L" n="6"/>diuisione. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e133">
+               <lb ed="#L" n="7"/>Veteris, ac nouae legis, &amp;c. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e139">
+               <lb ed="#L" n="8"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e144">
+               <lb ed="#L" n="9"/>POSTQVAM praemisit 
+      Ma<lb ed="#L" break="no" n="10"/>gister Prooemium, in hac 
+      <lb ed="#L" n="11"/>parte accedit ad 
+      Tracta<lb ed="#L" break="no" n="12"/>tum. Et circa hoc duo 
+      <lb ed="#L" n="13"/>facit. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e157">
+               <lb ed="#L" n="14"/>Primo enim venatur 
+      <lb ed="#L" n="15"/>huius libri materiam. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e164">
+               <lb ed="#L" n="16"/>Secundo procedit ad 
+      <lb ed="#L" n="17"/>explicandum eam 
+      distin<lb ed="#L" break="no" n="18"/>ctione sequenti. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e173">
+               <lb ed="#L" n="19"/>Hoc quoque vera, &amp; paria. Circa primum duo 
+      <lb ed="#L" n="20"/>facit. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e180">
+               <lb ed="#L" n="21"/>Primo namque ponit duplicem distinctionem. 
+      <lb ed="#L" n="22"/>Secundo ex hoc infert materiae Theologicae di 
+      <lb ed="#L" n="23"/>uisionem in fine huius distinctionis, ibi: Omnium 
+      <lb ed="#L" n="24"/>igitur, quae dicta sunt. Circa primum duo facit, 
+      <lb ed="#L" n="25"/>scilicet duas diuisiones, quas ponit secundam ibi: 
+      <lb ed="#L" n="26"/>Illud ergo in rebus. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e197">
+               <lb ed="#L" n="27"/>Dicit ergo primo, quod praeuia Dei gratia 
+      con<lb ed="#L" break="no" n="28"/>siderata cum diligentia nouae legis, ac veteris 
+      to<lb ed="#L" break="no" n="29"/>tali continentia, sibi innotuit sacram paginam 
+      <lb ed="#L" n="30"/>circa res, vel signa praecipuae immorari, &amp; hoc 
+      <lb ed="#L" n="31"/>probat auctoritate Augustini: definit autem rem, 
+      <lb ed="#L" n="32"/>quod est id, quod non adhibetur ad aliud 
+      designan<lb ed="#L" break="no" n="33"/>dum. signum vero cum res, quae adhibetur ad 
+      si<lb ed="#L" break="no" n="34"/>gnificandum; vnde omne signum est res, sed non 
+      <lb ed="#L" n="35"/>e diuerso: signorum autem quaedam sunt 
+      signi<lb ed="#L" break="no" n="36"/>ficatiua tantum, vt legalia Sacramenta: quaedam 
+      <lb ed="#L" n="37"/>vero iustificatiua, vt Baptismus, &amp; caetera 
+      Sa<lb ed="#L" break="no" n="38"/>cramenta nouae legis. In fine autem concludit 
+      <lb ed="#L" n="39"/>quod de rebus primo dicendum est, scilicet in 
+      <lb ed="#L" n="40"/>tribus libris. postmodum vero de signis, &amp; 
+      Sa<lb ed="#L" break="no" n="41"/>cramentis in Quarto. Postmodum illud igitur in 
+      re<lb ed="#L" break="no" n="42"/>bus. Ponit secundam diuisionem. &amp; circa hoc 
+      <lb ed="#L" n="43"/>tria facit. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e236">
+               <lb ed="#L" n="44"/>Primo namque diuisionem assignat.
+      <lb ed="#L" n="45"/>Secundo, membra definit, &amp; explicat.
+      <lb ed="#L" n="46"/>Tertio, circa hoc quaestiones mouet, &amp; 
+      deter<lb ed="#L" break="no" n="47"/>minat. Secundum, ibi: Frui autem est. Tertium 
+      <lb ed="#L" n="48"/>ibi: Cum autem homines. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e249">
+               <lb ed="#L" n="49"/>Dicit ergo primo, quod res tribus modis 
+      diuidun<lb ed="#L" break="no" n="50"/>tur, quoniam quaedam sunt, quibus fruendum 
+      <lb ed="#L" n="51"/>est, &amp; quae faciunt nos Beatos, quaedam, quibus 
+      <!--0069.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="52"/>vtendum est, &amp; per quas tendentes ad beatitudi 
+      <lb ed="#L" n="53"/>nem adiuuamur; quaedam, quae fruuntur, &amp; vtun 
+      <lb ed="#L" n="54"/>tur: quae sumus nos, &amp; Angeli sancti, quasi inter 
+      <lb ed="#L" n="55"/>fruibilia, &amp; vtibilia, constituti: postmodum ibi: 
+      <lb ed="#L" n="56"/>Frui autem est. Definit, &amp; explicat membra 
+      di<lb ed="#L" break="no" n="57"/>uisionis. Et circa haec duo facit secundum duas 
+      <lb ed="#L" n="58"/>notificationes, quas ponit secunda ibi: 
+      Notan<lb ed="#L" break="no" n="59"/>dum vero. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e280">
+               <lb ed="#L" n="60"/>Adhuc circa primum duo facit. Nam primo 
+      <lb ed="#L" n="61"/>definit, frui; dicens, quod est amore inhaerere) 
+      <lb ed="#L" n="62"/>alicui propter se, &amp; definit, vti, dicens, quod est 
+      <lb ed="#L" n="63"/>referre rem, quae venit in vsum ad illud, quo 
+      fruen<lb ed="#L" break="no" n="64"/>dum est. 
+    </p>
+            <p xml:id="ol96b1-c21603-d1e293">
+               <lb ed="#L" n="65"/>Secundo vero ex hoc explicat membra 
+      secun<lb ed="#L" break="no" n="66"/>dae diuisionis, dicens, quod res, quibus fruendum 
+      <lb ed="#L" n="67"/>est, sunt Pater, Filius, &amp; Spiritus sanctus, qui sunt 
+      <lb ed="#L" n="68"/>quaedam summa res communis omnibus 
+      fruen<lb ed="#L" break="no" n="69"/>tibus ea, cui quidem amore inhaerendum est 
+      <lb ed="#L" n="70"/>propter se. Res vero, quibus vtendum est, sunt 
+      <lb ed="#L" n="71"/>mundus, &amp; omnia causata, &amp; probat hoc 
+      aucto<lb ed="#L" break="no" n="72"/>ritate Augustini dicentis, quod nos fruimur 
+      co<lb ed="#L" break="no" n="73"/>gnitis in quibus voluntas delectata propter se 
+      <lb ed="#L" n="74"/>quiescit: vtimur autem illis, quae referimus ad 
+      <lb ed="#L" n="75"/>illud, &amp; quoniam in solo Deo trino voluntas 
+      no<lb ed="#L" break="no" n="76"/>stra debet solum conquiescere, &amp; delectari: mun 
+      <lb ed="#L" n="77"/>dum autem, &amp; creaturas ad ipsum referre: 
+      idcir<lb ed="#L" break="no" n="78"/>co res, quibus fruendum est, sunt tantummodo 
+      <lb ed="#L" n="79"/>Pater, &amp; Filius, &amp; Spiritus sanctus, caeteris 
+      au<lb ed="#L" break="no" n="80"/>tem vtendum est. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="285"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c92575"> <!-- l1d8p3-prae -->
+            <head xml:id="ol96b1-c92575-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c92575-d1e104">
+               <lb ed="#L" n="19"/>TERTJA PARS. 
+      <lb ed="#L" n="20"/>De simplicitate Diuinae Essentiae, vel 
+      <lb ed="#L" n="21"/>naturae. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e113">
+               <lb ed="#L" n="22"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e118">
+               <lb ed="#L" n="23"/>EADEM sola proprie, &amp; vere, &amp;c. 
+      <lb ed="#L" n="24"/>Postquam Magister tractauit de 
+      <lb ed="#L" n="25"/>Diuini esse proprietate, &amp; incom 
+      <lb ed="#L" n="26"/>mutabilitate, hic agit de Diuina 
+      <lb ed="#L" n="27"/>simplicitate. &amp; circa hoc tria facit 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e132">
+               <lb ed="#L" n="28"/>Primo namque proponit, 
+      quo<lb ed="#L" break="no" n="29"/>modo summa est Dei simplicitas. 
+      <lb ed="#L" n="30"/>Secundo inducendo illud exponit. 
+      <lb ed="#L" n="31"/>Tertio concludendo multiplicem 
+      auctorita<lb ed="#L" break="no" n="32"/>tem inducit; ostendendo, in quo consistit 
+      sim<lb ed="#L" break="no" n="33"/>plicitas Diuina. Secundum facit: Corporalis 
+      vti<lb ed="#L" break="no" n="34"/>que. tertium ibi: Huius autem essentiae. 
+      <lb ed="#L" n="35"/>Dicit itaque primo, quod Dei esse adeo est 
+      <lb ed="#L" n="36"/>simplex, vt in eo nulla sit diuersitas partium, aut 
+      <lb ed="#L" n="37"/>accidentium, seu quarumlibet formarum, siue 
+      <lb ed="#L" n="38"/>aliqua multitudo, &amp; vt hoc appareat, 
+      ostenden<lb ed="#L" break="no" n="39"/>dum est, quomodo sit multiplex omnis creatura, 
+      <lb ed="#L" n="40"/>tam corporea, quam spiritualis, vt per 
+      opposi<lb ed="#L" break="no" n="41"/>tum innotescat simplicitas Diuina. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e165">
+               <lb ed="#L" n="42"/>Postmodum ibi: <quote xml:id="ol96b1-c92575-Qd1e169">corporalis vtique</quote>. probat 
+      Ma<lb ed="#L" break="no" n="43"/>gister inducendo, quomodo in omni creatura sit 
+      <lb ed="#L" n="44"/>multiplicitas, &amp; in solo Deo omnimoda 
+      simpli<lb ed="#L" break="no" n="45"/>citas. &amp; circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e178">
+               <lb ed="#L" n="46"/>Primo enim discurrit per creaturam spiritua 
+      <lb ed="#L" n="47"/>lem, &amp; corporalem. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e185">
+               <lb ed="#L" n="48"/>Secundo vero per coordinationem 
+      praedica<lb ed="#L" break="no" n="49"/>mentalem, secunda ibi: Quod autem in natura 
+      <lb ed="#L" n="50"/>Deitatis. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e194">
+               <lb ed="#L" n="51"/>Circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e199">
+               <lb ed="#L" n="52"/>Primo enim dicit, non esse in Deo 
+      multiplici<lb ed="#L" break="no" n="53"/>tatem, quam habent corpora, dicens, quod 
+      crea<lb ed="#L" break="no" n="54"/>tura corporalis constat ex partibus, quorum 
+      a<lb ed="#L" break="no" n="55"/>lia maior, alia minor, &amp; totum maius est 
+      qua<lb ed="#L" break="no" n="56"/>libet parte, &amp; in omni corpore sunt accidentia, 
+      <lb ed="#L" n="57"/>quia aliud est color, aliud figura, &amp; aliud 
+      ma<lb ed="#L" break="no" n="58"/>gnitudo; &amp; probatur, quod sit aliud, quia vno 
+      <lb ed="#L" n="59"/>mutato, non mutatur reliquum. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e220">
+               <lb ed="#L" n="60"/>Secundo ibi: Creatura quoque. Ostendit 
+      quo<lb ed="#L" break="no" n="61"/>modo creatura spiritualis sit multiplex, dicens, 
+      <lb ed="#L" n="62"/>quod licet anima in comparatione ad corpus 
+      <lb ed="#L" n="63"/>sit simplex, quia mole non diffunditur per spa- 
+      <!--0285.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="64"/>tium loci, sed est tota in toto, &amp; tota in 
+      quali<lb ed="#L" break="no" n="65"/>bet parte eius, quod patet ex hoc, quod tota sen 
+      <lb ed="#L" n="66"/>tit, quando fit mutatio aliqua in quauis parte cor 
+      <lb ed="#L" n="67"/>poris, quantumcumque exigua, nihilominus in 
+      <lb ed="#L" n="68"/>se simplex non est, cum sit aliud artificiositas, 
+      a<lb ed="#L" break="no" n="69"/>liud inhaerentia, aliud memoria, aliud acuties, 
+      <lb ed="#L" n="70"/>aliud laetitia, &amp; aliud tristitia, &amp; sic de aliis 
+      acci<lb ed="#L" break="no" n="71"/>dentibus animae, cum quibus componitur, &amp; ex 
+      <lb ed="#L" n="72"/>quibus multipliciter variatur; vnde patet, quod 
+      <lb ed="#L" n="73"/>nulla creatura est vere simplex, &amp; per oppositum 
+      <lb ed="#L" n="74"/>solus Deus dicitur simplex summe, in quo non 
+      <lb ed="#L" n="75"/>est aliud magnitudo, sapientia, beatitudo, 
+      veri<lb ed="#L" break="no" n="76"/>tas, bonitas, &amp; alia, quibus multipliciter 
+      dici<lb ed="#L" break="no" n="77"/>tur. non est enim ex hoc aliqua multiplicitas, 
+      <lb ed="#L" n="78"/>quamuis multiplicitas videatur. 
+    </p>
+            <p xml:id="ol96b1-c92575-d1e268">
+               <lb ed="#L" n="79"/>Tertio ibi: Hic diligenter notandum est. Magister 
+      <lb ed="#L" n="80"/>hic remouet dubium de hoc, quod dixerat, Deum 
+      <lb ed="#L" n="81"/>secundum ista attributa multipliciter dici. ait 
+      <lb ed="#L" n="82"/>enim, quod multiplicitas istorum nominum 
+      si<lb ed="#L" break="no" n="83"/>gnificat vnum tantum, scilicet Diuinam 
+      natu<lb ed="#L" break="no" n="84"/>ram, &amp; longe aliter dicuntur de Deo, quam de 
+      <lb ed="#L" n="85"/>creaturis. Fortitudo enim, &amp; sapientia, &amp; 
+      iusti<lb ed="#L" break="no" n="86"/>tia in creaturis significant accidentia: in Deo 
+      <lb ed="#L" n="87"/>vero non aliud, quam substantiam demonstrant. 
+      <lb ed="#L" n="88"/>haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

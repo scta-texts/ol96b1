@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="747"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-242337"> <!-- l1d35p1-prae -->
+            <head xml:id="ol96b1-242337-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-242337-d1e104">
+      <!--0747.xml-->
+               <pb ed="#L" n="747"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>DE QVJBVSDAM, QVAE SECVNDVM SVBSTAN 
+      <lb ed="#L" n="2"/>tiam de Deo dicuntur, quae specialem efflagitant tractatum, scili 
+      <lb ed="#L" n="3"/>cet, de Scientia, &amp; de Praescientia, &amp; Prouidentia, &amp; 
+      Di<lb ed="#L" break="no" n="4"/>spositione, Praedestinatione, Voluntate, &amp; Potentia. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e122">
+               <lb ed="#L" n="5"/>DISTINCTIO XYXV.
+    </p>
+            <p xml:id="ol96b1-242337-d1e127">
+      <!--0747.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="6"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e137">
+               <lb ed="#L" n="7"/>CVMQVS supra disseruerimus, 
+      <lb ed="#L" n="8"/>&amp;c. Postquam Magister 
+      de<lb ed="#L" break="no" n="9"/>terminauit de diuinis nomi 
+      <lb ed="#L" n="10"/>nibus, significantibus ram 
+      <lb ed="#L" n="11"/>substantiam, quam 
+      perso<lb ed="#L" break="no" n="12"/>nas; hic in speciali tractat 
+      <lb ed="#L" n="13"/>de tribus significantibus 
+      sub<lb ed="#L" break="no" n="14"/>stantiam, pro eo quod 
+      spe<lb ed="#L" break="no" n="15"/>cialem inquisitionem requirunt. Et circa hoc 
+      <lb ed="#L" n="16"/>tria facit. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e161">
+               <lb ed="#L" n="17"/>Primo namque agit de diuina scientia.
+    </p>
+            <p xml:id="ol96b1-242337-d1e166">
+               <lb ed="#L" n="18"/>Secundo vero de diuina potentia. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e171">
+               <lb ed="#L" n="19"/>Tertio de voluntate. secunda ibi distinct. 42. 
+      <lb ed="#L" n="20"/>Nunc de omnipotentia. tertia ibi distinct. 45. Iam 
+      <lb ed="#L" n="21"/>de voluntate. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e180">
+               <lb ed="#L" n="22"/>Primo enim enumerat nomina scientiae 
+      di<lb ed="#L" break="no" n="23"/>uinae. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e187">
+               <lb ed="#L" n="24"/>Secundo vero exequitur in speciali de ipsis. 
+      <lb ed="#L" n="25"/>secunda ibi: Scientia vero, vel sapientia. Circa 
+      <lb ed="#L" n="26"/>primum duo facit.. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e197">
+               <lb ed="#L" n="27"/>Primo enim enumerat nomina scientiae 
+      di<lb ed="#L" break="no" n="28"/>uinae. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e204">
+               <lb ed="#L" n="29"/>Secundo vero nomina illa exponit. secunda 
+      <lb ed="#L" n="30"/>ibi: Et est praescientia. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e211">
+               <lb ed="#L" n="31"/>Dicit itaque primo, quod cum supra dictum fuerit, 
+      <lb ed="#L" n="32"/>de his, quae secundum substantiam dicuntur de 
+      <lb ed="#L" n="33"/>Deo, sunt tamen aliqua, quae specialem 
+      tracta<lb ed="#L" break="no" n="34"/>tum efflagitant, &amp; requirunt, inter quae est 
+      <lb ed="#L" n="35"/>vnum scientia, quae cum vna sit, sortitur 
+      ta<lb ed="#L" break="no" n="36"/>men diuersa nomina; vnde appellatur Praescien 
+      <lb ed="#L" n="37"/>tia, Praeuidentia, Dispositio, Praedestinatio, &amp; 
+      <lb ed="#L" n="38"/>Prouidentia. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e231">
+               <lb ed="#L" n="39"/>Postmodum ibi: Et est praescientia. Exponit 
+      Ma<lb ed="#L" break="no" n="40"/>gister praedicta nomina, &amp; tria facit. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e238">
+               <lb ed="#L" n="41"/>Primo enim nomina ista exponit, vt patet in 
+      <lb ed="#L" n="42"/>littera. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e245">
+               <lb ed="#L" n="43"/>Secundo ibi: Hic considerari oportet. mouet 
+      cir<lb ed="#L" break="no" n="44"/>ca hoc dubitationem, dicens, quod merito 
+      du<lb ed="#L" break="no" n="45"/>hitatur, vtrum in Deo esset praescientia, si 
+      nul<lb ed="#L" break="no" n="46"/>la essent futura, vel dispositio, si nihil esset 
+      fa<lb ed="#L" break="no" n="47"/>cturus, vel praedestinatio, si non esset aliquis 
+      sal<lb ed="#L" break="no" n="48"/>uaturus. &amp; videtur, quod non, quia natura 
+      re<lb ed="#L" break="no" n="49"/>latiuorum est, quod perempta se perimunt, &amp; 
+      <lb ed="#L" n="50"/>posita se ponunt. nunc autem praescientia 
+      re<lb ed="#L" break="no" n="51"/>fertur ad futura, &amp; praedestinatio ad saluandos: 
+      <lb ed="#L" n="52"/>ergo ista non essent, si illa non essent. Sed 
+      oppo<lb ed="#L" break="no" n="53"/>situm videtur triplici ratione. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e272">
+               <lb ed="#L" n="54"/>Prima siquidem, quod si praescientia potuit 
+      <lb ed="#L" n="55"/>non esse in Deo ab aeterno, praescientia vero est 
+      <lb ed="#L" n="56"/>scientia, scientia vero est essentia, sequitur, 
+      <lb ed="#L" n="57"/>quod essentia, aut aliquid, quod est essentia, 
+      po<lb ed="#L" break="no" n="58"/>tuit non esse ab aeterno in Deo. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e285">
+               <lb ed="#L" n="59"/>Secunda vero, quia si potuit Deus aliqua non 
+      <!--0747.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="60"/>praescire; praescire autem est idem, quod 
+      sci<lb ed="#L" break="no" n="61"/>re, &amp; scire idem, quod esse; potuit ergo Deus 
+      <lb ed="#L" n="62"/>non esse. 
+    </p>
+            <p xml:id="ol96b1-242337-d1e301">
+               <lb ed="#L" n="63"/>Tertia quoque, quia idem est in Deo esse 
+      <lb ed="#L" n="64"/>praescitum, &amp; esse Deum, sed potuit non esse 
+      <lb ed="#L" n="65"/>praescitum; ergo potuit non esse Deus.
+    </p>
+            <p xml:id="ol96b1-242337-d1e310">
+               <lb ed="#L" n="66"/>Tertio ibi: Ad hoc iuxta modulum. Rospondet 
+      <lb ed="#L" n="67"/>Magister ad istantias istas, dicens, quod 
+      pra<lb ed="#L" break="no" n="68"/>scientia, praedestinatio, dispositio vltra 
+      scier<lb ed="#L" break="no" n="69"/>tiam notant rela tionem: &amp; ideo verum est, quod 
+      <lb ed="#L" n="70"/>si futura nulla essent, remaneret quidem 
+      scien<lb ed="#L" break="no" n="71"/>tia in Deo, quoad sui realitatem; non autem 
+      <lb ed="#L" n="72"/>relatio secundum quod dicitur praescientia, vel 
+      <lb ed="#L" n="73"/>praedestinatio; haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

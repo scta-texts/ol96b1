@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="486"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-157792"> <!-- l1d19p3-prae -->
+            <head xml:id="ol96b1-157792-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-157792-d1e104">
+               <lb ed="#L" n="93"/>TERTJA PARS. 
+      <lb ed="#L" n="94"/>Quod vna persona non est maior alia, nec 
+      <lb ed="#L" n="95"/>tres simul quam vna, &amp; hoc 
+      ratio<lb ed="#L" break="no" n="96"/>ne ostendit catholica. 
+    </p>
+            <p xml:id="ol96b1-157792-d1e115">
+               <lb ed="#L" n="97"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-157792-d1e120">
+               <lb ed="#L" n="98"/>SCIENDVM igitur est, &amp;c. 
+      Post<lb ed="#L" break="no" n="99"/>quam Magister probauit aequa 
+      <lb ed="#L" n="100"/>litatem personarum ex 
+      vnita<lb ed="#L" break="no" n="101"/>te essentiae, &amp; omnium 
+      attri<lb ed="#L" break="no" n="102"/>butalium perfectionum. In hac 
+      <lb ed="#L" n="103"/>parte probat hic ex vnico spe 
+      <lb ed="#L" n="104"/>ciali attributo, quod est vnitas, &amp; vnum. Et 
+      <lb ed="#L" n="105"/>circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-157792-d1e141">
+               <lb ed="#L" n="106"/>Primo enim resumit conclusionem, videns 
+      <lb ed="#L" n="107"/>tantum esse aequalitatem, vt non solum pater 
+      <lb ed="#L" n="108"/>non sit maior, quam filius, sed nec pater, &amp; 
+      fi<lb ed="#L" break="no" n="109"/>lius simul sumpti sint maius aliquid, quam 
+      spi<lb ed="#L" break="no" n="110"/>ritus sanctus, aut tota Trinitas, quam singula 
+      <lb ed="#L" n="111"/>quaeque. 
+    </p>
+            <p xml:id="ol96b1-157792-d1e157">
+               <lb ed="#L" n="112"/>Secundo ibi: Quod ibi magnum dicitur. 
+      Indu<lb ed="#L" break="no" n="113"/>cit rationem, dicens, quod non est aliud esse 
+      <lb ed="#L" n="114"/>magnum, quam esse verum. vnde aliquid 
+      ve<lb ed="#L" break="no" n="115"/>rius est, magis est, sed tres personae sic se habent 
+      <lb ed="#L" n="116"/>ad esentiam, quod aeque vere est esse in vna, 
+      si<lb ed="#L" break="no" n="117"/>cut in altera, nec habet plus veritatis vna 
+      per<lb ed="#L" break="no" n="118"/>sona, quam altera. ergo personae sunt aeque ma 
+      <lb ed="#L" n="119"/>gnae, &amp; per consequens coaequales. 
+    </p>
+            <p xml:id="ol96b1-157792-d1e177">
+               <lb ed="#L" n="120"/>Tertio ibi: Praeterea cum Deus. Infert 
+      Magi<lb ed="#L" break="no" n="121"/>ster quandam conclusionem dicens, quod ex 
+      <lb ed="#L" n="122"/>hoc est, quod confitemur Deum trinum, &amp; 
+      ta<lb ed="#L" break="no" n="123"/>men non triplicem, quia triplicitas importare vi 
+      <lb ed="#L" n="124"/>detur quandam totalitatem ex partibus 
+      constitu<lb ed="#L" break="no" n="125"/>tutam, &amp; excedentem quamlibet partem, sicut vide- 
+      <!--0487.xml-->
+      <pb ed="#L" n="487"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mus in rebus creatis; Trinitas vero refertur ad 
+      <lb ed="#L" n="2"/>solum numerum, &amp; ad discretionem naturalem. 
+      <lb ed="#L" n="3"/>vnde in diuinis est Trinitas, quia trinarius distin 
+      <lb ed="#L" n="4"/>ctorum, non tamen tripliciter, quia non est ibi tri 
+      <lb ed="#L" n="5"/>narius magnorum, aut quantorum, quia aeque ma 
+      <lb ed="#L" n="6"/>gnus est solus filius, sicut Trinitas tota, vnde 
+      <lb ed="#L" n="7"/>proprie dicitur Deus trinus, &amp; nullo modo con 
+      <lb ed="#L" n="8"/>cedendum est, quod sit triplex. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

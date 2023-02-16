@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="400"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-130586"> <!-- l1d16p1-prae -->
+            <head xml:id="ol96b1-130586-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-130586-d1e104">
+      <!--0400.xml-->
+               <pb ed="#L" n="400"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>NVNC DE MJSSJONE SPJRJTVS SANCTJ, 
+      <lb ed="#L" n="2"/>quae duplex est, visibilis, &amp; inuisibilis: &amp; primum de visibili. 
+      <lb ed="#L" n="3"/>cuius occasione tractatur, quod filius ratione missionis 
+      <lb ed="#L" n="4"/>minor est patre, &amp; Spiritu sancto, &amp; etiam seipso.
+    </p>
+            <p xml:id="ol96b1-130586-d1e122">
+               <lb ed="#L" n="5"/>DISTINCTIO XVI. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e127">
+      <!--0400.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="6"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e137">
+               <lb ed="#L" n="7"/>VVNC de Spiritu sancto 
+      viden<lb ed="#L" break="no" n="8"/>dumest, &amp;c. Postquam 
+      deter<lb ed="#L" break="no" n="9"/>minauit Magister de proces 
+      <lb ed="#L" n="10"/>sione spiritus sancti, 
+      inqui<lb ed="#L" break="no" n="11"/>rendo, quid sit, hic agit de 
+      <lb ed="#L" n="12"/>ea inquirendo secundum quot 
+      <lb ed="#L" n="13"/>modos temporalis missionis, 
+      <lb ed="#L" n="14"/>siue processionis. secundo ve 
+      <lb ed="#L" n="15"/>ro determinat de vtroque. secunda ibi: Et 
+      pri<lb ed="#L" break="no" n="16"/>mo agamus. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e161">
+               <lb ed="#L" n="17"/>Dicit itaque primo, quod nunc videndum est 
+      <lb ed="#L" n="18"/>de processione temporali spiritus sancti, quae 
+      mis<lb ed="#L" break="no" n="19"/>sio, seu donatio nominatur, quot modis fuit, &amp; 
+      <lb ed="#L" n="20"/>respondet, quod duobus modis mitti dicitur spi 
+      <lb ed="#L" n="21"/>ritus sanctus, vno quidem inuisibili, quo datur 
+      <lb ed="#L" n="22"/>quotidie fidelium mentibus illabendo, alterum 
+      <lb ed="#L" n="23"/>visibili, quo datus est aliquando in specie 
+      visibi<lb ed="#L" break="no" n="24"/>lis creaturae, sicut in die Pentecostes, &amp; aliis 
+      vi<lb ed="#L" break="no" n="25"/>cibus multis. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e183">
+               <lb ed="#L" n="26"/>Postmodum ibi: Et primo agimus. Incipit 
+      de<lb ed="#L" break="no" n="27"/>terminare de duobus modis missionis spiritus 
+      <lb ed="#L" n="28"/>sancti, &amp; primo de visibili, secundo de 
+      inuisibi<lb ed="#L" break="no" n="29"/>li dist. 17. Iam nunc accedamus. Circa primum 
+      <lb ed="#L" n="30"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e196">
+               <lb ed="#L" n="31"/>Primo namque determinat de visibili 
+      missio<lb ed="#L" break="no" n="32"/>ne spiritus sancti. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e203">
+               <lb ed="#L" n="33"/>Secundo inquirit, an per eam spiritus sanctus 
+      <lb ed="#L" n="34"/>fuerit minoratus, &amp; possit dici minor patre, &amp; 
+      <lb ed="#L" n="35"/>filio. secunda ibi: Sed prius inquirendum est. Dicit 
+      <lb ed="#L" n="36"/>itaque primo, quod impromptu est intelligere 
+      <lb ed="#L" n="37"/>de spiritu sancto, cur visibiliter missus dicatur. 
+      <lb ed="#L" n="38"/>facta est enim aliqua visibilis species creaturae, 
+      <lb ed="#L" n="39"/>vtpote columba, vel linguae igneae, vel flatus, ac 
+      <lb ed="#L" n="40"/>insufflatio Christi, cuius quidem creaturae appa 
+      <lb ed="#L" n="41"/>ritio uisibilis, &amp; expressa ostenditur apparitio 
+      <lb ed="#L" n="42"/>spiritus sancti, non quod apparuit spiritus 
+      san<lb ed="#L" break="no" n="43"/>cti substantia, sed vt per creaturam visibilem 
+      ap<lb ed="#L" break="no" n="44"/>parenter conuerteremur ad occultam personam 
+      <lb ed="#L" n="45"/>eiusdem spiritus sancti, vnde missio illa visibilis 
+      <lb ed="#L" n="46"/>fit in signum, &amp; in testimonium interioris, &amp; 
+      in<lb ed="#L" break="no" n="47"/>uisibilis missionis. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e238">
+               <lb ed="#L" n="48"/>Postmodum ibi: Sed prius. inquirit Magister, 
+      <lb ed="#L" n="49"/>quare spiritus sanctus non dicitur minoratus 
+      <lb ed="#L" n="50"/>per apparitionem huiusmodi, sicut filius dicitur 
+      <lb ed="#L" n="51"/>minor factus propter hominis formam, in qua 
+      <lb ed="#L" n="52"/>apparuit. Et circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e252">
+               <lb ed="#L" n="53"/>Ostendit enim primo, quare filius dicitur 
+      <lb ed="#L" n="54"/>minor propter hoc, quod apparuit in homine. 
+      <lb ed="#L" n="55"/>spiritus autem sanctus non minor dicitur 
+      ratio<lb ed="#L" break="no" n="56"/>ne columbae, in qua legitur apparuisse, &amp; dicit, 
+      <lb ed="#L" n="57"/>quod huius ratio est, quia filius sic misssus est in 
+      <lb ed="#L" n="58"/>homine, vt vere factus fuerit homo. assumpsit 
+      e<lb ed="#L" break="no" n="59"/>nim hominem in vnitate personae, propter quod 
+      <!--0400.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="60"/>verificatur de eo, quidquid enunciatur de homi 
+      <lb ed="#L" n="61"/>ne, vnde cum homo minor sit patre, necesse 
+      <lb ed="#L" n="62"/>est, quod filius inquantum hominem assumpsit, 
+      <lb ed="#L" n="63"/>dicatur minor eodem patre. spiritus 
+      autem<lb ed="#L" break="no" n="64"/>sanctus sic apparuit in columba, vt non fuerit 
+      <lb ed="#L" n="65"/>factus columba, nec eam assumpserit in vnitate 
+      <lb ed="#L" n="66"/>personae, propter quod minor non dicitur 
+      ratio<lb ed="#L" break="no" n="67"/>ne columbae, aut flatus, aut ignis, aut alterius 
+      <lb ed="#L" n="68"/>creaturae, in qua quidem apparuit, sed illam non 
+      <lb ed="#L" n="69"/>beatificauit, coniungendo illam sibi in vnitate 
+      <lb ed="#L" n="70"/>personae. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e298">
+               <lb ed="#L" n="71"/>Secundo ibi: Notandum autem. addit Magister 
+      <lb ed="#L" n="72"/>ad ea, quae dicta sunt de filio, dicens, quod non 
+      <lb ed="#L" n="73"/>solum secundum formam, in qua apparuit 
+      ho<lb ed="#L" break="no" n="74"/>mo factus dicitur minor patre, immo etiam se 
+      <lb ed="#L" n="75"/>ipso, &amp; spiritu sancto. &amp; patet hoc ex dictis 
+      Au<lb ed="#L" break="no" n="76"/>gustini, qui dicit, quod licet Christus secundum 
+      <lb ed="#L" n="77"/>formam Dei aequalis sit patri, propter formam 
+      <lb ed="#L" n="78"/>tamen serui minor est tota Trinitate; vnde 
+      er<lb ed="#L" break="no" n="79"/>rant, qui verbum illud, Pater maior me est, 
+      vo<lb ed="#L" break="no" n="80"/>lunt referre ad filij substantiam sempiternam 
+      <lb ed="#L" n="81"/>in qua patri aequalis est, sunt quidem haec 
+      refe<lb ed="#L" break="no" n="82"/>renda non ad de itatem, sed ad humanitatis 
+      as<lb ed="#L" break="no" n="83"/>sumptionem, secundum quam non solum minor 
+      <lb ed="#L" n="84"/>est patre, immo spiritu sancto, &amp; seipso. 
+    </p>
+            <p xml:id="ol96b1-130586-d1e331">
+               <lb ed="#L" n="85"/>Tertio ibi: Hilarius autem. ostendit Magister, 
+      <lb ed="#L" n="86"/>quod hanc maioritatem intelligit Hilarius 
+      secun<lb ed="#L" break="no" n="87"/>dum naturam diuinam, dicens, quod pater 
+      ma<lb ed="#L" break="no" n="88"/>ior est filio, secundum auctoritatem 
+      generatio<lb ed="#L" break="no" n="89"/>nis, non tamen minor est filius, quia gignitur 
+      <lb ed="#L" n="90"/>in eisdem donis, &amp; quidquid est in patre, sibi 
+      <lb ed="#L" n="91"/>communicatur; vnde est in eo auctoritas, &amp; 
+      <lb ed="#L" n="92"/>maioritas originis, sed non perfectionis. haec 
+      <lb ed="#L" n="93"/>est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

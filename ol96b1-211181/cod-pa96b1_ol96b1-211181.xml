@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="650"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-211181"> <!-- l1d29p1-prae -->
+            <head xml:id="ol96b1-211181-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-211181-d1e104">
+      <!--0650.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="63"/>DE PRJNCJPJO, QVOD RELATJVE 
+      <lb ed="#L" n="64"/>dicitur, &amp; multiplicem notat relationem.
+    </p>
+            <p xml:id="ol96b1-211181-d1e115">
+               <lb ed="#L" n="65"/>DISTINCTIO XYIY. 
+    </p>
+            <p xml:id="ol96b1-211181-d1e120">
+      <!--0650.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="66"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-211181-d1e130">
+               <lb ed="#L" n="67"/>EST praeterea, &amp;c. Postquam 
+      <lb ed="#L" n="68"/>Magister determinauit de 
+      <lb ed="#L" n="69"/>tribus proprietatibus, 
+      pa<lb ed="#L" break="no" n="70"/>ternitate, filiatione, &amp; 
+      spi<lb ed="#L" break="no" n="71"/>ratione, &amp; de quarta, 
+      scili<lb ed="#L" break="no" n="72"/>cet de innascibilitate, hic 
+      <lb ed="#L" n="73"/>agit de quinta, scilicet de 
+      <lb ed="#L" n="74"/>principio, quod exprimit communem 
+      spiratio<lb ed="#L" break="no" n="75"/>nem actiuam. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-211181-d1e152">
+               <lb ed="#L" n="76"/>Primo namque ponit acceptiones principij 
+      <lb ed="#L" n="77"/>secundum diuersos modos. 
+    </p>
+            <p xml:id="ol96b1-211181-d1e159">
+               <lb ed="#L" n="78"/>Secundo vero exequitur de eis ibi: At pater ab 
+      <lb ed="#L" n="79"/>aeterno. Dicitur itaque primo, quod principium 
+      <lb ed="#L" n="80"/>multiplicem notat relationem. Dicitur pater 
+      <lb ed="#L" n="81"/>principium ad filium, &amp; ad spiritum sanctum; filius 
+      <lb ed="#L" n="82"/>vero ad spiritum dicitur principiũ: spiritus 
+      au<lb ed="#L" break="no" n="83"/>tem sanctus ad creaturas, ad quas pater, &amp; filius 
+      <lb ed="#L" n="84"/>sunt principium, &amp; ita pater est principium 
+      si<lb ed="#L" break="no" n="85"/>ne principio, filius principium de principio, &amp; 
+      <lb ed="#L" n="86"/>spiritus sanctus principium de vtroque. 
+    </p>
+            <p xml:id="ol96b1-211181-d1e181">
+               <lb ed="#L" n="87"/>Postmodum ibi: At pater. exequitur Magister 
+      <lb ed="#L" n="88"/>de modis istis, quibus accipitur principium, &amp; 
+      <lb ed="#L" n="89"/>circa hoc tria facit. Primo namque agit de prin 
+      <lb ed="#L" n="90"/>cipio, prout dicitur de tota Trinitare in ordine 
+      <!--0650.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="91"/>ad creaturas, dicens, quod pater ab eternoest 
+      <lb ed="#L" n="92"/>principium filij, &amp; vterque spiritus sancti: nõau 
+      <lb ed="#L" n="93"/>tem spiritus sanctus respectu creaturarum est ab 
+      <lb ed="#L" n="94"/>aeterno principium, sed ex tempore coepit ese, 
+      <lb ed="#L" n="95"/>cum creaturae profluxerunt ab eo, nec ipse, &amp; 
+      pa<lb ed="#L" break="no" n="96"/>ter, &amp; filius sunt principia tria creaturz, 
+      sedv<lb ed="#L" break="no" n="97"/>num vniuersorum principium, quod in se manens 
+      <lb ed="#L" n="98"/>immutabile omnia operatur, &amp; secundum istam 
+      <lb ed="#L" n="99"/>rationem principij tres personae dicuntur vus 
+      <lb ed="#L" n="100"/>creator. Secundo ibi: Deinde in eodem. Agit de prin 
+      <lb ed="#L" n="101"/>cipio secundum alios duos modos accipiendi, &amp; 
+      <lb ed="#L" n="102"/>dicit, quod pater ab aeterno dicitur principium 
+      <lb ed="#L" n="103"/>filij, nec est alia notio principij, quam 
+      genera<lb ed="#L" break="no" n="104"/>tio, vel paternitas, secundum quam &amp; 
+      paterdi<lb ed="#L" break="no" n="105"/>citur actor filij secundum Hilar. Similiter 
+      pa<lb ed="#L" break="no" n="106"/>ter, &amp; filius sunt principium spiritus sanctiab 
+      <lb ed="#L" n="107"/>aeterno, nec notat hoc principium aliud, quam spi 
+      <lb ed="#L" n="108"/>ritum sanctum procedere ab vtroque. Tertio ibi: 
+      <lb ed="#L" n="109"/>Vnum autem principium. Magister inquirit 
+      deno<lb ed="#L" break="no" n="110"/>tione, secundum quam pater, &amp; filius sunt 
+      spiri<lb ed="#L" break="no" n="111"/>tus sancti principium, &amp; dicit, quod ista est eadi 
+      <lb ed="#L" n="112"/>in patre, &amp; filio, nec est paternitas, aut filiatio, 
+      <lb ed="#L" n="113"/>sed notio innomina ta, quae posset appellari 
+      spi<lb ed="#L" break="no" n="114"/>ratio. vnde illam circumloquitur nomen priuci 
+      <lb ed="#L" n="115"/>pij, cum dicimus, quod pater, &amp; filius sunt 
+      priu<lb ed="#L" break="no" n="116"/>cipium spiritus sancti, haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

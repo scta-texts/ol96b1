@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="162"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c51962"> <!-- l1d3p1-prae -->
+            <head xml:id="ol96b1-c51962-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c51962-d1e104">
+      <!--0162.xml-->
+               <pb ed="#L" n="162"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>JNCIPJT OSTENDERE QVOMODO 
+      <lb ed="#L" n="2"/>per creaturam potuerit cognosci Creator.
+      <lb ed="#L" n="3"/>DISTINCTIO III.
+    </p>
+            <p xml:id="ol96b1-c51962-d1e120">
+      <!--0162.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>De Trinitate, &amp; Vnitate secundum quod 
+      <lb ed="#L" n="5"/>credita per rationem intelligitur.
+    </p>
+            <p xml:id="ol96b1-c51962-d1e131">
+               <lb ed="#L" n="6"/>Apostolus namque ait, &amp; caet. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e137">
+               <lb ed="#L" n="7"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e142">
+               <lb ed="#L" n="8"/>APOSTOLVS namque ait, &amp;c. 
+      <lb ed="#L" n="9"/>Postquam Magister processit 
+      <lb ed="#L" n="10"/>ad inuestigandum 
+      pluralita<lb ed="#L" break="no" n="11"/>tem personarum in vnitate 
+      <lb ed="#L" n="12"/>essentiae per irrefragabilem 
+      <lb ed="#L" n="13"/>auctoritatem Scripturae, hic 
+      <lb ed="#L" n="14"/>procedit ad idem per 
+      multi<lb ed="#L" break="no" n="15"/>plicem similitudinem totius creatae naturae. Et 
+      <lb ed="#L" n="16"/>circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e164">
+               <lb ed="#L" n="17"/>Primo namque ostendit illud esse possibile.
+    </p>
+            <p xml:id="ol96b1-c51962-d1e169">
+               <lb ed="#L" n="18"/>Secundo vero, discurrit per similitudinem 
+      <lb ed="#L" n="19"/>creatae naturae.
+    </p>
+            <p xml:id="ol96b1-c51962-d1e176">
+               <lb ed="#L" n="20"/>Tertio vero concludit veritatem quaestionis 
+      <lb ed="#L" n="21"/>iam probatae. secundum facit ibi: Nam sicut ait. 
+      <lb ed="#L" n="22"/>tertium ibi: Quapropter iuxta considerationem. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e185">
+               <lb ed="#L" n="23"/>Dicit itaque primo, quod iuxta sententiam 
+      <lb ed="#L" n="24"/>Apostolicam, Dei inuisibilia, a mundi creatura, 
+      <lb ed="#L" n="25"/>quae homo est, intellecta cognoscuntur per alias 
+      <lb ed="#L" n="26"/>creaturas, vt sic homo ad conspiciendam 
+      sem<lb ed="#L" break="no" n="27"/>piternam Dei virtutem ex duobus iuuetur, 
+      sci<lb ed="#L" break="no" n="28"/>licet ex experientia suae naturae, quae rationalis 
+      <lb ed="#L" n="29"/>est, &amp; ex notitia corporum, &amp; aliorum operum 
+      <lb ed="#L" n="30"/>Diuinorum. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e206">
+               <lb ed="#L" n="31"/>Postmodum ibi: Nam sicut ait. inducit multas 
+      <lb ed="#L" n="32"/>visibilitates in creaturis repertas. Et circa hoc 
+      <lb ed="#L" n="33"/>duo facit. Primo enim inducit eas ad probandum 
+      <lb ed="#L" n="34"/>vnitatem essentiae. Secundo vero ad probandum 
+      <lb ed="#L" n="35"/>Trinitatem, &amp; pluralitatem personae. Secunda, 
+      <lb ed="#L" n="36"/>ibi: Nunc restat ostendere. Adhuc circa primum 
+      <lb ed="#L" n="37"/>duo facit. Primo enim ex creaturis probat Dei 
+      <lb ed="#L" n="38"/>vnitatem. Secundo, multiplicem eius 
+      perfectio<lb ed="#L" break="no" n="39"/>nem, &amp; proprietatem. secunda, ibi: Ecce tot 
+      mo<lb ed="#L" break="no" n="40"/>dis. Circa primum facit quatuor, secundum 
+      qua<lb ed="#L" break="no" n="41"/>tuor rationes, &amp; quatuor vias, quibus procedit 
+      <lb ed="#L" n="42"/>ad probandum Dei vnitatem ex creaturis. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e235">
+               <lb ed="#L" n="43"/>Primam itaque ponit, quae talis est. constat 
+      <lb ed="#L" n="44"/>enim, quod opus totius vniuersi non potest esse 
+      <lb ed="#L" n="45"/>factum ab aliqua creatura. accedat enim 
+      quae<lb ed="#L" break="no" n="46"/>cumque vis creata, &amp; faciat tale caelum, &amp; 
+      ta<lb ed="#L" break="no" n="47"/>lem terram, &amp; dicam, quod Deus est, ergo neces 
+      <lb ed="#L" n="48"/>se est cogitare vltra omnem creaturam, illum, 
+      <lb ed="#L" n="49"/>qui ista fecit, &amp; sic humana mens per istum mun 
+      <lb ed="#L" n="50"/>dum visibilem, Deum potuit contemplari. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e255">
+               <lb ed="#L" n="51"/>Secundam ponit ibi: Alio etiam modo. dicens, 
+      <lb ed="#L" n="52"/>quod summi Philosophi cognouerunt, nullum 
+      cor<lb ed="#L" break="no" n="53"/>pus esse Deum, &amp; ideo cuncta corpora transcen 
+      <lb ed="#L" n="54"/>dentes, peruenerunt ad speculandum vlterius, 
+      <lb ed="#L" n="55"/>&amp; cognouerunt, quod nullum mutabile erat Deus, 
+      <lb ed="#L" n="56"/>&amp; ideo omnem animam, &amp; omnem mut abilem 
+      <lb ed="#L" n="57"/>Spiritum transcendentes, arguerunt, quod 
+      om<lb ed="#L" break="no" n="58"/>ne mutabile necessario est ab alio, &amp; per conse- 
+      <!--0162.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="59"/>quens peruenerunt ad quoddam summum 
+      in<lb ed="#L" break="no" n="60"/>commutabile, quod Deus est. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e284">
+               <lb ed="#L" n="61"/>Tertiam quoque ponit ibi: Considerauerunt, 
+      <lb ed="#L" n="62"/>&amp;c. dicens, quod Philosophi cognouerunt 
+      quid<lb ed="#L" break="no" n="63"/>quid est in substantiis esse corpus, vel spiritum, 
+      <lb ed="#L" n="64"/>spiritum autem multum meliorem esse, quam 
+      <lb ed="#L" n="65"/>corpus, &amp; ex hoc arguunt, quod est melius 
+      ter<lb ed="#L" break="no" n="66"/>tium aliquod, Deus videlicet, qui est Conditor 
+      <lb ed="#L" n="67"/>vtriusque. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e302">
+               <lb ed="#L" n="68"/>Quartam vero ponit ibi: Intellexerunt etiam. 
+      <lb ed="#L" n="69"/>dicens, quod Philosophi cognouerunt, quod spe 
+      <lb ed="#L" n="70"/>cies intelligibilis est excellentior sensibili, &amp; om 
+      <lb ed="#L" n="71"/>nia, quae sunt, speciosa facta sunt, sicut quod carere 
+      <lb ed="#L" n="72"/>non possunt aliqua specie intellectuali, vel 
+      sensa<lb ed="#L" break="no" n="73"/>ta, &amp; ex hoc arguerunt, quod est dare aliquam 
+      <lb ed="#L" n="74"/>summam speciem, per cuius participationem 
+      <lb ed="#L" n="75"/>sunt omnia speciosa, &amp; hanc speciem, Deum 
+      ap<lb ed="#L" break="no" n="76"/>Pe aicen notandum, quod istarum quatuor 
+      <lb ed="#L" n="77"/>rationum, prima procedit per viam 
+      operatio<lb ed="#L" break="no" n="78"/>nis, &amp; effectuum. Secunda per viam remotionis 
+      <lb ed="#L" n="79"/>quorumcumque defectuum. Tertia per viam com 
+      <lb ed="#L" n="80"/>parationis, &amp; graduum. Quartam per viam 
+      <lb ed="#L" n="81"/>participationis specierum, &amp; quarumcumque 
+      <lb ed="#L" n="82"/>bonitatum. 
+    </p>
+            <p xml:id="ol96b1-c51962-d1e337">
+               <lb ed="#L" n="83"/>Postmodum ibi: Ecce tot modis. Probat 
+      Magi<lb ed="#L" break="no" n="84"/>ster ex creaturis perfectiones Diuinas, &amp; 
+      pro<lb ed="#L" break="no" n="85"/>prietates, dicens, quod ex perpetuitate 
+      creatu<lb ed="#L" break="no" n="86"/>rarum, potest intelligi aeternitas conditoris, &amp; 
+      <lb ed="#L" n="87"/>ex magnitudine earumdem, omnipotentia crea 
+      <lb ed="#L" n="88"/>toris, &amp; ex ordine, &amp; dispositione, ipsius 
+      sapien<lb ed="#L" break="no" n="89"/>tia, &amp; ex gubernatione, bonitas summa, &amp; sic de 
+      <lb ed="#L" n="90"/>alijs perfectionibus, propter quod, licet Deus sit 
+      <lb ed="#L" n="91"/>simplex, tamen ea, quae sunt in ipso nominauit 
+      <lb ed="#L" n="92"/>Apostolus, inuisibilia, &amp;c. in principio huius, 
+      <lb ed="#L" n="93"/>haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

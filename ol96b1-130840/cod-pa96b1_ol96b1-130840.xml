@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="400"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-130840"> <!-- l1d16p1-q1 -->
+            <head xml:id="ol96b1-130840-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-130840-Hd1e104" type="question-title">
+        Utrum Spiritus sanctus visibiliter fuerit missus.
+      </head>
+            <p xml:id="ol96b1-130840-d1e107">
+               <lb ed="#L" n="94"/>Vtrum Spiritus sanctus visibiliter fuerit missus. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e112">
+               <lb ed="#L" n="95"/>ET quia Magister hic agit de spiritus sancti 
+      <lb ed="#L" n="96"/>visibili missione, ideo quaerendum 
+      occur<lb ed="#L" break="no" n="97"/>rit, Vtrum spiritus sanctus visibiliter debuit 
+      mit<lb ed="#L" break="no" n="98"/>ti. Et videtur, quod non. illud enim non debuitcir 
+      <lb ed="#L" n="99"/>ca spiritum sanctum fieri, secundum quod ipsum opor 
+      <lb ed="#L" n="100"/>tuit minorari, sed per missionem visibilem opor 
+      <lb ed="#L" n="101"/>tuit minorari spiritum sanctum, quia filius 
+      fa<lb ed="#L" break="no" n="102"/>ctus est minor propter missionem in carne. 
+      er<lb ed="#L" break="no" n="103"/>go spiritus sanctus non debuit visibiliter mitti- 
+    </p>
+            <p xml:id="ol96b1-130840-d1e135">
+               <lb ed="#L" n="104"/>Praeterea: Sapientiae primo dicitur super 
+      spi<lb ed="#L" break="no" n="105"/>ritum sanctum, quod effugiet omne fictum, sed 
+      <lb ed="#L" n="106"/>visibilis ipsius apparitio non videtur aliud, quam 
+      <lb ed="#L" n="107"/>quaedam fictio, tum quia huiusmodi creaturae 
+      <lb ed="#L" n="108"/>non videntur fuisse verae, sed fictae. illa 
+      enim<lb ed="#L" break="no" n="109"/>columba, &amp; linguae igneae non videntur 
+      fuis<lb ed="#L" break="no" n="110"/>se quid verum: tum quia spiritus sanctus 
+      om<lb ed="#L" break="no" n="111"/>nino inuisibilis est, nec potest dici 
+      apparuis<lb ed="#L" break="no" n="112"/>se visibilis, nisi fictitie, &amp; poetice: tum quia 
+      <!--0401.xml-->
+      <pb ed="#L" n="401"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>filius dicitur visibiliter missus, propter 
+      com<lb ed="#L" break="no" n="2"/>municationem idiomatum, quia 
+      communi<lb ed="#L" break="no" n="3"/>catur filio quicquid dicitur de homine propter 
+      <lb ed="#L" n="4"/>vnitatem personae, talis autem vnio per animal 
+      <lb ed="#L" n="5"/>non fuit in spiritu sancto respectu alicuius crea 
+      <lb ed="#L" n="6"/>turae. ergo hoc modo non debuit spiritus sanctus 
+      <lb ed="#L" n="7"/>mitti. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e179">
+               <lb ed="#L" n="8"/>Praeterea: Sicut per visibiles creaturas decla 
+      <lb ed="#L" n="9"/>ratur spiritus sancti praesentia in homine, ita &amp; 
+      <lb ed="#L" n="10"/>per spirituales species corporum imaginarie vi 
+      <lb ed="#L" n="11"/>sas: sed constat, quod apparitio imaginaria 
+      spe<lb ed="#L" break="no" n="12"/>cierum, quae facta est in prophetis, non dicitur 
+      <lb ed="#L" n="13"/>imaginaria missio spiritus sancti. ergo nec 
+      pro<lb ed="#L" break="no" n="14"/>pter visibiles creaturas debet dici visibiliter. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e197">
+               <lb ed="#L" n="15"/>Praeterea: Paris dignitatis est spiritus 
+      san<lb ed="#L" break="no" n="16"/>ctus cum filio, &amp; cum patre: sed filius apparuit 
+      <lb ed="#L" n="17"/>in homine, qui est nobilissima creatura. ergo spi 
+      <lb ed="#L" n="18"/>ritus non debuit apparere in columba, vel igne, 
+      <lb ed="#L" n="19"/>quae sunt irrationales creaturae. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e210">
+               <lb ed="#L" n="20"/>Praeterea: Multitudo non ducit in notitiam, 
+      <lb ed="#L" n="21"/>sed parit confusionem; sed spiritus sancti 
+      mis<lb ed="#L" break="no" n="22"/>sio non ordinatur ad aliud, quam vt in aliquam 
+      <lb ed="#L" n="23"/>naturae ipsius notitiam conuertamur, vt 
+      Augu<lb ed="#L" break="no" n="24"/>stinus dicit. ergo non debuit fieri ista missio, 
+      <lb ed="#L" n="25"/>nisi secundum vnam creaturam. non ergo 
+      mit<lb ed="#L" break="no" n="26"/>ti debuit in specie columbae, ignis, flatus, &amp; 
+      <lb ed="#L" n="27"/>nubis. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e230">
+               <lb ed="#L" n="28"/>Praeterea: Aequalis meriti estt Ecclesia 
+      mo<lb ed="#L" break="no" n="29"/>derni temporis cum Ecclesia primitiua 
+      quan<lb ed="#L" break="no" n="30"/>tum ad aliquas personas: sed ad nullum 
+      San<lb ed="#L" break="no" n="31"/>ctum istis temporibus visibiliter mittitur 
+      spiri<lb ed="#L" break="no" n="32"/>tus sanctus. ergo nec in primitiua Ecclesia 
+      de<lb ed="#L" break="no" n="33"/>buit visibiliter mitti. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e246">
+               <lb ed="#L" n="34"/>Et confirmatur, quia nec Abrahae, nec 
+      Moy<lb ed="#L" break="no" n="35"/>si dicitur visibiliter missus, qui non fuerunt 
+      mi<lb ed="#L" break="no" n="36"/>noris sanctitatis, quam multi noui testamenti, 
+      <lb ed="#L" n="37"/>vt videtur. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e258">
+               <lb ed="#L" n="38"/>Quod Spiritus sanctus debuit visibiliter mitti. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e263">
+               <lb ed="#L" n="39"/>SED in oppositum videtur, quod nil 
+      irratio<lb ed="#L" break="no" n="40"/>nabiliter indecens promissum est a Christo, 
+      <lb ed="#L" n="41"/>qui est ars, &amp; ratio, &amp; sapientia Dei patris: sed 
+      <lb ed="#L" n="42"/>missio spiritus sancti repromissa est a Christo 
+      <lb ed="#L" n="43"/>loan. 16. cum ait: Expedit vobis, vt ego vadam. 
+      <lb ed="#L" n="44"/>si enim non abiero, paraclytus non veniet, &amp; si 
+      abie<lb ed="#L" break="no" n="45"/>ro, mittam eum ad vos. &amp; Actuum primo 
+      praece<lb ed="#L" break="no" n="46"/>pit discipulis, vt expectarent promissionem 
+      pa<lb ed="#L" break="no" n="47"/>tris: Quam audistis, inquit, per os meum, quia 
+      Ioan<lb ed="#L" break="no" n="48"/>nes quidem baptizauit aqua, vos autem 
+      baptizabimi<lb ed="#L" break="no" n="49"/>ni spiritu sancto. ergo spiritus sanctus potuit 
+      visi<lb ed="#L" break="no" n="50"/>biliter decenter mitti. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e292">
+               <lb ed="#L" n="51"/>Praeterea: Quod factum est circa Christum, 
+      <lb ed="#L" n="52"/>&amp; Ecclesiam in specie columbae Ioan. 1. &amp; super 
+      <lb ed="#L" n="53"/>discipulos in specie nubis in monte, cum nubes 
+      <lb ed="#L" n="54"/>lucida obumbrauit eos Matth. 16. in specie 
+      fla<lb ed="#L" break="no" n="55"/>tus, cum insufflauit in eos dicens: Accipite 
+      spi<lb ed="#L" break="no" n="56"/>ritum sanctum. Ioan. 20. in specie ignis in die 
+      <lb ed="#L" n="57"/>Pentecostes, vt legitur Actuum 2. ergo spiritus 
+      <lb ed="#L" n="58"/>sanctus visibiliter missus est, &amp; decenter. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e312">
+               <lb ed="#L" n="59"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-130840-d1e317">
+               <lb ed="#L" n="60"/>AD quaestionem istam respondendo, hoc or 
+      <lb ed="#L" n="61"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-130840-d1e324">
+               <lb ed="#L" n="62"/>Primo namque videndum est de visibili 
+      mis<lb ed="#L" break="no" n="63"/>sione spiritus sancti quid sit. 
+      <!--0401.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="64"/>Secundo, quare sit. 
+      <lb ed="#L" n="65"/>Tertio, quod modis facta sit. 
+      <lb ed="#L" n="66"/>Quarto, quibus, &amp; quando facta sit. 
+      <lb ed="#L" n="67"/>Quinto, de veritate rerum, in quibus 
+      huius<lb ed="#L" break="no" n="68"/>modi missio facta sit. 
+    </p>
+            <div xml:id="ol96b1-130840-Dd1e347">
+               <head xml:id="ol96b1-130840-Hd1e349">Articulus 1</head>
+               <p xml:id="ol96b1-130840-d1e351">
+                  <lb ed="#L" n="69"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e356">
+                  <lb ed="#L" n="70"/>Quid sit visibilis missio Spiritus sancti.
+    </p>
+               <p xml:id="ol96b1-130840-d1e361">
+                  <lb ed="#L" n="71"/>CIRCA primum autem considerandum, 
+      <lb ed="#L" n="72"/>quid sit visibilis missio spiritus sancti sub 
+      <lb ed="#L" n="73"/>tribus propositionibus.
+    </p>
+               <p xml:id="ol96b1-130840-d1e370">
+                  <lb ed="#L" n="74"/>Prima quidem, quod visibilis missio, &amp; 
+      inui<lb ed="#L" break="no" n="75"/>sibilis, quae concurrunt in eandem personam, 
+      <lb ed="#L" n="76"/>non sunt duae missiones, sed eadem missio. Et 
+      <lb ed="#L" n="77"/>hoc potest multipliciter declarari. per ea enim, 
+      <lb ed="#L" n="78"/>quae sunt extrinsece missio, non multiplicatur, 
+      <lb ed="#L" n="79"/>missio rationis, cum nulla res multiplicetur ad 
+      <lb ed="#L" n="80"/>multiplicationem, &amp; quod non est de 
+      ratione<lb ed="#L" break="no" n="81"/>ipsius, vnde per album, musicum, &amp; 
+      grammati<lb ed="#L" break="no" n="82"/>cum non multiplicatur humanitas sortis, sed 
+      <lb ed="#L" n="83"/>signum visibile denotans personam spiritus san 
+      <lb ed="#L" n="84"/>cti, in quo consistit ratio visibilis missionis, &amp; 
+      <lb ed="#L" n="85"/>effectus sanctificationis per inuisibile donum 
+      <lb ed="#L" n="86"/>charitatis, &amp; gratiae, in quibus consistit inuisibi 
+      <lb ed="#L" n="87"/>lis missio, sunt extrinseca formali rationi 
+      mis<lb ed="#L" break="no" n="88"/>sionis diuinae personae: dicitur namque mitti 
+      per<lb ed="#L" break="no" n="89"/>sona diuina, quia determinatur tam donis 
+      inui<lb ed="#L" break="no" n="90"/>sibilis, quam visibilis creaturae; in mittere vero 
+      <lb ed="#L" n="91"/>persona, quae determinat, vt secundum hoc missio 
+      <lb ed="#L" n="92"/>sit respectus rationis inter diuinas personas, 
+      <lb ed="#L" n="93"/>qui quidem respectus non habet pro fundamen 
+      <lb ed="#L" n="94"/>to effectum inuisibilem, aut visibilem creaturam, 
+      <lb ed="#L" n="95"/>sed ipsammet personam diuinam, alioquin non 
+      <lb ed="#L" n="96"/>mitteretur ipsamet persona, sed ipsae creaturae. 
+      <lb ed="#L" n="97"/>ergo penes ista non distinguitur missio diuinae 
+      <lb ed="#L" n="98"/>personae. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e428">
+                  <lb ed="#L" n="99"/>Et confirmatur, quia legati operatio etiam in 
+      <lb ed="#L" n="100"/>humanis non est de intrinseco missionis passiue 
+      <lb ed="#L" n="101"/>ipsius legati, non mittitur operatio, sed legatus 
+      <lb ed="#L" n="102"/>mittitur ad operationem. Consimiliter in diuinis 
+      <lb ed="#L" n="103"/>non mittitur effectus inuisibilis, aut signum 
+      ex<lb ed="#L" break="no" n="104"/>terius, sed persona mittitur ad operandum ista, 
+      <lb ed="#L" n="105"/>ad sanctificandum, videlicet creaturam, &amp; ad 
+      <lb ed="#L" n="106"/>declarandum sanctificationem huiusmodi per 
+      <lb ed="#L" n="107"/>sensibile signum. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e450">
+                  <lb ed="#L" n="108"/>Praeterea: Licet secundum operationes, ad quas 
+      <lb ed="#L" n="109"/>fit missio posset diuersificari legatio, vbi 
+      opera<lb ed="#L" break="no" n="110"/>tiones sunt disparatae, non tamen ibi, vbi vna ad 
+      <lb ed="#L" n="111"/>aliam ordinatur, quia vbi vnum propter alterum, 
+      <lb ed="#L" n="112"/>vtrobique tantum vnum, vt Philos. dicit 3. Top. 
+      <lb ed="#L" n="113"/>vnde si aliquis legatur ad inquirendum, &amp; 
+      sen<lb ed="#L" break="no" n="114"/>tentiandum de aliquo negocio, non dicitur 
+      su<lb ed="#L" break="no" n="115"/>scipere duas legationes, sed missio visibilis 
+      spi<lb ed="#L" break="no" n="116"/>ritus sancti ordinatur ad demonstrandam 
+      inte<lb ed="#L" break="no" n="117"/>riorem, &amp; inuisibilem missionem, vt Magister 
+      <lb ed="#L" n="118"/>dicit in littera, &amp; apparet in omnibus, ad quos 
+      <lb ed="#L" n="119"/>visibilis missio facta fuit: ad hoc autem fiebat, 
+      <lb ed="#L" n="120"/>vt ostenderetur interior eorum gratia, 
+      secun<lb ed="#L" break="no" n="121"/>dum quam spiritus sanctus in eis inuisibiliter 
+      ha<lb ed="#L" break="no" n="122"/>bitabat. ergo visibilis, &amp; inuisibilis missio non 
+      <lb ed="#L" n="123"/>sunt duae legationes. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e487">
+                  <lb ed="#L" n="124"/>Praeterea: Si visibilis missio haberet per se 
+      <lb ed="#L" n="125"/>rationem missionis separatam ab inuisibili, 
+      <lb ed="#L" n="126"/>adhuc spiritus sancti missio diceretur, sed quan 
+      <lb ed="#L" n="127"/>do appareret columba super aliquem, si non esset 
+      <!--0402.xml-->
+      <pb ed="#L" n="402"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in illo gratia spiritus sancti, non diceretur 
+      mis<lb ed="#L" break="no" n="2"/>sus ad eum. ergo illud, quod prius. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e509">
+                  <lb ed="#L" n="3"/>Praeterea: Si tolleretur inuisibilis missio, &amp; 
+      <lb ed="#L" n="4"/>participatio gatiae, non plus repraesentaret 
+      co<lb ed="#L" break="no" n="5"/>lumba spiritum sanctum, nec plus diceretur 
+      mit<lb ed="#L" break="no" n="6"/>ti spiritus sanctus, quam pater, cuius ratio est, 
+      <lb ed="#L" n="7"/>quia missio personae fit ad vsum potestatis sibi 
+      <lb ed="#L" n="8"/>appropriatae, at quia ex modo emanationis 
+      ap<lb ed="#L" break="no" n="9"/>propriatur verbo eruditiua potentia, &amp; 
+      spiri<lb ed="#L" break="no" n="10"/>tui sancto, qui est charitatiuus impulsus 
+      ap<lb ed="#L" break="no" n="11"/>propriatur inflammatiua potentia, productio 
+      <lb ed="#L" n="12"/>autem columbae, vel ignis, aut creaturae 
+      alte<lb ed="#L" break="no" n="13"/>rius non appropriatur in eis ex modo 
+      emana<lb ed="#L" break="no" n="14"/>tionis suae, idcirco legatur filius ad erudiendum, 
+      <lb ed="#L" n="15"/>&amp; spiritus sanctus ad inflammandum, non 
+      au<lb ed="#L" break="no" n="16"/>tem ad producendum columbam, aut aliquid 
+      <lb ed="#L" n="17"/>huiusmodi; oporteret autem sic fieri, si missio 
+      <lb ed="#L" n="18"/>visibilis esset per se, &amp; distincta missio spiritus 
+      <lb ed="#L" n="19"/>sancti. ergo non ponit in numerum cum 
+      inuisi<lb ed="#L" break="no" n="20"/>bili missione. vnde considerandum, quia nec 
+      gra<lb ed="#L" break="no" n="21"/>tia, nec sensibile signum exterius spectant 
+      in<lb ed="#L" break="no" n="22"/>trinsece ad missionem spiritus sancti, sed sunt 
+      <lb ed="#L" n="23"/>effectus ipsius missionis; vnde non ideo 
+      mitti<lb ed="#L" break="no" n="24"/>tur spiritus sanctus, quia sanctificatur animus, 
+      <lb ed="#L" n="25"/>sed quia mittitur spiritus, ideo mens 
+      sanctifica<lb ed="#L" break="no" n="26"/>tur, iuxta illud Apostoli: Charitas diffusa est in 
+      cor<lb ed="#L" break="no" n="27"/>dibus nostris per spiritum sanctum, qui datus est nobis, 
+      <lb ed="#L" n="28"/>sicut &amp; in humanis actibus, ad quem persona 
+      <lb ed="#L" n="29"/>mittitur, non est missio, sed effectus ipsius, vnde 
+      <lb ed="#L" n="30"/>tota ratio missionis spiritus sancti completur 
+      <lb ed="#L" n="31"/>in hoc, quod determinatur ad sanctificandum 
+      <lb ed="#L" n="32"/>creaturam voluntate communi totius 
+      Trinita<lb ed="#L" break="no" n="33"/>tis. sanctificatio vero ex hoc proueniens est, &amp; 
+      <lb ed="#L" n="34"/>effectus istius missionis: signum autem sensibi-J 
+      <lb ed="#L" n="35"/>le non demonstrat immediate missionem; sed ef 
+      <lb ed="#L" n="36"/>fectum missionis sanctitatis, propter quod 
+      vni<lb ed="#L" break="no" n="37"/>ca missione spiritus sanctus mittitur ad effectum 
+      <lb ed="#L" n="38"/>interiorem, qui principalis est, &amp; effectum 
+      ex<lb ed="#L" break="no" n="39"/>teriorem, qui in suo principalis est, &amp; intentus 
+      <lb ed="#L" n="40"/>tantummodo tamquam signum interioris, vnde 
+      <lb ed="#L" n="41"/>&amp; separatur interior effectus ab exteriori 
+      mis<lb ed="#L" break="no" n="42"/>sione, sed numquam econuerso. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e598">
+                  <lb ed="#L" n="43"/>Secunda vero propositio est, quod missio 
+      vi<lb ed="#L" break="no" n="44"/>sibilis, &amp; sensibilis apparitio non sunt idem, quod 
+      <lb ed="#L" n="45"/>patet ex duobus. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e607">
+                  <lb ed="#L" n="46"/>Primo quidem, quia missio supponit subauten 
+      <lb ed="#L" n="47"/>ticam, &amp; delegatam potestatem, propter quod pater 
+      <lb ed="#L" n="48"/>non legitur fuisse missus: apparitio vero non 
+      <lb ed="#L" n="49"/>supponit, quod delegata sit auctoritas, aut 
+      po<lb ed="#L" break="no" n="50"/>testas, propter quod pater apparuit, &amp; toti Tri 
+      <lb ed="#L" n="51"/>nitati potest competere apparere. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e624">
+                  <lb ed="#L" n="52"/>Secundo vero, quia apparitio est extrinseca 
+      <lb ed="#L" n="53"/>denominatio ab aliqua sensibili creatura 
+      deno<lb ed="#L" break="no" n="54"/>minante personam per modum signi, vnde 
+      spi<lb ed="#L" break="no" n="55"/>ritus sanctus dicitur apparere sensibiliter, &amp; vi 
+      <lb ed="#L" n="56"/>sibiliter denominatiue tantum ab apparitione 
+      <lb ed="#L" n="57"/>columbae, quae sensibilis est, &amp; signum repraesen 
+      <lb ed="#L" n="58"/>tatiuum spiritus sancti, sicut ignis dicitur appa 
+      <lb ed="#L" n="59"/>rere, cum fumus tantum videtur, &amp; sicut appa 
+      <lb ed="#L" n="60"/>ret cernenti circulum, quod sit venale vinum in 
+      <lb ed="#L" n="61"/>domo, missus vero non est denominatio talis 
+      ex<lb ed="#L" break="no" n="62"/>trinseca, sed habitudo intrinseca personae habem 
+      <lb ed="#L" n="63"/>tis auctoritatem delegatam ad personam, quae im 
+      <lb ed="#L" n="64"/>portat vsum auctoritatis, quem quidem vsum volum 
+      <lb ed="#L" n="65"/>tas imperat totius Trinitatis, propter quod Tri 
+      <lb ed="#L" n="66"/>nitas tota mittit, inest missioni secundum hoc 
+      <lb ed="#L" n="67"/>quaedam intrinseca habitudo secundum ratio- 
+      <!--0402.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>nem, non extrinseca denominatio, immo 
+      ex<lb ed="#L" break="no" n="69"/>trinseci effectus ex ea, vt dictum est prius. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e670">
+                  <lb ed="#L" n="70"/>Tertia quoque propositio est, quod missio vi 
+      <lb ed="#L" n="71"/>sibilis filij apparentis in carne, &amp; visibilis 
+      mis<lb ed="#L" break="no" n="72"/>sio spiritus sancti, sunt omnino alterius 
+      ra<lb ed="#L" break="no" n="73"/>tionis. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e681">
+                  <lb ed="#L" n="74"/>Prima namque Dei est visibilis, quia 
+      quid<lb ed="#L" break="no" n="75"/>quid praedicatur de natura assumpta, 
+      praedica<lb ed="#L" break="no" n="76"/>tur de supposito assumente: natura vero 
+      assum<lb ed="#L" break="no" n="77"/>pta vere visibilis est, &amp; ideo dat filio, quod sit 
+      <lb ed="#L" n="78"/>visibilis, sicut &amp; omnia esse sibi communicat, 
+      <lb ed="#L" n="79"/>quae competunt necesse dare per modum 
+      for<lb ed="#L" break="no" n="80"/>mae, vnde dat filio esse hominem visibilem, esse 
+      <lb ed="#L" n="81"/>risibilem, &amp; tota Trinitate inferiorem.
+    </p>
+               <p xml:id="ol96b1-130840-d1e701">
+                  <lb ed="#L" n="82"/>Secunda vero non dicitur nunc visibilis 
+      for<lb ed="#L" break="no" n="83"/>maliter, sed tantum denominatiue, sicut 
+      cau<lb ed="#L" break="no" n="84"/>sa denominatur ab effectu. sanctificatio enim 
+      <lb ed="#L" n="85"/>interior, &amp; apparitio signi exterioris fiunt 
+      cir<lb ed="#L" break="no" n="86"/>ca hominem ex hoc, quod datur, &amp; mittitur 
+      <lb ed="#L" n="87"/>spiritus sanctus in eum, vnde missio 
+      denomina<lb ed="#L" break="no" n="88"/>tur visibiliter, &amp; inuisibiliter ab effectu 
+      inuisi<lb ed="#L" break="no" n="89"/>bili, &amp; visibili consequente ipsam, propter quod 
+      <lb ed="#L" n="90"/>spiritus sanctus non inferior, aut minor 
+      Trini<lb ed="#L" break="no" n="91"/>tate, quia columba non comparatur ad spiritum 
+      <lb ed="#L" n="92"/>sanctum sub ratione formae quiddificantis, &amp; 
+      <lb ed="#L" n="93"/>suum esse sibi communicantis, sed ratione 
+      effe<lb ed="#L" break="no" n="94"/>ctus profuentis, &amp; signi demonstrantis eius 
+      in<lb ed="#L" break="no" n="95"/>teriorem influxum in mente. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e734">
+                  <lb ed="#L" n="96"/>Patet ergo quid sit sensibilis missio. non est 
+      <lb ed="#L" n="97"/>enim aliud, quam missio simpliciter, quae 
+      no<lb ed="#L" break="no" n="98"/>minat quandam intrinsecam habitudinem 
+      per<lb ed="#L" break="no" n="99"/>sonae spiritus sancti ad totam Trinitatem, quae 
+      <lb ed="#L" n="100"/>quidem est visibilis denominatiue, &amp; ab effectu, 
+      <lb ed="#L" n="101"/>quia signum sensibile est effectus ipsius, &amp; 
+      ite<lb ed="#L" break="no" n="102"/>rum denominatiue dicitur in ratione 
+      significa<lb ed="#L" break="no" n="103"/>ti, inquantum eius effectus principalis, qui est 
+      <lb ed="#L" n="104"/>sanctific atio, per aliquid sensibile designatur. 
+      <lb ed="#L" n="105"/>&amp; in hoc Art. primus terminetur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-130840-Dd1e759">
+               <head xml:id="ol96b1-130840-Hd1e761">Articulus 2</head>
+               <p xml:id="ol96b1-130840-d1e763">
+                  <lb ed="#L" n="106"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e768">
+                  <lb ed="#L" n="107"/>Qualiter missio Spiritus sancti debuit esse visibilis. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e773">
+                  <lb ed="#L" n="108"/>CIRCA secundum vero considerandum est, 
+      <lb ed="#L" n="109"/>quod placuit spiritui sancto, vt aliquando 
+      <lb ed="#L" n="110"/>visibile signum daretur demonstrans suam 
+      inui<lb ed="#L" break="no" n="111"/>sibilem missionem propter tres rationes. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e784">
+                  <lb ed="#L" n="112"/>Prima quidem sumitur in ordine ad spiritus 
+      <lb ed="#L" n="113"/>sancti personam, vt videlicet demonstratiue per 
+      <lb ed="#L" n="114"/>personam spiritus sanctus procedens est realiter 
+      <lb ed="#L" n="115"/>in diuinis. missae sunt enim duae personae 
+      proce<lb ed="#L" break="no" n="116"/>dentes in aliquo signo sensibili, vnde tota 
+      Tri<lb ed="#L" break="no" n="117"/>nitas legitur seipsam, aliquibus signis 
+      sensibili<lb ed="#L" break="no" n="118"/>bus hominibus declarasse. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e803">
+                  <lb ed="#L" n="119"/>Prima quidem patris in voce, quae intonuit, 
+      <lb ed="#L" n="120"/>Hic est filius meus: persona autem spiritus 
+      san<lb ed="#L" break="no" n="121"/>cti in columba descendit, &amp; persona filij in 
+      car<lb ed="#L" break="no" n="122"/>ne, quam assumpsit, &amp; ad istum finem esse factam 
+      <lb ed="#L" n="123"/>spiritus sancti missionem August. docet 2. de Tri 
+      <lb ed="#L" n="124"/>nit. dicens, quod spiritus sancti missio oculis mor 
+      <lb ed="#L" n="125"/>talibus est ablata, &amp; ex visis exterioribus 
+      com<lb ed="#L" break="no" n="126"/>mota corda hominum, a temporali 
+      manifesta<lb ed="#L" break="no" n="127"/>tione ad occultam aeternitatem intellectus 
+      con<lb ed="#L" break="no" n="128"/>uertatur. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e827">
+                  <lb ed="#L" n="129"/>Secunda vero ratio sumi potest in ordine ad 
+      <lb ed="#L" n="130"/>aliquam authenticam personam, &amp; secundum 
+      <lb ed="#L" n="131"/>hoc facta fuit super personam Christi in signum, 
+      <lb ed="#L" n="132"/>quod in eo erat redundantia gratiae, &amp; virtus 
+      <!--0403.xml-->
+      <pb ed="#L" n="403"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>capitis, &amp; vnio personalis, vnde sicut ab aeterno 
+      <lb ed="#L" n="2"/>procedit, sicut amorosus impulsus a patre in 
+      <lb ed="#L" n="3"/>verbum, sic ex tempore descendit spiritus, sicut 
+      <lb ed="#L" n="4"/>columba in ipsum, vt dicebatur primo. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e853">
+                  <lb ed="#L" n="5"/>Tertia vero ratio sumi potest in ordine ad 
+      <lb ed="#L" n="6"/>totalem Ecclesiam. sicut enim dicit 
+      Aposto<lb ed="#L" break="no" n="7"/>lus 1. ad Cor. I2. vnicuique fit manifestatio spiritus 
+      <lb ed="#L" n="8"/>ad vtilitatem. Vltimum autem, &amp; necessarium fuit 
+      <lb ed="#L" n="9"/>toti Ecclesiae, vt praefundationes ipsius haberent 
+      <lb ed="#L" n="10"/>sensibile testimonium sanctitatis, &amp; veritatis, 
+      <lb ed="#L" n="11"/>propter quod super eos congregat os ciuium 
+      Spi<lb ed="#L" break="no" n="12"/>ritus sancti, qui doctor est veritatis, &amp; 
+      sanctita<lb ed="#L" break="no" n="13"/>tis actor, debuit sensibiliter apparere, vt factum 
+      <lb ed="#L" n="14"/>legitur in die Pentecostes Act. 2. Similiter expe 
+      <lb ed="#L" n="15"/>diebat Ecclesiae, vt auditores, non solum 
+      docto<lb ed="#L" break="no" n="16"/>res. si ergo sensibili a principio formaretur 
+      pro<lb ed="#L" break="no" n="17"/>pter arduitatem, &amp; difficultatem eorum, quae 
+      <lb ed="#L" n="18"/>cadunt sub fide, &amp; ideo sensibiliter dabatur 
+      spi<lb ed="#L" break="no" n="19"/>ritus sanctus in primitiua Ecclesia, sicut legitur 
+      <lb ed="#L" n="20"/>cecidisse super hoc, qui audiebant verbum 
+      prae<lb ed="#L" break="no" n="21"/>dicante Petro Act. 1o. legitur autem aliquando 
+      <lb ed="#L" n="22"/>datus fuisse in testimonium sanctitatis personae, 
+      <lb ed="#L" n="23"/>sicut de globo igneo, qui apparuit super caput 
+      <lb ed="#L" n="24"/>beati Martini. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-130840-Dd1e900">
+               <head xml:id="ol96b1-130840-Hd1e902">Articulus 3</head>
+               <p xml:id="ol96b1-130840-d1e904">
+                  <lb ed="#L" n="25"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-130840-d1e909">
+                  <lb ed="#L" n="26"/>Quot modis facta sit spiritus sancti visibilis missio, 
+      <lb ed="#L" n="27"/>&amp; qualibus creaturis.
+    </p>
+               <p xml:id="ol96b1-130840-d1e916">
+                  <lb ed="#L" n="28"/>CIRCA tertium considerandum, quod 
+      spi<lb ed="#L" break="no" n="29"/>ritus sancti missio visibiliter demonstrata 
+      <lb ed="#L" n="30"/>est in quadruplici sensibili creatura, in 
+      colum<lb ed="#L" break="no" n="31"/>ba in die baptismatis, in nube in die 
+      transfigu<lb ed="#L" break="no" n="32"/>rationis, in flatu post resurrectionem, &amp; in igne 
+      <lb ed="#L" n="33"/>post ascensionem. Cuius quidem ratio sumi 
+      po<lb ed="#L" break="no" n="34"/>test ex duobus, primo quidem ex connexione 
+      <lb ed="#L" n="35"/>diuinae personae. cum enim spiritus sanctus ema 
+      <lb ed="#L" n="36"/>net, vt amorosus impulsus, vt dictum est saepe, 
+      <lb ed="#L" n="37"/>amor autem diuinus est mundus, &amp; suauis, &amp; 
+      <lb ed="#L" n="38"/>clarus, &amp; validus, congruum fuit, vt persona 
+      <lb ed="#L" n="39"/>amans amore mundo, &amp; nitido appareret in 
+      <lb ed="#L" n="40"/>spem nubis, quae impressio munda est: vnde 
+      <lb ed="#L" n="41"/>Sap. ait quod vapor est virtutis Dei, &amp; 
+      emana<lb ed="#L" break="no" n="42"/>tio sincera, &amp; ideo nil quod inquinatur 
+      incur<lb ed="#L" break="no" n="43"/>rit, fuit etiam congruum, vt qui emanat suaui 
+      <lb ed="#L" n="44"/>amore simplici, &amp; columbano, demonstretur in 
+      <lb ed="#L" n="45"/>specie columbae. Quod vero emanat amore 
+      cha<lb ed="#L" break="no" n="46"/>ro, appareret in igne, quod autem amore 
+      va<lb ed="#L" break="no" n="47"/>lido, appareret in flatu, suspirio, &amp; vento. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e962">
+                  <lb ed="#L" n="48"/>Secundo patet ex fine ratio illarum 
+      missio<lb ed="#L" break="no" n="49"/>num. apparuit enim die baptismatis in specie 
+      <lb ed="#L" n="50"/>columbae in signum innocentiae, quam adferebat 
+      <lb ed="#L" n="51"/>agnus qui venerat ad tollendum peccata 
+      mun<lb ed="#L" break="no" n="52"/>di. In die vero transfigurationis, in 
+      similitudi<lb ed="#L" break="no" n="53"/>ne nubis lucidae, pro signo gloriae, quia dona 
+      <lb ed="#L" n="54"/>gratiae, &amp; gloriae spiritui sancto comparantur, 
+      <lb ed="#L" n="55"/>post resurrectionem autem in similitudinem fla 
+      <lb ed="#L" n="56"/>tus pro signo potentiae, quae committebatur 
+      <lb ed="#L" n="57"/>Apostolis ad exsufflandum peccata, vnde dictum 
+      <lb ed="#L" n="58"/>est eis, quorum remiseritis peccata 
+      remittun<lb ed="#L" break="no" n="59"/>tur, &amp; quorum retinueritis retenta sunt. Post 
+      <lb ed="#L" n="60"/>ascensionem vero in similitudinem ignis, pro 
+      <lb ed="#L" n="61"/>signo efficacis doctrinae, apparuerunt enim eis 
+      <lb ed="#L" n="62"/>disperitae linguae, tamquam ignis, vt in igne 
+      <lb ed="#L" n="63"/>eorum essent affluentes, &amp; feruidae, &amp; 
+      efica<lb ed="#L" break="no" n="64"/>ces doctrinae.
+    </p>
+            </div>
+            <div xml:id="ol96b1-130840-Dd1e1002">
+               <head xml:id="ol96b1-130840-Hd1e1004">Articulus 4</head>
+               <p xml:id="ol96b1-130840-d1e1006">
+      <!--0403.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>ARTJCVLVS QVARTVS.
+    </p>
+               <p xml:id="ol96b1-130840-d1e1015">
+                  <lb ed="#L" n="66"/>Quibus &amp; quando facta sit visibilis missio 
+      <lb ed="#L" n="67"/>spiritu sancto. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e1022">
+                  <lb ed="#L" n="68"/>CIRCA quartum autem considerandum de 
+      <lb ed="#L" n="69"/>spiritu, visibili missione, &amp; de personis 
+      qui<lb ed="#L" break="no" n="70"/>bus facta est missio, primum quidem quantum 
+      <lb ed="#L" n="71"/>ad tempus patet, quod in Ecclesia primitiua. vn 
+      <lb ed="#L" n="72"/>de nec in tempore legis scriptae, aut legis 
+      natu<lb ed="#L" break="no" n="73"/>rae facta est missio, nec post aduentum Christi, 
+      <lb ed="#L" n="74"/>nisi in Ecclesia primitiua. Cuius ratio sumi 
+      po<lb ed="#L" break="no" n="75"/>test considerato legislatore quidem Christo, qui 
+      <lb ed="#L" n="76"/>vere Deus erat, &amp; ideo non recipiens 
+      testimo<lb ed="#L" break="no" n="77"/>nium Dei, quod maius est patris. quod est in 
+      vo<lb ed="#L" break="no" n="78"/>ce audibili, &amp; clamantis hic est filius meus, vt 
+      <lb ed="#L" n="79"/>vero sancti, in specie visibili columbae considera 
+      <lb ed="#L" n="80"/>ta autem lege, quia lex perfecta, &amp; plenitudinem 
+      <lb ed="#L" n="81"/>gratiae continens, propter quod debuit 
+      appare<lb ed="#L" break="no" n="82"/>re donum plenissimum, quod est spiritus sanctus. 
+      <lb ed="#L" n="83"/>Considerata quoque temporis plenitudine, sicut 
+      <lb ed="#L" n="84"/>est in plenitudine temporis, misit Deus filium 
+      <lb ed="#L" n="85"/>suum, sic debuit in plenitudine temporis 
+      mit<lb ed="#L" break="no" n="86"/>tere spiritum sanctum, &amp; primo debuit 
+      mitte<lb ed="#L" break="no" n="87"/>re filium tamquam personam mediam, deinde 
+      <lb ed="#L" n="88"/>spiritum, tamquam personam tertiam, ab 
+      vtro<lb ed="#L" break="no" n="89"/>que productam, vnde tempore legis naturae, aut 
+      <lb ed="#L" n="90"/>legis scripte non decuit missione filij illustrari, 
+      <lb ed="#L" n="91"/>per consequens nec missione spiritus sancti Moy 
+      <lb ed="#L" n="92"/>si etiam legislatori sufficienter perhibuit 
+      testi<lb ed="#L" break="no" n="93"/>monium angelus, qui legislationis extitit 
+      me<lb ed="#L" break="no" n="94"/>diator, vt dicit Apostolus ad Gal. 3. quod lex per 
+      <lb ed="#L" n="95"/>angelos ordinata est in manu mediatoris, &amp; similiter 
+      <lb ed="#L" n="96"/>&amp; lex confirmari non debuit per spiritum sanctum 
+      <lb ed="#L" n="97"/>sed Euangelium, de quo dixit Euangelista, quod 
+      <lb ed="#L" n="98"/>lex per Moysem data, gratia &amp; veritas per 
+      Ie<lb ed="#L" break="no" n="99"/>sum Christum facta est, vnde rationabile est, 
+      <lb ed="#L" n="100"/>quod lex veritatis, &amp; gratiae confirmatur per 
+      <lb ed="#L" n="101"/>visibilem assistentiam spiritus veritatis, 
+      secun<lb ed="#L" break="no" n="102"/>do vero quo ad personas quibus facta est missio 
+      <lb ed="#L" n="103"/>dubium est cum ad Apostolos facta sit 
+      huiusmo<lb ed="#L" break="no" n="104"/>di visibilis missio, cur ad beatam Virginem 
+      fa<lb ed="#L" break="no" n="105"/>cta non fuerit in conceptione filij aut in 
+      natiui<lb ed="#L" break="no" n="106"/>tate, &amp; dicendum quod in die Pentec. 
+      sensibili<lb ed="#L" break="no" n="107"/>ter descendit in eam, sicut apparet ex serie textus 
+      <lb ed="#L" n="108"/>Act. specialiter tamen non fuit facta per eam, 
+      <lb ed="#L" n="109"/>sicut nec ad aliam aliquam singularem personam 
+      <lb ed="#L" n="110"/>solitarie missio facta est, sed semper in 
+      commu<lb ed="#L" break="no" n="111"/>ni excepta persona Christi inquantum 
+      descen<lb ed="#L" break="no" n="112"/>dit solitarie in die baptismi, vnde vt hoc 
+      priui<lb ed="#L" break="no" n="113"/>legium singulare conseruaretur Christo 
+      num<lb ed="#L" break="no" n="114"/>quam legitur spiritus sanctus, missus visibiliter 
+      <lb ed="#L" n="115"/>vni soli, sed in communitate existenti, vt patet 
+      <lb ed="#L" n="116"/>cum nubes lucida in mõte obumbrauit tres 
+      disci<lb ed="#L" break="no" n="117"/>pulos simul, &amp; in caenaculo post resurrectionem 
+      <lb ed="#L" n="118"/>exsufflauit in omnes, &amp; in die Pent. simul descen 
+      <lb ed="#L" n="119"/>dit in centum viginti credentes, &amp; in praedicatione 
+      <lb ed="#L" n="120"/>Petri cecidit spiritus sanctus super omnes. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-130840-Dd1e1140">
+               <head xml:id="ol96b1-130840-Hd1e1142">Articulus 5</head>
+               <p xml:id="ol96b1-130840-d1e1144">
+                  <lb ed="#L" n="121"/>ARTJCVLVS QVJNTVS.
+    </p>
+               <p xml:id="ol96b1-130840-d1e1149">
+                  <lb ed="#L" n="122"/>An res in quibus facta est missio, habuit esse apparens 
+      <lb ed="#L" n="123"/>tantum vel esse reale, &amp; quando se habuit 
+      <lb ed="#L" n="124"/>spiritus sanctus ad illas. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e1158">
+                  <lb ed="#L" n="125"/>CIRCA quintum autem considerandum, 
+      <lb ed="#L" n="126"/>quod res in quibus spiritus sanctus appa- 
+      <!--0404.xml-->
+      <pb ed="#L" n="404"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ruit dubium afferunt, vtrum habuit verum esse, 
+      <lb ed="#L" n="2"/>vel non, videtur quidem, quod linguae igneae 
+      ha<lb ed="#L" break="no" n="3"/>buerint esse similitudinarium, &amp; apparens, 
+      si<lb ed="#L" break="no" n="4"/>cut scriptura innuit dicens, quod apparuerunt 
+      <lb ed="#L" n="5"/>Apostolis dispertitae linguae, tamquam ignis. 
+      di<lb ed="#L" break="no" n="6"/>cendum ergo ad hoc, quod columba, &amp; flatus, &amp; 
+      <lb ed="#L" n="7"/>nubes, &amp; linguae igneae habuerunt vere esse 
+      rea<lb ed="#L" break="no" n="8"/>le, &amp; extra animam, alias non esset missio 
+      sensi<lb ed="#L" break="no" n="9"/>bilis, nec perpenderetur ab alijs, vnde tenendum 
+      <lb ed="#L" n="10"/>secundum Aug. 4. de Trin. quod illa habuerunt 
+      <lb ed="#L" n="11"/>corporeum, &amp; sensibile esse, de columba vero 
+      <lb ed="#L" n="12"/>vtrum habuit animam sensitiuam, &amp; fuerit 
+      ve<lb ed="#L" break="no" n="13"/>ra auis in specie columbae, aliquibus visum fuit 
+      <lb ed="#L" n="14"/>quod sic, &amp; vtique fuit possibile, sed magis 
+      vi<lb ed="#L" break="no" n="15"/>detur rationabiliter, quod fuerit quoddam 
+      cor<lb ed="#L" break="no" n="16"/>pus sensibile, &amp; reale, figura vero columbae, &amp; 
+      <lb ed="#L" n="17"/>qualitatibus similibus affectatum, sicut &amp; stella, 
+      <lb ed="#L" n="18"/>quae apparuit tribus Magis, non fuit vera stella 
+      <lb ed="#L" n="19"/>coelestis, sed corpus lucidum stellae 
+      similitudi<lb ed="#L" break="no" n="20"/>nem habens. irrationale namque videtur quod 
+      <lb ed="#L" n="21"/>columba illa, in qua spiritus sanctus apparuit, 
+      <lb ed="#L" n="22"/>postmodum superuixerit, &amp; magis irrationale si 
+      <lb ed="#L" n="23"/>fuerit vera columba, quod eam interfecerit ante 
+      <lb ed="#L" n="24"/>ipsemet spiritus sanctus, cum eam dimisit, aut quis, 
+      <lb ed="#L" n="25"/>&amp; cum indecens esse videtur, quod in columba 
+      <lb ed="#L" n="26"/>apparuerit cibo, potu, &amp; in munditijs subiectum. 
+      <lb ed="#L" n="27"/>Vlterius autem considerari oportet, quam ha 
+      <lb ed="#L" n="28"/>bitudinem spiritus sanctus habuit ad res sensibi 
+      <lb ed="#L" n="29"/>les, in quibus legitur missus fuisse. quibusdam 
+      <lb ed="#L" n="30"/>enim visum est, quod habitudinem signi tantum, 
+      <lb ed="#L" n="31"/>&amp; quod earum productio, &amp; motus &amp; 
+      transla<lb ed="#L" break="no" n="32"/>tio fieret aliquo creato spiritu mediante, &amp; ange 
+      <lb ed="#L" n="33"/>lico ministterio, vnde &amp; Aug. relinquit hoc sub 
+      <lb ed="#L" n="34"/>dub. 4. de Trinit. nihilominus probabiliter dici 
+      <lb ed="#L" n="35"/>potest, quod immo harum rerum productio, &amp; earum 
+      <lb ed="#L" n="36"/>translatio erat immediate a spiritu sancto 
+      abs<lb ed="#L" break="no" n="37"/>que angelico ministerio. dictum est enim supra, 
+      <lb ed="#L" n="38"/>quod missio spiritus sancti, inuisibilis dicitur 
+      <lb ed="#L" n="39"/>pro eo, quod ex misione deriuatur gratia 
+      inui<lb ed="#L" break="no" n="40"/>sibilis in anima, ad quam dicitur missus. a simili 
+      <lb ed="#L" n="41"/>ergo debet dici visibilis, quia signum visibile 
+      deri<lb ed="#L" break="no" n="42"/>uatur ab ea. Et potest confirmari, quia 
+      appari<lb ed="#L" break="no" n="43"/>tiones veteris testamenti, in quibus dicitur 
+      ap<lb ed="#L" break="no" n="44"/>paruisse Trinitas non appellantur missio filij, vel 
+      <lb ed="#L" n="45"/>spiritus sancti, pro eo quod fiebant ministerio 
+      ange<lb ed="#L" break="no" n="46"/>lorum res corporales administrantium, &amp; mouen 
+      <lb ed="#L" n="47"/>tium. ex opposito ergo de columba dicendum est, 
+      <lb ed="#L" n="48"/>secundum quam spiritus sanctus conceditur esse 
+      <lb ed="#L" n="49"/>missus, &amp; in hoc quintus Articulus terminetur.
+    </p>
+               <p xml:id="ol96b1-130840-d1e1278">
+      <!--0404.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>Responsio ad obiecta. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e1288">
+                  <lb ed="#L" n="51"/>AD ea ergo, quae superius inducuntur 
+      di<lb ed="#L" break="no" n="52"/>cendum est, ad primum quidem, quod 
+      co<lb ed="#L" break="no" n="53"/>lumba, in qua spiritus apparuit, non debet dici 
+      <lb ed="#L" n="54"/>quidditatiue fuisse columbam eo modo quo 
+      ve<lb ed="#L" break="no" n="55"/>ra quidditas supponit, veritas autem 
+      Chri<lb ed="#L" break="no" n="56"/>sti addit verissime filio Dei esse hominem, &amp; 
+      es<lb ed="#L" break="no" n="57"/>se similem, &amp; hinc est quod apparitione 
+      colum<lb ed="#L" break="no" n="58"/>bae non est spiritus sanctus minoratus, sicut 
+      fi<lb ed="#L" break="no" n="59"/>lius dicitur minor, inquantum est verus homo. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e1310">
+                  <lb ed="#L" n="60"/>Ad secundum dicendum, quod in uisibili. 
+      mis<lb ed="#L" break="no" n="61"/>sione spiritus sancti fictio nulla fuerit: quianec 
+      <lb ed="#L" n="62"/>fictitiae fuerunt, vt dictum est, nec spiritus 
+      san<lb ed="#L" break="no" n="63"/>ctus factus est sensibilis, sed dictus est 
+      sensibili<lb ed="#L" break="no" n="64"/>ter missus denominatione extrinseca, quia 
+      cau<lb ed="#L" break="no" n="65"/>sa denominatur ex effectu; ex missione autem 
+      spi<lb ed="#L" break="no" n="66"/>ritus demonstratum est tale signum, tamquam 
+      <lb ed="#L" n="67"/>inditium principalis effectus: vnde non dicitur 
+      <lb ed="#L" n="68"/>visibiliter missus per communicationem 
+      idio<lb ed="#L" break="no" n="69"/>matum, quemadmodum filius dicitur, sed 
+      tan<lb ed="#L" break="no" n="70"/>tum denominatiue, vt dictum est. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e1336">
+                  <lb ed="#L" n="71"/>Ad tertium dicendum, quod missio 
+      imagi<lb ed="#L" break="no" n="72"/>naria similium specierum, in veritate 
+      phanta<lb ed="#L" break="no" n="73"/>stica prophetarum, continetur sub inuisibili 
+      mis<lb ed="#L" break="no" n="74"/>sione, quia tales species sunt quidem 
+      inuisibi<lb ed="#L" break="no" n="75"/>lis effectus. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e1349">
+                  <lb ed="#L" n="76"/>Ad quartum dicendum, quod spiritus sanctus 
+      <lb ed="#L" n="77"/>non debuit hominem assumere, vt per eum 
+      ap<lb ed="#L" break="no" n="78"/>pareret, nisi eum assumeret in vnitate personae, 
+      <lb ed="#L" n="79"/>quod facere non disponebat, vbi hic error 
+      Ma<lb ed="#L" break="no" n="80"/>nichaeorum, qui dicunt Manichaeum doctorem, 
+      <lb ed="#L" n="81"/>fuisse spiritum paraclitum, &amp; spiritum 
+      verita<lb ed="#L" break="no" n="82"/>tis, quem repromisit fidelibus saluator. somniant 
+      <lb ed="#L" n="83"/>enim quod sicut verbum vnitum fuit homini in 
+      <lb ed="#L" n="84"/>Christo, sic extitit spiritus sanctus vnitus in Ma 
+      <lb ed="#L" n="85"/>nichaeo, contra quorum insaniam inuehitur Au 
+      <lb ed="#L" n="86"/>gustinus contra Epistolam fundamenti, vnde di 
+      <lb ed="#L" n="87"/>cendum, quod spiritus sanctus rationabiliter 
+      <lb ed="#L" n="88"/>apparuit in illis quatuor creaturis propter 
+      ra<lb ed="#L" break="no" n="89"/>tiones, quae tactae sunt in corpore quaestionis. &amp; 
+      <lb ed="#L" n="90"/>per idem patet ad quintum. 
+    </p>
+               <p xml:id="ol96b1-130840-d1e1384">
+                  <lb ed="#L" n="91"/>Ad sextum dicendum, quod non debuit mitti 
+      <lb ed="#L" n="92"/>spiritus sanctus, nisi in plenitudine temporis ad 
+      <lb ed="#L" n="93"/>confirmandam legislationem Iesu Christi, vnde 
+      <lb ed="#L" n="94"/>quia hodie satis confirma tum Euangelium, ces 
+      <lb ed="#L" n="95"/>sauit rationabiliter visibilis missio spiritus 
+      san<lb ed="#L" break="no" n="96"/>cti, &amp; gratia miraculorum, nisi ad 
+      confirmatio<lb ed="#L" break="no" n="97"/>nem praerogatiuae sanctitatis alicuius personae.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

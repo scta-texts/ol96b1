@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="310"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-100919"> <!-- l1d8p4-q1 -->
+            <head xml:id="ol96b1-100919-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-100919-Hd1e104" type="question-title">
+            Utrum in Deo sit aliquis modus compositionis.
+          </head>
+            <p xml:id="ol96b1-100919-d1e107">
+               <lb ed="#L" n="50"/>Vtrum in Deo sit aliquis modus compositionis.
+    </p>
+            <p xml:id="ol96b1-100919-d1e112">
+               <lb ed="#L" n="51"/>ET quia Magister intantum magnificat 
+      Di<lb ed="#L" break="no" n="52"/>uinam simplicitatem, idcirco inquirendum 
+      <lb ed="#L" n="53"/>occurrit: Vtrum in Deo sit aliquis modus 
+      com<lb ed="#L" break="no" n="54"/>positionis. &amp; videtur, quod sit saltem secundum 
+      <lb ed="#L" n="55"/>rationem: ait Comment. quod multiplicitas in 
+      <lb ed="#L" n="56"/>Deo non est in esse, sed in intellectu tantum; sed 
+      <lb ed="#L" n="57"/>vbicumque est multiplicitas, ibi est compositio. 
+      <lb ed="#L" n="58"/>ergo videtur, quod in Deo sit compositio, saltem 
+      <lb ed="#L" n="59"/>secundum rationem, &amp; intellectum. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e135">
+               <lb ed="#L" n="60"/>Praeterea: De quocumque possunt formari duo 
+      <lb ed="#L" n="61"/>conceptus, in illo videtur, quod intellectus com 
+      <lb ed="#L" n="62"/>positionem ponat, sed conceptus esse, &amp; 
+      essen<lb ed="#L" break="no" n="63"/>tiae formantur in Deo, &amp; iterum conceptus 
+      ha<lb ed="#L" break="no" n="64"/>bentis, &amp; habiti, siue concreti, &amp; abstracti, siue 
+      <!--0310.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="65"/>eius, quod est, &amp; quo est, vt neitatis, &amp; Dei: 
+      er<lb ed="#L" break="no" n="66"/>go videtur, quod ibi sit compositio, saltem secem 
+      <lb ed="#L" n="67"/>dum intellectum.
+    </p>
+            <p xml:id="ol96b1-100919-d1e159">
+               <lb ed="#L" n="68"/>Praeterea: Deitati potest attribui, quidquid 
+      <lb ed="#L" n="69"/>imperfectionem non importat, sed 
+      compositiora<lb ed="#L" break="no" n="70"/>tionis imperfectionem non dicit in Deo, sedin 
+      <lb ed="#L" n="71"/>intellectu apprehendente. ergo compositio se⸗ 
+      <lb ed="#L" n="72"/>cundum rationem Deo non repugnat 
+    </p>
+            <p xml:id="ol96b1-100919-d1e172">
+               <lb ed="#L" n="73"/>Praeterea: Proprietas, &amp; essentia distinguuntur 
+      <lb ed="#L" n="74"/>ad minus secundum rationem, etiam secundum illos 
+      <lb ed="#L" n="75"/>qui minorem vellent distinctionem assignare, nam 
+      <lb ed="#L" n="76"/>alij dixerunt, quod distinguuntur re, sicut relatios 
+      <lb ed="#L" n="77"/>&amp; suum fundamentum; alij, quod formalitertalij 
+      <lb ed="#L" n="78"/>quod modaliter: sed quidquid ponatur ex istis, 
+      <lb ed="#L" n="79"/>semper erit aliqua compositio. ergo illud, quod 
+      <lb ed="#L" n="80"/>prius. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e192">
+               <lb ed="#L" n="81"/>Praeterea: Illud, quod est in praedicamento, 
+      vi<lb ed="#L" break="no" n="82"/>detur compositum, saltem secundum ratidnq 
+      <lb ed="#L" n="83"/>tum quia tale componitur ex genere, &amp; ex 
+      diffe<lb ed="#L" break="no" n="84"/>rentia contrahente; tum quia Boetius dicit, quod 
+      <lb ed="#L" n="85"/>relictis extremis substantiis, scilicet 
+      componen<lb ed="#L" break="no" n="86"/>tibus, auctor egit de mediis, scilicet de 
+      compos<lb ed="#L" break="no" n="87"/>ta substantia, &amp; loquitur de Philosopho 
+      tracta<lb ed="#L" break="no" n="88"/>re de praedicamentis, sed Deus est de 
+      praedim<lb ed="#L" break="no" n="89"/>mento substantiae: tum quia de ratione. 
+      substan<lb ed="#L" break="no" n="90"/>tiae est per se esse, hoc autem summe comperit Deos. 
+      <lb ed="#L" n="91"/>tum quia Deus est mensura in genere substantiae 
+      <lb ed="#L" n="92"/>secundum Commentatorem. mensura antem est 
+      <lb ed="#L" n="93"/>eiusdem generis cum mensurato: tum quia 
+      secun<lb ed="#L" break="no" n="94"/>dum Sanctos duo praedicamenta manunt in Dea, 
+      <lb ed="#L" n="95"/>substantia scilicet, &amp; relatio: tum quia 
+      Philosdo<lb ed="#L" break="no" n="96"/>quens de substantia exemplificat de Deo, &amp; Boet. 
+      <lb ed="#L" n="97"/>super praedicamenta, &amp; Damasc. in elementatio 
+      <lb ed="#L" n="98"/>suo: tum quia Deus continetur infra conceptum. 
+      <lb ed="#L" n="99"/>entis, vt supra dictum fuit. Ens autem 
+      sufficien<lb ed="#L" break="no" n="100"/>ter diuiditur per decem praedicamenta: tum quis 
+      <lb ed="#L" n="101"/>Auicenna dicit 2. Metaph. quod substantia est 
+      il<lb ed="#L" break="no" n="102"/>lud, quod non indiget alio: hoc autem summe 
+      con<lb ed="#L" break="no" n="103"/>petit Deo. ergo Deus erit in genere, &amp; per 
+      conse<lb ed="#L" break="no" n="104"/>quens saltem componetur secundum rationem. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e247">
+               <lb ed="#L" n="105"/>Praeterea: Deus est substantia incorporea, sed 
+      <lb ed="#L" n="106"/>conceptus substantiae incorporeae componitur 
+      <lb ed="#L" n="107"/>ex ratione substantiae, tamquam generis, &amp; ex 
+      <lb ed="#L" n="108"/>ratione incorporei, tamquam differentiae. ergo 
+      <lb ed="#L" n="109"/>illud, quod prius. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e260">
+               <lb ed="#L" n="110"/>Praeterea: In illo est compositio, de quo 
+      gene<lb ed="#L" break="no" n="111"/>ra entium praedicantur, sed de Deo praedicatur 
+      <lb ed="#L" n="112"/>quantitas, dicendo, quod est magnus, &amp; qualitas 
+      <lb ed="#L" n="113"/>dicendo, quod est creator, &amp; vbi, cum sit vbique, 
+      <lb ed="#L" n="114"/>&amp; situs, cum de Filio dicatur, Sedet a dextris 
+      vir<lb ed="#L" break="no" n="115"/>tutis Dei, &amp; quando, cum sit semper, &amp; ita de 
+      a<lb ed="#L" break="no" n="116"/>liis. ergo admittit compositionem.
+    </p>
+            <p xml:id="ol96b1-100919-d1e279">
+               <lb ed="#L" n="117"/>Quod in Deo non sit aliquis modus compositionis.
+    </p>
+            <p xml:id="ol96b1-100919-d1e284">
+               <lb ed="#L" n="118"/>SED in oppositum videtur, quod non sit in 
+      <lb ed="#L" n="119"/>Deo compositio, etiam secundum 
+      rationem<lb ed="#L" break="no" n="120"/>vbicumque enim est compositio rationis, ibi est 
+      <lb ed="#L" n="121"/>aliquis modus compositionis, &amp; per consequens 
+      <lb ed="#L" n="122"/>tale non est simplex omnino, sed expresse dicit 
+      <lb ed="#L" n="123"/>auctoritas Concilij, quod Deus est simplex 
+      om<lb ed="#L" break="no" n="124"/>nino. ergo in Deo non est compositio secundum 
+      <lb ed="#L" n="125"/>rationem, sed in fine simplicitatis, quia omnem 
+      <lb ed="#L" n="126"/>perfectionem simpliciter habet in summo. ergo 
+      <lb ed="#L" n="127"/>idem, quod prius. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e308">
+               <lb ed="#L" n="128"/>Praeterea: Si illud, quod magis videturinesso, 
+      <lb ed="#L" n="129"/>non inest, nec illud, quod minus, sed magis 
+      vide<lb ed="#L" break="no" n="130"/>tur, quod attributa facerent compositionem in 
+      <!--0311.xml-->
+      <pb ed="#L" n="311"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Deo autem proprietas, &amp; essentia non faciunt 
+      <lb ed="#L" n="2"/>alia, vt declaratum est supra. ergo non est in 
+      <lb ed="#L" n="3"/>Deo compositio secundum rationem. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e330">
+               <lb ed="#L" n="4"/>Praeterea: Magister in praesenti distinctione 
+      <lb ed="#L" n="5"/>inducit auctoritatem Hilarij, Boetij, Isidori, &amp; 
+      <lb ed="#L" n="6"/>August. ad probandum, quod Deus sit summe 
+      <lb ed="#L" n="7"/>simplex, magis, quam aliqua creatura, sed 
+      con<lb ed="#L" break="no" n="8"/>ceptus mentis est aliqua creatura: est autem ali 
+      <lb ed="#L" n="9"/>quis conceptus mentis simplex, vt patet de 
+      pri<lb ed="#L" break="no" n="10"/>mis conceptibus, qui statim sunt ens, &amp; vnum, 
+      <lb ed="#L" n="11"/>vt Philosophus dicit septimo Metaph. ergo 
+      il<lb ed="#L" break="no" n="12"/>lud, quod prius. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e352">
+               <lb ed="#L" n="13"/>Praeterea: Vbi omnia sunt vnum, &amp; secundum 
+      <lb ed="#L" n="14"/>modum, &amp; secundum considerationem, ibi non 
+      <lb ed="#L" n="15"/>est compositio rationis, sed Anselm. dicit, quod 
+      <lb ed="#L" n="16"/>omnia, quae dicuntur de Deo, vno modo 
+      dicun<lb ed="#L" break="no" n="17"/>tur, &amp; vna consideratione. ergo est simplex 
+      e<lb ed="#L" break="no" n="18"/>tiam secundum rationem. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e368">
+               <lb ed="#L" n="19"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-100919-d1e374">
+               <lb ed="#L" n="20"/>AD quaestionem istam respondendo, hoc 
+      <lb ed="#L" n="21"/>ordine procedetur. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e381">
+               <lb ed="#L" n="22"/>Primo enim declarabitur, quod in Deo nulla 
+      <lb ed="#L" n="23"/>sit compositio, nec rei, nec rationis generaliter, 
+      <lb ed="#L" n="24"/>&amp; in communi. 
+    </p>
+            <p xml:id="ol96b1-100919-d1e390">
+               <lb ed="#L" n="25"/>Secundo, ostendetur in speciali discurrendo 
+      <lb ed="#L" n="26"/>per omnes modos compositionis. 
+      <lb ed="#L" n="27"/>Tertio videbitur, vtrum aliqua creatura 
+      adae<lb ed="#L" break="no" n="28"/>quet simplicitatem Diuinam. 
+    </p>
+            <div xml:id="ol96b1-100919-Dd1e401">
+               <head xml:id="ol96b1-100919-Hd1e403">Articulus 1</head>
+               <p xml:id="ol96b1-100919-d1e405">
+                  <lb ed="#L" n="29"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e410">
+                  <lb ed="#L" n="30"/>Quod Deus sit simplicissimus secundum rem. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e415">
+                  <lb ed="#L" n="31"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="32"/>Deus est simplicissima res, quae nec est in se 
+      <lb ed="#L" n="33"/>composita, nec est componibilis alteri, nec 
+      ali<lb ed="#L" break="no" n="34"/>quid est componibile sibi, quod faciliter patere 
+      <lb ed="#L" n="35"/>potest, si consideretur, qualis entitas sit Deitas, 
+      <lb ed="#L" n="36"/>&amp; quale ens sit Deus, illa communis realitas, 
+      <lb ed="#L" n="37"/>quae est omnis entitas eminenter, non admittit 
+      <lb ed="#L" n="38"/>additionem alicuius alterius entitatis. si enim 
+      <lb ed="#L" n="39"/>aliqua realitas sibi adderetur, vel ipsa adderetur 
+      <lb ed="#L" n="40"/>alicui, &amp; tunc talis entitas esset in Deo bis, semel 
+      <lb ed="#L" n="41"/>eminenter, &amp; semel diminute, quod esse non 
+      po<lb ed="#L" break="no" n="42"/>test. sicut enim duae formae diminutae eiusdem ra 
+      <lb ed="#L" n="43"/>tionis non componuntur sibi mutuo: nec enim 
+      <lb ed="#L" n="44"/>albedo componitur cum albedine, nec color est 
+      <lb ed="#L" n="45"/>subiectum coloris, sicut nec forma exemplaris, 
+      <lb ed="#L" n="46"/>&amp; diminuta mutuo componuntur; vnde nec 
+      ca<lb ed="#L" break="no" n="47"/>lor eminens potest esse subiectum caloris 
+      dimi<lb ed="#L" break="no" n="48"/>nuti, nec lux solaris potest subiici radio, nec 
+      <lb ed="#L" n="49"/>econuerso. sed constat, quod res neitatis est 
+      om<lb ed="#L" break="no" n="50"/>nis entitas eminenter, cum sit quoddam 
+      intelli<lb ed="#L" break="no" n="51"/>gere omnis entitatis. non igitur componitur 
+      al<lb ed="#L" break="no" n="52"/>teri entitati diminutae, aut aliqua entitas sibi, 
+      <lb ed="#L" n="53"/>sed est entitas solitaria, &amp; summe simplex. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e467">
+                  <lb ed="#L" n="54"/>Sed forte dicetur, quod non est verum, quin 
+      <lb ed="#L" n="55"/>simul esse possint res continens aliam in virtute, 
+      <lb ed="#L" n="56"/>&amp; res contenta virtualiter, vt patet de 
+      volunta<lb ed="#L" break="no" n="57"/>te, quae est in actu virtuali, respectu volitionis, &amp; 
+      <lb ed="#L" n="58"/>suscipit eam formaliter. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e481">
+                  <lb ed="#L" n="59"/>Sed dicendum ad hoc, primo quidem, quod 
+      <lb ed="#L" n="60"/>secus est de continentia virtuali, &amp; effectiua, &amp; 
+      <lb ed="#L" n="61"/>de continentia exemplari, &amp; eminenti. ista enim 
+      <lb ed="#L" n="62"/>est formalis continentia, &amp; contentum est quae- 
+      <!--0311.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>dam similitudo diminuta exemplaris 
+      continen<lb ed="#L" break="no" n="64"/>tis, propter qnod communicāt in forma, 
+      quam<lb ed="#L" break="no" n="65"/>uis principaliter, &amp; diminute; vnde non possunt 
+      <lb ed="#L" n="66"/>stare simul, vt vnum sit perfectio, &amp; reliquum 
+      <lb ed="#L" n="67"/>perficiatur; non sic autem de continentia 
+      effe<lb ed="#L" break="no" n="68"/>ctiua, quia non est inter continens, &amp; contentum 
+      <lb ed="#L" n="69"/>similitudo formalis. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e512">
+                  <lb ed="#L" n="70"/>Secundo vero, quia nec voluntas est in actu 
+      <lb ed="#L" n="71"/>virtuali, respectu volitionis, immo volitio 
+      im<lb ed="#L" break="no" n="72"/>primitur ab obiecto cognito, &amp; est sequela 
+      pra<lb ed="#L" break="no" n="73"/>ctici intellectus, quamuis voluntas determinet 
+      <lb ed="#L" n="74"/>intellectum practicum ad huiusmodi motionem, 
+      <lb ed="#L" n="75"/>vnde si verum est, quod Philosophus, &amp; 
+      Commen<lb ed="#L" break="no" n="76"/>tator deducunt, quod omne, quod fit, fit a 
+      con<lb ed="#L" break="no" n="77"/>uenienti nomine, &amp; definitione quoquomodo, 
+      <lb ed="#L" n="78"/>necesse est, quod inter productum, &amp; producens 
+      <lb ed="#L" n="79"/>sit aliquo modo conuenientia formalis; &amp; per 
+      <lb ed="#L" n="80"/>consequens aeque est impossibile, quod aliquid 
+      <lb ed="#L" n="81"/>sit in actu virtuali, &amp; potentia formali, quia idem 
+      <lb ed="#L" n="82"/>est, ac si diceretur, quod actus, &amp; forma 
+      virtuali<lb ed="#L" break="no" n="83"/>liter recipiant eandem formam diminutam, &amp; 
+      <lb ed="#L" n="84"/>sic idem deciperet se, nec recipiens esset denuda 
+      <lb ed="#L" n="85"/>tum a natura recepti contra principium, quo 
+      v<lb ed="#L" break="no" n="86"/>titur Philosophus tertio de anima, &amp; 
+      Commen<lb ed="#L" break="no" n="87"/>tator ibidem. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e554">
+                  <lb ed="#L" n="88"/>Ad hoc forte dicetur, quod secundum hanc 
+      ra<lb ed="#L" break="no" n="89"/>tionem paternitas, &amp; caeterae proprietates non 
+      <lb ed="#L" n="90"/>erunt formaliter in Deo. Deitas enim est intelle 
+      <lb ed="#L" n="91"/>ctio harum proprietatum, &amp; per consequens 
+      pro<lb ed="#L" break="no" n="92"/>prietates illae continentur in Deitate 
+      exempla<lb ed="#L" break="no" n="93"/>riter, &amp; eminenter, sicut caeterae res intellectae, &amp; 
+      <lb ed="#L" n="94"/>ita erit bis paternitas in Patre, semel 
+      formali<lb ed="#L" break="no" n="95"/>ter, &amp; semel eminenter per rationem Deitatis, &amp; 
+      <lb ed="#L" n="96"/>erit falsa propositio, quae dicit formam 
+      eminen<lb ed="#L" break="no" n="97"/>tem non posse secum compati illud, quod 
+      con<lb ed="#L" break="no" n="98"/>tinet eminenter, 
+    </p>
+               <p xml:id="ol96b1-100919-d1e580">
+                  <lb ed="#L" n="99"/>Sed dicendum ad hoc, quod huiusmodi 
+      pro<lb ed="#L" break="no" n="100"/>prietates non sunt intelligibiles praecise absque 
+      <lb ed="#L" n="101"/>neitate, nec peitas sine ipsis. vnde sicut Deitas 
+      <lb ed="#L" n="102"/>est intellectio suiipsius, sic et intellectio harum 
+      <lb ed="#L" n="103"/>proprietatum; vnde non continet eas 
+      eminen<lb ed="#L" break="no" n="104"/>ter, sicut nec seipsam. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e596">
+                  <lb ed="#L" n="105"/>Quod Deus sit simplicissimus secundum 
+      ratio<lb ed="#L" break="no" n="106"/>nem, contra S. Thomam, &amp; contra 
+      <lb ed="#L" n="107"/>loquentes. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e605">
+                  <lb ed="#L" n="108"/>VLTERIVS autem considerandum, quod 
+      <lb ed="#L" n="109"/>aliqui communiter loquentes dicere 
+      volue<lb ed="#L" break="no" n="110"/>runt, non esse inconueniens, quod sit in Deo 
+      ali<lb ed="#L" break="no" n="111"/>qua compositio rationis, vnde concedunt, quod 
+      <lb ed="#L" n="112"/>proprietates, &amp; essentia distinguantur ratione, 
+      <lb ed="#L" n="113"/>&amp; quod multae rationes in Deo possunt esse 
+      fa<lb ed="#L" break="no" n="114"/>cientes compositionem secundum intellectum: 
+      <lb ed="#L" n="115"/>hoc autem repugnare videtur Diuinae 
+      perfectio<lb ed="#L" break="no" n="116"/>ni, vnde simpliciter dicendum, quod ratio 
+      Deita<lb ed="#L" break="no" n="117"/>tis est simplicissima, cui alia componi non potest, 
+      <lb ed="#L" n="118"/>nec infra alteri, nec infra ipsam suae rationes, im 
+      <lb ed="#L" n="119"/>mo est indiuisibilissima ratio, quod 
+      multiplici<lb ed="#L" break="no" n="120"/>ter potest patere. nil enim, quod ad perfectionem 
+      <lb ed="#L" n="121"/>pertinet, concessum Deitati a Philosophis, nega 
+      <lb ed="#L" n="122"/>ri potest a Theologis, sed Aristoteles, 
+      Commen<lb ed="#L" break="no" n="123"/>tator, &amp; Auicenna concordant in hoc, quod in 
+      <lb ed="#L" n="124"/>Deo nulla sit compositio rationis, nec rationi 
+      <lb ed="#L" n="125"/>neitatis aliqua ratio addi potest secundum eos. 
+      <lb ed="#L" n="126"/>de Philosopho quidem, &amp; Commentatore patet 
+      <lb ed="#L" n="127"/>12. Metaphys. vbi Commentator ait, quod non 
+      <!--0312.xml-->
+      <pb ed="#L" n="312"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>potest poni intentio addita primo principio, 
+      <lb ed="#L" n="2"/>quia tali additioni dubitatur accidere 
+      compo<lb ed="#L" break="no" n="3"/>sitio, esse autem compositum est esse nouum, &amp; 
+      <lb ed="#L" n="4"/>item commento 49. dicit, quod simplicitas 
+      de<lb ed="#L" break="no" n="5"/>bet intelligi in omnibus substantiis abstractis, sed 
+      <lb ed="#L" n="6"/>primus est simplicior earum, &amp; ideo est vnus sim 
+      <lb ed="#L" n="7"/>plex sine aliqua multiplicitate, nec propter 
+      alie<lb ed="#L" break="no" n="8"/>tatem intellectus, &amp; intellecti, nec propter mul 
+      <lb ed="#L" n="9"/>titudinem intellectorum, &amp; 3. de anima dicit, quod 
+      <lb ed="#L" n="10"/>quidditas primae formae est eadem cum 
+      existen<lb ed="#L" break="no" n="11"/>tia omni modo. constat autem, quod conceptus 
+      <lb ed="#L" n="12"/>quidditatiuus Deitatis erit simplicissimus, cum 
+      <lb ed="#L" n="13"/>existentia simplicissima sit, vt dicit Auicenna, 
+      <lb ed="#L" n="14"/>nam manifestum est 8. Metaph. vbi dicit, quod 
+      <lb ed="#L" n="15"/>proprietates primi principij non faciunt in eo 
+      <lb ed="#L" n="16"/>multitudinem aliquo modo. non potest enim 
+      <lb ed="#L" n="17"/>esse pulchritudo, aut decor omnino, nisi cuius 
+      <lb ed="#L" n="18"/>quidditas est intelligibilis, pura, munda, &amp; 
+      im<lb ed="#L" break="no" n="19"/>munis ab omni modo imperfectionis, &amp; vna om 
+      <lb ed="#L" n="20"/>ni modo. &amp; paulo ante dixit: Oportet, vt 
+      stu<lb ed="#L" break="no" n="21"/>deas euadere, &amp; cauere, ne multiplices eius 
+      es<lb ed="#L" break="no" n="22"/>sentiam. ergo a Catholicis illud non debet Deo 
+      <lb ed="#L" n="23"/>negari, cum possibile sit attribui sibi. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e708">
+                  <lb ed="#L" n="24"/>Praeterea: Ratio Deitatis, est prior omni 
+      ra<lb ed="#L" break="no" n="25"/>tione, sicut &amp; res neitatis est prior omni re, sed 
+      <lb ed="#L" n="26"/>nulla ratio composita, est ratio prior. priores 
+      <lb ed="#L" n="27"/>enim sunt componentes ratione composita. 
+      er<lb ed="#L" break="no" n="28"/>go ratio neitatis nullo modo composita est, 
+      a<lb ed="#L" break="no" n="29"/>lioquin esset resolubilis in priorem se. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e724">
+                  <lb ed="#L" n="30"/>Et si dicatur, quod ratio entis prior est, dicen 
+      <lb ed="#L" n="31"/>dum, quod ratio entis non dicit aliquam 
+      ratio<lb ed="#L" break="no" n="32"/>nem explicite, sed omnes implicite, propter 
+      <lb ed="#L" n="33"/>quod coincidit in rationem Deitatis, nullam 
+      com<lb ed="#L" break="no" n="34"/>positionem faciendo cum ea: hanc autem 
+      ratio<lb ed="#L" break="no" n="35"/>nem innuit Comment. 12. Metaph. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e740">
+                  <lb ed="#L" n="36"/>Praeterea: Ratio neitatis est ratio actualissima, 
+      <lb ed="#L" n="37"/>sed si esset composita ex duabus rationibus, vel 
+      <lb ed="#L" n="38"/>pluribus, non esset actualissima. esset enim 
+      con<lb ed="#L" break="no" n="39"/>stituta ex ratione potentiali, &amp; actuali, 
+      determi<lb ed="#L" break="no" n="40"/>nabili, &amp; determinante. nullo ergo modo 
+      com<lb ed="#L" break="no" n="41"/>posita est. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e756">
+                  <lb ed="#L" n="42"/>Praeterea: Nulla perfectio concessa alicui 
+      ratio<lb ed="#L" break="no" n="43"/>ni, negari debet rationi neitatis, sed aliquae sunt 
+      <lb ed="#L" n="44"/>rationes omnino simplices, &amp; irresolubiles, &amp; 
+      <lb ed="#L" n="45"/>primae, quae statim sunt vnum, &amp; ens, vt 
+      Commen<lb ed="#L" break="no" n="46"/>tator dicit, quod rationes altissimorum generum
+      <lb ed="#L" n="47"/>simplices sunt, vnde ratio substantiae nullo 
+      mo<lb ed="#L" break="no" n="48"/>do composita est. ergo non debet hoc denegari 
+      <lb ed="#L" n="49"/>rationi peitatis, quin simplic issima, &amp; 
+      irresolu<lb ed="#L" break="no" n="50"/>bilis sit in plures rationes. 
+    </p>
+               <p xml:id="ol96b1-100919-d1e778">
+                  <lb ed="#L" n="51"/>Praeterea: Ratio peitatis est perfectissime, 
+      <lb ed="#L" n="52"/>quidquid est, sed perfectiori modo erit, si sit 
+      om<lb ed="#L" break="no" n="53"/>nis ratio, quae sibi competit per omnimodam 
+      <lb ed="#L" n="54"/>identitatem, &amp; simplicitatem, quam si annexam 
+      <lb ed="#L" n="55"/>habeat, vt partem sui huius rationem. ergo 
+      ra<lb ed="#L" break="no" n="56"/>tio peitatis est simplicissima, nec habens 
+      ali<lb ed="#L" break="no" n="57"/>quam rationem annexam, vel partem sui, &amp; in 
+      <lb ed="#L" n="58"/>hoc primus Articulus finitur. 
+    </p>
+               <div xml:id="ol96b1-100919-Dd1e798">
+                  <head xml:id="ol96b1-100919-Hd1e800">Articulus 2</head>
+                  <p xml:id="ol96b1-100919-d1e802">
+                     <lb ed="#L" n="59"/>ARTJCVLVS SECVNDVS.
+    </p>
+                  <p xml:id="ol96b1-100919-d1e807">
+                     <lb ed="#L" n="60"/>Vbi discurritur per modos compositionis, &amp; 
+      osten<lb ed="#L" break="no" n="61"/>ditur, quod nullus est in Deo. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e814">
+                     <lb ed="#L" n="62"/>CIRCA secundum autem considerandum 
+      <lb ed="#L" n="63"/>quod cum sint septem modi compositionis, 
+      <lb ed="#L" n="64"/>tres quidem secundum rem. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e823">
+      <!--0312.xml-->
+                     <cb ed="#L" n="b"/>
+                     <lb ed="#L" n="65"/>Primus ex partibus quidditatiuis.
+    </p>
+                  <p xml:id="ol96b1-100919-d1e833">
+                     <lb ed="#L" n="66"/>Secundus ex partibus essentialibus, materia 
+      <lb ed="#L" n="67"/>&amp; forma. 
+      
+      <lb ed="#L" n="68"/>Tertius ex subiecto, &amp; accidente. Quatuor 
+      <lb ed="#L" n="69"/>vero secundum rationem. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e844">
+                     <lb ed="#L" n="70"/>Primus ex actu, &amp; potentia, siue ex esse, &amp; 
+      <lb ed="#L" n="71"/>essentia. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e851">
+                     <lb ed="#L" n="72"/>Secundus ex supposito, &amp; natura, siue ex quo 
+      <lb ed="#L" n="73"/>est, &amp; quod est. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e858">
+                     <lb ed="#L" n="74"/>Tertius ex genere, &amp; differentia, siue ex 
+      inde<lb ed="#L" break="no" n="75"/>terminato, &amp; determinante. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e865">
+                     <lb ed="#L" n="76"/>Quartus ex subiecto, &amp; proprietatibus 
+      inten<lb ed="#L" break="no" n="77"/>tionalibus, siue secundum rationem. constat de 
+      <lb ed="#L" n="78"/>tribus primis compositionibus, cum reales sint, 
+      <lb ed="#L" n="79"/>quod nulla est in Deo. Non est in eo 
+      composi<lb ed="#L" break="no" n="80"/>tio ex partibus quantitatiuis, cum abstrahat a 
+      <lb ed="#L" n="81"/>quantitate, &amp; a situ, nec compositio ex forma, 
+      <lb ed="#L" n="82"/>&amp; materia, cum abstrahat ab omni possibili, &amp; 
+      <lb ed="#L" n="83"/>potentiali, cum sit actus purus, nec compositio ex 
+      <lb ed="#L" n="84"/>subiecto, &amp; accidente, cum sit omnis entitas 
+      emi<lb ed="#L" break="no" n="85"/>nenter continens, &amp; praehabens omnem 
+      perfe<lb ed="#L" break="no" n="86"/>ctionem, multo excellentius, quam accidentia 
+      da<lb ed="#L" break="no" n="87"/>re possint. Restat ergo, vt discurratur per 
+      qua<lb ed="#L" break="no" n="88"/>tuor modos, qui sunt secundum rationem. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e896">
+                     <lb ed="#L" n="89"/>Est ergo considerandum, quod diuersitas con 
+      <lb ed="#L" n="90"/>ceptuum, aliquando oritur ex diuersitate 
+      con<lb ed="#L" break="no" n="91"/>ceptibilis, aliquando vero ex diuerso modo con 
+      <lb ed="#L" n="92"/>cipiendi idem conceptibile; vbicumque ergo 
+      <lb ed="#L" n="93"/>est diuersitas conceptuum, propter aliud, &amp; aliud 
+      <lb ed="#L" n="94"/>conceptibile, necesse est, illud componi secundum 
+      <lb ed="#L" n="95"/>rationem, de quo formantur tales duo 
+      conce<lb ed="#L" break="no" n="96"/>ptus, quoniam intellectus diuidit illam rem in 
+      <lb ed="#L" n="97"/>duo conceptibilia, &amp; duas rationes, &amp; per 
+      con<lb ed="#L" break="no" n="98"/>sequens illa res componitur ex conceptu, &amp; 
+      du<lb ed="#L" break="no" n="99"/>plici conceptibili ratione, vbi vero est diuersitas 
+      <lb ed="#L" n="100"/>conceptuum, penes diuersos modos 
+      concipien<lb ed="#L" break="no" n="101"/>di, manente eodem conceptibili, non potest 
+      fie<lb ed="#L" break="no" n="102"/>ri compositio secundum rationem, quoniam 
+      in<lb ed="#L" break="no" n="103"/>tellectus in vtroque conceptu accipit eandem com 
+      <lb ed="#L" n="104"/>munem rationem obiectiue, idem autem non com 
+      <lb ed="#L" n="105"/>ponitur sibi ipsi, vnde necesse est, vt illi duo conce 
+      <lb ed="#L" n="106"/>ptus nullam compositionem rationis faciant, 
+      <lb ed="#L" n="107"/>quia in vtroque conceptu est vnica, &amp; simplex 
+      <lb ed="#L" n="108"/>ratio obiectalis, &amp; hinc est, quod conceptus 
+      de<lb ed="#L" break="no" n="109"/>finitionis, &amp; definiti non constituunt tertium 
+      <lb ed="#L" n="110"/>conceptum compositum ex vtroque, nunc autem 
+      <lb ed="#L" n="111"/>sic est, quod conceptus esse, &amp; essentiae non 
+      diffe<lb ed="#L" break="no" n="112"/>runt, penes aliud conceptibile, sed penes alium 
+      <lb ed="#L" n="113"/>modum concipiendi, vt dicebatur supra. ergo 
+      <lb ed="#L" n="114"/>ratio deitatis, concepta per modum formae 
+      quie<lb ed="#L" break="no" n="115"/>tae, &amp; ita per modum essentiae, &amp; cuiusdam 
+      po<lb ed="#L" break="no" n="116"/>tentialis, &amp; iterum concepta per modum 
+      actio<lb ed="#L" break="no" n="117"/>nis, &amp; esse, nullam compositionem faciet in 
+      con<lb ed="#L" break="no" n="118"/>ceptu, &amp; sic apparet, quod rationi Deitatis, nil 
+      <lb ed="#L" n="119"/>addit intellectus, cum concipit eam esse, nec 
+      con<lb ed="#L" break="no" n="120"/>cipiendo esse, &amp; essentiam in Deo, resoluit 
+      peita<lb ed="#L" break="no" n="121"/>tem in duas rationes. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e971">
+                     <lb ed="#L" n="122"/>Vlterius considerandum est, quod in omni 
+      <lb ed="#L" n="123"/>creato, conceptus habentis praecedit conceptum 
+      <lb ed="#L" n="124"/>naturae habitae, nec constituitur per ipsum, 
+      quam<lb ed="#L" break="no" n="125"/>uis determinetur, vt superius dicebatur de 
+      con<lb ed="#L" break="no" n="126"/>ceptu humanitatis, qui determinat conceptum 
+      <lb ed="#L" n="127"/>cuiusdam habentis, &amp; tota ratio est, quia huma 
+      <lb ed="#L" n="128"/>nitas, &amp; caeterae quidditates creatae possunt cō- 
+      <lb ed="#L" n="129"/>cipi per modum partis. in omnibus ergo talibus 
+      <lb ed="#L" n="130"/>resultat vnus conceptus compositus ex natura, 
+      <lb ed="#L" n="131"/>&amp; supposito, siue ex habente, &amp; habito, quem 
+      <!--0313.xml-->
+      <pb ed="#L" n="313"/>
+                     <cb ed="#L" n="a"/>
+                     <lb ed="#L" n="1"/>quidem conceptum exprimit concretum, puta 
+      <lb ed="#L" n="2"/>homo, rosa, vel flos, vt superius dicebatur dist. 4. 
+      <lb ed="#L" n="3"/>Nũc autem Deitas concipi non potest, quin 
+      co<lb ed="#L" break="no" n="4"/>includatur per necessitatem paternitas: 
+      paterni<lb ed="#L" break="no" n="5"/>tas autem, &amp; essentia constituunt vnam perseitatem, 
+      <lb ed="#L" n="6"/>&amp; ita concipi non potest; nisi sub ratione totius 
+      <lb ed="#L" n="7"/>personae, quam constituit. relinquitur ergo, quod 
+      <lb ed="#L" n="8"/>ex Deitate, &amp; ex supposito, tamquam ex duobus 
+      <lb ed="#L" n="9"/>conceptibus, non resultet vnus tertius conceptus, 
+      <lb ed="#L" n="10"/>cum Deitas totum conceptum includat, &amp; ita 
+      <lb ed="#L" n="11"/>non est in Deo compositio, ex quo est, &amp; quod 
+      <lb ed="#L" n="12"/>est, siue ex supposito, &amp; natura. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1028">
+                     <lb ed="#L" n="13"/>Adhuc autem considerari oportet, quod 
+      con<lb ed="#L" break="no" n="14"/>ceptuum quidam sunt includentes determinatam 
+      <lb ed="#L" n="15"/>aliquam rationem, sicut animal, sensibilitatem: 
+      <lb ed="#L" n="16"/>quidam vero sunt omnino confusi, vt saepe dictum 
+      <lb ed="#L" n="17"/>est de concoptu entis, conceptus itaque illi, 
+      <lb ed="#L" n="18"/>qui rationem determinatam includunt, cum 
+      attri<lb ed="#L" break="no" n="19"/>buuntur alicui rationi, compositionem faciunt 
+      se<lb ed="#L" break="no" n="20"/>cundum rationem. afferunt enim suam propriam 
+      <lb ed="#L" n="21"/>rationem, quae addita alteri, illam componunt, 
+      <lb ed="#L" n="22"/>sicut patet de animali, &amp; rationali, illi vero 
+      con<lb ed="#L" break="no" n="23"/>ceptus, qui nullam determinatam rationem 
+      in<lb ed="#L" break="no" n="24"/>cludunt, cum adducuntur alicui rationi, nullam ra 
+      <lb ed="#L" n="25"/>tionem propriam afferunt, sed in illam coincidunt, 
+      <lb ed="#L" n="26"/>&amp; per consequens non componunt: nunc autem 
+      <lb ed="#L" n="27"/>sic est, quod conceptus entis, &amp; omnium 
+      proprie<lb ed="#L" break="no" n="28"/>tatum Diuinarum, quae appellantur perfectiones 
+      <lb ed="#L" n="29"/>simpliciter, nullum conceptum determinatum 
+      <lb ed="#L" n="30"/>dicunt, quapropter dum rationi Deitatis, 
+      attri<lb ed="#L" break="no" n="31"/>buuntur, nullam propriam rationem afferunt, 
+      <lb ed="#L" n="32"/>sed in ipsam coincidentes, nullo modo 
+      compo<lb ed="#L" break="no" n="33"/>nunt. Sic ergo patet de tribus modis 
+      composi<lb ed="#L" break="no" n="34"/>tionis secundum intellectum, quia in Deo non 
+      ha<lb ed="#L" break="no" n="35"/>bent locum. de quarto vero est amplior difficul 
+      <lb ed="#L" n="36"/>tas; dixerunt enim aliqui, quod Deus est in 
+      prae<lb ed="#L" break="no" n="37"/>dicamento substantiae, &amp; componitur ex genere, 
+      <lb ed="#L" n="38"/>&amp; differentia, quod nullo modo dici potest. hoc 
+      <lb ed="#L" n="39"/>enim est expresse contra Augustinum de 
+      cognitio<lb ed="#L" break="no" n="40"/>ne verae vitae respons. 5. vbi prolixe deducit, quod 
+      <lb ed="#L" n="41"/>Deus nullo modo sit in praedicamento aliquo, &amp; 
+      <lb ed="#L" n="42"/>in fine concludit, quod decem praedicamentis cun 
+      <lb ed="#L" n="43"/>cta humana conditio includitur, &amp; ab iis 
+      omni<lb ed="#L" break="no" n="44"/>bus proprietas summae essentiae euidenti 
+      ratio<lb ed="#L" break="no" n="45"/>ne excluditur; est etiam contra eundem 5. de 
+      <lb ed="#L" n="46"/>Trin. &amp; 7. vbi est sua intentio, quod nullum 
+      prae<lb ed="#L" break="no" n="47"/>dicamentum dicatur de Deo, vnde &amp; Mag. dicit 
+      <lb ed="#L" n="48"/>in littera, quod si verba August. subtiliter intelli 
+      <lb ed="#L" n="49"/>gantur, aperit praedicamenta artis dialecticae, nei 
+      <lb ed="#L" n="50"/>naturae minime conuenire, propterea dixerunt 
+      <lb ed="#L" n="51"/>alij, quod Deus non est in praedicamento, propter 
+      <lb ed="#L" n="52"/>hoc, quod quidditas, &amp; essentia non differunt rea 
+      <lb ed="#L" n="53"/>liter in eo, sed haec ratio parum cogit, tum quia 
+      <lb ed="#L" n="54"/>nec in creatura differunt esse, &amp; essentia, vt supra 
+      <lb ed="#L" n="55"/>dictum est; tum quia assignatur non causa, pro 
+      <lb ed="#L" n="56"/>causa. esto enim, quod quidditas habeat plures 
+      <lb ed="#L" n="57"/>conceptus, vnum communem, &amp; alium specifice 
+      <lb ed="#L" n="58"/>determinantem, non apparet, cur non sit in 
+      gene<lb ed="#L" break="no" n="59"/>re, quamuis non differat esse ab huiusmodi 
+      quid<lb ed="#L" break="no" n="60"/>ditate, &amp; item praedicamentum sic abstrahat ab esse, 
+      <lb ed="#L" n="61"/>vt tamen res, quando sunt, sint in praedicamento; 
+      <lb ed="#L" n="62"/>vnde si semper essent, &amp; de necessitate, adhuc 
+      re<lb ed="#L" break="no" n="63"/>manerent in praedicamento, sicut patet de coelo, 
+      <lb ed="#L" n="64"/>&amp; intelligentiis, secundum philosophos, propter 
+      <lb ed="#L" n="65"/>quod dicunt alij, quod Deus non est in genere 
+      <lb ed="#L" n="66"/>propter sui illimitationem, vnde non determina 
+      <lb ed="#L" n="67"/>tur ad certum genus, nec speciem. Sed nec ratio 
+      <!--0313.xml-->
+      <cb ed="#L" n="b"/>
+                     <lb ed="#L" n="68"/>ista cogit, quia praedicamentum substantiae videtur, 
+      <lb ed="#L" n="69"/>siue a per se esse, vtrum autem illud, quod est per se, sit 
+      <lb ed="#L" n="70"/>limitatum videtur accidere, vnde &amp; Philos. dicit, 
+      <lb ed="#L" n="71"/>quod si linea esset infinita, adhuc competeret sibi 
+      <lb ed="#L" n="72"/>definitio lineae, &amp; Auic. dicit, quod qui imaginan 
+      <lb ed="#L" n="73"/>tur substantiam infinitam, non imaginantur non 
+      sub<lb ed="#L" break="no" n="74"/>stantiam. erit ergo Deus in praedicamento 
+      sub<lb ed="#L" break="no" n="75"/>stantiae, non obstante sua illimitatione, &amp; ideo di 
+      <lb ed="#L" n="76"/>xerunt alij, quod Deus non est in genere, quia ratio 
+      <lb ed="#L" n="77"/>generis sumitur ab aliquo potentiali: omnis autem 
+      <lb ed="#L" n="78"/>intelligentia comparata ad inferiorem se, dicitur 
+      <lb ed="#L" n="79"/>actualis, comparata vero ad Deum, dicitur poten 
+      <lb ed="#L" n="80"/>tialis, &amp; quia Deus non potest comparari ad 
+      ali<lb ed="#L" break="no" n="81"/>quid altius se, ideo non potest habere rationem 
+      <lb ed="#L" n="82"/>potentiae, &amp; per consequens ratio generis non po 
+      <lb ed="#L" n="83"/>test sumi ab eo, sed nec ista ratio multum 
+      cogit<lb ed="#L" break="no" n="84"/>rationes enim generis, &amp; differentiae accipiuntur 
+      <lb ed="#L" n="85"/>ab intrinseco, cum sint de conceptu 
+      quidditati<lb ed="#L" break="no" n="86"/>uo, &amp; absoluto cuiuslibet rei. ergo res habet 
+      ali<lb ed="#L" break="no" n="87"/>quid superius, siue non habeat, adhuc ratio 
+      ge<lb ed="#L" break="no" n="88"/>neris sumi poterit ex intrinseco sui.
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1200">
+                     <lb ed="#L" n="89"/>Et ob hoc alij dicere voluerunt, quod ratio generis 
+      <lb ed="#L" n="90"/>importat aliquid realitatis, quod non importat 
+      <lb ed="#L" n="91"/>differentia, nam alias superflueret differentia in defi 
+      <lb ed="#L" n="92"/>nitione, &amp; praedicaretur ꝑ se genus de differentia 
+      <lb ed="#L" n="93"/>&amp;erit definitio nugatoria, cum genus diceret totum; 
+      <lb ed="#L" n="94"/>constat autem, quod in Deo non est realitas, &amp; realitas. 
+      <lb ed="#L" n="95"/>haec est ergo ratio secundum istos, quare Deus non 
+      <lb ed="#L" n="96"/>est in genere. sed haec ratio assumit, quod non est 
+      ve<lb ed="#L" break="no" n="97"/>rum, vt alias declarabitur, videlicet, quod genus, &amp; dif 
+      <lb ed="#L" n="98"/>ferentia importent duas realitates. non apparet 
+      e<lb ed="#L" break="no" n="99"/>nim, quod duae realitates sint in paternitate, quarum 
+      <lb ed="#L" n="100"/>vna dicat relationem, tãquam genus, &amp; alia propriam 
+      <lb ed="#L" n="101"/>differentiam, nec in simplici linea circulari 
+      appa<lb ed="#L" break="no" n="102"/>rent duae realitates, quarum vnam dicat figuram, 
+      circu<lb ed="#L" break="no" n="103"/>laritas aliam, nec hoc apparet incursu. non est enim 
+      <lb ed="#L" n="104"/>alia realitas cursus, &amp; motus, qui est in cursu, nec 
+      <lb ed="#L" n="105"/>propter hoc superfluit differentia in definitione, 
+      <lb ed="#L" n="106"/>quia definitio explicat rem, prout conceptibilis est, 
+      <lb ed="#L" n="107"/>eadem autem res habet duas conceptibilitates, quarum 
+      <lb ed="#L" n="108"/>vnam exprimit genus, reliquam differentia, non 
+      pro<lb ed="#L" break="no" n="109"/>pter hoc genus praedicabitur per se de 
+      differen<lb ed="#L" break="no" n="110"/>tia, quia perseitatem primi modi impedit 
+      diuersi<lb ed="#L" break="no" n="111"/>tas conceptuum, quorum vnus est extra alium. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1252">
+                     <lb ed="#L" n="112"/>Propterea dicendum, quod Deus non est in 
+      ge<lb ed="#L" break="no" n="113"/>nere, quia genus exprimit conceptum 
+      importan<lb ed="#L" break="no" n="114"/>tem determinatam rationem aliqualiter, licet non 
+      <lb ed="#L" n="115"/>vltimate. dicit enim formam, &amp; rationem mediam 
+      <lb ed="#L" n="116"/>inter purum actum, &amp; puram potentiam, vt dicit 
+      <lb ed="#L" n="117"/>Commentator, sed iam declaratum est, quod nul 
+      <lb ed="#L" n="118"/>lus conceptus, praedicabilis de Deo, importat 
+      <lb ed="#L" n="119"/>de terminatam rationem, immo omnes includunt 
+      <lb ed="#L" n="120"/>in re, &amp; ratione in ipsam Deitatem, patet 
+      siqui<lb ed="#L" break="no" n="121"/>dem hoc de conceptu importato, penes res, &amp; 
+      a<lb ed="#L" break="no" n="122"/>liquid, &amp; similiter de conceptibus importatis, 
+      <lb ed="#L" n="123"/>per omnia attributa, non est autem alius conce 
+      <lb ed="#L" n="124"/>ptus, qui assignari possit pro genere. ergo Deus 
+      <lb ed="#L" n="125"/>non est in genere, nec in praedicamento. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1285">
+                     <lb ed="#L" n="126"/>Sed forte dicetur, quod conceptus substantiae 
+      praedi<lb ed="#L" break="no" n="127"/>camentalis, competit Deo, qui maxime subsistit, &amp; exi 
+      <lb ed="#L" n="128"/>stit per se. Sed dicendum ad hoc, quod in 
+      praedica<lb ed="#L" break="no" n="129"/>mento substantiae, prima substātia significat hoc 
+      <lb ed="#L" n="130"/>aliquid, secundae vero quale quid, ita, quod conceptus 
+      <lb ed="#L" n="131"/>generis generalisimi est signisicare quid confusis 
+      <lb ed="#L" n="132"/>sime, vnde illud est conceptus substantiae 
+      praedica<lb ed="#L" break="no" n="133"/>mentalis: deinde vero genera, &amp; species subalter 
+      <lb ed="#L" n="134"/>nae vsque ad species specialissimas inclusiue om- 
+      <!--0314.xml-->
+      <pb ed="#L" n="314"/>
+                     <cb ed="#L" n="a"/>
+                     <lb ed="#L" n="1"/>nia significant quid determinatum, puta, 
+      ho<lb ed="#L" break="no" n="2"/>mo, animal, &amp; sic de aliis. ergo Deus non 
+      <lb ed="#L" n="3"/>est hoc aliquid, cum sint tres subsistentiae, in 
+      qui<lb ed="#L" break="no" n="4"/>bus non numeratur natura; vnde non est Deus 
+      <lb ed="#L" n="5"/>hoc aliquid, sed tres aliqui, idcirco non est in 
+      <lb ed="#L" n="6"/>praedicamento, sicut prima substantia, non est 
+      <lb ed="#L" n="7"/>etiam secunda substantia, quia non significat 
+      <lb ed="#L" n="8"/>quale quid: non enim qualificat aliquid, nec 
+      prae<lb ed="#L" break="no" n="9"/>dicatur de aliquo, non clauditur etiam sub 
+      con<lb ed="#L" break="no" n="10"/>ceptu substantiae generalissimae, qui est quale quid 
+      <lb ed="#L" n="11"/>simpliciter, vt Philosophus dicit 7. Metaph. &amp; in 
+      <lb ed="#L" n="12"/>praedicamentis. Quod ergo opponebatur de 
+      <lb ed="#L" n="13"/>subsistentia, vel per se existentia, dicendum, quod 
+      <lb ed="#L" n="14"/>illud non reponit in praedicamento substantiae, 
+      <lb ed="#L" n="15"/>immo haec est ratio perseitatis tertij modi, &amp; est 
+      <lb ed="#L" n="16"/>ratio suppositi, vt superius dictum fuit, ratio au 
+      <lb ed="#L" n="17"/>tem suppositi non reponit in praedicamento 
+      sub<lb ed="#L" break="no" n="18"/>stantiae, sed significare hoc aliquid singulariter, 
+      <lb ed="#L" n="19"/>vt significant primae substantiae, vel in communi, 
+      <lb ed="#L" n="20"/>&amp; sub appellatiua figura, vt secundae substantiae, 
+      <lb ed="#L" n="21"/>secundum quod Philosophus dicit in 
+      praedica<lb ed="#L" break="no" n="22"/>mentis, &amp; in hoc secundus Artic. terminatur. 
+    </p>
+               </div>
+               <div xml:id="ol96b1-100919-Dd1e1363">
+                  <head xml:id="ol96b1-100919-Hd1e1365">Articulus 3</head>
+                  <p xml:id="ol96b1-100919-d1e1367">
+                     <lb ed="#L" n="23"/>ARTJCVLVS TERTJVS. 
+      <lb ed="#L" n="24"/>Vbi ostenditur, quod nulla creatura est simplex 
+      <lb ed="#L" n="25"/>omni modo. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1376">
+                     <lb ed="#L" n="26"/>CIRCA tertium vero considerandum, quod 
+      <lb ed="#L" n="27"/>creaturarum, quaedam sunt partes alterius, vt 
+      <lb ed="#L" n="28"/>forma, &amp; materia, &amp; omnia accidentia, quaedam 
+      <lb ed="#L" n="29"/>sunt per se subsistentes rerum, &amp; quaedam sunt 
+      <lb ed="#L" n="30"/>per se in genere, quaedam per reductionem, &amp; secun 
+      <lb ed="#L" n="31"/>dum hoc formandae sunt quattuor propositiones.
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1392">
+                     <lb ed="#L" n="32"/>Prima quidem, quod res, quae sunt partes 
+      alte<lb ed="#L" break="no" n="33"/>rius, vt forma, &amp; materia, vel termini, vt 
+      pun<lb ed="#L" break="no" n="34"/>ctus, &amp; vnitas, sunt quidem in se simplices, sed 
+      <lb ed="#L" n="35"/>tamen a simplicitate cadunt, inquantum sunt 
+      <lb ed="#L" n="36"/>alterius componibiles, si enim realiter essent cō 
+      <lb ed="#L" n="37"/>posita, formaliter haberent formam, &amp; 
+      mate<lb ed="#L" break="no" n="38"/>riam, &amp; procederetur in infinitum, quod esse 
+      <lb ed="#L" n="39"/>non potest; vnde oportet deuenire ad aliquas 
+      <lb ed="#L" n="40"/>res, nullam compositionem realem habentes. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1414">
+                     <lb ed="#L" n="41"/>Secunda vero propositio est, quod omni rei 
+      <lb ed="#L" n="42"/>subsistenti est aliquid reale componibile. 
+      opera<lb ed="#L" break="no" n="43"/>tio enim, per quam attingit finem, impossibile 
+      <lb ed="#L" n="44"/>est, quod sit idem cum sua essentia, alioquin 
+      nul<lb ed="#L" break="no" n="45"/>la res posset separari a fine suo, &amp; complemento, 
+      <lb ed="#L" n="46"/>cuius oppositum patet in spiritibus, &amp; 
+      corpori<lb ed="#L" break="no" n="47"/>bus, vtrum autem omnis res subsistens realiter, 
+      <lb ed="#L" n="48"/>sit composita, vt angeli, &amp; anima, dubium fuit 
+      a<lb ed="#L" break="no" n="49"/>pud quosdam. Dixerunt enim, quod sunt compo 
+      <lb ed="#L" n="50"/>sita omnia subsistentia, ex actu, &amp; potentia, siue 
+      <lb ed="#L" n="51"/>ex esse, &amp; essentia compositione reali, sed non ex ma 
+      <lb ed="#L" n="52"/>teria, &amp; forma, quod quidem stare non potest, quan 
+      <lb ed="#L" n="53"/>tum ad vtrumque. Primo quidem, quantum ad hoc, 
+      <lb ed="#L" n="54"/>quod dicitur ex esse, &amp; essentia, siue ex potentia, 
+      <lb ed="#L" n="55"/>&amp; actu. probatum est enim supra, quod non 
+      distingui<lb ed="#L" break="no" n="56"/>tur realiter, &amp; adhuc potest patere ex hoc, quod 
+      <lb ed="#L" n="57"/>nulla res intrinseca componitur ex fluxu, &amp; quiete, 
+      <lb ed="#L" n="58"/>sed esse concipitur in quodam fluxu, quod apparet 
+      <lb ed="#L" n="59"/>ex duratione, sine qua esse concipi non potest. er 
+      <lb ed="#L" n="60"/>go nulla res componitur ex esse, alias omnes res es 
+      <lb ed="#L" n="61"/>sent quidditatiue fluentes, &amp; iterum cum dicitur, La 
+      <lb ed="#L" n="62"/>pis est, Hoc est, non videtur cum lapide aliquam 
+      com<lb ed="#L" break="no" n="63"/>positionem facere, sed lapidem affirmare, alias 
+      es<lb ed="#L" break="no" n="64"/>set tertio adiacens, sicut enim dicitur, lapis est al 
+      <lb ed="#L" n="65"/>bus. Quantum ad secundum autem de compositione ani 
+      <lb ed="#L" n="66"/>mae, &amp; Angeli ex forma, &amp; materia, etiam non est ve 
+      <!--0314.xml-->
+      <cb ed="#L" n="b"/>
+                     <lb ed="#L" n="67"/>rum, quin ex primo possibili in genere 
+      intelligi<lb ed="#L" break="no" n="68"/>bilium, &amp; ex actu in illo genere abstractae formae cō 
+      <lb ed="#L" n="69"/>ponentur realiter, &amp; omnes separatae substantiae, 
+      <lb ed="#L" n="70"/>praeter primam. Dicit enim Comment. quod esse 
+      <lb ed="#L" n="71"/>intelligibile diuiditur in aliquod simile formae, &amp; 
+      <lb ed="#L" n="72"/>in aliquod simile materiae, &amp; vtrumque necesse est po 
+      <lb ed="#L" n="73"/>ni in omni intellectu abstracto, qui intelligit 
+      a<lb ed="#L" break="no" n="74"/>liud extra se, &amp; ideo declaratum est in prima 
+      Philo<lb ed="#L" break="no" n="75"/>sophia, quod nulla forma est liberata a potentia 
+      sim<lb ed="#L" break="no" n="76"/>pliciter, nisi prima forma, quae nihil intelligit 
+      ex<lb ed="#L" break="no" n="77"/>tra se, &amp; comm. 27. dicit, quod receptio formarum 
+      <lb ed="#L" n="78"/>simpliciter fit per materiam, quae est primum possi 
+      <lb ed="#L" n="79"/>bile in genere intelligibilium, &amp; quod illud solum 
+      <lb ed="#L" n="80"/>primum intelligens est separatum ab ista materia, 
+      <lb ed="#L" n="81"/>vnde secundum veritatem Philosophicam, quae 
+      sum<lb ed="#L" break="no" n="82"/>me in hoc fidei pietati concordat, dicendum est, quod 
+      <lb ed="#L" n="83"/>nulla substantia abstracta, &amp; subsistens, est 
+      reali<lb ed="#L" break="no" n="84"/>ter simplex, immo componitur ex puro possibili 
+      <lb ed="#L" n="85"/>in genere intelligibilium, quod Arist. vocat intelle 
+      <lb ed="#L" n="86"/>ctum possibilem &amp; ex actu in illo genere, quod 
+      ap<lb ed="#L" break="no" n="87"/>pellatur agens, sed de hoc alias erit sermo. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1524">
+                     <lb ed="#L" n="88"/>Tertia quoque propositio est, quod ea, quae in ge 
+      <lb ed="#L" n="89"/>nere sunt per reductionem, sunt simplicia secundum 
+      <lb ed="#L" n="90"/>rationem, quamuis cadant a simplicitate, quam 
+      ha<lb ed="#L" break="no" n="91"/>bet ratio Deitatis, per hoc, quod componibiles 
+      <lb ed="#L" n="92"/>sunt, vnde rationes differentiarum 
+      componibi<lb ed="#L" break="no" n="93"/>les sunt, quamuis simplices sint in se, &amp; sicut ratio 
+      <lb ed="#L" n="94"/>puncti, &amp; vnitatis componibilis est, nam ex 
+      vnitati<lb ed="#L" break="no" n="95"/>bus constituitur numerus, &amp; punctus concipitur 
+      <lb ed="#L" n="96"/>per modum lineae terminantis, rationes autem gene 
+      <lb ed="#L" n="97"/>rum generalissimorum simplices sunt in se, sed tamen 
+      <lb ed="#L" n="98"/>sunt summe potentiales, &amp; possibiles, vnde patet, 
+      <lb ed="#L" n="99"/>quod ratio Deitatis nil adaequat in simplicitate. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1553">
+                     <lb ed="#L" n="100"/>Quarta vero propositio est, quod omnia, quae 
+      <lb ed="#L" n="101"/>sunt in genere infra conceptum generalem, &amp; 
+      in<lb ed="#L" break="no" n="102"/>diuidualem sunt composita secundum rationem, 
+      <lb ed="#L" n="103"/>nec oportet, quod secundum rem componantur, 
+      <lb ed="#L" n="104"/>quia eadem res concipi potest interminate, &amp; 
+      <lb ed="#L" n="105"/>terminate, sicut habet videri in secundo. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1569">
+                     <lb ed="#L" n="106"/>Ex his ergo concluditur, quod ratio 
+      Deita<lb ed="#L" break="no" n="107"/>tis est purissima, &amp; simplicissima, cui nec res, nec 
+      <lb ed="#L" n="108"/>ratio admiscetur, vnde in eo solo ratio quiddita 
+      <lb ed="#L" n="109"/>tiua in nullo differt ab existentia, vt secundum 
+      <lb ed="#L" n="110"/>hoc sit simplex omnino, &amp; habeat in summo 
+      om<lb ed="#L" break="no" n="111"/>nem perfectionem simpliciter in identitate vnius rei, 
+      <lb ed="#L" n="112"/>&amp; vnius rationis. &amp; in hoc art. 3. terminatur. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1587">
+                     <lb ed="#L" n="113"/>Responsio ad obiecta.
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1592">
+                     <lb ed="#L" n="114"/>AD ea ergo, quae superius inducuntur, 
+      di<lb ed="#L" break="no" n="115"/>cendum est. Ad primum quidem, quod 
+      Com<lb ed="#L" break="no" n="116"/>mentator non intelligit per multiplicitatem, quae 
+      <lb ed="#L" n="117"/>sit in Deo diuersitatem aliquam rationum, sed solam 
+      <lb ed="#L" n="118"/>diuersitatem conceptuum indeterminatorum, siue 
+      <lb ed="#L" n="119"/>diuersitatem prouenientem ex modo concipiendi, 
+      <lb ed="#L" n="120"/>loquitur ibi de conceptu absracti, &amp; concreti, 
+      <lb ed="#L" n="121"/>vt vitae, &amp; viuentis, &amp; paulo ante dixit, quod in 
+      <lb ed="#L" n="122"/>Deo non est intentio addita Deitati, quae faciat 
+      <lb ed="#L" n="123"/>compositionem. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1616">
+                     <lb ed="#L" n="124"/>Ad secundum dicendum, quod conceptus esse, 
+      <lb ed="#L" n="125"/>&amp; essentiae non important diuersas rationes 
+      se<lb ed="#L" break="no" n="126"/>cundum rationem eandem sub diuerso modo conci 
+      <lb ed="#L" n="127"/>piendi, vt saepe dictum est, habens, &amp; habitum non fa 
+      <lb ed="#L" n="128"/>ciunt compositionem secundum rationem in Deo, quia 
+      <lb ed="#L" n="129"/>de conceptu Deitatis est persona, &amp; de conceptu. 
+      <lb ed="#L" n="130"/>personae, neitas, vnde Deus, &amp; neitas, non differunt, 
+      <lb ed="#L" n="131"/>nisi penes modos concipiendi, quia Deus dicit totum 
+      <lb ed="#L" n="132"/>in recto, Deitas vero non, vt superius dicebatur.
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1639">
+      <!--0315.xml-->
+                     <pb ed="#L" n="315"/>
+                     <cb ed="#L" n="a"/>
+                     <lb ed="#L" n="1"/>Ad tertium dicendum, quod eōpofitio 
+      ratio<lb ed="#L" break="no" n="2"/>nis imperfectionem poneret in ratione noitatis, 
+      <lb ed="#L" n="3"/>inquantum eam non permietoret esso primam 
+      <lb ed="#L" n="4"/>nec actualiffimam, ac sinceram, &amp; puram, 
+      defi<lb ed="#L" break="no" n="5"/>ceret quidem a primitate, quia componentes ra 
+      <lb ed="#L" n="6"/>tiones essent priores, ab actualitate vero, quia 
+      <lb ed="#L" n="7"/>aliqua potentialis ratio concluderetur in ea, a 
+      <lb ed="#L" n="8"/>primitate quoque, &amp; sinceritate, quia non 
+      es<lb ed="#L" break="no" n="9"/>set sincera, &amp; prima ratio Deitatis conera illud, 
+      <lb ed="#L" n="10"/>quod dicit Magister c. vlt. huius dist. ait enim, quod 
+      <lb ed="#L" n="11"/>essentiae Diuinae tanta est sinceritas, ac 
+      simplici<lb ed="#L" break="no" n="12"/>tas quod non est aliquid in ea, quod non sit ipsa. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1674">
+                     <lb ed="#L" n="13"/>Ad quartum dicendum, quod proprietates non 
+      <lb ed="#L" n="14"/>distinguuntur ab esse, etiam secundum rationem, vt 
+      <lb ed="#L" n="15"/>aliqualiter dictum est supra, &amp; magis inferius ap 
+      <lb ed="#L" n="16"/>parebit; vnde sunt eaedem Deitati, secundum rem, 
+      <lb ed="#L" n="17"/>&amp; rationem, quamuis non habeant omnem 
+      mo<lb ed="#L" break="no" n="18"/>dum identitatis, nullum quidem modum 
+      distin<lb ed="#L" break="no" n="19"/>ctionis habent, nec tamen omnem modum 
+      enti<lb ed="#L" break="no" n="20"/>tatis, sicut leo non habet omnem modum 
+      ani<lb ed="#L" break="no" n="21"/>malitatis, nec tamen est non animal aliquo modo 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1696">
+                     <lb ed="#L" n="22"/>Ad quintum dicendum, quod Deus non est in 
+      <lb ed="#L" n="23"/>praedicamento, &amp; quod dicitur, quod Deus est 
+      <lb ed="#L" n="24"/>per se, dicendum, quod hoc non reponit in praedi 
+      <lb ed="#L" n="25"/>camento substantiae, vt dictum est in corpore 
+      quae<lb ed="#L" break="no" n="26"/>stionis. Quod vero additur, quod primus motor, 
+      <lb ed="#L" n="27"/>est mensura in genere substantiae, secundum 
+      Com<lb ed="#L" break="no" n="28"/>mentatorem, dicendum, quod non propter hoc est in 
+      <lb ed="#L" n="29"/>genere substantiae, nec hoc dicit Commentator, 
+      <lb ed="#L" n="30"/>quia non solum mensurat substantias, immo, &amp; 
+      <lb ed="#L" n="31"/>accidentia, &amp; omnem entitatem, cum sit entitas 
+      <lb ed="#L" n="32"/>tota subsistens, &amp; forma omnium exemplaris: vn 
+      <lb ed="#L" n="33"/>de verum est dictum commune, quod Deus est 
+      <lb ed="#L" n="34"/>mensura extra genus, quod vero additur de mo 
+      <lb ed="#L" n="35"/>do substantiae, &amp; relationis, dicendum, quod ma 
+      <lb ed="#L" n="36"/>nent in Deo, non secundum rationem 
+      praedicamen<lb ed="#L" break="no" n="37"/>talem, quia ratio substantiae est conceptus 
+      impor<lb ed="#L" break="no" n="38"/>tans quale quid, rationis vero habitudo 
+      funda<lb ed="#L" break="no" n="39"/>menti ad terminum, nec Deitas est quale quid, 
+      <lb ed="#L" n="40"/>nec paternitas respicit fundamentum, quod refe 
+      <!--0315.xml-->
+      <cb ed="#L" n="b"/>
+                     <lb ed="#L" n="41"/>rat, eum relationes sine sopposita, &amp; subsistentes 
+      <lb ed="#L" n="42"/>in Diuinis, vt inferius apparebit, dicuntur ita 
+      <lb ed="#L" n="43"/>modi illorum duorum praedicamentorum in Di⸗ 
+      <lb ed="#L" n="44"/>uinis manere, quia modus substātiae, est quid ab⸗ 
+      <lb ed="#L" n="45"/>solutum, modus vero relationis, ad aliud. isti au 
+      <lb ed="#L" n="46"/>tem duo modi remanent in Diuinis. Quod autem 
+      <lb ed="#L" n="47"/>additur de verbo Philosophi, &amp; Boetij, quod exem 
+      <lb ed="#L" n="48"/>plificant de Deo, loquendo de substantia, 
+      dicen<lb ed="#L" break="no" n="49"/>dum secundum eundem Philosophum, quod 
+      exem<lb ed="#L" break="no" n="50"/>pla ponimus, non vt sic sit. Quod vero subditur 
+      <lb ed="#L" n="51"/>secundum Auicennam, quod substantia est illud, 
+      <lb ed="#L" n="52"/>quod non indiget alio. dicendum, quod haec est 
+      <lb ed="#L" n="53"/>proprie ratio substantiae praedicamentalis, cui 
+      <lb ed="#L" n="54"/>competit perseitas tertij modi, vnde non est 
+      <lb ed="#L" n="55"/>ratio substantiae praedicamentalis. appropriatur 
+      <lb ed="#L" n="56"/>tamen illi, quia in creaturis non reperitur ratio 
+      <lb ed="#L" n="57"/>suppositi, nisi in indiuiduis de praedicamento 
+      sub<lb ed="#L" break="no" n="58"/>stantiae, &amp; quod vlterius additur, quod ens 
+      suffi<lb ed="#L" break="no" n="59"/>cienter diuiditur per decem praedicamenta, 
+      di<lb ed="#L" break="no" n="60"/>cendum, quod Deus est ens vndecimum, 
+      conti<lb ed="#L" break="no" n="61"/>nens omnia decem eminenter. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1790">
+                     <lb ed="#L" n="62"/>Ad sextum dicendum, quod substantia 
+      incor<lb ed="#L" break="no" n="63"/>porea, quae competit Deo non includit rationem 
+      <lb ed="#L" n="64"/>substantiae praedicamentalis: non est enim Deus quale 
+      <lb ed="#L" n="65"/>quid incorporeum, sed includit conceptum 
+      in<lb ed="#L" break="no" n="66"/>corporei, prout est attributum, &amp; conceptum 
+      <lb ed="#L" n="67"/>substantiae, prout est per se de tertio modo. 
+    </p>
+                  <p xml:id="ol96b1-100919-d1e1806">
+                     <lb ed="#L" n="68"/>Ad vltimum dicendum, quod Deus est magnus, 
+      <lb ed="#L" n="69"/>sine quantitate, &amp; bonus sine qualitate, 
+      secun<lb ed="#L" break="no" n="70"/>dum Aug. ille enim attributales rationes non 
+      in<lb ed="#L" break="no" n="71"/>cludunt conceptus praedicamentales, sed sunt 
+      inde<lb ed="#L" break="no" n="72"/>terminatae, ac coincidentes in omnem rem, &amp; 
+      <lb ed="#L" n="73"/>rationem, vnde non est verum, quod aliqui dixe 
+      <lb ed="#L" n="74"/>runt, videlicet, quod in Deo est sapientia 
+      secun<lb ed="#L" break="no" n="75"/>dum rationem speciei, sed non secundum rationem 
+      <lb ed="#L" n="76"/>generis qualitatis, hoc quidem verum non est, tum 
+      <lb ed="#L" n="77"/>quia impossibile est speciem sine genere reperiri: 
+      <lb ed="#L" n="78"/>tum quia ratio speciei non est in Deo, sicut nec 
+      <lb ed="#L" n="79"/>ratio generis: tum quia sapientia, vel iustitia 
+      nul<lb ed="#L" break="no" n="80"/>lam rationem determinatam dicunt in recto. 
+    </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

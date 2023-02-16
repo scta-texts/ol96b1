@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="513"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-166642"> <!-- l1d22p1-prae -->
+            <head xml:id="ol96b1-166642-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-166642-d1e104">
+      <!--0513.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="97"/>DE NOMJNVM DJFFERENTJA, 
+      <lb ed="#L" n="98"/>quibus vtimur loquentes de Deo. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e115">
+               <lb ed="#L" n="99"/>DISTINCTIO XXJJ.
+    </p>
+            <p xml:id="ol96b1-166642-d1e120">
+      <!--0513.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="100"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e130">
+               <lb ed="#L" n="101"/>POST praedicta disserendum 
+      <lb ed="#L" n="102"/>&amp;c. Postquam Magister 
+      de<lb ed="#L" break="no" n="103"/>terminauit de vnitate essen 
+      <lb ed="#L" n="104"/>tiae, &amp; Trinitate 
+      persona<lb ed="#L" break="no" n="105"/>rum quoad ea, quae de ipsis 
+      <lb ed="#L" n="106"/>intelligenda sunt, &amp; 
+      tenen<lb ed="#L" break="no" n="107"/>da quantum ad rem, hic de 
+      <lb ed="#L" n="108"/>his, quae sunt confitenda quantum ad vocem. in- 
+      <!--0513.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="109"/>cipit enim hic tractatus de nominibus diuinis. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e156">
+               <lb ed="#L" n="110"/>Et circa hoc Magister facit duo. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e161">
+               <lb ed="#L" n="111"/>Primo enim tractat de nominibus diuinis in 
+      <lb ed="#L" n="112"/>generali. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e168">
+               <lb ed="#L" n="113"/>Secundo in speciali. secunda ibi: Praedictis 
+      au<lb ed="#L" break="no" n="114"/>tem adijciendum est de sequenti. Circa primum 
+      <lb ed="#L" n="115"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e177">
+               <lb ed="#L" n="116"/>Primo enim ponit sex differentias nominum 
+      <lb ed="#L" n="117"/>diuinorum.
+    </p>
+            <p xml:id="ol96b1-166642-d1e184">
+      <!--0514.xml-->
+               <pb ed="#L" n="514"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Secundo assignat quasdam regulas de eis. 
+      se<lb ed="#L" break="no" n="2"/>cunda ibi: Sciendum est ergo. Circa primum duo 
+      <lb ed="#L" n="3"/>facit. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e201">
+               <lb ed="#L" n="4"/>Primo namque ponit tres differentias 
+      nomi<lb ed="#L" break="no" n="5"/>num diuinorum, dicens, quod nominum, 
+      quae<lb ed="#L" break="no" n="6"/>dam sunt personalia ad personas distinctas 
+      per<lb ed="#L" break="no" n="7"/>tinentia, quae sunt indicatiua proprietatis, vt 
+      <lb ed="#L" n="8"/>generatio, filius, verbum, quaedam vero sunt 
+      v<lb ed="#L" break="no" n="9"/>nitatem essentiae significantia, vt sapientia, 
+      ve<lb ed="#L" break="no" n="10"/>ritas, virtus; quaedam autem similitudinaria 
+      <lb ed="#L" n="11"/>intranslatiua, vt splendor, speculum, &amp; character. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e221">
+               <lb ed="#L" n="12"/>Secundo ibi: His adijciendum est. Ponit alias 
+      <lb ed="#L" n="13"/>tres differentias, dicens, quod quaedam nomina 
+      <lb ed="#L" n="14"/>sunt, quae dicuntur de Deo ex tempore, &amp; 
+      rela<lb ed="#L" break="no" n="15"/>tiue ad creaturas, vt dominus, refugium, &amp; crea 
+      <lb ed="#L" n="16"/>tor, quaedam nomina, quae dicuntur ex 
+      tempo<lb ed="#L" break="no" n="17"/>re, sed non relatiue, vt incarnatus, &amp; 
+      humana<lb ed="#L" break="no" n="18"/>tus, quaedam autem collectine, vt hoc nomen 
+      <lb ed="#L" n="19"/>Trinitas, quia de nulla persona dicit sigillatim. 
+      <lb ed="#L" n="20"/>Postmodum ibi: Sciendum est ergo. Ponit Magi 
+      <lb ed="#L" n="21"/>ster quasdam regulas circa nomina praedicta, &amp; 
+      <lb ed="#L" n="22"/>facit duo. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e247">
+               <lb ed="#L" n="23"/>Primo namque assignat quinque regulas. 
+      <lb ed="#L" n="24"/>Primam quidem, quod illa nomina, quae 
+      per<lb ed="#L" break="no" n="25"/>tinent singulariter ad personas relatiuorum 
+      di<lb ed="#L" break="no" n="26"/>cuntur adinuicem, sicut pater, filius, &amp; donum. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e258">
+               <lb ed="#L" n="27"/>Secundam vero, quae significant essentiae 
+      vni<lb ed="#L" break="no" n="28"/>tatem, absolute dicuntur, &amp; ad se, &amp; similiter 
+      e<lb ed="#L" break="no" n="29"/>conuerso ea, quae absolute, &amp; ad se dicuntur, 
+      sub<lb ed="#L" break="no" n="30"/>stantialiter dicuntur. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e269">
+               <lb ed="#L" n="31"/>Tertiam vero, quod ea, quae dicuntur 
+      relati<lb ed="#L" break="no" n="32"/>ue, nullo modo indicant substantiam, nec 
+      sub<lb ed="#L" break="no" n="33"/>stantialiter dicuntur. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e278">
+               <lb ed="#L" n="34"/>Quartam quoque, quia quaecumque 
+      substan<lb ed="#L" break="no" n="35"/>tialiter dicuntur, &amp; absolute non praedicantur 
+      <lb ed="#L" n="36"/>pluraliter de omnibus tribus, sed singulariter. 
+      <lb ed="#L" n="37"/>non enim Trinitatem dicimus esse tres Deos, sed 
+      <lb ed="#L" n="38"/>vnum Deum, nec tres magnos, aut tres 
+      omni<lb ed="#L" break="no" n="39"/>potentes. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e295">
+               <lb ed="#L" n="40"/>Quintam vero, quod huiusmodi nomina 
+      ab<lb ed="#L" break="no" n="41"/>soluta significant aliud. non enim aliud est esse 
+      <lb ed="#L" n="42"/>magnum, &amp; aliud esse simpliciter, &amp; ob hoc non 
+      <lb ed="#L" n="43"/>sunt ibi tres magnitudines, sicut nec tres 
+      essen<lb ed="#L" break="no" n="44"/>tiae, sed vna magnitudo in tribus, propter quod 
+      <lb ed="#L" n="45"/>nomina essentialia dicant de personis singulis 
+      <lb ed="#L" n="46"/>sigillatim, &amp; de omnibus tribus simul, non 
+      plu<lb ed="#L" break="no" n="47"/>raliter, sed in numero singulari. 
+    </p>
+            <p xml:id="ol96b1-166642-d1e315">
+               <lb ed="#L" n="48"/>Secundo ibi: Deus enim. Declarat, quod 
+      di<lb ed="#L" break="no" n="49"/>ctum est statim de nominibus essentialibus, 
+      quo<lb ed="#L" break="no" n="50"/>modo non significant aliud, quam quandam ma 
+      <lb ed="#L" n="51"/>teriam, &amp; recapitulat ea, quae dicta sunt, &amp; 
+      pa<lb ed="#L" break="no" n="52"/>tet uisu. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

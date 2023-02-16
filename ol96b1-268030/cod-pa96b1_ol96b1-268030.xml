@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="826"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-268030"> <!-- l1d36p1-prae -->
+            <head xml:id="ol96b1-268030-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-268030-d1e104">
+      <!--0826.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="75"/>VTRVM CONCEDENDVM SJT OMNJA ESSE 
+      <lb ed="#L" n="76"/>in Dei essentia, vel in eo per essentiam, vt omnia dicuntur 
+      <lb ed="#L" n="77"/>esse in Dei cognitione, vel praesentia. 
+    </p>
+            <p xml:id="ol96b1-268030-d1e117">
+               <lb ed="#L" n="78"/>DISTINCTIO XXXVJ.
+    </p>
+            <p xml:id="ol96b1-268030-d1e122">
+      <!--0826.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="79"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-268030-d1e132">
+               <lb ed="#L" n="80"/>SOLET Hic quaeri, &amp;e. 
+      Post<lb ed="#L" break="no" n="81"/>quam determinauit 
+      Magi<lb ed="#L" break="no" n="82"/>ster de nomine scientiae 
+      di<lb ed="#L" break="no" n="83"/>uinae in hac parte, gratia 
+      di<lb ed="#L" break="no" n="84"/>ctorum tria dubia 
+      inciden<lb ed="#L" break="no" n="85"/>taliter introducit. 
+    </p>
+            <p xml:id="ol96b1-268030-d1e148">
+               <lb ed="#L" n="86"/>Primum quidem, cum 
+      di<lb ed="#L" break="no" n="87"/>Cui sit, quod omnia sint in Dei cognitione, &amp; 
+      <lb ed="#L" n="88"/>in Dei praesentia; an scilicet concedi possit, 
+      <lb ed="#L" n="89"/>quod sint in eius essentia 
+    </p>
+            <p xml:id="ol96b1-268030-d1e159">
+               <lb ed="#L" n="90"/>Secundo vero an etiam concedi possit, quod 
+      <lb ed="#L" n="91"/>mala sint in Deo, sicut &amp;. bona. 
+    </p>
+            <p xml:id="ol96b1-268030-d1e166">
+               <lb ed="#L" n="92"/>Tertium vero, gratia istorum, quomodo Deus 
+      <lb ed="#L" n="93"/>dicatur esse in rebus. Et secundum hoc tria fa- 
+      <!--0826.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="94"/>cit. Secundum facit ibi: Post praedicta: Tortium 
+      <lb ed="#L" n="95"/>ibi: dist. 87. Et quoniam demonstratum est. Dinit 
+      <lb ed="#L" n="96"/>itaque primo, quod hic solet quaeri, an concedi 
+      <lb ed="#L" n="97"/>possit, quod omnia sint in diuina essentia, nel 
+      <lb ed="#L" n="98"/>per essentiam in Deo, cum cognitio, &amp; 
+      praesen<lb ed="#L" break="no" n="99"/>tia Dei non sit aliud, quam eius essentia; 
+      con<lb ed="#L" break="no" n="100"/>ceditur autem, quod omnia sunt in eius 
+      prae<lb ed="#L" break="no" n="101"/>sentia, &amp; in eius cognitione. &amp; respondet 
+      Ma<lb ed="#L" break="no" n="102"/>gister, quod illud sane conceditur, quod 
+      <lb ed="#L" n="103"/>scilicet omnia sint in Dei praesentia: 
+      <lb ed="#L" n="104"/>non tamen, quod in essentia, ne 
+      <lb ed="#L" n="105"/>per hoc intelligeretur, quod 
+      <lb ed="#L" n="106"/>omnia essent per 
+      es<lb ed="#L" break="no" n="107"/>sentiam idem, 
+      <lb ed="#L" n="108"/>quod Deus: 
+      <lb ed="#L" n="109"/>haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

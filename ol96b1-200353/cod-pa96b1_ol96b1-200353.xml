@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="617"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-200353"> <!-- l1d27p2-prae -->
+            <head xml:id="ol96b1-200353-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-200353-d1e104">
+               <lb ed="#L" n="24"/>SECVNDA PARS. 
+      <lb ed="#L" n="25"/>Quod sunt alia nomina personarum 
+      eas<lb ed="#L" break="no" n="26"/>dem proprietates notantia, scilicet 
+      <lb ed="#L" n="27"/>genitus, genitor, verbum, 
+      <lb ed="#L" n="28"/>imago. 
+    </p>
+            <p xml:id="ol96b1-200353-d1e117">
+               <lb ed="#L" n="29"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-200353-d1e122">
+               <lb ed="#L" n="30"/>HIc non est praetermittendum, &amp;c. 
+      <lb ed="#L" n="31"/>Postquam Magister 
+      determina<lb ed="#L" break="no" n="32"/>uit de proprietatibus 
+      persona<lb ed="#L" break="no" n="33"/>libus, prout exprimuntur per 
+      <lb ed="#L" n="34"/>generare, &amp; generari, &amp; 
+      simi<lb ed="#L" break="no" n="35"/>libus, hic determinat de eisdem, prout 
+      expri<lb ed="#L" break="no" n="36"/>muntur per verbum, &amp; imaginem. 
+    </p>
+            <p xml:id="ol96b1-200353-d1e141">
+               <lb ed="#L" n="37"/>Et circa hoc duo facit. Primo enim ostendit, 
+      <lb ed="#L" n="38"/>quod ista nomina relatiue dicuntur, &amp; quod 
+      <lb ed="#L" n="39"/>proprietates denotant personam. Secundo 
+      ve<lb ed="#L" break="no" n="40"/>ro quandam regulam vtilem elicit ex praedictis. 
+    </p>
+            <p xml:id="ol96b1-200353-d1e152">
+               <lb ed="#L" n="41"/>Secunda ibi: Et est hic aduertenda. Dicit 
+      ita<lb ed="#L" break="no" n="42"/>que primo, quod genitor, genitus, verbum, 
+      ima<lb ed="#L" break="no" n="43"/>go, dicuntur relatiue, &amp; sunt nomina 
+      persona<lb ed="#L" break="no" n="44"/>rum, &amp; probat primo de genitore, &amp; genito Au 
+      <lb ed="#L" n="45"/>ctoritate Augustini de verbo vero, &amp; imagine 
+      <lb ed="#L" n="46"/>per 6. Auctoritates eiusdem, quae patent in litte 
+      <lb ed="#L" n="47"/>ra, ex quibus concludit Magister intentum 
+      ad<lb ed="#L" break="no" n="48"/>dens, quod eadem proprietate, seu notione 
+      per<lb ed="#L" break="no" n="49"/>sona media in diuinis dicitur verbum, &amp; filius, 
+      <lb ed="#L" n="50"/>&amp; genitus, &amp; imago. 
+    </p>
+            <p xml:id="ol96b1-200353-d1e176">
+               <lb ed="#L" n="51"/>Postmodum ibi: Et est hic aduertenda. Elicit 
+      <lb ed="#L" n="52"/>quandam regulam generalem, &amp; tria facit. 
+    </p>
+            <p xml:id="ol96b1-200353-d1e183">
+               <lb ed="#L" n="53"/>Primo enim ponit illam, &amp; ait, quod pro 
+      re<lb ed="#L" break="no" n="54"/>gula generali tenendum est quicquid de patre, 
+      <lb ed="#L" n="55"/>&amp; filio ad se dicitur, non dici de uno sine 
+      alte<lb ed="#L" break="no" n="56"/>ro, sed de ambobus simul, &amp; amborum 
+      substan<lb ed="#L" break="no" n="57"/>tiam demonstrare, sicut patet, quod nec pater 
+      <lb ed="#L" n="58"/>est Deus sine filio, nec filius sine patre, sed ambo 
+      <lb ed="#L" n="59"/>sunt vnus Deus, non sunt autem vnus pater, vel 
+      <lb ed="#L" n="60"/>verbum, vel filius, vel imago. 
+    </p>
+            <p xml:id="ol96b1-200353-d1e203">
+               <lb ed="#L" n="61"/>Secundo ibi: Hic quaeritur. Mouet circa istam 
+      <!--0617.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="62"/>regulam quaestionem quandam, videlicet cum 
+      <lb ed="#L" n="63"/>dicitur Deus de Deo, lumen de lumine, &amp; 
+      huius<lb ed="#L" break="no" n="64"/>modi, quomodo illa nomina teneantur, quia si 
+      <lb ed="#L" n="65"/>relatiue, falsa est regula, quoniam ambo sunt vnum 
+      <lb ed="#L" n="66"/>lumen, si vero substantialiter, etiam fallit, quia 
+      <lb ed="#L" n="67"/>simul ambo pater, &amp; filius dici non possunt Deus 
+      <lb ed="#L" n="68"/>de Deo, lumem de lumine, &amp; respondet Magister, quod 
+      <lb ed="#L" n="69"/>licet Deus, lumen, &amp; sapientia, &amp; similia 
+      sem<lb ed="#L" break="no" n="70"/>per significent substantiam, nihilominus 
+      ra<lb ed="#L" break="no" n="71"/>tione alicuius adiuncti accipi possunt pro 
+      rela<lb ed="#L" break="no" n="72"/>tiuis, vt cum dicitur Deus genuit Deum. 
+      habi<lb ed="#L" break="no" n="73"/>tudo enim accusatiui, super quem transit 
+      ge<lb ed="#L" break="no" n="74"/>nuit, &amp; habitudo nominatiui, de quo 
+      enuncia<lb ed="#L" break="no" n="75"/>tur denotant, quod Deus pro vna persona 
+      te<lb ed="#L" break="no" n="76"/>neatur, &amp; Deum pro alia, similiter etiam, cum 
+      <lb ed="#L" n="77"/>dicitur Deus de Deo praepositio de, quae 
+      deno<lb ed="#L" break="no" n="78"/>tat originem passiuam determinat Deum ad 
+      <lb ed="#L" n="79"/>standum pro relatiuo, &amp; idem intelligendum 
+      <lb ed="#L" n="80"/>est, cum dicitur Deus natus, vel mortuus, vel 
+      <lb ed="#L" n="81"/>passus. stat enim ibi Deus, non pro essentia, sed 
+      <lb ed="#L" n="82"/>pro filij persona. 
+    </p>
+            <p xml:id="ol96b1-200353-d1e258">
+               <lb ed="#L" n="83"/>Tertio ibi: Et est sciendum. Ponit quoddam 
+      <lb ed="#L" n="84"/>notabile circa praedicta, dicens, quod 
+      aduerten<lb ed="#L" break="no" n="85"/>dum est, quod secundum nomina substātiae vna 
+      <lb ed="#L" n="86"/>persona dicitur illud de illo, vtpote Deus 
+      de<lb ed="#L" break="no" n="87"/>Deo, lumen de lumine, licet ibi illa nomina 
+      te<lb ed="#L" break="no" n="88"/>neantur pro relatiuis, non tamen sub illis 
+      nomi<lb ed="#L" break="no" n="89"/>nibus relatiuis dici potest illud de illo. 
+      vnde<lb ed="#L" break="no" n="90"/>non dicimus verbum de verbo, vel filium de 
+      fi<lb ed="#L" break="no" n="91"/>lio, &amp; huius ratio est, quia non est in diuinis, 
+      ni<lb ed="#L" break="no" n="92"/>si vnus filius, &amp; vnicum, haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="113"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c35993"> <!-- l1d2p1-prae -->
+            <head xml:id="ol96b1-c35993-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c35993-d1e104">
+      <!--0113.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="13"/>DE MYSTERIO TRJNJTATJS,
+      <lb ed="#L" n="14"/>ET VNITATIS
+      <lb ed="#L" n="15"/>DISTINCTIO II. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e117">
+      <!--0113.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="16"/>De Trinitate, &amp; Vnitate secundum quod 
+      <lb ed="#L" n="17"/>creditur, &amp;c. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e128">
+               <lb ed="#L" n="18"/>Hoc itaque vera, ac pia fide tenendum est. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e134">
+               <lb ed="#L" n="19"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e139">
+               <lb ed="#L" n="20"/>
+               <quote xml:id="ol96b1-c35993-Qd1e143">HOC itaque vera</quote>, &amp;c. Postquam 
+      <lb ed="#L" n="21"/>Magister venatus est 
+      mate<lb ed="#L" break="no" n="22"/>riam huius libri, in hac 
+      par<lb ed="#L" break="no" n="23"/>te aggreditur explicationem 
+      <lb ed="#L" n="24"/>materiae iam venatae. Et 
+      cir<lb ed="#L" break="no" n="25"/>ca hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e157">
+               <lb ed="#L" n="26"/>Primo enim agit de rebus, 
+      <lb ed="#L" n="27"/>quae cadunt sub 
+      considera<lb ed="#L" break="no" n="28"/>tione Theologi. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e166">
+               <lb ed="#L" n="29"/>Secundo agit de Sacramentis, &amp; signis, secun 
+      <lb ed="#L" n="30"/>da ibi: Samaritanus enim. In principio Quarti. 
+      <lb ed="#L" n="31"/>Circa primum tria facit.
+      
+      <lb ed="#L" n="32"/>Primo agit de rebus, quibus fruendum est, 
+      <lb ed="#L" n="33"/>quae sunt Deus. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e179">
+               <lb ed="#L" n="34"/>Secundo agit de rebus, quae fruuntur; qui sunt 
+      <lb ed="#L" n="35"/>Homo, &amp; Angelus, immiscendo aliqua, &amp; 
+      pau<lb ed="#L" break="no" n="36"/>ca de alijs creaturis.
+    </p>
+            <p xml:id="ol96b1-c35993-d1e188">
+               <lb ed="#L" n="37"/>Tertio vero de rebus, quibus mediantibus 
+      <lb ed="#L" n="38"/>peruenitur ad fruitionem, videlicet de Christo, 
+      <lb ed="#L" n="39"/>&amp; virtutibus, &amp; praeceptis. secunda ibi: 
+      Creatio<lb ed="#L" break="no" n="40"/>nem rerum. In principio secundi libri. tertia ibi: 
+      <lb ed="#L" n="41"/>Cum venit igitur. In principio tertij. Circa primum 
+      <lb ed="#L" n="42"/>Magister duo facit. Agit enim primo de 
+      verita<lb ed="#L" break="no" n="43"/>te Diuinorum, qualiter debeat animo intelligi. 
+      <lb ed="#L" n="44"/>Secundo vero qualiter debeat verbis significari. 
+      <lb ed="#L" n="45"/>secunda ibi: Post praedicta diffiniendum. dist. 22. vbi 
+      <lb ed="#L" n="46"/>incipit tractatus de nominibus Diuinis. Circa 
+      <lb ed="#L" n="47"/>primum duo facit, secundum quod de Diuinis 
+      <lb ed="#L" n="48"/>sunt duae inquisitiones. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e218">
+               <lb ed="#L" n="49"/>Prima quidem de essentiae vnitate. 
+      <lb ed="#L" n="50"/>Secunda vero de personarum distinctione, &amp; 
+      <lb ed="#L" n="51"/>pluralitate, &amp; incipit secunda inquisitio distin. 
+      <lb ed="#L" n="52"/>9. ibi: Nunc ad distinctionem personarum. Ab illo 
+      <lb ed="#L" n="53"/>enim loco, &amp; deinceps tractat de personis. 
+      Ad<lb ed="#L" break="no" n="54"/>huc circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e234">
+               <lb ed="#L" n="55"/>Primo tractat de essentiae vnitate ostendendo, 
+      <lb ed="#L" n="56"/>qu ieue a griemetume plurilluti ea 
+      <lb ed="#L" n="57"/>proprietate. secunda ibi: Nunc de Vnitate. dist. 
+      <lb ed="#L" n="58"/>8. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e245">
+               <lb ed="#L" n="59"/>Primo enim ostendit per Scripturas sacras, &amp; 
+      <lb ed="#L" n="60"/>per rationum inductionem, quod essentiae 
+      vni<lb ed="#L" break="no" n="61"/>tas non tollitur ex personarum pluralitate. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e254">
+               <lb ed="#L" n="62"/>Secundo, contra hos inducit multas difficul- 
+      <!--0113.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="63"/>tates. secunda ibi: Hic oritur quaestio. distinct. 4. 
+      <lb ed="#L" n="64"/>Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e267">
+               <lb ed="#L" n="65"/>Primo enim inquirit modum, quo 
+      proceden<lb ed="#L" break="no" n="66"/>dum es, &amp; secundo prosequitur illum modum. 
+      <lb ed="#L" n="67"/>secunda ibi: <quote xml:id="ol96b1-c35993-Qd1e275">Proponamus ergo in medium</quote>. quarto 
+      <lb ed="#L" n="68"/>cap. huius distinct. Circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e280">
+               <lb ed="#L" n="69"/>Primo enim tangit materiae difficultatem. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e286">
+               <lb ed="#L" n="70"/>Secundo conclusionis intentae vnitatem. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e291">
+               <lb ed="#L" n="71"/>Tertio modi agendi idoneitatem. secunda ibi: 
+      <lb ed="#L" n="72"/>
+               <quote xml:id="ol96b1-c35993-Qd1e297">Omnes autem Catholici</quote>. tertia ibi: <quote xml:id="ol96b1-c35993-Qd1e299">Caeterum, vt in
+      <lb ed="#L" n="73"/>primo libro</quote>.
+    </p>
+            <p xml:id="ol96b1-c35993-d1e305">
+               <lb ed="#L" n="74"/>Dicit itaque primo, quod hoc tenendum est l      
+      <lb ed="#L" n="75"/>pia fide, quod vnus solus verus Deus sit, &amp; quod 
+      <lb ed="#L" n="76"/>iste Trinitas sit, hoc attingi non potest, nec 
+      in<lb ed="#L" break="no" n="77"/>telligi, nisi ab ijs, qui purgatam mentem habent, 
+      <lb ed="#L" n="78"/>purgatam inquam per fidei vnitatem, quia men 
+      <lb ed="#L" n="79"/>tis acies in tam excellenti luce non figitur, nisi 
+      <lb ed="#L" n="80"/>prius per fidei iustitiam emendetur, &amp; sic patet, 
+      <lb ed="#L" n="81"/>quod est difficilis haec materia in seipsa: habet 
+      <lb ed="#L" n="82"/>autem, &amp; aliam difficultatem in comparatione 
+      <lb ed="#L" n="83"/>ad nos, quia nil a nobis laboriosius quaeritur, nec 
+      <lb ed="#L" n="84"/>alicubi periculosius erratur: vnum tamen est, 
+      <lb ed="#L" n="85"/>quod nos debet allicere, quia nec aliquid 
+      fru<lb ed="#L" break="no" n="86"/>ctuosius inuenitur, &amp; ideo Magister inuitat in 
+      <lb ed="#L" n="87"/>fine huius particulae studiosos, dicens, quod qui 
+      <lb ed="#L" n="88"/>hoc legerit, vbi peritus certus est, pergat cum 
+      <lb ed="#L" n="89"/>eo, vbi peritus haesitat, quaerat cum eo, vbi se 
+      <lb ed="#L" n="90"/>errare cognoscit redeat ad eum, ubi vero 
+      Magi<lb ed="#L" break="no" n="91"/>ster, corrigat eum. 
+    </p>
+            <p xml:id="ol96b1-c35993-d1e347">
+               <lb ed="#L" n="92"/>Postmodum ibi: <quote xml:id="ol96b1-c35993-Qd1e351">Omnes autem Catholici</quote>. 
+      Magi<lb ed="#L" break="no" n="93"/>ster ponit conclusionis totaliter intentae 
+      deter<lb ed="#L" break="no" n="94"/>minatam veritatem dicens, quod ipse vna cum 
+      <lb ed="#L" n="95"/>tractatoribus catholicis vniuersis non intendit 
+      <lb ed="#L" n="96"/>aliud, nisi per sanctas Scripturas docere, &amp; sicut 
+      <lb ed="#L" n="97"/>poterit declarare, quod vnus Deus est, non tres 
+      <lb ed="#L" n="98"/>Dij, &amp; tamen Deus pater est, qui Pater non est 
+      <lb ed="#L" n="99"/>Filius, &amp; Deus Filius est, qui Filius non est 
+      Pa<lb ed="#L" break="no" n="100"/>ter, &amp; Deus Spiritus sanctus, qui non est Pater, 
+      <lb ed="#L" n="101"/>nec Filius, vna homousion. hoc est essentia, tres 
+      <lb ed="#L" n="102"/>personae.
+    </p>
+            <p xml:id="ol96b1-c35993-d1e376">
+               <lb ed="#L" n="103"/>Postmodum ibi: <quote xml:id="ol96b1-c35993-Qd1e380">Caeterum</quote>. Aperit modi 
+      pro<lb ed="#L" break="no" n="104"/>cedendi idoneitatem, &amp; congruentiam dicens, 
+      <lb ed="#L" n="105"/>quod ad hanc conclusionem est dupliciter 
+      <lb ed="#L" n="106"/>procedendum. Primo quidem per 
+      au<lb ed="#L" break="no" n="107"/>ctoritates. Secundo vero per 
+      ra<lb ed="#L" break="no" n="108"/>tiones, quibus fides 
+      Catho<lb ed="#L" break="no" n="109"/>lica defendatur, &amp; 
+      gar<lb ed="#L" break="no" n="110"/>rulorum superbia 
+      <lb ed="#L" n="111"/>conteratur. haec 
+      <lb ed="#L" n="112"/>est 
+      senten<lb ed="#L" break="no" n="113"/>tia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

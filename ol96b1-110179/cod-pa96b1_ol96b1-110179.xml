@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="338"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-110179"> <!-- l1d10p1-prae -->
+            <head xml:id="ol96b1-110179-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-110179-d1e104">
+      <!--0338.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="47"/>HJC DE SPJRJTV SANCTO AGJTVR, 
+      <lb ed="#L" n="48"/>&amp; prius, quod sit amor Patris, &amp; Filij. 
+      <lb ed="#L" n="49"/>DJSTINCTIO X.
+    </p>
+            <p xml:id="ol96b1-110179-d1e117">
+      <!--0338.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="50"/>
+               <quote xml:id="ol96b1-110179-Qd1e125">NVNC post Filij coaeternitatem</quote>, 
+      <lb ed="#L" n="51"/>&amp; c. Postquam Magister 
+      tra<lb ed="#L" break="no" n="52"/>ctauit de persona patris, &amp; 
+      <lb ed="#L" n="53"/>filij, hic tractat de persona 
+      <lb ed="#L" n="54"/>Spiritus sancti, &amp; circa hoc 
+      <lb ed="#L" n="55"/>tria facit, secundum quod 
+      <lb ed="#L" n="56"/>tres sunt proprietates 
+      spiri<lb ed="#L" break="no" n="57"/>tus sanctti, spiratio, missio, &amp; donum. Agit ergo 
+      <lb ed="#L" n="58"/>primo de spiratione, secundo de mislione, &amp; 
+      ter<lb ed="#L" break="no" n="59"/>tio de dono. Secundum facit 14. Praeterea 
+      diligen<lb ed="#L" break="no" n="60"/>ter. tertium dist. I8. Praeterea diligenter 
+      consideran<lb ed="#L" break="no" n="61"/>dum est. Circa primum facit quatuor. primo 
+      e<lb ed="#L" break="no" n="62"/>nim comparat spirationem ad suum terminum, 
+      <lb ed="#L" n="63"/>spiritus sanctus emanat, vt amor. Secundo 
+      com<lb ed="#L" break="no" n="64"/>parat ipsam ad principium inquirendo, Vtrum 
+      <lb ed="#L" n="65"/>spiritus sanctus procedat a solo patre, vel simul 
+      <lb ed="#L" n="66"/>a patre, &amp; a filio. Tertio comparat eam ad 
+      mo<lb ed="#L" break="no" n="67"/>dum, inquirendo, vtrum melius, &amp; plenius 
+      pro<lb ed="#L" break="no" n="68"/>cedat a patre, quam a filio. Quarto comparat ip 
+      <lb ed="#L" n="69"/>sam ad suum disparatum, quod est generatio, &amp; 
+      <lb ed="#L" n="70"/>inquirit, quomodo generatio, &amp; spiratio 
+      distin<lb ed="#L" break="no" n="71"/>guantur. secundum facit dist. II. Hic dicendum. ter 
+      <lb ed="#L" n="72"/>tium dist. 12. Item quaeritur. quartum dist. 13. 
+    </p>
+            <p xml:id="ol96b1-110179-d1e176">
+               <lb ed="#L" n="73"/>
+               <quote xml:id="ol96b1-110179-Qd1e180">Post hoc considerandum est</quote>. Circa primum tria facit. 
+      <lb ed="#L" n="74"/>Primo namque ponit intentum, ostendendo, quod 
+      spi<lb ed="#L" break="no" n="75"/>ritus sanctus sit amor. Secundo inquirit, an esse 
+      <lb ed="#L" n="76"/>amorem sit commune tribus personis, vel 
+      spiri<lb ed="#L" break="no" n="77"/>tui sancto proprium. Tertio redit ad intentum, 
+      <lb ed="#L" n="78"/>ostendendo, spiritum sanctum esse amorem mutuum 
+      <lb ed="#L" n="79"/>filij, &amp; patris. Secundum facit ibi, Et ideo 
+      inqui<lb ed="#L" break="no" n="80"/>rendum. tertium ibi: Nunc vero quod incepimus. 
+      Di<lb ed="#L" break="no" n="81"/>cit ita primo, quod disserendum est de spiritu 
+      <lb ed="#L" n="82"/>sancto, &amp; est tenendum in summa, quod est patris, 
+      <lb ed="#L" n="83"/>&amp; filij dilectio, siue charitas, siue amor, unde 
+      com<lb ed="#L" break="no" n="84"/>munem insinuat charitatem, qua inuicem se dili- 
+      <!--0338.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="85"/>gunt &amp; filius, &amp; pater, &amp; ad hoc facit, quod dicit 
+      <lb ed="#L" n="86"/>Joan. in sua Canonica 1. cap. 4. dicit enim, quod 
+      <lb ed="#L" n="87"/>Deus charitas est, &amp; si dixisset, quod Spiritus san 
+      <lb ed="#L" n="88"/>ctus charitas est, clarior esset sermo. 
+    </p>
+            <p xml:id="ol96b1-110179-d1e221">
+               <lb ed="#L" n="89"/>Postmodum ibi: <quote xml:id="ol96b1-110179-Qd1e225">Et ideo quaerendum</quote>. Magister 
+      inqui<lb ed="#L" break="no" n="90"/>rit, vtrum esse amorem sit commune, vel spiritui 
+      san<lb ed="#L" break="no" n="91"/>cto proprium. &amp; facit tria. Primo enim ostendit, quod 
+      <lb ed="#L" n="92"/>est commune toti Trinitati, quamuis approprietur 
+      <lb ed="#L" n="93"/>personae spiritus sancti, dicens, quod sicut pater, &amp; 
+      fi<lb ed="#L" break="no" n="94"/>lius, &amp; spiritus sanctus dicuntur vna sapientia, 
+      <lb ed="#L" n="95"/>ita omnes simul dicuntur vna charitas, nec tamen 
+      <lb ed="#L" n="96"/>propter huiusmodi, inconuenienter spiritus san 
+      <lb ed="#L" n="97"/>ctus charitas appellatur, sicut &amp; verbum dicitur 
+      <lb ed="#L" n="98"/>sapientia, quamuis omnes tres sint vna sapientia. 
+      cha<lb ed="#L" break="no" n="99"/>ritas namque, &amp; sapientia idem sunt, quia substantia, 
+      <lb ed="#L" n="100"/>siue in patre, siue in filio, siue in spir. sancto, &amp; 
+      ta<lb ed="#L" break="no" n="101"/>mem spiritui sancto appropriatur, quod charitas 
+      <lb ed="#L" n="102"/>nũcupetur. Secundo ibi: Pluribus enim exemplis. Ma 
+      <lb ed="#L" n="103"/>gister declarat, quod dictum est per exemplum, dicens, 
+      <lb ed="#L" n="104"/>quod sicut legis nomine aliquando significantur 
+      <lb ed="#L" n="105"/>omnia eloquia vereris testamenti, vt lo. 15. dicit 
+      <lb ed="#L" n="106"/>Saluator, Vt impleatur sermo, qui in lege eorum 
+      scri<lb ed="#L" break="no" n="107"/>ptus est, quia odio habuerunt me gratis, ibi: quod 
+      scri<lb ed="#L" break="no" n="108"/>ptum est in Psal. dicitur scriptum in lege: 
+      aliquan<lb ed="#L" break="no" n="109"/>do autem legis nomine Pentateuchus appellatur 
+      <lb ed="#L" n="110"/>proprie, iuxta illud Io. I. Lex per Moysen data est. 
+      <lb ed="#L" n="111"/>sic in multis similibus reperitur, quod nomina com 
+      <lb ed="#L" n="112"/>munia appropriantur ex certa causa. &amp; quia hoc 
+      <lb ed="#L" n="113"/>clarum est, idcirco supersedendum est, in re namque 
+      <lb ed="#L" n="114"/>aperta debet sermonis prolixitas euitari. Tertio 
+      <lb ed="#L" n="115"/>ibi: Sicut ergo vnicum. Redit Magister ad ostenden 
+      <lb ed="#L" n="116"/>dum, quod esse amorem, &amp; est commune, &amp; est 
+      <lb ed="#L" n="117"/>spiritui sancto proprium, dicens, quod illa auctoritate 
+      <lb ed="#L" n="118"/>I. Io. 4. Diligamus inuicem, quia dilectio ex Deo est. 
+      <lb ed="#L" n="119"/>manifeste colligitur, quod in Deo est dilectio- 
+      <!--0339.xml-->
+      <pb ed="#L" n="339"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quae est ex Deo, &amp; ita Deus ex Deo, ex quo patet, 
+      <lb ed="#L" n="2"/>quod spiritus sanctus est dilectio, quia Deus ex 
+      <lb ed="#L" n="3"/>Deo; ad idem facit etiam quod scribitur ibidem. 
+      <lb ed="#L" n="4"/>dicitur enim, quod in Deo manemus, quia de spi 
+      <lb ed="#L" n="5"/>ritu sancto dedit nobis, ex quo infert 
+      Augusti<lb ed="#L" break="no" n="6"/>nus, quod spiritus sanctus est illa dilectio, quae 
+      <lb ed="#L" n="7"/>est ex Deo. 
+    </p>
+            <p xml:id="ol96b1-110179-d1e315">
+               <lb ed="#L" n="8"/>Postmodum ibi:<quote xml:id="ol96b1-110179-Qd1e319"> Nunc vero, quod incepimus</quote>. 
+      Ma<lb ed="#L" break="no" n="9"/>gister redit ad intentum, ostendendo, quomodo 
+      <lb ed="#L" n="10"/>spiritui sancto congruit esse amorem, &amp; facit duo. 
+      <lb ed="#L" n="11"/>Primo enim declarat hoc secundum Ioannem, 
+      <lb ed="#L" n="12"/>qui ait, quod spiritus sanctus est dilectio, quam 
+      <lb ed="#L" n="13"/>habet pater in filium, &amp; filius in patrem; &amp; per 
+      <lb ed="#L" n="14"/>Augustinum, qui ait, quod spiritus sanctus est 
+      san<lb ed="#L" break="no" n="15"/>ctitas, seu vnio patris, &amp; filij, quo seruat vnitatem 
+      <lb ed="#L" n="16"/>spiritus in vinculo pacis. Et per eundem 
+      Augu<lb ed="#L" break="no" n="17"/>stinum, qui ait, quod spiritus sanctus est 
+      consub<lb ed="#L" break="no" n="18"/>stantialis coniunctio, siue amicitia, siue charitas 
+      <lb ed="#L" n="19"/>filij, &amp; patris. 
+    </p>
+            <p xml:id="ol96b1-110179-d1e346">
+               <lb ed="#L" n="20"/>Secundo ibi: Hic notandum est. Magister 
+      huius<lb ed="#L" break="no" n="21"/>modi appropriationis causam assignat, &amp; 
+      ratio<lb ed="#L" break="no" n="22"/>nem, dicens, quod non incongrue spiritus sanctus 
+      <lb ed="#L" n="23"/>dicitur charitas. licet enim esse charitatem sit 
+      <lb ed="#L" n="24"/>commune tribus personis: rationale namque 
+      <lb ed="#L" n="25"/>est, vt illud, quod est commune patri, &amp; filio, 
+      ap<lb ed="#L" break="no" n="26"/>proprietur ei, qui est amborum communio, &amp; 
+      <lb ed="#L" n="27"/>ita spiritui sancto. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

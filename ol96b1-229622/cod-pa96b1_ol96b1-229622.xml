@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="708"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-229622"> <!-- l1d31p1-prae -->
+            <head xml:id="ol96b1-229622-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-229622-d1e104">
+      <!--0708.xml-->
+               <pb ed="#L" n="708"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVOMODO DJCATVR FJLJVS AEQVALJS 
+      <lb ed="#L" n="2"/>Patri, an secundum substantiam, an secundum &gt;
+      <lb ed="#L" n="3"/>relationem, ita &amp; similis. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e120">
+               <lb ed="#L" n="4"/>DISTINCTIO XYXJ. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e125">
+      <!--0708.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e135">
+               <lb ed="#L" n="6"/>PRAETEREA considerari 
+      opor<lb ed="#L" break="no" n="7"/>tet, &amp; c. Postquam Magister 
+      <lb ed="#L" n="8"/>determinauit de nominibus 
+      <lb ed="#L" n="9"/>propriis personarum, hic 
+      <lb ed="#L" n="10"/>agit de nominibus 
+      commu<lb ed="#L" break="no" n="11"/>nibus, quae personis 
+      appro<lb ed="#L" break="no" n="12"/>priantur. Et circa hoc duo 
+      <lb ed="#L" n="13"/>facit. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e155">
+               <lb ed="#L" n="14"/>Primo enim agit de istis nominibus appro 
+      <lb ed="#L" n="15"/>priatis.
+    </p>
+            <p xml:id="ol96b1-229622-d1e162">
+               <lb ed="#L" n="16"/>Secundo vero pertractat quandam 
+      quaestio<lb ed="#L" break="no" n="17"/>nem, quae ortum habet ex his, quae dicuntur in prae 
+      <lb ed="#L" n="18"/>senti materia. secunda ibi in distinctione 
+      sequen<lb ed="#L" break="no" n="19"/>ti. Hic oritur quaestio. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e173">
+               <lb ed="#L" n="20"/>Primo enim exponit quaedam nomina, quae ap 
+      <lb ed="#L" n="21"/>propriantur personis. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e180">
+               <lb ed="#L" n="22"/>Secundo agit de appropriatione nominum 
+      <lb ed="#L" n="23"/>communium ad personas secundum duos 
+      Do<lb ed="#L" break="no" n="24"/>ctores, scilicet Hilarium, &amp; Augustinum. secun 
+      <lb ed="#L" n="25"/>da ibi: Non est praetermittendum. Circa primum 
+      <lb ed="#L" n="26"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e193">
+               <lb ed="#L" n="27"/>Primo namque inquirit, an similitudo, &amp; inae 
+      <lb ed="#L" n="28"/>qualitas dicantur in Deo secundum substantiam, 
+      <lb ed="#L" n="29"/>vel secundum relationem, &amp; dicit, quod cum nil 
+      <lb ed="#L" n="30"/>sit sibi simile, aut aequale, necesse est, quod 
+      simi<lb ed="#L" break="no" n="31"/>litudo, &amp; aequalitas relatio dicatur, &amp; hoc 
+      pro<lb ed="#L" break="no" n="32"/>bat duplici auctoritate, &amp; patent in littera. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e210">
+               <lb ed="#L" n="33"/>Secundo ibi: Vnde non indocte. Magister 
+      ap<lb ed="#L" break="no" n="34"/>probat sententiam quorumdam dicens, quod 
+      <lb ed="#L" n="35"/>non indocte aliquibus visum fuit, aequalitatem, 
+      <lb ed="#L" n="36"/>&amp; similitudinem non ponere aliquid in 
+      diui<lb ed="#L" break="no" n="37"/>nis, sed potius remouere, vt sic, quod filius est 
+      <lb ed="#L" n="38"/>aequalis patri, quod non est eo, nec maior, nec 
+      <lb ed="#L" n="39"/>minor, &amp; quod est similis, quia nec diuersus, nec 
+      <lb ed="#L" n="40"/>alienus. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e230">
+               <lb ed="#L" n="41"/>Postmodum ibi: Non est praetermittendum. Agit 
+      <lb ed="#L" n="42"/>Magister de appropriationibus nominum com 
+      <lb ed="#L" n="43"/>munium ad personas, &amp; facit duo. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e239">
+               <lb ed="#L" n="44"/>Primo namque ponit appropriationem Hilar. 
+      <lb ed="#L" n="45"/>Secundo vero Augustini. secunda ibi: Illud 
+      <lb ed="#L" n="46"/>etiam sciri oportet. Circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e248">
+               <lb ed="#L" n="47"/>Primo namque ponit appropriationem Hila 
+      <lb ed="#L" n="48"/>rij, &amp; expositionem Augustini, dicens, quod 
+      Il<lb ed="#L" break="no" n="49"/>lustris vir Hilarius proprietates personarum as 
+      <lb ed="#L" n="50"/>signans dixit, aeternitaté esse in patre speciem 
+      <lb ed="#L" n="51"/>in imagine, &amp; vsum in munere. &amp; exponens Au 
+      <lb ed="#L" n="52"/>gust. dicit: Aeternitas videtur notare in patre 
+      <lb ed="#L" n="53"/>negationem principij negatiui productiui. 
+      vn<lb ed="#L" break="no" n="54"/>de idem videtur esse, quod innascibililitas, 
+      spe<lb ed="#L" break="no" n="55"/>cies vero significant in filio, quod ipse procedit 
+      <lb ed="#L" n="56"/>per modum imaginis, &amp; cuiusdam pulchritudi 
+      <lb ed="#L" n="57"/>nis, &amp; similitudinis summo, vsus vero notat in 
+      <lb ed="#L" n="58"/>spiritu sancto, quod procedit per modum chari 
+      <lb ed="#L" n="59"/>tatis, &amp; gaudij, ac delectationis 
+      beatitudi<lb ed="#L" break="no" n="60"/>nis summae.
+    </p>
+            <p xml:id="ol96b1-229622-d1e281">
+      <!--0708.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="61"/>Secundo ibi: Non enim. Magister 
+      expositio<lb ed="#L" break="no" n="62"/>nem suam ponit, dicens, quod Hilarius videtur 
+      <lb ed="#L" n="63"/>intellexisse per aeternitatem proprietatem inge 
+      <lb ed="#L" n="64"/>niti; per speciem vero, &amp; imaginem videtur 
+      in<lb ed="#L" break="no" n="65"/>tellexisse coaequationem, secundum quam filius 
+      <lb ed="#L" n="66"/>patri dicitur coaequari. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e301">
+               <lb ed="#L" n="67"/>Tertio ibi: Propria ergo. Magister infert 
+      quae<lb ed="#L" break="no" n="68"/>dam ex praecedentibus, dicens, quod Hilarius 
+      <lb ed="#L" n="69"/>non assignauit proprietates personarum, sed po 
+      <lb ed="#L" n="70"/>suit ipsa nomina personarum, cum dixit, 
+      ima<lb ed="#L" break="no" n="71"/>ginem, &amp; munus, non quia species, vel vsus sint 
+      <lb ed="#L" n="72"/>proprietates personales. vnde concedi debet, 
+      <lb ed="#L" n="73"/>quod Hilarius nomina quaedam communia 
+      ap<lb ed="#L" break="no" n="74"/>propriauit personis, non tamen posuit 
+      proprie<lb ed="#L" break="no" n="75"/>tates distinctiuas. quamuis enim per 
+      aeternita<lb ed="#L" break="no" n="76"/>tem intellexerit notionem ingeniti, cum alia 
+      <lb ed="#L" n="77"/>duo, scilicet species, &amp; vsus non sint propriae no 
+      <lb ed="#L" n="78"/>tiones. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e331">
+               <lb ed="#L" n="79"/>Postmodum ibi: Illud etiam sciri oportet. 
+      Ma<lb ed="#L" break="no" n="80"/>gister ponit appropriationem Augustini, &amp; 
+      fa<lb ed="#L" break="no" n="81"/>cit duo. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e340">
+               <lb ed="#L" n="82"/>Primo enim ponit eam.
+    </p>
+            <p xml:id="ol96b1-229622-d1e345">
+               <lb ed="#L" n="83"/>Secundo vero exponit ibi: Sed plurimos mouet. 
+      <lb ed="#L" n="84"/>Dicit itaque primo August. attribuendo patri 
+      <lb ed="#L" n="85"/>vnitatem, filio aequalitatem, &amp; spiritui sancto 
+      <lb ed="#L" n="86"/>concordiam. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e356">
+               <lb ed="#L" n="87"/>Postmodum ibi: Sed plurimos mouet. Exponit 
+      <lb ed="#L" n="88"/>praedicta, &amp; primo quomodo sit vnitas in 
+      patre<lb ed="#L" break="no" n="89"/>Secundo vero, quomodo sit aequalitas in filio- 
+    </p>
+            <p xml:id="ol96b1-229622-d1e365">
+               <lb ed="#L" n="90"/>Tertio, qualiter vtriusque concordia in spiri 
+      <lb ed="#L" n="91"/>tu sancto. se cunda ibi: Nunc videamus. tertia 
+      <lb ed="#L" n="92"/>ibi: Quod autem in spiritu. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e374">
+               <lb ed="#L" n="93"/>Primo enim dicit, quod vnitas significat 
+      in<lb ed="#L" break="no" n="94"/>patre, quod est principium, a quo alij, &amp; ipse a 
+      <lb ed="#L" n="95"/>nullo, sicut vnitas est principium numerorum, 
+      <lb ed="#L" n="96"/>nec habet principium. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e386">
+               <lb ed="#L" n="97"/>Secundo ibi: Hoc dici oportet. gratia huius 
+      in<lb ed="#L" break="no" n="98"/>quirit, quomodo vnum neutraliter, &amp; vnus 
+      ma<lb ed="#L" break="no" n="99"/>sculine dicuntur in diuinis, dicens, quod 
+      non<lb ed="#L" break="no" n="100"/>conceditur de tribus personis, vel duabus, quod 
+      <lb ed="#L" n="101"/>sint masculine, nisi addatur aliquid alii. 
+      pa<lb ed="#L" break="no" n="102"/>ter enim, &amp; filius non sunt vnum per sc, enũcian 
+      <lb ed="#L" n="103"/>do vnum, sunt tamen vnus Deus, &amp; vnus sapiens. 
+      <lb ed="#L" n="104"/>vnum vero neutraliter praedicatur de tribus, iu 
+      <lb ed="#L" n="105"/>xta illud loannis 10. scriptũ: Ego, &amp; pater vnum. 
+      <lb ed="#L" n="106"/>sumus. Sic ergo nauigare oportet inter 
+      Sabel<lb ed="#L" break="no" n="107"/>lianam haeresim, &amp; Arrianam, vt concedatur 
+      <lb ed="#L" n="108"/>pater, &amp; filius esse vnum, non tamen vnus. 
+      Di<lb ed="#L" break="no" n="109"/>cit enim Sabellius, quod sunt vnus 
+      confunden<lb ed="#L" break="no" n="110"/>do personas. Arrius vero, quod nec sunt vnum, 
+      <lb ed="#L" n="111"/>separando substantias. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e421">
+               <lb ed="#L" n="112"/>Postmodum ibi: Nunc videamus. aut qualiter 
+      <lb ed="#L" n="113"/>aequalitas appropriatur filio, dicens, quod hoc 
+      <lb ed="#L" n="114"/>est, quia tres personae videntur esse aequales 
+      pro<lb ed="#L" break="no" n="115"/>pter filium. est enim, quasi media persona. 
+    </p>
+            <p xml:id="ol96b1-229622-d1e432">
+               <lb ed="#L" n="116"/>Vltimo ibi: Quod autem in spiritu. Ostendit. 
+      <lb ed="#L" n="117"/>qualiter concordia appropriatur spirituisancto, 
+      <!--0709.xml-->
+      <pb ed="#L" n="709"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>&amp; dicit, quod hoc est, quia est communio, &amp; 
+      <lb ed="#L" n="2"/>summa charitas, patrem filiumque coniungens, 
+      <lb ed="#L" n="3"/>&amp; nos Deo per obiectiuam subiungens, &amp; sub 
+      <lb ed="#L" n="4"/>ueniens quasi membra cum capite. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

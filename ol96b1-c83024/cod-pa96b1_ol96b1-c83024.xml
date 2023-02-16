@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="256"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c83024"> <!-- l1d8p1-prae -->
+            <head xml:id="ol96b1-c83024-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c83024-d1e104">
+      <!--0256.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="15"/>DE VERITATE, ET PROPRJETATE, 
+      <lb ed="#L" n="16"/>&amp; incommutabilitate, &amp; simplicitate essentiae Dei. 
+      <lb ed="#L" n="17"/>DISTINCTIO VIII. 
+    </p>
+            <p xml:id="ol96b1-c83024-d1e117">
+      <!--0256.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="18"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c83024-d1e126">
+               <lb ed="#L" n="19"/>
+               <quote xml:id="ol96b1-c83024-Qd1e130">NVNC de vnitate</quote>, &amp;c. Postquam 
+      <lb ed="#L" n="20"/>tractauit Magister de Diuinae 
+      <lb ed="#L" n="21"/>essentiae vnitate, &amp; 
+      quomo<lb ed="#L" break="no" n="22"/>do stare potest cum 
+      persona<lb ed="#L" break="no" n="23"/>rum Trinitate. In hac parte 
+      <lb ed="#L" n="24"/>agit de multiplici 
+      proprieta<lb ed="#L" break="no" n="25"/>te. Et circa hoc tria facit 
+      se<lb ed="#L" break="no" n="26"/>cundum quod determinat de 
+      <lb ed="#L" n="27"/>triplici conditione. 
+    </p>
+            <p xml:id="ol96b1-c83024-d1e151">
+               <lb ed="#L" n="28"/>Primo quidem de essendi vnitate, &amp; proprietate. 
+      <lb ed="#L" n="29"/>Secundo de incommutabilitate. 
+      <lb ed="#L" n="30"/>Tertio quoque de omnimoda simplicitate. 
+      <lb ed="#L" n="31"/>secunda ibi: Dei etiam solius essentia. tertia ibi: 
+      <lb ed="#L" n="32"/>Eadem sola proprie. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c83024-d1e164">
+               <lb ed="#L" n="33"/>Primo quidem ostendit, in quo proprietas, &amp; 
+      <lb ed="#L" n="34"/>vnitas esse Diuini consistit, dicens, quod nunc 
+      <lb ed="#L" n="35"/>agendum est de vnitate, siue proprietate esse 
+      <lb ed="#L" n="36"/>Diuini, &amp; de incommutabilitate, atque 
+      simpli<lb ed="#L" break="no" n="37"/>citate. consistit autem vnitas, &amp; proprietas sui 
+      <lb ed="#L" n="38"/>esse in hoc, quod est substantia, vel quod melius 
+      <lb ed="#L" n="39"/>est, essentia dicta ab essentia. Deus est namque 
+      <lb ed="#L" n="40"/>vere, &amp; proprie esse, quod patet etiam per 
+      scri<lb ed="#L" break="no" n="41"/>pturam, quod ipse dicit de se: Ego sum, qui sum, 
+      <lb ed="#L" n="42"/>&amp; qui est misit me ad vos. patet etiam, pro eo, 
+      <lb ed="#L" n="43"/>quod sua essentia, &amp; suum esse non nouit 
+      praete<lb ed="#L" break="no" n="44"/>ritum, neque futurum, qui solus non habet exor 
+      <lb ed="#L" n="45"/>dium, in cuius comparatione non sunt, quae 
+      mu<lb ed="#L" break="no" n="46"/>tabilia sunt. solus ergo Deus vere est, quia eius 
+      <lb ed="#L" n="47"/>essentiae comparatum omne esse, quasi non est. 
+    </p>
+            <p xml:id="ol96b1-c83024-d1e199">
+               <lb ed="#L" n="48"/>Secundo ibi: Hic diligenter. Magister contra 
+      prae<lb ed="#L" break="no" n="49"/>dicta obiicit, dicens, hic est diligenter consideran 
+      <lb ed="#L" n="50"/>dum, quod Deus non nouit fuisse, vel futurum 
+      <lb ed="#L" n="51"/>esse, sed tantum esse, cum frequenter Scriptura 
+      <lb ed="#L" n="52"/>dicat, quod Deus fuit, &amp; est, &amp; erit, &amp; praeterea 
+      <lb ed="#L" n="53"/>rationale est, quod dicatur de eo, fuit, quia si non 
+      <lb ed="#L" n="54"/>diceretur, videretur, quod incepisset esse, &amp; 
+      ra<lb ed="#L" break="no" n="55"/>tionale est, vt dicatur, quod erit, ne videatur ali 
+      <lb ed="#L" n="56"/>quando desinere: &amp; hoc confirmat auctoritate 
+      <lb ed="#L" n="57"/>August. dicentis, quod de sempiterna re, bene di 
+      <lb ed="#L" n="58"/>citur fuit, est, &amp; erit: soluit autem ad ista 
+      Magi<lb ed="#L" break="no" n="59"/>ster, quod Ioannes cum dixit Deum non nosse, 
+      <lb ed="#L" n="60"/>fuisse, vel futurum esse, sed tantum esse, 
+      intelle<lb ed="#L" break="no" n="61"/>xit loqui realiter, innuens, quod Deus simpliciter 
+      <lb ed="#L" n="62"/>existit, absque aliquo temporali motu, non 
+      in<lb ed="#L" break="no" n="63"/>tellexit autem, quin verba diuersorum temporum 
+      <lb ed="#L" n="64"/>dici possint de Deo, dum tamen non aliud insinue 
+      <lb ed="#L" n="65"/>tur, quam essentia, seu existentia Deitatis simpli 
+      <lb ed="#L" n="66"/>citer subsistens, &amp; concludit in fine, quod solus 
+      <!--0256.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="67"/>Deus proprie dicitur essentia, vel esse, quia 
+      esse<lb ed="#L" break="no" n="68"/>sibi non accidit, sed est subsistens vnitas, &amp; manens, 
+      <lb ed="#L" n="69"/>&amp; quaedam Deitatis proprietas. haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

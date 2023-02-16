@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="889"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-288289"> <!-- l1d39p1-prae -->
+            <head xml:id="ol96b1-288289-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-288289-d1e104">
+      <!--0889.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="77"/>VTRVM SCIENTJA DEI POSSJT AVGERI 
+      <lb ed="#L" n="78"/>vel minui, vel Aliquo modo mutari
+    </p>
+            <p xml:id="ol96b1-288289-d1e115">. 
+      <lb ed="#L" n="79"/>DISTINCTIO XXXIX.
+    </p>
+            <p xml:id="ol96b1-288289-d1e120">
+      <!--0889.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="80"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-288289-d1e130">
+               <lb ed="#L" n="81"/>PRAETEREA quaeri solet, &amp;c. 
+      <lb ed="#L" n="82"/>Postquam determinauit Ma 
+      <lb ed="#L" n="83"/>gister de praescientiae 
+      causa<lb ed="#L" break="no" n="84"/>litate, &amp; infallibilitate, hic 
+      <lb ed="#L" n="85"/>agit de praescientiae immuta 
+      <lb ed="#L" n="86"/>bilitate. Et circa hoc duo fa 
+      <lb ed="#L" n="87"/>cit, quia primo determinat 
+      <lb ed="#L" n="88"/>veritatem, secundo quia obiicit contra quoddam 
+      <lb ed="#L" n="89"/>assumptū. secunda ibi: Si vero, quod praedictum est. 
+      <lb ed="#L" n="90"/>circa primum duo facit. Primo namque inquirit, an 
+      <lb ed="#L" n="91"/>Dei praescientia possit augeri, vel minui. Secundo, 
+      <lb ed="#L" n="92"/>an concedi debeat, quod Deus possit plura scire, 
+      <lb ed="#L" n="93"/>quam sciat. secunda ibi: Item a quibusdam. circa pri 
+      <lb ed="#L" n="94"/>mum duo facit. Primo namque inquirit, an 
+      praescien<lb ed="#L" break="no" n="95"/>tia possit aliquo modo mutari secundum augumem 
+      <lb ed="#L" n="96"/>tum, &amp; diminutionem. Secundo an saltem mutari pos 
+      <!--0889.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="97"/>sit secundum nouitatem, sic quod aliquid ex tempore 
+      <lb ed="#L" n="98"/>cognoscat. secunda ibi: Hic opponitur a quibusdam. 
+      <lb ed="#L" n="99"/>Circa primum tria facit. Primo namque mouet 
+      <lb ed="#L" n="100"/>quaestionem, &amp; arguit ad eam. vnde probat, quod sciem 
+      <lb ed="#L" n="101"/>tia Dei possit augeri; quia aliquis, qui non legit ho 
+      <lb ed="#L" n="102"/>die, potuisset legere, &amp; per consequens Deus 
+      po<lb ed="#L" break="no" n="103"/>tuisset hoc sciuisse, &amp; iterum aliquis posset cras 
+      <lb ed="#L" n="104"/>legere, qui non leget, &amp; ita posset neus hoc praesci 
+      <lb ed="#L" n="105"/>re. potest ergo Dei praescientia augumentari. 
+      pro<lb ed="#L" break="no" n="106"/>bat etiam, quod possit minui ex hoc, quod aliquis 
+      <lb ed="#L" n="107"/>hodie lecturus, posset non legere, &amp; ita 
+      potuis<lb ed="#L" break="no" n="108"/>set ipsum non praesciuisse lecturum, quem tamen 
+      <lb ed="#L" n="109"/>praesciuit. secunda ibi: Ad quod dicimus. respondet 
+      <lb ed="#L" n="110"/>Magister, quod Dei scientia inuariabilis est omnino, 
+      <lb ed="#L" n="111"/>&amp; immutabilis, nec augeri potest, nec minui; 
+      <lb ed="#L" n="112"/>quia id ipsum est, quod diuina essentia, quae 
+      om<lb ed="#L" break="no" n="113"/>nino inuariabilis est. &amp; hoc probat auctoritate 
+      <lb ed="#L" n="114"/>Aug. quae pa tet in littera. Tertio ibi: Sicut ergo. re 
+      <!--0890.xml-->
+      <pb ed="#L" n="890"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>spondet ad argumenta, dicens, quod licet 
+      diui<lb ed="#L" break="no" n="2"/>na scientia mutari non possit; subiecta tamen 
+      <lb ed="#L" n="3"/>suae scientiae mutari possunt. vnde possunt suae 
+      <lb ed="#L" n="4"/>scientiae aliqua esse subiecta, quae non sunt: &amp; ali 
+      <lb ed="#L" n="5"/>qua sunt subiecta, quae possent non subiici, 
+      abs<lb ed="#L" break="no" n="6"/>que tamen scientiae varietate. 
+    </p>
+            <p xml:id="ol96b1-288289-d1e230">
+               <lb ed="#L" n="7"/>Postmodum ibi: <quote xml:id="ol96b1-288289-Qd1e234">Hic opponitur a quibusdam</quote>. 
+      Ma<lb ed="#L" break="no" n="8"/>gister inquirit, an varietur Dei praescientia 
+      se<lb ed="#L" break="no" n="9"/>cundum temporis nouitatem, ita quod possit 
+      mu<lb ed="#L" break="no" n="10"/>tari ex tempore, &amp; aliquid scire, vel praescire: &amp; 
+      <lb ed="#L" n="11"/>dicit, quod non potest scire aliquid ex tempore. 
+    </p>
+            <p xml:id="ol96b1-288289-d1e246">
+               <lb ed="#L" n="12"/>Et si dicatur, quod potest praescire, quod non 
+      <lb ed="#L" n="13"/>fiet, &amp; tamen fieri potestt, dicendum, quod si 
+      in<lb ed="#L" break="no" n="14"/>telligatur simul, &amp; coniunctim, propositio non 
+      <lb ed="#L" n="15"/>est vera, quia si illud fieret, Deus vtique 
+      praesci<lb ed="#L" break="no" n="16"/>uisset. vnde non potest stare simul, quod illud sit, 
+      <lb ed="#L" n="17"/>vel fiat, &amp; tamen, quod non sit praescitumt vel po 
+      <lb ed="#L" n="18"/>test intelligi diuisim, scilicet, quod Deus habet 
+      <lb ed="#L" n="19"/>potentiam sciendi, &amp; praesciendi, &amp; modo, &amp; ab 
+      <lb ed="#L" n="20"/>aeterno, quod tamen nec praescitum est, nec futu 
+      <lb ed="#L" n="21"/>rum: vtique verum est, &amp; potest concedi. 
+      <lb ed="#L" n="22"/>Postmodum ibi ltem a quibusdam. Inquirit Ma 
+      <lb ed="#L" n="23"/>gister, An Deus possit scire plura, quam sciat: &amp; 
+      <lb ed="#L" n="24"/>respondet, quod sic. non tamen propter hoc sua 
+      <lb ed="#L" n="25"/>scientia mutaretur. 
+    </p>
+            <p xml:id="ol96b1-288289-d1e279">
+               <lb ed="#L" n="26"/>Postmodum ibi: Ei vero. Magister opponit 
+      <lb ed="#L" n="27"/>cuidam assumpto, scilicet, quod Deus omnia 
+      <lb ed="#L" n="28"/>semper videt, dicit enim Hieronymus, quod 
+      vi<lb ed="#L" break="no" n="29"/>detur absurdum diuinae maiestati, quod 
+      cogno<lb ed="#L" break="no" n="30"/>scat muscarum, aut pulicum multitudinem infi 
+      <lb ed="#L" n="31"/>nitam: &amp; respondet Magister, quod potius 
+      in<lb ed="#L" break="no" n="32"/>tendit loqui non de praescientia, sed de 
+      prouiden<lb ed="#L" break="no" n="33"/>tia, quia licet Deo sit cura de omnibus, non 
+      ta<lb ed="#L" break="no" n="34"/>men qualis est de hominibus, &amp; rationabilibus 
+      <lb ed="#L" n="35"/>creaturis. Vltimo vero concludit, quod Deus 
+      <lb ed="#L" n="36"/>immutabiliter scit omnia, quae fuerunt, erunt, 
+      <lb ed="#L" n="37"/>&amp; sunt. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

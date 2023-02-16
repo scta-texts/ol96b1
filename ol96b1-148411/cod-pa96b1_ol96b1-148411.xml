@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="455"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-148411"> <!-- l1d18p1-q1 -->
+            <head xml:id="ol96b1-148411-Hd1e102">Quaestio 1</head>
+            <p xml:id="ol96b1-148411-d1e104">
+               <lb ed="#L" n="70"/>Vtrum Donum sit proprietas constitutiua 
+      <lb ed="#L" n="71"/>Spiritus sancti. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e111">
+               <lb ed="#L" n="72"/>ET quia Magister hic agit de proprietate 
+      <lb ed="#L" n="73"/>Ddoni, ideo inquirendum occurrit, vtrum 
+      <lb ed="#L" n="74"/>donum sit proprietas constitutiua Spiritus san 
+      <lb ed="#L" n="75"/>cti &amp; videtur quod non, sed esse donum est com 
+      <lb ed="#L" n="76"/>mune tribus personis. quaelibet enim persona 
+      <lb ed="#L" n="77"/>datur, immo &amp; diuina essentia datur iuxta illud 
+      <lb ed="#L" n="78"/>Ioann. Io. Pater quod dedit mihi maius omnibus 
+      <lb ed="#L" n="79"/>est, &amp; illud ad Philip. 2. Dedit illi nomen, quod 
+      <lb ed="#L" n="80"/>est super omnem nomen, quod exponens Hilar. 9. 
+      <lb ed="#L" n="81"/>de Trin. dicit, quod pater sacramenta 
+      natiui<lb ed="#L" break="no" n="82"/>tatis impertitur filio, vt confitendus sit in 
+      glo<lb ed="#L" break="no" n="83"/>ria Dei patris, quem ex se in sua forma generat. 
+      <lb ed="#L" n="84"/>ergo videtur, quod donum non sit proprietas 
+      <lb ed="#L" n="85"/>Spiritus sancti constitutiua. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e144">
+               <lb ed="#L" n="86"/>Praeterea: Illud, quod competit filio non est 
+      <lb ed="#L" n="87"/>proprium, &amp; constitutiuum Spiritus sancti, sed 
+      <lb ed="#L" n="88"/>donum, competit filio. dicitur enim Isaiae 9. 
+      <lb ed="#L" n="89"/>Quod Filius datus est nobis. I. Ioan. 3. Quod sic Deus 
+      <lb ed="#L" n="90"/>dilexit mundum. vt Filium suum vnigenitum 
+      da<lb ed="#L" break="no" n="91"/>ret. ergo donum non est proprietas 
+      constituti<lb ed="#L" break="no" n="92"/>ua Spiritus sancti. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e163">
+               <lb ed="#L" n="93"/>Praeterea: Nullum ens rationis constituit 
+      per<lb ed="#L" break="no" n="94"/>sonam Spiritus sancti, sed donum importat 
+      re<lb ed="#L" break="no" n="95"/>lationem rationis ad eos, quibus datur. ergo 
+      <lb ed="#L" n="96"/>non potest personam Spiritus sancti constituere. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e174">
+               <lb ed="#L" n="97"/>Praeterea: Nullum temporale est proprietas 
+      <lb ed="#L" n="98"/>constitutiua Spiritus sancti, sed donum est 
+      ali<lb ed="#L" break="no" n="99"/>quod temporale. ergo illud, quod prius. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e183">
+               <lb ed="#L" n="100"/>Praeterea: Nullum includens creaturam est 
+      <lb ed="#L" n="101"/>proprietas constituens diuinam personam, sed 
+      <lb ed="#L" n="102"/>donum in creaturis includitur, quibus datur 
+      <lb ed="#L" n="103"/>saltem per modum termini. ergo non est 
+      pro<lb ed="#L" break="no" n="104"/>prietas spiritus sancti constitutiua. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e196">
+               <lb ed="#L" n="105"/>Praeterea: Vnius personae vna est 
+      constituti<lb ed="#L" break="no" n="106"/>ua proprietas, sed persona Spiritus sancti, quae 
+      <lb ed="#L" n="107"/>vna cum constituitur propriate processionis, 
+      <lb ed="#L" n="108"/>quae alia est a dono, quia dicit Augustinus 15. 
+      <lb ed="#L" n="109"/>de Trin. quod Spiritus sanctus intantum donum 
+      <lb ed="#L" n="110"/>Dei est, inquantum datur eis, quibus datur apud 
+      <lb ed="#L" n="111"/>se, cum Deus est, &amp; si nemini datur. ergo 
+      do<lb ed="#L" break="no" n="112"/>num non est proprietas ipsius. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e216">
+               <lb ed="#L" n="113"/>Praeterea: Si donum esset proprietas 
+      consti<lb ed="#L" break="no" n="114"/>tutiua Spiritus sancti, eius emanatio posset da 
+      <lb ed="#L" n="115"/>tio appellari, sicut &amp; emanatio geniti dicitur 
+      <lb ed="#L" n="116"/>generatio, sed August. dicit de Trin. quod Spiri 
+      <lb ed="#L" n="117"/>tus sanctus non eo, quod datur habet, quod 
+      spi<lb ed="#L" break="no" n="118"/>ritus sanctus sit, vel quod substantia sit, hoc eo, 
+      <lb ed="#L" n="119"/>quod procedit, per hoc innuens, quod 
+      emana<lb ed="#L" break="no" n="120"/>tio Spiritus sancti non est datio, sed processio. 
+      <lb ed="#L" n="121"/>ergo non constituitur Spiritus sanctus per 
+      pro<lb ed="#L" break="no" n="122"/>prietatem doni. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e240">
+               <lb ed="#L" n="123"/>Praeterea: Spiritus sanctus non refertur ad se 
+      <lb ed="#L" n="124"/>sua proprietate personali, sed in eo, quod datus 
+      <lb ed="#L" n="125"/>refertur ad se, cum detur a seipso, vt Magister 
+      <lb ed="#L" n="126"/>dicit. ergo non est donum proprietas 
+      constitu<lb ed="#L" break="no" n="127"/>tiua ipsius. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e254">
+               <lb ed="#L" n="128"/>Praeterea: Nulla persona habet in se 
+      pro<lb ed="#L" break="no" n="129"/>prietatem oppositam suo constitutiuo. Pater 
+      <lb ed="#L" n="130"/>enim non habet filiationem, nec filius paterni- 
+      <!--0456.xml-->
+      <pb ed="#L" n="456"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tatem, sed Spiritus sanctus habet dare actiue, 
+      <lb ed="#L" n="2"/>vt Magister determinat. ergo dari passiue non 
+      <lb ed="#L" n="3"/>est proprietas. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e276">
+               <lb ed="#L" n="4"/>Praeterea: Omnis proprietas constitutiua 
+      <lb ed="#L" n="5"/>ponit distinctionem, quia quod constituit, ab 
+      <lb ed="#L" n="6"/>alio distinguit, sed donum distinctionem non 
+      <lb ed="#L" n="7"/>ponit. dicit enim Aug. 15. de Trin. quod 
+      Spiri<lb ed="#L" break="no" n="8"/>tus sanctus ita datur, sicut donum, &amp; etiam 
+      scip<lb ed="#L" break="no" n="9"/>sum, sicut Deus. ergo donum non est 
+      proprie<lb ed="#L" break="no" n="10"/>tas constitutiua. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e294">
+               <lb ed="#L" n="11"/>Quod donum sit proprietas constitutiua 
+      <lb ed="#L" n="12"/>Spiritus sancti. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e301">
+               <lb ed="#L" n="13"/>SED in oppositum estt, quod illud videtur 
+      per<lb ed="#L" break="no" n="14"/>sonam Spiritus sancti constituere, quod 
+      re<lb ed="#L" break="no" n="15"/>fertur ad Filium, &amp; Patrem, Sed August. dicit 5. 
+      <lb ed="#L" n="16"/>de Trin. quod relatio Spiritus sancti ad Patrem, 
+      <lb ed="#L" n="17"/>&amp; ad Filium non apparet in hoc nomine 
+      spiri<lb ed="#L" break="no" n="18"/>tus, sed in hoc vocabulo donum. ergo donum 
+      <lb ed="#L" n="19"/>erit proprietas constitutiua Spiritus sancti, sed 
+      <lb ed="#L" n="20"/>donum, &amp; processio idem sunt. eo enim 
+      dici<lb ed="#L" break="no" n="21"/>tur spiritus, quo donum, quo procedens, vt 
+      Ma<lb ed="#L" break="no" n="22"/>gister dicit in littera. ergo proprietas doni 
+      <lb ed="#L" n="23"/>constituit Spiritum sanctum. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e327">
+               <lb ed="#L" n="24"/>Responsio ad quaestionem. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e332">
+               <lb ed="#L" n="25"/>AD quaestionem istam respondendo hoc 
+      or<lb ed="#L" break="no" n="26"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e340">
+               <lb ed="#L" n="27"/>Primo namque discurretur per modos 
+      di<lb ed="#L" break="no" n="28"/>cendi Doctorum. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e347">
+               <lb ed="#L" n="29"/>Secundo vero ad quaestionem respondebitur 
+      <lb ed="#L" n="30"/>iuxta illud, quod videtur. 
+    </p>
+            <p xml:id="ol96b1-148411-d1e354">
+               <lb ed="#L" n="31"/>Tertio quoque aliqua dubia mouebuntur, &amp; 
+      <lb ed="#L" n="32"/>dissoluentur. 
+    </p>
+            <div xml:id="ol96b1-148411-Dd1e361">
+               <head xml:id="ol96b1-148411-Hd1e363">Articulus 1</head>
+               <p xml:id="ol96b1-148411-d1e365">
+                  <lb ed="#L" n="33"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e370">
+                  <lb ed="#L" n="34"/>Opinio S. Thomae parte prima q. 38. art. 1. &amp; 2. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e375">
+                  <lb ed="#L" n="35"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="36"/>aliqui dicere voluerunt, nomen doni esse 
+      <lb ed="#L" n="37"/>proprietatem personalem Spiritus sancti, quia 
+      <lb ed="#L" n="38"/>procedit, vt amor, amor autem habet rationem 
+      <lb ed="#L" n="39"/>primi doni, per quod omnia dona gratuita dan 
+      <lb ed="#L" n="40"/>tur. Primum enim, quod damus alicui est amor, 
+      <lb ed="#L" n="41"/>quo volumus ei bonum, &amp; quia donum est 
+      da<lb ed="#L" break="no" n="42"/>tio irredibilis secundum Philos. hoc est, quod non 
+      <lb ed="#L" n="43"/>datur intentione retributionis, sed omnino 
+      gra<lb ed="#L" break="no" n="44"/>tuite, proprijssime Spiritui sancto competit, quod 
+      <lb ed="#L" n="45"/>sit donum, de ratione namque doni videtur 
+      es<lb ed="#L" break="no" n="46"/>se habitudo ad illum, a quo donatur. vnde 
+      impor<lb ed="#L" break="no" n="47"/>tat quod sit aliquo modo eius, vel secundum 
+      ori<lb ed="#L" break="no" n="48"/>ginem, vel secundum potestatem possessoris; 
+      <lb ed="#L" n="49"/>persona vero diuina non est alterius personae 
+      <lb ed="#L" n="50"/>secundum modum possessionis, sed tantum 
+      se<lb ed="#L" break="no" n="51"/>cundum originem, &amp; ita donum originem 
+      im<lb ed="#L" break="no" n="52"/>portat, &amp; est aliquid personale, competens 
+      Spi<lb ed="#L" break="no" n="53"/>ritui sancto. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e419">
+                  <lb ed="#L" n="54"/>Haec autem positio stare non potest: tum quia 
+      <lb ed="#L" n="55"/>eo, quod probatum est supra, quod Spiritus san 
+      <lb ed="#L" n="56"/>ctus non procedit formaliter, vt amor, alioquin 
+      <lb ed="#L" n="57"/>ex vi processionis, &amp; inquantum spiritus esset 
+      <lb ed="#L" n="58"/>amor, &amp; cum amor sit beatificus in diuinis 
+      es<lb ed="#L" break="no" n="59"/>set beatus, eo quod spiritus, &amp; per consequens 
+      <!--0456.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="60"/>bonus, &amp; Deus, &amp; multa alia impossibilia, quae 
+      <lb ed="#L" n="61"/>supra distinct. 10. sunt inducta: tum quia paulo 
+      <lb ed="#L" n="62"/>ante in quaestione de amore illae positiones 
+      di<lb ed="#L" break="no" n="63"/>xerunt, quod Spiritus sanctus proprie non 
+      pro<lb ed="#L" break="no" n="64"/>cedit, vt amor, sed vt impressio, seu attentio rei 
+      <lb ed="#L" n="65"/>amatae, proueniens in amante ex eo, quod amat; 
+      <lb ed="#L" n="66"/>hoc autem dicunt quod procedit, vt amor. 
+      vn<lb ed="#L" break="no" n="67"/>de non videntur verba concorditer esse 
+      prola<lb ed="#L" break="no" n="68"/>ta, nec consequenter dicta: tum quia amor 
+      es<lb ed="#L" break="no" n="69"/>sentialis est illud, quo omnia dona donantur, vt 
+      <lb ed="#L" n="70"/>amor importatus per Spiritum sanctum, 
+      alio<lb ed="#L" break="no" n="71"/>quin persona Spiritus sancti haberet 
+      specia<lb ed="#L" break="no" n="72"/>lem causalitatem super creaturas in ratione 
+      <lb ed="#L" n="73"/>efficientis, quod esse non potest. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e470">
+                  <lb ed="#L" n="74"/>Opinio Heruei quolibeto 6. quaest. 7.
+    </p>
+               <p xml:id="ol96b1-148411-d1e475">
+                  <lb ed="#L" n="75"/>PROPTEREA dixerunt aliqui, quod de 
+      ra<lb ed="#L" break="no" n="76"/>tione doni sunt tres conditiones. Prima 
+      qui<lb ed="#L" break="no" n="77"/>dem, quod dans habeat dominium eius, quod 
+      <lb ed="#L" n="78"/>dat. Secunda uero, vt det sine intentione 
+      retri<lb ed="#L" break="no" n="79"/>butionis. Tertio quoque, vt illa res, quae datur 
+      <lb ed="#L" n="80"/>apta sit ad donandum, vt encenium, vel aliquid 
+      <lb ed="#L" n="81"/>tale; habere autem dominium potest 
+      continge<lb ed="#L" break="no" n="82"/>re dupliciter, quia vel secundum auctoritatem 
+      <lb ed="#L" n="83"/>originis, vel secundum auctoritatem voluntatis. 
+      <lb ed="#L" n="84"/>sic ergo si donum accipiatur, quod est aptum 
+      <lb ed="#L" n="85"/>dari liberaliter ab habente dominium uolunta 
+      <lb ed="#L" n="86"/>tis, sic donum est essentiale, quia tota Trinitas 
+      <lb ed="#L" n="87"/>potest dare sua uoluntate seipsam. Si vero acci 
+      <lb ed="#L" n="88"/>piantur tres conditiones istae aptum natum da 
+      <lb ed="#L" n="89"/>ri liberaliter, &amp; originari, tunc est proprium 
+      Spi<lb ed="#L" break="no" n="90"/>ritui sancto, licet originetur Filius, non tamen 
+      <lb ed="#L" n="91"/>per modum voluntatis, aut liberalis 
+      donatio<lb ed="#L" break="no" n="92"/>nis, sicut Spiritus sanctus. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e517">
+                  <lb ed="#L" n="93"/>Ad videndum autem, quomodo Spiritus 
+      <lb ed="#L" n="94"/>sanctus procedat per modum voluntatis, 
+      scien<lb ed="#L" break="no" n="95"/>dum est, quod in productione personarum 
+      di<lb ed="#L" break="no" n="96"/>ninarum est tria considerare, scilicet 
+      habitu<lb ed="#L" break="no" n="97"/>dinem virtutis actiuae ad actum eliciendum, 
+      <lb ed="#L" n="98"/>&amp; supposita agentia, &amp; ordinem emanationum. 
+      <lb ed="#L" n="99"/>Si ergo productionem Spiritus sancti 
+      compa<lb ed="#L" break="no" n="100"/>remus ad vim spiritatiuam, quae est principium 
+      <lb ed="#L" n="101"/>productiuum, sic non emanat Spiritus sanctus 
+      <lb ed="#L" n="102"/>per modum voluntatis, vel liberalis 
+      donatio<lb ed="#L" break="no" n="103"/>nis, sed tantum per modum naturae, quia 
+      deter<lb ed="#L" break="no" n="104"/>minatur ad producere necessitate naturae, nec 
+      <lb ed="#L" n="105"/>est in potestate eius agere, &amp; non agere, sicut 
+      <lb ed="#L" n="106"/>est in potestate voluntatis, prout diuiditur 
+      con<lb ed="#L" break="no" n="107"/>tra agentia naturalia; si vero consideremus 
+      se<lb ed="#L" break="no" n="108"/>cundum, videlicet supposita agentia, tunc 
+      Spi<lb ed="#L" break="no" n="109"/>ritus sancti productio habet aliquem modum 
+      <lb ed="#L" n="110"/>voluntatis. quod enim duo agentia aeque 
+      perfe<lb ed="#L" break="no" n="111"/>cte producta, immo vnum aeque perfecte produ 
+      <lb ed="#L" n="112"/>cens, sicut ambo, non videntur ad idem 
+      produ<lb ed="#L" break="no" n="113"/>cendum concurrere, ita quod nec perfectius, 
+      <lb ed="#L" n="114"/>nec citius ambo producant, quam vnum, cum 
+      <lb ed="#L" n="115"/>tamen sint eiusdem ordinis, haec inquam non 
+      <lb ed="#L" n="116"/>videntur concurrere in rebus creatis, nisi in 
+      <lb ed="#L" n="117"/>agentibus per voluntatem, quae quidem ex 
+      ad<lb ed="#L" break="no" n="118"/>mirabili societate possunt haec omnia in produ 
+      <lb ed="#L" n="119"/>cendo obseruare. propter istam ergo 
+      similitu<lb ed="#L" break="no" n="120"/>dinem Pater, &amp; Filius videntur Spiritum 
+      san<lb ed="#L" break="no" n="121"/>ctum producere per modum uoluntatis. Si 
+      ue<lb ed="#L" break="no" n="122"/>ro consideremus tertium, scilicet ordinem 
+      pro<lb ed="#L" break="no" n="123"/>ductionum, sic etiam aliquo modo procedit pep 
+      <!--0457.xml-->
+      <pb ed="#L" n="457"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>modum voluntatis; in creaturis namque infra 
+      <lb ed="#L" n="2"/>naturam intellectualem est prima emanatio 
+      <lb ed="#L" n="3"/>intellectus, &amp; sequens voluntatis, ita vt sit 
+      quae<lb ed="#L" break="no" n="4"/>dam occasio inter has duas emanationes, &amp; 
+      <lb ed="#L" n="5"/>quia secundum nostrum modum intelligendi 
+      <lb ed="#L" n="6"/>infra Deum, qui est intellectualis naturae prima 
+      <lb ed="#L" n="7"/>emanatio est personae verbi; secunda vero spiri 
+      <lb ed="#L" n="8"/>tus sancti, ratione istius originis dici potest, 
+      <lb ed="#L" n="9"/>quod spiritus sanctus procedit per modum 
+      vo<lb ed="#L" break="no" n="10"/>luntatis, &amp; liberalis donationis, &amp; ita sibi 
+      com<lb ed="#L" break="no" n="11"/>petit nomen doni. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e617">
+                  <lb ed="#L" n="12"/>Sed haec opinio, quae consistit in hoc, quod spi 
+      <lb ed="#L" n="13"/>ritus sanctus donum dicitur propter hoc, quod 
+      <lb ed="#L" n="14"/>emanat per modum liberalitatis, &amp; assignatur 
+      <lb ed="#L" n="15"/>modus iste ex hoc, quod concurrunt duo 
+      prin<lb ed="#L" break="no" n="16"/>cipia vniformiter, &amp; ex hoc, quod vna 
+      produ<lb ed="#L" break="no" n="17"/>ctio aliam praesupponit, in duobus deficit 
+      eui<lb ed="#L" break="no" n="18"/>denter. Primo quidem per modum voluntatis di 
+      <lb ed="#L" n="19"/>cit sibi competere pro eo, quod a duobus 
+      pro<lb ed="#L" break="no" n="20"/>cedit vniformiter. nullus concursus duorum 
+      agen<lb ed="#L" break="no" n="21"/>tium ad idem producendum, quantumcumque 
+      <lb ed="#L" n="22"/>sit vniformis, dicitur voluntarius, nisi 
+      vnifor<lb ed="#L" break="no" n="23"/>mitas huiusmodi sit ex concordia, &amp; procedat 
+      <lb ed="#L" n="24"/>a sponte propria vtriusque, alioquin si 
+      causali<lb ed="#L" break="no" n="25"/>ter, aut ex necessitate eueniat talis concursus 
+      <lb ed="#L" n="26"/>vniformis, numquam voluntarius appellatur, 
+      <lb ed="#L" n="27"/>sed secundum huiusmodi positores concursus 
+      <lb ed="#L" n="28"/>ille vniformis ad producendum spiritum 
+      san<lb ed="#L" break="no" n="29"/>ctum, non est ex voluntate concordi, sed magis 
+      <lb ed="#L" n="30"/>ex quadam necessitate. ergo talis concursus 
+      <lb ed="#L" n="31"/>non dabit spiritui sancto, quod procedat per 
+      <lb ed="#L" n="32"/>modum voluntatis. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e665">
+                  <lb ed="#L" n="33"/>Praeterea: Procedere a duobus principijs 
+      <lb ed="#L" n="34"/>vniformiter non dicit modum liberalis 
+      dona<lb ed="#L" break="no" n="35"/>tionis iuxta similitudinem extrinsecam, in qua 
+      <lb ed="#L" n="36"/>non consistit ratio liberalis donationis, vt 
+      pa<lb ed="#L" break="no" n="37"/>tet, sed secundum veritatem, &amp; secundum 
+      eo<lb ed="#L" break="no" n="38"/>rum dicta spiritus sanctus dicitur donum, quia 
+      <lb ed="#L" n="39"/>procedit per modum liberalis donationis. 
+      er<lb ed="#L" break="no" n="40"/>go processus a duobus principijs uniformiter 
+      <lb ed="#L" n="41"/>se habentibus non dat spiritui sancto, quod 
+      <lb ed="#L" n="42"/>sit donum, vel quod procedat per modum 
+      vo<lb ed="#L" break="no" n="43"/>luntatis. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e691">
+                  <lb ed="#L" n="44"/>Praeterea: Si ex similitudine spiritus sancti di 
+      <lb ed="#L" n="45"/>citur per modum voluntatis procedere, &amp; per 
+      <lb ed="#L" n="46"/>modum doni, oportet, quod in agentibus volun 
+      <lb ed="#L" n="47"/>tarijs, &amp; creatis modus similis reperiatur, sed 
+      <lb ed="#L" n="48"/>numquam in agentibus voluntarijs, &amp; creatis 
+      <lb ed="#L" n="49"/>hoc reperitur, quod eadem actione, &amp; eadem 
+      <lb ed="#L" n="50"/>potentia, &amp; eadem virtute ab vno communica 
+      <lb ed="#L" n="51"/>ta alteri agant ad eundem effectum, sicut est in 
+      <lb ed="#L" n="52"/>diuinis. ergo talis concursus, cui similis etiam 
+      <lb ed="#L" n="53"/>reperitur in creaturis, quo ad agentia volunta 
+      <lb ed="#L" n="54"/>ria non facit, quod spiritus sanctus procedat 
+      <lb ed="#L" n="55"/>per modum voluntatis. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e721">
+                  <lb ed="#L" n="56"/>Praeterea: Pater producit filium per modum 
+      <lb ed="#L" n="57"/>naturae, &amp; spiritum sanctum per modum volun 
+      <lb ed="#L" n="58"/>tatis, &amp; si per impossibile poneretur, quod non 
+      <lb ed="#L" n="59"/>procederet a filio, adhuc complete procederet 
+      <lb ed="#L" n="60"/>a patre, sed hoc non esset, si concursus duorum 
+      <lb ed="#L" n="61"/>agentium daret huiusmodi productioni 
+      volun<lb ed="#L" break="no" n="62"/>tarij rationem. ergo illud poni non potest. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e739">
+                  <lb ed="#L" n="63"/>Praeterea: Si propter talem concursum 
+      vni<lb ed="#L" break="no" n="64"/>lormiter producentium spiritus sanctus 
+      dice<lb ed="#L" break="no" n="65"/>retur produci per modum liberalis donationis, &amp; 
+      <!--0457.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>per modum doni, tune diceretur donum 
+      simili<lb ed="#L" break="no" n="67"/>tudinarie tantum, &amp; transumptiue, nec esset ma 
+      <lb ed="#L" n="68"/>gis donum, quam simia, vel pictura, vel pigmeus 
+      <lb ed="#L" n="69"/>sit homo propter aliquantulam exteriorem 
+      si<lb ed="#L" break="no" n="70"/>militudinem &amp; apparentiam absque 
+      existen<lb ed="#L" break="no" n="71"/>tia intrinsecae, &amp; propriae rationis, sed omnes 
+      <lb ed="#L" n="72"/>sancti clamant, quod spiritus sanctus proprie 
+      <lb ed="#L" n="73"/>donum est, &amp; aeque proprie, sicut filius verbum. 
+      <lb ed="#L" n="74"/>vnde Aug. 15. de Trin. dicit, quod sicut in Trini 
+      <lb ed="#L" n="75"/>tate non dicitur verbum Dei, nisi filius, sic nec 
+      <lb ed="#L" n="76"/>donum Dei, nisi spiritus sanctus, &amp; Magister 26 
+      <lb ed="#L" n="77"/>dist. c. Ita est expresse deducit, quod spiritus 
+      san<lb ed="#L" break="no" n="78"/>ctus dicitur proprie donum Dei, &amp; non similitu 
+      <lb ed="#L" n="79"/>dinarie, sicut simia, vel pictura dicitur homo. er 
+      <lb ed="#L" n="80"/>go non apparet tutum, nec conforme dictis 
+      san<lb ed="#L" break="no" n="81"/>ctorum, quod propter huiusmodi extrinsecas 
+      <lb ed="#L" n="82"/>similitudines spiritus sanctus dicatur donum. 
+      <lb ed="#L" n="83"/>vnde cum talis concursus producentium non 
+      <lb ed="#L" n="84"/>det rationem liberalis donationis, vt dictum 
+      <lb ed="#L" n="85"/>est, sed tantum quandam accidentalem 
+      simili<lb ed="#L" break="no" n="86"/>tudinem, nullo modo tenendum est, quod hoc 
+      <lb ed="#L" n="87"/>sufficiat ad hoc, quod vere, &amp; proprie doni 
+      ra<lb ed="#L" break="no" n="88"/>tio ideo spiritui ascribatur. Sec undo vero 
+      defi<lb ed="#L" break="no" n="89"/>cit, quia productionem istam spiritus sancti 
+      di<lb ed="#L" break="no" n="90"/>cit esse per modum voluntatis, &amp; liberalis 
+      do<lb ed="#L" break="no" n="91"/>nationis, sed propter ordinem suppositionis, 
+      <lb ed="#L" n="92"/>quia videlicet est secunda productio intra 
+      in<lb ed="#L" break="no" n="93"/>tellectualem naturam; ista vero similitudo est 
+      <lb ed="#L" n="94"/>valde forinseca, accidentalis, nec claudens 
+      for<lb ed="#L" break="no" n="95"/>maliter rationem liberalis donationis. vnde non 
+      <lb ed="#L" n="96"/>magis proprie spiritus erit donum propter hu 
+      <lb ed="#L" n="97"/>iusmodi ordinem productionum, quam Deus 
+      <lb ed="#L" n="98"/>sit leo propter magnanimitatem, &amp; flos propter 
+      <lb ed="#L" n="99"/>munditiam, &amp; petra propter resistentiam. in 
+      <lb ed="#L" n="100"/>omnibus enim istis inuenitur extrinseca 
+      quae<lb ed="#L" break="no" n="101"/>dam similitudo, quae Deo potest adaptari. vnde 
+      <lb ed="#L" n="102"/>nomen doni assignari debet non inter propria, 
+      <lb ed="#L" n="103"/>sed inter nomina translatiua, si ista sit vera, sed 
+      <lb ed="#L" n="104"/>constat de opposito secundum omnia dicta 
+      <lb ed="#L" n="105"/>sanctorum. ergo id stare non potest. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e839">
+                  <lb ed="#L" n="106"/>Praeterea: Infra intellectualem naturam 
+      pro<lb ed="#L" break="no" n="107"/>ductio odij, vel timoris, vel spei, &amp; sic de alijs 
+      <lb ed="#L" n="108"/>actibus voluntatis est secundaria, &amp; sequitur 
+      <lb ed="#L" n="109"/>apprehensionem intellectiuam, sicut &amp; 
+      amo<lb ed="#L" break="no" n="110"/>ris productio. ergo si esse productionem 
+      secun<lb ed="#L" break="no" n="111"/>dariam intra intellectualem naturam dat 
+      spi<lb ed="#L" break="no" n="112"/>ritui sancto, quod procedat per modum 
+      amo<lb ed="#L" break="no" n="113"/>ris, &amp; liberalis donationis, pariter sibi dabit, 
+      <lb ed="#L" n="114"/>quod procedat per modum odij, &amp; timoris, 
+      <lb ed="#L" n="115"/>hoc autem nullus dicit. ergo illud non sufficit, 
+      <lb ed="#L" n="116"/>sicut patet. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e865">
+                  <lb ed="#L" n="117"/>Opinio Durandi in I. sent. dist. I8. quaest. 1. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e870">
+                  <lb ed="#L" n="118"/>ET propter hoc dixerunt aliqui, quod 
+      no<lb ed="#L" break="no" n="119"/>men doni potest accipi simul secundum 
+      <lb ed="#L" n="120"/>rationem rationis generalem, vel secundum 
+      <lb ed="#L" n="121"/>quod ex intentione nomen illud ad aliquid 
+      ap<lb ed="#L" break="no" n="122"/>plicatur. si ergo nomen doni accipitur primo 
+      <lb ed="#L" n="123"/>modo, nec est essentiale, nec personale, 
+      cu<lb ed="#L" break="no" n="124"/>ius ratio est, quia nominis significatum, &amp; 
+      <lb ed="#L" n="125"/>ratio non mutatur propter materiam. cum 
+      <lb ed="#L" n="126"/>enim ratio, qua significat nomem sit sua dictio, vt 
+      <lb ed="#L" n="127"/>dicitur 4. Metaph. donum vero definiatur, quod est 
+      <lb ed="#L" n="128"/>aliquid alteri communicatum liberaliter, manife 
+      <!--0458.xml-->
+      <pb ed="#L" n="458"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ste patet, quod cum bos, sen equus liberaliter 
+      <lb ed="#L" n="2"/>alteri tribuatur, non minuitur ratio doni, quin 
+      <lb ed="#L" n="3"/>dicatur vtrumque donum, nec propter hoc 
+      di<lb ed="#L" break="no" n="4"/>citur donum significare equum, vel bouem, si 
+      ab<lb ed="#L" break="no" n="5"/>strahit ab eis. sic ergo in proposito ratio doni 
+      <lb ed="#L" n="6"/>in generali sumpta, nec est notianalis, nec est es 
+      <lb ed="#L" n="7"/>sentialis; si vero nomem doni accipitur pro subie 
+      <lb ed="#L" n="8"/>ctis, de quibus illa ratio praedicatur, vt sit 
+      quae<lb ed="#L" break="no" n="9"/>stio, quid est illud in diuinis, de quo unum donum 
+      <lb ed="#L" n="10"/>praedicatur, an scilicet essentiale sit, vel 
+      notio<lb ed="#L" break="no" n="11"/>nale, secundum hoc currere debet intentio 
+      quae<lb ed="#L" break="no" n="12"/>stionis, quamuis inepte communiter 
+      propona<lb ed="#L" break="no" n="13"/>tur, &amp; secundum primum intellectum; 
+      Intelli<lb ed="#L" break="no" n="14"/>gendo nihilominus secundo modo, tria 
+      dicen<lb ed="#L" break="no" n="15"/>da sunt, primum quidem, quod in diuinis respe 
+      <lb ed="#L" n="16"/>ctu diuinorum, nihil est, cui competit doni 
+      ra<lb ed="#L" break="no" n="17"/>tio, nec essentialis, nec notionalis, quia il lud, quod 
+      <lb ed="#L" n="18"/>nec communicatur libere alteri, non habet ra 
+      <lb ed="#L" n="19"/>tionem doni; in diuinis autem nihil est, quod 
+      <lb ed="#L" n="20"/>communicetur libere, sed totum necessitate 
+      <lb ed="#L" n="21"/>naturae, &amp; ideo nihil, quod ibi sit habet rationem 
+      <lb ed="#L" n="22"/>doni; secundum vero quia respectu creaturarum 
+      <lb ed="#L" n="23"/>ratio doni inuenitur in diuinis aeque proprie 
+      <lb ed="#L" n="24"/>competens essentiae, &amp; essentialibus, &amp; personis, 
+      <lb ed="#L" n="25"/>cuius ratio est, quia nihil diuinum 
+      communi<lb ed="#L" break="no" n="26"/>catur liberaliter creaturae, vt habeatur ab ea 
+      <lb ed="#L" n="27"/>subiectiue, sed tantummodo obiectiue, vt 
+      co<lb ed="#L" break="no" n="28"/>gnitum, &amp; amatum, seu per modum rectoris, &amp; 
+      <lb ed="#L" n="29"/>directoris; constat autem, quod secundum hunc 
+      <lb ed="#L" n="30"/>modum tota Trinitas vere datur in ratione co 
+      <lb ed="#L" n="31"/>gniti, &amp; amati, &amp; influentis donum gratiae, &amp; 
+      <lb ed="#L" n="32"/>gloriae, nec illud est personae alicui speciale. 
+      <lb ed="#L" n="33"/>Tertium quoque quod donum appropriate ma 
+      <lb ed="#L" n="34"/>xime competit spiritui sancto, &amp; ratio huius 
+      <lb ed="#L" n="35"/>est, quia omnis liberalis communicatio, quae ad 
+      <lb ed="#L" n="36"/>donum exigitur procedit ex radice amoris, 
+      <lb ed="#L" n="37"/>quae est actus voluntatis; talis autem est 
+      perso<lb ed="#L" break="no" n="38"/>na spiritus sancti. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e985">
+                  <lb ed="#L" n="39"/>Haec autem opinio videtur deficere in 
+      qua<lb ed="#L" break="no" n="40"/>tuor, quae proponit. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e993">
+                  <lb ed="#L" n="41"/>Primo quidem, quod ait, quod ratio doni in 
+      <lb ed="#L" n="42"/>quacumque materia, &amp; in diuina non dicitur ua 
+      <lb ed="#L" n="43"/>riari. quamuis enim de nominibus 
+      significan<lb ed="#L" break="no" n="44"/>tibus determinatam aliquam rationem princi 
+      <lb ed="#L" n="45"/>paliter, quod eorum significatum non habetsper 
+      <lb ed="#L" n="46"/>materias variari, pro eo quod earum ratio 
+      re<lb ed="#L" break="no" n="47"/>manet eadem, sicut patet de albedine in flore, 
+      <lb ed="#L" n="48"/>pariete, &amp; cerusa, nihilominus non est hoc verum 
+      <lb ed="#L" n="49"/>de illis nominibus, quae non significant 
+      princi<lb ed="#L" break="no" n="50"/>paliter aliquam determinatam rationem, 
+      quam<lb ed="#L" break="no" n="51"/>uis connotent determinatam rationem. ex hoc 
+      <lb ed="#L" n="52"/>enim quod nihil determinate significant 
+      prin<lb ed="#L" break="no" n="53"/>cipaliter, coincidunt in determinatas rationes, 
+      <lb ed="#L" n="54"/>quibus applicantur, non per modum participan 
+      <lb ed="#L" n="55"/>tis ab eis, sed per modum explicati per eas: sed 
+      <lb ed="#L" n="56"/>constat, quod donum non importat in 
+      princi<lb ed="#L" break="no" n="57"/>pali significato aliquam determinatam rem, aut 
+      <lb ed="#L" n="58"/>rationem, quamuis importet determinatum 
+      con<lb ed="#L" break="no" n="59"/>notatum, &amp; hoc patet ex definitione doni. 
+      do<lb ed="#L" break="no" n="60"/>num enim est id, cui competit dari datione in 
+      <lb ed="#L" n="61"/>reddibili, hoc est datione gratuita, non 
+      inten<lb ed="#L" break="no" n="62"/>dendo retributionem, vt Philosopus dicit 4. to 
+      <lb ed="#L" n="63"/>picorum. In hac autem definitione nihil 
+      deter<lb ed="#L" break="no" n="64"/>minatum ponitur per modum principalis 
+      si<lb ed="#L" break="no" n="65"/>gnificati, sed indeterminate quodcumque id si- 
+      <!--0458.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>bi potest competere, libera lis communicatio, 
+      <lb ed="#L" n="67"/>nec liberaliter communicari est significatum 
+      <lb ed="#L" n="68"/>donum, sed id, cui hoc competit, quod omnino 
+      <lb ed="#L" n="69"/>inde terminatum est. ergo optime quaeri potest 
+      <lb ed="#L" n="70"/>de principali significato doni, prout aptatur ad 
+      <lb ed="#L" n="71"/>diuina, quid sit illud, an scilicet persona, &amp; 
+      ali<lb ed="#L" break="no" n="72"/>quid personale, an diuina essentia. vnde si 
+      do<lb ed="#L" break="no" n="73"/>num importaret aliquam rationem, quae 
+      parti<lb ed="#L" break="no" n="74"/>ciparetur in diuinis, &amp; in creaturis, optime 
+      <lb ed="#L" n="75"/>curreret imaginatio totaliter opinantium, quia 
+      <lb ed="#L" n="76"/>principale significatum doni, nec esset notiona 
+      <lb ed="#L" n="77"/>le, nec essentiale, sed esset ratio abstrahens, &amp; 
+      <lb ed="#L" n="78"/>communis, sed hoc verum non est: tum quia 
+      <lb ed="#L" n="79"/>aliqua ratio diceretur vniuoce de Deo, &amp; crea 
+      <lb ed="#L" n="80"/>turis, &amp; participaretur a Deo, &amp; a creatura 
+      <lb ed="#L" n="81"/>formaliter, cuius oppositum isti volunt, &amp; 
+      ve<lb ed="#L" break="no" n="82"/>rum est: tum quia donum non significat 
+      com<lb ed="#L" break="no" n="83"/>municari liberaliter, sed id, cui competit 
+      tali<lb ed="#L" break="no" n="84"/>ter communicari, quodcumque sit illud, &amp; 
+      cu<lb ed="#L" break="no" n="85"/>iuscumque rationis, ideo dici oportet, quod do 
+      <lb ed="#L" n="86"/>num ad diuina translatum habeat pro 
+      princi<lb ed="#L" break="no" n="87"/>pali significato essentiam, vel personam. non 
+      <lb ed="#L" n="88"/>enim competit personae, quod communicetur 
+      <lb ed="#L" n="89"/>liberaliter per aliquam rationem mediantem, 
+      <lb ed="#L" n="90"/>quae donum appellatur, sed per propriam 
+      ra<lb ed="#L" break="no" n="91"/>tionem. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1110">
+                  <lb ed="#L" n="92"/>Secundo vero deficit, quia dicit in diuinis non 
+      <lb ed="#L" n="93"/>esse rationem liberalis donationis respectu 
+      in<lb ed="#L" break="no" n="94"/>trinsecorum pro eo, quod quicquid emanat 
+      <lb ed="#L" n="95"/>in diuinis, procedit necessitate naturae, hoc 
+      <lb ed="#L" n="96"/>quidem stare non potest, quia id, quod 
+      neces<lb ed="#L" break="no" n="97"/>sitate in mutabilis complacentiae dicitur 
+      ema<lb ed="#L" break="no" n="98"/>nare, emanat, vt donum immutabile, &amp; vt 
+      im<lb ed="#L" break="no" n="99"/>mutabilis liberalitas. non dubium enim quod 
+      <lb ed="#L" n="100"/>Deus immutabilis, immutabiliter complacet 
+      <lb ed="#L" n="101"/>in se, &amp; liberrima dilectione se amat, nec 
+      du<lb ed="#L" break="no" n="102"/>bium secundum mentem Philosophantium, quin 
+      <lb ed="#L" n="103"/>intelligentiae motrices orbium liberrime ament 
+      <lb ed="#L" n="104"/>primum principium, &amp; moueant in ratione 
+      <lb ed="#L" n="105"/>amantis, &amp; tamen immut abiliter, &amp; necessita. 
+      <lb ed="#L" n="106"/>te complacentiae, vt Commentator dicit in 
+      se<lb ed="#L" break="no" n="107"/>cundo coeli, &amp; mundi, nec est idem in tali immu 
+      <lb ed="#L" n="108"/>tabilitate mouere, &amp; mouere modo naturae, 
+      <lb ed="#L" n="109"/>quomodo agentia naturalia dicuntur mouere, 
+      <lb ed="#L" n="110"/>sed manifestum est, quod spiritus in diuinis 
+      ema<lb ed="#L" break="no" n="111"/>nat per modum compla centiae immutabilis, 
+      <lb ed="#L" n="112"/>sicut dictum est supra. ergo aliquid est in 
+      diui<lb ed="#L" break="no" n="113"/>nis, cui potest competere ratio doni in 
+      respe<lb ed="#L" break="no" n="114"/>ctu intrinsecorum. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1162">
+                  <lb ed="#L" n="115"/>Tertio vero deficit in hoc, quod ait toti 
+      Tri<lb ed="#L" break="no" n="116"/>nitati esse commune, quod donum sit respectu 
+      <lb ed="#L" n="117"/>creaturarum. sicut enim Aug. dicit 15. de Trin. 
+      <lb ed="#L" n="118"/>aeque proprium est spiritui sancto, quod 
+      do<lb ed="#L" break="no" n="119"/>num sit, sicut filio, quod sit verbum, &amp; personae 
+      <lb ed="#L" n="120"/>primae quod sit pater, sed euidenter patet, quod 
+      <lb ed="#L" n="121"/>esse verbum, &amp; esse patrem non est aequaliter 
+      <lb ed="#L" n="122"/>commune tribus, immo speciali modo 
+      compe<lb ed="#L" break="no" n="123"/>tit filio, quod sit verbum, &amp; primae personae 
+      <lb ed="#L" n="124"/>quod sit pater. ergo idem erit de dono respectu 
+      <lb ed="#L" n="125"/>spiritus sancti. Nec valet quod dicitur commu 
+      <lb ed="#L" n="126"/>ne esse toti Trin. vt detur in ratione amati, &amp; 
+      <lb ed="#L" n="127"/>cogniti, cui hoc sit commune, aliter tamen 
+      <lb ed="#L" n="128"/>dicitur, quod Spiritus sanctus daret creaturis, 
+      <lb ed="#L" n="129"/>quia sunt termini aeternae dationis, vt superius 
+      <lb ed="#L" n="130"/>dictum fuit.
+    </p>
+               <p xml:id="ol96b1-148411-d1e1199">
+      <!--0459.xml-->
+                  <pb ed="#L" n="459"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quarto etiam deficit in hoc, quod ait, nomen. 
+      <lb ed="#L" n="2"/>doni non esse proprium spiritui sancto, sed tantum 
+      <lb ed="#L" n="3"/>appropriatum, hoc quidem expresse est contra 
+      <lb ed="#L" n="4"/>intentionem Aug. qui dicit 5. de Trinit. quod 
+      <lb ed="#L" n="5"/>Spiritus sanctus, qui non est Trinitas, sed in 
+      Tri<lb ed="#L" break="no" n="6"/>nitate, intelligitur in eo, quod proprie dicitur 
+      <lb ed="#L" n="7"/>spiritus, relatiue dicitur ad patrem, &amp; filium, sed 
+      <lb ed="#L" n="8"/>ipsa relatio non apparet in hoc nomine; 
+      appa<lb ed="#L" break="no" n="9"/>ret autem, cum dicitur donum, sed manifestum 
+      <lb ed="#L" n="10"/>est, quod realis illa relatio, qua Spiritus sanctus 
+      <lb ed="#L" n="11"/>dicitur ad patrem, &amp; filium, est propria sibi, &amp; 
+      <lb ed="#L" n="12"/>non appropriata doni. ergo donum, quod illam 
+      <lb ed="#L" n="13"/>relationem importat secundum Aug. vt supra non 
+      <lb ed="#L" n="14"/>est solum appropriatum, immo personale proprium. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1238">
+                  <lb ed="#L" n="15"/>Opinio aliorum. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1243">
+                  <lb ed="#L" n="16"/>QVAPROPTER dixerunt aliqui, quod donum 
+      <lb ed="#L" n="17"/>importat duplicem habitudinem, primam 
+      <lb ed="#L" n="18"/>quidem ad donantem, &amp; secundum hoc proprium 
+      <lb ed="#L" n="19"/>est Spiritus sancti, quod sit donum, quia 
+      ema<lb ed="#L" break="no" n="20"/>nat per modum amoris spirati; secundam vero 
+      <lb ed="#L" n="21"/>habitudinem importat ad creaturam in ratione 
+      <lb ed="#L" n="22"/>donabilitatis, haec autem principaliter 
+      signifi<lb ed="#L" break="no" n="23"/>cat, quia ab illa nomen doni importatur. Cum 
+      <lb ed="#L" n="24"/>ergo quaeritur an ratio doni sit proprietas 
+      con<lb ed="#L" break="no" n="25"/>stitutiua personae Spiritus sancti, si loquimur 
+      <lb ed="#L" n="26"/>de prima habitudine, non est dubium, quod sic; 
+      <lb ed="#L" n="27"/>si vero quaeritur de secunda habitudine, puta de 
+      <lb ed="#L" n="28"/>donabilitate, dicendum est, quod nec est consti 
+      <lb ed="#L" n="29"/>tutiua proprietas, nec inclusa in ea, quod patet 
+      <lb ed="#L" n="30"/>ex hoc, circumscripta per possibile, vel 
+      impos<lb ed="#L" break="no" n="31"/>sibile omni habitudine ad creaturam, adhuc 
+      <lb ed="#L" n="32"/>persona diuina remanet constituta in esse 
+      per<lb ed="#L" break="no" n="33"/>sonali, &amp; iterum respectu donabilitatis est 
+      po<lb ed="#L" break="no" n="34"/>sterior proprietate constitutiua, quia terminus 
+      <lb ed="#L" n="35"/>est posterior termino, puta creatura est 
+      poste<lb ed="#L" break="no" n="36"/>rior persona diuina, &amp; rursus donabilitas est 
+      <lb ed="#L" n="37"/>respectus rationis, &amp; per consequens non 
+      vide<lb ed="#L" break="no" n="38"/>tur includi in constitutiua realissima personae 
+      <lb ed="#L" n="39"/>diuinae, &amp; adhuc Spiritus sanctus est persona sim 
+      <lb ed="#L" n="40"/>plex. habitudo vero ad creaturam, &amp; habitudo 
+      <lb ed="#L" n="41"/>ad patrem, &amp; filium non sunt eaedem 
+      habitudi<lb ed="#L" break="no" n="42"/>nes, &amp; per consequens non potest constitui for 
+      <lb ed="#L" n="43"/>maliter per vtrumque. habet ergo se respectus 
+      <lb ed="#L" n="44"/>donabilitatis per modum assequentis ad 
+      pro<lb ed="#L" break="no" n="45"/>prietatem originis, qua constituitur Spiritus 
+      <lb ed="#L" n="46"/>sanctus, ex hoc namque quod procedit, vt amor 
+      <lb ed="#L" n="47"/>habet aptitudinem, vt donetur. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1316">
+                  <lb ed="#L" n="48"/>Sed haec opinio videtur irrationalis in 
+      duo<lb ed="#L" break="no" n="49"/>bus, primo quidem, quod ait, quod Spiritus san 
+      <lb ed="#L" n="50"/>ctus, ideo donum est, quod procedit, vt amor spi 
+      <lb ed="#L" n="51"/>ratus. probatum est enim supra, quod nullus 
+      <lb ed="#L" n="52"/>amor potest spirari, &amp; quod nulla perfectio sim 
+      <lb ed="#L" n="53"/>pliciter potest reduci, sed communicari tantum, 
+      <lb ed="#L" n="54"/>sicut essentia, siquidem productum, &amp; non 
+      pro<lb ed="#L" break="no" n="55"/>ductum realiter distinguuntur, sed in diuinis est 
+      <lb ed="#L" n="56"/>quidam amor improductus, puta essentialis, &amp; 
+      <lb ed="#L" n="57"/>quidam amor productus secundum sic 
+      ponen<lb ed="#L" break="no" n="58"/>tes, videlicet spiritus. ergo duo amores 
+      distin<lb ed="#L" break="no" n="59"/>cti realiter sunt in Deo, &amp; maxime in persona 
+      <lb ed="#L" n="60"/>Spiritus sancti erunt duo amores, &amp; duae 
+      habi<lb ed="#L" break="no" n="61"/>tudines, quae omnino impossibilia sunt. 
+      <lb ed="#L" n="62"/>Praeterea: Omnis amor diuinus est 
+      formali<lb ed="#L" break="no" n="63"/>ter infinitus, sed persona spiritus sancti per 
+      <lb ed="#L" n="64"/>suam propriam rationem nec est formaliter 
+      infi<lb ed="#L" break="no" n="65"/>nita secundum sic ponentes, sed tantum inquan- 
+      <!--0459.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>tum Deus. ergo spiritus sanctus sua 
+      proprietae<lb ed="#L" break="no" n="67"/>te personali non est amor spiratus. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1366">
+                  <lb ed="#L" n="68"/>Secundo vero videtur irrationalis, quia dicit 
+      <lb ed="#L" n="69"/>proprietatem doni non includi in constitutiuo 
+      <lb ed="#L" n="70"/>spiritus sancti. illud enim videtur concludi in 
+      <lb ed="#L" n="71"/>proprietate spiritus sancti, quo sua processio 
+      <lb ed="#L" n="72"/>difffert formaliter a filij processione, sed 
+      mani<lb ed="#L" break="no" n="73"/>festum est, quod differt ex hoc, quod processio 
+      <lb ed="#L" n="74"/>sua est per modum doni, &amp; dati, iuxta illud Apg. 
+      <lb ed="#L" n="75"/>5. de Trin. qui assignans differentiam inter 
+      pro<lb ed="#L" break="no" n="76"/>cessionem filij, &amp; spiritus sancti, dicit quod 
+      spi<lb ed="#L" break="no" n="77"/>ritus procedit a patre, non quomodo natus, sed 
+      <lb ed="#L" n="78"/>quomodo datus, vel donum: filius vero 
+      proces<lb ed="#L" break="no" n="79"/>sit nascendo, &amp; exiuit, vegenitus, ac per hoc 
+      elu<lb ed="#L" break="no" n="80"/>cescit, vt spiritus sanctus non sit filius. ergo 
+      fe<lb ed="#L" break="no" n="81"/>cundum auctoritates sanctorum dicendum 
+      vi<lb ed="#L" break="no" n="82"/>detur, quod ratio doni pertineat intrinsece ad 
+      <lb ed="#L" n="83"/>constitutiuum diuinae personae. &amp; in his 
+      articu<lb ed="#L" break="no" n="84"/>lus primus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-148411-Dd1e1406">
+               <head xml:id="ol96b1-148411-Hd1e1408">Articulus 2</head>
+               <p xml:id="ol96b1-148411-d1e1410">
+                  <lb ed="#L" n="85"/>ARTJCVLVS SECVNDVS. 
+      <lb ed="#L" n="86"/>Quid dicendum secundum neritatem, &amp; 
+      praemit<lb ed="#L" break="no" n="87"/>titur doni distinctio. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1419">
+                  <lb ed="#L" n="88"/>CIRCA secundum considerandum, quod 
+      <lb ed="#L" n="89"/>huius quaesiti veritas ex tribus propositio 
+      <lb ed="#L" n="90"/>nibus poterit apparere. Prima quidem quod 
+      do<lb ed="#L" break="no" n="91"/>num sumitur multis modis. quandoque enim 
+      <lb ed="#L" n="92"/>donum dicitur totum, quod in alterius 
+      posses<lb ed="#L" break="no" n="93"/>sionem transferri potest realiter, &amp; hoc modo 
+      <lb ed="#L" n="94"/>omnis possessa res dicitur donabilis, &amp; donum, 
+      <lb ed="#L" n="95"/>quia potest in alterius dominium transferri; 
+      <lb ed="#L" n="96"/>quoniam vero dicitur donum illud, a quo 
+      pro<lb ed="#L" break="no" n="97"/>cedit translatio, &amp; quod prouenit ex amore eius, 
+      <lb ed="#L" n="98"/>cui quid datur, idcirco amor Dei donum, iuxta 
+      <lb ed="#L" n="99"/>quod consuetum est dici, quod talis dedit mihi 
+      <lb ed="#L" n="100"/>amorem sui. Quando vero sumitur pro transla 
+      <lb ed="#L" n="101"/>tione amantis in amati dominium, eo modo, quo 
+      <lb ed="#L" n="102"/>consuetum est dici, quod amans dedit illi spiritum 
+      <lb ed="#L" n="103"/>suum, &amp; vitam, &amp; cor suum. Et hoc contingit 
+      ad<lb ed="#L" break="no" n="104"/>huc dupliciter. potest enim accipi donum, vel 
+      <lb ed="#L" n="105"/>pro ipso amante in tali esse donato posito, vel 
+      <lb ed="#L" n="106"/>pro ipsomet amante realiter existente in seipso, 
+      <lb ed="#L" n="107"/>qui dicitur datus denominatiue, ex hoc quod 
+      posi<lb ed="#L" break="no" n="108"/>tus est in tali esse dato. Si ergo primo modo 
+      ac<lb ed="#L" break="no" n="109"/>cipiatur, commune est toti Trinitati, &amp; sic 
+      do<lb ed="#L" break="no" n="110"/>num inquantum aliquo modo dicitur 
+      posside<lb ed="#L" break="no" n="111"/>ri ab ijs, qui diligunt eam, quia amicus est 
+      quae<lb ed="#L" break="no" n="112"/>dam possessio, iuxta illud Eccl. 6. scriptum: Sil 
+      <lb ed="#L" n="113"/>possides amicum, in tentatione posside illū. &amp; per istum 
+      <lb ed="#L" n="114"/>modum filius dicitur datus in fratrem, socium, 
+      <lb ed="#L" n="115"/>&amp; Magistrum ratione humanitatis assumptae, 
+      <lb ed="#L" n="116"/>similiter si secundo modo donum accipiatur, 
+      com<lb ed="#L" break="no" n="117"/>mune est tribus personis esse donum. Deus enim 
+      <lb ed="#L" n="118"/>dando amorem suum dat seipsum, cum tota 
+      Tri<lb ed="#L" break="no" n="119"/>nitas sit essentialis amor secundum illud Io. 4. 
+      <lb ed="#L" n="120"/>Deus charitas est. si vero donum accipitur pro 
+      <lb ed="#L" n="121"/>spiritu, &amp; vita, &amp; quicquid est in amante posito 
+      <lb ed="#L" n="122"/>in quodam esse in eo, &amp; communicato ipsi 
+      ami<lb ed="#L" break="no" n="123"/>co, in nobis quidem intentionaliter, &amp; 
+      voti<lb ed="#L" break="no" n="124"/>ue, quia secundum conatum, ac desiderium, ac 
+      <lb ed="#L" n="125"/>votum amantis; in Deo vero realiter, cuius 
+      <lb ed="#L" n="126"/>omnia vota implentur, sic vtique accipiendo, 
+      <lb ed="#L" n="127"/>esse donum est proprium spiritus sancti, immo 
+      <lb ed="#L" n="128"/>spiritus sanctus non est aliud, quamDeus, &amp; quic 
+      <!--0460.xml-->
+      <pb ed="#L" n="460"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quid est in Patrem positum in esse dato, &amp; 
+      com<lb ed="#L" break="no" n="2"/>municato, ita quod illud esse datum non sit 
+      so<lb ed="#L" break="no" n="3"/>lum secundum votum, &amp; conatum, sicut in 
+      no<lb ed="#L" break="no" n="4"/>bis est, immo realiter, &amp; vere. sic ergo accipien 
+      <lb ed="#L" n="5"/>do donum, patet quomodo est proprietas spiri 
+      <lb ed="#L" n="6"/>tus sancti aeque vere, &amp; proprie, sicut esse 
+      ver<lb ed="#L" break="no" n="7"/>bum est proprietas Filij in diuinis. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1532">
+                  <lb ed="#L" n="8"/>Quomodo datio idem est, quod spiratio, &amp; donum 
+      <lb ed="#L" n="9"/>idem, quod spiritus, &amp; per consequens 
+      da<lb ed="#L" break="no" n="10"/>ri idipsum est, quod spirari. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1541">
+                  <lb ed="#L" n="11"/>SECVNDA vero propositio est, quod eadem 
+      <lb ed="#L" n="12"/>est proprietas doni, &amp; spiritus, &amp; idem est 
+      spi<lb ed="#L" break="no" n="13"/>ratio, &amp; datio siue actiue, siue passiue sumantur, 
+      <lb ed="#L" n="14"/>&amp; haec quidem est expressa sententia Aug. &amp; 
+      Ma<lb ed="#L" break="no" n="15"/>gistri sententiarum. si enim proprietas doni esset 
+      <lb ed="#L" n="16"/>alia a proprietate spiritus, &amp; a proprietate 
+      spi<lb ed="#L" break="no" n="17"/>rationis, haec propositio non esset vera, quod 
+      spi<lb ed="#L" break="no" n="18"/>ritus sanctus eo dicatur spiritus, quo donum, &amp; 
+      <lb ed="#L" n="19"/>quod eo dicatur donum, quo spiratio, vel 
+      proce<lb ed="#L" break="no" n="20"/>dens, sed Magister in praesenti dist. cap. Donum 
+      <lb ed="#L" n="21"/>vero ponit hanc propositionem, eo dicitur 
+      spi<lb ed="#L" break="no" n="22"/>ritus, quo donum, &amp; eo donum, quo procedens. ergo 
+      <lb ed="#L" n="23"/>cadem est proprietas, spiratio, &amp; datio aeterna. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1573">
+                  <lb ed="#L" n="24"/>Praeterea: Aug. dicit expresse 4. de Trin. quod 
+      <lb ed="#L" n="25"/>sicut natum esse est Filio a Patre esse, ita 
+      spiri<lb ed="#L" break="no" n="26"/>tui sancto donum Dei esse a Patre, &amp; Filio 
+      pro<lb ed="#L" break="no" n="27"/>cedere, sed manifestum est, quod Filium esse a 
+      <lb ed="#L" n="28"/>Patre, &amp; filium natum esse, est vna, &amp; eadem 
+      pro<lb ed="#L" break="no" n="29"/>prietas. non enim est a Patre, nisi nascendo, &amp; 
+      <lb ed="#L" n="30"/>idem est nasci a Patre, quod esse a patre. ergo 
+      <lb ed="#L" n="31"/>non est aliud spiritum procedere a Patre, &amp; 
+      Fi<lb ed="#L" break="no" n="32"/>lio, quam dari a Patre, &amp; Filio, &amp; esse donum 
+      <lb ed="#L" n="33"/>Dei, &amp; per consequens datio, &amp; spiratio, &amp; 
+      pro<lb ed="#L" break="no" n="34"/>cessio idem sunt. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1599">
+                  <lb ed="#L" n="35"/>Praeterea: Differentia distinguens 
+      processio<lb ed="#L" break="no" n="36"/>nem filij a processione spiritus sancti, non est 
+      <lb ed="#L" n="37"/>alia proprietas a generatione pass iua ex parte 
+      <lb ed="#L" n="38"/>Filij, nec est a spiratione passiua ex parte spiri 
+      <lb ed="#L" n="39"/>tus sancti, sed pro cessio Filij, &amp; spiritus sancti 
+      <lb ed="#L" n="40"/>in hoc differunt, quod per vnam procedit 
+      da<lb ed="#L" break="no" n="41"/>tus, &amp; donum, &amp; per aliam natus &amp; verbum 
+      se<lb ed="#L" break="no" n="42"/>cundum Aug. 5. de Trin. ergo sicut nasci, non 
+      <lb ed="#L" n="43"/>est aliud, quam Filij processio, sic dari non est 
+      <lb ed="#L" n="44"/>aliud, quam spiritus sancti processio. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1623">
+                  <lb ed="#L" n="45"/>Praeterea: Inter spiritum sanctum, &amp; Patrem, 
+      <lb ed="#L" n="46"/>&amp; Filium, non est aliqua relatio, se tenens ex par 
+      <lb ed="#L" n="47"/>te spiritus, nisi spiratio passiua, sed Aug. expres 
+      <lb ed="#L" n="48"/>se dicit, quod ipsa relatio, qua ad Patrem, &amp; 
+      Fi<lb ed="#L" break="no" n="49"/>lium refertur spiritus sanctus apparet, cum 
+      di<lb ed="#L" break="no" n="50"/>citur donum patris, &amp; filij. ergoillud, quod prius. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1639">
+                  <lb ed="#L" n="51"/>Et si dicatur, quod donum illam relationem 
+      con<lb ed="#L" break="no" n="52"/>notat, sed non significat principaliter, non valet, 
+      <lb ed="#L" n="53"/>quia tunc non appareret in nomine doni magis, 
+      <lb ed="#L" n="54"/>quam in nomine spiritus ista relatio, immo mi 
+      <lb ed="#L" n="55"/>nus, &amp; iterum donum, prout est spiritus sancti 
+      pro<lb ed="#L" break="no" n="56"/>prium non refertur ad datorem, eo modo quo munu 
+      <lb ed="#L" n="57"/>sculum, vel res liberaliter data, sed eo modo, quo 
+      <lb ed="#L" n="58"/>amantis vita, &amp; anima, &amp; quicquid est in eo, 
+      <lb ed="#L" n="59"/>prout communicatur amato, &amp; datur sibi, ac 
+      po<lb ed="#L" break="no" n="60"/>nitur in esse lato, &amp; in esse dato, &amp; in esse 
+      com<lb ed="#L" break="no" n="61"/>muni, ac muneris, recurri dicitur ad sic 
+      emit<lb ed="#L" break="no" n="62"/>tentem, &amp; tandem, quae quidem relatio est 
+      ma<lb ed="#L" break="no" n="63"/>nifeste originis, in nobis quidem secundum 
+      no<lb ed="#L" break="no" n="64"/>men tantummodo, quod realiter non impletur; 
+      <!--0460.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>in Deo vero secundum totum realiter adimpletur. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1678">
+                  <lb ed="#L" n="66"/>Praeterea: Magister in tota ista distinctione 
+      <lb ed="#L" n="67"/>probat istam conclusionem ex dictis Aug. vnde 
+      <lb ed="#L" n="68"/>in c. Donum expresse dicit, quod proprietas, quae 
+      <lb ed="#L" n="69"/>spiritus sanctus, vel donum dicitur, processio 
+      ip<lb ed="#L" break="no" n="70"/>sa est, &amp; quod eadem relatione dicitur spiritus 
+      <lb ed="#L" n="71"/>sanctus, &amp; donum, &amp; in c. Sed quaeritur, dicitur, q 
+      <lb ed="#L" n="72"/>semper fuerit donum, non solum, quia donabilis, 
+      <lb ed="#L" n="73"/>quia sic filius esset donum, quia semper donabilis 
+      <lb ed="#L" n="74"/>fuit, sed spiritus sanctus dicitur donum, quia ab 
+      <lb ed="#L" n="75"/>vtroque processit, &amp; in cap. Ex praedictis patet 
+      <lb ed="#L" n="76"/>euidenter, concludit quod sicut est duplex proces 
+      <lb ed="#L" n="77"/>sio, vna aeterna, &amp; alia temporalis, sic est duplex 
+      <lb ed="#L" n="78"/>datio vna aeterna, &amp; alia temporalis. vnde ab 
+      in<lb ed="#L" break="no" n="79"/>tentione Aug. &amp; Magistri discedit, qui non dicit, 
+      <lb ed="#L" n="80"/>spirationem passiuam esse idem, quod dationem 
+      aeter<lb ed="#L" break="no" n="81"/>nam, &amp; spiritum esse eandem proprietatem cum 
+      do<lb ed="#L" break="no" n="82"/>no. Ad cuius euidentiam considerandum, est quod 
+      <lb ed="#L" n="83"/>dari rei cuilibet includit quandam operatiohem 
+      <lb ed="#L" n="84"/>respicientem duos terminos, &amp; vnum subiectum; 
+      <lb ed="#L" n="85"/>pro subiecto quidem illud, quod datur, pro 
+      ter<lb ed="#L" break="no" n="86"/>minis vero a quo datur, &amp; cui datur, in dono au 
+      <lb ed="#L" n="87"/>tem tertio modo sumpto, quod nil est aliud, quam 
+      <lb ed="#L" n="88"/>amans positum in esse condonato, terminus ille 
+      <lb ed="#L" n="89"/>a quo donum communicatur habet principij 
+      ra<lb ed="#L" break="no" n="90"/>tionem, &amp; emittentis rem in tali esse donato, &amp; 
+      <lb ed="#L" n="91"/>secundum hoc apparet, quod spiratio &amp; talis da 
+      <lb ed="#L" n="92"/>tio idem sunt, quia de ratione spirationis sunt 
+      <lb ed="#L" n="93"/>eadem tria, videlicet illud, quod emittitur, &amp; 
+      <lb ed="#L" n="94"/>ponitur in tali esse, &amp; ad id a quo emittitur, &amp; 
+      <lb ed="#L" n="95"/>illud, erga quod emittitur, &amp; spiratur. vndequia 
+      <lb ed="#L" n="96"/>mens amantis emissa uocans ad amatum 
+      spiri<lb ed="#L" break="no" n="97"/>tus appellatur, &amp; similiter munus maximum est, 
+      <lb ed="#L" n="98"/>&amp; immensum, immo mensura omnis muneris, 
+      <lb ed="#L" n="99"/>non est mirabile si spiratio, &amp; emissio spiritus 
+      <lb ed="#L" n="100"/>amantis, sit eadem proprietas cum datione, ita 
+      <lb ed="#L" n="101"/>vt donum, &amp; spiritus omnino sint idem. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1759">
+                  <lb ed="#L" n="102"/>Est autem sciendum vlterius, quod terminus 
+      <lb ed="#L" n="103"/>istius dationis, erga quem spiritus sanctus emit 
+      <lb ed="#L" n="104"/>titur, &amp; spiratur non est primo, &amp; per se aliud, 
+      <lb ed="#L" n="105"/>quam diuina essentia, in qua complacet suo 
+      amo<lb ed="#L" break="no" n="106"/>re essentiali Deus: istum autem terminum 
+      parti<lb ed="#L" break="no" n="107"/>cipat immutabiliter ab aeterno omnis creata 
+      <lb ed="#L" n="108"/>essentia, &amp; rationes virtutum; ex tempore vero 
+      <lb ed="#L" n="109"/>participat huius terminum dationis rationalis 
+      <lb ed="#L" n="110"/>anima, per hoc quod in se recipit uirtutum, &amp; 
+      <lb ed="#L" n="111"/>gratiarum perfectionem, &amp; haec est datio 
+      spiri<lb ed="#L" break="no" n="112"/>tus sancti temporalis parricipatio, videlicet 
+      il<lb ed="#L" break="no" n="113"/>lius termini, erga quem spiritus sanctus emitti 
+      <lb ed="#L" n="114"/>tur ab aeterno per secundarium, &amp; 
+      participatio<lb ed="#L" break="no" n="115"/>nem primi termini, qui est essentia diuina, &amp; 
+      se<lb ed="#L" break="no" n="116"/>cundum hoc patet, quod datio temporalis non 
+      <lb ed="#L" n="117"/>addit aliquid ex parte spiritus saneti, aut 
+      da<lb ed="#L" break="no" n="118"/>tionis aeternae, sed tantum nouam 
+      participatio<lb ed="#L" break="no" n="119"/>nem termini, non quidem primarij, sed illius, qui 
+      <lb ed="#L" n="120"/>participat terminum primum, &amp; similiter 
+      dona<lb ed="#L" break="no" n="121"/>bilitas non ponit respectum inter aliquid aliud 
+      <lb ed="#L" n="122"/>ex parte spiritus sancti, sed respectum 
+      aptitu<lb ed="#L" break="no" n="123"/>dinalem ex parte termini, videlicet 
+      participa<lb ed="#L" break="no" n="124"/>bilitatem, &amp; hinc est, quod decipiuntur imaginan 
+      <lb ed="#L" n="125"/>tes, quod donum sit alia proprietas relatiua a spi 
+      <lb ed="#L" n="126"/>ratione passiua fundata super spiritu sancto, ac 
+      <lb ed="#L" n="127"/>si secundum originem rationis prius intelligeretur 
+      <lb ed="#L" n="128"/>spiritus sanctus produci, &amp; deinde dari, sicut 
+      <lb ed="#L" n="129"/>munus, quod primo fit, &amp; existit antequam 
+      <lb ed="#L" n="130"/>detur, non est autem ita, sed spiratio est quaedam 
+      <!--0461.xml-->
+      <pb ed="#L" n="461"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>excellentissima ratio omnium eorum, quae sunt 
+      <lb ed="#L" n="2"/>in amante, quae quidem prout capiunt esse 
+      da<lb ed="#L" break="no" n="3"/>tum, &amp; emissum ab amante dicuntur amantis 
+      <lb ed="#L" n="4"/>spiritus, &amp; ita spiritus sanctus procedit per 
+      <lb ed="#L" n="5"/>modum muneris, &amp; doni in diuinam essentiam, 
+      <lb ed="#L" n="6"/>&amp; in omnem creaturam, vt dictum est, nec 
+      di<lb ed="#L" break="no" n="7"/>citur dari ex tempore propter nouitatem 
+      da<lb ed="#L" break="no" n="8"/>tionis, sed propter nouam participationem 
+      ter<lb ed="#L" break="no" n="9"/>mini aeternae donationis, sicut de processione 
+      <lb ed="#L" n="10"/>superius dictum fuit, idem quippe est 
+      proces<lb ed="#L" break="no" n="11"/>sio, datio, &amp; spiratio. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1856">
+                  <lb ed="#L" n="12"/>Quod donum est proprietas constitutiua 
+      <lb ed="#L" n="13"/>Spiritus sancti. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1863">
+                  <lb ed="#L" n="14"/>TERTIA quoque propositio est, quod donum est 
+      <lb ed="#L" n="15"/>proprietas constitutiua personae Spiritus 
+      san<lb ed="#L" break="no" n="16"/>cti. quandocumque enim aliqua sunt vnum, &amp; idem 
+      <lb ed="#L" n="17"/>realiter, si vnum personam realem constituit, &amp; re 
+      <lb ed="#L" n="18"/>liquum; sed constat, quod amantem erga amatum 
+      <lb ed="#L" n="19"/>spirare idem est, quod totum quicquid est, &amp; ha 
+      <lb ed="#L" n="20"/>bet illi donare, &amp; totum illud amato donari, nil 
+      <lb ed="#L" n="21"/>aliud est, quam illud spirari, &amp; per consequens 
+      <lb ed="#L" n="22"/>spirari, &amp; donari idem sunt. ergo cum spiritus 
+      <lb ed="#L" n="23"/>sanctus constituatur in esse tali per spirari, 
+      ma<lb ed="#L" break="no" n="24"/>nifeste apparet, quod in eodem constituetur 
+      <lb ed="#L" n="25"/>per donari. sicut enim verbum, nil aliud est, 
+      <lb ed="#L" n="26"/>quam deitas posita in esse formato, sic spiritus 
+      <lb ed="#L" n="27"/>sanctus, vt saepe dictum est, est Deus positus in esse 
+      <lb ed="#L" n="28"/>dato, &amp; per consequens dari, vel donum est 
+      <lb ed="#L" n="29"/>sua proprietas, &amp; suus modus proprius 
+      subsi<lb ed="#L" break="no" n="30"/>stendi; vnaqueque autem persona in diuinis 
+      il<lb ed="#L" break="no" n="31"/>la proprietate dicitur constitui, secundum quam 
+      <lb ed="#L" n="32"/>proprium modum existendi possidet secundum 
+      <lb ed="#L" n="33"/>Riccardum 4. de Trin. in multis capitulis. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e1909">
+                  <lb ed="#L" n="34"/>Est autem considerandum, quod donum, 
+      <lb ed="#L" n="35"/>prout est spiritus sancti proprietas accipitur 
+      <lb ed="#L" n="36"/>pro communicatione charitatis, aut gratiae, 
+      <lb ed="#L" n="37"/>aut participatione passiua eorum ab anima, 
+      il<lb ed="#L" break="no" n="38"/>la namque dicitur datio temporalis, quae non est 
+      <lb ed="#L" n="39"/>noua datio, sed aeternae dationis participatio 
+      <lb ed="#L" n="40"/>ex parte termini, qui de nouo habet 
+      participa<lb ed="#L" break="no" n="41"/>ri, &amp; dicitur datio temporalis, non quia 
+      tem<lb ed="#L" break="no" n="42"/>poralitas addat nouam dationem, sed nouitatem 
+      <lb ed="#L" n="43"/>ex parte termini, &amp; ad hoc attendentes 
+      posito<lb ed="#L" break="no" n="44"/>res praecedentium opinionum, negauerunt 
+      do<lb ed="#L" break="no" n="45"/>num esse proprietatem spiritus sancti, sed 
+      Au<lb ed="#L" break="no" n="46"/>gustinus, &amp; Magister sententiarum, quod hoc non 
+      <lb ed="#L" n="47"/>erat noua donatio, sed aeterna processio 
+      appli<lb ed="#L" break="no" n="48"/>cata ad animam, propter participationem 
+      no<lb ed="#L" break="no" n="49"/>uam aeterni termini illius dationis dixerunt, quod 
+      <lb ed="#L" n="50"/>spiritus sanctus procedit, quomodo datus, &amp; 
+      <lb ed="#L" n="51"/>quod est donum ex vi processionis, sicut &amp; 
+      spi<lb ed="#L" break="no" n="52"/>ritus, immo idem est donum, &amp; spiritus. &amp; in 
+      <lb ed="#L" n="53"/>hoc finitur articulus secundus. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-148411-Dd1e1956">
+               <head xml:id="ol96b1-148411-Hd1e1958">Articulus 3</head>
+               <p xml:id="ol96b1-148411-d1e1960">
+                  <lb ed="#L" n="54"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-148411-d1e1965">
+                  <lb ed="#L" n="55"/>Vbi mouentur multae difficultates circa praedicta.
+    </p>
+               <p xml:id="ol96b1-148411-d1e1970">
+                  <lb ed="#L" n="56"/>CIRCA tertium autem considerandum, quod 
+      <lb ed="#L" n="57"/>circa praedicta multae difficultates 
+      occur<lb ed="#L" break="no" n="58"/>runt. Impossibile namque videtur, quod aliqua 
+      <lb ed="#L" n="59"/>creatura sit terminus aeternae processionis 
+      spi<lb ed="#L" break="no" n="60"/>ritus sancti: tum quia secundum hoc spiritus 
+      <lb ed="#L" n="61"/>sanctus refertur ad creaturam: tum quia 
+      indi<lb ed="#L" break="no" n="62"/>gebit, vt creatura ratione termini, quae omnia 
+      <lb ed="#L" n="63"/>sunt absona, vt videtur. 
+      <!--0461.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>Praeterea: Videtur impossibile, quod 
+      spiri<lb ed="#L" break="no" n="65"/>tus sanctus respiciat essentiam per modum ter 
+      <lb ed="#L" n="66"/>mini, quia secundum hoc esset donum Patris, &amp; 
+      <lb ed="#L" n="67"/>Filij in essentia, aut patris in Filium, vel Filij in 
+      <lb ed="#L" n="68"/>Patrem, cuius oppositum Magister dicit in littera. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2005">
+                  <lb ed="#L" n="69"/>Praeterea: Impossibile videtur quod datio sit 
+      <lb ed="#L" n="70"/>spiratio, vel processio spiritus sancti, quia secum 
+      <lb ed="#L" n="71"/>dum hoc verum esset, quod spiritus sanctus 
+      da<lb ed="#L" break="no" n="72"/>tione accepit, quod esset spiritus, &amp; deitas, &amp; 
+      <lb ed="#L" n="73"/>Deus, sicut ista procedendo accepit: Magister 
+      <lb ed="#L" n="74"/>autem hoc expresse negat in littera secundum 
+      <lb ed="#L" n="75"/>verba August. 6. de Trin. dicentis, quomodo spi 
+      <lb ed="#L" n="76"/>ritus sanctus per dationem erit substantia, cum 
+      <lb ed="#L" n="77"/>non prius daretur, quam esset cui daretur. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2028">
+                  <lb ed="#L" n="78"/>Praeetrea: Videtur irrationale, quod 
+      Spiri<lb ed="#L" break="no" n="79"/>tus sancti processio sit donatio, quia amans 
+      <lb ed="#L" n="80"/>non dicitur datum se, vt alteri, puta amico, cum 
+      <lb ed="#L" n="81"/>autem idem diligit se, non dicitur seipsum sibi 
+      <lb ed="#L" n="82"/>dare, quia iam ante erat. cum ergo in diuinis 
+      <lb ed="#L" n="83"/>sit omnimoda essentialis identitas, non videtur 
+      <lb ed="#L" n="84"/>quod ibi locum habeat huiusmodi datio amorosa. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2046">
+                  <lb ed="#L" n="85"/>Praeterea: Videtur irrationale, quod spiritus 
+      <lb ed="#L" n="86"/>sanctus sit Deus egrediens vi amoris, quia 
+      se<lb ed="#L" break="no" n="87"/>cundum hoc amor erit formale principium 
+      <lb ed="#L" n="88"/>emanationis spiritus sancti, &amp; erunt 
+      produ<lb ed="#L" break="no" n="89"/>ctiones elic itae, cuius oppositum dictum est saepe. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2059">
+                  <lb ed="#L" n="90"/>Praeterea: Videtur irrationale, quod totum 
+      <lb ed="#L" n="91"/>votum amantis impleatur in diuinis. constat 
+      <lb ed="#L" n="92"/>enim, quod non solum amans vi amoris dat, &amp; 
+      <lb ed="#L" n="93"/>egreditur ad amatum, quantum est ex conatu, 
+      <lb ed="#L" n="94"/>&amp; ex voto, seu ductu amoris; inimo etiam 
+      seip<lb ed="#L" break="no" n="95"/>sum, illa identitate, &amp; in eandem formam se 
+      <lb ed="#L" n="96"/>transfert, quantum est ex eodem voto. si ergo 
+      <lb ed="#L" n="97"/>ista in diuinis implentur, necesse est, vt Pater, 
+      <lb ed="#L" n="98"/>qui vi amoris seipsum dat, &amp; econuerso 
+      tran<lb ed="#L" break="no" n="99"/>seat in quandam identitatem, ita vt spiritus sit 
+      <lb ed="#L" n="100"/>quoddam personaliter includens Patrem, &amp; Fi 
+      <lb ed="#L" n="101"/>lium, vt fiat vna persona ex eis communis, ex 
+      <lb ed="#L" n="102"/>quo votum amatiuum impletur totaliter in diuinis 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2090">
+                  <lb ed="#L" n="103"/>Praeterea: Quod idem exeat a se, aut extra se 
+      <lb ed="#L" n="104"/>irrationale, &amp; impossibile esse videtur, propter 
+      <lb ed="#L" n="105"/>quod est contradictio, quod votum amantium 
+      <lb ed="#L" n="106"/>impleatur in quacumque natura, etiam in 
+      diui<lb ed="#L" break="no" n="107"/>na, quae contradictoria non recipit, nec 
+      contra<lb ed="#L" break="no" n="108"/>dictionem admittit, vt Aug. di cit 1. de Trinit. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2106">
+                  <lb ed="#L" n="109"/>Praeterea: Impossibile esse videtur, quod sit 
+      <lb ed="#L" n="110"/>eadem relatio inter duos terminos, &amp; 
+      vni<lb ed="#L" break="no" n="111"/>cum fundamentum; creatura vero est vnus 
+      <lb ed="#L" n="112"/>terminus doni, quia sibi spiritus sanctus datur; 
+      <lb ed="#L" n="113"/>Pater vero, &amp; Filius sunt terminus spirationis, 
+      <lb ed="#L" n="114"/>quia ab eis spiratur. non ergo videtur, quod 
+      ea<lb ed="#L" break="no" n="115"/>dem sit relatio doni, qua creaturam spiritus 
+      san<lb ed="#L" break="no" n="116"/>ctus respicit cum relatione spirationis, 
+      secun<lb ed="#L" break="no" n="117"/>dum quam refertur ad Patrem, &amp; Filium, 
+      tam<lb ed="#L" break="no" n="118"/>quam ad vnum spiratorem. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2130">
+                  <lb ed="#L" n="119"/>Declaratio istarum difficultatum. 
+    </p>
+               <p xml:id="ol96b1-148411-d1e2136">
+                  <lb ed="#L" n="120"/>OED istis non obstantibus dicendum est, 
+      si<lb ed="#L" break="no" n="121"/>Ocut prius, nec illae difficultates concludunt. 
+      <lb ed="#L" n="122"/>pro prima quidem considerandum est, quod 
+      <lb ed="#L" n="123"/>sicut se habet diuinum intelligere, &amp; essentia, 
+      <lb ed="#L" n="124"/>vt intelligibilis ad creaturam, sic diuinum 
+      com<lb ed="#L" break="no" n="125"/>placere, &amp; diuina essentia, inquantum 
+      diligibi<lb ed="#L" break="no" n="126"/>lis ad omnem essentiam creaturae: habet autem 
+      <lb ed="#L" n="127"/>se sic diuinum intelligere, vt sit quaedam sub- 
+     <!-- missing text from page 462, 463, and 464 -->
+      <pb ed="#L" n="462"/>
+                  <pb ed="#L" n="463"/>
+                  <pb ed="#L" n="464"/>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

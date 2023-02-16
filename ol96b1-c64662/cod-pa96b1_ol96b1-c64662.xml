@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="201"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c64662"> <!-- l1d4p1-prae -->
+            <head xml:id="ol96b1-c64662-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c64662-d1e104">
+      <!--0201.xml-->
+               <pb ed="#L" n="201"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVOD HAE. LOCVTJONES VERAE SJNT 
+      <lb ed="#L" n="2"/>Deus genuit Deum: &amp; Vnus Deus est tres personae. 
+      <lb ed="#L" n="3"/>DISTJNCTIO IIII. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e120">
+      <!--0201.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Hic oritur quaestio, &amp;c. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e129">
+               <lb ed="#L" n="5"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e135">
+               <lb ed="#L" n="6"/>HIc oritur quaestio, &amp;c. 
+      Post<lb ed="#L" break="no" n="7"/>quam Magister declarauit cum 
+      <lb ed="#L" n="8"/>vnitate essentiae in Diuinis 
+      <lb ed="#L" n="9"/>stare pluralitatem 
+      persona<lb ed="#L" break="no" n="10"/>rum, exprimendo 
+      auctorita<lb ed="#L" break="no" n="11"/>tibus, &amp; rationibus veritatem; 
+      <lb ed="#L" n="12"/>in hac parte circa hoc 
+      mo<lb ed="#L" break="no" n="13"/>uet multiplicem 
+      difficulta<lb ed="#L" break="no" n="14"/>tem. Et diuiditur haec pars in quatuor 
+      difficul<lb ed="#L" break="no" n="15"/>tates, quas mouet.
+    </p>
+            <p xml:id="ol96b1-c64662-d1e159">
+               <lb ed="#L" n="16"/>Primam quidem comparando actum 
+      generatio<lb ed="#L" break="no" n="17"/>nis ad hunc terminum, Deus, sumptum 
+      concre<lb ed="#L" break="no" n="18"/>tiue, &amp; est quaestio, Vtrum haec sit concedenda, 
+      <lb ed="#L" n="19"/>Deus genuit Deum. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e170">
+               <lb ed="#L" n="20"/>Secundam vero comparando actum 
+      genera<lb ed="#L" break="no" n="21"/>tionis ad hunc terminum, Deitas abstractiue, &amp; 
+      <lb ed="#L" n="22"/>est quaestio, Vtrum sit concedenda, Essentia 
+      ge<lb ed="#L" break="no" n="23"/>nerat, vel generatur. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e181">
+               <lb ed="#L" n="24"/>Tertiam, comparando eundem actum ad volun 
+      <lb ed="#L" n="25"/>tatem, &amp; necessitatem, &amp; est quaestio, Vtrum 
+      Pa<lb ed="#L" break="no" n="26"/>ter genuit voluntate, aut necessitate. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e190">
+               <lb ed="#L" n="27"/>Quartam autem comparando eundem actum 
+      <lb ed="#L" n="28"/>ad potentiam, &amp; voluntatem, &amp; est quaestio, 
+      <lb ed="#L" n="29"/>Vtrum Pater potuit, vel voluit Filium generare, 
+      <lb ed="#L" n="30"/>&amp; incipit secunda pars distinctionis 5. Postquam 
+      <lb ed="#L" n="31"/>hic quaeritur. tertia distinct. 6. Praeterea solet quaeri. 
+      <lb ed="#L" n="32"/>quarta dist. 7. Hic quaeri solet. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e206">
+               <lb ed="#L" n="33"/>Circa primum tria facit: primo tractat 
+      a<lb ed="#L" break="no" n="34"/>liquid principaliter: secundo aliquid 
+      acciden<lb ed="#L" break="no" n="35"/>taliter: &amp; tertio redit ad principale intentum. 
+      <lb ed="#L" n="36"/>secunda ibi: Quidam tamen. tertia ibi: Nunc ad 
+      <lb ed="#L" n="37"/>praemissam. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e220">
+               <lb ed="#L" n="38"/>Circa primum tria facit. 
+      <lb ed="#L" n="39"/>Primo namque quaestionem proponit, dicens, 
+      <lb ed="#L" n="40"/>quod hic oritur quaestio, vtrum possit catholice 
+      <lb ed="#L" n="41"/>concedi, quod Deus genuit Deum, &amp; videtur, 
+      <lb ed="#L" n="42"/>quod non, quia aut genuit se Deum, quod esse non 
+      <lb ed="#L" n="43"/>potest, quia idem non generat se, aut genuit 
+      a<lb ed="#L" break="no" n="44"/>lium Deum, quod minus esse potest, cum sit vnus 
+      <lb ed="#L" n="45"/>Deus tantum. Relinquitur ergo, quod non sit 
+      <lb ed="#L" n="46"/>concedendum, quod Deus genuit Deum. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e242">
+               <lb ed="#L" n="47"/>Secundo ibi, Ad quod respondentes. quaestionem 
+      <lb ed="#L" n="48"/>soluit dicens, quod catholice potest concedi, quod 
+      <lb ed="#L" n="49"/>Deus Deum genuit, iuxta illud, Lumen de 
+      lumi<lb ed="#L" break="no" n="50"/>ne, Deum verum de Deo vero, &amp; quod 
+      argueba<lb ed="#L" break="no" n="51"/>tur, quod vel genuit se Deum, vel alium Deum. 
+      <lb ed="#L" n="52"/>Respondet Magister, quod neutra est concedenda. 
+    </p>
+            <p xml:id="ol96b1-c64662-d1e258">
+               <lb ed="#L" n="53"/>Tertio ibi, Sed adhuc opponunt. Magister 
+      obii<lb ed="#L" break="no" n="54"/>icit contra responsionem, dicens, quod adhuc op 
+      <lb ed="#L" n="55"/>ponunt garruli contra istam responsionem 
+      vide<lb ed="#L" break="no" n="56"/>licet, quod si Deus Pater genuit Deum, aut genuit 
+      <lb ed="#L" n="57"/>Deum, qui est Deus Pater, &amp; sic genuit seipsum, 
+      <lb ed="#L" n="58"/>aut genuit Deum, qui non est Deus Pater, &amp; sic 
+      <lb ed="#L" n="59"/>est Deus, qui non est Deus Pater, &amp; per consequens 
+      <!--0201.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="60"/>sunt duo Dij, quod erroneum est, &amp; respondet 
+      <lb ed="#L" n="61"/>Magister, quod cum dicitur, quod genuit Deum, 
+      <lb ed="#L" n="62"/>qui est Deus Pater, aut ly, qui, refert ipsum Patrem, 
+      <lb ed="#L" n="63"/>&amp; sic propositio non est concedenda, quia Pater 
+      <lb ed="#L" n="64"/>non genuit suppositum Patris, aut refert 
+      natu<lb ed="#L" break="no" n="65"/>ram, &amp; tunc est concedenda. econuerso autem est 
+      <lb ed="#L" n="66"/>de negatiua, si dicatur, Pater genuit Deum, qui 
+      <lb ed="#L" n="67"/>non est Pater. si autem ly, qui, refert suppositum, 
+      <lb ed="#L" n="68"/>tunc est vera; Pater namque genuit Deum, hoc 
+      <lb ed="#L" n="69"/>est quoddam suppositum, quod Deus est, scilicet 
+      <lb ed="#L" n="70"/>Filium, qui non est Pater, si vero referat naturam, 
+      <lb ed="#L" n="71"/>tunc est falsa. Haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

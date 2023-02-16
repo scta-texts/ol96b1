@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="190"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c61147"> <!-- l1d3p3-prae -->
+            <head xml:id="ol96b1-c61147-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c61147-d1e104">
+               <lb ed="#L" n="32"/>CAPJTVLVM TERTJVM.
+    </p>
+            <p xml:id="ol96b1-c61147-d1e109">
+               <lb ed="#L" n="33"/>Quomodo in anima sit imago Trinitatis. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e114">
+               <lb ed="#L" n="34"/>Nunc vero ad eam iam perueniamus, &amp;c. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e120">
+               <lb ed="#L" n="35"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-c61147-d1e125">
+               <lb ed="#L" n="36"/>NVNC vero ad ea perueniamus, &amp; c. 
+      <lb ed="#L" n="37"/>Postquam Magister declarauit tri 
+      <lb ed="#L" n="38"/>nitatem personarum in vnitate es 
+      <lb ed="#L" n="39"/>sentiae per rationem vestigij in om 
+      <lb ed="#L" n="40"/>ni creatura reperti, hic probat 
+      <lb ed="#L" n="41"/>per rationem imaginis repertae in crcatura 
+      ra<lb ed="#L" break="no" n="42"/>tionali. &amp; circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e143">
+               <lb ed="#L" n="43"/>Primo namque ponit intentum.
+    </p>
+            <p xml:id="ol96b1-c61147-d1e148">
+               <lb ed="#L" n="44"/>Secundo exequitur propositum, ibi: Iam ergo 
+      <lb ed="#L" n="45"/>in ea. Dicit itaque primo, quod nunc peruenien 
+      <lb ed="#L" n="46"/>dum est ad imaginem Trinitatis, repertam in 
+      <lb ed="#L" n="47"/>humana natura. licet enim natura humana mens 
+      <lb ed="#L" n="48"/>non sit eiusdem naturae cum Deo, est tamen ima 
+      <lb ed="#L" n="49"/>go illius, quia ibi quaerenda est, pro eo quod 
+      na<lb ed="#L" break="no" n="50"/>tura nostra nil habet melius: haec autem imago, 
+      <lb ed="#L" n="51"/>etsi possit deformari, cum homo amissa Dei gra 
+      <lb ed="#L" n="52"/>tia, non est particeps Trinitatis, nihilominus 
+      <lb ed="#L" n="53"/>imago in mente semper remanet indeleta. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e172">
+               <lb ed="#L" n="54"/>Postmodum ibi: Iam ergo in ea. Exequitur 
+      pro<lb ed="#L" break="no" n="55"/>positum, &amp; circa hoc duo facit, secundum duas 
+      <lb ed="#L" n="56"/>asignationes, quas ponit: primam quidem, 
+      pe<lb ed="#L" break="no" n="57"/>nes memoriam, intelligentiam, &amp; voluntatem. 
+      <lb ed="#L" n="58"/>secundam vero, penes mentem, notitiam, &amp; 
+      a<lb ed="#L" break="no" n="59"/>morem. secunda ibi: Potest etiam alio modo. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e188">
+               <lb ed="#L" n="60"/>Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e194">
+               <lb ed="#L" n="61"/>Primo namque assignat similitudinem inter 
+      <lb ed="#L" n="62"/>haec tria reperta in mente, videlicet memoriam, 
+      <!--0190.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>intelligentiam, &amp; voluntatem, &amp; tres personas 
+      <lb ed="#L" n="64"/>repertas in Deo. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e210">
+               <lb ed="#L" n="65"/>Secundo vero assignat dissimilitudinem 
+      ma<lb ed="#L" break="no" n="66"/>gnam. secunda ibi: Verumtamen caueat. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e217">
+               <lb ed="#L" n="67"/>Circa primum duo facit. primo namque 
+      assi<lb ed="#L" break="no" n="68"/>gnat praefatam conuenientiam. in secundo 
+      re<lb ed="#L" break="no" n="69"/>mouet duplicem instantiam. secunda ibi: Hoc 
+      <lb ed="#L" n="70"/>attendendum estt. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e228">
+               <lb ed="#L" n="71"/>Circa primum tria facit. Primo enim 
+      propo<lb ed="#L" break="no" n="72"/>nit in his tribus consistere imaginem Trinitatis 
+      <lb ed="#L" n="73"/>dicens, quod mens, &amp; sui meminit, &amp; se 
+      intelli<lb ed="#L" break="no" n="74"/>git, &amp; se diligit. haec ergo tria memoria, 
+      intelli<lb ed="#L" break="no" n="75"/>gentia, &amp; voluntas, sunt quaedam trinitas, non 
+      <lb ed="#L" n="76"/>quidem Deus, sed imago Dei. secunda ibi: Haec 
+      <lb ed="#L" n="77"/>igitur tria. assignat similitudinem trinitatis 
+      hu<lb ed="#L" break="no" n="78"/>ius ad illam, &amp; dicit, quod ista tria sunt vna mens, 
+      <lb ed="#L" n="79"/>vna substantia, vna vita, sed distinguuntur ad in 
+      <lb ed="#L" n="80"/>uicem, &amp; sunt ad aliquid, seu relatiua, &amp; 
+      quid<lb ed="#L" break="no" n="81"/>quid vnumquodque eorum absolute dicitur, &amp; 
+      <lb ed="#L" n="82"/>ad se non pluraliter, sed singulariter dicitur. sunt 
+      <lb ed="#L" n="83"/>enim vna mens, vna vita, in his vero 
+      distinguun<lb ed="#L" break="no" n="84"/>tur, quia relatiue, &amp; ad aliquid dicuntur, &amp; ita est 
+      <lb ed="#L" n="85"/>in illa beatissima Trinitate, quoniam est vna 
+      <lb ed="#L" n="86"/>mens, vna substantia, vna vita, &amp; quid quid in 
+      <lb ed="#L" n="87"/>Deo est, est absolutum, proprietatibus tantum 
+      <lb ed="#L" n="88"/>relatiuis mutuo distinguuntur. tertia ibi: 
+      Aequa<lb ed="#L" break="no" n="89"/>lia enim sunt. assignat aliam conuenientiam 
+      sum<lb ed="#L" break="no" n="90"/>ptam ex aequalitate, dicens, quod sicut tres 
+      per<lb ed="#L" break="no" n="91"/>sonae in Diuinis aequales sunt, sic memoria est 
+      <lb ed="#L" n="92"/>aequalis intelligentiae, &amp; voluntati: nam 
+      memi<lb ed="#L" break="no" n="93"/>nisse, intellexisse, &amp; dilexisse, &amp; similiter 
+      volun<lb ed="#L" break="no" n="94"/>tas aequalis est memoriae, &amp; intelligentiae, quia 
+      <lb ed="#L" n="95"/>diligo meminisse, &amp; intellexisse, &amp; idem est de 
+      in<lb ed="#L" break="no" n="96"/>telligentia respectu memoriae, &amp; voluntatis, 
+      vn<lb ed="#L" break="no" n="97"/>de totaliter se capiunt, &amp; mutuo se includunt, 
+      <lb ed="#L" n="98"/>&amp; sunt singula in singulis, instar excellentiae 
+      Tri<lb ed="#L" break="no" n="99"/>nitatis. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e293">
+               <lb ed="#L" n="100"/>Postmodum ibi: <quote xml:id="ol96b1-c61147-Qd1e297">Attendendum est</quote>. Magister sol 
+      <lb ed="#L" n="101"/>uit binam instantiam. primam quidem, 
+      quali<lb ed="#L" break="no" n="102"/>ter memoria, intelligentia, &amp; voluntas, dicuntur 
+      <lb ed="#L" n="103"/>vna mens, vna essentia, cum tamen videantur 
+      <lb ed="#L" n="104"/>naturales proprietates, seu vires ipsius mentis. 
+      <lb ed="#L" n="105"/>Secunda vero, quomodo a se inuicem differant, &amp; 
+      <lb ed="#L" n="106"/>adinuicem referantur. &amp; respondet ibi ad haec tria, 
+      <lb ed="#L" n="107"/>&amp; primo ad secundam instantiam, dicens, quod 
+      <lb ed="#L" n="108"/>mens scipsam amare non potest, nisi meminerit, 
+      <lb ed="#L" n="109"/>nec meminisse, nisi nouerit, &amp; ita ista tria mutuo 
+      <lb ed="#L" n="110"/>se supponunt, &amp; adinuicem referuntur. secundo 
+      <lb ed="#L" n="111"/>ibi: Sed iam videndum est. Respondet ad primam, 
+      <lb ed="#L" n="112"/>dicens, quod ista tria non sunt in anima, sicut 
+      <lb ed="#L" n="113"/>accidentia in subiecto, sed substantialiter sunt, 
+      <lb ed="#L" n="114"/>propter quod dicuntur vna substantia, vna vita, 
+      <lb ed="#L" n="115"/>ex quibus potest aliqualiter conspici 
+      sempiter<lb ed="#L" break="no" n="116"/>na, &amp; incommutabilis natura indiuiduae 
+      Tri<lb ed="#L" break="no" n="117"/>nitatis. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e337">
+               <lb ed="#L" n="118"/>Postmodum ibi: <quote xml:id="ol96b1-c61147-Qd1e341">Verumtamen caueat</quote>. ponit duas 
+      <lb ed="#L" n="119"/>dissimilitudines. primam quidem, quod ista tria 
+      <lb ed="#L" n="120"/>sic sunt in vno homine, quod non sunt ipse 
+      ho<lb ed="#L" break="no" n="121"/>mo. habet enim homo memoriam, non tamen est 
+      <lb ed="#L" n="122"/>ipsa memoria. In illa autem beatissima 
+      Trinita<lb ed="#L" break="no" n="123"/>te, &amp; Deus estt, &amp; Trinitas in Deo est, &amp; tres 
+      per<lb ed="#L" break="no" n="124"/>sonae sunt ipsae vnus Deus. secundam vero ponit 
+      <lb ed="#L" n="125"/>ibi: Rursus haec imago. dicens, quod homo 
+      praedica<lb ed="#L" break="no" n="126"/>tur de istis tribus in obliquo. sunt enim haec tria 
+      <lb ed="#L" n="127"/>vnius hominis, non vnus homo: econuerso autem 
+      <lb ed="#L" n="128"/>est in Diuinis, nam tres personae non sunt tria 
+      v<lb ed="#L" break="no" n="129"/>nius Dei, sed tres sunt vnus Deus, &amp; sic patet, 
+      <!--0191.xml-->
+      <pb ed="#L" n="191"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quam exigua sit similitudo, &amp; maxima 
+      dissimi<lb ed="#L" break="no" n="2"/>litudo inter Trinitatem, &amp; imaginem 
+      Trinita<lb ed="#L" break="no" n="3"/>tis, quae est in nobis. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e382">
+               <lb ed="#L" n="4"/>Postmodum ibi: Potest etiam alio modo. ponit 
+      <lb ed="#L" n="5"/>secundam assignationem, mentis, notitiae, &amp; 
+      <lb ed="#L" n="6"/>amoris, &amp; circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e391">
+               <lb ed="#L" n="7"/>Primo enim proponit huiusmodi trinarium 
+      <lb ed="#L" n="8"/>mentis nostrae, dicens, quod duo, quaedam sunt 
+      <lb ed="#L" n="9"/>mens, &amp; notitia eius, &amp; duo, quaedam sunt mens, 
+      <lb ed="#L" n="10"/>&amp; amor eius. cum ergo nouit se mens, &amp; amat 
+      <lb ed="#L" n="11"/>necesse est, vt adsit quaedam trinitas, videlicet 
+      ip<lb ed="#L" break="no" n="12"/>sa mens, &amp; notitia mentis, &amp; amor mentis.
+    </p>
+            <p xml:id="ol96b1-c61147-d1e407">
+               <lb ed="#L" n="13"/>Secundo ibi: Haec autem tria. ponit 
+      conditio<lb ed="#L" break="no" n="14"/>nes huius trinarij, ex amore mentis in anima 
+      re<lb ed="#L" break="no" n="15"/>perti, &amp; est prima conditio, quod amor, &amp; 
+      noti<lb ed="#L" break="no" n="16"/>tia in anima substantialiter existunt, &amp; ideo sunt 
+      <lb ed="#L" n="17"/>vnum, vna scilicet mens, &amp; substantia, &amp; tamen 
+      <lb ed="#L" n="18"/>cum hoc a se inuicem distinguuntur: secunda 
+      ve<lb ed="#L" break="no" n="19"/>ro est, quod mens parit notitiam, mens autem &amp; 
+      <lb ed="#L" n="20"/>notitia pariunt amorem: tertia quoque est, quod 
+      <lb ed="#L" n="21"/>proles non est minor parente. dum enim mens 
+      <lb ed="#L" n="22"/>tantam se nouit, quanta est, &amp; intantum se 
+      dili<lb ed="#L" break="no" n="23"/>git, quantum nouit, &amp; quanta est, necesse est, vt 
+      <lb ed="#L" n="24"/>amor, &amp; notitia pares sint ipsi menti. quarta au 
+      <lb ed="#L" n="25"/>tem est, quod haec sunt mutuo in seipsis: nam mens 
+      <lb ed="#L" n="26"/>amans, &amp; in amore est, &amp; amor in mente, amor 
+      <lb ed="#L" n="27"/>etiam est in notitia, &amp; notitia in amore. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e442">
+               <lb ed="#L" n="28"/>Tertio ibi: Mens itaque rationalis. adaptat ista 
+      <lb ed="#L" n="29"/>ad diuina, dicens, quod mens rationalis potest 
+      <lb ed="#L" n="30"/>per haec tria contemplari, &amp; vnitatem in 
+      Trini<lb ed="#L" break="no" n="31"/>tate, &amp; Trinitatem in vnitate in Deo, 
+      conside<lb ed="#L" break="no" n="32"/>rando, quod primum principium est vna 
+      essen<lb ed="#L" break="no" n="33"/>tia, vnus Deus, ne si essent duo Dij, vterque 
+      es<lb ed="#L" break="no" n="34"/>set insufficiens, vel alter superflueret; 
+      conside<lb ed="#L" break="no" n="35"/>rans etiam, quod illud principium absque 
+      noti<lb ed="#L" break="no" n="36"/>tia non sit quaedam res fatua; &amp; iterum, quod 
+      <lb ed="#L" n="37"/>absque amore sui non sit, &amp; ita Trinitatem, &amp; 
+      v<lb ed="#L" break="no" n="38"/>vnitatem in primo principio aequaliter 
+      con<lb ed="#L" break="no" n="39"/>templatur. 
+    </p>
+            <p xml:id="ol96b1-c61147-d1e471">
+               <lb ed="#L" n="40"/>Vltimo ibi: Quapropter iuxta istam. concludit 
+      <lb ed="#L" n="41"/>intentionem totius distinctionis, dicens, quod iu 
+      <lb ed="#L" n="42"/>xta considerationem de vestigio reperto in 
+      re<lb ed="#L" break="no" n="43"/>bus omnibus, &amp; imagine reperta in 
+      intellectua<lb ed="#L" break="no" n="44"/>libus, possumus aliqualiter intueri in vno Deo 
+      <lb ed="#L" n="45"/>conditore vniuersae creaturae Trinitatem 
+      rela<lb ed="#L" break="no" n="46"/>tarum adinuicem personarum, vt sit vnus Deus, 
+      <lb ed="#L" n="47"/>qui essentialiter de seipso, vnum genuit Filium, 
+      <lb ed="#L" n="48"/>&amp; sic vnus Filius, qui de vno solo Patre 
+      essentia<lb ed="#L" break="no" n="49"/>liter natus est, &amp; sit vnus Spiritus, qui solus a Pa 
+      <lb ed="#L" n="50"/>tre, Filioque essentialiter procedit: hoc autem to 
+      <lb ed="#L" n="51"/>tum non potest esse vna persona, quia nulla res 
+      <lb ed="#L" n="52"/>est, quae seipsam gignat, vt sic. haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,2622 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="256"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c83178"> <!-- l1d8p1-q1 -->
+            <head xml:id="ol96b1-c83178-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-c83178-Hd1e104" type="question-title">
+        Utrum in omnibus aliis citra Deum, differas essentia, &amp; esse. 
+      </head>
+            <p xml:id="ol96b1-c83178-d1e107">
+               <lb ed="#L" n="70"/>Vtrum in omnibus aliis citra Deum, differas 
+      es<lb ed="#L" break="no" n="71"/>sentia, &amp; esse. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e114">
+               <lb ed="#L" n="72"/>ET quia Magister hic agit de vnitate, &amp; 
+      pro<lb ed="#L" break="no" n="73"/>L prietate esse Diuini, quae consistit in hoc, quod 
+      <lb ed="#L" n="74"/>esse non est accidens suo esse, immo sunt penitus 
+      <lb ed="#L" n="75"/>idem. Ideo inquirendum occurrit, vtrum in 
+      om<lb ed="#L" break="no" n="76"/>ni alio citra Deum, differant essentia, &amp; esse. 
+      <lb ed="#L" n="77"/>Quod esse, &amp; essentia realiter differunt in 
+      qua<lb ed="#L" break="no" n="78"/>libet re creata. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e133">
+               <lb ed="#L" n="79"/>ET videtur, quod in omni alio esse, &amp; 
+      essen<lb ed="#L" break="no" n="80"/>tia realiter distinguantur. illud enim 
+      vide<lb ed="#L" break="no" n="81"/>tur esse communis animi conceptio, &amp; per 
+      conse<lb ed="#L" break="no" n="82"/>quens verum, quod Philosophi, &amp; Sapientes 
+      enun<lb ed="#L" break="no" n="83"/>ciant, secundum quod Boetius dicit libro suo de 
+      <lb ed="#L" n="84"/>hebdomadibus, sed omnes Philosophi, &amp; omnes 
+      <lb ed="#L" n="85"/>Sancti concordant, quod esse sit accidens 
+      essen<lb ed="#L" break="no" n="86"/>tiae, &amp; distinguatur realiter ab ea, huic quidem 
+      <lb ed="#L" n="87"/>Philosophus concordat, qui dicit 2. poster. quod 
+      <lb ed="#L" n="88"/>essentia non est substantia rei; huic concordat 
+      <lb ed="#L" n="89"/>Auicenna 5. Metaphysi. &amp; vbique est istius 
+      senten<lb ed="#L" break="no" n="90"/>tiae, quod esse accidit enti in omni alio, 
+      praeter<lb ed="#L" break="no" n="91"/>quam in necesse esse; huic concordat <name xml:id="ol96b1-c83178-Nd1e163">Algazel</name> in 
+      <lb ed="#L" n="92"/>Logica sua, vbi multis rationibus probat, quod 
+      <lb ed="#L" n="93"/>esse nostrum sit accidens; huic concordat 
+      Hila<lb ed="#L" break="no" n="94"/>rius quinto de Trinit. qui dicit, quod esse in Deo 
+      <lb ed="#L" n="95"/>non est accidens, sicut in omni creato; huic con 
+      <lb ed="#L" n="96"/>cordat Boetius de hebdomadib. dicens, quod di 
+      <lb ed="#L" n="97"/>uersum est esse, &amp; illud, quod est; ipsum vero 
+      es<lb ed="#L" break="no" n="98"/>se nondum est, aut vero quod est accepta forma 
+      <lb ed="#L" n="99"/>essendi est, atque consistit. ergo non solum 
+      ve<lb ed="#L" break="no" n="100"/>rum est, quod esse, &amp; essentia distinguantur, 
+      im<lb ed="#L" break="no" n="101"/>mo videtur communis animi conceptio, &amp; 
+      sa<lb ed="#L" break="no" n="102"/>pientibus per se notum. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e190">
+               <lb ed="#L" n="103"/>Praeterea: Omne quod fluit ab aliquo alio, 
+      di<lb ed="#L" break="no" n="104"/>stinguitur realiter ab eo, sed esse fluit ab essentia, 
+      <lb ed="#L" n="105"/>vt communiter dicitur. ergo realiter ab essentia 
+      <lb ed="#L" n="106"/>distinguetur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e201">
+               <lb ed="#L" n="107"/>Praeterea: Quandocumque aliqua realiter sunt 
+      <lb ed="#L" n="108"/>idem, oppositum vnius non praedicatur de altero, 
+      <lb ed="#L" n="109"/>vt patet, quod oppositum definitionis non praedi 
+      <lb ed="#L" n="110"/>catur de definito, quia idem sunt, &amp; vlterius 
+      oppo<lb ed="#L" break="no" n="111"/>fitum animalis non praedicatur de homine, sed 
+      <lb ed="#L" n="112"/>constat, quod oppositum esse praedicatur de essentia- 
+      <!--0257.xml-->
+      <pb ed="#L" n="257"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ista enim est vera, rosa non est. ergo essentia non 
+      <lb ed="#L" n="2"/>est idem realiter cum esse. &amp; si dicatur, quod pa 
+      <lb ed="#L" n="3"/>ri ratione probabitur, quod differant realiter es 
+      <lb ed="#L" n="4"/>se, &amp; essentia, nam ista est vera, essentia rosae 
+      <lb ed="#L" n="5"/>non est, siue esse rosae non est, non valet, quia 
+      <lb ed="#L" n="6"/>impossibile est intelligi esse sub non esse; esset 
+      e<lb ed="#L" break="no" n="7"/>nim contradictio. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e238">
+               <lb ed="#L" n="8"/>Praeterea: participans, &amp; participatum 
+      reali<lb ed="#L" break="no" n="9"/>ter distinguuntur; vnde idem non participat se, 
+      <lb ed="#L" n="10"/>nullus enim dicit, quod albedo participet 
+      albedi<lb ed="#L" break="no" n="11"/>nem, aut Angelus essentiam: sed Boetius dicit 
+      <lb ed="#L" n="12"/>libro de hebdomad. quod omne, quod est, 
+      parti<lb ed="#L" break="no" n="13"/>cipat eo, quod est essentia, vt sit. ergo in omni eo 
+      <lb ed="#L" n="14"/>quod est essentia participans, &amp; esse 
+      participa<lb ed="#L" break="no" n="15"/>tum, realiter distinguuntur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e258">
+               <lb ed="#L" n="16"/>Praeterea: In omni propositione de materia 
+      <lb ed="#L" n="17"/>contingenti, praedicatum est aliud realiter a subie 
+      <lb ed="#L" n="18"/>cto. idem enim non est contingens sibi ipsi, sed 
+      <lb ed="#L" n="19"/>omnis propositio, in qua praedicatur essse de crea 
+      <lb ed="#L" n="20"/>tura, est de materia contingenti. hoc est enim con 
+      <lb ed="#L" n="21"/>tingens, rosa est. non est enim necessaria, 
+      alio<lb ed="#L" break="no" n="22"/>quin scibilis esset, &amp; immutabilis. ergo in omni 
+      <lb ed="#L" n="23"/>creato esse, &amp; essentia realiter distinguntur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e278">
+               <lb ed="#L" n="24"/>Praeterea: Omne, quod est purum esse, est 
+      in<lb ed="#L" break="no" n="25"/>creabile, nec possibile adnihilari. esse enim non 
+      <lb ed="#L" n="26"/>potest redire in nihil, &amp; magis opponuntur esse, 
+      <lb ed="#L" n="27"/>&amp; nihil, quam albedo, &amp; nigredo, vel quod cum 
+      <lb ed="#L" n="28"/>que aliud oppositum. constat autem, quod 
+      albe<lb ed="#L" break="no" n="29"/>do non potest redire in nigredinrm, quamuis 
+      sub<lb ed="#L" break="no" n="30"/>iectum albedinis possit suscipere nigredinem. er 
+      <lb ed="#L" n="31"/>go multo minus, esse, poterit redire in nihil, nisi 
+      <lb ed="#L" n="32"/>ratione alicuius substituti, puta essentiae: sed 
+      con<lb ed="#L" break="no" n="33"/>stat, quod omne quod est citra primum, creari 
+      <lb ed="#L" n="34"/>potest, &amp; redire in nihil. ergo in omni tali esse 
+      <lb ed="#L" n="35"/>habebit essentiam, tamquam substratum, nec po 
+      <lb ed="#L" n="36"/>terit poni, quod sit nisi primum purum esse. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e310">
+               <lb ed="#L" n="37"/>Praeterea: Nullum creatum adaequat Diuinam 
+      <lb ed="#L" n="38"/>simplicitatem, sed si formae abstractae sint suum 
+      <lb ed="#L" n="39"/>esse, adaequabunt Diuinam simplicitatem, cum 
+      <lb ed="#L" n="40"/>non sit in eis compositio ex materia, &amp; forma, 
+      <lb ed="#L" n="41"/>nec compositio ex esse, &amp; essentia, nec aliqua 
+      a<lb ed="#L" break="no" n="42"/>lia. ergo impossibile est poni, quin sit alia res 
+      es<lb ed="#L" break="no" n="43"/>se, &amp; essentia. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e328">
+               <lb ed="#L" n="44"/>Praeterea: Quod est indifferens ad aliqua, &amp; di 
+      <lb ed="#L" n="45"/>uiditur per illa, non videtur esse idem cum 
+      ali<lb ed="#L" break="no" n="46"/>quo illorum, sed essentia est indifferens ad esse, &amp; 
+      <lb ed="#L" n="47"/>non esse, vt dicit Auicenna 5. Metaph. de 
+      conce<lb ed="#L" break="no" n="48"/>ptu enim aequinitatis, non est, quod sit, aut non 
+      <lb ed="#L" n="49"/>sit, essentia etiam quandoque existens, 
+      quando<lb ed="#L" break="no" n="50"/>que non existens, diuiditur quoque ens per actum, 
+      <lb ed="#L" n="51"/>&amp; potentiam: esse autem est actus, potentia 
+      ve<lb ed="#L" break="no" n="52"/>ro est non esse. quod enim est in potentia, 
+      non<lb ed="#L" break="no" n="53"/>dum est. ergo essentia omnino est aliud, &amp; ab 
+      es<lb ed="#L" break="no" n="54"/>se, &amp; a non esse 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e354">
+               <lb ed="#L" n="55"/>Nec valet si dicatur, quod diuiditur per esse, 
+      <lb ed="#L" n="56"/>&amp; non esse, tamquam genus per differentias, quia 
+      <lb ed="#L" n="57"/>vtraque differentia debet dicere aliquid 
+      positi<lb ed="#L" break="no" n="58"/>uum: non esse autem est purum nihil, vnde neces 
+      <lb ed="#L" n="59"/>se est dici, quod diuidatur per ista, sicut 
+      subie<lb ed="#L" break="no" n="60"/>ctum per accidentia. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e370">
+               <lb ed="#L" n="61"/>Praeterea: Quandocumque aliqua realis actio 
+      <lb ed="#L" n="62"/>terminatur ad aliquid, &amp; non terminatur ad 
+      a<lb ed="#L" break="no" n="63"/>liud, illa non possunt poni eadem res. si enim 
+      <lb ed="#L" n="64"/>sunt eadem res, quandocumque actione reali 
+      <lb ed="#L" n="65"/>vnum attingitur, &amp; reliquum; sed creatio 
+      rea<lb ed="#L" break="no" n="66"/>lis productio est. non attingit autem essentiam, 
+      <lb ed="#L" n="67"/>quia Deus non facit hominem esse hominem, 
+      <!--0257.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="68"/>aut esse essentiam, sed hominem esse, &amp; essentiam 
+      <lb ed="#L" n="69"/>esse, secundum quod dicit Auctor de causis in 
+      <lb ed="#L" n="70"/>quarta propositione, quod prima rerum 
+      crea<lb ed="#L" break="no" n="71"/>tarum est esse. ergo non sunt idem realiter 
+      essen<lb ed="#L" break="no" n="72"/>tia, &amp; esse.
+    </p>
+            <p xml:id="ol96b1-c83178-d1e403">
+               <lb ed="#L" n="73"/>Praeterea: Omne illud, in quo non differunt essen 
+      <lb ed="#L" n="74"/>tia, &amp; esse, est necessario infinitum: tale 
+      namque<lb ed="#L" break="no" n="75"/>est purum esse subsistens: esse autem non est quid 
+      <lb ed="#L" n="76"/>imitatum: in conceptu enim esse, non est aliquid 
+      <lb ed="#L" n="77"/>determinatum, nisi per essentiam aliquam 
+      de<lb ed="#L" break="no" n="78"/>terminetur, puta per humanitatem, vel aliquid 
+      <lb ed="#L" n="79"/>aliud. restat ergo, vt omne, quod est pure esse, 
+      <lb ed="#L" n="80"/>non habens aliquid aliud ab esse, omnino sit 
+      illi<lb ed="#L" break="no" n="81"/>mitatum, sed omne creatum limitatum est, &amp; 
+      <lb ed="#L" n="82"/>nullum infinitum. ergo in omni creato est 
+      ali<lb ed="#L" break="no" n="83"/>quid aliud realiter ab esse.
+    </p>
+            <p xml:id="ol96b1-c83178-d1e429">
+               <lb ed="#L" n="84"/>Quod esse, &amp; essentia distinguantur, sicut 
+      respe<lb ed="#L" break="no" n="85"/>ctus, &amp; fundamentum. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e437">
+               <lb ed="#L" n="86"/>VYLTERIVS videtur, quod esse addat 
+      respe<lb ed="#L" break="no" n="87"/>ctum realem ad essentiam. sicut enim se ha 
+      <lb ed="#L" n="88"/>bet esse essentiae ad Deum sub ratione causae 
+      exen<lb ed="#L" break="no" n="89"/>plaris, sic se habet esse ad Deum sub ratione, qua 
+      <lb ed="#L" n="90"/>est efficiens; sed essentia habet esse essentiae pro 
+      <lb ed="#L" n="91"/>eo, quod habet exemplar in Deo. Chimera enim, 
+      <lb ed="#L" n="92"/>&amp; caetera figmenta non habent Idaeam in Deo, &amp; 
+      <lb ed="#L" n="93"/>idcirco non sunt essentiae: quidditas autem 
+      lapi<lb ed="#L" break="no" n="94"/>dis habet, quod sit essentiae, pro eo quod habet 
+      <lb ed="#L" n="95"/>exemplar in Deo, etiam res habebunt esse 
+      exi<lb ed="#L" break="no" n="96"/>stentiae per respectum ad Deum, inquantum est 
+      <lb ed="#L" n="97"/>efficiens. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e466">
+               <lb ed="#L" n="98"/>Praeterea: Creatio terminatur ad esse, sed per 
+      <lb ed="#L" n="99"/>creationem nil acquiritur, nisi respectus ad 
+      ef<lb ed="#L" break="no" n="100"/>ficiens. tota enim realitas, quae fuit ab aeterno, 
+      <lb ed="#L" n="101"/>vt exemplata, &amp; per consequens habuit esse 
+      <lb ed="#L" n="102"/>essentiae per creationem, ponitur, vt producta; 
+      <lb ed="#L" n="103"/>&amp; per consequens habuit esse existentiae. ergo 
+      es<lb ed="#L" break="no" n="104"/>se existentiae nil addit ad essentiam, nisi esse 
+      pro<lb ed="#L" break="no" n="105"/>ductum in respectu ad producens. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e486">
+               <lb ed="#L" n="106"/>Praeterea: Esse existentiae, &amp; esse in effectu idem 
+      <lb ed="#L" n="107"/>sunt, secundum quod frequenter vtitur Auicen. 
+      <lb ed="#L" n="108"/>sed effectus importat respectum ad efficiens. 
+      er<lb ed="#L" break="no" n="109"/>go esse existentiae non dicit formaliter, nisi respe 
+      <lb ed="#L" n="110"/>ctum ad producens. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e499">
+               <lb ed="#L" n="111"/>Praeterea: Philosophus dicit 9. Metaph. quod 
+      <lb ed="#L" n="112"/>nomen, Actus, transumptum est ab actione, vnde 
+      <lb ed="#L" n="113"/>poni in esse, &amp; poni de facto, idem videntur 
+      es<lb ed="#L" break="no" n="114"/>se, sed poni in facto, vel in acto esse, &amp; producto, 
+      <lb ed="#L" n="115"/>non dicit nisi respectum ad producens, &amp; faciens, 
+      <lb ed="#L" n="116"/>&amp; agens. ergo esse existentiae addit super 
+      essen<lb ed="#L" break="no" n="117"/>tiam respectum ad agens. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e517">
+               <lb ed="#L" n="118"/>Praeterea: Existere non est aliud, quam extra 
+      <lb ed="#L" n="119"/>sistere, videlicet extra causas suas, sed poni extra 
+      <lb ed="#L" n="120"/>virtutem causae efficientis, &amp; poni extra causam, 
+      <lb ed="#L" n="121"/>dicit respectum ad causam extra quam est. ergo 
+      <lb ed="#L" n="122"/>esse dicit formaliter respectum ad causam. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e530">
+               <lb ed="#L" n="123"/>Praeterea: Esse existentiae nil est aliud, quam 
+      po<lb ed="#L" break="no" n="124"/>ni in rerum natura, &amp; existens est positum in 
+      re<lb ed="#L" break="no" n="125"/>rum natura; sed positum dicit respectum ad 
+      po<lb ed="#L" break="no" n="126"/>nentem. ergo esse existentiae, dicit respectum 
+      <lb ed="#L" n="127"/>ad agens. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e544">
+               <lb ed="#L" n="128"/>Praeterea: Quandocumque aliquid vnum est idem, 
+      <lb ed="#L" n="129"/>transfertur de potentia in actum, nil acquisiuit 
+      abso<lb ed="#L" break="no" n="130"/>lutum, alioquin iam non esset idem numero, sed res, 
+      <lb ed="#L" n="131"/>quae primo fuit possibiliseadem in numero ponitur 
+      <lb ed="#L" n="132"/>in effectu. lapis enim, qui prius non erat, postmo- 
+      <!--0258.xml-->
+      <pb ed="#L" n="258"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dum est idem in numero. ergo per se non est 
+      ac<lb ed="#L" break="no" n="2"/>quisitum aliquid absolutum, sed tantummodo 
+      <lb ed="#L" n="3"/>respectus ad transferens de potentia in actum.
+    </p>
+            <p xml:id="ol96b1-c83178-d1e570">
+               <lb ed="#L" n="4"/>Quod differant ratione, esse, &amp; essentia, sicut 
+      en<lb ed="#L" break="no" n="5"/>titas, veritas, &amp; bonitas. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e577">
+               <lb ed="#L" n="6"/>VVLTERIVS videtur, quod differant 
+      ratio<lb ed="#L" break="no" n="7"/>Vne, sicut entitas, veritas, &amp; bonitas. Ens
+      <lb ed="#L" n="8"/>enim sicut se habet ad esse, sic ad vnum esse, 
+      si<lb ed="#L" break="no" n="9"/>cut Commentator innuit 10. Metaphys. dicens, 
+      <lb ed="#L" n="10"/>quod Auicenna errauit circa ens, &amp; vnum, 
+      po<lb ed="#L" break="no" n="11"/>nendo ipsa accidentia, sed Commentator 
+      quar<lb ed="#L" break="no" n="12"/>to Metaph. dicit, quod vnum differt ab ente sola 
+      <lb ed="#L" n="13"/>intentione intellectuali, non reali; vnde dicit, 
+      <lb ed="#L" n="14"/>quod non est differentia secundum intentiones 
+      <lb ed="#L" n="15"/>additas, sed quia significant eandem naturam 
+      <lb ed="#L" n="16"/>diuersis modis. ergo a simili esse, et essentia 
+      dif<lb ed="#L" break="no" n="17"/>ferunt sola ratione. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e606">
+               <lb ed="#L" n="18"/>Praeterea: Creatura respicit Deum sub 
+      habi<lb ed="#L" break="no" n="19"/>tudine triplicis causae, efficientis, finalis, &amp; 
+      e<lb ed="#L" break="no" n="20"/>xemplaris; sed habet rationem veri, inquantum 
+      <lb ed="#L" n="21"/>respicit Deum, vt exemplar, rationem vero boni, 
+      <lb ed="#L" n="22"/>inquantum ipsum respicit, tamquam finem, &amp; 
+      <lb ed="#L" n="23"/>rationem entis, &amp; esse, inquantum respicit 
+      ip<lb ed="#L" break="no" n="24"/>sum sicut efficiens. ergo sicut veritas, &amp; bonitas 
+      <lb ed="#L" n="25"/>distinguuntur, sic distinguentur esse, &amp; essentia, &amp; 
+      <lb ed="#L" n="26"/>per consequens sola ratione. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e628">
+               <lb ed="#L" n="27"/>Praeterea: Omnis quaestio non ponens in 
+      nume<lb ed="#L" break="no" n="28"/>rum habet praedicatum, &amp; subiectum differentia 
+      <lb ed="#L" n="29"/>sola ratione. si enim differrent realiter, esset 
+      quae<lb ed="#L" break="no" n="30"/>stio ponens in numerum, sicut quaestio quia est, 
+      <lb ed="#L" n="31"/>&amp; propter quid: quia vero est quaestio necesse 
+      <lb ed="#L" n="32"/>est, vt praedicatum, &amp; subiectum aliquo modo 
+      <lb ed="#L" n="33"/>differant; &amp; per consequens ex quo non 
+      rea<lb ed="#L" break="no" n="34"/>liter, relinquitur, quod ratione: sed quaestio si est, 
+      <lb ed="#L" n="35"/>non ponit in numerum, vt Philosophus dicit 2. 
+      <lb ed="#L" n="36"/>Poster. habet autem pro subiecto essentiam, &amp; 
+      <lb ed="#L" n="37"/>esse pro praedicato. ergo non differunt realiter, 
+      <lb ed="#L" n="38"/>sed sola ratione. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e657">
+               <lb ed="#L" n="39"/>Et confirmatur per hoc, quod dicit Linconien 
+      <lb ed="#L" n="40"/>sis in exponendo illud verbum Philosophi. ait 
+      e<lb ed="#L" break="no" n="41"/>nim, quod esse, praedicat essentiam esse, &amp; 
+      per<lb ed="#L" break="no" n="42"/>tractat ibi, quomodo talis praedicatio, &amp; talis 
+      <lb ed="#L" n="43"/>questioin nunerumt nt faeia dicferunt 
+      rea<lb ed="#L" break="no" n="44"/>liter, aut sola ratione: sed non potest poni, quod 
+      <lb ed="#L" n="45"/>realiter: tum quia per prius crearetur essentia, 
+      <lb ed="#L" n="46"/>quam esse. August. enim dicit, septimo super Ge 
+      <lb ed="#L" n="47"/>nes. quod per prius creatur materia, quam 
+      for<lb ed="#L" break="no" n="48"/>ma, quia potentialis est: tum quia creatura 
+      se<lb ed="#L" break="no" n="49"/>cundum illum, &amp; quod essentia est terminus 
+      crea<lb ed="#L" break="no" n="50"/>tionis: &amp; per consequens quidquid est in ea, est 
+      a<lb ed="#L" break="no" n="51"/>liquis actus, &amp; aliquod esse. ergo relinquitur, 
+      <lb ed="#L" n="52"/>quod sola ratione distinguantur.
+    </p>
+            <p xml:id="ol96b1-c83178-d1e691">
+               <lb ed="#L" n="53"/>Quod esse, &amp; essentia distinguantur solum 
+      gram<lb ed="#L" break="no" n="54"/>maticaliter.
+    </p>
+            <p xml:id="ol96b1-c83178-d1e698">
+               <lb ed="#L" n="55"/>VLTERIVS videtur, quod solummodo 
+      di<lb ed="#L" break="no" n="56"/>stinguantur modis grammaticalibus. 
+      ab<lb ed="#L" break="no" n="57"/>stractum enim, &amp; concretum solum 
+      grammati<lb ed="#L" break="no" n="58"/>caliter distinguuntur; sed essentia, &amp; esse 
+      distin<lb ed="#L" break="no" n="59"/>guuntur, sicut abstractum, &amp; concretum: 
+      essen<lb ed="#L" break="no" n="60"/>tia namque est nomen abstractum ab esse, sicut 
+      <lb ed="#L" n="61"/>humanitas ab homine. ergo videtur, quod 
+      so<lb ed="#L" break="no" n="62"/>lummodo grammaticaliter distinguantur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e718">
+      <!--0258.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>Praeterea: August. dicit quinto de Trin. quod 
+      <lb ed="#L" n="64"/>sicut ab eo, quod est sapere, dicta est sapientia, 
+      <lb ed="#L" n="65"/>ita ab eo, quod est esse, dicta est essentia, sed 
+      sa<lb ed="#L" break="no" n="66"/>pere, &amp; sapientia differunt grammaticaliter, &amp; 
+      <lb ed="#L" n="67"/>cursus, ac currere, &amp; lux, ac lucere. ergo &amp; esse, 
+      <lb ed="#L" n="68"/>&amp; essentia grammaticaliter differunt. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e738">
+               <lb ed="#L" n="69"/>Praeterea: Quae differunt sicut verbum, &amp; 
+      no<lb ed="#L" break="no" n="70"/>men, grammaticaliter differunt; sed esse, &amp; essen 
+      <lb ed="#L" n="71"/>tia se habent, sicut verbum, &amp; nomen, quia 
+      si<lb ed="#L" break="no" n="72"/>cut calor, &amp; calere, cursus, &amp; currere. ergo id, 
+      <lb ed="#L" n="73"/>quod prius. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e751">
+               <lb ed="#L" n="74"/>Praeterea: Sicut se habet vita ad viuere, sic se 
+      <lb ed="#L" n="75"/>habet essentia ad esse: nam viuere viuentibus est 
+      <lb ed="#L" n="76"/>esse secundum Philosophum in secundo de 
+      ani<lb ed="#L" break="no" n="77"/>ma. sed vita, &amp; viuere differunt, sicut nomen, &amp; 
+      <lb ed="#L" n="78"/>verbum. ergo modo simili differrent essentia, 
+      <lb ed="#L" n="79"/>&amp; esse. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e767">
+               <lb ed="#L" n="80"/>Quod essentia, &amp; esse non possint differre 
+      <lb ed="#L" n="81"/>realiter. 
+      <lb ed="#L" n="82"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="ol96b1-c83178-d1e779">
+               <lb ed="#L" n="83"/>Sed in oppositum videtur, quod in nullo 
+      crea<lb ed="#L" break="no" n="84"/>to esse, &amp; essentia differant realiter. illud 
+      e<lb ed="#L" break="no" n="85"/>nim est impossibile poni, ex quo sequitur 
+      infini<lb ed="#L" break="no" n="86"/>tas actualis. infinita enim res in actu 
+      impossibi<lb ed="#L" break="no" n="87"/>le est poni, sed si esse, est alia res ab essentia, infini 
+      <lb ed="#L" n="88"/>tae res sunt, in quolibet ente. quaeretur enim de 
+      <lb ed="#L" n="89"/>importata per esse, vtrum sit seipsa 
+      formali<lb ed="#L" break="no" n="90"/>ter, aut per aliam rem, &amp; si seipsa pari 
+      ratione<lb ed="#L" break="no" n="91"/>standum fuit in prima; si vero per aliam rem, 
+      <lb ed="#L" n="92"/>quaereretur de illa, &amp; procedetur in infinitum. 
+      <lb ed="#L" n="93"/>ergo esse non potest poni res alia ab essentia. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e805">
+               <lb ed="#L" n="94"/>Et si dicatur, quod esse non est, sed est illud, quo 
+      <lb ed="#L" n="95"/>essentia est, non valet: tum quia esse ponitur 
+      ex<lb ed="#L" break="no" n="96"/>tra nihil, &amp; per consequens est: tum quia pari 
+      <lb ed="#L" n="97"/>ratione soluetur Commentatoris demonstratio 
+      <lb ed="#L" n="98"/>de vno, dicetur quidem, quod vnitas est res, non 
+      <lb ed="#L" n="99"/>quidem vna, sed qua aliud est vnum. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e821">
+               <lb ed="#L" n="100"/>Praeterea: Si esse est res alia ab essentia, aut est 
+      <lb ed="#L" n="101"/>substantia, aut accidens, non potest poni 
+      sub<lb ed="#L" break="no" n="102"/>stantia, quia tunc essent tres substantiae in suppo 
+      <lb ed="#L" n="103"/>sito, videlicet materia, &amp; forma, &amp; esse, nec 
+      po<lb ed="#L" break="no" n="104"/>test esse accidens, tum quia esse accidens 
+      prae<lb ed="#L" break="no" n="105"/>supponit suum subiectum esse, &amp; ita esse 
+      praesup<lb ed="#L" break="no" n="106"/>poneret aliud esse, &amp; sic in infinitum: tum quia 
+      <lb ed="#L" n="107"/>accidens esset actualius, quam substantia, cum es 
+      <lb ed="#L" n="108"/>se sit actualius, quam essentia: tum quia propter 
+      <lb ed="#L" n="109"/>quod vnumquodque tale, illud magis, &amp; per con 
+      <lb ed="#L" n="110"/>sequens accidens haberet magis esse, quam 
+      sub<lb ed="#L" break="no" n="111"/>stantia. ergo esse, &amp; essentia differre non possunt 
+      <lb ed="#L" n="112"/>realiter. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e852">
+               <lb ed="#L" n="113"/>Praeterea: Quando aliqua sunt distincta 
+      reali<lb ed="#L" break="no" n="114"/>ter, vnum potest per Diuinam potentiam ab 
+      a<lb ed="#L" break="no" n="115"/>lio separari: sed esse ab essentia separari non po 
+      <lb ed="#L" n="116"/>test, alioquin si separaretur essentia, erit esse 
+      abs<lb ed="#L" break="no" n="117"/>que essentia, &amp; essentia absque esse. ergo non po 
+      <lb ed="#L" n="118"/>test poni, quod realiter distinguantur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e868">
+               <lb ed="#L" n="119"/>Praeterea: Manente eadem causa, manet idem 
+      <lb ed="#L" n="120"/>effectus, &amp; vbi est eadem ratio, debet idem poni: 
+      <lb ed="#L" n="121"/>sed per omnes rationes, quibus probatur, quod 
+      <lb ed="#L" n="122"/>essentia differt ab esse, potest probari, quod essentia 
+      <lb ed="#L" n="123"/>differat ab esse, vt per illam de indifferentia. 
+      ae<lb ed="#L" break="no" n="124"/>que est indifferens esse ad esse, &amp; ad non esse, 
+      si<lb ed="#L" break="no" n="125"/>cut essentia, cum sit creatura, &amp; per illam de par 
+      <lb ed="#L" n="126"/>ticipatione, quia esse participat esse Diuinum 
+      <lb ed="#L" n="127"/>cum sit quaedam similitudo, &amp; participatio Dei, 
+      <lb ed="#L" n="128"/>&amp; per illam de illimitatione, quia esse erit quod- 
+      <!--0259.xml-->
+      <pb ed="#L" n="259"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dam illimitatum in sua realitate, &amp; per illam de 
+      <lb ed="#L" n="2"/>adnihilatione, quia esse non poterit redire in 
+      <lb ed="#L" n="3"/>nihil, &amp; sic de omnibus alijs rationibus. ergo, 
+      <lb ed="#L" n="4"/>cum constet, quod esse non differt realiter ab 
+      es<lb ed="#L" break="no" n="5"/>sentia, non oportet ex illis rationibus tenere, 
+      <lb ed="#L" n="6"/>quod differat essentia, &amp; esse. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e912">
+               <lb ed="#L" n="7"/>Praeterea: Non debet poni aliquid superfluum, 
+      <lb ed="#L" n="8"/>aut aliqua distinctio sine causa, quia frustra fit 
+      <lb ed="#L" n="9"/>per plura, quod potest fieri per pauca; sed nulla 
+      <lb ed="#L" n="10"/>necessitas apparet, quare esse, &amp; essentia 
+      distin<lb ed="#L" break="no" n="11"/>guantur, sicut declaratum est de rationibus, quod 
+      <lb ed="#L" n="12"/>non amplius cogunt de essentia, &amp; esse. ergo non 
+      <lb ed="#L" n="13"/>debet poni inter illa distinctio realis. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e931">
+               <lb ed="#L" n="14"/>Praeterea: Si esse, &amp; essentia componunt ens 
+      <lb ed="#L" n="15"/>tamquam actus, &amp; potentia, aut essentia est in 
+      <lb ed="#L" n="16"/>potentia simpliciter, aut in potentia secundum 
+      <lb ed="#L" n="17"/>quid, si in potentia simpliciter, sequitur, quod sit 
+      <lb ed="#L" n="18"/>materia, &amp; esse forma substantialis; si vero sit 
+      <lb ed="#L" n="19"/>in potentia secundum quid, tunc erit in actu sim 
+      <lb ed="#L" n="20"/>pliciter, &amp; per consequens erit simpliciter in 
+      a<lb ed="#L" break="no" n="21"/>ctu sine esse, quod est impossibile. ergo esse, &amp; 
+      es<lb ed="#L" break="no" n="22"/>sentia non componunt ens creatum. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e953">
+               <lb ed="#L" n="23"/>Praeterea: Omne esse est ad formam, aut ergo 
+      <lb ed="#L" n="24"/>est ipsamet forma, aut aliquid effectum a forma, 
+      <lb ed="#L" n="25"/>si ipsamet forma habetur propositum, quia 
+      for<lb ed="#L" break="no" n="26"/>ma est pars essentiae, si vero aliquid derelictum a 
+      <lb ed="#L" n="27"/>forma, tunc effectus formalis erit effectus 
+      effi<lb ed="#L" break="no" n="28"/>cientis, cum haec sit differentia inter 
+      causalita<lb ed="#L" break="no" n="29"/>tem efficientis, &amp; formae, quod effectus formalis, 
+      <lb ed="#L" n="30"/>est ipsamet forma. ergo non potest poni, quod 
+      <lb ed="#L" n="31"/>esse sit aliud ab essentia. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e975">
+               <lb ed="#L" n="32"/>Preterea: Si esse differat ab essentia, tamquam 
+      <lb ed="#L" n="33"/>res alia, aut erit creatura, aut creatrix essentia, 
+      <lb ed="#L" n="34"/>sicut Boetius dicit lib. 3. de ortu scientiarum, sed 
+      <lb ed="#L" n="35"/>constat, quod essentia est creatrix. ergo est crea 
+      <lb ed="#L" n="36"/>tura, si creatura. quaeritur ergo de illa, vtrum 
+      <lb ed="#L" n="37"/>sit aliqua essentia, vel nulla, si aliqua habetur 
+      <lb ed="#L" n="38"/>propositum, quod essentia, &amp; esse sunt idem in 
+      <lb ed="#L" n="39"/>aliqua creatura; si vero nulla penitus nihil est, 
+      <lb ed="#L" n="40"/>quod enim nulla essentia est penitus, nihil est 
+      se<lb ed="#L" break="no" n="41"/>cundum August, ergo non potest distingui 
+      reali<lb ed="#L" break="no" n="42"/>ter essentia ab esse. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1001">
+               <lb ed="#L" n="43"/>Praeterea: Substantia est ens per se, vt patet 
+      <lb ed="#L" n="44"/>septimo Metaph. &amp; primo Post. sed non erit ens 
+      <lb ed="#L" n="45"/>per se, si essentia est accidens reale. ergo illud, 
+      <lb ed="#L" n="46"/>quod prius. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1012">
+               <lb ed="#L" n="47"/>Quod esse non addat respectum ad essentiam. 
+      <lb ed="#L" n="48"/>JLTERIVS videtur, quod esse non addat re 
+      <lb ed="#L" n="49"/>V spectum ad essentiam. nulla enim actio 
+      ter<lb ed="#L" break="no" n="50"/>minatur immediate ad respectum, vt patet 5. 
+      <lb ed="#L" n="51"/>Phys. sed creatio terminatur ad esse. ergo esse 
+      <lb ed="#L" n="52"/>non dicit respectum. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1028">
+               <lb ed="#L" n="53"/>Praeterea: Manente fundamento, &amp; termino, 
+      <lb ed="#L" n="54"/>necesse est manere respectum. manentibus enim 
+      <lb ed="#L" n="55"/>duobus albis, semper manet similitudo: sed Deus, 
+      <lb ed="#L" n="56"/>qui est efficiens semper manet, &amp; essentia creatu 
+      <lb ed="#L" n="57"/>rae secundum ponentes, quod esse sit respectus, 
+      <lb ed="#L" n="58"/>semper manet. ergo &amp; respectus semper 
+      mane<lb ed="#L" break="no" n="59"/>bit; &amp; per consequens creatura semper habuit 
+      <lb ed="#L" n="60"/>esse, &amp; semper habebit, quod est impossibile. 
+      er<lb ed="#L" break="no" n="61"/>go esse non dicit respectum. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1051">
+               <lb ed="#L" n="62"/>Praeterea: Omnis nouus respectus, exigit 
+      no<lb ed="#L" break="no" n="63"/>uum absolutum, vel in termino, vel in fundamen 
+      <lb ed="#L" n="64"/>to, sed in termino, qui est Deus, nulla nouitas 
+      <lb ed="#L" n="65"/>esse potest. ergo in fundamento acquiritur ali- 
+      <!--0259.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>quid nouum absolutum, si fundetur respectus 
+      <lb ed="#L" n="67"/>ad agens; &amp; per consequens esse includit aliquid 
+      <lb ed="#L" n="68"/>absolutum. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1073">
+               <lb ed="#L" n="69"/>Quod essentia, &amp; esse non differant sola ratione
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1078">
+               <lb ed="#L" n="70"/>VVLTERIVS videtur, quod essentia, &amp; esse 
+      <lb ed="#L" n="71"/>Vnon diffferant sola ratione. plus enim 
+      dis<lb ed="#L" break="no" n="72"/>fert essentia, &amp; esse in creatura, quam in Deo, sed 
+      <lb ed="#L" n="73"/>in Deo differunt ratione: potest ehim concipi 
+      <lb ed="#L" n="74"/>Deus, absque hoc, quod concipiatur quod sit. 
+      <lb ed="#L" n="75"/>non enim omnis disputans, aut loquens de Deo 
+      <lb ed="#L" n="76"/>concipit ipsum esse, alioquin esset per se notum 
+      <lb ed="#L" n="77"/>ex terminis, quod Deus est, cuius oppositum 
+      <lb ed="#L" n="78"/>fuit superius declaratum. ergo esse, &amp; essentia 
+      <lb ed="#L" n="79"/>non differunt ratione sola in creaturis. 
+      <lb ed="#L" n="80"/>Praeterea: Si esse, &amp; essentia sola ratione 
+      diffe<lb ed="#L" break="no" n="81"/>runt esse non erit accidens creaturae; sed Hilar. 
+      <lb ed="#L" n="82"/>expresse dicit, &amp; habetur in litera, quod in solo 
+      <lb ed="#L" n="83"/>Deo esse non est accidens essentiae, innuens per 
+      <lb ed="#L" n="84"/>hoc, quod in omni creatura est accidens. ergo 
+      <lb ed="#L" n="85"/>non differunt sola ratione. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1115">
+               <lb ed="#L" n="86"/>Quod non differant solum grammaticaliter.
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1120">
+               <lb ed="#L" n="87"/>VLTERIVS videtur, quod non differant 
+      <lb ed="#L" n="88"/>grammaticaliter. illud enim, quod potest 
+      <lb ed="#L" n="89"/>intelligi, sub non esse, non addit esse ad 
+      essen<lb ed="#L" break="no" n="90"/>tiam, sed potest intelligi concretum, &amp; verbum 
+      <lb ed="#L" n="91"/>sub non esse, quod patet, de concreto quidem, 
+      <lb ed="#L" n="92"/>quia dubitari potest, vtrum homo sit, vel non sit, 
+      <lb ed="#L" n="93"/>sicut &amp; de cursu. ergo non addit significatum 
+      <lb ed="#L" n="94"/>concreti, nec significatum verbi esse super essen 
+      <lb ed="#L" n="95"/>tiam, vt videtur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1142">
+               <lb ed="#L" n="96"/>Praeterea: Si esse, &amp; essentia differrent 
+      gram<lb ed="#L" break="no" n="97"/>maticaliter, quaestio ista non esset Metaphysica, 
+      <lb ed="#L" n="98"/>sed grammaticalis: sed constat, quod est 
+      sum<lb ed="#L" break="no" n="99"/>me metaphysica. ergo grammaticaliter non 
+      di<lb ed="#L" break="no" n="100"/>stinguuntur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1156">
+               <lb ed="#L" n="101"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1161">
+               <lb ed="#L" n="102"/>AD quaestionem istam respondendo, hoc 
+      <lb ed="#L" n="103"/>ordine procedetur. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1168">
+               <lb ed="#L" n="104"/>Primo quidem discurretur per opiniones, &amp; 
+      <lb ed="#L" n="105"/>ponentur aliquae regulae, quibus dirigi debet 
+      in<lb ed="#L" break="no" n="106"/>quirens verum in praesenti quaesito. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1177">
+               <lb ed="#L" n="107"/>Secundo vero ponentur quatuor negatiuae 
+      <lb ed="#L" n="108"/>conclusiones oppositae opinionibus dictis. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1184">
+               <lb ed="#L" n="109"/>Tertio vero affirmatiue, dicendo, quomodo 
+      <lb ed="#L" n="110"/>se habent essentia, &amp; esse in omni creatura. 
+    </p>
+            <p xml:id="ol96b1-c83178-d1e1191">
+               <lb ed="#L" n="111"/>Quarto quoque, quomodo se habent essentia, 
+      <lb ed="#L" n="112"/>&amp; esse in Deo. 
+    </p>
+            <div xml:id="ol96b1-c83178-Dd1e1199">
+               <head xml:id="ol96b1-c83178-Hd1e1201">Articulus 1</head>
+               <p xml:id="ol96b1-c83178-d1e1203">
+                  <lb ed="#L" n="113"/>ARTJCVLVS PRJMVS.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1208">
+                  <lb ed="#L" n="114"/>Opinio Auicennae, S. Thomae prima parte Summae 
+      <lb ed="#L" n="115"/>quaest. 3. art. 4. Aegydij primo Sent. dis. 
+      <lb ed="#L" n="116"/>8. quaest. 2. &amp; in 2. Sent. dist. 3. 
+      <lb ed="#L" n="117"/>quaest. I. &amp; plurium 
+      <lb ed="#L" n="118"/>aliorum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1221">
+                  <lb ed="#L" n="119"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="120"/>Auicenna, &amp; aliqui sequentes eum dicere 
+      <lb ed="#L" n="121"/>voluerunt, quod esse addit ad essentiam aliquid 
+      <lb ed="#L" n="122"/>absolutum: hoc autem potest intelligi dupliciter.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1232">
+      <!--0260.xml-->
+                  <pb ed="#L" n="260"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Primo quidem, quod addat rem aliquam 
+      prae<lb ed="#L" break="no" n="2"/>cisam, &amp; factibilem sine essentia, sicut albedo 
+      ad<lb ed="#L" break="no" n="3"/>ditur superficiei, vel lux aeri, &amp; sic non 
+      intelle<lb ed="#L" break="no" n="4"/>xit aliquod, quod esse rem addat ad essentiam. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1251">
+                  <lb ed="#L" n="5"/>Secundo vero potest intelligi, quod addat rem 
+      <lb ed="#L" n="6"/>non factibilem sine essentia, sed quasi rem 
+      moda<lb ed="#L" break="no" n="7"/>lem eo modo, quo se habet rectitudo ad lineam, 
+      <lb ed="#L" n="8"/>&amp; sic intellexerunt, quod cum concipitur Sortes 
+      <lb ed="#L" n="9"/>positus in actu, necessario concipiuntur duo, 
+      vi<lb ed="#L" break="no" n="10"/>delicet Sortes, &amp; positio eius in actu, ita quod po 
+      <lb ed="#L" n="11"/>sitio Sortis in actu, est esse Sortis, vnde differunt 
+      <lb ed="#L" n="12"/>realiter Sortes, &amp; eius positio actualis in effectu. 
+      <lb ed="#L" n="13"/>Sortes enim est in potentia vt ponatur, &amp; non pona 
+      <lb ed="#L" n="14"/>tur, &amp; potest intelligi non positus in effectu, &amp; 
+      se<lb ed="#L" break="no" n="15"/>cundum istos esse est illud, quo Sortes ponitur in 
+      <lb ed="#L" n="16"/>effectu, aut non est, sicut nec positio est posita, sed 
+      <lb ed="#L" n="17"/>illud, quo esse ponitur in actu. haec autem 
+      posi<lb ed="#L" break="no" n="18"/>tio, potest fulciri rationibus decem primo loco 
+      <lb ed="#L" n="19"/>superius arguendo inductis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1286">
+                  <lb ed="#L" n="20"/>Opinio Henrici in sua summa q. 3. art. at.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1291">
+                  <lb ed="#L" n="21"/>FVERVNT autem alii, qui dixerunt, quod 
+      <lb ed="#L" n="22"/>l esse non est res absoluta addita essentiae, 
+      <lb ed="#L" n="23"/>sed est respectus ad agens, sic quod ille respectus 
+      <lb ed="#L" n="24"/>non differt realiter, nec ratione sola, sed 
+      inten<lb ed="#L" break="no" n="25"/>tione, quasi media differentia inter realem, &amp; 
+      <lb ed="#L" n="26"/>rationis. Imaginati sunt autem, quod aliud est 
+      <lb ed="#L" n="27"/>esse essentiae, aliud esse existentiae, omne quidem 
+      <lb ed="#L" n="28"/>conceptibile siue sit possibile, siue sit fictitium, 
+      <lb ed="#L" n="29"/>potest dici res dicta a reor reris, quod idem est, 
+      <lb ed="#L" n="30"/>quod opinor, opinaris, vnde hoc modo 
+      chime<lb ed="#L" break="no" n="31"/>ra est res, quia est opinabilis, vt Philos. dicit 2. 
+      <lb ed="#L" n="32"/>Perierm. talis autem res. quae opinabilis est, 
+      in<lb ed="#L" break="no" n="33"/>duit rationem essentiae, &amp; accipit, quod sit 
+      essen<lb ed="#L" break="no" n="34"/>tia per hoc, quod habet Idaeam in Deo. ex hoc 
+      e<lb ed="#L" break="no" n="35"/>nim est factibilis, &amp; possibilis, &amp; ex hoc differt 
+      <lb ed="#L" n="36"/>a figmentis, &amp; secundum hoc esse essentiae addit 
+      <lb ed="#L" n="37"/>respectum ad exemplar, nihilominus ille 
+      respe<lb ed="#L" break="no" n="38"/>ctus realiter non difffert ab essentia, sed solum 
+      <lb ed="#L" n="39"/>ratione, immo secundum istos est de conceptu 
+      <lb ed="#L" n="40"/>essentiae talis respectus, adhuc talis res per hoc, 
+      <lb ed="#L" n="41"/>quod ponitur in effectu ab agente, sortitur esse 
+      <lb ed="#L" n="42"/>existentie, non addens ad essentiam, nisi respectus 
+      <lb ed="#L" n="43"/>ad agens, qui quidem respectus non est res, sed 
+      <lb ed="#L" n="44"/>intentio sola. haec opinio fulciri potest septem 
+      <lb ed="#L" n="45"/>sioiius, secundo loco superius arguendo 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1348">
+                  <lb ed="#L" n="46"/>Opinio Varronis in I. Sent. q. 45. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1353">
+                  <lb ed="#L" n="47"/>FVERVNT quoque alij, qui dixerunt, quod 
+      <lb ed="#L" n="48"/>L esse, &amp; essentia differunt ratione, sicut verum, 
+      <lb ed="#L" n="49"/>&amp; bonum, &amp; potest fulciri ista opinio quatuor 
+      <lb ed="#L" n="50"/>rationibus superius 3. loco arguendo inductis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1364">
+                  <lb ed="#L" n="51"/>Opinio Goffredi, &amp; Alexandri. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1370">
+                  <lb ed="#L" n="52"/>CVERVNT demum alij, qui dixerunt, quod 
+      <lb ed="#L" n="53"/>differunt essentia, &amp; esse, sicut nomen, &amp; 
+      ver<lb ed="#L" break="no" n="54"/>bum, &amp; sicut abstractum, &amp; concretum 
+      <lb ed="#L" n="55"/>quorum quidem opinio videtur 
+      in<lb ed="#L" break="no" n="56"/>niti rationibus quatuor 
+      su<lb ed="#L" break="no" n="57"/>perius quarto loco 
+      <lb ed="#L" n="58"/>arguendo 
+      in<lb ed="#L" break="no" n="59"/>ductis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1390">
+      <!--0260.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="60"/>Ponuntur hic tres regulae, quibus oportet dirigi 
+      <lb ed="#L" n="61"/>in praesenti quaesito, &amp; declaratur, 
+      quo<lb ed="#L" break="no" n="62"/>modo incompetentes sunt 
+      prae<lb ed="#L" break="no" n="63"/>dictae opiniones, 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1406">
+                  <lb ed="#L" n="64"/>SVNT autem attendendae hic tres regulae. 
+      Pri<lb ed="#L" break="no" n="65"/>ma siquidem, quod esse &amp; essentia differunt 
+      <lb ed="#L" n="66"/>aequisice, &amp; omni modo signandi circunscripto. 
+      <lb ed="#L" n="67"/>est enim intentio quaesiti praesentis, si quis conci 
+      <lb ed="#L" n="68"/>pit Sorte m, aut hominem, aut quamlibet naturam 
+      <lb ed="#L" n="69"/>non attendendo, vtrum sit posita extra in rerum 
+      <lb ed="#L" n="70"/>natura, demum vero concipit eam, vt positam 
+      <lb ed="#L" n="71"/>in rerum natura; est itaque intentio, quod est adi 
+      <lb ed="#L" n="72"/>tum in secundo conceptu. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1428">
+                  <lb ed="#L" n="73"/>Ad primum quid scilicet addit conceptus Sor 
+      <lb ed="#L" n="74"/>tis positi, aut rosae positae extra in actu ad 
+      conce<lb ed="#L" break="no" n="75"/>ptum simplicem Sortis, vel rosae. ex hac autem 
+      <lb ed="#L" n="76"/>regula patet, quod non competenter opinio 4. 
+      <lb ed="#L" n="77"/>respondet: non est enim hic cura de hac voce, 
+      si<lb ed="#L" break="no" n="78"/>ue concreta sit, siue verbalis esse cura quid 
+      ad<lb ed="#L" break="no" n="79"/>dit positio actualis rosae in rerum natura ad 
+      ip<lb ed="#L" break="no" n="80"/>sam rosam. non potest enim negari &amp; est quin 
+      <lb ed="#L" n="81"/>concipi possit rosa sine tali positione. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1450">
+                  <lb ed="#L" n="82"/>Secunda vero regula est, quod esse ad essentiam 
+      <lb ed="#L" n="83"/>non addit illud, quod est indifferens ad esse, &amp; non 
+      <lb ed="#L" n="84"/>esse, illud namque in quo consistit formalis ratio 
+      <lb ed="#L" n="85"/>hominis, non est indifferens ad hominem, &amp; non 
+      <lb ed="#L" n="86"/>hominem, vnde non addit homo ad animal, illud, 
+      <lb ed="#L" n="87"/>quod habet indifferentiam aequalem cum anima 
+      <lb ed="#L" n="88"/>li. constat autem, quod essentia indifferens est ad 
+      <lb ed="#L" n="89"/>esse, &amp; non esse, propter quod esse determinans 
+      <lb ed="#L" n="90"/>essentiam, non addit illud, quod habet parem 
+      in<lb ed="#L" break="no" n="91"/>differentiam, ex hac autem regula patet in 
+      com<lb ed="#L" break="no" n="92"/>petentia trium opinionum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1476">
+                  <lb ed="#L" n="93"/>Primae quidem, quae dicit, quod addit rem 
+      ab<lb ed="#L" break="no" n="94"/>solutam. secundae, quae dicit addi respectum. &amp; 
+      <lb ed="#L" n="95"/>tertiae, quae dicit addi aliquam rationem. omnis 
+      <lb ed="#L" n="96"/>enim res, &amp; omnis respect us, &amp; omnis ratio con 
+      <lb ed="#L" n="97"/>cipi potest, absque hoc, quod se determinet intel 
+      <lb ed="#L" n="98"/>lectus ad positionem eorum in rerum natura: 
+      <lb ed="#L" n="99"/>potest quidem concipi positio rosae in effectu, &amp; 
+      <lb ed="#L" n="100"/>ignorari, an illa positio modo sit, aut non sit, &amp; 
+      <lb ed="#L" n="101"/>disputari potest de actualitate, &amp; existentia 
+      ro<lb ed="#L" break="no" n="102"/>sae, absque hoc, quod sciatur, an actualiter pro 
+      <lb ed="#L" n="103"/>isto nunc, extra intellectum in rerum natura sit, 
+      <lb ed="#L" n="104"/>similiter etiam concipi potest respectus ad agens, 
+      <lb ed="#L" n="105"/>sine hoc, quod consideretur de illo respectu, 
+      v<lb ed="#L" break="no" n="106"/>trum extra positus sit, eodem modo potest &amp; de 
+      <lb ed="#L" n="107"/>omni conceptibili ratione. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1512">
+                  <lb ed="#L" n="108"/>Tertia quoque regula ista est, quod esse non 
+      <lb ed="#L" n="109"/>addit ad esssentiam illud, quo posito necessarium 
+      <lb ed="#L" n="110"/>est, vt procedatur in infinitum. status enim est 
+      <lb ed="#L" n="111"/>in rebus, &amp; in omnibus praedicatis, vt patet 1. 
+      <lb ed="#L" n="112"/>Poster. &amp; ex illa regula cadunt etiam opiniones 
+      <lb ed="#L" n="113"/>tres praedictae, quoniam siue addatur res absoluta, 
+      <lb ed="#L" n="114"/>siue respectus, siue ratio, de quolibet dici potest, 
+      <lb ed="#L" n="115"/>quod est, quod patet, quia essentia, &amp; esse, sunt 
+      <lb ed="#L" n="116"/>aequalis ambitus cum ente. habent enim se sicut 
+      <lb ed="#L" n="117"/>abstractum, &amp; concretum, &amp; verbum, vnde, sicut 
+      <lb ed="#L" n="118"/>currens, cursus, &amp; currere. constat autem, quod 
+      <lb ed="#L" n="119"/>ens praedicatur de omni re respectu, &amp; ratione. 
+      <lb ed="#L" n="120"/>ergo &amp; esse, &amp; essentia potest de illis praedicari; 
+      <lb ed="#L" n="121"/>vnde omnis res, &amp; respectus. &amp; ratio quaedam 
+      es<lb ed="#L" break="no" n="122"/>sentia est, &amp; quoddam esse, sicut &amp; quoddam ens 
+      <lb ed="#L" n="123"/>ideo vt si sit ens reale, erit essentia realis, &amp; 
+      ha<lb ed="#L" break="no" n="124"/>bebit esse reale; si vero sit respectus, erit essen- 
+      <!--0261.xml-->
+      <pb ed="#L" n="261"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tia respectiua, &amp; habebit esse respectiuum, si 
+      ve<lb ed="#L" break="no" n="2"/>ro ens rationis habebit esse, &amp; essentiam propor 
+      <lb ed="#L" n="3"/>tionalem, videlicet secundum rationem; ergo, 
+      <lb ed="#L" n="4"/>qui ponit respectum, vel rationem addi per esse 
+      <lb ed="#L" n="5"/>ad essentiam, necessario ponit, quod illud 
+      addi<lb ed="#L" break="no" n="6"/>tum rursus habet essentiam, &amp; esse, cum sit ens; 
+      <lb ed="#L" n="7"/>&amp; ita oportet in infinitum procedere, vel in prin 
+      <lb ed="#L" n="8"/>cipio stare, sic quod in nulla re esse addat 
+      respe<lb ed="#L" break="no" n="9"/>cum vel rationem. &amp; in hoc Articulus primus 
+      <lb ed="#L" n="10"/>finitur.
+    </p>
+            </div>
+            <div xml:id="ol96b1-c83178-Dd1e1580">
+               <head xml:id="ol96b1-c83178-Hd1e1582">Articulus 2</head>
+               <p xml:id="ol96b1-c83178-d1e1584">
+                  <lb ed="#L" n="11"/>ARTJCVLVS SECVNDVS. 
+      <lb ed="#L" n="12"/>Vbi ponitur quod videtur negatiue sub quatuor 
+      <lb ed="#L" n="13"/>propositionibus. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1593">
+                  <lb ed="#L" n="14"/>CIRCA secundum ergo considerandum, 
+      <lb ed="#L" n="15"/>quod impossibile est, esse addere ad 
+      essen<lb ed="#L" break="no" n="16"/>tiam rem aliquam absolutam: &amp; iterum est 
+      im<lb ed="#L" break="no" n="17"/>possibile, quod addat respectum: &amp; adhuc 
+      im<lb ed="#L" break="no" n="18"/>posfibile, quod addat rationem: &amp; adhuc 
+      impos<lb ed="#L" break="no" n="19"/>sibile, quod addat modum significandi verbalem 
+      <lb ed="#L" n="20"/>vel nominis concreti, &amp; sunt per ordinem hae 
+      <lb ed="#L" n="21"/>propositiones declarandae.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1613">
+                  <lb ed="#L" n="22"/>Quod esse non addat ad essentiam rem absolutam. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1618">
+                  <lb ed="#L" n="23"/>PRIMA quidem propositio, quod esse, &amp; 
+      es<lb ed="#L" break="no" n="24"/>A sentia non sunt duae realitates. nulla enim res 
+      <lb ed="#L" n="25"/>est alia ab ea, qua formaliter est extra nihil. si 
+      e<lb ed="#L" break="no" n="26"/>nim detur oppositum, quod sit alia ab ea, qua est 
+      <lb ed="#L" n="27"/>extra nihil, sequitur, quod, inquantum alia non 
+      <lb ed="#L" n="28"/>est extra nihil, &amp; inquantum alia est extra nihil, 
+      <lb ed="#L" n="29"/>non enim est alia inquantum nihil, immo si alia 
+      <lb ed="#L" n="30"/>est extra nil; nec tamen extra nihil inquantum 
+      <lb ed="#L" n="31"/>alia, alioquin non per illam erit extra nihil: sed 
+      <lb ed="#L" n="32"/>constat, quod essentia est extra nihil per essentiam 
+      <lb ed="#L" n="33"/>actualis existentiae. nil aliud enim capimus hic 
+      <lb ed="#L" n="34"/>per actualem existentiam, nisi poni in rerum 
+      na<lb ed="#L" break="no" n="35"/>tura, quod est poni extra nihil: omnis autem 
+      <lb ed="#L" n="36"/>essentia ponitur extra nihil per positionem 
+      ex<lb ed="#L" break="no" n="37"/>tra nihil formaliter. positio ergo extra nihil est 
+      <lb ed="#L" n="38"/>actualis existentia, &amp; per consequens essentia po 
+      <lb ed="#L" n="39"/>nitur extra nihil per actualem existentiam. ergo 
+      <lb ed="#L" n="40"/>necesse est, quod positio extra nihil, siue 
+      existen<lb ed="#L" break="no" n="41"/>tia actualis non sit alia res ab illa, qua ponitur 
+      <lb ed="#L" n="42"/>extra nihil, &amp; existit per eam. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1665">
+                  <lb ed="#L" n="43"/>Nec valet, si dicatur, quod essentia est quidem 
+      <lb ed="#L" n="44"/>alia res, quae formaliter est extra nihil, per esse 
+      <lb ed="#L" n="45"/>autem subiectiue, ipsa est extra nihil, nec 
+      opor<lb ed="#L" break="no" n="46"/>tet propter hoc, quod sit vna res, non valet 
+      <lb ed="#L" n="47"/>inquam, quia esse, quod perficit essentiam, 
+      <lb ed="#L" n="48"/>tamquam subiectum, &amp; ponit eam extra nihil: 
+      <lb ed="#L" n="49"/>subiectiue quidem ex parte illius, formale autem 
+      <lb ed="#L" n="50"/>ex parte sui. illud inquam esse, aut perficit nihil 
+      <lb ed="#L" n="51"/>tamquam subiectum proprium, &amp; trahit nihil 
+      <lb ed="#L" n="52"/>extra, aut perficit rem, quae non erat nihil, 
+      im<lb ed="#L" break="no" n="53"/>mo secundum hoc, quod perficeretur seipsa est 
+      <lb ed="#L" n="54"/>extra nihil: sed primum dari non potest, alioquin 
+      <lb ed="#L" n="55"/>nihil esset subiectum esse, &amp; nihil transferetur ad 
+      <lb ed="#L" n="56"/>esse, quod est impossibile: si autem detur 
+      secun<lb ed="#L" break="no" n="57"/>dum, tunc habetur propositum, quod illud 
+      sub<lb ed="#L" break="no" n="58"/>stratum est res posita extra nihil seipso, &amp; per 
+      <lb ed="#L" n="59"/>consequens in lapide, res lapidis, non per esse 
+      ad<lb ed="#L" break="no" n="60"/>ditum, sed seipsa erit extra nihil. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1707">
+                  <lb ed="#L" n="61"/>Praeterea: Nulla res est alia ab ea, qua 
+      poni<lb ed="#L" break="no" n="62"/>tur extra in rerum natura. si enim sunt duae res, 
+      <!--0261.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>illa res, quae ponitur in rerum natura, prout 
+      subii<lb ed="#L" break="no" n="64"/>citur, vel est res posita in rerum natura seipsa, 
+      <lb ed="#L" n="65"/>aut per aliam, cui subiicitur, aut illa imprimit 
+      <lb ed="#L" n="66"/>aliam realitatem illi, cui subiicitur a sua 
+      realita<lb ed="#L" break="no" n="67"/>te, aut communicat sibi eandem, non potest 
+      di<lb ed="#L" break="no" n="68"/>ci, quod aliam sibi imprimat, quia tunc se habe 
+      <lb ed="#L" n="69"/>ret per modum agentis, &amp; non per modum 
+      for<lb ed="#L" break="no" n="70"/>mae; &amp; iterum illa realitas impressa suscipienti, 
+      <lb ed="#L" n="71"/>respiceret suscipiens, tamquam subiectum, &amp; 
+      quae<lb ed="#L" break="no" n="72"/>reretur, vtrum subiectum, &amp; realitas impressa, 
+      <lb ed="#L" n="73"/>essent eadem res, &amp; si sic standum fuit in primo, 
+      <lb ed="#L" n="74"/>si vero non, proceditur in infinitum. non potest 
+      <lb ed="#L" n="75"/>ergo poni, quod imprimat aliam realitatem. 
+      re<lb ed="#L" break="no" n="76"/>linquitur ergo, quod communicet sibi suam 
+      pro<lb ed="#L" break="no" n="77"/>priam realitatem, &amp; suam propriam positionem, 
+      <lb ed="#L" n="78"/>in rerum natura; &amp; per consequens non est ibi, 
+      <lb ed="#L" n="79"/>nisi vnum positum in rerum natura, cum 
+      subie<lb ed="#L" break="no" n="80"/>ctum seipso non sit positum, sed per illud, nec per 
+      <lb ed="#L" n="81"/>illud, cui subiicitur aliquid sit positum, nisi 
+      il<lb ed="#L" break="no" n="82"/>lud, quod est id ipsum cum eo. propositio ergo 
+      <lb ed="#L" n="83"/>per se nota est, quod nulla res est ab ea alia, qua 
+      <lb ed="#L" n="84"/>ponitur extra in rerum natura, sed lapis est extra 
+      <lb ed="#L" n="85"/>in rerum natura per suum esse. ergo lapis non est 
+      <lb ed="#L" n="86"/>alia res a suo esse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1770">
+                  <lb ed="#L" n="87"/>Praeterea: Nulla perfectio ponit suum 
+      susce<lb ed="#L" break="no" n="88"/>ptiuum in rerum natura: nulla namque perfectio 
+      <lb ed="#L" n="89"/>dat susceptibili, quod possit subiici, aut perfici, 
+      <lb ed="#L" n="90"/>sed supponendo, quod possit subijci, perfici, &amp; 
+      <lb ed="#L" n="91"/>recipere perfectionem, perficit illud in actu: de 
+      <lb ed="#L" n="92"/>ratione autem eius, quod potest subiici, perfici, 
+      <lb ed="#L" n="93"/>&amp; deferre, est, quod sit extra nihil, positum in 
+      re<lb ed="#L" break="no" n="94"/>rum natura. nihil enim non potest subiici, nec 
+      <lb ed="#L" n="95"/>perfici, nec deferre, &amp; similiter non positum 
+      ex<lb ed="#L" break="no" n="96"/>tra in rerum natura, non potest aliquid deferre, 
+      <lb ed="#L" n="97"/>aut sustentare rem, aut perfici per eam, sed 
+      con<lb ed="#L" break="no" n="98"/>stat, quod esse ponit essentiam extra nihil, &amp; in 
+      <lb ed="#L" n="99"/>rerum natura. ergo est impossibile, quod 
+      respi<lb ed="#L" break="no" n="100"/>ciat ipsam, vt suum perfectibile reale. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1803">
+                  <lb ed="#L" n="101"/>Nec valet, si dicatur, quod per istam rationem 
+      <lb ed="#L" n="102"/>materia non differt a forma realiter, pro eo, quod 
+      <lb ed="#L" n="103"/>materia ponitur extra nihil per formam, alias 
+      <lb ed="#L" n="104"/>esset res praecisa, &amp; actualis, cuius oppositum 
+      de<lb ed="#L" break="no" n="105"/>claratum est in tractatu de Physicis principijs: 
+      <lb ed="#L" n="106"/>siquidem hoc non valet. non est enim verum, 
+      <lb ed="#L" n="107"/>quin materia sit extra nihil de se ipsa, &amp; quin sit 
+      <lb ed="#L" n="108"/>posita extra in rerum natura seipsa, quod patet, 
+      <lb ed="#L" n="109"/>quoniam eius entitas est, quod est purum 
+      perfe<lb ed="#L" break="no" n="110"/>ctibile, &amp; purum actuale, &amp; purum terminabile, 
+      <lb ed="#L" n="111"/>carens omni perfectione, &amp; termino, &amp; actu, 
+      <lb ed="#L" n="112"/>nec tamen propter hoc est nihil, cum nihil nec 
+      <lb ed="#L" n="113"/>sit perfectibile, nec terminabile, nec actuale 
+      <lb ed="#L" n="114"/>vnde materia non est actu, sed actuabilis per 
+      a<lb ed="#L" break="no" n="115"/>ctum, nec est perfecta, sed perfectibilis per 
+      per<lb ed="#L" break="no" n="116"/>fectionem, nec terminata, sed terminabilis per 
+      <lb ed="#L" n="117"/>formam, quae est perfectio, &amp; actus. sicut ergo 
+      <lb ed="#L" n="118"/>per formam non ponitur extra nihil, cum per 
+      <lb ed="#L" n="119"/>formam non sit purum perfectibile, immo actu 
+      <lb ed="#L" n="120"/>perficiatur; est tamen extra nihil, per hoc, quod 
+      <lb ed="#L" n="121"/>est purum perfectibile, &amp; per hoc aliquid in 
+      re<lb ed="#L" break="no" n="122"/>rum natura, &amp; hoc est, quod dicit Commentator 
+      <lb ed="#L" n="123"/>3. coeli, &amp; mundi, vbi dicit, quod subiectum 
+      de<lb ed="#L" break="no" n="124"/>cem praedicamentorum est omnino in potentia, 
+      <lb ed="#L" n="125"/>&amp; caret actu omnino, &amp; loquitur de prima mate 
+      <lb ed="#L" n="126"/>ria, &amp; sequitur suum esse. ergo esse non est, nisi 
+      <lb ed="#L" n="127"/>inquantum est pars eius, quod est in actu. si enim 
+      <lb ed="#L" n="128"/>inueniretur per se, &amp; simpliciter, &amp; non 
+      secun<lb ed="#L" break="no" n="129"/>dum quod est pars alicuius, non esset ens in po- 
+      <!--0262.xml-->
+      <pb ed="#L" n="262"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tentia, sed in actu, &amp; si separaretur, esset ens per 
+      <lb ed="#L" n="2"/>se. differentia enim inter nihil, &amp; esse in 
+      poten<lb ed="#L" break="no" n="3"/>tia est, quia nihil non est in actu ens, nec est in 
+      <lb ed="#L" n="4"/>alio in actu, ens autem in potentia est in alio, non 
+      <lb ed="#L" n="5"/>distinctum ab eo. hoc Commentator. Ex quo pa 
+      <lb ed="#L" n="6"/>tet, quod materia illud minimum entitatis, quod 
+      <lb ed="#L" n="7"/>habet, non habet a forma; habet tamen ab ea 
+      <lb ed="#L" n="8"/>quod sit in actu simpliciter, &amp; omnino, quia non 
+      <lb ed="#L" n="9"/>est, nisi ipsa potentia, quantum est ex se, nec 
+      ta<lb ed="#L" break="no" n="10"/>men propter hoc est nihil, immo seipsa est extra 
+      <lb ed="#L" n="11"/>nihil, &amp; in rerum natura pars rei per se, &amp; 
+      actua<lb ed="#L" break="no" n="12"/>lis, propter quod ratio concludit, quod lapis est in 
+      <lb ed="#L" n="13"/>rerum natura lapis, positus, &amp; existens penitus 
+      <lb ed="#L" n="14"/>extra nihil, non per aliquid additum, &amp; per con 
+      <lb ed="#L" n="15"/>sequens superfluit ponere aliud esse.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1907">
+                  <lb ed="#L" n="16"/>Nec valet etiam si dicatur, quod eodem 
+      mo<lb ed="#L" break="no" n="17"/>do essentia est quoddam potentiale, &amp; ita non 
+      <lb ed="#L" n="18"/>potest poni per se in rerum natura, sicut nec ma 
+      <lb ed="#L" n="19"/>teria, hoc quidem non valet. sufficit enim, quod 
+      <lb ed="#L" n="20"/>tota realitas lapidis cum sua materia, &amp; sua for 
+      <lb ed="#L" n="21"/>ma actuali sit posita extra nihil in rerum natura 
+      <lb ed="#L" n="22"/>seipsa: tunc enim erit actualis quidditatiue, 
+      in<lb ed="#L" break="no" n="23"/>quantum materia est actuata per formam 
+      lapi<lb ed="#L" break="no" n="24"/>dis, &amp; erit actualis, quia omnino extra nihil, &amp; 
+      <lb ed="#L" n="25"/>posita in rerum natura extra, &amp; sic erit penitus 
+      <lb ed="#L" n="26"/>actualis, &amp; in nullo potentialis, 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1933">
+                  <lb ed="#L" n="27"/>Nec apparet, quod habeat amplius 
+      expecta<lb ed="#L" break="no" n="28"/>re, ex quo est seipso positus in rerum natura. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1941">
+                  <lb ed="#L" n="29"/>Praeterea: Nulla res differt realiter a sua 
+      rea<lb ed="#L" break="no" n="30"/>litate. si enim differt, iam est alia realitas, &amp; per 
+      <lb ed="#L" n="31"/>consequens, non sua, sed esse est realitas essentiae: 
+      <lb ed="#L" n="32"/>non esse enim est nullitas essentiae, sicut patet, 
+      <lb ed="#L" n="33"/>quod non esse nullitas lapidis. lapis enim dum 
+      <lb ed="#L" n="34"/>non est nihil, est ipsum esse. ergo aliquid, aut ali 
+      <lb ed="#L" n="35"/>quam realitaté esse est ipsum esse: ergo esse 
+      lapi<lb ed="#L" break="no" n="36"/>dis est sua realitas; &amp; sic de omni esse, &amp; de 
+      <lb ed="#L" n="37"/>omni essentia. ergo impossibile est, quod esse sit 
+      <lb ed="#L" n="38"/>alia res ab essentia.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e1965">
+                  <lb ed="#L" n="39"/>Et si dicatur, quod res sumitur dupliciter, vno 
+      <lb ed="#L" n="40"/>modo pro re essentiali, &amp; sic non est verum, 
+      <lb ed="#L" n="41"/>quod esse lapidis sit sua realitas, vel pro 
+      realita<lb ed="#L" break="no" n="42"/>te actuali, &amp; sic est verum; vnde in lapide 
+      actua<lb ed="#L" break="no" n="43"/>liter existente sunt duae realitates, vna quidem 
+      <lb ed="#L" n="44"/>essentialis, puta lapiditas, &amp; alia accidentalis, 
+      <lb ed="#L" n="45"/>puta actualitas. Siquidem hoc non valet, 
+      quo<lb ed="#L" break="no" n="46"/>niam realitas essentialis lapidis, aut habet, quod 
+      <lb ed="#L" n="47"/>sit realitas ex ipso esse, aut habet seipsa, &amp; sine 
+      <lb ed="#L" n="48"/>esse, si habet sine esse, quod sit realitas extra 
+      ni<lb ed="#L" break="no" n="49"/>hil, &amp; in rerum natura. ergo res sine esse potest 
+      <lb ed="#L" n="50"/>esse extra nihil, &amp; in rerum natura, quod est con 
+      <lb ed="#L" n="51"/>tradictio: si vero habet, quod sit realitas non 
+      <lb ed="#L" n="52"/>a se, sed per esse, aut esse imprimit illam 
+      reali<lb ed="#L" break="no" n="53"/>tatem, &amp; ita erit efficiens, &amp; imprimens, quod est 
+      <lb ed="#L" n="54"/>impossibile, aut non imprimens, quod est impos 
+      <lb ed="#L" n="55"/>sibile, aut non imprimit suam realitatem, sed 
+      eo<lb ed="#L" break="no" n="56"/>dem communicat, &amp; tunc haberetur 
+      proposi<lb ed="#L" break="no" n="57"/>tum, quod esse est realitas essentiae, 
+      indiffe<lb ed="#L" break="no" n="58"/>rens ab ea 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2011">
+                  <lb ed="#L" n="59"/>Praeterea: Nulla res differt a sua actualitate, 
+      <lb ed="#L" n="60"/>loquendo de actualitate, qua est actu extra nihil, 
+      <lb ed="#L" n="61"/>non de actualitate, quae est terminus, perfectio, 
+      <lb ed="#L" n="62"/>&amp; complementum, qualem actualitatem impor 
+      <lb ed="#L" n="63"/>tat forma respectu materiae. non enim ponit eam 
+      <lb ed="#L" n="64"/>extra nihil, vt supra dictum est, sed ponit eam in 
+      <lb ed="#L" n="65"/>esse terminato, &amp; perfecto, quoniam ante erat 
+      <lb ed="#L" n="66"/>perfectibile purum, ac purum distinguibile; sed 
+      <lb ed="#L" n="67"/>constat, quod esse est actualitas essentiae non se- 
+      <!--0262.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>cundo modo, videlicet, tamquam certus 
+      mo<lb ed="#L" break="no" n="69"/>dus, &amp; complementum, sed tamquam ponens 
+      <lb ed="#L" n="70"/>extra nihil, &amp; in rerum natura. essentia enim 
+      <lb ed="#L" n="71"/>dum actu non est, nihil est. est ergo impossibile, 
+      <lb ed="#L" n="72"/>quod esse, cum sit talis actualitas, differat ab 
+      <lb ed="#L" n="73"/>essentia 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2050">
+                  <lb ed="#L" n="74"/>Et confirmatur, quoniam quaelibet essentia 
+      <lb ed="#L" n="75"/>est actualitas quaedam, lapiditas enim est 
+      quae<lb ed="#L" break="no" n="76"/>dam actualitas, vnde non oportet, dum ponitur 
+      <lb ed="#L" n="77"/>in esse, quod addatur sibi aliqua actualitas. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2061">
+                  <lb ed="#L" n="78"/>Praeterea: Affirmatio rei nihil addit ad rem 
+      <lb ed="#L" n="79"/>affirmatam, sicut nulla negatio tollit aliquid, 
+      ni<lb ed="#L" break="no" n="80"/>si rem, quam negat. patet enim, quod non 
+      ho<lb ed="#L" break="no" n="81"/>mo negat totum hominem, &amp; affirmatio 
+      homi<lb ed="#L" break="no" n="82"/>nis nil aliud ponit, sed idem affirmat. si enim po 
+      <lb ed="#L" n="83"/>neret aliud, iam non esset affirmatio praecedentis, 
+      <lb ed="#L" n="84"/>sed appositio accedentis, sed positio lapidis in 
+      <lb ed="#L" n="85"/>rerum natura, non est aliud, quam affirmatso 
+      <lb ed="#L" n="86"/>realitatis lapidis, quod patet ex hoc, quod non 
+      <lb ed="#L" n="87"/>ponere lapidem in rerum natura, est negare a lapi 
+      <lb ed="#L" n="88"/>de realitatem; vnde nihil est dictu lapidem esse-, 
+      <lb ed="#L" n="89"/>quam lapidem realitatem habere. ergo poni 
+      la<lb ed="#L" break="no" n="90"/>pidem in rerum natura, non est alicuius nouae rei 
+      <lb ed="#L" n="91"/>additio, sed eiusdem rei affirmatio. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2094">
+                  <lb ed="#L" n="92"/>Et si dicatur vlterius, quod affirmatio rei, est 
+      <lb ed="#L" n="93"/>aliud a re, pari ratione diceretur, quod negatio 
+      <lb ed="#L" n="94"/>rei est aliud a non re. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2104">
+                  <lb ed="#L" n="95"/>Et si dicatur vlterius, quod affirmatio, &amp; 
+      ne<lb ed="#L" break="no" n="96"/>gatio, non respiciunt rem per modum substrati, 
+      <lb ed="#L" n="97"/>non valet. affirmatio enim non respicit 
+      rem<lb ed="#L" break="no" n="98"/>per modum substrati, sed est ipsamet res. homo 
+      <lb ed="#L" n="99"/>enim, &amp; non homo opponuntur, sicut 
+      affirma<lb ed="#L" break="no" n="100"/>tio, &amp; negatio, &amp; res, &amp; non res opponuntur 
+      eo<lb ed="#L" break="no" n="101"/>dem modo. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2122">
+                  <lb ed="#L" n="102"/>Praeterea: Illa sunt penitus affirmatio cadem, 
+      <lb ed="#L" n="103"/>quibus opponitur penitus eadem negatio, sednil 
+      <lb ed="#L" n="104"/>directe opponitur realitati esse, &amp; realitati essen 
+      <lb ed="#L" n="105"/>tiae. priuatio enim esse lapidis, est lapidem 
+      sim<lb ed="#L" break="no" n="106"/>pliciter nil esse, &amp; nullam realitatem habere, 
+      <lb ed="#L" n="107"/>nec essentialem, nec aliam. ergo manifeste 
+      ap<lb ed="#L" break="no" n="108"/>paret, quod nulla realitas erat in lapide, nisi 
+      ef<lb ed="#L" break="no" n="109"/>se; &amp; per consequens realiter idem sunt in eo &amp; 
+      <lb ed="#L" n="110"/>sentia, &amp; esse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2144">
+                  <lb ed="#L" n="111"/>Et si dicatur, quod duplex est nihil, vnum 
+      <lb ed="#L" n="112"/>quod opponitur realitati essentiae, &amp; aliud, quod 
+      <lb ed="#L" n="113"/>opponitur realitati esse, si sic dicatur distinguen 
+      <lb ed="#L" n="114"/>ti de nihilo, de nihilo medietatem, eligat 
+      qui<lb ed="#L" break="no" n="115"/>cumque vult. constat enim, quod in nihilum 
+      di<lb ed="#L" break="no" n="116"/>stinctio non cadit. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2160">
+                  <lb ed="#L" n="117"/>Praeterea: Conceptus entis applicatus ad 
+      la<lb ed="#L" break="no" n="118"/>pidem, non addit sibi aliquam rem, vt supra 
+      pro<lb ed="#L" break="no" n="119"/>batum est, &amp; patet, quod si adderetur lapis, esset 
+      <lb ed="#L" n="120"/>nihil, quia existens extra conceptum entis, sed 
+      <lb ed="#L" n="121"/>conceptus entis, &amp; conceptus esse, vnum &amp; idem 
+      <lb ed="#L" n="122"/>sunt, nisi quod ens concipitur per modum 
+      stan<lb ed="#L" break="no" n="123"/>tis, &amp; quiescentis. esse vero per modum cuiusdam 
+      <lb ed="#L" n="124"/>fieri, &amp; egressus. ergo esse additum lapidi, &amp; 
+      ap<lb ed="#L" break="no" n="125"/>plicatum sibi penitus nullam rem addit. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2182">
+                  <lb ed="#L" n="126"/>Quod esse non addit rem ad essentiam.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2187">
+                  <lb ed="#L" n="127"/>SECVNDA vero propositio est, quod esse ad 
+      <lb ed="#L" n="128"/>essentiam non addit respectum ad agens. 
+      il<lb ed="#L" break="no" n="129"/>lud enim non addit esse, sine quo potest concipi 
+      <lb ed="#L" n="130"/>omnis res esse, sed omnis res potest concipi esse 
+      <lb ed="#L" n="131"/>absque respectu ad agens. non enim concipiens 
+      <lb ed="#L" n="132"/>caelum esse de necessitate, concipit ipsum esse- 
+      <!--0263.xml-->
+      <pb ed="#L" n="263"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>productum, alioquin esset per se notum, quod 
+      <lb ed="#L" n="2"/>culum esset creatum, vnde patet, quod 
+      existten<lb ed="#L" break="no" n="3"/>tiae rerum possunt concipi absolute, &amp; sine omni 
+      <lb ed="#L" n="4"/>respectu ad quodcumque producens. ergo de 
+      <lb ed="#L" n="5"/>ratione esse, non esrespectus, nec esse importat 
+      <lb ed="#L" n="6"/>formaliter respectum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2223">
+                  <lb ed="#L" n="7"/>Praeterea: Omnis respectus praesupponit suum 
+      <lb ed="#L" n="8"/>fundamentum esse, alioquin relatio erit prior in 
+      <lb ed="#L" n="9"/>esse suo fundamento, quod est impossibile, sed 
+      <lb ed="#L" n="10"/>ese non praesupponit essentiam esse, alioquin idem 
+      <lb ed="#L" n="11"/>praesupponeret se, quod est impossibile. ergo 
+      es<lb ed="#L" break="no" n="12"/>se non dicit respectum in essentia.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2239">
+                  <lb ed="#L" n="13"/>Praeterea: Illud, quod habet maximum esse, non 
+      <lb ed="#L" n="14"/>est formaliter eo, quod habet minimum esse, sed 
+      <lb ed="#L" n="15"/>relatio habet minimum entitatis, secundum 
+      Com<lb ed="#L" break="no" n="16"/>mentat. ergo per respectum, non habet lapis 
+      es<lb ed="#L" break="no" n="17"/>se, alioquin ille respectus non haberet minimum 
+      <lb ed="#L" n="18"/>esse, immo aequale omnibus rebus, quae sunt 
+      for<lb ed="#L" break="no" n="19"/>maliter per respectum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2257">
+                  <lb ed="#L" n="20"/>Praeterea: Nullus respectus est nobilius quid, 
+      <lb ed="#L" n="21"/>&amp; principalius suo fundamento, sed si essentia 
+      <lb ed="#L" n="22"/>habeat esse formaliter per respectum, respectus 
+      <lb ed="#L" n="23"/>erit quid actualius, &amp; nobilius omni essentia, 
+      <lb ed="#L" n="24"/>quod enim est causa alteri, vt sit in actu, est 
+      di<lb ed="#L" break="no" n="25"/>gnius hoc nomine actus, &amp; vnum, vt 
+      Commen<lb ed="#L" break="no" n="26"/>tator dicit octauo Metaph. ergo impossibile est, 
+      <lb ed="#L" n="27"/>quod esse sit respectus. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2277">
+                  <lb ed="#L" n="28"/>Praeterea: Si esse sit respectus, omnes res habent 
+      <lb ed="#L" n="29"/>esse respectiuum, &amp; sunt in rerum natura per 
+      v<lb ed="#L" break="no" n="30"/>num respectum, &amp; similiter extra nihil per alium 
+      <lb ed="#L" n="31"/>respectum, sed hoc est impossibile: nam ex hoc 
+      <lb ed="#L" n="32"/>sequeretur, quod solus respectus esset extra 
+      ni<lb ed="#L" break="no" n="33"/>hil, &amp; soli respectus essent in rerum natura. 
+      er<lb ed="#L" break="no" n="34"/>go essentia non dicit respectum.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2295">
+                  <lb ed="#L" n="35"/>Praeterea: Omne accidens absolutum 
+      praesup<lb ed="#L" break="no" n="36"/>ponit esse sui subiecti, &amp; in illo fundatur, sed 
+      re<lb ed="#L" break="no" n="37"/>spectus non est fundamentum accidentium 
+      abso<lb ed="#L" break="no" n="38"/>lutorum. ergo esse non potest poni respectus. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2306">
+                  <lb ed="#L" n="39"/>Praeterea: Illud non est esse, quod sequitur 
+      es<lb ed="#L" break="no" n="40"/>se, sed respectus sequitur esse: esse enim simul est 
+      <lb ed="#L" n="41"/>cum productione causatiua, quia causatio 
+      ter<lb ed="#L" break="no" n="42"/>minatur ad esse, vnde est simul cum ea, tamquam 
+      <lb ed="#L" n="43"/>terminus eius: respectus autem est posterior 
+      produ<lb ed="#L" break="no" n="44"/>ctione, secundum Philosophum 5. Metaph. 
+      rela<lb ed="#L" break="no" n="45"/>tio namque producti ad producens fundatur 
+      su<lb ed="#L" break="no" n="46"/>per egisse. ergo esse non erit respectus, quamuis 
+      <lb ed="#L" n="47"/>producti respectus concomitetur ipsum esse 
+      <lb ed="#L" n="48"/>Praeterea: Commentator ait, quod relatio non 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2331">
+                  <lb ed="#L" n="49"/>sit elementum omnium rerum, deducendo ad 
+      il<lb ed="#L" break="no" n="50"/>lud inconueniens, quod cantingeret omnia esse 
+      <lb ed="#L" n="51"/>relatiua, eodem autem modo potest argui, si 
+      po<lb ed="#L" break="no" n="52"/>natur, quod esse omnium sit respectus. 
+      <lb ed="#L" n="53"/>Praeterea: Creatio, quae terminatur ad esse, aut 
+      <lb ed="#L" n="54"/>terminatur ad purum respectum, aut ad compo 
+      <lb ed="#L" n="55"/>situm ex essentia. &amp; respectu, quod repugnat 
+      re<lb ed="#L" break="no" n="56"/>spectui, aut ad aliquod substratum respectui, quod 
+      <lb ed="#L" n="57"/>nominet esse, non potest dici, quod terminetur ad 
+      <lb ed="#L" n="58"/>purum respectum, nec ad compositum ex 
+      essen<lb ed="#L" break="no" n="59"/>tia, &amp; respectu, quod repugnat respect ui, &amp; 
+      hu<lb ed="#L" break="no" n="60"/>ius compositio terminare productionem. ergo 
+      <lb ed="#L" n="61"/>necesse est, quod osse non sit re spectus. 
+      <lb ed="#L" n="62"/>Praeterea: Aut ille respectus erit res, aut 
+      inten<lb ed="#L" break="no" n="63"/>tio, aut ratio; res esse non potest propter 
+      ratio<lb ed="#L" break="no" n="64"/>nes inductas in prima propositione: ratio autem 
+      <lb ed="#L" n="65"/>non potest esse, nec intentio, quia secundum sic 
+      <lb ed="#L" n="66"/>ponentes totum aliud, quod est in rebus, fuit ab 
+      <lb ed="#L" n="67"/>aeteruo, &amp; sic sequeretur per creationem, quod 
+      <!--0263.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>nulla res fuisset acquisita, sed purae intentiones, &amp; 
+      <lb ed="#L" n="69"/>rationes, vnde creatio non induxisset aliquam 
+      <lb ed="#L" n="70"/>rem de nouo, quod est erroneum dicere. ergo 
+      es<lb ed="#L" break="no" n="71"/>se non potest dicere solum respectum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2388">
+                  <lb ed="#L" n="72"/>Praeterea: Ponentes esse rerum, sibiipsis 
+      con<lb ed="#L" break="no" n="73"/>tradicunt. ponunt enim, quod essentia, &amp; esse 
+      <lb ed="#L" n="74"/>sunt penitus eadem res; sed differunt sola 
+      inten<lb ed="#L" break="no" n="75"/>tione, &amp; cum hoc dicunt, quod essentia 
+      rerum<lb ed="#L" break="no" n="76"/>fuit ab aeterno, esse vero rerum non fuit ab 
+      aeter<lb ed="#L" break="no" n="77"/>no, siquidem haec est expressa contradictio. res 
+      <lb ed="#L" n="78"/>enim aeterna, &amp; non aeterna, non est eadem res, 
+      <lb ed="#L" n="79"/>sicut Commentator dicit, &amp; sine eo patet, quod 
+      <lb ed="#L" n="80"/>est expressa contradictio. res enim aeterna est, 
+      <lb ed="#L" n="81"/>non aeterna vero, non est ab aeterno. si ergo est 
+      <lb ed="#L" n="82"/>eadem res, idem erit prius se, &amp; multa alia 
+      abso<lb ed="#L" break="no" n="83"/>na hoc concesso, sequuntur, sed secundum sic 
+      po<lb ed="#L" break="no" n="84"/>nentes res essentiae est ab aeterno, res autem 
+      im<lb ed="#L" break="no" n="85"/>portata per esse non est ab aeterno, alias creatio 
+      <lb ed="#L" n="86"/>non induceret nouam rem, sed solas rationes, vt 
+      <lb ed="#L" n="87"/>dictum ost. ergo res essentiae, &amp; res esse, non est 
+      ea<lb ed="#L" break="no" n="88"/>dem. cuius oppositum isti dicunt, ponentes, quod respe 
+      <lb ed="#L" n="89"/>ctus importatus per esse, non sit res, sed intentlo. 
+      <lb ed="#L" n="90"/>Quod esse et essentia non differunt sicus duae rationes 
+      <lb ed="#L" n="91"/>TERTIA quoque propositio est, quod esse, 
+      <lb ed="#L" n="92"/>J&amp; essentia non se habent sicut verum, &amp; 
+      bo<lb ed="#L" break="no" n="93"/>num, ita quod importet diuersas rationes conce 
+      <lb ed="#L" n="94"/>pribiles. esse enim non addit aliquam positionem 
+      <lb ed="#L" n="95"/>super essentiam, conceptus namque entis 
+      appli<lb ed="#L" break="no" n="96"/>catus ad lapidem non addit ad conceptum 
+      lapi<lb ed="#L" break="no" n="97"/>dis aliquam rationem, vt declaratum prius fuit: 
+      <lb ed="#L" n="98"/>sed conceptus importatus per esse, est ipsemet 
+      <lb ed="#L" n="99"/>conceptus entis, nisi quod concipitur hic modo 
+      <lb ed="#L" n="100"/>fieri, &amp; egressus: ens autem modo stantis, &amp; 
+      quie<lb ed="#L" break="no" n="101"/>scentis. ergo non addit esse ad essentiam 
+      ali<lb ed="#L" break="no" n="102"/>quam rationem.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2458">
+                  <lb ed="#L" n="103"/>Praeterea: Ita se habet esse ad essentiam, sicut 
+      <lb ed="#L" n="104"/>se habet conceptus alicuius rei significatus 
+      ver<lb ed="#L" break="no" n="105"/>baliter ad conceptum eiusdem rei fignificatum 
+      <lb ed="#L" n="106"/>nominaliter, &amp; econuerso, esse enim, &amp; ens, &amp; 
+      es<lb ed="#L" break="no" n="107"/>sentia se habent, sicut cursus, &amp; currere, &amp; 
+      cur<lb ed="#L" break="no" n="108"/>rens, &amp; sicut flos, forens, &amp; florere, sed eadem ra 
+      <lb ed="#L" n="109"/>tio, &amp; intentio clauditur in conceptu importato 
+      <lb ed="#L" n="110"/>per verbum, nec illi duo conceptus aliquo 
+      mo<lb ed="#L" break="no" n="111"/>do differunt ratione, sed tantum in modo 
+      conci<lb ed="#L" break="no" n="112"/>piendi eandem rem, &amp; rationem, &amp; hoc est, quod 
+      <lb ed="#L" n="113"/>Comment. dicit, ait enim, quod propter 
+      samosi<lb ed="#L" break="no" n="114"/>tatem istius diuisionis, scilicet, qua omnes 
+      inten<lb ed="#L" break="no" n="115"/>tiones diuiduntur in habitus quiescentes, &amp; 
+      mo<lb ed="#L" break="no" n="116"/>dales; omnes tamen in hoc conueniunt, quod 
+      po<lb ed="#L" break="no" n="117"/>fuerunt nominationum principia, nomen, &amp; ver 
+      <lb ed="#L" n="118"/>bum, &amp; posuerunt nomen cuilibet formae 
+      quie<lb ed="#L" break="no" n="119"/>scenti, &amp; verbum cuilibet formae modali, &amp; 
+      po<lb ed="#L" break="no" n="120"/>suerunt partes indeclinabiles ad collationem 
+      <lb ed="#L" n="121"/>inter illa duo. haec Commentator. Vnde patet, 
+      <lb ed="#L" n="122"/>quod omnis ratio potest concipi modo quiescen 
+      <lb ed="#L" n="123"/>tis; &amp; talis conceptus exprimitur per nomen, &amp; 
+      <lb ed="#L" n="124"/>modo fieri, &amp; egressus, &amp; talis exprimitur per 
+      <lb ed="#L" n="125"/>verbum. ergo esse, &amp; essentia non differunt, 
+      pe<lb ed="#L" break="no" n="126"/>nes rationem, aut intentionem additam. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2513">
+                  <lb ed="#L" n="127"/>Nec valet si dicatur, quod habet veritatem de 
+      <lb ed="#L" n="128"/>esse essentiae, non tamen de esse existentiae: non va 
+      <lb ed="#L" n="129"/>let inquam, quia hic loquitur de essse, quod praedi 
+      <lb ed="#L" n="130"/>catur in illa propositione, rosa est. constat enim, quod 
+      <lb ed="#L" n="131"/>attribuit rosae, &amp; enunciat de ea conceptum 
+      en<lb ed="#L" break="no" n="132"/>tis in actu; vnde sensus est, quod rosa est extra 
+      ni<lb ed="#L" break="no" n="133"/>hil, &amp; quod conceptus entis actualiter competit 
+      <!--0264.xml-->
+      <pb ed="#L" n="264"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sibi, &amp; per consequens ly, est, praedicat sibi 
+      con<lb ed="#L" break="no" n="2"/>ceptum entis, &amp; importat ipsum per modum 
+      <lb ed="#L" n="3"/>verbi, &amp; sic procedit ratio, quod non addit 
+      in<lb ed="#L" break="no" n="4"/>tentionem, aut rationem aliquam, sed dicit con 
+      <lb ed="#L" n="5"/>ceptum entis alio modo.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2548">
+                  <lb ed="#L" n="6"/>Praeterea: Affirmatio rei non addit aliquam 
+      <lb ed="#L" n="7"/>rationem ad rem. sicut enim negatio rei tollit to 
+      <lb ed="#L" n="8"/>tam rem, &amp; nil aliud, ita affirmatio ponit rem, 
+      <lb ed="#L" n="9"/>&amp; nil aliud, sed dicendo sic, lapis est, ly, est, nil 
+      <lb ed="#L" n="10"/>aliud ponit, nisi quod affirmat lapideitatem; &amp; 
+      <lb ed="#L" n="11"/>dicendo, lapis non est, nil aliud tollit, ly, non est, 
+      <lb ed="#L" n="12"/>nisi realitatem lapidis. ergo est, non addit conce 
+      <lb ed="#L" n="13"/>ptum, aut aliam rationem ad illud, de quo 
+      prae<lb ed="#L" break="no" n="14"/>dicatur, sed tantum ipsum affirmat. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2570">
+                  <lb ed="#L" n="15"/>Praeterea: Illae duae aequipollent lapis est, &amp; 
+      la<lb ed="#L" break="no" n="16"/>pis est ens nunc, &amp; in actu, sed ens non addit 
+      ra<lb ed="#L" break="no" n="17"/>tionem ad lapidem, nec econuerso, sed est 
+      ea<lb ed="#L" break="no" n="18"/>dem ratio implicita, &amp; explicita quidem per 
+      la<lb ed="#L" break="no" n="19"/>pidem, &amp; implicita in ente, ergo dicendo, lapis 
+      <lb ed="#L" n="20"/>est, non additur aliqua ratio, quae praedicatur 
+      <lb ed="#L" n="21"/>de lapide. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2589">
+                  <lb ed="#L" n="22"/>Praeterea: Quandocumque aliquid diuiditur 
+      <lb ed="#L" n="23"/>per duas differentias, si vna totaliter destruit di 
+      <lb ed="#L" n="24"/>uisum, reliqua nil addit ad diuisum, nec 
+      secun<lb ed="#L" break="no" n="25"/>dum xem, nec secundum rationem, sed tantum 
+      <lb ed="#L" n="26"/>affirmat ipsum; verbi gratia: homo diuiditur 
+      <lb ed="#L" n="27"/>per verum, &amp; pictum, pictum autem totaliter 
+      <lb ed="#L" n="28"/>tollit hominem. sequitur enim est homo pictus, 
+      <lb ed="#L" n="29"/>ergo non est homo, &amp; ideo verum nihil addit ad 
+      <lb ed="#L" n="30"/>hominem. homo enim verus non est, nisi homo, 
+      <lb ed="#L" n="31"/>nec secundum rem, nec secundum rationem: sed 
+      <lb ed="#L" n="32"/>constat, quod ens diuiditur per ens in actu, &amp; 
+      <lb ed="#L" n="33"/>existens, &amp; per ens in potentia, &amp; vltima 
+      diffe<lb ed="#L" break="no" n="34"/>rentiarum, puta potentia totaliter destruit ens: 
+      <lb ed="#L" n="35"/>sequitur enim lapis in potentia: ergo non lapis. 
+      <lb ed="#L" n="36"/>ergo altera differentia, puta existentia, &amp; 
+      actua<lb ed="#L" break="no" n="37"/>litas, &amp; esse nihil adderet ad ens, nec secundum 
+      <lb ed="#L" n="38"/>rem, nec secundum rationem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2628">
+                  <lb ed="#L" n="39"/>Et confirmatur, quia si lapis concipiatur, vt 
+      <lb ed="#L" n="40"/>non positus in esse, statim concipitur, vt nil, ita 
+      <lb ed="#L" n="41"/>quod destruitur tota realitas lapidis. ergo quan 
+      <lb ed="#L" n="42"/>do concipietur, vt positus in effectu, nil adderet, 
+      <lb ed="#L" n="43"/>nec secundum rem, nec secundum rationem, 
+      vn<lb ed="#L" break="no" n="44"/>de quia non positio lapidis est pura negatio lapi 
+      <lb ed="#L" n="45"/>dis, sequitur quod positio lapidis est pura 
+      affir<lb ed="#L" break="no" n="46"/>matio eius, &amp; pura veritas, &amp; per consequens 
+      <lb ed="#L" n="47"/>non addit rem, nec rationem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2650">
+                  <lb ed="#L" n="48"/>Quod esse, et essentia non differunt grāmaticaliter. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2655">
+                  <lb ed="#L" n="49"/>QVARTA quoque propositio est, quod esse 
+      <lb ed="#L" n="50"/>&amp; essentia non differunt per modos 
+      si<lb ed="#L" break="no" n="51"/>gnificandi. illa namque differentia, quae 
+      <lb ed="#L" n="52"/>manet inter intellectum exclusa omni voce, &amp; 
+      <lb ed="#L" n="53"/>modo significandi, non resultat ex modo 
+      signifi<lb ed="#L" break="no" n="54"/>candi, sed sine omni voce est differentia 
+      in<lb ed="#L" break="no" n="55"/>ter conceptum rosae, &amp; conceptum, quo pono 
+      <lb ed="#L" n="56"/>eam extra in actu in rerum natura. ergo haec 
+      dif<lb ed="#L" break="no" n="57"/>ferentia non sumitur penes modos significandi. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2677">
+                  <lb ed="#L" n="58"/>Praeterea: Illa differentia, quae supponit 
+      mo<lb ed="#L" break="no" n="59"/>dos significandi, non sumitur penes eos, sed 
+      dif<lb ed="#L" break="no" n="60"/>ferentia modorum significandi verbi, &amp; 
+      nomi<lb ed="#L" break="no" n="61"/>nis, quae attenditur penes hoc verbum esse, &amp; hoc 
+      <lb ed="#L" n="62"/>nomen, essentia praesupponunt diuersitatem 
+      il<lb ed="#L" break="no" n="63"/>lam, quam habent esse, &amp; essentia in conceptu, &amp; 
+      <lb ed="#L" n="64"/>in modo concipiendi. ergo non sumitur haec 
+      dif<lb ed="#L" break="no" n="65"/>ferentia, penes modos significandi grammati ca- 
+      <!--0264.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>les, quamuis sit verum, quod hoc iuuat illam, 
+      <lb ed="#L" n="67"/>vt declarabitur statim. &amp; hic sit finis 
+      Articu<lb ed="#L" break="no" n="68"/>li secundi. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c83178-Dd1e2709">
+               <head xml:id="ol96b1-c83178-Hd1e2711">Articulus 3</head>
+               <p xml:id="ol96b1-c83178-d1e2713">
+                  <lb ed="#L" n="69"/>ARTJCVLVS TERTIVS.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2718">
+                  <lb ed="#L" n="70"/>Vbi affirmatiue dicitur, quomodo se habens esse, 
+      <lb ed="#L" n="71"/>&amp; essentia, iuxta id, quod videtur.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2725">
+                  <lb ed="#L" n="72"/>CIRCA tertium autem considerare oportet 
+      <lb ed="#L" n="73"/>quod negatiue satis apparet; quomodo 
+      ve<lb ed="#L" break="no" n="74"/>ro se habeant essentia, &amp; esse, affirmatiue, 
+      diffici<lb ed="#L" break="no" n="75"/>le est videre, nihilominus dicendum est, quod 
+      vi<lb ed="#L" break="no" n="76"/>detur, iuxta intentionem Philosophi, &amp; 
+      Com<lb ed="#L" break="no" n="77"/>mentatoris. &amp; hoc sub tribus propositionibus.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2741">
+                  <lb ed="#L" n="78"/>Quod esse addit ad essentiam conceptum 
+      affir<lb ed="#L" break="no" n="79"/>mationis secundum Philosophum, &amp; 
+      <lb ed="#L" n="80"/>Commeniatorem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2751">
+                  <lb ed="#L" n="81"/>PRIMA quidem, quod accipiendo per 
+      essen<lb ed="#L" break="no" n="82"/>tiam illud, quod potest intelligi esse, &amp; nos 
+      <lb ed="#L" n="83"/>esse, &amp; illud, de quo praedicatur est secundo adia 
+      <lb ed="#L" n="84"/>cens, siue significetur conerete, vt ens, lapis, &amp; 
+      <lb ed="#L" n="85"/>flos, siue abstracte, vt essentia, lapiditas, &amp;
+      bu<lb ed="#L" break="no" n="86"/>manitas: de omnibus namque istis praedit 
+      <lb ed="#L" n="87"/>est, dicendos ens est, vel essentia est, &amp; lapisest, 
+      <lb ed="#L" n="88"/>vel lapiditas est, quamuis enim proprie 
+      prudice<lb ed="#L" break="no" n="89"/>tur de concreto: quia essentia non est, sed 
+      ma<lb ed="#L" break="no" n="90"/>gis quo ens est, large tamen accipiendo essentiam 
+      <lb ed="#L" n="91"/>pro omoieo, de quo potest. enunciari est 
+      seui<lb ed="#L" break="no" n="92"/>do adiacens, per esse vero intelligendo significati 
+      <lb ed="#L" n="93"/>seiusdem praedicati secundo adiacentiss diem 
+      <lb ed="#L" n="94"/>dum est, quod esse significat affirmationem 
+      eius<lb ed="#L" break="no" n="95"/>dem rei sub. certo tumpore, sicut sub cent 
+      ira<lb ed="#L" break="no" n="96"/>tione, &amp; quod significet affirmationem 
+      paoctui<lb ed="#L" break="no" n="97"/>lud enim, quod significat verum, 
+      significatafir<lb ed="#L" break="no" n="98"/>mationem, sicut falsum negationem, 
+      sedestse<lb ed="#L" break="no" n="99"/>cundo adiacens, significat verum, vt Commim 
+      <lb ed="#L" n="100"/>expresse dicit 5. Metaphys. exponens illud Aristo 
+      <lb ed="#L" n="101"/>telis cum dicimus aliquid est, demonstramus suam 
+      <lb ed="#L" n="102"/>veritatem, &amp; cum dicimus, quod non est,demon 
+      <lb ed="#L" n="103"/>stramus, quod est falsum, dicit ibi 
+      Commenta<lb ed="#L" break="no" n="104"/>tor, quod in quaestione simplici, ficut dicimus, 
+      <lb ed="#L" n="105"/>vtrum Sortes sit, aut non sit, vltra hocmomen 
+      <lb ed="#L" n="106"/>ens, non significat hic non verum, &amp; subdit om 
+      <lb ed="#L" n="107"/>mentator, quod ideo expositores in secundossso 
+      <lb ed="#L" n="108"/>pic. diuersificantur in quaesito simplici, 
+      videli<lb ed="#L" break="no" n="109"/>cet cum dicitur, vtrum aliquid est, diuersantur 
+      <lb ed="#L" n="110"/>inquam, vtrum collocetur in quaestionibus adoi 
+      <lb ed="#L" n="111"/>dentis, aut in quaesttionibus generis, &amp; qui 
+      intel<lb ed="#L" break="no" n="112"/>lexerunt de ente illud, quod commune decem 
+      <lb ed="#L" n="113"/>praedicamentis dixerunt, quod collocatur in 
+      quae<lb ed="#L" break="no" n="114"/>stionibus generis, &amp; qui intelle xerunt de onteui 
+      <lb ed="#L" n="115"/>id, quod intelligitur de vero, dixerunt, 
+      quodxol<lb ed="#L" break="no" n="116"/>locatur in quaestionibus accidentis, aadhuouos, 
+      <lb ed="#L" n="117"/>Metaph. dicit, quod in hoc deceptus fuit 
+      Ani<lb ed="#L" break="no" n="118"/>cenna, dicens, quod fuit deceptus, quia 
+      igno<lb ed="#L" break="no" n="119"/>rauit differentiam, inter hoc nomen, Ens, quod 
+      <lb ed="#L" n="120"/>significat genus, &amp; quod significat verum. quod 
+      <lb ed="#L" n="121"/>enim significat verum est accidens, quod autem 
+      <lb ed="#L" n="122"/>significat genus, significat vnumquod decem 
+      <lb ed="#L" n="123"/>praedicamentorum. Haec Commentator. Ex 
+      <lb ed="#L" n="124"/>quibus patet, quod dicendo, lapis est, rosu est, &amp; 
+      <lb ed="#L" n="125"/>sic de similibus, non significat non verum, ly, est, 
+      <lb ed="#L" n="126"/>quod secundario adiacens praedicatur. orgo um 
+      <!--0265.xml-->
+      <pb ed="#L" n="265"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>significat, nisi affirmationem, &amp; 
+      compositio<lb ed="#L" break="no" n="2"/>nem, siue veritatem illius, de quo 
+      praedica<lb ed="#L" break="no" n="3"/>tur; vnde sensus est, lapis est, quod in illo nunc 
+      <lb ed="#L" n="4"/>affirmatur lapiditas, &amp; excluditur falsitas 
+      la<lb ed="#L" break="no" n="5"/>pidis, vel potentialitas, vel esse in intellectu, 
+      <lb ed="#L" n="6"/>&amp; sic de omni conditione lapideitatem 
+      distra<lb ed="#L" break="no" n="7"/>hente. omnem enim excludimus, dicendo, 
+      La<lb ed="#L" break="no" n="8"/>pis est. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2877">
+                  <lb ed="#L" n="9"/>Praeterea: Philosophus dicit primo Perierm. 
+      <lb ed="#L" n="10"/>quod, est, significat quandam compositionem 
+      <lb ed="#L" n="11"/>quam sine compositis non est intelligere, sed 
+      <lb ed="#L" n="12"/>quando est secundo adiacens, non potest compo 
+      <lb ed="#L" n="13"/>sitionem significare, nisi eiusdem rei cum eadem 
+      <lb ed="#L" n="14"/>re: tertio namque adiacens significat 
+      compo<lb ed="#L" break="no" n="15"/>sitionem eorumdem cum homine. quando 
+      ve<lb ed="#L" break="no" n="16"/>ro est secundo adiacens, significat 
+      compositio<lb ed="#L" break="no" n="17"/>nem secundi cum primo, siue eiusdem cum 
+      eo<lb ed="#L" break="no" n="18"/>dem: nam cum dicitur, Lapis est, non 
+      signifi<lb ed="#L" break="no" n="19"/>cat, quod sit aliquid aliud secundum, quod 
+      ipse<lb ed="#L" break="no" n="20"/>met sit. ergo patet, quod significat 
+      affirmatio<lb ed="#L" break="no" n="21"/>nem eiusdem rei de se. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2908">
+                  <lb ed="#L" n="22"/>Est autem hic attendendum, quod affirmatio, 
+      <lb ed="#L" n="23"/>vt superius dicebatur, siue positio alicuius rei, 
+      <lb ed="#L" n="24"/>non addit aliquam rationem ad rem, sed 
+      exclu<lb ed="#L" break="no" n="25"/>dit ab illa re omnem modum diminutum 
+      de<lb ed="#L" break="no" n="26"/>struentem ipsam rem. cum enim dicitur, lapis 
+      <lb ed="#L" n="27"/>in potentia, vel lapis secundum quid, vel 
+      la<lb ed="#L" break="no" n="28"/>pis positus, vel lapis in intellectu, &amp; omnia illa, 
+      <lb ed="#L" n="29"/>dicunt lapidem directe, &amp; omnia excluduntur, 
+      <lb ed="#L" n="30"/>eum dicitur, lapis est. secundum hoc ergo, esse 
+      <lb ed="#L" n="31"/>significat veritatem rei excludentem omnem, 
+      fal<lb ed="#L" break="no" n="32"/>sitatem, &amp; diminutionem. Verum autem 
+      ad<lb ed="#L" break="no" n="33"/>ditum rei, non adiicit sibi rem nouam, 
+      autra<lb ed="#L" break="no" n="34"/>tionem. cum enim dicitur, homo verus, 
+      veri<lb ed="#L" break="no" n="35"/>tas hominis nil addit ad hominem, sed ponit 
+      <lb ed="#L" n="36"/>ipsum pure cum exclusione omnis diminutionis, 
+      <lb ed="#L" n="37"/>vt sic conceptus veri, sit conceptus rei 
+      princi<lb ed="#L" break="no" n="38"/>paliter, &amp; directe, &amp; indirecte, aut dicat 
+      om<lb ed="#L" break="no" n="39"/>nem exclusionem omnis diminutionis, &amp; secun 
+      <lb ed="#L" n="40"/>dum hoc differt homo, &amp; homo verus, 
+      conce<lb ed="#L" break="no" n="41"/>ptibiliter, non quia dicat duas res, aut 
+      ratio<lb ed="#L" break="no" n="42"/>nes conceptas, sed quia dicunt omnem 
+      conce<lb ed="#L" break="no" n="43"/>ptum, sed verum connotat exclusionem omnis 
+      <lb ed="#L" n="44"/>diminutionis. sicut ergo patet, cum dicitur, 
+      <lb ed="#L" n="45"/>lapis est, quod ly, est, significat affirmationem 
+      <lb ed="#L" n="46"/>eiusdem rei, siue veritatem, &amp; positionem, in 
+      <lb ed="#L" n="47"/>quo secundum Commentatorem, fuit deceptus 
+      <lb ed="#L" n="48"/>Auicenna, qui credebat, quod significaret rem 
+      <lb ed="#L" n="49"/>additam rei, de qua predicabat, hoc autem 
+      <lb ed="#L" n="50"/>non est verum. non enim significat rem additam, 
+      <lb ed="#L" n="51"/>immo nec intentionem, sed eandem rem 
+      iudi<lb ed="#L" break="no" n="52"/>cat, &amp; affirmat. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e2978">
+                  <lb ed="#L" n="53"/>Vlterius est attendendum, quod esse illo modo 
+      <lb ed="#L" n="54"/>sumptum est idem, quod actualitas: actus 
+      nam<lb ed="#L" break="no" n="55"/>que aliquando accipitur pro forma, &amp; termino, 
+      <lb ed="#L" n="56"/>&amp; tunc opponitur materiae, &amp; possibili, ac 
+      deter<lb ed="#L" break="no" n="57"/>minabili, &amp; hoc modo sumitur quinto Metaphy 
+      <lb ed="#L" n="58"/>sicae, tertia diuisio entis, quandoque vero 
+      sumi<lb ed="#L" break="no" n="59"/>tur pro exclusione omnis diminutionis a re, vt 
+      <lb ed="#L" n="60"/>cum dicimus, rosam in actu excludimus esse in 
+      <lb ed="#L" n="61"/>intellectu, &amp; esse secundum quid: vnde 
+      pa<lb ed="#L" break="no" n="62"/>tet, quod significat idem, quod veritas 
+      <lb ed="#L" n="63"/>rei, &amp; per consequens idem, quod 
+      <lb ed="#L" n="64"/>esse, propter quod 
+      consue<lb ed="#L" break="no" n="65"/>tum est dici, quod esse 
+      <lb ed="#L" n="66"/>est actualitas 
+      <lb ed="#L" n="67"/>entis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3013">
+      <!--0265.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>Quod essentia significat totum conceptum entis 
+      <lb ed="#L" n="69"/>per modum actus, &amp; operationis 
+      im<lb ed="#L" break="no" n="70"/>manentis, &amp; per consequens 
+      <lb ed="#L" n="71"/>sub certa duratione. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3029">
+                  <lb ed="#L" n="72"/>SECVNDA vero propositio est, quod ens, &amp; es 
+      <lb ed="#L" n="73"/>se, siue lapis, &amp; esse eius, &amp; sic de aliis differunt 
+      <lb ed="#L" n="74"/>quidem conceptibiliter, vnde habent duos conce 
+      <lb ed="#L" n="75"/>ptus, non quidem differentes per aliud, &amp; aliud 
+      <lb ed="#L" n="76"/>conceptibile, sed per alium modum 
+      concipien<lb ed="#L" break="no" n="77"/>di. definitio enim, &amp; definitum dicunt duos 
+      <lb ed="#L" n="78"/>conceptus: non tamen sic duos, quod aliud, &amp; 
+      <lb ed="#L" n="79"/>aliud concipiatur, sed omnino idem, nunc 
+      qui<lb ed="#L" break="no" n="80"/>dem coniunctim, &amp; obscure, nunc diuisim, &amp; 
+      <lb ed="#L" n="81"/>clare, sic in proposito duo sunt modi 
+      conci<lb ed="#L" break="no" n="82"/>piendi omnem rem, &amp; omnem intentionem, vt 
+      <lb ed="#L" n="83"/>supra dicebatur secundum Commentatorem, 
+      <lb ed="#L" n="84"/>vnus quidem per modum quiescentis, &amp; per se 
+      <lb ed="#L" n="85"/>stantis, ac subiectiue, alius vero per modum 
+      flu<lb ed="#L" break="no" n="86"/>xus cuiusdam, &amp; egredientis, &amp; actus, siue 
+      ope<lb ed="#L" break="no" n="87"/>rationis immanentis, &amp; primus est quidem rei, 
+      <lb ed="#L" n="88"/>quasi quiete, nec vtentis sua realitate, sed ocian 
+      <lb ed="#L" n="89"/>tis ab vsu suae realitatis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3072">
+                  <lb ed="#L" n="90"/>Secundus vero est rei sub vsu propriae 
+      rea<lb ed="#L" break="no" n="91"/>litatis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3079">
+                  <lb ed="#L" n="92"/>Primus quidem concipitur per modum 
+      po<lb ed="#L" break="no" n="93"/>tentiae, &amp; carentis complemento. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3086">
+                  <lb ed="#L" n="94"/>Secundus vero habet rationem actus, &amp; com 
+      <lb ed="#L" n="95"/>plementi, sicut dicit Philosophus nono 
+      Meta<lb ed="#L" break="no" n="96"/>physicae, quod natura actus dicitur de 
+      opera<lb ed="#L" break="no" n="97"/>tione, quod exponit Commentator commento 
+      <lb ed="#L" n="98"/>16. dicens, quod signum est, quod actus sit 
+      com<lb ed="#L" break="no" n="99"/>plementum, &amp; perfectio operantis, &amp; ideo 
+      no<lb ed="#L" break="no" n="100"/>men actus dicitur de operatione: alia autem 
+      o<lb ed="#L" break="no" n="101"/>peratio est, quaudo vnumquodque entium 
+      vti<lb ed="#L" break="no" n="102"/>tur sua propria actione. concipiens ergo lucem, 
+      <lb ed="#L" n="103"/>concipit rem modo stantis, &amp; substantiae 
+      ocian<lb ed="#L" break="no" n="104"/>tis ab vsu suae realitatis; concipiens vero lucem, 
+      <lb ed="#L" n="105"/>apprehendit idem per modum vsus illius, &amp; 
+      o<lb ed="#L" break="no" n="106"/>perationis intransitiuae. non enim apprehendit 
+      <lb ed="#L" n="107"/>quod illa operatio transeat in aliud, sicut 
+      illu<lb ed="#L" break="no" n="108"/>minare, vel calefacere, conceptus inquam 
+      en<lb ed="#L" break="no" n="109"/>tis formari potest in mente per modum 
+      cuius<lb ed="#L" break="no" n="110"/>dam stantis, &amp; sicut importatur per ens, &amp; 
+      es<lb ed="#L" break="no" n="111"/>sentiam, &amp; per modum cuiusdam actus 
+      imma<lb ed="#L" break="no" n="112"/>nentis, seu actionis, vt totus ille conceptus sit, 
+      <lb ed="#L" n="113"/>quasi quaedam actio intransitiua, sed immanens 
+      <lb ed="#L" n="114"/>&amp; importatur per esse, fuisse, fore, &amp; per totum 
+      <lb ed="#L" n="115"/>decursum huius verbi, sum, es, fui, secundum 
+      <lb ed="#L" n="116"/>diuersas rationes morum, &amp; personarum, &amp; 
+      <lb ed="#L" n="117"/>temporum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3141">
+                  <lb ed="#L" n="118"/>Potest autem totus ille conceptus actionis im 
+      <lb ed="#L" n="119"/>manentis referri ad totum conceptum per 
+      mo<lb ed="#L" break="no" n="120"/>dum stantis, &amp; secundum hoc intellectus 
+      conci<lb ed="#L" break="no" n="121"/>pit habitudinem cuiusdam egressus conceptus 
+      <lb ed="#L" n="122"/>fluentis a conceptu stantis; vnde concipitur, 
+      <lb ed="#L" n="123"/>quod esse fluat ab ente, tamquam operatio ab 
+      o<lb ed="#L" break="no" n="124"/>perante, &amp; cum sit operatio intransitu, necessario 
+      <lb ed="#L" n="125"/>apprehenditur, quod idem fluat a se concepto 
+      <lb ed="#L" n="126"/>per modum stantis, potest quoque totus 
+      ille<lb ed="#L" break="no" n="127"/>conceptus referri ad entia in speciali, &amp; tunc 
+      <lb ed="#L" n="128"/>videtur fluere ab illo ente. cum enim refertur 
+      <lb ed="#L" n="129"/>ad lapidem huiusmodi conceptus, videtur 
+      con<lb ed="#L" break="no" n="130"/>cipienti, quod aliquid a lapide fluat, puta 
+      es<lb ed="#L" break="no" n="131"/>se ipsius, potest autem terminus referri ad 
+      spe<lb ed="#L" break="no" n="132"/>ciales conceptus, qui apprehenduntur, maxi- 
+      <!--0266.xml-->
+      <pb ed="#L" n="266"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>me actionis immanentis, cuiusmodi est 
+      luce<lb ed="#L" break="no" n="2"/>re, calere, florere, &amp; sic habet conceptus 
+      il<lb ed="#L" break="no" n="3"/>le communis, sicut conceptus entis ad omnia 
+      <lb ed="#L" n="4"/>ista apprehensa per modum quietis, &amp; quia 
+      <lb ed="#L" n="5"/>conceptus entis dicit essentiam, rem, &amp; 
+      om<lb ed="#L" break="no" n="6"/>nem rationem, &amp; rem implicite, &amp; nullam expli 
+      <lb ed="#L" n="7"/>cite, necesse est, quod dicat omnem rationem, &amp; 
+      <lb ed="#L" n="8"/>rem implicite, &amp; nullam explicite, nec differat a 
+      <lb ed="#L" n="9"/>conceptu entis, nisi per modum concipiendi 
+      sub<lb ed="#L" break="no" n="10"/>stantiae, &amp; operationis, quietis, &amp; fluxus. sic ergo 
+      <lb ed="#L" n="11"/>cum esse applicatur ad florere, coincidit in idem 
+      <lb ed="#L" n="12"/>re, &amp; ratione, sicut &amp; ens coincidebat cum flore, 
+      <lb ed="#L" n="13"/>&amp; ideo idem est dictu, flos, &amp; flos floret. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3211">
+                  <lb ed="#L" n="14"/>Quod ergo esse lapidis non aliter differat a la 
+      <lb ed="#L" n="15"/>pide, nisi quod est conceptus communissimus 
+      <lb ed="#L" n="16"/>entis apprehensus per modum actionis, &amp; sibi 
+      <lb ed="#L" n="17"/>applicatus, manifeste apparet ex his, quae 
+      di<lb ed="#L" break="no" n="18"/>cuntur de esse; consueuit namque dici, quod 
+      <lb ed="#L" n="19"/>esse fluit ab essentia, &amp; quod esse est actus primus, 
+      <lb ed="#L" n="20"/>&amp; quod esse est effectus formalis, &amp; quod 
+      vi<lb ed="#L" break="no" n="21"/>uere viuentibus est esse, &amp; quod creatio 
+      ter<lb ed="#L" break="no" n="22"/>minatur ad esse, &amp; quod omne accidens 
+      sup<lb ed="#L" break="no" n="23"/>ponit esse, &amp; quod esse actualitas est entis, sed 
+      <lb ed="#L" n="24"/>constat, quod haec omnia competunt conceptui 
+      <lb ed="#L" n="25"/>confusissimo, omnem rem, &amp; omnem 
+      ratio<lb ed="#L" break="no" n="26"/>nem implicite continenti; si tamen 
+      apprehen<lb ed="#L" break="no" n="27"/>datur per modum operationis immanentis. 
+      Il<lb ed="#L" break="no" n="28"/>le namque conceptus, cum sit per modum 
+      ope<lb ed="#L" break="no" n="29"/>rationis, intelligitur, vt a quo; &amp; per 
+      conse<lb ed="#L" break="no" n="30"/>quens influens, &amp; cum includat omnem rem, vt 
+      <lb ed="#L" n="31"/>influxu: includitur enim florere, &amp; lucere, 
+      <lb ed="#L" n="32"/>&amp; sic de alijs rebus, quibus vocabulum non est 
+      <lb ed="#L" n="33"/>impositum, necesse est, vt concipiatur quasi 
+      <lb ed="#L" n="34"/>fluens ab omni re, vnde cum dicimus, Sortes 
+      <lb ed="#L" n="35"/>est, concipimus Sortem, quasi in quodam 
+      in<lb ed="#L" break="no" n="36"/>fluxu; vnde intelligimus totum illud, quod est 
+      <lb ed="#L" n="37"/>per modum actus, &amp; operationis fluentis a con 
+      <lb ed="#L" n="38"/>ceptu Sortis quieto, vnde bene dicitur, quod 
+      <lb ed="#L" n="39"/>esse fluit ab essentia; bene etiam dicitur, quod 
+      <lb ed="#L" n="40"/>est actus primus, quia concipitur per modum 
+      <lb ed="#L" n="41"/>actionis, &amp; operationis primae, bene etiam 
+      di<lb ed="#L" break="no" n="42"/>citur, quod est effectus formalis. omne enim 
+      ef<lb ed="#L" break="no" n="43"/>fici, est esse effectus. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3279">
+                  <lb ed="#L" n="44"/>Quod autem sic fluit, vt non sit alia res, 
+      di<lb ed="#L" break="no" n="45"/>citur effectus formalis ad differentiam effectus 
+      <lb ed="#L" n="46"/>efficientis, qui est alia res, vnde etiam dicitur, 
+      <lb ed="#L" n="47"/>quod viuere est esse viuentium, quia non est 
+      a<lb ed="#L" break="no" n="48"/>liud, quam res importata per viuentem, quae 
+      <lb ed="#L" n="49"/>tamen tota apprehenditur per modum 
+      cuius<lb ed="#L" break="no" n="50"/>dam actionis, &amp; operationis, &amp; fluxus, 
+      bene<lb ed="#L" break="no" n="51"/>etiam dicitur, quod creatio terminatur ad 
+      es<lb ed="#L" break="no" n="52"/>se, quia cum creatio significet actionem, &amp; 
+      slu<lb ed="#L" break="no" n="53"/>xum, non intelligitur terminari ad rem, in 
+      es<lb ed="#L" break="no" n="54"/>se quieto, sed ad rem positam in quodam fluxu; 
+      <lb ed="#L" n="55"/>bene etiam dicitur, quod accidens 
+      praesuppo<lb ed="#L" break="no" n="56"/>nit esse subiecti: nam accidens praesupponit 
+      sub<lb ed="#L" break="no" n="57"/>iectum per modum cuiusdam vrgentis, &amp; 
+      su<lb ed="#L" break="no" n="58"/>stentantis: tale autem sustentare videtur, quasi 
+      <lb ed="#L" n="59"/>quoddam exercitium, &amp; quoddam operari, &amp; 
+      <lb ed="#L" n="60"/>ita necesse est concipi subiectum sub quodam 
+      <lb ed="#L" n="61"/>fluxu, &amp; operari intransitiue. Hoc autem 
+      e<lb ed="#L" break="no" n="62"/>rat propter hoc, quod accidens praesupponit, 
+      <lb ed="#L" n="63"/>bene etiam dicitur, quod esse est actualitas, vel 
+      <lb ed="#L" n="64"/>actus entis. ens enim concipitur per modum 
+      <lb ed="#L" n="65"/>quiescentis, &amp; ociantis ab operatione: prima 
+      <lb ed="#L" n="66"/>autem aperatio, quam concipit intellectus 
+      cir<lb ed="#L" break="no" n="67"/>ca rem ociantem est, quod incipiat exire, non 
+      <!--0266.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>quidem ad producendum aliam rem, sed exire 
+      <lb ed="#L" n="69"/>in propriam entitatem, sicut lux in lucere, quod 
+      <lb ed="#L" n="70"/>nil aliud est, quam vigere, &amp; vti sua realitate, &amp; 
+      <lb ed="#L" n="71"/>quodammodo actuari. sicut ergo cum ea, quae 
+      di<lb ed="#L" break="no" n="72"/>cuntur de esse, attribuantur tali conceptui, 
+      ne<lb ed="#L" break="no" n="73"/>cesse est, quod ille conceptus importetur per esse. 
+      <lb ed="#L" n="74"/>Quod autem conceptus essentiae sit pet se stan 
+      <lb ed="#L" n="75"/>tis, &amp; ociantis, &amp; quasi quiescentis, &amp; 
+      absttra<lb ed="#L" break="no" n="76"/>cti ab extraneo fluxu, patet ex his, quae 
+      dicun<lb ed="#L" break="no" n="77"/>tur de essentia; consueuit namque dici, quod 
+      <lb ed="#L" n="78"/>essentia abstrahit, &amp; est indifferens ad esse, &amp; 
+      <lb ed="#L" n="79"/>non esse, &amp; quod potest intelligi non existens in 
+      <lb ed="#L" n="80"/>rerum natura, &amp; quod sibi accidit esse in 
+      re<lb ed="#L" break="no" n="81"/>rum natura, &amp; quod est formaliter in rerum 
+      <lb ed="#L" n="82"/>natura per esse, &amp; quod definitio importat 
+      es<lb ed="#L" break="no" n="83"/>sentiam, &amp; non esse, &amp; quod scientiae, &amp; 
+      pro<lb ed="#L" break="no" n="84"/>positiones necessariae non sunt de existentijs 
+      re<lb ed="#L" break="no" n="85"/>rum, &amp; quod productiones non terminantur ad 
+      <lb ed="#L" n="86"/>essentias, &amp; similia multa; sed haec omnia 
+      com<lb ed="#L" break="no" n="87"/>petunt rei conceptae modo quiescentis ab omni 
+      <lb ed="#L" n="88"/>effluxu: bene namque dicitur, quod talis abstrahit 
+      <lb ed="#L" n="89"/>ab esse, &amp; non esse, inquantum non concipitur per 
+      <lb ed="#L" n="90"/>modum vtentis sua realitate, nec tamen quod 
+      <lb ed="#L" n="91"/>impossibilis sit sibi effluxus, &amp; propria 
+      reali<lb ed="#L" break="no" n="92"/>tas, quia enim non est sibi talis effluxus 
+      impos<lb ed="#L" break="no" n="93"/>sibilis, abstrahit a non esse, &amp; quia non actu 
+      ef<lb ed="#L" break="no" n="94"/>fluit, abstrahit ab esse, &amp; potest intelligi sub non 
+      <lb ed="#L" n="95"/>esse. res enim, quae non vtitur sua realitate, 
+      re<lb ed="#L" break="no" n="96"/>manet nihil, &amp; non ens: bene etiam d icitur, quod 
+      <lb ed="#L" n="97"/>est indifferens ad esse, &amp; non esse, inquantum 
+      <lb ed="#L" n="98"/>potest intelligi, vt ab ea effluit; bene etiam 
+      di<lb ed="#L" break="no" n="99"/>citur, quod potest intelligi, vt non existens in 
+      <lb ed="#L" n="100"/>rerum natura; res namque, quae intelligitur in 
+      <lb ed="#L" n="101"/>fluxu de necessitate concipitur, vt mensurata 
+      <lb ed="#L" n="102"/>duratione. fluit enim nunc, vel tunc, aut 
+      conce<lb ed="#L" break="no" n="103"/>ptus attingit rem, vt est extra: res 
+      namque<lb ed="#L" break="no" n="104"/>sunt prout in intellectu non sunt mobiles, nec 
+      <lb ed="#L" n="105"/>subiectae tempori, vel durationi, propter quod 
+      <lb ed="#L" n="106"/>conceptus rei, vt fluentis, est conceptus rei 
+      ex<lb ed="#L" break="no" n="107"/>tra intellectum; vnde dicit Commentator 
+      no<lb ed="#L" break="no" n="108"/>no Metaphysicae, quod res non dicuntur esse 
+      <lb ed="#L" n="109"/>actu, nisi quando mouentur. videntur enim 
+      in<lb ed="#L" break="no" n="110"/>tellectui, quod illud, quod est in actu sit mobile, 
+      <lb ed="#L" n="111"/>&amp; quod motus sit actus, &amp; quod illa, quae non 
+      <lb ed="#L" n="112"/>monentur non dicantur esse actu, vt 
+      intellectua<lb ed="#L" break="no" n="113"/>lia, &amp; voluntaria, &amp; subdit, quod entia, quae 
+      <lb ed="#L" n="114"/>non sunt extra animam, non dicuntur esse 
+      sim<lb ed="#L" break="no" n="115"/>pliciter, eo modo, quo dicuntur entia, res 
+      <lb ed="#L" n="116"/>mobiles: quia entia in primo aspectu sunt 
+      il<lb ed="#L" break="no" n="117"/>la, quae mouentur in actu. Haec 
+      Commenta<lb ed="#L" break="no" n="118"/>tor. Vnde patet, quod res extra animam 
+      di<lb ed="#L" break="no" n="119"/>cuntur, quae consistunt in actione, &amp; fluxu, &amp; 
+      <lb ed="#L" n="120"/>motu; vnde non est aliud rem concipi extra 
+      <lb ed="#L" n="121"/>animam, &amp; in rerum natura, nisi concipi eam 
+      <lb ed="#L" n="122"/>modo fluxus, &amp; operationis cuiusdam, &amp; ita 
+      <lb ed="#L" n="123"/>essentia dicitur posse concipi non existens 
+      ex<lb ed="#L" break="no" n="124"/>tra, cum concipiatur per modum quiescentis 
+      <lb ed="#L" n="125"/>a fluxu. bene etiam dicitur, quod tali 
+      quiescen<lb ed="#L" break="no" n="126"/>ti conceptui accidit poni in rerum natura, 
+      quo<lb ed="#L" break="no" n="127"/>niam sibi accidit concipi, per modum fluxus, 
+      <lb ed="#L" n="128"/>&amp; propriae durationis; res namque concepta 
+      <lb ed="#L" n="129"/>per modum vtentis, seu effluentis in propriam 
+      <lb ed="#L" n="130"/>realitatem, necesse est, vt concipiatur extra 
+      <lb ed="#L" n="131"/>intellectum; bene etiam dicitur, quod est 
+      for<lb ed="#L" break="no" n="132"/>maliter in rerum natura per esse, propter 
+      ean<lb ed="#L" break="no" n="133"/>dem causam; bene etiam dicitur, quod definitio 
+      <lb ed="#L" n="134"/>importat essentiam, quae importat rem, vt con- 
+      <!--0267.xml-->
+      <pb ed="#L" n="267"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ceptam modo quiescentis, bene etiam dicitur, 
+      <lb ed="#L" n="2"/>quod scientiae sunt de essentiis, &amp; propositiones 
+      <lb ed="#L" n="3"/>necessariae, quia conceptus quiescentis semper 
+      <lb ed="#L" n="4"/>potest formari de re, siue sit extra intellectum, 
+      <lb ed="#L" n="5"/>sue in intellectu: sciantio autem, &amp; 
+      propositio<lb ed="#L" break="no" n="6"/>nes necessariae, sunt de his, quae semper sunt, &amp; de 
+      <lb ed="#L" n="7"/>xternis. non ergo scientiae sunt de existentiis, 
+      <lb ed="#L" n="8"/>quia semper concipi possunt res, vt vigentes, &amp; 
+      <lb ed="#L" n="9"/>fluentes in actionem primam, &amp; primum 
+      opera<lb ed="#L" break="no" n="10"/>ri non enim potest iste conceptus vere formari, 
+      <lb ed="#L" n="11"/>nisi quando sunt, quia per esse in intellectu talis 
+      <lb ed="#L" n="12"/>conceptus non formatur, &amp; bene dicitur, quod 
+      <lb ed="#L" n="13"/>productiones non terminantur ad essentias, pro 
+      <lb ed="#L" n="14"/>eo, quod ille conceptus quiescentis potest 
+      for<lb ed="#L" break="no" n="15"/>mari de rebus, dum sunt nihil: conceptus autem 
+      <lb ed="#L" n="16"/>operantis non potest, &amp; ita necesse est, quod 
+      <lb ed="#L" n="17"/>productio terminetur ad rem conceptam modo 
+      <lb ed="#L" n="18"/>esse, &amp; nou modo essentiae. ergo res, vt concepta 
+      <lb ed="#L" n="19"/>modo quiescentis, habet conceptum essentiae, 
+      <lb ed="#L" n="20"/>vt videtur. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3534">
+                  <lb ed="#L" n="21"/>Quod autem conceptus esse referatur ad con 
+      <lb ed="#L" n="22"/>ceptum essentiae, sicut conceptus rei mouentis, 
+      <lb ed="#L" n="23"/>&amp; fluentis ad conceptum rei quiescentis, patet ex 
+      <lb ed="#L" n="24"/>iis, quae consueta sunt dici de vno in 
+      comparatio<lb ed="#L" break="no" n="25"/>ne ad aliud, consueuit namque dici, quod esse 
+      <lb ed="#L" n="26"/>praedicatum de re affirmat ipsam, &amp; veridicat, 
+      <lb ed="#L" n="27"/>vt superius dicebatur, &amp; quod esse aliquando est 
+      <lb ed="#L" n="28"/>copula, &amp; praedicatur tertio adiacens, 
+      aliquan<lb ed="#L" break="no" n="29"/>do non secundo, &amp; quod esse intelligitur in omni 
+      <lb ed="#L" n="30"/>alio verbo, quod de re enunciatur, vt dicendo, 
+      <lb ed="#L" n="31"/>Sortes currit, intelligitur Sortes est currens, &amp; 
+      <lb ed="#L" n="32"/>quod alia verba non praedicantur tertio adiacen 
+      <lb ed="#L" n="33"/>tia, sed tantummodo est, vel existit, &amp; quod no 
+      <lb ed="#L" n="34"/>mina significant essentias, verba vero, &amp; partici 
+      <lb ed="#L" n="35"/>pia, quae praedicantur de nominibus, significant 
+      <lb ed="#L" n="36"/>esse existere, sed haec nomina competunt 
+      conce<lb ed="#L" break="no" n="37"/>ptui rei fluentis in ordine ad eandem rem conce 
+      <lb ed="#L" n="38"/>ptam modo quiescentis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3576">
+                  <lb ed="#L" n="39"/>Bene enim dicitur, quod esse affirmat rem, 
+      <lb ed="#L" n="40"/>quoniam denotat rem, vt egredientem, &amp; efluen 
+      <lb ed="#L" n="41"/>tem in primam operationem: talis autem 
+      egres<lb ed="#L" break="no" n="42"/>sus significat rem in potissimo esse: res namque 
+      <lb ed="#L" n="43"/>sunt, dum in operari sunt in complemento, &amp; 
+      per<lb ed="#L" break="no" n="44"/>fectione, quia perfectio vniuscuiusque rei 
+      consi<lb ed="#L" break="no" n="45"/>stit in prima operatione, vt Philosophus dicit 
+      <lb ed="#L" n="46"/>in primo Ethic. Cum ergo dicitur, lux lucet, vel 
+      <lb ed="#L" n="47"/>lux est, significatur lux habere veritatem lucis, &amp; 
+      <lb ed="#L" n="48"/>non esse lux diminuta, immo in suo potissimo sta 
+      <lb ed="#L" n="49"/>tu, nec est differentia inter lucem, &amp; esse, nisi im 
+      <lb ed="#L" n="50"/>pliciti, &amp; expliciti: nam esse nihil dicit 
+      explici<lb ed="#L" break="no" n="51"/>tum; vnde notat efluxum rei omnis 
+      indetermi<lb ed="#L" break="no" n="52"/>nate in sua realitate, propter quod ibi res non 
+      ha<lb ed="#L" break="no" n="53"/>bent vocem significantem proprium effluxum, 
+      at<lb ed="#L" break="no" n="54"/>tribuitur eis esse ad denotandum illum, sicut 
+      pa<lb ed="#L" break="no" n="55"/>tet, quod non inuenitur a rosa rosere, sicut a flore 
+      <lb ed="#L" n="56"/>florere, nec ab homine homo, sicut a luce lucere, 
+      <lb ed="#L" n="57"/>&amp; ideo vtimur in talibus huiusmodi vocabulo es 
+      <lb ed="#L" n="58"/>se. bene enim dicitur, quod praedicatur secundo 
+      <lb ed="#L" n="59"/>&amp; tertio adiacens: nam illud tertium, cui adiacet 
+      <lb ed="#L" n="60"/>non est, nisi determinatio esse. illud enim, quod ap 
+      <lb ed="#L" n="61"/>ponitur praedicato determinat ipsum; vnde cum 
+      <lb ed="#L" n="62"/>dicitur Sortes est homo albus, albus determinat 
+      <lb ed="#L" n="63"/>hominem: contingit autem fluxum importatum 
+      <lb ed="#L" n="64"/>per esse determinari dupliciter.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3635">
+                  <lb ed="#L" n="65"/>Primo quidem per fluxum principalis subiecti, 
+      <lb ed="#L" n="66"/>vt cum dicitur, Sortes est, tunc enim esse determi 
+      <lb ed="#L" n="67"/>nat per Sortem, &amp; designat proprium fluxum rea- 
+      <!--0267.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>litatis Sortis, &amp; sic dicitur praedicari a adiacens, 
+      <lb ed="#L" n="69"/>Secundo non determinari per influxum alicuius 
+      <lb ed="#L" n="70"/>existentis in subiecto, vt cum dicitur. Sortes est 
+      <lb ed="#L" n="71"/>albus. denoratur enim, quod albedo fluit effluxu 
+      <lb ed="#L" n="72"/>formaliter super Sortem, &amp; sic praedicatur tertio 
+      <lb ed="#L" n="73"/>adiacens, siue sint adiacentia tertio 
+      aceidenta<lb ed="#L" break="no" n="74"/>lia, vt albus, &amp; iustus, siue essentialia, cum 
+      dici<lb ed="#L" break="no" n="75"/>tur, homo est animal, vnde est, &amp; esse significant 
+      <lb ed="#L" n="76"/>effluxum subiecti in propriam realitatem, siue ef 
+      <lb ed="#L" n="77"/>fluxum praedicati super subiectum 3. alia 
+      autem<lb ed="#L" break="no" n="78"/>verba, vel significant tantum effluxum subiecti, 
+      <lb ed="#L" n="79"/>vt florere, albere, &amp; similia verba idem significē- 
+      <lb ed="#L" n="80"/>tia cum subiecto, vel effluxum alicuius super subis 
+      <lb ed="#L" n="81"/>ctum, vt currere, legere, dicendo enim, Sortes 
+      <lb ed="#L" n="82"/>currit, non denotatur effluxus Sortis in proprium 
+      <lb ed="#L" n="83"/>realitatem, sed magis effluxum cursus formali⸗ 
+      <lb ed="#L" n="84"/>ter super Sortem, propter quod nullum verbum 
+      <lb ed="#L" n="85"/>potest tertio adiaceus praedicari, rbi est, vel 
+      exi<lb ed="#L" break="no" n="86"/>stit simul, &amp; secundario, sed tantum tertio, vt cum 
+      <lb ed="#L" n="87"/>dicitur, Sortes currit, vel secundario, vt flos 
+      flo<lb ed="#L" break="no" n="88"/>ret, cuius ratio est, quia est, &amp; existit, nullum 
+      flu<lb ed="#L" break="no" n="89"/>xum determinatum importat, &amp; ex hoc determi 
+      <lb ed="#L" n="90"/>nari possunt por fluxum subiecti, &amp; praedicati, non 
+      <lb ed="#L" n="91"/>sic autem de alijs verbis, vnde etiam dicitur, quod 
+      <lb ed="#L" n="92"/>est, seu existit intelliguntur in omni verbo, sicut 
+      <lb ed="#L" n="93"/>commune in speciali, &amp; implicitum in explicito: 
+      <lb ed="#L" n="94"/>important enim confuse effluxum omnium rerum. 
+      <lb ed="#L" n="95"/>bene ergo etiam dicitur, quod verba, &amp; 
+      partici<lb ed="#L" break="no" n="96"/>pia significant istum conceptum operationis, &amp; 
+      <lb ed="#L" n="97"/>fluxus, quoniam significant per modum fieri, &amp; 
+      <lb ed="#L" n="98"/>cum tempore, &amp; nota sunt eorum, quae de alio di 
+      <lb ed="#L" n="99"/>cuntur, vt dicit Philosophus 1. Perier. nomen 
+      <lb ed="#L" n="100"/>autem significat conceptum quiescentis, &amp; 
+      pro<lb ed="#L" break="no" n="101"/>pter hoc omnia verba, quando dicuntur 
+      secun<lb ed="#L" break="no" n="102"/>dum se, nec enunciant de altero, efficiuntur nomi 
+      <lb ed="#L" n="103"/>na, vt Philosophus dicit ibidem. vnde si dicatur, 
+      <lb ed="#L" n="104"/>esse rosae non est, vel existere rosae est. ibi enim exi 
+      <lb ed="#L" n="105"/>stere, &amp; esse sunt nomina, &amp; exprimunt 
+      conce<lb ed="#L" break="no" n="106"/>ptum quiescentem, &amp; conceptum essentiae; esse 
+      <lb ed="#L" n="107"/>vero, quod affirmatur, vel negatur, significat con 
+      <lb ed="#L" n="108"/>ceptum fluentem, qui differt a conceptu essentiae, 
+      <lb ed="#L" n="109"/>vnde non est verum, quod aliqui negant istam 
+      es<lb ed="#L" break="no" n="110"/>se, rosae est, dicendum est, quod immo vera, &amp; 
+      pro<lb ed="#L" break="no" n="111"/>pria est, pro eo, quod tunc temporis esset est no 
+      <lb ed="#L" n="112"/>men, &amp; importat essentiam; valde enim 
+      facili<lb ed="#L" break="no" n="113"/>ter transit intellectus a conceptu fluentis in con 
+      <lb ed="#L" n="114"/>ceptum quiescentis circa candem rem. relinqui 
+      <lb ed="#L" n="115"/>tur ergo, quod isti duo conceptus habent 
+      habi<lb ed="#L" break="no" n="116"/>tudinem essentiae, &amp; esse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3755">
+                  <lb ed="#L" n="117"/>Completa etiam differentia constituitur inter 
+      con<lb ed="#L" break="no" n="118"/>ceptum essentiae, &amp; esse.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3762">
+                  <lb ed="#L" n="119"/>TERTIA propositio constituitur ex 
+      prae<lb ed="#L" break="no" n="120"/>missis. est enim completa differentia inter 
+      <lb ed="#L" n="121"/>conceptum essentiae, &amp; entis, quod sunt duo con 
+      <lb ed="#L" n="122"/>ceptus eiusdem rei, &amp; sub eadem ratione, 
+      mo<lb ed="#L" break="no" n="123"/>di tamen concipiendi differunt in duobus, vel 
+      <lb ed="#L" n="124"/>tribus. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3778">
+                  <lb ed="#L" n="125"/>Primo quidem, quia conceptus essentiae est 
+      <lb ed="#L" n="126"/>quiescentis, &amp; ociantis ab omni operari: 
+      con<lb ed="#L" break="no" n="127"/>ceptus autem esse, est conceptus rei per modum 
+      <lb ed="#L" n="128"/>operationis, &amp; fluxus, quod illa res sit quaedam 
+      <lb ed="#L" n="129"/>operatio. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3792">
+                  <lb ed="#L" n="130"/>Secundo vero, quia conceptus essentiae abstra 
+      <lb ed="#L" n="131"/>hit ab omni tempore, &amp; duratione, nec diuersatur, 
+      <!--0268.xml-->
+      <pb ed="#L" n="268"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>secundum tempora, cum ipsum non includat: 
+      con<lb ed="#L" break="no" n="2"/>ceptus autem esse est semper cum aliquo tempore, 
+      <lb ed="#L" n="3"/>vel praesenti, vt mens dicit, quod res est, vel 
+      prae<lb ed="#L" break="no" n="4"/>terito, vel futuro, vt cum dicit, quod fuit, vel erit. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3814">
+                  <lb ed="#L" n="5"/>Tertio quoque, quia conceptus essentiae non ve 
+      <lb ed="#L" n="6"/>ridicat rem, excludendo ab ea omnem modum 
+      di<lb ed="#L" break="no" n="7"/>minutum, propter quod essentia est in potentia, 
+      <lb ed="#L" n="8"/>&amp; in intellectu, conceptus autem esse, veridicat 
+      ip<lb ed="#L" break="no" n="9"/>sam rem, excludendo ab ea potentialitatem, &amp; omnem 
+      <lb ed="#L" n="10"/>diminutionem. sic ergo dicendo, Rosa est, vel, Homo 
+      <lb ed="#L" n="11"/>est, ly est, affirmat realitatem rosae, &amp; illud, quod 
+      <lb ed="#L" n="12"/>rosa dicebat diminute, vel saltem non cum 
+      repu<lb ed="#L" break="no" n="13"/>gnantia, ly, est, affirmat, &amp; veridicat, propter quod 
+      <lb ed="#L" n="14"/>dicit Comment. quod ens significat hoc verum: 
+      <lb ed="#L" n="15"/>item non addit rem, aut respectum, aut rationem, 
+      <lb ed="#L" n="16"/>aut aliquid aliud ad rosam, nisi tantum 
+      conce<lb ed="#L" break="no" n="17"/>ptum einsdem rosae, &amp; eiusdem realitatis rosae, 
+      <lb ed="#L" n="18"/>per modum operationis, &amp; effluxus, vt sit 
+      sen<lb ed="#L" break="no" n="19"/>sus, quod rosa, nunc efluit, &amp; egreditur in suam 
+      <lb ed="#L" n="20"/>realitatem, cum dicitur, Rosa est. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3851">
+                  <lb ed="#L" n="21"/>Hic tamen sunt tria dubia. Primum quidem, 
+      <lb ed="#L" n="22"/>cum intellectus sequatur rem, &amp; res rosae sit quie 
+      <lb ed="#L" n="23"/>scens, quomodo intellectus eam concipiat per 
+      <lb ed="#L" n="24"/>modum effluentis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3862">
+                  <lb ed="#L" n="25"/>Secundum vero, cum esse fluens differat ab illo, 
+      <lb ed="#L" n="26"/>a quo fluit, quomodo concipi potest, quod 
+      reali<lb ed="#L" break="no" n="27"/>tas rosae fluat a realitate rosae, dicendo, quod rosa est. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3871">
+                  <lb ed="#L" n="28"/>Tertium quoque, quare intellectus non potest 
+      <lb ed="#L" n="29"/>formare de Antichristo illos duos conceptus, es 
+      <lb ed="#L" n="30"/>se videlicet, &amp; essentia, dicendo, Antichristus est, 
+      <lb ed="#L" n="31"/>cum tamen possit formare conceptum fluentis 
+      <lb ed="#L" n="32"/>a realitate Antichristi. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3884">
+                  <lb ed="#L" n="33"/>Haec siquidem dubia bene declarata 
+      explica<lb ed="#L" break="no" n="34"/>bunt propositum. Vnde dicendum quo ad 
+      pri<lb ed="#L" break="no" n="35"/>mum, quod intellectus multos conceptus format 
+      <lb ed="#L" n="36"/>similitudinarios, manuductus ex 
+      asimilationi<lb ed="#L" break="no" n="37"/>bus repertis in rebus, sicut dicit Comment. quod 
+      <lb ed="#L" n="38"/>intellectus multa intelligit, &amp; multos conceptus 
+      <lb ed="#L" n="39"/>format secundum assimilationem, &amp; 
+      propositio<lb ed="#L" break="no" n="40"/>nem, &amp; quia ex rebus, quaedam sunt permanentes, 
+      <lb ed="#L" n="41"/>quaedam mobiles, &amp; in fluxu, intellectus 
+      assuefa<lb ed="#L" break="no" n="42"/>ctus, de omni re format conceptum fluentem, &amp; 
+      <lb ed="#L" n="43"/>quiescentem, &amp; hanc rationem assignat idem 
+      Com<lb ed="#L" break="no" n="44"/>mentator, dicens, quod omnes intentiones 
+      diui<lb ed="#L" break="no" n="45"/>duntur in habitus quiescentes, &amp; mobiles, quia 
+      <lb ed="#L" n="46"/>vero rerum veritas maxime perpenditur ex 
+      actio<lb ed="#L" break="no" n="47"/>nibus, &amp; motibus, propter hoc primo aspectu res 
+      <lb ed="#L" n="48"/>conceptae in operari concipiuntur, vt perfectae 
+      <lb ed="#L" n="49"/>existentes res, non vt ociosae, quasi non entes. sic 
+      <lb ed="#L" n="50"/>ergo intellectus assuefactus de omni re, format 
+      <lb ed="#L" n="51"/>hos duos conceptus, nec propter hoc falsus est. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3929">
+                  <lb ed="#L" n="52"/>In secundo vero dubitato dicendum est, quod 
+      <lb ed="#L" n="53"/>eadem realitas, vt concepta sub fluxu, &amp; per mo 
+      <lb ed="#L" n="54"/>dum operationis, potest intelligl sluere ab eadem 
+      <lb ed="#L" n="55"/>realitate concepta per modum stantis, &amp; propter 
+      <lb ed="#L" n="56"/>hoc sunt diuersi conceptus, vnde florere 
+      signifi<lb ed="#L" break="no" n="57"/>cat florem per modum operationis. concipiens 
+      <lb ed="#L" n="58"/>ergo hanc rem, vt operationem, potest 
+      apprehen<lb ed="#L" break="no" n="59"/>dere, quod profluat ab eadem re, concepta per 
+      <lb ed="#L" n="60"/>modum stantis, vnde quasi intelligit conceptum 
+      <lb ed="#L" n="61"/>fluere a conceptu, siue rem, vt sic conceptam 
+      flue<lb ed="#L" break="no" n="62"/>re in rem, vt sic conceptam, vtpote florere, 
+      flue<lb ed="#L" break="no" n="63"/>re in florem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3958">
+                  <lb ed="#L" n="64"/>Et per hoc patere potest, quomodo effectus 
+      <lb ed="#L" n="65"/>formalis differt formaliter a forma, non quidem 
+      <lb ed="#L" n="66"/>realiter, sed conceptibiliter tantum. si enim 
+      rea<lb ed="#L" break="no" n="67"/>liter differret, esset effectus efficientis. Per hoc 
+      <!--0268.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>etiam potest patere, quare essentia significatur 
+      <lb ed="#L" n="69"/>per modum actus, &amp; actionis, &amp; effectus. 
+      <lb ed="#L" n="70"/>Est autem intelligendum, quod cum dicitun, 
+      <lb ed="#L" n="71"/>Flos est, &amp;, Flos floret xtrobique concipit intelle 
+      <lb ed="#L" n="72"/>ctus florere, fluere in esse sad determinatum esse 
+      <lb ed="#L" n="73"/>exprimitur per florero.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e3987">
+                  <lb ed="#L" n="74"/>In tertio quoque dubitato dicendum est. quid 
+      <lb ed="#L" n="75"/>de omni re intellecta potest mens formare 
+      sop<lb ed="#L" break="no" n="76"/>ceptum qui escentem, concoptum antem fiueuté 
+      <lb ed="#L" n="77"/>non potest attribuere rei, quamdiu est diminutis 
+      <lb ed="#L" n="78"/>nunc autem res:, vt concepta tantum habet tssesse 
+      <lb ed="#L" n="79"/>diminutum: vt autem posita extra, haber esse 
+      com<lb ed="#L" break="no" n="80"/>pletum, &amp; verum, propter quod non 
+      potestem<lb ed="#L" break="no" n="81"/>cipi, quod flos fluat in florere, nisi res ponatur 
+      <lb ed="#L" n="82"/>extra, immo rem poni extra, nil aliud importat, 
+      <lb ed="#L" n="83"/>quam rem conceptam per modum quiescentis, 
+      <lb ed="#L" n="84"/>fluentis, &amp; exeuntis in esse, hoc est inxonceptum 
+      <lb ed="#L" n="85"/>operationis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4016">
+                  <lb ed="#L" n="86"/>Est enim considerandum, quod existerp estidi, 
+      <lb ed="#L" n="87"/>quod extra se stare. quasi enim res concepta 
+      o<lb ed="#L" break="no" n="88"/>ciose, &amp; per modum quiescentis intra se stat, yt pa 
+      <lb ed="#L" n="89"/>tet de conceptu floris: cum vero concipitur, et 
+      <lb ed="#L" n="90"/>fluens in esse, siue in conceptu operationis, tunc 
+      <lb ed="#L" n="91"/>dicitur exire extra se, &amp; per consequens 
+      existe<lb ed="#L" break="no" n="92"/>re, &amp; esse extra in rerum natura. de re ergo, quae 
+      <lb ed="#L" n="93"/>non est extra, non potest conceptus essentiae 
+      pre<lb ed="#L" break="no" n="94"/>dicari, quamuis possit formari. denotaretur 
+      <lb ed="#L" n="95"/>enim, quod illa res flueret in illum conceptum. 
+      <lb ed="#L" n="96"/>patet ergo, quod rosa non existente, potest conti 
+      <lb ed="#L" n="97"/>pi esse rosae, quia rosa per modum operationis: 
+      <lb ed="#L" n="98"/>etiam potest concipi esse rosae, quia rosa 
+      permo<lb ed="#L" break="no" n="99"/>dum habitus quiescentis, non tamen potest 
+      conci<lb ed="#L" break="no" n="100"/>pi vere, quod rosa sit, quia per hoc denotaretur, 
+      <lb ed="#L" n="101"/>quod rosa flueret extra se in illud operari, &amp; 
+      <lb ed="#L" n="102"/>quod flueret ab ea actu sua real itas, quod non 
+      <lb ed="#L" n="103"/>est verum. &amp; in hoc tertius Articulus terminatur 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c83178-Dd1e4059">
+               <head xml:id="ol96b1-c83178-Hd1e4061">Articulus 4</head>
+               <p xml:id="ol96b1-c83178-d1e4063">
+                  <lb ed="#L" n="104"/>ARTJCVLVS QVARTVS. 
+      <lb ed="#L" n="105"/>Quomodo se habeant essentia, &amp; esse in Deo. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4070">
+      
+      opi<lb ed="#L" break="no" n="106"/>nio S. Thomae prima parte quaestione 
+      <lb ed="#L" n="107"/>tertia art. quarto. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4077">
+                  <lb ed="#L" n="108"/>CIRCA quartum autem considerandum 
+      <lb ed="#L" n="109"/>quod aliqui dicere voluerunt, quod solus 
+      <lb ed="#L" n="110"/>Deus dicitur vere esse, quia est totum osse 
+      subfi<lb ed="#L" break="no" n="111"/>stens. in omni enim creatura est esse 
+      determi<lb ed="#L" break="no" n="112"/>natum, &amp; limitatum per essentiam, in qua 
+      reci<lb ed="#L" break="no" n="113"/>pitur, &amp; idcirco in omni creato, nomen 
+      impo<lb ed="#L" break="no" n="114"/>nitur rei a sua quidditate determinata, vt 
+      pa<lb ed="#L" break="no" n="115"/>tet, quod homo dicitur ab humanitate, 
+      quia<lb ed="#L" break="no" n="116"/>vero in Deo esse, non recipitur in essentia, sed 
+      <lb ed="#L" n="117"/>est purum esse, nomen entis sibi proprie 
+      compe<lb ed="#L" break="no" n="118"/>tit, quod imponitur ab actu essendi. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4103">
+                  <lb ed="#L" n="119"/>Sed haec opinio stare non potest: tum quia con 
+      <lb ed="#L" n="120"/>ceptus esse, subsistere non potest, sicut 
+      conce<lb ed="#L" break="no" n="121"/>ptus entis, cum sit omnia implicite, &amp; nil 
+      expli<lb ed="#L" break="no" n="122"/>cite, vt supra dictum fuit; tum quia nec in 
+      crea<lb ed="#L" break="no" n="123"/>tura esse recipitur in essentia, cum sint penitus 
+      <lb ed="#L" n="124"/>eadem secundum rem, &amp; secundum rationem: 
+      <lb ed="#L" n="125"/>tum quia nec esse determinatur per essentiam, 
+      <lb ed="#L" n="126"/>nisi secundum rationem tantum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4124">
+                  <lb ed="#L" n="127"/>Opinio quorundam aliorum.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4129">
+                  <lb ed="#L" n="128"/>ET ideo dixerunt alij, quod essentia est 
+      quae<lb ed="#L" break="no" n="129"/>dam naturalis proprietas Dei, quia est ne- 
+      <!--0269.xml-->
+      <pb ed="#L" n="269"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cesse esse, cui non admiscetur potentia ad non es 
+      <lb ed="#L" n="2"/>se, sicut admiscetur in creaturis, &amp; intelligunt, 
+      <lb ed="#L" n="3"/>quod Deus non dicit totam entitatem, sed quan 
+      <lb ed="#L" n="4"/>dam quidditatem, &amp; naturam determinatam, 
+      <lb ed="#L" n="5"/>quae importatur per Deitatem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4153">
+                  <lb ed="#L" n="6"/>Sed hic modus dicendi deficit in duobus. 
+      pri<lb ed="#L" break="no" n="7"/>mo quidem, quia imaginantur Deitatem non es 
+      <lb ed="#L" n="8"/>se totam entitatem eminenter, cuius oppositum 
+      <lb ed="#L" n="9"/>supra probatum est. Secundo vero, quod 
+      imagi<lb ed="#L" break="no" n="10"/>nantur esse, vt quandam proprietatem Diuinae 
+      <lb ed="#L" n="11"/>essentiae, quod esse non potest etiam in creaturis, 
+      <lb ed="#L" n="12"/>cum omnis proprietas sit aliud secundum rem, 
+      <lb ed="#L" n="13"/>aut saltem alia ratio a suo subiecto. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4173">
+                  <lb ed="#L" n="14"/>Quid dicendum circa hoc. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4178">
+                  <lb ed="#L" n="15"/>ET ideo dicendum, quod videtur sub tribus 
+      <lb ed="#L" n="16"/>propositionibus. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4185">
+                  <lb ed="#L" n="17"/>Prima quidem, quod esse differat ab essentia 
+      <lb ed="#L" n="18"/>conceptibiliter in Deo. quaecumque enim res po 
+      <lb ed="#L" n="19"/>test concipi per modum habitus quiescentis, &amp; 
+      <lb ed="#L" n="20"/>ociantis ab operatione, &amp; iterum per modum 
+      <lb ed="#L" n="21"/>operationis, &amp; effectus fluentis, talis inquam res 
+      <lb ed="#L" n="22"/>concipi potest modo essentiae, &amp; modo esse, &amp;per 
+      <lb ed="#L" n="23"/>consequens differt in ea conceptus essentiae, &amp; es 
+      <lb ed="#L" n="24"/>se, hoc patet ex praedictis, sed res Diuinitatis cō 
+      <lb ed="#L" n="25"/>cipitur per modum habitus, &amp; quietis, vt cum 
+      <lb ed="#L" n="26"/>dicitur, Deus, &amp; per modum operationis, &amp; 
+      a<lb ed="#L" break="no" n="27"/>ctus, cum dicitur Deus actualissimus est. sic ergo 
+      <lb ed="#L" n="28"/>potest concipi per modum essentiae, &amp; per 
+      mo<lb ed="#L" break="no" n="29"/>dum esse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4217">
+                  <lb ed="#L" n="30"/>Praeterea: Si aliquis istorum conceptuum sibi 
+      <lb ed="#L" n="31"/>repugnaret, maxime repugnaret sibi conceptus 
+      <lb ed="#L" n="32"/>essentiae. quoniam ille videtur importare imper. 
+      <lb ed="#L" n="33"/>fectionem, videlicet rationem habitus, &amp; ocij, 
+      <lb ed="#L" n="34"/>sed ille sibi non repugnat, quod patet ex hoc, quod 
+      <lb ed="#L" n="35"/>nominaliter Deus significatur: non posset autem 
+      <lb ed="#L" n="36"/>nisi conciperetur vt habitus modo quietis, &amp; 
+      <lb ed="#L" n="37"/>patet etiam, quia essentia non dicit rationem 
+      <lb ed="#L" n="38"/>imperfectam, cum esse, &amp; essentia sint eadem 
+      <lb ed="#L" n="39"/>res, &amp; eadem ratio penitus; dicit autem modum 
+      <lb ed="#L" n="40"/>concipiendi rem, aut rationem illam 
+      imperfe<lb ed="#L" break="no" n="41"/>ctam, ita vt imperfectio non sit in Deo, nec 
+      se<lb ed="#L" break="no" n="42"/>cundum rem, nec secundum rationem, sed in mo 
+      <lb ed="#L" n="43"/>do concipiendi nostro: non repugnat autem 
+      <lb ed="#L" n="44"/>Deo, quod a nobis imperfecte concipiatur, immo 
+      <lb ed="#L" n="45"/>summe competit sibi. ergo conceptus essentiae 
+      <lb ed="#L" n="46"/>non repugnat sibi.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4256">
+                  <lb ed="#L" n="47"/>Praeterea: Quidquid continetur sub conceptu. 
+      <lb ed="#L" n="48"/>entis, continetur sub conceptu esse. &amp; per 
+      con<lb ed="#L" break="no" n="49"/>sequens potest formari de eo conceptus essentie, 
+      <lb ed="#L" n="50"/>&amp; conceptus existentiae actualis, &amp; esse. dictum est 
+      <lb ed="#L" n="51"/>enim supra, quod ens, &amp; esse, important 
+      conce<lb ed="#L" break="no" n="52"/>ptum confusissimum: ens quidem per modum stan 
+      <lb ed="#L" n="53"/>tis, esse vero per modum fluentis, sed constat, 
+      <lb ed="#L" n="54"/>quod Deus continetur sub ente, vt supra dictum 
+      <lb ed="#L" n="55"/>fuit. ergo continetur sub esse; &amp; per consequens 
+      <lb ed="#L" n="56"/>competit sibi conceptus essentiae, &amp; esse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4280">
+                  <lb ed="#L" n="57"/>Secunda vero propositio est, quod conceptus esse 
+      <lb ed="#L" n="58"/>non est accidentalis conceptui essentiae in Deo; 
+      <lb ed="#L" n="59"/>sed est in creaturis accidentalis. sicut enim de 
+      <lb ed="#L" n="60"/>ratione accidentis realis est adesse, &amp; abesse 
+      prae<lb ed="#L" break="no" n="61"/>ter subiecti corruptionem, vt Porphyrius dicit, 
+      <lb ed="#L" n="62"/>sic de accidentali conceptu, hoc est, quod possit 
+      <lb ed="#L" n="63"/>adesse, &amp; abesse praeter conceptus corruptionem, 
+      <lb ed="#L" n="64"/>sed modo sic est, quod quandoque Deus concipi- 
+      <!--0269.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>tur modo habitus. semper enim potest concipi 
+      <lb ed="#L" n="66"/>per modum effluentis in esse, &amp; in actum primum, 
+      <lb ed="#L" n="67"/>qui est effluere in actum realitatis. numquam enim 
+      <lb ed="#L" n="68"/>Deo repugnat ille secundus conceptus, immo 
+      <lb ed="#L" n="69"/>semper competit, &amp; immutabiliter, ac de 
+      neces<lb ed="#L" break="no" n="70"/>sitate. ergo conceptui essentiae non accidit 
+      con<lb ed="#L" break="no" n="71"/>ceptus esse, per oppositum autem in creatura non 
+      <lb ed="#L" n="72"/>semper potest attribui conceptus per modum 
+      flu<lb ed="#L" break="no" n="73"/>xus conceptui quiescenti: non enim potest quan 
+      <lb ed="#L" n="74"/>diu res habere esse tantum in anima, nec vmquam 
+      <lb ed="#L" n="75"/>potest, donec actio producentis transierit super 
+      <lb ed="#L" n="76"/>creaturam, &amp; quamdiu creaturae non sunt nihil, 
+      <lb ed="#L" n="77"/>&amp; ita patet, quod conceptui essentiae adest, &amp; 
+      ab<lb ed="#L" break="no" n="78"/>est, &amp; accidit conceptus esse in creatura, non au 
+      <lb ed="#L" n="79"/>tem in Deo. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4337">
+                  <lb ed="#L" n="80"/>Praeterea: Conceptus esse includit durationem 
+      <lb ed="#L" n="81"/>praesentem, praeteritam, vel futuram; haec autem 
+      <lb ed="#L" n="82"/>duratio accidens est in creatura, in Deo vero nul 
+      <lb ed="#L" n="83"/>lo modo est accidens. ergo conceptus esse non 
+      <lb ed="#L" n="84"/>est accidentalis in Deo. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4350">
+                  <lb ed="#L" n="85"/>Tertia quoque propositio est, quod isti duo 
+      con<lb ed="#L" break="no" n="86"/>ceptus compositionem non faciunt, nec in Deo, 
+      <lb ed="#L" n="87"/>nec in creatura. conceptus namque disparati, qui 
+      <lb ed="#L" n="88"/>non differunt, penes aliquod conceptibile, sed 
+      pe<lb ed="#L" break="no" n="89"/>nes modos concipiendi, nullo modo adinuicem 
+      <lb ed="#L" n="90"/>componuntur, sicut patet, quod conceptus 
+      defi<lb ed="#L" break="no" n="91"/>nientis, &amp; definiti compositionem non faciunt, 
+      <lb ed="#L" n="92"/>nec conceptus clarus, &amp; obscurus, cuius ratio est, 
+      <lb ed="#L" n="93"/>quia vbi est compositio, oportet, quod ratio 
+      ad<lb ed="#L" break="no" n="94"/>datur rationi, si sit secundum rationem composi 
+      <lb ed="#L" n="95"/>tio illa, vel quod res addatur rei, si sit realis com 
+      <lb ed="#L" n="96"/>positio, sed conceptus esse, &amp; essentiae sunt 
+      dispa<lb ed="#L" break="no" n="97"/>rati de eodem conceptibili; idem namque 
+      peni<lb ed="#L" break="no" n="98"/>tus conceptus per modum habitus dicitur essen 
+      <lb ed="#L" n="99"/>tia, per modum autem actionis, &amp; actus dicitur 
+      <lb ed="#L" n="100"/>esse, vt saepe dictum est. ergo essentia, &amp; esse 
+      com<lb ed="#L" break="no" n="101"/>positionem non faciunt, nec in Deo, nec in creatura 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4389">
+                  <lb ed="#L" n="102"/>Praeterea: Vbicumque est compositio conceptuum 
+      <lb ed="#L" n="103"/>alter praedicatur de altero per modum 
+      informan<lb ed="#L" break="no" n="104"/>tis, vt patet, quod animal qualificatur per 
+      ratio<lb ed="#L" break="no" n="105"/>nale, &amp; genus per diferentiam, sed constat, quod 
+      <lb ed="#L" n="106"/>esse fluit ab essentia conceptibiliter, nec conceptus 
+      <lb ed="#L" n="107"/>fluens informat quiescentem, sed egreditur ab eo, 
+      <lb ed="#L" n="108"/>vt supra dictum est. ergo illud, quod prius. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4408">
+                  <lb ed="#L" n="109"/>Ex praedictis itaque patet, ad quaestionem, dum 
+      <lb ed="#L" n="110"/>dubitatur, an in omni alio citra Deum differat 
+      <lb ed="#L" n="111"/>esse ab essentia, dicendum namque, quod in omni 
+      <lb ed="#L" n="112"/>alio differt conceptibiliter conceptu separabili, 
+      <lb ed="#L" n="113"/>possibili adesse, &amp; abesse, &amp; affirmari, &amp; negari, 
+      <lb ed="#L" n="114"/>&amp; per consequens conceptu accidentali, ita vt 
+      <lb ed="#L" n="115"/>sit verum, quod esse accidit essentiae in omni crea 
+      <lb ed="#L" n="116"/>to, nec praedicatur de eo per se, immo per 
+      acci<lb ed="#L" break="no" n="117"/>dens, &amp; contingenter. In Deo autem sic differt 
+      <lb ed="#L" n="118"/>conceptibiliter, quod praedicatur per se, nec est 
+      <lb ed="#L" n="119"/>conceptus separabilis, aut accidentalis, nec 
+      ta<lb ed="#L" break="no" n="120"/>men propter hoc in creatura differt realiter 
+      es<lb ed="#L" break="no" n="121"/>sentia, aut ratione ab esse, sed per modum conci 
+      <lb ed="#L" n="122"/>piendi, patet etiam, quomodo nomen entis, &amp; es 
+      <lb ed="#L" n="123"/>se antonomastice, &amp; quasi simpliciter competit 
+      <lb ed="#L" n="124"/>Deo. est enim tota entitas subsistens, &amp; totum 
+      <lb ed="#L" n="125"/>esse subsistens eminenter, sicut supra dictum est 
+      <lb ed="#L" n="126"/>in quaestione de vnitate Dei: omne autem aliud 
+      <lb ed="#L" n="127"/>ens est quaedam portio entitatis, &amp; quaedam por 
+      <lb ed="#L" n="128"/>tio esse, propter quod solus Deus est proprie ens 
+      <lb ed="#L" n="129"/>&amp; esse; alia vero diminute sicut ponitur 
+      exem<lb ed="#L" break="no" n="130"/>plum de toto conceptu caloris simpliciter, qui 
+      <lb ed="#L" n="131"/>si subsisteret in rerum natura, omnis alius calor 
+      <!--0270.xml-->
+      <pb ed="#L" n="270"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>particularis diceretur quidam calor, &amp; quoddam 
+      <lb ed="#L" n="2"/>calere, ille appellaretur simpliciter calor, &amp; 
+      to<lb ed="#L" break="no" n="3"/>tum calere. consimiliter ergo Deus est 
+      proprie<lb ed="#L" break="no" n="4"/>ens, &amp; simpliciter, &amp; est ipsum esse totale, 
+      pro<lb ed="#L" break="no" n="5"/>pter quod dicit Moysi seruo suo: Ego sum, qui sum, 
+      <lb ed="#L" n="6"/>&amp; qui est misit me ad vos. &amp; hic est finis quaest. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4480">
+                  <lb ed="#L" n="7"/>Responsio ad obiecta primo. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4485">
+                  <lb ed="#L" n="8"/>AD ea vero, quae superius primitus inducun 
+      <lb ed="#L" n="9"/>tur, dicendum est. Ad primum quidem, 
+      <lb ed="#L" n="10"/>quod sancti, &amp; Philosophi verum dicunt, quod 
+      <lb ed="#L" n="11"/>in omni creato, esse accidit essentiae. est enim 
+      <lb ed="#L" n="12"/>conceptus accidentalis, nec propter hoc intelle 
+      <lb ed="#L" n="13"/>xerunt, quod esse sit alia res ab essentia: nam 
+      ac<lb ed="#L" break="no" n="14"/>ciden talitas saluari potest ex sola differentia cō 
+      <lb ed="#L" n="15"/>ceptuum: forte tamen Auicenna istius 
+      opinio<lb ed="#L" break="no" n="16"/>nis fuit, &amp; deceptus fuit, sicut Commentator 
+      di<lb ed="#L" break="no" n="17"/>cit decimo Metaphysicae, pro eo, quod non 
+      <lb ed="#L" n="18"/>aduertit, quod esse, quod est accidens, 
+      signi<lb ed="#L" break="no" n="19"/>ficat verum, siue affirmationem, &amp; ideo non po 
+      <lb ed="#L" n="20"/>test esse, nisi conceptus accidentalis, cum 
+      affir<lb ed="#L" break="no" n="21"/>matio rei, aut veritas non addat aliquid reale 
+      <lb ed="#L" n="22"/>ad ipsam; forte etiam Boetius fuit istius 
+      inten<lb ed="#L" break="no" n="23"/>tionis, vel potest dici, quod illud, quod est, est 
+      <lb ed="#L" n="24"/>diuersum ab esse, &amp; accipit formam essendi 
+      se<lb ed="#L" break="no" n="25"/>cundum modum intelligendi. non enim essentiae 
+      <lb ed="#L" n="26"/>creaturae potest attribui conceptus importatus 
+      <lb ed="#L" n="27"/>per esse, nisi quatenus est producta, non 
+      intelli<lb ed="#L" break="no" n="28"/>git autem diuersitatem, aut acceptionem realem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4533">
+                  <lb ed="#L" n="29"/>Ad secundum dicendum, quod esse fluit ab es 
+      <lb ed="#L" n="30"/>sentia conceptibiliter, non realiter, sicut dictum 
+      <lb ed="#L" n="31"/>est in corpore quaestionis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4542">
+                  <lb ed="#L" n="32"/>Ad tertium dicendum, quod non est verum, 
+      <lb ed="#L" n="33"/>quin aliqua sint idem realiter, &amp; tamen 
+      opposi<lb ed="#L" break="no" n="34"/>tum vnius praedicetur de altero, dum tamen con 
+      <lb ed="#L" n="35"/>ceptibiliter distinguantur, conceptu quidem pos 
+      <lb ed="#L" n="36"/>sibili adesse, &amp; abesse. sic autem est de re 
+      conce<lb ed="#L" break="no" n="37"/>pta per modum fluxus, &amp; actus, &amp; operationis, 
+      <lb ed="#L" n="38"/>quod est concipere rem, vt extra existentem in 
+      <lb ed="#L" n="39"/>rerum natura, ille quidem conceptus non semper 
+      <lb ed="#L" n="40"/>concomitaretur rem conceptam modo 
+      quiescen<lb ed="#L" break="no" n="41"/>tis, res quidem, quae nil sunt, concipi possunt mo 
+      <lb ed="#L" n="42"/>do quiescentis, vt patet de luce ad calorem, cum 
+      <lb ed="#L" n="43"/>autem nihil sunt, non potest cis attribui 
+      conce<lb ed="#L" break="no" n="44"/>ptus actus, &amp; operationis, puta lucere, &amp; calere 
+      <lb ed="#L" n="45"/>lux nempe non lucet, cum nihil est, &amp; tamen per 
+      <lb ed="#L" n="46"/>modum lucis conceptibilis est. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4577">
+                  <lb ed="#L" n="47"/>Et si dicatur, quod aliquid videtur esse 
+      addi<lb ed="#L" break="no" n="48"/>tum ex parte rei per existentiam; ex quo autem 
+      <lb ed="#L" n="49"/>non poterat formari conceptus rei per modum 
+      <lb ed="#L" n="50"/>actionis, &amp; fluxus, postea vero potest: dicendum 
+      <lb ed="#L" n="51"/>quidem, quod vtique nihil est additum ex parte 
+      <lb ed="#L" n="52"/>rei, quinimmo tota eius realitas facta est, quae 
+      <lb ed="#L" n="53"/>quidem realitas posita in rerum natura, vna, &amp; 
+      <lb ed="#L" n="54"/>eadem est, de qua possunt duo conceptus 
+      forma<lb ed="#L" break="no" n="55"/>ri, vnus quidem per modum habitus, &amp; quasi 
+      o<lb ed="#L" break="no" n="56"/>ciantis, alius vero per modum actus, &amp; 
+      operatio<lb ed="#L" break="no" n="57"/>nis fluentis: istorum autem conceptuum primus 
+      <lb ed="#L" n="58"/>remanet, tota re destructa, &amp; adnihilata 
+      simpli<lb ed="#L" break="no" n="59"/>citer, secundus vero non manet, nisi quin 
+      qui<lb ed="#L" break="no" n="60"/>libet dicat totam rem, sed quia secundus dicit 
+      <lb ed="#L" n="61"/>eam modo perfecto, &amp; vltimato, cui repugnat 
+      <lb ed="#L" n="62"/>omnis diminutio, &amp; quia re adnihilata non est, 
+      <lb ed="#L" n="63"/>nisi diminute, puta in intellectu, necesse est, vt 
+      <lb ed="#L" n="64"/>sibi repugnet attributio conceptus fluentis.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4620">
+                  <lb ed="#L" n="65"/>Ad quartum dicendum, quod essentia non 
+      <!--0270.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>participat esse realiter, sed conceptibiliter 
+      tan<lb ed="#L" break="no" n="67"/>tum, inquantum conceptus esse, non semper con 
+      <lb ed="#L" n="68"/>comitatur eam in rebus causabilibus, &amp; quae pos 
+      <lb ed="#L" n="69"/>sunt adnihilari: illis namque adnihilatis, etsi 
+      re<lb ed="#L" break="no" n="70"/>maneat conceptus essentiae formalis in mente, 
+      <lb ed="#L" n="71"/>attribui tamen non potest conceptus 
+      operatio<lb ed="#L" break="no" n="72"/>nis, &amp; esse: propter quod talia dicuntur 
+      par<lb ed="#L" break="no" n="73"/>ticipare esse, quia habent aliunde suam 
+      realita<lb ed="#L" break="no" n="74"/>tem, qua habita, attribui potest eis praedictus 
+      <lb ed="#L" n="75"/>conceptus; essentiam autem non dicuntur 
+      par<lb ed="#L" break="no" n="76"/>ticipare, quia concipi possunt per modum 
+      quie<lb ed="#L" break="no" n="77"/>scentis essentiae, etiam dum sunt nihil; vnde non 
+      <lb ed="#L" n="78"/>habent ab alio, quod concipiantur per modum 
+      <lb ed="#L" n="79"/>essentiae, habent tamen ab alio, quo circa ipsa 
+      <lb ed="#L" n="80"/>concipiatur fluxus, &amp; esse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4662">
+                  <lb ed="#L" n="81"/>Ad quintum dicendum, quod propositio haec, 
+      <lb ed="#L" n="82"/>Rosa est, vel fuit, vel erit, est in materia 
+      contin<lb ed="#L" break="no" n="83"/>genti, nec propter hoc differunt realiter, sed 
+      suf<lb ed="#L" break="no" n="84"/>ficit distinctio conceptus possibilis adesse, &amp; 
+      <lb ed="#L" n="85"/>abesse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4675">
+                  <lb ed="#L" n="86"/>Ad sextum dicendum, quod creatura non 
+      di<lb ed="#L" break="no" n="87"/>citur purum esse, pro eo quod est in potentia ad 
+      <lb ed="#L" n="88"/>non esse, inquantum conceptus habitus, &amp; 
+      quie<lb ed="#L" break="no" n="89"/>tis separari potest ab esse, videlicet a conceptu 
+      <lb ed="#L" n="90"/>entis fluentis, &amp; quod additur, quod adnihilari 
+      <lb ed="#L" n="91"/>non poterit, dicendum, quod ista difficultas non 
+      <lb ed="#L" n="92"/>est de conceptu importato per esse, sed de 
+      reali<lb ed="#L" break="no" n="93"/>tate, super quam fundatur vtique conceptus: dif 
+      <lb ed="#L" n="94"/>ficile namque est videre, quomodo illa realitas 
+      <lb ed="#L" n="95"/>possit redire in nihil, vel fieri de nihilo, sed de 
+      <lb ed="#L" n="96"/>hoc est sermo in secundo: quod autem non sit 
+      diffi<lb ed="#L" break="no" n="97"/>cultas quoad esse, immo quoad essentiam, patet, 
+      <lb ed="#L" n="98"/>quod tamen essentia res sit, &amp; res alia secundum 
+      <lb ed="#L" n="99"/>sic ponentes, aequalis difficultas est, quomodo 
+      <lb ed="#L" n="100"/>illa redeat in nihil, cum omni rei nihil 
+      con<lb ed="#L" break="no" n="101"/>tradictorie opponatur. Vnum autem 
+      contra<lb ed="#L" break="no" n="102"/>dictorium in aliud conuerti non potest, sicut 
+      <lb ed="#L" n="103"/>nec contrarium, vnde nec albedo vertitur in 
+      <lb ed="#L" n="104"/>nigredinem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4719">
+                  <lb ed="#L" n="105"/>Ad septimum dicendum, quod formae 
+      abstra<lb ed="#L" break="no" n="106"/>ctae non adaequabunt Diuinam simplicitatem, da 
+      <lb ed="#L" n="107"/>to, quod in eis non differant realiter essentia, &amp; 
+      <lb ed="#L" n="108"/>esse; tum quia in eis non est compositio ex 
+      ali<lb ed="#L" break="no" n="109"/>quo possibili in genere intelligibilium, vt 
+      Com<lb ed="#L" break="no" n="110"/>mentator dicit in tertio de anima: tum quia eis 
+      <lb ed="#L" n="111"/>possunt componi actus, &amp; operationes, quae sunt 
+      <lb ed="#L" n="112"/>in eis ad communia saltem, quantum ad ea, quae 
+      <lb ed="#L" n="113"/>intelliguntur extra se, vt superius dictum fuit: 
+      <lb ed="#L" n="114"/>tum quia simplicitas in eis diminuitur a Diuina 
+      <lb ed="#L" n="115"/>simplicitate, propter hoc, quod esse earum est 
+      <lb ed="#L" n="116"/>diminutum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4748">
+                  <lb ed="#L" n="117"/>Ad octauum dicendum, quod esse est indifferens 
+      <lb ed="#L" n="118"/>ad esse, &amp; non esse, siue vt sit, &amp; non sit, non quidem 
+      <lb ed="#L" n="119"/>per modum substrati, &amp; realiter, sed per modum 
+      <lb ed="#L" n="120"/>operantis secundum rationem. omne namque 
+      <lb ed="#L" n="121"/>principium operationis, potest concipi, vt 
+      ope<lb ed="#L" break="no" n="122"/>rans, &amp; vt non operans: nunc autem res 
+      conce<lb ed="#L" break="no" n="123"/>pta per modum stantis est principium actionis 
+      <lb ed="#L" n="124"/>primae, quae importatur per verba neutra, &amp; 
+      in<lb ed="#L" break="no" n="125"/>transitiua, vt per florem, florere, lucem, lucere. 
+      <lb ed="#L" n="126"/>potest ergo concipi flos, vt actu operans, &amp; in flo 
+      <lb ed="#L" n="127"/>rere fluens, &amp; sic intelligitur esse, vel vt non 
+      ope<lb ed="#L" break="no" n="128"/>rans, nec in florere fluens, &amp; sic intelligitur sub 
+      <lb ed="#L" n="129"/>non esse, &amp; eo modo intelligendum est 
+      generali<lb ed="#L" break="no" n="130"/>ter de omni essentia, &amp; esse, quia secundum 
+      An<lb ed="#L" break="no" n="131"/>selmum, quemadmodum sese habent adinuicem 
+      <lb ed="#L" n="132"/>lux, &amp; lucere, &amp; lucens, sic sunt ad se inui- 
+      <!--0271.xml-->
+      <pb ed="#L" n="271"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cem essentia, &amp; esse, &amp; ens. non propter hoc er 
+      <lb ed="#L" n="2"/>go oportet essentiam, &amp; esse realiter distingui, 
+      <lb ed="#L" n="3"/>cum operatio non sit secundum rem, sed iuxta 
+      <lb ed="#L" n="4"/>modum intelligendi, &amp; ideo sufficit inter 
+      ope<lb ed="#L" break="no" n="5"/>rantem, &amp; operationem, esse differentiam 
+      secun<lb ed="#L" break="no" n="6"/>dum diuersum modum intelligendi eandem rem. 
+      <lb ed="#L" n="7"/>Quod vero additur essentiam diuidi per actum, 
+      <lb ed="#L" n="8"/>&amp; potentiam, dicendum similiter, quod est 
+      di<lb ed="#L" break="no" n="9"/>uisio, qua operans diuiditur in operari actu, &amp; 
+      <lb ed="#L" n="10"/>posse operari; vnde non est diuisio subiecti in 
+      ac<lb ed="#L" break="no" n="11"/>cidentia perficientia ipsum.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4816">
+                  <lb ed="#L" n="12"/>Et si dicatur, quod essentia perficitur per 
+      es<lb ed="#L" break="no" n="13"/>se, &amp; videtur actuari, &amp; subiici ipsi esse 
+      secun<lb ed="#L" break="no" n="14"/>dum nostrum modum intelligendi, dicendum 
+      <lb ed="#L" n="15"/>est, quod si accipiatur esse per modum 
+      perficien<lb ed="#L" break="no" n="16"/>tis, &amp; actuantis, sicut operatio actuat, &amp; 
+      perfi<lb ed="#L" break="no" n="17"/>cit, sic verum est, quod esse perficit essentiam. Si 
+      <lb ed="#L" n="18"/>vero intelligatur perficere, sicut forma quiescens 
+      <lb ed="#L" n="19"/>perficit substratum, iam non concipitur, vt 
+      essen<lb ed="#L" break="no" n="20"/>tia, cum conceptus esse sit per modum actionis 
+      <lb ed="#L" n="21"/>primae, &amp; cuiusdam operari, vnde patet, quod 
+      <lb ed="#L" n="22"/>cum dicitur, lux lucet, vel rosa est, ly, lucet, &amp; ly 
+      <lb ed="#L" n="23"/>est, non respiciunt lucem, &amp; rosam, per modum 
+      <lb ed="#L" n="24"/>substrati, sed magis per modum principij, a quo 
+      <lb ed="#L" n="25"/>profluunt. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4850">
+                  <lb ed="#L" n="26"/>Et si quaeratur vlterius de huiusmodi 
+      opera<lb ed="#L" break="no" n="27"/>tione, quae importatur per esse, vtrum 
+      intelligi<lb ed="#L" break="no" n="28"/>tur, vt inhaerens, aut per se stans: dicendum, quod, 
+      <lb ed="#L" n="29"/>vt per se stans, &amp; ideo dicit Grammaticus, quod 
+      <lb ed="#L" n="30"/>sum, &amp; fui, est verbum substantiuum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4863">
+                  <lb ed="#L" n="31"/>Ad nonum dicendum, quod creatio terminatur 
+      secun<lb ed="#L" break="no" n="32"/>dum veritatem ad realitatem creaturae, de qua intelle 
+      <lb ed="#L" n="33"/>ctus format conceptum essentiae, &amp; esse. cum ergo 
+      <lb ed="#L" n="34"/>illam realitatem comparat intellectus ad creationem in 
+      <lb ed="#L" n="35"/>ratione termini, concipit illam, vt actu existentem, 
+      <lb ed="#L" n="36"/>quoniam concipit eam, vt est in actione prima, 
+      <lb ed="#L" n="37"/>pro eo, quod realitas concepta, vt non operans 
+      <lb ed="#L" n="38"/>non oportet, quod sit producta. realitate namque 
+      <lb ed="#L" n="39"/>existente, nihil vt supra dictum est potest 
+      conci<lb ed="#L" break="no" n="40"/>pi, vt non operans: sed impossibile est, quod con 
+      <lb ed="#L" n="41"/>cipiatur, vt operans, &amp; sit nihil propter quod 
+      <lb ed="#L" n="42"/>actio prima profluens a re, dicitur tollere nihil 
+      <lb ed="#L" n="43"/>ab ea, &amp; affirmare suam realitatem. haec est 
+      er<lb ed="#L" break="no" n="44"/>go causa, quare intellectus concipit creationem 
+      <lb ed="#L" n="45"/>terminari ad esse, quia terminari ad rem, prout 
+      <lb ed="#L" n="46"/>est res affirmata in sua realitate. 
+      <lb ed="#L" n="47"/>Et si quaeratur, quare intellectus non potest af 
+      <lb ed="#L" n="48"/>firmare rem sub conceptu ociantis ab actione 
+      <lb ed="#L" n="49"/>prima, dicendum, quod hoc est, quia acttio 
+      ar<lb ed="#L" break="no" n="50"/>guit rem, vnde res carentes actione, videntur 
+      es<lb ed="#L" break="no" n="51"/>se nihil, propter quod concipiendo lucem absque 
+      <lb ed="#L" n="52"/>lucere, quae est prima actio eius, intelligitur, vt 
+      <lb ed="#L" n="53"/>non ens, &amp; vt nihil. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4915">
+                  <lb ed="#L" n="54"/>Ad decimum dicendum, quod creatura non 
+      <lb ed="#L" n="55"/>est purum esse, pro eo, quod est in potentia ad 
+      <lb ed="#L" n="56"/>esse, &amp; non esse, non realiter, sed secundum 
+      no<lb ed="#L" break="no" n="57"/>strum modum intelligendi, secundum quem 
+      <lb ed="#L" n="58"/>esse accidit creaturae, &amp; item solus Deus dicitur 
+      <lb ed="#L" n="59"/>purum esse, subsistens, quia est tota entitas, &amp; to 
+      <lb ed="#L" n="60"/>tum esse eminenter existens. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4933">
+                  <lb ed="#L" n="61"/>Ad obiecta secundo. 
+      <lb ed="#L" n="62"/>D ea vero, quae secundario inducuntur, 
+      di<lb ed="#L" break="no" n="63"/>cendum est. Ad primum quidem, quod 
+      es<lb ed="#L" break="no" n="64"/>sentia, etsi habeat exemplar in Deo, non tamen 
+      <lb ed="#L" n="65"/>propter hoc est esse, quod habet respectum ad 
+      <!--0271.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>exemplar: esse namque non est formaliter 
+      essen<lb ed="#L" break="no" n="67"/>tia per respectum, quod patet ex multis. 
+      <lb ed="#L" n="68"/>Primo quidem, quia definitio indicat 
+      essen<lb ed="#L" break="no" n="69"/>tiam, &amp; quid est esse rei; definientes autem esse, 
+      <lb ed="#L" n="70"/>nullam mentionem faciunt de respectu ad exem 
+      <lb ed="#L" n="71"/>plar Diuinum. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4964">
+                  <lb ed="#L" n="72"/>Secundo vero, quia cum sit ignotum exemplar 
+      <lb ed="#L" n="73"/>Diuinum, nullus posset cognoscere pro statu viae, 
+      <lb ed="#L" n="74"/>quae res habent essentiam, &amp; quae non, cum 
+      sci<lb ed="#L" break="no" n="75"/>re non posset, quae habet respectum ad exemplar, 
+      <lb ed="#L" n="76"/>&amp; quae non habet. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4977">
+                  <lb ed="#L" n="77"/>Tertio quoque, quia cognoscere oportet de 
+      <lb ed="#L" n="78"/>definitione explicante essentiam, an sit 
+      impossi<lb ed="#L" break="no" n="79"/>bilis, &amp; includens repugnantiam in suis paatibus, 
+      <lb ed="#L" n="80"/>sicut est de chimera, vel non includat, sicut est de 
+      <lb ed="#L" n="81"/>rosa, hoc siquidem scire prius oportet, antequam 
+      <lb ed="#L" n="82"/>cognoscatur, vtrum habeat exemplar in Deo. 
+      <lb ed="#L" n="83"/>non habent enim res impossibiles idaeam in Deo. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e4996">
+                  <lb ed="#L" n="84"/>Quarto autem patet idem de artibus, sicut 
+      Phi<lb ed="#L" break="no" n="85"/>losophus dicit primo Eth. contra idaeas. nulla 
+      <lb ed="#L" n="86"/>enim est ars considerans essentias, aspicit ad 
+      e<lb ed="#L" break="no" n="87"/>xemplar; vnde dicendum, quod ex hoc 
+      intelle<lb ed="#L" break="no" n="88"/>ctus cognoscit aliqua esse fictitia, &amp; non habere 
+      <lb ed="#L" n="89"/>essentiam, quod in ratione eorum definitiua 
+      re<lb ed="#L" break="no" n="90"/>perit contradictoria implicari, &amp; per oppositum, 
+      <lb ed="#L" n="91"/>cum resoluit aliquam rem in sermone distinctam, 
+      <lb ed="#L" n="92"/>cuius partes compossibiles, nec contradictionem 
+      <lb ed="#L" n="93"/>implicantes, rem illam dicit possibilem, &amp; per con 
+      <lb ed="#L" n="94"/>sequens concipit eam modo essentiae, quia per mo 
+      <lb ed="#L" n="95"/>dum ociantis ab esse, potentis tamen profluere 
+      <lb ed="#L" n="96"/>in esse: quod autem additur de existentiae esse, 
+      <lb ed="#L" n="97"/>quod respectum dicat ad agens, dicendum, quod 
+      <lb ed="#L" n="98"/>non est verum formaliter, propter rationes indu 
+      <lb ed="#L" n="99"/>ctas in corpore quaestionis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5033">
+                  <lb ed="#L" n="100"/>Ad secundum dicendum, quod non est verum, 
+      <lb ed="#L" n="101"/>quin per creationem acquiratur alius respectus, 
+      <lb ed="#L" n="102"/>immo esset erroneum ita tenere. sequeretur enim, 
+      <lb ed="#L" n="103"/>quod res vere non essent creatae, sed essent ab 
+      <lb ed="#L" n="104"/>aeterno. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5046">
+                  <lb ed="#L" n="105"/>Ad tertium dicendum, quod esse in effectu, &amp; 
+      <lb ed="#L" n="106"/>esse existentiae funt idem, ille autem effectus non 
+      <lb ed="#L" n="107"/>importat ad efficiens, sed ad cau sam formalem; 
+      <lb ed="#L" n="108"/>vnde esse propter hoc dicitur effectus, quia 
+      di<lb ed="#L" break="no" n="109"/>cit rem per modum actionis primae, &amp; operationis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5059">
+                  <lb ed="#L" n="110"/>Ad quartum dicendum, quod nomen actus 
+      <lb ed="#L" n="111"/>transumitur ab actu, qui est operatio prima, 
+      vn<lb ed="#L" break="no" n="112"/>de esse importat actionem, &amp; potentiam, 
+      defini<lb ed="#L" break="no" n="113"/>tio dicit quandam operationem, non tamen 
+      o<lb ed="#L" break="no" n="114"/>peratum ab efficiente. sed fluxum ab essentia, eo 
+      <lb ed="#L" n="115"/>modo, quo dictum est saepe. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5075">
+                  <lb ed="#L" n="116"/>Ad quintum dicendum, quod existere dicitur, 
+      <lb ed="#L" n="117"/>quasi extra se sistere, non quidem extra causam 
+      <lb ed="#L" n="118"/>efficientem, sed sicut effectus formalis extra cau 
+      <lb ed="#L" n="119"/>sam formalem. res enim concepta modo formae, 
+      <lb ed="#L" n="120"/>&amp; quietis, quasi est in otio, &amp; intra se; exit 
+      au<lb ed="#L" break="no" n="121"/>tem in ocium, &amp; profuit extra se, dum procedit 
+      <lb ed="#L" n="122"/>in esse, tamquam in primam actionem. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5093">
+                  <lb ed="#L" n="123"/>Et est aduertendum, quod aliqui dicere volue 
+      <lb ed="#L" n="124"/>runt, quod existere, &amp; esse differunt, quod esse 
+      <lb ed="#L" n="125"/>competat rei secundum rationem essentialem; 
+      <lb ed="#L" n="126"/>existere vero secundum rationem accidentalem; 
+      <lb ed="#L" n="127"/>vnde distinguunt duplex esse, esse videlicet essen 
+      <lb ed="#L" n="128"/>tiae, &amp; esse existentiae, quod quidem stare non 
+      po<lb ed="#L" break="no" n="129"/>test, quia esse sumptum per modum actus, &amp; ope 
+      <lb ed="#L" n="130"/>rationis semper denotat idipsum, quod existere. 
+      <lb ed="#L" n="131"/>Cum enim dicitur, Sortes est, vel, Rosa est, 
+      de<lb ed="#L" break="no" n="132"/>notatur, quod existit: existentia vero nominali- 
+      <!--0272.xml-->
+      <pb ed="#L" n="272"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ter sumpta, &amp; per modum habitus, idem est, quod 
+      <lb ed="#L" n="2"/>essentia; vnde rosa est quaedam existentia. sicut 
+      <lb ed="#L" n="3"/>enim rosa est existentia, quia seipsa formaliter 
+      <lb ed="#L" n="4"/>est, sic existentia est, quia seipsa formaliter existit. 
+      <lb ed="#L" n="5"/>Et si quaeratur, vtrum esse existentiae, &amp; esse 
+      <lb ed="#L" n="6"/>essentiae differant. dicitur, quod differunt sicut es 
+      <lb ed="#L" n="7"/>sentia, &amp; esse. esse enim existentiae, non est aliud, 
+      <lb ed="#L" n="8"/>quam aliquid esse essentiae.
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5142">
+                  <lb ed="#L" n="9"/>Ad sextum dicendum, quod poni in rerum 
+      na<lb ed="#L" break="no" n="10"/>tura dicit respectum ad ponentem, non quidem 
+      <lb ed="#L" n="11"/>effectiue, sed formaliter. res enim seipsam ponit 
+      <lb ed="#L" n="12"/>extra se, dum concipitur, vt profluens in esse; 
+      <lb ed="#L" n="13"/>vnde ponit extra se intellectum, &amp; extra ociari, 
+      <lb ed="#L" n="14"/>&amp; in vsu suae realitatis, qui quidem vsus est esse 
+      <lb ed="#L" n="15"/>rei, vnde vsus lucis, est lucere, iuxta illud 
+      Philo<lb ed="#L" break="no" n="16"/>sophi 9. Metaph. quod complementum, &amp; 
+      ope<lb ed="#L" break="no" n="17"/>ratio consistit in vsu cuiullibet rei, vt dicit Com 
+      <lb ed="#L" n="18"/>mentator: quod actus cuiuslibet rei, est vsus suae 
+      <lb ed="#L" n="19"/>realitatis, sicut viuere vsus vitae. quia ergo 
+      om<lb ed="#L" break="no" n="20"/>nis realitas opponitur nihilitati, vsus proprius 
+      <lb ed="#L" n="21"/>cuiuslibet realitatis est poni extra nihil in rerum 
+      <lb ed="#L" n="22"/>natura. quaelibet ergo res inquantum 
+      concipi<lb ed="#L" break="no" n="23"/>tur per modum operationis, &amp; vsus propriae rea 
+      <lb ed="#L" n="24"/>litatis, concipitur, vt extra existens, &amp; seipsam 
+      <lb ed="#L" n="25"/>extra se nihil ponens. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5181">
+                  <lb ed="#L" n="26"/>Ad septimum dicendum, quod in 
+      translatio<lb ed="#L" break="no" n="27"/>ne essentiae de non esse, in esse acquiritur quidem 
+      <lb ed="#L" n="28"/>non aliquod esse absolutum, nec respectus, nec 
+      <lb ed="#L" n="29"/>aliqua ratio, sed res, quae concipitur, vt ocians 
+      <lb ed="#L" n="30"/>a suarealitate, postmodum concipitur, vt 
+      ope<lb ed="#L" break="no" n="31"/>rans, &amp; vtens ea. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5197">
+                  <lb ed="#L" n="32"/>Et si dicatur, quod huiusmodi translatio fit, 
+      <lb ed="#L" n="33"/>circumscripto actu intellectus, &amp; secundum rem, 
+      <lb ed="#L" n="34"/>quia per creationem, dicendum, quod in 
+      crea<lb ed="#L" break="no" n="35"/>tione non est translatio alicuius de potentia ad 
+      <lb ed="#L" n="36"/>actum, cum tota res simpliciter acquiratur, nec 
+      <lb ed="#L" n="37"/>sit aliud, quod sit in potentia scilicet ad eandem 
+      <lb ed="#L" n="38"/>rem. tale enim esset materia. est ergo ibi 
+      poten<lb ed="#L" break="no" n="39"/>tia, &amp; actus scilicet duo modi concipiendi 
+      can<lb ed="#L" break="no" n="40"/>dem rem, vt dictum est saepe. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5219">
+                  <lb ed="#L" n="41"/>Ad obiectta tertio. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5224">
+                  <lb ed="#L" n="42"/>AD ea vero, quae tertio inducuntur, 
+      dicen<lb ed="#L" break="no" n="43"/>A dum est. Ad primum quidem, quod non 
+      <lb ed="#L" n="44"/>est simile de vno ad esse, quoniam vnum non 
+      im<lb ed="#L" break="no" n="45"/>portat negationem, sed connotat eam, vt dictum 
+      <lb ed="#L" n="46"/>est supra, esse vero est vsus, &amp; exercitium 
+      enti<lb ed="#L" break="no" n="47"/>tatis, vnde dicit eandem rem per modum 
+      exer<lb ed="#L" break="no" n="48"/>citij, &amp; actionis, &amp; vsus. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5242">
+                  <lb ed="#L" n="49"/>Ad secundum dicendum, quod res possunt con 
+      <lb ed="#L" n="50"/>siderari, &amp; verae, &amp; bonae, &amp; entes, absque 
+      re<lb ed="#L" break="no" n="51"/>spectu ad Deum, quamuis non habeant ista, nisi 
+      <lb ed="#L" n="52"/>a Deo, nec tamen est simile de vero, &amp; bono: 
+      <lb ed="#L" n="53"/>nam aliter se habent ad essentiam, quam esse. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5256">
+                  <lb ed="#L" n="54"/>Ad tertium dicendum, quod quaestio, si est, non 
+      <lb ed="#L" n="55"/>ponit in numerum nec secundum rem, nec secun 
+      <lb ed="#L" n="56"/>dum conceptum aliam rationem concipientem, 
+      <lb ed="#L" n="57"/>sed secundum duos conceptus de eadem re, diffe 
+      <lb ed="#L" n="58"/>rentes solo modo concipiendi. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5269">
+                  <lb ed="#L" n="59"/>Ad quartum dicendum, quod procedit ex 
+      in<lb ed="#L" break="no" n="60"/>sufficienti. relinquit enim tertium modum 
+      dif<lb ed="#L" break="no" n="61"/>ferentiae, qui nec est realis, nec rationis, sed 
+      al<lb ed="#L" break="no" n="62"/>terius modi concipiendi eandem rem, &amp; rationem. 
+      <lb ed="#L" n="63"/>Et si dicatur, quod conceptus, &amp; ratio idem 
+      <lb ed="#L" n="64"/>sunt, &amp; ita si est alius conceptus, erit alia ratio, 
+      <lb ed="#L" n="65"/>dicendum, quod ratio appellatur illud, quod est 
+      <!--0272.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>conceptibile: nunc autem in conceptu aliquid 
+      <lb ed="#L" n="67"/>includitur vltra illud, quod est conceptibile, 
+      <lb ed="#L" n="68"/>quia modus concipiendi, propter quod possunt 
+      <lb ed="#L" n="69"/>esse diuersi conceptus absque diuersitate 
+      diuer<lb ed="#L" break="no" n="70"/>sae rationis. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5302">
+                  <lb ed="#L" n="71"/>Ad obiecta quarto. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5307">
+                  <lb ed="#L" n="72"/>AD ea vero, quae quarto inducuntur, 
+      dicen<lb ed="#L" break="no" n="73"/>dum est. Ad primum quidem, quod esse, 
+      <lb ed="#L" n="74"/>&amp; essentia non differunt, sicut abstractum, &amp; con 
+      <lb ed="#L" n="75"/>cretum, sed sicut actio, &amp; forma quieta. 
+    </p>
+               <p xml:id="ol96b1-c83178-d1e5318">
+                  <lb ed="#L" n="76"/>Ad secundum dicendum, quod vtique verbum, 
+      <lb ed="#L" n="77"/>&amp; nomen exprimunt differentiam essentiae, &amp; 
+      es<lb ed="#L" break="no" n="78"/>se, non tamen ipsam constituunt, sed ipse 
+      conce<lb ed="#L" break="no" n="79"/>ptus, &amp; ideo male dictum est, quod differant pe 
+      <lb ed="#L" n="80"/>nes modos generales, sed dici debet, quod 
+      dis<lb ed="#L" break="no" n="81"/>ferunt penes modos concipiendi: nam essentia 
+      <lb ed="#L" n="82"/>concipitur, vt res ocians, &amp; forma quieta; esse 
+      <lb ed="#L" n="83"/>vero, vt operatio, &amp; vsus, nomen autem 
+      expri<lb ed="#L" break="no" n="84"/>mit primum, &amp; verbum secundum. &amp; per illud 
+      <lb ed="#L" n="85"/>patet ad tertium, &amp; quartum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

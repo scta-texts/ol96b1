@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="41"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c13061"> <!-- l1prolp4-q1 -->
+            <head xml:id="ol96b1-c13061-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-c13061-Hd1e104" type="question-title">
+        Utrum habitus ex Theologico studio acquisitus sit 
+        unus, vel plures. 
+      </head>
+            <p xml:id="ol96b1-c13061-d1e107">
+               <lb ed="#L" n="88"/>Vtrum habitus ex Theologico studio acquisitus sit 
+      <lb ed="#L" n="89"/>vnus, vel plures.
+    </p>
+            <p xml:id="ol96b1-c13061-d1e114">
+               <lb ed="#L" n="90"/>Et quia Magister hic agit de vnitate sui 
+      bre<lb ed="#L" break="no" n="91"/>uis voluminis, tot materias, &amp; tor paprum sen 
+      <lb ed="#L" n="92"/>tentias complicantis; ideo inquirendum 
+      occur<lb ed="#L" break="no" n="93"/>rit, Vtrum habitus ex Theologico studio 
+      acqui<lb ed="#L" break="no" n="94"/>situs sit vnus, vel plures. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e128">
+               <lb ed="#L" n="95"/>Quod Theologia sit vnus habitus ex ratione 
+      ge<lb ed="#L" break="no" n="96"/>nerali habitus cuiuscunque. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e135">
+               <lb ed="#L" n="97"/>ET videtur, quod sit vnus in generali ratione 
+      <lb ed="#L" n="98"/>cuiuslibet habitus in anima existentis: omnis 
+      <lb ed="#L" n="99"/>enim forma existens in anima, in simplici, &amp; 
+      in<lb ed="#L" break="no" n="100"/>diuisibili essentia consistit. non enim componitur 
+      <lb ed="#L" n="101"/>ex partibus essentialibus, quae sunt materia, &amp; for 
+      <lb ed="#L" n="102"/>ma, cum accidens sit simplex forma: sed nec 
+      com<lb ed="#L" break="no" n="103"/>ponitur ex partibus quantitatiuis, cum acciden 
+      <lb ed="#L" n="104"/>tia animae sint pure spiritualia, nec quanta, nec 
+      <lb ed="#L" n="105"/>ex partibus potentialibus, vt de se patet, sed 
+      ha<lb ed="#L" break="no" n="106"/>bitus Theologicus est forma in anima existens: 
+      <lb ed="#L" n="107"/>ergo vnus erit, sicut &amp; omnis habitus. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e161">
+               <lb ed="#L" n="108"/>Praeterea: Maiorem vnitatem habet accidens 
+      <lb ed="#L" n="109"/>animae, quam accidens corporale, sed albedo, &amp; 
+      <lb ed="#L" n="110"/>aliae qualitates corporeae sunt vna, atque simplex 
+      <lb ed="#L" n="111"/>forma: ergo multo fortius habitus Theologicus, 
+      <lb ed="#L" n="112"/>&amp; omnis habitus animae erit vnus. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e174">
+               <lb ed="#L" n="113"/>Praeterea: Non sunt maioris simplicitatis habi 
+      <lb ed="#L" n="114"/>tus existentes in voluntate, quam existentes in intel 
+      <lb ed="#L" n="115"/>lectu, sed iustitia est vna simplex virtus, &amp; sic de 
+      <lb ed="#L" n="116"/>alijs habitibus, qui sunt in voluntate subiectiue. er 
+      <lb ed="#L" n="117"/>go scientia erit vna simplex qualitas in intellectu 
+      <lb ed="#L" n="118"/>&amp; per consequens habitus Theologicus vnus erit. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e190">
+               <lb ed="#L" n="119"/>Quod sit vnus ratione luminis. 
+      
+      <lb ed="#L" n="120"/>VLTERIVS videtur, quod habitus 
+      Theolo<lb ed="#L" break="no" n="121"/>gicus sit vnus propter vnitatem luminis, in 
+      <lb ed="#L" n="122"/>quo omnia, quae considerat cognoscuntur. Illud 
+      <lb ed="#L" n="123"/>enim dat rationem vnitatis in habitu, quo solo po- 
+      <!--0042.xml-->
+      <pb ed="#L" n="42"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sito, peiitur vnitas habitus, &amp; quo non posito⸗ 
+      <lb ed="#L" n="2"/>vmitas remouetur: sed de eodem obiecto remota 
+      <lb ed="#L" n="3"/>vnitate luminis habentur plures habitus: nam 
+      scien<lb ed="#L" break="no" n="4"/>tia Beatorum, quae est de Deo, &amp; veritatibus 
+      Di<lb ed="#L" break="no" n="5"/>uinis, est plia a scientia nostra, quae est de eisdem 
+      <lb ed="#L" n="6"/>pro eo, quod lumen gloriae, in quo beati 
+      cogno<lb ed="#L" break="no" n="7"/>sait, aliud est a lumine fidei gnigmatico, quo nos 
+      <lb ed="#L" n="8"/>odenoscimus. Sed habitus Theologicus 
+      proce<lb ed="#L" break="no" n="9"/>dit in omnibus suis veritatibus: quantumcunque 
+      <lb ed="#L" n="10"/>de diuersis materijs, sub vpo lumine fidei 
+      aenig<lb ed="#L" break="no" n="11"/>matico, &amp; in lumine supernaturali. ergoerit 
+      v<lb ed="#L" break="no" n="12"/>nus habitus quantumcunque materiae, circa 
+      <lb ed="#L" n="13"/>quas est, diuersentur. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e238">
+               <lb ed="#L" n="14"/>Praeterea: Vnitas in scientia sumitur ex 
+      vni<lb ed="#L" break="no" n="15"/>tate habitus principiorum, qui quidem ast, quasi 
+      <lb ed="#L" n="16"/>lumen: sieut exponunt aliqui illud tertij de 
+      ani<lb ed="#L" break="no" n="17"/>ma. Intellectus est habitus, vt lumen de 
+      intelle<lb ed="#L" break="no" n="18"/>ctu primipiorum: sed Theologia est vnus 
+      habi<lb ed="#L" break="no" n="19"/>tus ratione fidei, quae ad omnia credibilia, quae 
+      <lb ed="#L" n="20"/>sunt de Deo, &amp; de homine Christo, &amp; Angelis, &amp; 
+      <lb ed="#L" n="21"/>alijs creaturis vnica se extendit. ergo vnitas est 
+      <lb ed="#L" n="22"/>in isto habitu ex lumine, v pidetur. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e261">
+               <lb ed="#L" n="23"/>Praeterea: Illa, quae considerata sub diuersis 
+      <lb ed="#L" n="24"/>luminibus ad diuersas spectant scientias, relata 
+      <lb ed="#L" n="25"/>ad vnum lumen, sub vno habitu poterunt 
+      com<lb ed="#L" break="no" n="26"/>prehendi: sed Creator, &amp; creatura, &amp; materiae 
+      <lb ed="#L" n="27"/>physicae cognitae sub diuersis luminibus, pertinent 
+      <lb ed="#L" n="28"/>ad diuersas scientias physicas, sicut patet. ergo 
+      <lb ed="#L" n="29"/>relatae ad vnum lumen supernaturale fidei, 
+      pote<lb ed="#L" break="no" n="30"/>runt sub vno habitu Theologico comprehendi, 
+      <lb ed="#L" n="31"/>&amp; per consequens iste habitus vnus est ex 
+      lumi<lb ed="#L" break="no" n="32"/>nis vnitate. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e285">
+               <lb ed="#L" n="33"/>Quod sit vnus ratione medij. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e290">
+               <lb ed="#L" n="34"/>VJLTERIVS videtur, quod sit vnus ratione 
+      <lb ed="#L" n="35"/>medij. ait enim Philosophus, quod 
+      distin<lb ed="#L" break="no" n="36"/>ctio scientiarum accipitur ex distinctione termi 
+      <lb ed="#L" n="37"/>norum, &amp; diffinitionum rei scibilis. quod enim 
+      <lb ed="#L" n="38"/>Mathematicus in definiendo abstrahit a materia, 
+      <lb ed="#L" n="39"/>&amp; sensibilibus. Physicus autem in definitionibus 
+      <lb ed="#L" n="40"/>ponit sensibilem materiam: idcireo 
+      suntartifi<lb ed="#L" break="no" n="41"/>ces distincti, sed definitio est medium in 
+      demon<lb ed="#L" break="no" n="42"/>stratione. ergo vnitas habitus sumitur ex medio 
+      <lb ed="#L" n="43"/>probatiuo, &amp; per consequens Theologia est vnus 
+      <lb ed="#L" n="44"/>habitus: quia innititur auctoritati Diuinae, 
+      tan<lb ed="#L" break="no" n="45"/>quam medio probatiuo. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e319">
+               <lb ed="#L" n="46"/>Praeterea: Illud est principium distinguens 
+      <lb ed="#L" n="47"/>scientias, &amp; omnem habitum, quod ducit 
+      haben<lb ed="#L" break="no" n="48"/>tem habitum in cognitionem obiecti. ex quo 
+      e<lb ed="#L" break="no" n="49"/>nim principia ducentia erunt alterius rationis; 
+      <lb ed="#L" n="50"/>rationabile est, quod cognitiones sint alterius 
+      <lb ed="#L" n="51"/>rationis: &amp; per consequens habitus cognitiui; 
+      <lb ed="#L" n="52"/>sed medium ducit habentem habitum in 
+      cogni<lb ed="#L" break="no" n="53"/>tionem obiecti, cum per media cognoscatur obie 
+      <lb ed="#L" n="54"/>ctum. ergo vnitas, &amp; distinctio habitus ex medio 
+      <lb ed="#L" n="55"/>sumetur, &amp; sic idem quod prius. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e343">
+               <lb ed="#L" n="56"/>Praeterea: Quod terra sit rotunda, est idem sci 
+      <lb ed="#L" n="57"/>bile, cuius cognitio habita per medium 
+      abstra<lb ed="#L" break="no" n="58"/>ctum a materia: videlicet per ortum, &amp; occasum 
+      <lb ed="#L" n="59"/>signorum ad Astrologum pertinet. habita vero 
+      <lb ed="#L" n="60"/>per aequalem tendentiam partium terrae ad 
+      cen<lb ed="#L" break="no" n="61"/>trum ad naturalem spectat. Primo enim modo 
+      <lb ed="#L" n="62"/>demonstrat Ptolomaeus in prima dictione 
+      Alma<lb ed="#L" break="no" n="63"/>gesti, &amp; secundo modo Philosophus; sed hoc 
+      <lb ed="#L" n="64"/>non esset nisi Astrologia, &amp; Physicalex 
+      diuersi<lb ed="#L" break="no" n="65"/>tate mediorum distinguerentur. ergo habitus 
+      <!--0042.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>vnitatem sumit ex medio, &amp; pluralitatem, &amp; 
+      <lb ed="#L" n="67"/>sic illud quod supra. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e376">
+               <lb ed="#L" n="68"/>Quod sit vnus ex ratione formali obiecti. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e382">
+               <lb ed="#L" n="69"/>VVLTERTVS videtur, quod sit vnus propter 
+      <lb ed="#L" n="70"/>vnam rationem formalem obiecti ait enim
+      <lb ed="#L" n="71"/>Philosoph. quod scientia vna, est vnius gmoris 
+      <lb ed="#L" n="72"/>subiecti partes, &amp; proprietates habentis ed haec 
+      <lb ed="#L" n="73"/>scientia habet vnum ofiectum formala, videlicet 
+      <lb ed="#L" n="74"/>Deum; quaecunque enim considerat inquantum 
+      <lb ed="#L" n="75"/>Diuina sunt, considerat, &amp; intendit. ergo erit 
+      <lb ed="#L" n="76"/>habitus vnus. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e402">
+               <lb ed="#L" n="77"/>praeterea: Sicut se habet vnisti ad potentiam, 
+      <lb ed="#L" n="78"/>sic se videtur habere ad habitum, &amp; ad scientiam 
+      <lb ed="#L" n="79"/>sed vnitas potentiae sumitur ex enitate forma⸗i 
+      <lb ed="#L" n="80"/>oliecti. non enim stela, vel homo, vel lapis, &amp; 
+      <lb ed="#L" n="81"/>alia obiecta materialia distinguunt visum, pro eo 
+      <lb ed="#L" n="82"/>quod in omnia fertur sub vnica ratione formali: 
+      <lb ed="#L" n="83"/>quae est color, vel lux. ergo vnitas erit in habitu 
+      <lb ed="#L" n="84"/>ex formali vnitate obiecti, &amp; sicidem quod supra. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e422">
+               <lb ed="#L" n="85"/>Praeterea: Vnitas definitionis, &amp; termini tribuit 
+      <lb ed="#L" n="86"/>habitibus vnitatem, vt allegatum est supra id 6. 
+      <lb ed="#L" n="87"/>Metaphysi. sed definitio explicat rationem 
+      for<lb ed="#L" break="no" n="88"/>malen obincti. ergo habitus habet vnitatem ex 
+      <lb ed="#L" n="89"/>ipsa, &amp; peconsequens ex hoc Theologicùs 
+      ha<lb ed="#L" break="no" n="90"/>bitus erit vnus. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e438">
+               <lb ed="#L" n="91"/>Quod sit vnus ex concursu omnium istorum. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e443">
+               <lb ed="#L" n="92"/>VLTERJVS videtur, quod habeat 
+      vnita<lb ed="#L" break="no" n="93"/>tem, quia omnia ista concurrunt. illud 
+      <lb ed="#L" n="94"/>nanque consurgit ex concursu plurium 
+      circun<lb ed="#L" break="no" n="95"/>stantiarum, quod tollitur vna deficiente, 
+      <lb ed="#L" n="96"/>sed vnitas habitus impeditur ex alietate 
+      lu<lb ed="#L" break="no" n="97"/>minis, quantumcunque sit vnum obiectum, 
+      <lb ed="#L" n="98"/>vel vnum medium, vt patet de scientia nostra, 
+      <lb ed="#L" n="99"/>&amp; scientia Beatorum, quae sunt ambae de Deo, 
+      <lb ed="#L" n="100"/>&amp; similiter impeditur ex alietate formalis 
+      ra<lb ed="#L" break="no" n="101"/>tionis in obiecto, sicut patet in scientijs 
+      physi<lb ed="#L" break="no" n="102"/>cis, quae omnes acquiruntur ex eodem lumine 
+      <lb ed="#L" n="103"/>naturali intellectus agentis, nec tamen sunt 
+      <lb ed="#L" n="104"/>vnus habitus propter diuersitatem obiectorum, 
+      <lb ed="#L" n="105"/>similiter etiam ex alietate medij impeditur. 
+      <lb ed="#L" n="106"/>ergo vnitas habitus consurgit ex concursu 
+      om<lb ed="#L" break="no" n="107"/>nium istorum, &amp; per consequens Theologia 
+      <lb ed="#L" n="108"/>cum habeat luminis vnitatem, &amp; vnum 
+      obie<lb ed="#L" break="no" n="109"/>ctum formale, quod est Deitas, &amp; vnum 
+      me<lb ed="#L" break="no" n="110"/>dium probatiuum, quod est Dei auctoritas: 
+      ma<lb ed="#L" break="no" n="111"/>xime erit vna. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e489">
+               <lb ed="#L" n="112"/>Praeterea: Aristoteles primo Posterior. 
+      vide<lb ed="#L" break="no" n="113"/>tur attribuere vnitatem habitus obiecto: in 
+      sex<lb ed="#L" break="no" n="114"/>to vero Metaphysicae definitioni, &amp; medio, sed 
+      <lb ed="#L" n="115"/>hoc non esset verum, nisi quodlibet ex istis 
+      ali<lb ed="#L" break="no" n="116"/>quid faceret ad vnitatem habitus. igitur id, 
+      <lb ed="#L" n="117"/>quod prius. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e506">
+               <lb ed="#L" n="118"/>Quod sit vnus propter assistentiam 
+      indiui<lb ed="#L" break="no" n="119"/>sibilis obiecti ad quamlibet 
+      <lb ed="#L" n="120"/>sui partem. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e515">
+               <lb ed="#L" n="121"/>VJLTERJVS videtur, quod sit maxime vnus 
+      <lb ed="#L" n="122"/>propter obiectum indiuisibile assistens 
+      in<lb ed="#L" break="no" n="123"/>diuisibiliter quilibet parti. quamuis, 
+      enim<lb ed="#L" break="no" n="124"/>Theologia sit tres habitus, scilicet scientia 
+      <lb ed="#L" n="125"/>fides, &amp; notitia eorum, quae deducuntur 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e528">
+      <!--0043.xml-->
+               <pb ed="#L" n="43"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>lemitmnaumlictamen ipsa hubetāa qualibet fui 
+      <lb ed="#L" n="2"/>palto Deumpro obiecto, qui est sunme vnus, &amp; 
+      <lb ed="#L" n="3"/>sumee xnice, &amp; indiuisibiliter affistens, fed quan 
+      <lb ed="#L" n="4"/>eeoamque in aliquo sint plur&amp; foduae, allud 
+      <lb ed="#L" n="5"/>potri asso vumm, propter mum formam 
+      indi<lb ed="#L" break="no" n="6"/>nisibitea, asfistentems re patende hpmine, qui 
+      <lb ed="#L" n="7"/>manid mūs est, quamuis incu sim plures formae, 
+      <lb ed="#L" n="8"/>quam sit lapitpropter unilatem ratioialis 
+      ani<lb ed="#L" break="no" n="9"/>mo milibeu paoti iddiuisibilitentisistentis. ergo 
+      <lb ed="#L" n="10"/>Theoloria est moxime vna 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e559">
+               <lb ed="#L" n="11"/>Praeterea Dictum fuit superius, quod ex 
+      pro<lb ed="#L" break="no" n="12"/>cessu Theologico quodam ,generatur opinio, 
+      <lb ed="#L" n="13"/>qore veriso soitoitia-c ouedan alio fides, &amp; 
+      <lb ed="#L" n="14"/>exquidtalio, habitus non adhaesiuus, sed 
+      docla<lb ed="#L" break="no" n="15"/>ratium tamum, sed isti habitus nullo alio modo 
+      <lb ed="#L" n="16"/>possunoemcurrere ad vnitatem Theologiae, nisi 
+      <lb ed="#L" n="17"/>quatenui sunt domes de vnico obiecto, quod est 
+      <lb ed="#L" n="18"/>Deur. ergo Thoologia habet vnitatem ex 
+      assisten<lb ed="#L" break="no" n="19"/>tia obiocti indinisibilis ad quamlibet partem sui.
+    </p>
+            <p xml:id="ol96b1-c13061-d1e581">
+               <lb ed="#L" n="20"/>Quod nec Theologia, nec aliquis habitus sit vnus.
+    </p>
+            <p xml:id="ol96b1-c13061-d1e586">
+               <lb ed="#L" n="21"/>SEd in oppositum videtur, quod nullus 
+      habi<lb ed="#L" break="no" n="22"/>am intellectualis sigvnus, &amp; per consequens, 
+      <lb ed="#L" n="23"/>nec reologia, iludarnim, quod successine 
+      ae<lb ed="#L" break="no" n="24"/>quirisie, videtur habere partem, &amp; partem, &amp; 
+      <lb ed="#L" n="25"/>per consequens non esse vnum, sed Theologia, &amp; 
+      <lb ed="#L" n="26"/>omnis alia scientia acquiritur successiue, &amp; 
+      pri<lb ed="#L" break="no" n="27"/>mo vma pars, deinde alia: ergo non videtur, quod 
+      <lb ed="#L" n="28"/>Theologia, aut aliqua scientia sit habitus vnus. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e607">
+               <lb ed="#L" n="29"/>Praeterea: Scientia non est aliud, nisi 
+      determi<lb ed="#L" break="no" n="30"/>nata ordinatio intelligibilium specierum: non 
+      <lb ed="#L" n="31"/>ehim potest poni, quod sit habilitas generata in 
+      <lb ed="#L" n="32"/>intellectu possibili ad recipiendumsspecies, 
+      vel<lb ed="#L" break="no" n="33"/>actum intelligendi, cum intellectus sit 
+      habilissi<lb ed="#L" break="no" n="34"/>mus, nec indigens alia dispofitione a se, respectu 
+      <lb ed="#L" n="35"/>speciei, vel actu; sed infra eandem scientiam 
+      <lb ed="#L" n="36"/>sunt multae species. ergo habitus scientificus non 
+      <lb ed="#L" n="37"/>habet vnitatem, cum species in intellectu 
+      reali<lb ed="#L" break="no" n="38"/>ter distingnantur. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e631">
+               <lb ed="#L" n="39"/>Praeterea: Impossibile est intellectum per vnum 
+      <lb ed="#L" n="40"/>indiuisibile assimilari pluribus alterius rationis: 
+      <lb ed="#L" n="41"/>sed per scientiam aifimilatur intellectus 
+      pluri<lb ed="#L" break="no" n="42"/>bus scitis, quae sunt alterius rationiss triangulus 
+      <lb ed="#L" n="43"/>enim, &amp; circulus, &amp; quadratus alterius 
+      ratio<lb ed="#L" break="no" n="44"/>nis sunt, &amp; tamen spectant ad eandem 
+      Geome<lb ed="#L" break="no" n="45"/>triam. ergo videtur, quod Theologia, nec 
+      ali<lb ed="#L" break="no" n="46"/>qua alia scientia sit vere vna.
+    </p>
+            <p xml:id="ol96b1-c13061-d1e651">
+               <lb ed="#L" n="47"/>In speciali probatur de Theologia, quod non 
+      <lb ed="#L" n="48"/>sit vnus habitus. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e658">
+               <lb ed="#L" n="49"/>VVLTERIVS videtur in speciali de habitu 
+      <lb ed="#L" n="50"/>Theologico, quod non sit vnus; illa enim, 
+      <lb ed="#L" n="51"/>quae in nulla ratione formali conueniunt, non 
+      <lb ed="#L" n="52"/>possunt ad vꝑum habitum pertinere: sed Deus, 
+      <lb ed="#L" n="53"/>&amp; creatura ion habent aliquod commune 
+      vni<lb ed="#L" break="no" n="54"/>uocum, nec participant aliquam vnam rationem 
+      <lb ed="#L" n="55"/>formalem, &amp; ambo spectant ad istum habitum; 
+      <lb ed="#L" n="56"/>ergo non potest esse vnus. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e678">
+               <lb ed="#L" n="57"/>Praeterea: ille habitus, qui ita distincte tractat 
+      <lb ed="#L" n="58"/>de Angelis, de Deo, &amp; intelligentijs, sicut 
+      Meta<lb ed="#L" break="no" n="59"/>phyfica, &amp; de Anima, &amp; homine aeque distincte, 
+      <lb ed="#L" n="60"/>vel distinctius quam vniuersalis Philosophia non 
+      <lb ed="#L" n="61"/>potest esse vnus: alioquin Physica, &amp; 
+      Metaphy<lb ed="#L" break="no" n="62"/>sica sunt vnushabitus, quod nullus ponit: sed 
+      <lb ed="#L" n="63"/>Theologia tractat de Deo, &amp; intelligentijs mul- 
+      <!--0043.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="64"/>to excellentius, quam Metaphyfica, anctat ceiam 
+      <lb ed="#L" n="65"/>exquisitius, de Anima, &amp; bocdine quam Physica, 
+      <lb ed="#L" n="66"/>ctgo uum erit vna. Et consmatur ex hoc, quod
+      <lb ed="#L" n="67"/>uium est in 1. quaest. quod aliquando 
+      acquiri<lb ed="#L" break="no" n="68"/>Mex studio Theologiae habitus Meraphysicae, 
+      <lb ed="#L" n="69"/>&amp; panitan dici potest de habitu vnisices vbi 
+      in<lb ed="#L" break="no" n="70"/>quititur de Anima, &amp; homine, &amp; materia 
+      pri<lb ed="#L" break="no" n="71"/>ma, &amp; tempore. 
+    </p>
+            <p xml:id="ol96b1-c13061-d1e717">
+               <lb ed="#L" n="72"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-c13061-d1e723">
+               <lb ed="#L" n="73"/>AD quaestionem istam respondendo hoc 
+      or<lb ed="#L" break="no" n="74"/>A dine procedetur: primo quidem de 
+      vnita<lb ed="#L" break="no" n="75"/>te habitus scientifid in communi opiniones Do 
+      <lb ed="#L" n="76"/>ctorum ponentur discurrendo per eas. Secundo 
+      <lb ed="#L" n="77"/>vero de hoc dicetur iuxta id, quod vidbtur 
+      dicen<lb ed="#L" break="no" n="78"/>dum. Tertio quoque de vnitate Theologiae 
+      spe<lb ed="#L" break="no" n="79"/>cialiter inquiretur, secundum opiniones 
+      Docto<lb ed="#L" break="no" n="80"/>rum. Quarto vero dicetur de hoc iuxta illud, 
+      <lb ed="#L" n="81"/>quod videtur verum 
+    </p>
+            <div xml:id="ol96b1-c13061-Dd1e745">
+               <head xml:id="ol96b1-c13061-Hd1e747">Articulus 1</head>
+               <p xml:id="ol96b1-c13061-d1e749">
+                  <lb ed="#L" n="82"/>ARTJCVLVS PPRJMVS.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e754">
+                  <lb ed="#L" n="83"/>Opinio Henrici quolibeto 9. quaest. 4
+    </p>
+               <p xml:id="ol96b1-c13061-d1e759">
+                  <lb ed="#L" n="84"/>CIRCA primum, ergo considerandum est, 
+      <lb ed="#L" n="85"/>quod aliqui dicere voluerunt scientiam, 
+      <lb ed="#L" n="86"/>quae se extendit ad multas conclusiones, habere 
+      <lb ed="#L" n="87"/>vnitatem cuiusdam rei indiuisibilis existentis in 
+      <lb ed="#L" n="88"/>intellectu, quae quidem generatur tota, 
+      secun<lb ed="#L" break="no" n="89"/>dum essentiam ex prima demonstratione, qua 
+      <lb ed="#L" n="90"/>acquiritur notitia primae conclusionis, ex alijs 
+      <lb ed="#L" n="91"/>autem demonstrationibus intenditur, non quod 
+      <lb ed="#L" n="92"/>aliqua alia res acquiratur; vnde scientiae in 
+      pri<lb ed="#L" break="no" n="93"/>mo gradu est respectu primae conclusionis: in 
+      se<lb ed="#L" break="no" n="94"/>cundo vero est secundae conclusionis, &amp; sic 
+      dein<lb ed="#L" break="no" n="95"/>ceps; sicut enim vna potentia indiuisibilis se 
+      po<lb ed="#L" break="no" n="96"/>test extendere ad multa, vt patet de intellectu, sic 
+      <lb ed="#L" n="97"/>&amp; vnus habitus indiuisibilis existens extendere 
+      <lb ed="#L" n="98"/>se poterit, vt videtur: haec autem positio fulciri 
+      <lb ed="#L" n="99"/>potest tribus rationibus in arguendo primo loco 
+      <lb ed="#L" n="100"/>inductis; sed illis non obstantibus nullatenus 
+      sta<lb ed="#L" break="no" n="101"/>re potest; habens enim habitum, si non fuerit 
+      <lb ed="#L" n="102"/>impeditus, potest per illum operari, &amp; elicere 
+      <lb ed="#L" n="103"/>actum, sed habens primum gradum scientiae, non 
+      <lb ed="#L" n="104"/>potest elicere actum cognitionis respectu 
+      cen<lb ed="#L" break="no" n="105"/>tesimae conclusionis, quamuis possit respectu pri 
+      <lb ed="#L" n="106"/>mae, vel vigesimae. ergo habens primum gradum 
+      <lb ed="#L" n="107"/>scientiae, non habet totum habitum per essentiam 
+      <lb ed="#L" n="108"/>omnium conclusionum, &amp; per consequens alia 
+      <lb ed="#L" n="109"/>realitas respicit aliam, &amp; aliam conclusionem in 
+      <lb ed="#L" n="110"/>habitu scientifico, vt videtur. Nec valet si 
+      dica<lb ed="#L" break="no" n="111"/>tur, quod quamuis sit idem per essentiam, non 
+      <lb ed="#L" n="112"/>tamen respicit conclusiones diuersas, nisi sub 
+      gra<lb ed="#L" break="no" n="113"/>dibus diuersis, hoc quidem est impossibile; tum 
+      <lb ed="#L" n="114"/>quia cum sint certae, &amp; finitae conclusiones, in 
+      qua<lb ed="#L" break="no" n="115"/>libet scientia oportebit gradus habitus esse sub 
+      <lb ed="#L" n="116"/>certo numero, &amp; finito, quod esse non potest, nam 
+      <lb ed="#L" n="117"/>sunt infiniti gradus in potentia in qualibet 
+      for<lb ed="#L" break="no" n="118"/>ma intensa, alias intensio non esset motus vnus 
+      <lb ed="#L" n="119"/>continuus, cuius oppositum vult Philosophus, &amp; 
+      <lb ed="#L" n="120"/>Commentator. Tum quia secundum sic 
+      ponen<lb ed="#L" break="no" n="121"/>tes: gradus habitus ab inuicem non 
+      distinguun<lb ed="#L" break="no" n="122"/>tur realiter; nam augmentum formarum fit secun 
+      <lb ed="#L" n="123"/>dum eos absque aduentu alicuius realis: 
+      impos<lb ed="#L" break="no" n="124"/>sibile est autem, quod intellectus possit agere 
+      <lb ed="#L" n="125"/>nunc, &amp; ante non posset, nisi facta aliqua reali 
+      <!--0044.xml-->
+      <pb ed="#L" n="44"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tautatione ip illo habitu, quo exst ieractum 
+      co<lb ed="#L" break="no" n="2"/>gnoscendi canclusiones, tum quia habens 
+      habi<lb ed="#L" break="no" n="3"/>tum in aliquo gradu, potest in aliquo gradu 
+      exi<lb ed="#L" break="no" n="4"/>re in operationem respectu proprij oblecti. pc 
+      <lb ed="#L" n="5"/>habitus centesimae conclusionis est in aliquo lla 
+      <lb ed="#L" n="6"/>du in habedte habitum primae conclusionis, cum 
+      <lb ed="#L" n="7"/>isti habitus per te sint omnino realiter, &amp; 
+      essen<lb ed="#L" break="no" n="8"/>tialiter idem; sequitur, quod habituatus in 
+      gri<lb ed="#L" break="no" n="9"/>ma conclusione statim possit cognoscere 
+      cente<lb ed="#L" break="no" n="10"/>simam, cuius oppositum experimur.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e881">
+                  <lb ed="#L" n="11"/>Praeterea: Illi habitus, qui habent distinctas 
+      <lb ed="#L" n="12"/>generationes, &amp; distinctas corruptiones, 
+      distin<lb ed="#L" break="no" n="13"/>ctas intentiones, &amp; distinctas remissiones: sunt rea 
+      <lb ed="#L" n="14"/>liter distincti, &amp; essentialiter non solum sicut 
+      <lb ed="#L" n="15"/>gradus essentiae vnius. hoc patet, quoniam si 
+      es<lb ed="#L" break="no" n="16"/>sent sicut gradus eiusdem habitus, haberent ean 
+      <lb ed="#L" n="17"/>dem intentionem, &amp; idem augmentum, sed 
+      habi<lb ed="#L" break="no" n="18"/>tus decem primarum conclusionum possunt 
+      seor<lb ed="#L" break="no" n="19"/>sum generari, &amp; intendi absque hoc, quod geuere 
+      <lb ed="#L" n="20"/>tur habitus centesimae, aut intendatur, meditans 
+      <lb ed="#L" n="21"/>enim frequenter de conclusionibus, primi 
+      Geo<lb ed="#L" break="no" n="22"/>metriae, non dubium, quod intendit habitum cō- 
+      <lb ed="#L" n="23"/>tinue respectu illarum, nec propter hoc 
+      conclu<lb ed="#L" break="no" n="24"/>siones quintidecimi libri nouit. ergo habitus 
+      <lb ed="#L" n="25"/>quantumcumque intensus illarum conclusionum, 
+      <lb ed="#L" n="26"/>&amp; istarum non fuit realiter idem.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e919">
+                  <lb ed="#L" n="27"/>Praeterea: Impossibile est habitus oppositos 
+      <lb ed="#L" n="28"/>stare simul, sed ignorantia dispositionis 
+      conclu<lb ed="#L" break="no" n="29"/>sionis centesimae: ignorantiam dico, qua 
+      credi<lb ed="#L" break="no" n="30"/>tur eius oppositum esse verum, non ignorantia 
+      <lb ed="#L" n="31"/>negationis, quae est nescientia simpliciter; illa 
+      <lb ed="#L" n="32"/>inquam ignorantia est habitus contrarius, &amp; 
+      <lb ed="#L" n="33"/>corruptiuus habitus scientifici eiusdem 
+      conclu<lb ed="#L" break="no" n="34"/>sionis. ergo illa ignorantia, &amp; haec scientia 
+      im<lb ed="#L" break="no" n="35"/>possibile est, quod stent simul. certum est autem, 
+      <lb ed="#L" n="36"/>quod ignorantia ista potest stare cum scientia 
+      <lb ed="#L" n="37"/>decem primarum conclusionum; possibile est 
+      <lb ed="#L" n="38"/>enim aliquem recte sentire de decem 
+      conclusio<lb ed="#L" break="no" n="39"/>nibus alicuius scientiae, &amp; errare circa 
+      centesi<lb ed="#L" break="no" n="40"/>mam. ergo habitus decem, &amp; habitus centesimae 
+      <lb ed="#L" n="41"/>non sunt realiter idem. &amp; confirmatur, quoniam 
+      <lb ed="#L" n="42"/>formae contrariae sunt incompossibiles in eodem 
+      <lb ed="#L" n="43"/>propter essentialem repugnantiam, &amp; 
+      opposi<lb ed="#L" break="no" n="44"/>tionem; &amp; idcirco tota essentia habitus 
+      scienti<lb ed="#L" break="no" n="45"/>fici omnium conclusionum repugnaret errori, 
+      <lb ed="#L" n="46"/>&amp; ignorantiae omnium earum, si quaelibet esset 
+      <lb ed="#L" n="47"/>vna res indiuisibilis, &amp; simplex. 
+      <lb ed="#L" n="48"/>Opinio Scoti in prologo primi Sent. quaest. 4.&amp; 5. 
+      <lb ed="#L" n="49"/>C T propterea alij dicere voluerunt, quod 
+      <lb ed="#L" n="50"/>A vnitas habitus scientifici, est vnitas 
+      cuius<lb ed="#L" break="no" n="51"/>dam generis: quia quot sunt conclusiones, tot 
+      <lb ed="#L" n="52"/>oportet ponere habitus partiales, quia vero sunt 
+      <lb ed="#L" n="53"/>de eadem materia, idcirco habent generis 
+      vni<lb ed="#L" break="no" n="54"/>tatem. vnde multi partiales libri Physicae sunt 
+      <lb ed="#L" n="55"/>in intellectu habentis scientiam naturalem, alium 
+      <lb ed="#L" n="56"/>enim habitum habet talis de libro Physicorum, 
+      <lb ed="#L" n="57"/>&amp; alium de libro Coeli, &amp; Mundi, &amp; sic de alijs: 
+      <lb ed="#L" n="58"/>haec autem opinio fulciri potest tribus 
+      rationi<lb ed="#L" break="no" n="59"/>bus arguendo ad oppositum inductis. Quibus 
+      <lb ed="#L" n="60"/>non obstantibus minime stare potest. si enim quot 
+      <lb ed="#L" n="61"/>sunt conclusiones in Physica, tot sunt scientiae 
+      na<lb ed="#L" break="no" n="62"/>turales, aut istae Physicae erunt distinctae 
+      specifi<lb ed="#L" break="no" n="63"/>ce, vt habitus alterius rationis. &amp; hoc esse non 
+      <lb ed="#L" n="64"/>potest; quia cum conclusiones innumerabiles 
+      <lb ed="#L" n="65"/>sint, nec adhuc in millesima parte inuentae, se- 
+      <!--0044.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>quitur, quod scientiae Physicae innumerabiles no 
+      <lb ed="#L" n="67"/>bis deficiunt: quia non est rationabile poni, aut 
+      <lb ed="#L" n="68"/>illae erunt solum numero differentes, &amp; secundum 
+      <lb ed="#L" n="69"/>hoc plures habitus eiusdem speciei erunt in eodem 
+      <lb ed="#L" n="70"/>subiecto . et iterum duo habitus eiusdem 
+      con<lb ed="#L" break="no" n="71"/>clusionis, quorum vnus fuit in intellen 
+      Aristo<lb ed="#L" break="no" n="72"/>telis, &amp; alius in mente Platonis, erunt soloe 
+      nu<lb ed="#L" break="no" n="73"/>mero differentes: coststat antam?rd illi duo ha 
+      <lb ed="#L" n="74"/>bitus conclusionis eiusdem, maiorem habebant 
+      <lb ed="#L" n="75"/>inter se conuenientiam, quam habitus primae 
+      con<lb ed="#L" break="no" n="76"/>clusionis cum habita secundae. ergo isti duo non 
+      <lb ed="#L" n="77"/>possunt numero solo differre, sed nec poterant 
+      <lb ed="#L" n="78"/>species ergo. non sunt habitus partiales completi. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1039">
+                  <lb ed="#L" n="79"/>Praeterea: Si sint plures habitus compled, scien 
+      <lb ed="#L" n="80"/>tia Physica in anima, non erit nisignus actus, ex 
+      <lb ed="#L" n="81"/>istis habitibus aggregatus, sicut ex omnibus sciem 
+      <lb ed="#L" n="82"/>tijs puta Grammatica, Logica, &amp; Mathematica 
+      <lb ed="#L" n="83"/>fit vnus actus habituum, &amp; formarum in mente 
+      ha<lb ed="#L" break="no" n="84"/>bentis eas, sed Physicam talem actum esse est 
+      ir<lb ed="#L" break="no" n="85"/>rationabile, &amp; coptra Philosophum dicentem; 
+      <lb ed="#L" n="86"/>quod vna scientia est vnius generis subiecti: ergo 
+      <lb ed="#L" n="87"/>huiusmodi Physicae non sunt habitus perfecti. 
+      <lb ed="#L" n="88"/>Praeterea: Sicut se habet forma in esse, sic se 
+      <lb ed="#L" n="89"/>habet, &amp; in denominari subiectum; sed habitus 
+      <lb ed="#L" n="90"/>decem conclusionum Geometriae denominat im 
+      <lb ed="#L" n="91"/>perfecte habentem: non enim dicitur pirfecte 
+      <lb ed="#L" n="92"/>habituatus in Geometria, qui non nouit, nisi 
+      de<lb ed="#L" break="no" n="93"/>cem conclusiones: ergo habitus illarum decem 
+      <lb ed="#L" n="94"/>non est perfectus habitus, nec pars Geometriae 
+      <lb ed="#L" n="95"/>praedicationem recipiens, sicut indiuiduum, vel 
+      <lb ed="#L" n="96"/>species Geometriae. Et confirmatur, quia 
+      spe<lb ed="#L" break="no" n="97"/>cies praedicantur perfecte de indiuiduo dicendo: 
+      <lb ed="#L" n="98"/>Sortes est homo perfectus, &amp; genus de specie: 
+      <lb ed="#L" n="99"/>homo est animal perfectum. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1087">
+                  <lb ed="#L" n="100"/>Praeterea: Sicut se habent conclusiones ad 
+      es<lb ed="#L" break="no" n="101"/>se scibile, sic se habent habitus earum ad esse 
+      <lb ed="#L" n="102"/>scientiam; sed sic se habent conclusiones, quod 
+      <lb ed="#L" n="103"/>sunt partes vnius scibilitatis integrae, &amp; 
+      perfe<lb ed="#L" break="no" n="104"/>ctae, nec quaelibet earum est completa scibilitas: 
+      <lb ed="#L" n="105"/>vge gurnicu: carunsem erunt perfectz scien 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1103">
+                  <lb ed="#L" n="106"/>Opinio Bernardi in impugnationibus contra 
+      <lb ed="#L" n="107"/>Hanricum quolibeto 9. q. 4. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1110">
+                  <lb ed="#L" n="108"/>ET propterea alij dicere voluerunt, quod 
+      <lb ed="#L" n="109"/>L scientia non est vna simplex forma 
+      indiuisi<lb ed="#L" break="no" n="110"/>bilis, nec tamen est quasi actus ex habitibus 
+      <lb ed="#L" n="111"/>specificis constitutus, sed habet partes, ex 
+      qui<lb ed="#L" break="no" n="112"/>bus constituitur, quoniam scientia non est aliud, 
+      <lb ed="#L" n="113"/>quam ordinatio specierum existens in 
+      intelle<lb ed="#L" break="no" n="114"/>ctu, secundum quam prompte intelligimus, 
+      quan<lb ed="#L" break="no" n="115"/>do volumus. Haec autem opinio, etsi aliquid 
+      ve<lb ed="#L" break="no" n="116"/>ritatis attingat, in hoc quod dicit scientiam 
+      vni<lb ed="#L" break="no" n="117"/>tatem habere cuiusdam totius, in hoc tamen 
+      de<lb ed="#L" break="no" n="118"/>ficit, quod ait scientiam non esse aliud, quam 
+      or<lb ed="#L" break="no" n="119"/>dinationem specierum: certum estenim, quod 
+      <lb ed="#L" n="120"/>habitus scientificus generatur ex actu 
+      intelle<lb ed="#L" break="no" n="121"/>ctus discursiuo, cum acquiratur per 
+      demonstra<lb ed="#L" break="no" n="122"/>tionem; illud ergo, quod derelinquitur ex hoc 
+      <lb ed="#L" n="123"/>actu, aut est purus ordo impressus speciebus, aut 
+      <lb ed="#L" n="124"/>sunt species, aut aliquid absolutum factum 
+      cir<lb ed="#L" break="no" n="125"/>ca eas; non potest autem poni, quod ordo per 
+      <lb ed="#L" n="126"/>istum actum speciebus imprimatur immediate, 
+      <lb ed="#L" n="127"/>ne relatio sit primus terminus productionis con 
+      <lb ed="#L" n="128"/>tra Philosophum; nec dici potest, quod species 
+      <lb ed="#L" n="129"/>imprimantur, quia iam ante erant, nec dici po- 
+      <!--0045.xml-->
+      <pb ed="#L" n="45"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>test, quod aliquod absolutum fiat circa species, 
+      <lb ed="#L" n="2"/>quod sit ratio fundandi illum ordinem, cum in 
+      <lb ed="#L" n="3"/>intellectu non ponatur aliud, nisi species 
+      habi<lb ed="#L" break="no" n="4"/>tus, &amp; actus. ergo impossibile est poni, quod 
+      or<lb ed="#L" break="no" n="5"/>do specierum formaliter sit scientia.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1178">
+                  <lb ed="#L" n="6"/>Praeterea: Habitus scientiae est aliquid 
+      absolu<lb ed="#L" break="no" n="7"/>tum in genere qualitatis, etsi relationem 
+      inclu<lb ed="#L" break="no" n="8"/>dat ad actum, &amp; obiectum; sed ordo specierum, 
+      <lb ed="#L" n="9"/>non estaliquid absolutum, nec respectus ad actus, &amp; 
+      <lb ed="#L" n="10"/>obiectū; sed relatio vnius speciei ad alteram. ergo 
+      <lb ed="#L" n="11"/>ordo specierum non est ipse scientificus habitus. 
+      <lb ed="#L" n="12"/>Praeterea: Scientia est habitus conclusionuml 
+      <lb ed="#L" n="13"/>non praemissarum, &amp; principiorum, vt patet, sed 
+      <lb ed="#L" n="14"/>ordo specierum respicit non solam conclusionem, 
+      <lb ed="#L" n="15"/>sed totam demonstrationem cum sit ordo 
+      maio<lb ed="#L" break="no" n="16"/>ris extremitatis ad medium, &amp; medij ad 
+      mino<lb ed="#L" break="no" n="17"/>rem, &amp; per consequens totius discursus. ergo 
+      <lb ed="#L" n="18"/>non erit scientificus habitus.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1210">
+                  <lb ed="#L" n="19"/>Praeterea: Ordo cum sit relatio, non potest 
+      es<lb ed="#L" break="no" n="20"/>se principium actus intelligendi, aut alicuius 
+      <lb ed="#L" n="21"/>operationis, sed scientia est actus primus, &amp; prin 
+      <lb ed="#L" n="22"/>cipium actus secundi, qui est intelligere 
+      conclu<lb ed="#L" break="no" n="23"/>sionem; non ergo potest esse ordo specierum.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1223">
+                  <lb ed="#L" n="24"/>Praeterea: Si scientia sit ordo specierum, aut 
+      <lb ed="#L" n="25"/>est ordo situalis; &amp; hoc esse non potest, quia 
+      spe<lb ed="#L" break="no" n="26"/>cies non sunt situatae in intellectu, nec habent 
+      <lb ed="#L" n="27"/>hic, autibi, nec prius, nec posterius in situ: aut 
+      <lb ed="#L" n="28"/>erit ordo causalis, quasi vna species ex alia 
+      cau<lb ed="#L" break="no" n="29"/>setur, &amp; hoc esse non potest, quia species sunt in 
+      <lb ed="#L" n="30"/>intellectu antequam habitus scientificus 
+      genere<lb ed="#L" break="no" n="31"/>tur, &amp; iterum species causantur in intellectu a 
+      <lb ed="#L" n="32"/>phantasmate, &amp; intellectu agente, aut erit ordo 
+      <lb ed="#L" n="33"/>formalis, quasi vna sit apta nata prius formare 
+      <lb ed="#L" n="34"/>intellectum, quam alia, nec hoc esse potest, quia 
+      <lb ed="#L" n="35"/>tunc statim cum imprimuntur in intellectu deberet 
+      <lb ed="#L" n="36"/>esse iste ordo; &amp; tamen non statim habetur habitus 
+      <lb ed="#L" n="37"/>scientificus, aut erit ordo vsualis, vt scilicet intel 
+      <lb ed="#L" n="38"/>lectus sit determinatus ad vtendum quodam 
+      or<lb ed="#L" break="no" n="39"/>dine specie maioris extremitatis, deinde medij, 
+      <lb ed="#L" n="40"/>deinde minoris, deinde inhaerentiae maioris ad 
+      mi<lb ed="#L" break="no" n="41"/>norem; talis quippe determinatio intellectus si 
+      <lb ed="#L" n="42"/>poniturad istum ordinem, non erit ex ipsis 
+      spe<lb ed="#L" break="no" n="43"/>diebus, sed ex aliquo determinatiuo facto in 
+      in<lb ed="#L" break="no" n="44"/>tellectu, quo inclinetur ad istum ordinem vtendi 
+      <lb ed="#L" n="45"/>speciebus. ergo habitus scientificus non est ordo.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1273">
+                  <lb ed="#L" n="46"/>Quod sit habitus scientificus formaliter, &amp; 
+      <lb ed="#L" n="47"/>secundum rem. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1280">
+                  <lb ed="#L" n="48"/>Est ergo sciendum, quod scientia in anima, 
+      <lb ed="#L" n="49"/>nec est ipsae species, alias habens species trian 
+      <lb ed="#L" n="50"/>guli, &amp; habere tres, statim sciret, quod 
+      triangu<lb ed="#L" break="no" n="51"/>sus habet tres, quod non est verum: nec est ordo 
+      <lb ed="#L" n="52"/>specierum, vt ex praedictis patet, nec est id, quo 
+      <lb ed="#L" n="53"/>intellectus determinatur ad vtendum ordinate 
+      <lb ed="#L" n="54"/>istis speciebus, speciebus inquam, maioris 
+      pro<lb ed="#L" break="no" n="55"/>positionis, &amp; minoris conclusionis, siue totius 
+      <lb ed="#L" n="56"/>demonstrationis? illud enim quo determinatur 
+      <lb ed="#L" n="57"/>ad huoc ordinem vsnalem est memoria actus 
+      di<lb ed="#L" break="no" n="58"/>feursiui, qui praecessit; ista namque memoria 
+      re<lb ed="#L" break="no" n="59"/>ducit intellectum ad similem discursum, &amp; 
+      simi<lb ed="#L" break="no" n="60"/>lem specierum vsum, qui fuit in principio, dum 
+      <lb ed="#L" n="61"/>cepit sllogizzare, &amp; demonstrare, certum est 
+      <lb ed="#L" n="62"/>autem, quod memorari non est scire, nec memo 
+      <lb ed="#L" n="63"/>ria est sclencia. Tum quia memorari est actus 
+      <lb ed="#L" n="64"/>reaextis? memoramur enim nos audiuisse, 
+      vi<lb ed="#L" break="no" n="65"/>disse, &amp; intellexisse: scire autem immediate ca- 
+      <!--0045.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>dit super obiectum: Non enim scimus nos 
+      intel<lb ed="#L" break="no" n="67"/>lexisse, quia hoc est; sed scimus, quia hoc est. 
+      <lb ed="#L" n="68"/>Tum quia memorari cadit super totum 
+      discur<lb ed="#L" break="no" n="69"/>sum syllogisticum: Recordamur namque de tota 
+      <lb ed="#L" n="70"/>demonstratione; certum est autem, quod scire 
+      <lb ed="#L" n="71"/>est tantum de conclusione, &amp; per idem patet, 
+      <lb ed="#L" n="72"/>quod scientia non est habilitas, qua intellectus 
+      <lb ed="#L" n="73"/>promptus sit ad demonstrandum, &amp; 
+      discernen<lb ed="#L" break="no" n="74"/>dum. Quid ergo sit scientia in anima, difficile 
+      <lb ed="#L" n="75"/>est videre; sed dicendum est, quod actus ducunt 
+      <lb ed="#L" n="76"/>in notitiam habitus; sunt autem in intellectu actus 
+      <lb ed="#L" n="77"/>rationum diuersarum; est quidem vnus simplex, 
+      <lb ed="#L" n="78"/>qui cadit super simplex obiectum absolute. Est 
+      <lb ed="#L" n="79"/>vero alius, qui cadit super veritatem 
+      comple<lb ed="#L" break="no" n="80"/>xam, tamquam super id, quod etiam habuit 
+      ratio<lb ed="#L" break="no" n="81"/>nem formalem, qua notitiam ipsorum terminorum. 
+      <lb ed="#L" n="82"/>Et est alius, qui cadit super veritatem complexam, 
+      <lb ed="#L" n="83"/>&amp; habet rationem formalem, qua aliam 
+      verita<lb ed="#L" break="no" n="84"/>tem complexam: vnusquisque autem istorum trium 
+      <lb ed="#L" n="85"/>actuum, est quidem simplex intellectio realiter, 
+      <lb ed="#L" n="86"/>&amp; formaliter; sed primus singulariter dicitur 
+      <lb ed="#L" n="87"/>simplex, &amp; obiectiue, quia non differt in eo id, 
+      <lb ed="#L" n="88"/>quod intelligit, ab illo quo intelligit. Secundus 
+      <lb ed="#L" n="89"/>vero, &amp; tertius non sunt simplices obiectiue, quia 
+      <lb ed="#L" n="90"/>alia est veritas, super quam cadunt, &amp; alia 
+      ve<lb ed="#L" break="no" n="91"/>ritas, qua super ipsam cadunt. Et potest istud 
+      <lb ed="#L" n="92"/>declarari exemplo in voluntate, in qua est vnus 
+      <lb ed="#L" n="93"/>actus, qui appellatur simplex volitio cadens 
+      su<lb ed="#L" break="no" n="94"/>per finem, in quo non differt id, quod appetitur 
+      <lb ed="#L" n="95"/>ab eo, quo appetitur, quia finis desideratur per 
+      <lb ed="#L" n="96"/>se, &amp; alius qui vocatur electio cadens super id, 
+      <lb ed="#L" n="97"/>quod est ad finem, in quo est aliud, quod appetitur 
+      <lb ed="#L" n="98"/>ab eo, quo appetitur, quia ea, quae sunt ad finem non 
+      <lb ed="#L" n="99"/>appetimus propter se, sed propter finem, vt amara 
+      <lb ed="#L" n="100"/>potio propter sanitatem, sicut ergo actus secundus 
+      <lb ed="#L" n="101"/>arguit in intellectu quendam habitum quo determi 
+      <lb ed="#L" n="102"/>netur ad videndum veritatem principij complexam 
+      <lb ed="#L" n="103"/>exterminis, qui quidem est habitus 
+      principio<lb ed="#L" break="no" n="104"/>rum; sic tertius exigit habitum determinantem 
+      <lb ed="#L" n="105"/>intellectum ad veritatem conclusionis ex 
+      veri<lb ed="#L" break="no" n="106"/>tate principij, vt secundum hoc scientia sit 
+      ali<lb ed="#L" break="no" n="107"/>quid, quo intellectus determinetur ad 
+      intelle<lb ed="#L" break="no" n="108"/>ctionem simplicem cadentem super veritatem 
+      ali<lb ed="#L" break="no" n="109"/>quam propter aliam primam veritatem, aliud 
+      <lb ed="#L" n="110"/>a demonstratione memoriter retenta 
+      immansi<lb ed="#L" break="no" n="111"/>uum in intellectu. Ad cuius explanationem 
+      con<lb ed="#L" break="no" n="112"/>ditiones istae per ordinem probandae sunt. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1428">
+                  <lb ed="#L" n="113"/>Prima quidem, quod intellectio non 
+      ca<lb ed="#L" break="no" n="114"/>dit super veritatem conclusionis, nisi quatenus 
+      <lb ed="#L" n="115"/>cadit super veritatem principij, quae sic patet: 
+      <lb ed="#L" n="116"/>sicut enim vnumquodque se habet ad entitatem, 
+      <lb ed="#L" n="117"/>sic se habet ad veritatem, &amp; ad scibilitatem 
+      se<lb ed="#L" break="no" n="118"/>cundum Philosophum; sed entitas conclusionis 
+      <lb ed="#L" n="119"/>non est ex se, sed ex entitate principij, vt patet: vbi 
+      <lb ed="#L" n="120"/>dicitur, quod si principium est, conclusio est. ergo 
+      <lb ed="#L" n="121"/>veritas, &amp; cognoscibilitas est in conclusione ex co 
+      <lb ed="#L" n="122"/>gnoscibilitate principij, cum ergo vnumquodque sic 
+      <lb ed="#L" n="123"/>cognoscatur, sicut aptum natum est, necesse est, quod 
+      <lb ed="#L" n="124"/>intellectus non cadat super veritatem conclusionis, 
+      <lb ed="#L" n="125"/>nisi quatenus cadit super veritatem principij. 
+      <lb ed="#L" n="126"/>Praeterea: Sicut se habet finis, &amp; ea, quae sunt 
+      <lb ed="#L" n="127"/>ad finem, ad bonitatem, &amp; appetitum, sic se 
+      ha<lb ed="#L" break="no" n="128"/>bent principium, &amp; conclusio ad veritatem, &amp; 
+      in<lb ed="#L" break="no" n="129"/>tellectum, vt patet, sed finis habet bonitatem a 
+      <lb ed="#L" n="130"/>se super quam fertur appetitus, ea vero, quae sunt 
+      <lb ed="#L" n="131"/>ad finem habent bonitatem ex fine, &amp; appetitus 
+      <lb ed="#L" n="132"/>non fertur super ea, nisi quatenus fertur super 
+      <!--0046.xml-->
+      <pb ed="#L" n="46"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>finem, alioquin si feratur per se, habebunt 
+      ra<lb ed="#L" break="no" n="2"/>tionem finis, vt patet. ergo nec conclusio habet 
+      <lb ed="#L" n="3"/>veritatem, nisi ex veritate principij, nec 
+      intel<lb ed="#L" break="no" n="4"/>lectus fertur super eam, nisi quatenus super 
+      ve<lb ed="#L" break="no" n="5"/>ritatem principij ferebatur. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1491">
+                  <lb ed="#L" n="6"/>Praeterea: Si intellectus fertur per se in verita 
+      <lb ed="#L" n="7"/>tem repertam in conclusione, aut cognoscit id esse 
+      <lb ed="#L" n="8"/>per veritatem ex terminis conclusiones, aut ex 
+      co<lb ed="#L" break="no" n="9"/>pulatione terminorum, aut ex ponderatione na 
+      <lb ed="#L" n="10"/>turae suae, sed non ex terminis, quia tunc 
+      conclu<lb ed="#L" break="no" n="11"/>sio esset principium, nec ex copulatione 
+      termi<lb ed="#L" break="no" n="12"/>norum, quia non cognoscitur, nisi ex terminis 
+      <lb ed="#L" n="13"/>copulatio ipsa, nec ex ponderatione naturae suae; 
+      <lb ed="#L" n="14"/>tum quia intellectus mouetur ex obiecto, &amp; ideo, 
+      <lb ed="#L" n="15"/>vel termini, vel copula, vel aliquid aliud mouebit 
+      <lb ed="#L" n="16"/>intellectum, quod hoc sit verum, tum quia nec ad 
+      <lb ed="#L" n="17"/>cognoscendum veritatem principij mouetur ex 
+      <lb ed="#L" n="18"/>ponderatione potentiae, nisi ex terminis 
+      deter<lb ed="#L" break="no" n="19"/>minetur. ergo impossibile est, quod feratur in 
+      <lb ed="#L" n="20"/>veritatem conclusionis, iudicando hoc esse 
+      ve<lb ed="#L" break="no" n="21"/>rum, nisi ex aliqua causa istius veritatis 
+      existen<lb ed="#L" break="no" n="22"/>te extra conclusionem; illa autem est veritas prin 
+      <lb ed="#L" n="23"/>cipij, quare necesse est, vt non cadat intellectus 
+      <lb ed="#L" n="24"/>super veritatem conclusionis, nisi quatenus 
+      si<lb ed="#L" break="no" n="25"/>mul cadit super veritatem principij. Et 
+      confir<lb ed="#L" break="no" n="26"/>matur, quoniam scire aliquid, non est nisi cogno 
+      <lb ed="#L" n="27"/>scere, quoniam hoc est; a cognoscente autem 
+      <lb ed="#L" n="28"/>quoniam hoc est, consuetum est quaeri, vnde 
+      no<lb ed="#L" break="no" n="29"/>uit quod sic est, vt innuatur, quod scire non est, 
+      <lb ed="#L" n="30"/>nisi ex causa: iuxta illud Philosophi: Scire 
+      vnum<lb ed="#L" break="no" n="31"/>quodque opinamur cum causam cognoscimus, 
+      quo<lb ed="#L" break="no" n="32"/>niam sic est, &amp; quoniam non contingit aliter se 
+      <lb ed="#L" n="33"/>habere. Secunda vero conditio est, quod 
+      huius<lb ed="#L" break="no" n="34"/>modi intellectio cadens super vtramque 
+      verita<lb ed="#L" break="no" n="35"/>tem, est vnica, &amp; simplex: si enim illa eadem 
+      in<lb ed="#L" break="no" n="36"/>tellectio numeralis, quae cadit super veritatem 
+      <lb ed="#L" n="37"/>conclusionis, non caderet super veritatem 
+      prin<lb ed="#L" break="no" n="38"/>cipij; tunc inueniret intellectus veritatem ex se 
+      <lb ed="#L" n="39"/>in illa, quia impossibile est terminari 
+      intellectio<lb ed="#L" break="no" n="40"/>nem ad aliquid praecise, quin sit in illo veritas 
+      <lb ed="#L" n="41"/>praecise; sed probatum est, quod in conclusione 
+      <lb ed="#L" n="42"/>non est veritas per se, &amp; praecise, sed vt est 
+      iun<lb ed="#L" break="no" n="43"/>cta veritati principij; sicut bonitas, &amp; 
+      appeti<lb ed="#L" break="no" n="44"/>bilitas non est in potione amara, nisi quatenus 
+      <lb ed="#L" n="45"/>copulatur cum sanitate per modum inducentis 
+      <lb ed="#L" n="46"/>eam. ergo non aliquo actu fertur intellectus in 
+      <lb ed="#L" n="47"/>veritatem conclusionis, quin eodem feratur in 
+      <lb ed="#L" n="48"/>veritatem principij. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1588">
+                  <lb ed="#L" n="49"/>Praeterea: Ille actus quo cognoscitur, quod 
+      <lb ed="#L" n="50"/>hoc est propter hoc, vel quod hoc est causa quod 
+      <lb ed="#L" n="51"/>insit hoc, transit simul super vtrumque, scilicet 
+      <lb ed="#L" n="52"/>super illud, quod est causa, &amp; cuius est causa, sed 
+      <lb ed="#L" n="53"/>actus, qui est scire, est nosse, quod hoc est 
+      prop<lb ed="#L" break="no" n="54"/>ter hoc, &amp; quod hoc sit causa quare sit hoc, vt 
+      <lb ed="#L" n="55"/>patet per definitionem quam ponit Philosophus 
+      <lb ed="#L" n="56"/>de scire, &amp; patet etiam, quoniam nosse, quod 
+      <lb ed="#L" n="57"/>hoc est simpliciter, &amp; ex se non est scire, sed 
+      prin<lb ed="#L" break="no" n="58"/>cipium intelligere. ergo actus sciendi simul tran 
+      <lb ed="#L" n="59"/>sit super veritatem principij, &amp; conclusionis. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1614">
+                  <lb ed="#L" n="60"/>Praeterea: Hoc est scire in intellectu, quod est 
+      <lb ed="#L" n="61"/>eligere in voluntate, sicut intelligere principia 
+      <lb ed="#L" n="62"/>in intellectu hoc est, quod velle finem in 
+      appeti<lb ed="#L" break="no" n="63"/>tu, hoc patet; sed actus electionis simplex cadit 
+      <lb ed="#L" n="64"/>super illud, quod est ad finem, propter finem, &amp; 
+      <lb ed="#L" n="65"/>super vtrumque simul. ergo, &amp; scire cadit simul 
+      <lb ed="#L" n="66"/>super vtramque veritatem principij, &amp; 
+      conclusio<lb ed="#L" break="no" n="67"/>nis. Et confirmatur, quia formalis ratio boni- 
+      <!--0046.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>tatis, in eo quod est ad finem est bonitas finis, vt 
+      <lb ed="#L" n="69"/>sic id, quod est ad finem, sit tantum materialiter 
+      <lb ed="#L" n="70"/>volitum, &amp; consimiliter formalis causa, quod 
+      <lb ed="#L" n="71"/>conclusio sit, est entitas principij, vt entitas 
+      con<lb ed="#L" break="no" n="72"/>clusionis materialiter sit cognita, propter hoc 
+      <lb ed="#L" n="73"/>quod principium est, cuius entitas est 
+      formali<lb ed="#L" break="no" n="74"/>ter cognita: obiectum autem materiale, &amp; 
+      for<lb ed="#L" break="no" n="75"/>male non numerant actum: immo vnico 
+      simpli<lb ed="#L" break="no" n="76"/>ci attinguntur: nec valet si dicatur hoc 
+      verita<lb ed="#L" break="no" n="77"/>tem habuit in scientia propter quid, vbi 
+      princi<lb ed="#L" break="no" n="78"/>pium est causa conclusionis; hoc siquidem non 
+      <lb ed="#L" n="79"/>valet, quia in omni scientifica cognitione 
+      sci<lb ed="#L" break="no" n="80"/>tur, quod principium est causa, quod conclusio 
+      <lb ed="#L" n="81"/>sit, non accipiendo esse reale, &amp; secundario 
+      adia<lb ed="#L" break="no" n="82"/>cens; sed esse verum, &amp; in anima, quod est tertio 
+      <lb ed="#L" n="83"/>adiacens, &amp; copula: tertia quoque conditio est, 
+      <lb ed="#L" n="84"/>quod in intellectu est aliquid, quo determinatur 
+      <lb ed="#L" n="85"/>ad istam intellectionem, quae sic patet, ad 
+      quem<lb ed="#L" break="no" n="86"/>cumque enim actum determinatione indiget 
+      in<lb ed="#L" break="no" n="87"/>tellectus, respectu cuius potest recte, &amp; erronee 
+      <lb ed="#L" n="88"/>se habere, sed respectu veritatis conclusionis 
+      co<lb ed="#L" break="no" n="89"/>gnoscendae potest errare intellectus, vt patet in 
+      <lb ed="#L" n="90"/>errantibus, &amp; deceptis. ergo necesse est ponere 
+      <lb ed="#L" n="91"/>aliquid determinans intellectum ad huiusmodi 
+      <lb ed="#L" n="92"/>actum rectum. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1692">
+                  <lb ed="#L" n="93"/>Praeterea: sicut se habet voluntas ad eligere, 
+      <lb ed="#L" n="94"/>sic intellectus ad huiusmodi scire; sed voluntas 
+      <lb ed="#L" n="95"/>indiget aliquo determinante ipsam ad rectam ele 
+      <lb ed="#L" n="96"/>ctionem, vt Philosophus dicit: ergo intellectus 
+      <lb ed="#L" n="97"/>similiter indigebit. Quarta vero conditio est, 
+      <lb ed="#L" n="98"/>quod illud tale est aliud a demonstratione 
+      me<lb ed="#L" break="no" n="99"/>moriter retenta: constat enim, quod 
+      demonstra<lb ed="#L" break="no" n="100"/>tio cogit, &amp; determinat intellectum ad 
+      huius<lb ed="#L" break="no" n="101"/>modi actum in fine deductionis: impossibile est 
+      <lb ed="#L" n="102"/>enim intellectum cognoscere veritatem 
+      maio<lb ed="#L" break="no" n="103"/>ris propositionis, quae est principium, &amp; 
+      copu<lb ed="#L" break="no" n="104"/>lationem minoris propositionis ad eam, quin sta 
+      <lb ed="#L" n="105"/>tim circa conclusionem eliciat actum 
+      transeun<lb ed="#L" break="no" n="106"/>tem super principium simul, &amp; conclusionem 
+      <lb ed="#L" n="107"/>immo super ipsam, propter principium: 
+      con<lb ed="#L" break="no" n="108"/>stat ergo, quod demonstratio ad hunc actum 
+      de<lb ed="#L" break="no" n="109"/>terminat intellectum, &amp; ideo dicitur 
+      syllogis<lb ed="#L" break="no" n="110"/>mus Apodyticon, idest, faciens scire: sed quod 
+      <lb ed="#L" n="111"/>ex determinatione aliquis habitus relinquatur, 
+      <lb ed="#L" n="112"/>quo intellectus habituatus sit respectu talis 
+      a<lb ed="#L" break="no" n="113"/>ctus; potest rationibus declarari: constat enim, 
+      <lb ed="#L" n="114"/>quod omnis actus generat habitum conformem 
+      <lb ed="#L" n="115"/>in potentia, secundum Philosophum. Ex 
+      frequen<lb ed="#L" break="no" n="116"/>ti enim citharizare efficitur quis citharedus. 
+      <lb ed="#L" n="117"/>ergo non apparet, quin iste actus aliquam 
+      incli<lb ed="#L" break="no" n="118"/>nationem in intellectu, &amp; habitum derelinquat 
+      <lb ed="#L" n="119"/>respectu sui. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1753">
+                  <lb ed="#L" n="120"/>Praeterea: Voluntas est magis libera, quam 
+      in<lb ed="#L" break="no" n="121"/>tellectus; sed non semper mouetur ad eligere ex 
+      <lb ed="#L" n="122"/>appetitu finis, &amp; discursu consilij, ac applicatione 
+      <lb ed="#L" n="123"/>eius, quod est ad ipsum finem: immo mouetur 
+      <lb ed="#L" n="124"/>subito, &amp; repente absque consilio, &amp; discursu ex 
+      ha<lb ed="#L" break="no" n="125"/>bitibus elicitis, secundum Philosophum 
+      dicen<lb ed="#L" break="no" n="126"/>tem, quod virtus maxime apparet in 
+      repenti<lb ed="#L" break="no" n="127"/>nis actibus. ergo, &amp; intellectus non semper 
+      de<lb ed="#L" break="no" n="128"/>terminatur ad intellectionem cadentem super 
+      <lb ed="#L" n="129"/>veritatem conclusionis, &amp; principij ex discursu 
+      <lb ed="#L" n="130"/>syllogistico, &amp; demonstratione; immo ex habitu. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1779">
+                  <lb ed="#L" n="131"/>Praeterea: Experimur aliquando videre 
+      veri<lb ed="#L" break="no" n="132"/>tatem conclusionis, ex relucentia veritatis prin 
+      <lb ed="#L" n="133"/>cipij, absque hoc, quod discurramus 
+      syllogisti<lb ed="#L" break="no" n="134"/>ce, aut prae demonstremus in mente, &amp; hoc ma- 
+      <!--0047.xml-->
+      <pb ed="#L" n="47"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>xime experiuntur habituati in scientijs, vnde, &amp; 
+      <lb ed="#L" n="2"/>in artibus apparet, quod praesumuntur conclusio 
+      <lb ed="#L" n="3"/>nes operationum sine deliberatione a bene 
+      habi<lb ed="#L" break="no" n="4"/>tuatis, iuxta illud: Ars non deliberat, sed talis actus 
+      <lb ed="#L" n="5"/>non apparet in intellectu habituati, si semper 
+      de<lb ed="#L" break="no" n="6"/>terminaretur ex demonstratione memoriter 
+      re<lb ed="#L" break="no" n="7"/>tenta, &amp; non ex habitu: ergo habitus alius est in eis. 
+      <lb ed="#L" n="8"/>Vltima ergo conditio est, quod illud tale est 
+      im<lb ed="#L" break="no" n="9"/>mansiuum, &amp; permanens: ita enim dicit 
+      Philoso<lb ed="#L" break="no" n="10"/>phus, quod scientia est habitus immansiuus, &amp; 
+      ve<lb ed="#L" break="no" n="11"/>ridicus, &amp; lib. Praedicamentorum, quod scientia 
+      <lb ed="#L" n="12"/>est habitus de difficili mobilis, &amp; sic patet tota 
+      <lb ed="#L" n="13"/>notificatio habitus scientifici superius introducta. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c13061-Dd1e1826">
+               <head xml:id="ol96b1-c13061-Hd1e1828">Articulus 2</head>
+               <p xml:id="ol96b1-c13061-d1e1830">
+                  <lb ed="#L" n="14"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1835">
+                  <lb ed="#L" n="15"/>Quid tenendum sit de vnitate habitus 
+      scientifi<lb ed="#L" break="no" n="16"/>ci iuxta illud, quod videtur. 
+      <lb ed="#L" n="17"/>bus propositionibus. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1844">
+                  <lb ed="#L" n="18"/>Prima quidem, quod vnitas huiusmodi est 
+      cu<lb ed="#L" break="no" n="19"/>iusdam totalitatis. Sciendum est enim, quod 
+      <lb ed="#L" n="20"/>habitum esse vnum quadrupliciter potest 
+      intel<lb ed="#L" break="no" n="21"/>ligi. Primo quidem, vt vnus sit vnitate 
+      simpli<lb ed="#L" break="no" n="22"/>citatis, &amp; indiuisibilitatis, &amp; sic est 
+      impossibi<lb ed="#L" break="no" n="23"/>le esse vnum, vt probatum est contra primos opi 
+      <lb ed="#L" n="24"/>nantes. Secundo vero, vt sit vnus vnitate 
+      con<lb ed="#L" break="no" n="25"/>tinuitatis, sicut albedo habens multas partes in 
+      <lb ed="#L" n="26"/>potentia est vna formaliter continua, nec sic 
+      <lb ed="#L" n="27"/>etiam est possibile, cum nulla forma, quae continua 
+      <lb ed="#L" n="28"/>sit, &amp; quanta, possit esse subiectiue in intellectu. 
+      <lb ed="#L" n="29"/>Tertio quoque sit vnus vnitate cuiusdam actus, 
+      <lb ed="#L" n="30"/>eo modo quo habitus Grammaticae, &amp; Logicae, &amp; 
+      <lb ed="#L" n="31"/>Geometriae in eadem anima aggregantur, &amp; mul 
+      <lb ed="#L" n="32"/>ti lapides in cumulo vno, &amp; sic scientia est vna; 
+      <lb ed="#L" n="33"/>si quaelibet conclusio haberet habitum proprium, 
+      <lb ed="#L" n="34"/>&amp; perfectum, quod impossibile fore supra 
+      pro<lb ed="#L" break="no" n="35"/>batum est. Quarto vero, vt sit vnus vnitate 
+      cu<lb ed="#L" break="no" n="36"/>iusdam totalitatis, sicut in corporalibus domus 
+      <lb ed="#L" n="37"/>est vna ratione vnius formae, &amp; figura 
+      composi<lb ed="#L" break="no" n="38"/>ta ex pluribus lineis est vna ratione formae 
+      tota<lb ed="#L" break="no" n="39"/>lis ex illis lineis resultantis; &amp; hoc modo 
+      habi<lb ed="#L" break="no" n="40"/>tus scientificus in anima obtinet vnitatem. 
+      <lb ed="#L" n="41"/>Secunda vero propositio est, quod scientia 
+      pro<lb ed="#L" break="no" n="42"/>prie, &amp; improprie sumi potest, cum enim in intel 
+      <lb ed="#L" n="43"/>lectu scientis sit memoria demonstrationis ex quo 
+      <lb ed="#L" n="44"/>cognitio conclusionis causata est in mente, &amp; sit 
+      <lb ed="#L" n="45"/>habitus congregatiuus conclusionis, cuius actus 
+      <lb ed="#L" n="46"/>est scire, &amp; intelligere veritatem conclusionis ex 
+      <lb ed="#L" n="47"/>veritate, &amp; entitate principij, vt iam extitit 
+      de<lb ed="#L" break="no" n="48"/>claratum. secundum quidem proprie, primum 
+      <lb ed="#L" n="49"/>vero large scientia dici potest; demonstrationes 
+      <lb ed="#L" n="50"/>namque memoriter retentae totius vnius scientiae, 
+      <lb ed="#L" n="51"/>vtputa Geometriae communi nomine, &amp; 
+      impro<lb ed="#L" break="no" n="52"/>prio dicitur scientia: clarum est enim, quod non 
+      <lb ed="#L" n="53"/>est scientia proprie dicta, cum non sit habitus 
+      <lb ed="#L" n="54"/>conclusionis, sed totius deductionis, nec 
+      genere<lb ed="#L" break="no" n="55"/>tur ex demonstratione; sed sit ipsa 
+      demonstra<lb ed="#L" break="no" n="56"/>tio memoriter retenta, loquendo ergo hoc 
+      mo<lb ed="#L" break="no" n="57"/>do de scientia dici potest, quod habet vnitatem 
+      <lb ed="#L" n="58"/>cuiusdam ordinis, &amp; totius, sicut oratio, vel 
+      syllo<lb ed="#L" break="no" n="59"/>gismus, cum non sit aliud quam species maioris 
+      <lb ed="#L" n="60"/>extremitatis, &amp; medij, &amp; copulae vtriusque necnō, 
+      <lb ed="#L" n="61"/>&amp; minoris extremitatis, &amp; copulae ipsius cum 
+      me<lb ed="#L" break="no" n="62"/>dio, &amp; demum copulae maioris extremitatis cum 
+      <lb ed="#L" n="63"/>minori in intellectu tenaciter remanentes: ex 
+      spe<lb ed="#L" break="no" n="64"/>RTVNc dicendum, quod videtur de 
+      habiti<lb ed="#L" break="no" n="65"/>Vbus scientificis vnitate numerali sub tri- 
+      <!--0047.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>ciebus enim istorum habens eas, potest, cum vult 
+      <lb ed="#L" n="67"/>in demonstrationis actualem memoriam deuenire. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e1959">
+                  <lb ed="#L" n="68"/>Tertia vero propositio est, quod scientia 
+      <lb ed="#L" n="69"/>proprie dicta, quae non est aliud, quam 
+      habi<lb ed="#L" break="no" n="70"/>tus cognitiuus omnium conclusionum vnius 
+      <lb ed="#L" n="71"/>scientiae; cuius quidem habitus, actus sunt 
+      in<lb ed="#L" break="no" n="72"/>Ellectiones super veritates conclusionum 
+      om<lb ed="#L" break="no" n="73"/>nium transeuntes; haec quidem scientia 
+      vnita<lb ed="#L" break="no" n="74"/>tem habet, non simplicitatis, &amp; 
+      indiuisibilita<lb ed="#L" break="no" n="75"/>tis omnimodae; sed cuiusdam totalitatis vnius 
+      <lb ed="#L" n="76"/>formae; est autem ista forma connexio omnium 
+      <lb ed="#L" n="77"/>partialium habituum, vel secundum longum, vel 
+      <lb ed="#L" n="78"/>secundum latum, sicut enim dicit Philosophus: 
+      <lb ed="#L" n="79"/>demonstrationes densantur dupliciter, vno 
+      mo<lb ed="#L" break="no" n="80"/>do in prius assumendo, vt cum ex vna 
+      conclusio<lb ed="#L" break="no" n="81"/>ne infertur alia demonstratiue, &amp; istarum 
+      con<lb ed="#L" break="no" n="82"/>clusionum connexio est secundum longum, quae 
+      <lb ed="#L" n="83"/>quidem connexio locum habet in passionibus or 
+      <lb ed="#L" n="84"/>dinatis, secundum mediationem, &amp; 
+      immediatio<lb ed="#L" break="no" n="85"/>nem ad primum subiectum: alio modo densantur 
+      <lb ed="#L" n="86"/>secundum latum, vt cum ex eodem medio plures 
+      <lb ed="#L" n="87"/>passiones concluduntur de subiecto, non ad 
+      in<lb ed="#L" break="no" n="88"/>uicem ordinatae; istae quidem conclusiones sunt 
+      <lb ed="#L" n="89"/>secundum latum cōnexae, quia ergo habitus 
+      co<lb ed="#L" break="no" n="90"/>aptantur onclusionibus cognitis, vniuersitas 
+      <lb ed="#L" n="91"/>habituum, quibus conclusiones huiusmodi 
+      co<lb ed="#L" break="no" n="92"/>gnoscuntur, connexa erit in se, vel secundum 
+      <lb ed="#L" n="93"/>longum, &amp; post sumptionem, vel secundum 
+      la<lb ed="#L" break="no" n="94"/>tum, &amp; concatenationem ad idem medium, est 
+      <lb ed="#L" n="95"/>autem haec connexio non ordinis cuiuscumque, 
+      <lb ed="#L" n="96"/>sed perfectibilis, &amp; perfectionis: secundus enim 
+      <lb ed="#L" n="97"/>perficitur per primum, &amp; econuerso, nam 
+      cogni<lb ed="#L" break="no" n="98"/>tio secundae conclusionis est per primam, &amp; 
+      inte<lb ed="#L" break="no" n="99"/>rim prima perfectius cognoscitur viso, 
+      quomo<lb ed="#L" break="no" n="100"/>do ex ea sequitur secunda. Duae etiam ex eodem 
+      <lb ed="#L" n="101"/>medio reducte perficiunt se ad inuicem, viso enim, 
+      <lb ed="#L" n="102"/>quod ex medio sequitur vna conclusio: medium 
+      <lb ed="#L" n="103"/>illud perfectius cognoscitur; medio autem 
+      per<lb ed="#L" break="no" n="104"/>fectius cognito, necesse est reliqua perfectius co 
+      <lb ed="#L" n="105"/>gnoscantur. ergo secundum hoc omnes istae 
+      con<lb ed="#L" break="no" n="106"/>clusiones in cognoscendo erunt concatenatae, 
+      <lb ed="#L" n="107"/>vt quasi habeant rationem vnius integri 
+      cogno<lb ed="#L" break="no" n="108"/>scibilis, &amp; totalis; &amp; per consequens habitus 
+      ea<lb ed="#L" break="no" n="109"/>rundem habebunt rationem vnius totalis 
+      habi<lb ed="#L" break="no" n="110"/>tus cogniti. Quod autem haec vnitas sufficiat 
+      <lb ed="#L" n="111"/>pro habitu scientiali, patet ex duobus; primo 
+      <lb ed="#L" n="112"/>quidem, quia est vnitas formalis; sicut enim 
+      ra<lb ed="#L" break="no" n="113"/>tione vnionis maioris extremitatis, &amp; minoris 
+      <lb ed="#L" n="114"/>in medio syllogismus est vnus vnitate formali, 
+      <lb ed="#L" n="115"/>sic ratione istius ordinis perfectiui, &amp; vnionis 
+      <lb ed="#L" n="116"/>cognoscitiuae: scientia vna erit vnitate formali. 
+      <lb ed="#L" n="117"/>Secuudo vero, quia tali posita vnitate saluantur 
+      <lb ed="#L" n="118"/>omnia, quae de scientia dicuntur, quia, &amp; 
+      appa<lb ed="#L" break="no" n="119"/>ret quomodo stat error conclusionis centesimae, 
+      <lb ed="#L" n="120"/>cum scientia primae, &amp; quomodo successiue 
+      ac<lb ed="#L" break="no" n="121"/>quiratur scientia, &amp; quomodo non sunt tot 
+      scien<lb ed="#L" break="no" n="122"/>tiae naturales, quot sunt conclusiones 
+      cognosci<lb ed="#L" break="no" n="123"/>biles per eandem, &amp; quomodo habens notitiam 
+      <lb ed="#L" n="124"/>primi lib. Physic. non dicitur perfectus Physicus, 
+      <lb ed="#L" n="125"/>sed imperfectus: quoniam omnes conclusiones 
+      <lb ed="#L" n="126"/>naturales scientiae habent rationem vnius 
+      perfe<lb ed="#L" break="no" n="127"/>cti cognoscibilis, &amp; illuminant se mutuo, 
+      decla<lb ed="#L" break="no" n="128"/>rant, &amp; iuuant, iuxta illud: Vnusquisque bene 
+      iu<lb ed="#L" break="no" n="129"/>dicat, quae nouit, &amp; horum est bonus iudex, 
+      cu<lb ed="#L" break="no" n="130"/>ius intellectus est, quod vnusquisque bene 
+      iudi<lb ed="#L" break="no" n="131"/>cat in materia, in qua nutritus est, &amp; notus, etiam 
+      <lb ed="#L" n="132"/>de conclusionibus, quae nouiter proponuntur, vt 
+      <!--0048.xml-->
+      <pb ed="#L" n="48"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Iurista de Casibus, &amp; sic de alijs artificibus: sic 
+      <lb ed="#L" n="2"/>ergo patet qualis est habituum vnitas 
+      numera<lb ed="#L" break="no" n="3"/>lis, quia est vnitas cuiusdam vnius luminis, &amp; 
+      <lb ed="#L" n="4"/>perfecti, &amp; integri cognoscitiui. de vnitate 
+      au<lb ed="#L" break="no" n="5"/>tem specifica, &amp; formali in artic. 4. dicetur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c13061-Dd1e2121">
+               <head xml:id="ol96b1-c13061-Hd1e2123">Articulus 3</head>
+               <p xml:id="ol96b1-c13061-d1e2125">
+                  <lb ed="#L" n="6"/>ARTJCVLVS TERTJVS 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2130">
+                  <lb ed="#L" n="7"/>Opinio Thomae par. I. quaest. I. artic. 3.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2135">
+                  <lb ed="#L" n="8"/>CIRCA tertium ergo considerandum est, 
+      <lb ed="#L" n="9"/>quod aliqui dicere voluerunt, Theologiam 
+      <lb ed="#L" n="10"/>esse habitum vnum, pro eo, quod ad omnia, quae 
+      <lb ed="#L" n="11"/>considerat se extendit inquantum sunt diuinitus 
+      <lb ed="#L" n="12"/>reuelabilia: propter quod Angelus, &amp; homo, 
+      <lb ed="#L" n="13"/>Deus, &amp; creatura, &amp; quaecumque alia cadunt 
+      <lb ed="#L" n="14"/>sub ipsius consideratione quantumcumque 
+      di<lb ed="#L" break="no" n="15"/>uersa sint, non tollunt eius vnitatem, quia omnia 
+      <lb ed="#L" n="16"/>in hoc conueniunt, quod sunt a Deo reuelabilia, 
+      <lb ed="#L" n="17"/>&amp; sic de eis tractat Theologia: &amp; quia Diuina 
+      re<lb ed="#L" break="no" n="18"/>uelatio se habet per modum luminis in hac 
+      scien<lb ed="#L" break="no" n="19"/>tia, sequitur, quod ex luminis vnitate Theologia 
+      <lb ed="#L" n="20"/>sit vna. Haec autem opinio potest tribus 
+      rationi<lb ed="#L" break="no" n="21"/>bus fulciri superius in arguendo secundo loco 
+      in<lb ed="#L" break="no" n="22"/>ductis; quibus tamen non obstantibus, minime 
+      <lb ed="#L" n="23"/>stare potest, sicut enim se habet Diuina 
+      reuela<lb ed="#L" break="no" n="24"/>tio, &amp; illustratio ad reuelata, &amp; cognita per 
+      re<lb ed="#L" break="no" n="25"/>uelationem; sic se habet intellectus agentis 
+      illu<lb ed="#L" break="no" n="26"/>minatio, &amp; illustratio ad ea, quae cognoscuntur 
+      <lb ed="#L" n="27"/>per ipsius illuminationem, sed cognita per 
+      illu<lb ed="#L" break="no" n="28"/>strationem luminis intellectus, pertinent ad 
+      di<lb ed="#L" break="no" n="29"/>uersas scientias Physicas, &amp; humanitus adinuen 
+      <lb ed="#L" n="30"/>tas, quantumcumque non cognoscantur, nisi vt 
+      <lb ed="#L" n="31"/>reuelata, &amp; habita ex intellectus illustratione: 
+      <lb ed="#L" n="32"/>ergo, &amp; ea, quae per Diuinam reuelationem 
+      co<lb ed="#L" break="no" n="33"/>gnita sunt, ad plures diuersas scientias potuerunt 
+      <lb ed="#L" n="34"/>pertinere, quantumcumque non cognoscantur, 
+      <lb ed="#L" n="35"/>nisi quatenus reuelata.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2198">
+                  <lb ed="#L" n="36"/>Praeterea: Isti dicunt, quod obiecta 
+      materia<lb ed="#L" break="no" n="37"/>lia non distinguunt habitum, dum tamen 
+      forma<lb ed="#L" break="no" n="38"/>lis ratio sit eadem; &amp; addunt quod, quia omnia 
+      <lb ed="#L" n="39"/>considerata in Theologia, considerantur inquan 
+      <lb ed="#L" n="40"/>tum Diuinitus reuelabilia: idcirco est vna, ex 
+      <lb ed="#L" n="41"/>quo apparet, quod esse reuelabile est formalis 
+      <lb ed="#L" n="42"/>ratio obiectiua in subiecto Theologiae, quod 
+      qui<lb ed="#L" break="no" n="43"/>dem stare non potest secundum eorum dicta, 
+      <lb ed="#L" n="44"/>vnius enim scientiae est vnum formale obiectum, 
+      <lb ed="#L" n="45"/>&amp; sub vna ratione formali; sed secundum eos, 
+      <lb ed="#L" n="46"/>Deus sub ratione deitatis est subiectum 
+      Theolo<lb ed="#L" break="no" n="47"/>giae; ratio autem Deitatis, &amp; ratio reuclabilis 
+      <lb ed="#L" n="48"/>non sunt idem, cum reuelabile sit relatio; 
+      Dei<lb ed="#L" break="no" n="49"/>tas autem est quid absolutum. ergo impossibile 
+      <lb ed="#L" n="50"/>est, quod esse reuelabile sit formalis ratio 
+      obie<lb ed="#L" break="no" n="51"/>ctiua in Theologia, cuius oppositum ipsi dicunt: 
+      <lb ed="#L" n="52"/>vnde non apparet, quin ista duo repugnent, 
+      vide<lb ed="#L" break="no" n="53"/>licet, quod Deus sit subiectum Theologiae 
+      inquan<lb ed="#L" break="no" n="54"/>tum Deus, &amp; quod esse reuelabile sit formalis 
+      <lb ed="#L" n="55"/>ratio obiectiua. ergo non est vna Theologia, 
+      <lb ed="#L" n="56"/>quia omnia considerat in quantum sunt 
+      Diuini<lb ed="#L" break="no" n="57"/>tus reuelata. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2249">
+                  <lb ed="#L" n="58"/>Praeterea: Possibile est aliquem scire 
+      Geome<lb ed="#L" break="no" n="59"/>tricalia, &amp; Physica, ac moralia in quantum 
+      Di<lb ed="#L" break="no" n="60"/>uinitus reuelata, vt si cui Deus infunderet 
+      scien<lb ed="#L" break="no" n="61"/>tias istas, sicut forsan infudit Salomoni, sed 
+      ta<lb ed="#L" break="no" n="62"/>lis haberet plures scientias, &amp; plures habitus, 
+      <lb ed="#L" n="63"/>non obstante, quod omnia cognosceret 
+      quate<lb ed="#L" break="no" n="64"/>nus Diuinitus reuelata. ergo pari ratione in 
+      <!--0048.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>Theologia plures habitus possunt esse, non 
+      obstan<lb ed="#L" break="no" n="66"/>te reuelatione eorum 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2275">
+                  <lb ed="#L" n="67"/>Praeterea: Deus in reuelanda Theologia, se 
+      <lb ed="#L" n="68"/>habuit per modum praecipui Doctoris; sed ab 
+      <lb ed="#L" n="69"/>eodem Doctore potest homo plures scientias 
+      ac<lb ed="#L" break="no" n="70"/>quirere, &amp; plures habitus; non obstante, quod 
+      <lb ed="#L" n="71"/>semper maneat Doctor idem: ergo Theologia 
+      <lb ed="#L" n="72"/>poterit esse plures habitus, esto, quod 
+      conside<lb ed="#L" break="no" n="73"/>ret Diuinitus reuelata. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2293">
+                  <lb ed="#L" n="74"/>Opinio Henrici Anglici in 1. quolibeto quaest. 3.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2298">
+                  <lb ed="#L" n="75"/>ET propter hoc dixerunt alij, quod lumen, 
+      si<lb ed="#L" break="no" n="76"/>L ue euidentia causat vtique habitus 
+      vnita<lb ed="#L" break="no" n="77"/>tem, sed habituum quidam sunt, qui euidentiam 
+      <lb ed="#L" n="78"/>suam trahunt ex obiecto, nam conclusio habet 
+      <lb ed="#L" n="79"/>euidentiam ex principijs, &amp; principia ex 
+      termi<lb ed="#L" break="no" n="80"/>nis, &amp; terminorum alter, scilicet praedicatum 
+      <lb ed="#L" n="81"/>cum sit propria passio, habet euidentiam ex 
+      al<lb ed="#L" break="no" n="82"/>tero, scilicet ex subiecto, &amp; per consequens 
+      to<lb ed="#L" break="no" n="83"/>tus habitus euidentiam habet ab eo, quidam ve 
+      <lb ed="#L" n="84"/>ro alij sunt, qui non habent euidentiam ex 
+      obie<lb ed="#L" break="no" n="85"/>cto, sed tantum ex auctoritate dicentis, sicut 
+      pa<lb ed="#L" break="no" n="86"/>tet de fide: primi itaque habitus distinguuntur ex 
+      <lb ed="#L" n="87"/>obiecto: alij vero ex auctoritate, &amp; euidentia 
+      <lb ed="#L" n="88"/>quam trahunt a reuelante; &amp; ideo fides est vnus 
+      <lb ed="#L" n="89"/>habitus, quamuis credibilia sint diuersa, quia 
+      er<lb ed="#L" break="no" n="90"/>go Theologia est de istis habitibus, qui non 
+      tra<lb ed="#L" break="no" n="91"/>hunt euidentiam ab obiecto, sed ex auctoritate 
+      <lb ed="#L" n="92"/>Dei reuelantis, idcirco a reuelatione, &amp; lumine 
+      <lb ed="#L" n="93"/>trahit vnitatem; sed haec positio stare non 
+      po<lb ed="#L" break="no" n="94"/>test: habitus namque Theologicus non est habitus 
+      <lb ed="#L" n="95"/>adhaesiuus, sed declaratiuus, vt supra probatum 
+      <lb ed="#L" n="96"/>est, claritatem autem, &amp; euidentiam quam dat ille 
+      <lb ed="#L" n="97"/>habituus, trahit ex propositionibus 
+      probabili<lb ed="#L" break="no" n="98"/>bus, &amp; solutione dubiorum, &amp; expositione 
+      ter<lb ed="#L" break="no" n="99"/>minorum; sed talis euidentia est ex puris 
+      natu<lb ed="#L" break="no" n="100"/>ralibus, &amp; non ex auctoritate dicentis. ergo 
+      ha<lb ed="#L" break="no" n="101"/>bitus Theologicus non habec euidentiam ex 
+      au<lb ed="#L" break="no" n="102"/>ctoritate dicentis. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2361">
+                  <lb ed="#L" n="103"/>Praeterea: Ille habitus, qui supponit 
+      euiden<lb ed="#L" break="no" n="104"/>tiam tractam ab auctoritate, quae quidem euiden 
+      <lb ed="#L" n="105"/>tia non est aliud, quam adhaesio, &amp; conatur ad 
+      <lb ed="#L" n="106"/>quandam aliam euidentiam ampliorem, ille 
+      qui<lb ed="#L" break="no" n="107"/>dem habitus non trahit euidentiam a dicente; 
+      <lb ed="#L" n="108"/>sed habitus Theologicus supponit adhaesionem 
+      <lb ed="#L" n="109"/>fidei respectu credibilium propter auctoritatem 
+      <lb ed="#L" n="110"/>Dei, &amp; conatur ad intellectum, &amp; aliqualem 
+      eui<lb ed="#L" break="no" n="111"/>dentiam corundem. ergo habitus Theologicus 
+      <lb ed="#L" n="112"/>non est ex illis, qui trahunt euidentiam ex 
+      aucto<lb ed="#L" break="no" n="113"/>ritate docentis, &amp; per consequens, nec vnitatem 
+      <lb ed="#L" n="114"/>Jic. cr ru tiut 'rs teue sartes que- 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2390">
+                  <lb ed="#L" n="115"/>Opinio dicentium quod Theologia habet 
+      vni<lb ed="#L" break="no" n="116"/>tatem ex medio. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2398">
+                  <lb ed="#L" n="117"/>ET ideo visum est alijs, quod ratio vnitatis 
+      <lb ed="#L" n="118"/>in scientia, trahitur ex vnitate medij 
+      pro<lb ed="#L" break="no" n="119"/>batiui, &amp; quia per auctoritatem Diuinam, &amp; 
+      ve<lb ed="#L" break="no" n="120"/>ritatem primam omnia Theologica probantur, 
+      <lb ed="#L" n="121"/>idcirco potest poni habitus vnus. Haec autem po 
+      <lb ed="#L" n="122"/>sitio fulciri potest tribus rationibus tertio loco 
+      <lb ed="#L" n="123"/>in arguendo inductis, quibus non obstantibus 
+      <lb ed="#L" n="124"/>stare non potest: certum est enim, quod 
+      demon<lb ed="#L" break="no" n="125"/>stratio, quia, &amp; proter quid, non procedunt per 
+      <lb ed="#L" n="126"/>medium vni sorme, vt patet; sed conclusio, nota 
+      <!--0049.xml-->
+      <pb ed="#L" n="49"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>per demonstrationem, quia, &amp; propter quid, 
+      po<lb ed="#L" break="no" n="2"/>test ad eundem habitum scientificum pertinere. 
+      <lb ed="#L" n="3"/>Astrologus enim scit, quia eclypsis lunae erit, &amp; 
+      <lb ed="#L" n="4"/>propter quid erit, quia propter interpositionem 
+      <lb ed="#L" n="5"/>terrae inter Solem, &amp; Lunam ipsam: ergo 
+      habi<lb ed="#L" break="no" n="6"/>tus arit vnus, licet media diuersentur: nec valet 
+      <lb ed="#L" n="7"/>si dicatur, quod scientia quia, &amp; propter quid 
+      se<lb ed="#L" break="no" n="8"/>cundum Philosophum sunt diuersae scientiae, hoc 
+      <lb ed="#L" n="9"/>nempe verum est, quod sunt diuersae scientiae par 
+      <lb ed="#L" n="10"/>tiales, sed quin possint esse partes vnius habitus 
+      <lb ed="#L" n="11"/>scientifici tali vnitate, qua superius dictum est, 
+      <lb ed="#L" n="12"/>non est verum 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2455">
+                  <lb ed="#L" n="13"/>Praeterea: Physicus demonstrat per omnes 
+      cau<lb ed="#L" break="no" n="14"/>sas, vt patet a. Phys sed demonstrationes per cau 
+      <lb ed="#L" n="15"/>sas quatuor sumunt media alterius rationis, cum 
+      <lb ed="#L" n="16"/>causae sint alterius rationis, vnde 2. Poster. 
+      po<lb ed="#L" break="no" n="17"/>nuntur quatuor modi demonstrandi, secundum 
+      <lb ed="#L" n="18"/>quatuor causas, vel genera causarum. ergo 
+      iden<lb ed="#L" break="no" n="19"/>titas habitus stare potest cum diuersitate 
+      me<lb ed="#L" break="no" n="20"/>diorum. &amp; confirmatur, quia Philosophus 
+      quae<lb ed="#L" break="no" n="21"/>rit hanc quaestionem, Vtrum omnia genera 
+      cau<lb ed="#L" break="no" n="22"/>sarum pertineant ad eandem scientiam, &amp; dicit 
+      <lb ed="#L" n="23"/>quod sic, vbi dicit Commentator, quod non 
+      in<lb ed="#L" break="no" n="24"/>uenitur, nisi in scientia naturali tantum, quod 
+      a<lb ed="#L" break="no" n="25"/>liqua det orines quatuur causas.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2486">
+                  <lb ed="#L" n="26"/>opinis Scoti, quod Theologia trabit vnitatem ex 
+      <lb ed="#L" n="27"/>ratione formali obiecti. De hoc in 
+      <lb ed="#L" n="28"/>prologo primi Sentent. 
+      <lb ed="#L" n="29"/>quaestio. 3. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2497">
+                  <lb ed="#L" n="30"/>PROPTIREA dixerunt alij, quod scientiae 
+      <lb ed="#L" n="31"/>vnitas sumitur ex obiecto formali: obiectum 
+      <lb ed="#L" n="32"/>i autem formale istius habitus habet summam 
+      v<lb ed="#L" break="no" n="33"/>nitatem, &amp; haec opinio fulciri potest tribus 
+      ratio<lb ed="#L" break="no" n="34"/>nibus quarto loco arguendo superius inductis. 
+      <lb ed="#L" n="35"/>quibus non obstantibus, non sufficit illud dictum. 
+      <lb ed="#L" n="36"/>si enim vnitas rationis sufficit ad causandam 
+      v<lb ed="#L" break="no" n="37"/>nitatem in scientifico habitu, aut haec vnitas est 
+      <lb ed="#L" n="38"/>specifica, aut generis subalterni, aut generis 
+      ge<lb ed="#L" break="no" n="39"/>neralissimi, aut ipsius entis. Sed illa vnitas 
+      ra<lb ed="#L" break="no" n="40"/>tionis formalis, quae facit vnum habitum, non 
+      <lb ed="#L" n="41"/>est vnitas specifica, quoniam tunc tot essent 
+      scien<lb ed="#L" break="no" n="42"/>tiae, quot species specialissimae: nec est generis 
+      <lb ed="#L" n="43"/>subalterni, quia pari modo tot essent scientiae, 
+      <lb ed="#L" n="44"/>quot genera subalterna: nec generis 
+      generalissi<lb ed="#L" break="no" n="45"/>mi, quia tunc essent tantum decem scientiae, 
+      iu<lb ed="#L" break="no" n="46"/>xta numerum praedicamentorum; nec ipsius 
+      en<lb ed="#L" break="no" n="47"/>tis, quia tunc tantum esset vna scientia, maxime 
+      <lb ed="#L" n="48"/>si ens sit vnius rationis. ergo obiectum ex hoc, 
+      <lb ed="#L" n="49"/>quod est vnius rationis, non tribuit habitui 
+      v<lb ed="#L" break="no" n="50"/>nitatem 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2545">
+                  <lb ed="#L" n="51"/>Praeterea: Sicut habitus refertur ad obiectum, 
+      <lb ed="#L" n="52"/>sic &amp; potentia; sed duae potentiae possunt ferri su 
+      <lb ed="#L" n="53"/>per idem obiectum, &amp; sub eadem ratione 
+      se<lb ed="#L" break="no" n="54"/>cundum sic ponentes, &amp; secundum 
+      omnimo<lb ed="#L" break="no" n="55"/>dam veritatem, vt sensus communis, &amp; visus 
+      <lb ed="#L" n="56"/>super colorem, &amp; intellectus, &amp; voluntas 
+      su<lb ed="#L" break="no" n="57"/>per rationem boni. ergo duo habitus ferri 
+      po<lb ed="#L" break="no" n="58"/>terunt super idem obiectum, &amp; sub eadem 
+      ta<lb ed="#L" break="no" n="59"/>tione. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2567">
+                  <lb ed="#L" n="60"/>Praeterea: Opinio, &amp; scientia sunt habitus 
+      <lb ed="#L" n="61"/>diuari, sed posuntesse de eodem, &amp; sub eadem 
+      <lb ed="#L" n="62"/>rationo engo illud quod prius. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2577">
+      <!--0049.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>Opinio, quod ex concursu omnium trabis 
+      <lb ed="#L" n="64"/>vnitatem.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2588">
+                  <lb ed="#L" n="65"/>ET ideo alij dicere voluerunt, quod tam 
+      ob<lb ed="#L" break="no" n="66"/>iectum formale, quam medium, quam idem 
+      <lb ed="#L" n="67"/>lumen exigitur ad habitus vnitatem, &amp; quia Theo 
+      <lb ed="#L" n="68"/>logia habet haec tria, ideo est summe vna. haec 
+      <lb ed="#L" n="69"/>autem opinio fulciri potest duabus rationibus 
+      <lb ed="#L" n="70"/>quinto loco arguendo superius inductis: quae 
+      qui<lb ed="#L" break="no" n="71"/>dem stare non potestiquia medijs variatis, potest 
+      <lb ed="#L" n="72"/>habitus vnus, &amp; vniformis manere, vt inductum 
+      <lb ed="#L" n="73"/>est supra de scientia naturali, quae demonstrat 
+      <lb ed="#L" n="74"/>per omnes causas, &amp; de scientia, quae dicit quia, 
+      <lb ed="#L" n="75"/>&amp; propter quid de eodem.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2614">
+                  <lb ed="#L" n="76"/>Praeterea: In habentibus ordinem, primum 
+      vi<lb ed="#L" break="no" n="77"/>detur esse causa, sed lumen, medium, &amp; formalis 
+      <lb ed="#L" n="78"/>ratio obiecti sunt inuicem ordinata: ex formali 
+      <lb ed="#L" n="79"/>enim ratione obiecti oritur vnitas definitionis, 
+      <lb ed="#L" n="80"/>&amp; medij, &amp; ex medio oritur euidentia, &amp; lumen. 
+      <lb ed="#L" n="81"/>ergo quamuis ista concurrant ad vnitatem scieti 
+      <lb ed="#L" n="82"/>tiae, aliquod tamen videtur habere prioritatem 
+      <lb ed="#L" n="83"/>in causando. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2634">
+                  <lb ed="#L" n="84"/>Opinio Gofredi, quod sit habitus plures. 
+      <lb ed="#L" n="85"/>quolib. 20. quaest. 1. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2641">
+                  <lb ed="#L" n="86"/>QVAPROPTER alij vnitatem habitus 
+      Theo<lb ed="#L" break="no" n="87"/>logici simpliciter negantes, dixerunt, 
+      <lb ed="#L" n="88"/>quod non est vna simpliciter pro eo, quod est 
+      de<lb ed="#L" break="no" n="89"/>operabilibus aeque perfecta, sicut Moralis 
+      huma<lb ed="#L" break="no" n="90"/>nitus adinuenta, &amp; de speculabilibus aeque 
+      per<lb ed="#L" break="no" n="91"/>fecta sicut Metaphysica, &amp; per consequens sunt 
+      <lb ed="#L" n="92"/>duo habitus, vnus practicus, &amp; alius 
+      speculati<lb ed="#L" break="no" n="93"/>uus: habent tamen inter se connexionem 
+      maio<lb ed="#L" break="no" n="94"/>rem, quam Metaphysica, &amp; Moralis, propter bea 
+      <lb ed="#L" n="95"/>titudinem, ad quam tamquam ad finem 
+      proxi<lb ed="#L" break="no" n="96"/>mum ordinantur: Moralis autem, &amp; 
+      Metaphy<lb ed="#L" break="no" n="97"/>sica non ordinantur ad vnum finem communem 
+      <lb ed="#L" n="98"/>extra se, quamuis Moralis ad Metaphysicam 
+      ordi<lb ed="#L" break="no" n="99"/>netur. Haec autem opinio fulciri potest 
+      ratio<lb ed="#L" break="no" n="100"/>nibus duabus sexto loco inductis ad oppositum 
+      <lb ed="#L" n="101"/>arguendo. Quibus non obstantibus multum est 
+      <lb ed="#L" n="102"/>irrationalis, vt videtur. constat enim, quod nulla 
+      <lb ed="#L" n="103"/>inordinatio aut Deo, aut huic scientiae dari 
+      de<lb ed="#L" break="no" n="104"/>bet: sed si essent duo habitus, Deus eam 
+      in<lb ed="#L" break="no" n="105"/>ordinatissime tradidisset, quoniam infra 
+      par<lb ed="#L" break="no" n="106"/>uam distantiam tractat de moribus, &amp; 
+      speculabi<lb ed="#L" break="no" n="107"/>libus simul, &amp; ipsa erit intricata, &amp; inuoluta 
+      <lb ed="#L" n="108"/>vbique, cum fere in quolibet capitulo, &amp; 
+      quali<lb ed="#L" break="no" n="109"/>bet particula duo habitus adinuicem complecte 
+      <lb ed="#L" n="110"/>rentur, &amp; conuoluerentur, speculatiuus 
+      videli<lb ed="#L" break="no" n="111"/>cet, &amp; moralis. ergo non est duo habitus 
+      ali<lb ed="#L" break="no" n="112"/>quo modo.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2702">
+                  <lb ed="#L" n="113"/>Praeterea: Theologia aggregata ex istis 
+      duo<lb ed="#L" break="no" n="114"/>bus habitibus, aut erit vna, quia in eodem 
+      volu<lb ed="#L" break="no" n="115"/>mine alligata, &amp; sic non erit magis vna, quam 
+      <lb ed="#L" n="116"/>liber Auicennae, in cuius exordio ponit 
+      Logi<lb ed="#L" break="no" n="117"/>cam, deinde naturalem scientiam, consequenter 
+      <lb ed="#L" n="118"/>subiunxit Geometriam abbreuiando librum Ele 
+      <lb ed="#L" n="119"/>mentorum Euclidis: de inue posuit 
+      abbreuiatio<lb ed="#L" break="no" n="120"/>nem Almagesti Astrologiam continentem: 
+      dein<lb ed="#L" break="no" n="121"/>de abbreuiationem libri introductorij in 
+      Arith<lb ed="#L" break="no" n="122"/>meticam: deinde totum librum in Met aphysica, 
+      <lb ed="#L" n="123"/>&amp; Morali scientia conclusit, vt ipsemet testatur 
+      <lb ed="#L" n="124"/>in principio eiusdem libri, qui Aschiphe 
+      nomi<lb ed="#L" break="no" n="125"/>natur; aut erit vna, quia ad vnum finem 
+      extrin<lb ed="#L" break="no" n="126"/>secum ordinata, &amp; sic non erit plus vna, quam 
+      <!--0050.xml-->
+      <pb ed="#L" n="50"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>omnes scientiae: cum omnes ordinentur ad 
+      bea<lb ed="#L" break="no" n="2"/>titudinem secundum Auicennam, vel quam duae 
+      <lb ed="#L" n="3"/>mechanicae, puta lanifactiua, &amp; sartoria, vel 
+      la<lb ed="#L" break="no" n="4"/>thomia, &amp; carpentaria, quae ordinantur ad vestem, 
+      <lb ed="#L" n="5"/>quae ordinantur ad domum. ergo non videtur, 
+      <lb ed="#L" n="6"/>quod sint duo habitus. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2755">
+                  <lb ed="#L" n="7"/>Praeterea: Augustinus dicit, loquens de 
+      Theo<lb ed="#L" break="no" n="8"/>logia: Non huic scientiae tribuo quidquid in 
+      hu<lb ed="#L" break="no" n="9"/>manis rebus sciri potest. vbi plurimum est 
+      super<lb ed="#L" break="no" n="10"/>uacuitas, &amp; ♀. de ciuit. Dei, quod Theologia es 
+      <lb ed="#L" n="11"/>sermo, vel ratio de Deo; sed si essent duo habitus 
+      <lb ed="#L" n="12"/>improprie dixisset huic scientiae, est sermo de 
+      <lb ed="#L" n="13"/>Deo: debuisset namque dixisse ijs scientijs sunt 
+      <lb ed="#L" n="14"/>sermones de Deo. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2775">
+                  <lb ed="#L" n="15"/>Praeterea: Sicut habitus Theologicus ad 
+      ope<lb ed="#L" break="no" n="16"/>rabilia, &amp; speculabilia se extendit, sic &amp; fides: ad 
+      <lb ed="#L" n="17"/>speculabilia quidem, vt cum creditur Deus 
+      tri<lb ed="#L" break="no" n="18"/>nus, ad operabilia vero, vt cum dicitur 
+      fornica<lb ed="#L" break="no" n="19"/>tio simplex esse peccatum mortale, &amp; 
+      vniuersa<lb ed="#L" break="no" n="20"/>liter tota Scriptura quoad speculatiua, &amp; 
+      mora<lb ed="#L" break="no" n="21"/>lia eadit sub fide, sed non obstante hoc, fides est 
+      <lb ed="#L" n="22"/>habitus vnus, quia omnibus adhaeret propter: 
+      <lb ed="#L" n="23"/>primam veritatem. ergo &amp; Theologia erit 
+      habi<lb ed="#L" break="no" n="24"/>tus. vnus, qui tractat de omnibus, prout 
+      attri<lb ed="#L" break="no" n="25"/>buuntur aliquo modo ad rationem Deitatis. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2801">
+                  <lb ed="#L" n="26"/>Praeterea: Illud cui innititur ista positio non 
+      <lb ed="#L" n="27"/>est verum, videlicet quod Theologia sit 
+      simpli<lb ed="#L" break="no" n="28"/>citer practica, &amp; simpliciter spe culatiua, &amp; hoc 
+      <lb ed="#L" n="29"/>sufficiat de opinionibus Doctorum 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c13061-Dd1e2813">
+               <head xml:id="ol96b1-c13061-Hd1e2815">Articulus 4</head>
+               <p xml:id="ol96b1-c13061-d1e2817">
+                  <lb ed="#L" n="30"/>ARTJCVLVS QVARTVS. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2822">
+                  <lb ed="#L" n="31"/>Vnde sumatur vnitas habitus Theologiae, &amp; alio, 
+      <lb ed="#L" n="32"/>rum, iuxta illud, quod videtur. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2829">
+                  <lb ed="#L" n="33"/>
+                  <!-- line coord error -->
+                  <lb ed="#L" n="34"/>TVNc ergo dicendum quod videtur sub 
+      <lb ed="#L" n="35"/>duabus propositionibus. 
+      <lb ed="#L" n="36"/>Prima quidem, quod omnis habitus scientifici 
+      <lb ed="#L" n="37"/>vnitas sumitur ex vno modo specifico 
+      cogno<lb ed="#L" break="no" n="38"/>scendi, &amp; modo sciendi eiusdem rationis, quae 
+      po<lb ed="#L" break="no" n="39"/>test multipliciter declarari. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2849">
+                  <lb ed="#L" n="40"/>Primo quidem ex ratione causae: agens enim 
+      <lb ed="#L" n="41"/>alterius rationis, inducit effectum specifice 
+      di<lb ed="#L" break="no" n="42"/>stinctum, sed principia, &amp; deductio 
+      demonstrati<lb ed="#L" break="no" n="43"/>ua sunt quasi agentia respectu notitiae 
+      conclusio<lb ed="#L" break="no" n="44"/>nis, &amp; habitus scientifici. hoc patet per 
+      Com<lb ed="#L" break="no" n="45"/>mentatorem dicentem, quod propositiones sunt 
+      <lb ed="#L" n="46"/>quasi instrumenta intellectus agentis in 
+      acquisi<lb ed="#L" break="no" n="47"/>tione scientiae: principia autem sunt alterius 
+      ra<lb ed="#L" break="no" n="48"/>tionis propter alium modum cognoscendi ea: pu 
+      <lb ed="#L" n="49"/>ta per rationalem consuetudinem, quo modo 
+      su<lb ed="#L" break="no" n="50"/>muntur in moralibus secundum Philosophum 
+      <lb ed="#L" n="51"/>vel per experientiam sensualem quomodo. 
+      su<lb ed="#L" break="no" n="52"/>muntur in naturalibus, &amp; medicina, vt patet 1. 
+      <lb ed="#L" n="53"/>Metaphys. vel per inclusionem terminorum 
+      ap<lb ed="#L" break="no" n="54"/>prehensorum imaginarie, quomodo sumuntur in 
+      <lb ed="#L" n="55"/>Mathemacis secundum Philosophum, vel per 
+      ab<lb ed="#L" break="no" n="56"/>stractionem a sensu, &amp; imaginatione quomodo su 
+      <lb ed="#L" n="57"/>muntur in Mathematicis secundum Philosophum 
+      <lb ed="#L" n="58"/>ibidem. &amp; adhuc demonstrationes sunt alterius 
+      <lb ed="#L" n="59"/>rationis. propter modum alium deducendi. Geo 
+      <lb ed="#L" n="60"/>metra enim deducit in puluere, &amp; per 
+      descri<lb ed="#L" break="no" n="61"/>ptiones: Arithmeticus autem per computationes, 
+      <lb ed="#L" n="62"/>&amp; vltra Mathematici demonstrant per causam 
+      <lb ed="#L" n="63"/>formalem: Physicus autem per omnes causas: Meta 
+      <lb ed="#L" n="64"/>physicus autem per finem, &amp; formam, &amp; sic de 
+      <lb ed="#L" n="65"/>alijs. ergo ex modo assumendi principia, &amp; 
+      de<lb ed="#L" break="no" n="66"/>ducendi conclusiones, qui est alterius rationis, 
+      <!--0050.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>necesse est habitus conclusionum, qui sunt 
+      effe<lb ed="#L" break="no" n="68"/>ctus eorum, esse alterius speciei, &amp; rationis: &amp; 
+      <lb ed="#L" n="69"/>per consequens vuitas habitus oritur ex modo 
+      <lb ed="#L" n="70"/>cognoscendi eiusdem speciei.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2924">
+                  <lb ed="#L" n="71"/>Secundo vero ex parte intellectus: habitus 
+      nam<lb ed="#L" break="no" n="72"/>que scientifici, cum sint perfectiones intellectus, 
+      <lb ed="#L" n="73"/>ne cesse est distingui secundum modos se habendi 
+      <lb ed="#L" n="74"/>alterius rationis ipsius intellectus, sed secundum 
+      <lb ed="#L" n="75"/>alium, &amp; alium modum cognoscendi principia. 
+      <lb ed="#L" n="76"/>&amp; demonstrandi conclusiones aliter, &amp; aliter 
+      se<lb ed="#L" break="no" n="77"/>habet intellectus: aliquando namque cognoscit 
+      <lb ed="#L" n="78"/>extensus ad sensibilia sicut in naturalibus, 
+      ali<lb ed="#L" break="no" n="79"/>quando vero extensus ad imaginabilia, situata 
+      <lb ed="#L" n="80"/>quidem sicut in Geometricis: abstracta autem 
+      <lb ed="#L" n="81"/>a situ, sicut in numeris &amp; Arithmeticis, uam 
+      vni<lb ed="#L" break="no" n="82"/>tas, &amp; numerus abstrahit a situ, vt patet I. 
+      Po<lb ed="#L" break="no" n="83"/>ster. aliquando autem circumflexus ad seipsum; 
+      <lb ed="#L" n="84"/>vt cum apprehendit intelligibilia, &amp; simpliciter 
+      <lb ed="#L" n="85"/>abstracta, sicut in Metaphysicis. aliquando vero 
+      <lb ed="#L" n="86"/>cognoscit extensus ad imaginationem simul, &amp; 
+      <lb ed="#L" n="87"/>sensum, vt in Perspectiuis, &amp; Astrologicis, quae 
+      <lb ed="#L" n="88"/>sunt media inter naturalia, &amp; Mathematica, vt 
+      <lb ed="#L" n="89"/>patet 2. Phys. aliquando vero reflexus ad modum 
+      <lb ed="#L" n="90"/>suorum actuum simplicium, &amp; discursiuorum, 
+      si<lb ed="#L" break="no" n="91"/>cut in Logicis, &amp; Rethoricis, &amp; Grammaticis: 
+      <lb ed="#L" n="92"/>aliquando vero ad modum actuum 
+      voluntario<lb ed="#L" break="no" n="93"/>rum sicut in moralibus, &amp; in Ethicis: ergo secun 
+      <lb ed="#L" n="94"/>dum modum cognoscendi alterius rationis: ex 
+      <lb ed="#L" n="95"/>quo oritur quod intellectus se habeat aliter, &amp; 
+      a<lb ed="#L" break="no" n="96"/>liter, necesse est scientias specifice distingui. Et 
+      <lb ed="#L" n="97"/>confirmatur per Philosophum, qui ait, quod 
+      si<lb ed="#L" break="no" n="98"/>cut se habent res ad abstractionem, sic &amp; quae 
+      a<lb ed="#L" break="no" n="99"/>pud intellectum sunt, &amp; 6. Metaphys. dicit tres 
+      <lb ed="#L" n="100"/>speculatiuas scientias esse reales, scilicet 
+      natu<lb ed="#L" break="no" n="101"/>ralem, Mathematicam, &amp; Diuinam propter tres 
+      <lb ed="#L" n="102"/>modos abstractionis.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e2996">
+                  <lb ed="#L" n="103"/>Tertio quoque patet, ex formali ratione 
+      scien<lb ed="#L" break="no" n="104"/>tiae. scientia enim est habitus conclusionis 
+      gene<lb ed="#L" break="no" n="105"/>ratus ex habitu principiorum, &amp; applicatione, 
+      <lb ed="#L" n="106"/>demonstratina, &amp; netessaria principij ad couclu 
+      <lb ed="#L" n="107"/>sionem, sed vnumquodque genus diuersificatur 
+      <lb ed="#L" n="108"/>in species per differentias, rationem formalem 
+      <lb ed="#L" n="109"/>propriam distinguentes, vt pater 7. &amp; 10. 
+      Meta<lb ed="#L" break="no" n="110"/>phys. alatum namque, &amp; non alatum, non 
+      diuer<lb ed="#L" break="no" n="111"/>sificant species animalis, pro éo quod non 
+      diui<lb ed="#L" break="no" n="112"/>dunt cognoscere, &amp; sentire, rationale autem, 
+      <lb ed="#L" n="113"/>&amp; irrationale, quae diuidunt cognoscere, 
+      consti<lb ed="#L" break="no" n="114"/>tuunt, &amp; diuidunt species animalis. ergo 
+      scien<lb ed="#L" break="no" n="115"/>tia specifice distinguetur per hoc, quod erit habi 
+      <lb ed="#L" n="116"/>tus geueratus ex principijs alterius, &amp; alterius 
+      <lb ed="#L" n="117"/>rationis,, &amp; modo demonstrandi alterius 
+      gene<lb ed="#L" break="no" n="118"/>ris, quae sumalij &amp; alij modi cognoscendi; &amp; per 
+      <lb ed="#L" n="119"/>consequens vnitas scientiae orietur ex vno 
+      mo<lb ed="#L" break="no" n="120"/>do cognoscendi. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3038">
+                  <lb ed="#L" n="121"/>Quarto vero idem patet inductiue: illa 
+      nam<lb ed="#L" break="no" n="122"/>que, quae habent proprium modum 
+      coguoscen<lb ed="#L" break="no" n="123"/>di, exigunt prupriam scientiam, &amp; omui, qua 
+      <lb ed="#L" n="124"/>habent eundem modum cognoscendi, ad eandam 
+      <lb ed="#L" n="125"/>scientiam reducuntur: verbi gratlas de 
+      degem<lb ed="#L" break="no" n="126"/>praedicamentis non sunt de cexscientiae, ummo 
+      <lb ed="#L" n="127"/>sub consideratione Physici cadunt numiaa quae 
+      <lb ed="#L" n="128"/>considerat de substantia corporis, &amp; de 
+      magni<lb ed="#L" break="no" n="129"/>tudine quantitatiua, &amp; de qualitatibus 
+      sensibili<lb ed="#L" break="no" n="130"/>bus eiusdem, &amp; de actione, &amp; pussinne rorporum, 
+      <lb ed="#L" n="131"/>&amp; de vbi, &amp; loco, &amp; de quandd. Siltemnors ôuer 
+      <lb ed="#L" n="132"/>spectiuis connexionibus eorundem: ea vero, quae 
+      <lb ed="#L" n="133"/>sub praedicamentis continentur, habent diuer- 
+      <!--0051.xml-->
+      <pb ed="#L" n="51"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sas scientias. de numero enim Arithmetica, de 
+      <lb ed="#L" n="2"/>magnitudine Geometria, &amp; sic de alijs: vnde 
+      <lb ed="#L" n="3"/>de quantitatibus inueniuntur quatuor scientiae, 
+      <lb ed="#L" n="4"/>puta Arithmetica, Geometria, Astrologia, 
+      Musi<lb ed="#L" break="no" n="5"/>ca, cum quantitas cum alijs nouem praedicamentis 
+      <lb ed="#L" n="6"/>infra eandem scientiam includatur: hoc autem 
+      <lb ed="#L" n="7"/>non est, nisi quia omnia decem praedicamenta, 
+      <lb ed="#L" n="8"/>vt cognoscibilia per principia sumpta ex 
+      sensi<lb ed="#L" break="no" n="9"/>bus, spectant ad scientiam Physicam: vt 
+      cogno<lb ed="#L" break="no" n="10"/>scibilia autem per abstractionem omnimodam, 
+      <lb ed="#L" n="11"/>&amp; circumflexionem ad intellectum, spectant ad 
+      <lb ed="#L" n="12"/>Metaphysicam: species vero praedicamentorum 
+      <lb ed="#L" n="13"/>alio modo cognoscibiles constituunt propriam 
+      <lb ed="#L" n="14"/>scientiam, vt numerus, qui cognoscitur per prin 
+      <lb ed="#L" n="15"/>cipia sumpta ex terminis imaginarie cognitis, 
+      <lb ed="#L" n="16"/>&amp; sic de alijs Mathematicis, vt patet sexto 
+      Ethi<lb ed="#L" break="no" n="17"/>corum. ergo necesse est, quod scientiae 
+      distin<lb ed="#L" break="no" n="18"/>guantur per modum cognoscendi alterius, &amp; 
+      al<lb ed="#L" break="no" n="19"/>terius rationis.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3116">
+                  <lb ed="#L" n="20"/>Vltimo idem patet per auctoritatem 
+      Philoso<lb ed="#L" break="no" n="21"/>phi, &amp; Commentatoris. ait enim Commentator, 
+      <lb ed="#L" n="22"/>quod vnaquaeque scientia habet propriam 
+      Logi<lb ed="#L" break="no" n="23"/>cam, &amp; proprium modum sciendi; vnde dicit, 
+      <lb ed="#L" n="24"/>quod ars Logica, quaedam est vniuersalis 
+      omni<lb ed="#L" break="no" n="25"/>bus scientijs, &amp; quaedam propria vnicuique 
+      ea<lb ed="#L" break="no" n="26"/>rum, &amp; homo non potest esse instructus in 
+      quali<lb ed="#L" break="no" n="27"/>bet arte, nisi sciendo vniuersalia, &amp; propria 
+      eo<lb ed="#L" break="no" n="28"/>rum. &amp; in tertio dicit, quod necesse est, vt scien 
+      <lb ed="#L" n="29"/>tiae diuersentur propter diuersitatem earum in 
+      <lb ed="#L" n="30"/>principijs: &amp; quia sunt modi demonstrationum 
+      <lb ed="#L" n="31"/>aliarum, alij a modis aliarum, &amp; Philosophus, &amp; 
+      <lb ed="#L" n="32"/>Commeutator dicunt, quod diuersitas artium 
+      <lb ed="#L" n="33"/>fit per diuersitatem modi definitionum 
+      vtenda<lb ed="#L" break="no" n="34"/>rum in eis, &amp; per consequens modi cognoscendi: 
+      <lb ed="#L" n="35"/>in aetiam Phys. Philos. venatur modum 
+      demon<lb ed="#L" break="no" n="36"/>strandi proprium naturalis scientiae. ex quibus 
+      <lb ed="#L" n="37"/>colligitur euidenter, quod scientiae habent 
+      vni<lb ed="#L" break="no" n="38"/>tatem specificam ex modo sciendi eiusdem 
+      ratio<lb ed="#L" break="no" n="39"/>nis: qui quidem consistit in vniformi 
+      acceptio<lb ed="#L" break="no" n="40"/>ne principiorum, &amp; vniformi modo 
+      demonstran<lb ed="#L" break="no" n="41"/>di, &amp; deducendi conclusiones ex ipsis, &amp; 
+      vnifor<lb ed="#L" break="no" n="42"/>mem modum se habendi intellectus, penes 
+      ab<lb ed="#L" break="no" n="43"/>stractionem, &amp; extensionem ad extra, &amp; quod om 
+      <lb ed="#L" n="44"/>nis res, quae exigit ista propria, &amp; distincta 
+      ha<lb ed="#L" break="no" n="45"/>bet propriam scientiam: &amp; quod omnes res, &amp; 
+      <lb ed="#L" n="46"/>omnia praedicamenta concurrunt ad vnam scien 
+      <lb ed="#L" n="47"/>tiam, prout vno modo cognoscuntur. Sic ergo 
+      <lb ed="#L" n="48"/>vnitas numeralis scientiae in anima, non est nisi 
+      <lb ed="#L" n="49"/>vnitas cuiusdam integri luminis cognitiui respe 
+      <lb ed="#L" n="50"/>ctu veritatum, quae habent rationem vnius 
+      co<lb ed="#L" break="no" n="51"/>gnoscibilis integri, &amp; perfecti sub vno modo spe 
+      <lb ed="#L" n="52"/>cifico cognoscendi, &amp; sub vna propria Logica, 
+      <lb ed="#L" n="53"/>&amp; ideo non omnes conclusiones, quae sequuntur 
+      <lb ed="#L" n="54"/>ex alijs sunt eiusdem speciei scientiae cum eis, quan 
+      <lb ed="#L" n="55"/>do exigunt aliam Logicam, &amp; alium modum 
+      co<lb ed="#L" break="no" n="56"/>gnoscendi, vt patet in conclusionibus 
+      perspecti<lb ed="#L" break="no" n="57"/>uae, quae sequuntur ex conclusionibus 
+      Geome<lb ed="#L" break="no" n="58"/>triae, &amp; vniuersaliter, &amp; in omni scientia 
+      sub<lb ed="#L" break="no" n="59"/>alterna. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3205">
+                  <lb ed="#L" n="60"/>Ex praedictis infertur, quod Theologia sit 
+      ha<lb ed="#L" break="no" n="61"/>bitus vnus. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3212">
+                  <lb ed="#L" n="62"/>SECVNDA vero propositio est, quod Theologia 
+      <lb ed="#L" n="63"/>est vnus habitus: ille namque habitus est, vnus 
+      <lb ed="#L" n="64"/>qui habet vniformem modum, &amp; rationis vnius 
+      <lb ed="#L" n="65"/>in sumendo principia, &amp; in deducendo conclu- 
+      <!--0051.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>siones, &amp; qui habet connexionem secundum post; 
+      <lb ed="#L" n="67"/>&amp; latus, vt ex praedictis apparet: sed habitus 
+      <lb ed="#L" n="68"/>Theologicus est huiusmodi; sumit namque pro 
+      <lb ed="#L" n="69"/>principijs omnia, quae possunt opitulari ad fidem, 
+      <lb ed="#L" n="70"/>&amp; adminiculari, &amp; vno modo inducit, videlicet 
+      <lb ed="#L" n="71"/>ad declarandum, &amp; nullatenus ad causandum 
+      <lb ed="#L" n="72"/>adhaesionem aliquam: &amp; in omnibus est 
+      conne<lb ed="#L" break="no" n="73"/>xus, vel post assumendo, vt vbi declarat 
+      quos<lb ed="#L" break="no" n="74"/>dam articulos ex declarationibus aliorum; vel 
+      <lb ed="#L" n="75"/>secundum latus, vt vbi declarat plures articulos 
+      <lb ed="#L" n="76"/>disparate. ergo habitus Theologicus est 
+      omni<lb ed="#L" break="no" n="77"/>no vnus numeraliter, &amp; specifice in vno 
+      intelle<lb ed="#L" break="no" n="78"/>ctu. Nec obuiat si dicatur, quod ad 
+      declaran<lb ed="#L" break="no" n="79"/>dum poetica figmenta contenta in opusculis 
+      poe<lb ed="#L" break="no" n="80"/>tarum, posset procedi eodem modo; &amp; ita esset 
+      <lb ed="#L" n="81"/>habitus poematum idem cum isto: dicendum. 
+      <lb ed="#L" n="82"/>quidem, quod non omnia consonant; falso 
+      au<lb ed="#L" break="no" n="83"/>tem cito dissonat verum, vt dicitur primo 
+      Ethi<lb ed="#L" break="no" n="84"/>cor. &amp; ideo non est possibilis talis habitus 
+      decla<lb ed="#L" break="no" n="85"/>ratiuus, cui omnia consonent philosophica, &amp; 
+      <lb ed="#L" n="86"/>omnes experientiae, nisi respectu credibilium 
+      <lb ed="#L" n="87"/>qui habent omnimodam, &amp; infallibilem 
+      ve<lb ed="#L" break="no" n="88"/>ritatem. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3278">
+                  <lb ed="#L" n="89"/>Responsio ad obiecta. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3283">
+                  <lb ed="#L" n="90"/>AD ea, quae superius in arguendo primitus 
+      <lb ed="#L" n="91"/>A inducuntur, dicendum est. ad primum 
+      qui<lb ed="#L" break="no" n="92"/>dem, quod scientia in anima non est omnimode 
+      <lb ed="#L" n="93"/>simplex forma, sed habens partes, non quidem 
+      <lb ed="#L" n="94"/>quantitatiuas; sed constitutiuas vnius integri lu 
+      <lb ed="#L" n="95"/>minis, sicut syllogismus componitur ex 
+      proposi<lb ed="#L" break="no" n="96"/>tionibus, &amp; propositiones ex terminis. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3301">
+                  <lb ed="#L" n="97"/>Ad secundum dicendum, quod quaelibet 
+      rea<lb ed="#L" break="no" n="98"/>litas partium scientifici habitus est indiuisibilior, 
+      <lb ed="#L" n="99"/>&amp; simplicior, quam albedo, aut aliqua qualitas 
+      <lb ed="#L" n="100"/>corporea, constitutum tamen ex illis partibus, 
+      <lb ed="#L" n="101"/>quod est tota scientia, non oportet, quod habeat 
+      <lb ed="#L" n="102"/>similem vnitatem. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3317">
+                  <lb ed="#L" n="103"/>Ad tertium dicendum, quod etiam habitus 
+      e<lb ed="#L" break="no" n="104"/>xistentes in voluntate sunt vnum quadam 
+      totali<lb ed="#L" break="no" n="105"/>tate, vt patet de temperantia, quae prout 
+      exten<lb ed="#L" break="no" n="106"/>dit se ad re frenandum appetitum respectu diuer 
+      <lb ed="#L" n="107"/>sorum ciborum, non est penitus eadem simplex 
+      <lb ed="#L" n="108"/>res, alioquin quicumque esset temperatus in vno 
+      <lb ed="#L" n="109"/>cibo, esset temperatus in alio. est ergo 
+      tempe<lb ed="#L" break="no" n="110"/>rantia vna quadam totalitate ex partialibus 
+      in<lb ed="#L" break="no" n="111"/>clinationibus constituta, &amp; habilitatibus 
+      secun<lb ed="#L" break="no" n="112"/>dum materias diuersas. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3341">
+                  <lb ed="#L" n="113"/>Ad obiecta secundo.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3346">
+                  <lb ed="#L" n="114"/>AD ea vero, quae secundario inducuntur 
+      di<lb ed="#L" break="no" n="115"/>
+                  <!-- line coord error -->
+                  <lb ed="#L" n="116"/>cendum est. ad primum quidem, quod 
+      Theo<lb ed="#L" break="no" n="117"/>logia Beatorum, &amp; nostra non solum differunt ra 
+      <lb ed="#L" n="118"/>tione luminis: immo &amp; ratione modi sciendi, cum 
+      <lb ed="#L" n="119"/>illa sit probatiua a priori, &amp; propter quid, ista 
+      <lb ed="#L" n="120"/>vero declaratiua tantum ex probabilibus, &amp; ma 
+      <lb ed="#L" n="121"/>nuductionibus quibusdam. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3369">
+                  <lb ed="#L" n="122"/>Ad secundum dicendum, quod principia non 
+      <lb ed="#L" n="123"/>variant scientiam, nisi ratione alterius modi 
+      su<lb ed="#L" break="no" n="124"/>mendi ea, plura enim principia concurrunt in 
+      <lb ed="#L" n="125"/>eadem scientia propter vnum modum, &amp; vnifor 
+      <lb ed="#L" n="126"/>mem quo sumuntur. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3382">
+                  <lb ed="#L" n="127"/>Ad tertium dicendum, quod Creator, &amp; 
+      crea<lb ed="#L" break="no" n="128"/>tura, &amp; vniuersae materiae physicae spectant ad 
+      <lb ed="#L" n="129"/>istum habitum, inquantum sunt adminiculum in- 
+      <!--0052.xml-->
+      <pb ed="#L" n="52"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tellectus respectu credibilium declarandorum 
+      <lb ed="#L" n="2"/>per Theologiam 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3402">
+                  <lb ed="#L" n="3"/>Ad obiecta tertio.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3407">
+                  <lb ed="#L" n="4"/>AD ea vero, quae tertio inducuntur, 
+      dicen<lb ed="#L" break="no" n="5"/>dum est. ad primum quidem, quod 
+      defini<lb ed="#L" break="no" n="6"/>tiones, &amp; media demonstrandi non distinguunt 
+      <lb ed="#L" n="7"/>scientias, nisi quatenus sunt alterius rationis in 
+      <lb ed="#L" n="8"/>cognoscendo, &amp; exigunt alium modum se haben 
+      <lb ed="#L" n="9"/>di intellectus; vnde omnes definitiones 
+      sensibi<lb ed="#L" break="no" n="10"/>lem materiam includentes, spectant ad physicum, 
+      <lb ed="#L" n="11"/>cuius principia intellectus assumit per 
+      extensio<lb ed="#L" break="no" n="12"/>nem ad sensum: definitiones vero a materia 
+      sen<lb ed="#L" break="no" n="13"/>sibili abstrahentes spectant ad Mathematicum, 
+      <lb ed="#L" n="14"/>cuius sumit intellectus principia extendendo se 
+      <lb ed="#L" n="15"/>ad imaginationem, &amp; abstrahendo se a sensu. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3436">
+                  <lb ed="#L" n="16"/>Ad secundum dicendum, quod principia, etsi 
+      <lb ed="#L" n="17"/>ducunt in notitiam obiecti, &amp; causant habitum; 
+      <lb ed="#L" n="18"/>non tamen inferunt distinctionem specificam ha 
+      <lb ed="#L" n="19"/>bituum, nisi quatenus sunt alterius rationis in 
+      <lb ed="#L" n="20"/>modo cognoscendi, vt dictum est. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3449">
+                  <lb ed="#L" n="21"/>Ad tertium dicendum, quod illud firmat 
+      pro<lb ed="#L" break="no" n="22"/>positum. ideo enim demonstratio per aequalem 
+      <lb ed="#L" n="23"/>tendentiam partium terrae ad centrum ad Natu 
+      <lb ed="#L" n="24"/>ralem spectat, quia istud medium intellectus 
+      as<lb ed="#L" break="no" n="25"/>sumit per extensionem ad sensibilia. motus enim 
+      <lb ed="#L" n="26"/>est vnum de sensibilibus: demonstratio autem 
+      <lb ed="#L" n="27"/>per vniformem ortum, &amp; occasum signorum 
+      <lb ed="#L" n="28"/>pertinet ad Astrologum, quia illud medium 
+      su<lb ed="#L" break="no" n="29"/>mit intellectus extendendo se simul ad 
+      imagina<lb ed="#L" break="no" n="30"/>tionem, &amp; sensum. nisi enim recurreret ad 
+      prin<lb ed="#L" break="no" n="31"/>cipia imaginabilia, &amp; ad ortum, &amp; occasum, qui 
+      <lb ed="#L" n="32"/>cadunt sub visu: ex illo medio non posset inferre 
+      <lb ed="#L" n="33"/>terram esse rotundam. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3481">
+                  <lb ed="#L" n="34"/>Ad obiecta quarto.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3486">
+                  <lb ed="#L" n="35"/>AD ea vero, quae quarto loco inducuntur 
+      <lb ed="#L" n="36"/>
+                  <!-- line coord error -->
+                  <lb ed="#L" n="37"/>dicendum est. ad primum quidem, quod 
+      <lb ed="#L" n="38"/>genus subiectum dicitur vnum, non quatenus sit 
+      <lb ed="#L" n="39"/>vna ratio, vel conceptus, alioquin de vna omni 
+      <lb ed="#L" n="40"/>ratione, &amp; de vno omni conceptu esse scientia 
+      <lb ed="#L" n="41"/>specialis, sed dicitur subiectum genus esse 
+      v<lb ed="#L" break="no" n="42"/>num ratione vnius proprij modi sciendi, &amp; vnius 
+      <lb ed="#L" n="43"/>Logicae propriae, quam sibi determinat in verita 
+      <lb ed="#L" n="44"/>tibus cognoscendis de se, vt in quaestione sequen 
+      <lb ed="#L" n="45"/>ti dicetur. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3515">
+                  <lb ed="#L" n="46"/>Ad secundum dicendum, quod respectu vnius 
+      <lb ed="#L" n="47"/>obiecti formalis possunt esse duae potentiae 
+      pro<lb ed="#L" break="no" n="48"/>pter alium, &amp; alium modum tendendi in illud, &amp; 
+      <lb ed="#L" n="49"/>similiter duo habitus. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3526">
+                  <lb ed="#L" n="50"/>Ad tertium dicendum, quod vnitas 
+      definitio<lb ed="#L" break="no" n="51"/>nis oritur ex formali ratione obiecti, 
+      nihilomi<lb ed="#L" break="no" n="52"/>nus haec definitio, &amp; formalis obiecti ratio non 
+      <lb ed="#L" n="53"/>Aistfuc it feict aittst nautienus ce itunt pro- 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3537">
+                  <lb ed="#L" n="54"/>Ad obiecta quinto. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3542">
+                  <lb ed="#L" n="55"/>AD ea vero, quae quinto loco inducuntur 
+      <lb ed="#L" n="56"/>dicendum. ad primum quidem, quod si 
+      il<lb ed="#L" break="no" n="57"/>la tria concurrunt in scientia vna tota, tamen 
+      <lb ed="#L" n="58"/>vnitas sumitur ex modo procedendi vnico, vt 
+      <lb ed="#L" n="59"/>dictum est, &amp; per idem patet ad secundum: quia 
+      <lb ed="#L" n="60"/>Aristoteles vocat vnum genus subiectum primo 
+      <lb ed="#L" n="61"/>Poster. illud, quod appropriat sibi vnum sciendi 
+      <!--0052.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="62"/>modum, &amp; vocat definitiones proprias, quae ha 
+      <lb ed="#L" n="63"/>bent proprium modum assumendi. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3569">
+                  <lb ed="#L" n="64"/>Ad obiecta sexto. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3574">
+                  <lb ed="#L" n="65"/>AD ea vero, quae sexto loco inducuntur 
+      di<lb ed="#L" break="no" n="66"/>cendum est. ad primum quidem, quod 
+      as<lb ed="#L" break="no" n="67"/>sistentia obiecti non sufficeret ad vnitatem Theo 
+      <lb ed="#L" n="68"/>logiae, si essent tres habitus, alioquin opinio, &amp; 
+      <lb ed="#L" n="69"/>scientia de eodem obiecto erunt vnus habitus, 
+      <lb ed="#L" n="70"/>pro eo, quod eis assistit idem obiectum, nec est 
+      <lb ed="#L" n="71"/>simile de assistentia animae rationalis, quia ipsa 
+      <lb ed="#L" n="72"/>assistit inhaerendo, &amp; perficiendo per modum for 
+      <lb ed="#L" n="73"/>mae: Deus autem non inhaeret Theologiae per 
+      <lb ed="#L" n="74"/>modum formae. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3598">
+                  <lb ed="#L" n="75"/>Ad secundum dicendum, quod Theologia 
+      <lb ed="#L" n="76"/>non est nisi vnus habitus, prout proprie dicitur, 
+      <lb ed="#L" n="77"/>&amp; ille est declaratiuus, sed sicut contingit in scien 
+      <lb ed="#L" n="78"/>tijs philosophicis, quod immiscentur eis 
+      opinio<lb ed="#L" break="no" n="79"/>nes, &amp; multae conclusiones propriae aliarum scien 
+      <lb ed="#L" n="80"/>tiarum, sicut in perspectiua Alacen. multas 
+      con<lb ed="#L" break="no" n="81"/>clusiones Geometricas ponit, &amp; Ptolemaeus in 
+      <lb ed="#L" n="82"/>secunda dictione Almagesti docet chordare 
+      cir<lb ed="#L" break="no" n="83"/>culum, &amp; omnes circuli portiones, &amp; multa alia, 
+      <lb ed="#L" n="84"/>quae sunt vere Geometrica; de quibus tamen 
+      <lb ed="#L" n="85"/>Euclides in Geometria prorsus mentionem non 
+      <lb ed="#L" n="86"/>facit: sic nostrae Theologiae declaratiuo habitui 
+      <lb ed="#L" n="87"/>non est inconueniens habitum opinionis, &amp; habi 
+      <lb ed="#L" n="88"/>tum Metaphysicae, aut Physicae, quoad aliquas 
+      <lb ed="#L" n="89"/>conclusiones annecti, quae alibi non sunt positae, 
+      <lb ed="#L" n="90"/>nec a Philosophis adinuentae: Sed quia necessitas 
+      <lb ed="#L" n="91"/>istius habitus coegit intellectum ad 
+      perscruta<lb ed="#L" break="no" n="92"/>tionem illarum, ideo appropriantur isti habitui; 
+      <lb ed="#L" n="93"/>sicut notitia chordarum, &amp; sinuum, &amp; 
+      bearda<lb ed="#L" break="no" n="94"/>garum, quae sine dubio proprie Geometra, &amp; 
+      <lb ed="#L" n="95"/>Astrologus vendicat sibi, cuius necessitas duxit 
+      <lb ed="#L" n="96"/>ad notitiam illam. sic ergo Theologia formali- 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3648">
+                  <lb ed="#L" n="97"/>Ad primo obiecta in oppositum.
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3653">
+                  <lb ed="#L" n="98"/>AD ea vero, quae in oppositum inducuntur 
+      <lb ed="#L" n="99"/>LA primitus, dicendum est, quod primum, 
+      <lb ed="#L" n="100"/>&amp; tertium argumentum, verum concludunt, quod 
+      <lb ed="#L" n="101"/>habitus scientiae non sit vnum aliquid vnitate 
+      sim<lb ed="#L" break="no" n="102"/>plicitatis, &amp; indiuisibilitatis, sed quod sit vnum 
+      <lb ed="#L" n="103"/>totalitate non probant: secundum autem 
+      fal<lb ed="#L" break="no" n="104"/>sum assumit, videlicet, quod scientia sit ordo intel 
+      <lb ed="#L" n="105"/>ligibilium specierum. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3673">
+                  <lb ed="#L" n="106"/>Ad secundo obiecta in oppositum. 
+    </p>
+               <p xml:id="ol96b1-c13061-d1e3679">
+                  <lb ed="#L" n="107"/>AD ea vero, quae vltimo inducuntur, 
+      di<lb ed="#L" break="no" n="108"/>cendum est. ad primum quidem, quod 
+      <lb ed="#L" n="109"/>Deo, &amp; creaturae, etsi nil commune vniuocum 
+      <lb ed="#L" n="110"/>conueniret, quod forte verum non est, vt 
+      in<lb ed="#L" break="no" n="111"/>ferius apparebit, nihilominus ratione mutuae 
+      at<lb ed="#L" break="no" n="112"/>tributionis comprehendi possunt sub eodem 
+      a<lb ed="#L" break="no" n="113"/>ctu scientifico. nam talis vnitas sufficit in 
+      obie<lb ed="#L" break="no" n="114"/>cto, vt patet quarto Metaphys. &amp; per idem patet 
+      <lb ed="#L" n="115"/>ad secundum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

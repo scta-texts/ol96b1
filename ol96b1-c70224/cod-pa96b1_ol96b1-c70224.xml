@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="217"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c70224"> <!-- l1d5p1-prae -->
+            <head xml:id="ol96b1-c70224-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c70224-d1e104">
+      <!--0217.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="87"/>HAE LOCVTJONES NON CONCEDVNTVR: 
+      <lb ed="#L" n="88"/>Pater genuit Diuinam essentiam: Diuina essentia genuit 
+      <lb ed="#L" n="89"/>Filium: Essentia genuit essentiam. Quoniam 
+      <lb ed="#L" n="90"/>ipsa nec genuit, nec genita est. 
+      <lb ed="#L" n="91"/>DISTINCTIO V. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e122">
+      <!--0217.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="92"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e131">
+               <lb ed="#L" n="93"/>
+               <quote xml:id="ol96b1-c70224-Qd1e135">POST hoc quaeritur</quote>, &amp;c. Postquam 
+      <lb ed="#L" n="94"/>Magister comparauit actum 
+      ge<lb ed="#L" break="no" n="95"/>nerationis ad terminum in 
+      con<lb ed="#L" break="no" n="96"/>creto, hic comparat eundem 
+      a<lb ed="#L" break="no" n="97"/>ctum ad terminum in abstracto. 
+      <lb ed="#L" n="98"/>Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e150">
+      <!--0217.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="99"/>Primo namque quaestionem proponit. 
+      <lb ed="#L" n="100"/>Secundo, quaestionem dissoluit, ibi: Ad quod 
+      <lb ed="#L" n="101"/>Catholicis. Dicit itaque primo, quod hic 
+      inqui<lb ed="#L" break="no" n="102"/>rendum est, vtrum concedendum sit, quod 
+      Pa<lb ed="#L" break="no" n="103"/>ter genuit Diuinam essentiam, vel quod 
+      Diui<lb ed="#L" break="no" n="104"/>na essentia genuit Filium, vel quod essentia 
+      ge<lb ed="#L" break="no" n="105"/>nuit essentiam, aut quod sit simpliciter 
+      negan<lb ed="#L" break="no" n="106"/>dum, quod nec genuit, nec genita est, &amp; sit 
+      <!--0218.xml-->
+      <pb ed="#L" n="218"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quaestio trimembris, videlicet, vtrum essentia 
+      <lb ed="#L" n="2"/>genuit essentiam, vel genuerit Filium, vel 
+      ge<lb ed="#L" break="no" n="3"/>nita sit a Patre, &amp; potest reduci ad duo 
+      mem<lb ed="#L" break="no" n="4"/>bra, vtrum scilicet Diuina essentia generet, vel 
+      <lb ed="#L" n="5"/>generetur. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e192">
+               <lb ed="#L" n="6"/>Postmodum ibi: Ad quod Catholicis. Magister 
+      <lb ed="#L" n="7"/>respondet ad quaestionem, &amp; facit tria.
+    </p>
+            <p xml:id="ol96b1-c70224-d1e199">
+               <lb ed="#L" n="8"/>Primo namque primum membrum pertractat, 
+      <lb ed="#L" n="9"/>scilicet, vtrum Pater genuerit essentiam.
+    </p>
+            <p xml:id="ol96b1-c70224-d1e206">
+               <lb ed="#L" n="10"/>Secundo alia duo membra, scilicet, vtrum 
+      <lb ed="#L" n="11"/>Diuina essentia genuerit Filium, vel essentia 
+      <lb ed="#L" n="12"/>essentiam. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e215">
+               <lb ed="#L" n="13"/>Tertio vero contra solutionem totius 
+      quae<lb ed="#L" break="no" n="14"/>stionis instat. secunda ibi: Ita etiam non est 
+      di<lb ed="#L" break="no" n="15"/>cendum. tertia ibi: Huic vero. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e224">
+               <lb ed="#L" n="16"/>Circa primum duo facit. primo namque 
+      pri<lb ed="#L" break="no" n="17"/>mum membrum quaestionis dissoluit. secundo, 
+      <lb ed="#L" n="18"/>auctoritatem Augustini contra solutionem 
+      indu<lb ed="#L" break="no" n="19"/>cit, ibi: Huic tamen videtur contrarium. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e236">
+               <lb ed="#L" n="20"/>Adhuc circa primum facit quatuor. Primo 
+      <lb ed="#L" n="21"/>quidem quaestionem soluit, dicens, quod 
+      Ca<lb ed="#L" break="no" n="22"/>tholicis tractationibus inhaerendo, dicendum 
+      <lb ed="#L" n="23"/>est, quod nomine Essentiae, intelligendo 
+      Diui<lb ed="#L" break="no" n="24"/>nam naturam, quod tota est in singulis, &amp; 
+      com<lb ed="#L" break="no" n="25"/>munis est tribus, tenendum est, quod nec Pater 
+      <lb ed="#L" n="26"/>genuit eam, nec ipsa Filium, nec ipsamet 
+      geni<lb ed="#L" break="no" n="27"/>ta est a seipsa.
+    </p>
+            <p xml:id="ol96b1-c70224-d1e256">
+               <lb ed="#L" n="28"/>Secundo ibi: Ideo non est dicendum. inducit 
+      ra<lb ed="#L" break="no" n="29"/>tionem primam, quae talis est, constat, quod Di 
+      <lb ed="#L" n="30"/>uina essentia numquam indicat, nisi essentiam, 
+      <lb ed="#L" n="31"/>nec accipitur relatiue; sed si Pater genuisset 
+      Di<lb ed="#L" break="no" n="32"/>uinam essentiam, essentia relatiue diceretur ad 
+      <lb ed="#L" n="33"/>Patrem. ergo nullo modo genuit eam. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e272">
+               <lb ed="#L" n="34"/>Tertio ibi: Item cum Deus. inducit secundam 
+      <lb ed="#L" n="35"/>rationem, quae talis est; nulla res seipsam genuit: 
+      <lb ed="#L" n="36"/>sed Pater nil aliud est, quam Diuina essentia, nec 
+      <lb ed="#L" n="37"/>Diuina essentia est aliud, quam Pater. ergo Pater 
+      <lb ed="#L" n="38"/>non genuit Diuinam essentiam. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e285">
+               <lb ed="#L" n="39"/>Quarto ibi: Item si Pater. inducit tertiam 
+      ra<lb ed="#L" break="no" n="40"/>tionem, quae talis est; Pater est, &amp; Deus est 
+      for<lb ed="#L" break="no" n="41"/>maliter ipsa Diuina essentia, sed nulla res 
+      gene<lb ed="#L" break="no" n="42"/>rat illud, quo formaliter est. ergo Pater non 
+      ge<lb ed="#L" break="no" n="43"/>nerat essentiam Diuinam. Et confirmat 
+      Magi<lb ed="#L" break="no" n="44"/>ster ex modo arguendi Augustini, qui probat, 
+      <lb ed="#L" n="45"/>quod Pater non est sapiens sapientia genita, quia 
+      <lb ed="#L" n="46"/>cum idem sit Deo esse, &amp; sapientem esse, sequeretur 
+      <lb ed="#L" n="47"/>quod esset eo, quod genuit, quod impossibile est.
+    </p>
+            <p xml:id="ol96b1-c70224-d1e307">
+               <lb ed="#L" n="48"/>Postmodum ibi: Huic tamen. inducit Magister 
+      <lb ed="#L" n="49"/>auctoritatem Augustini contra praedicta, qui ait, 
+      <lb ed="#L" n="50"/>quod Deus Pater genuit illud, quod ipse est: 
+      con<lb ed="#L" break="no" n="51"/>stat autem, quod illud est Diuina essentia. ergo 
+      <lb ed="#L" n="52"/>secundum cum genuit Diuinam essentiam. 
+      Re<lb ed="#L" break="no" n="53"/>spondet autem Magister, quod ly, ipse, vel ly, id, 
+      te<lb ed="#L" break="no" n="54"/>netur pro Filio, vt sit sensus, Pater genuit illud, 
+      <lb ed="#L" n="55"/>quod ipse est, quod genuit Filium, qui est illud 
+      <!-- missing line coord -->ipsum substantialiter cum eo.
+    </p>
+            <p xml:id="ol96b1-c70224-d1e329">
+               <lb ed="#L" n="56"/>Postmodum ibi: <quote xml:id="ol96b1-c70224-Qd1e333">Ita</quote>, &amp;c pertractat alia duo
+      <lb ed="#L" n="57"/>membra quaestionis, &amp; facit tria. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e339">
+               <lb ed="#L" n="58"/>Primo namque dicit, quod ita parum debet 
+      <lb ed="#L" n="59"/>concedi, quod Diuina essentia Filium genuit, 
+      <lb ed="#L" n="60"/>quia cum Filius sit ipsa essentia, generaretur a 
+      <lb ed="#L" n="61"/>re illa, quae est, &amp; ita idem gigneret se. Pari etiam 
+      <lb ed="#L" n="62"/>ratione concedi non debet, quod essentia sit 
+      ge<lb ed="#L" break="no" n="63"/>nita ab essentia, ne confiteri compellamur, quod 
+      <lb ed="#L" n="64"/>eadem res sit genita a se ipsa. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e357">
+               <lb ed="#L" n="65"/>Secundo ibi: <quote xml:id="ol96b1-c70224-Qd1e361">Praedictis autem</quote>. Magister obiicit 
+      <lb ed="#L" n="66"/>contra istam solutionem per tres auctoritates. 
+      <!--0218.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="67"/>prima est Augustini septimo de Trinitate, qui 
+      <lb ed="#L" n="68"/>ait, quod Filius est de Patre, sapientia de sapien 
+      <lb ed="#L" n="69"/>tia, sicut essentia de essentia. secunda est 
+      eius<lb ed="#L" break="no" n="70"/>dem de fide ad Petrum, dicentis, quod 
+      Deita<lb ed="#L" break="no" n="71"/>tem Christi non dubitandum de natura Patris 
+      <lb ed="#L" n="72"/>natam esse. tertia est eiusdem de Trinitate, 
+      di<lb ed="#L" break="no" n="73"/>centis, quod Filius est de Patre, consilium de 
+      <lb ed="#L" n="74"/>consilio, voluntas de voluntate, &amp; substantia 
+      <lb ed="#L" n="75"/>de substantia. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e390">
+               <lb ed="#L" n="76"/>Tertio ibi: <quote xml:id="ol96b1-c70224-Qd1e394">Sed hoc ita</quote>. Respondet Magister, 
+      <lb ed="#L" n="77"/>dicens, quod omnia ista nomina supponunt pro 
+      <lb ed="#L" n="78"/>personis, vt sit sensus; essentia de essentia, quod 
+      <lb ed="#L" n="79"/>Filius, qui est essentia, est de Patre, qui est 
+      es<lb ed="#L" break="no" n="80"/>sentia; vnde intelligitur, quod ille, qui est 
+      essen<lb ed="#L" break="no" n="81"/>tia, sapientia, &amp; consilium, voluntas, genuit il 
+      <lb ed="#L" n="82"/>lum, qui est omnia ista, &amp; quod haec expositio 
+      <lb ed="#L" n="83"/>competens sit, &amp; vera, patet ex dictis eiusdem 
+      <lb ed="#L" n="84"/>Doctoris egregij Augustini, qui simili modo 
+      ex<lb ed="#L" break="no" n="85"/>ponit; ait enim, quod Filius dicitur sapientia 
+      <lb ed="#L" n="86"/>Patris, &amp; lumen Patris, id est lumen de lumine 
+      <lb ed="#L" n="87"/>sapientia de sapientia, &amp; essentia de essentia, quia 
+      <lb ed="#L" n="88"/>singulus est lumen, &amp; singulus est sapientia, &amp; 
+      sin<lb ed="#L" break="no" n="89"/>gulus est essentia. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e425">
+               <lb ed="#L" n="90"/>Postmodum ibi: Huic vero. Magister arguit 
+      <lb ed="#L" n="91"/>contra determinationem praefatae quaestionis, &amp; 
+      <lb ed="#L" n="92"/>primo per auctoritates Hilarij. secundo 
+      aucto<lb ed="#L" break="no" n="93"/>ritatibus Augustini. secunda ibi: Dicitur quoque. 
+      <lb ed="#L" n="94"/>Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e438">
+               <lb ed="#L" n="95"/>Primo namque adducit contra se quatuor 
+      au<lb ed="#L" break="no" n="96"/>ctoritates Hilarij. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e445">
+               <lb ed="#L" n="97"/>Primam namque, quae dicit, quod nil habet 
+      <lb ed="#L" n="98"/>Filius, nisi natum, &amp; cum habeat Diuinam 
+      essen<lb ed="#L" break="no" n="99"/>tiam, videretur ex hac auctoritate, quod 
+      essen<lb ed="#L" break="no" n="100"/>tia Diuina sit nata. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e457">
+               <lb ed="#L" n="101"/>Secundam vero, quae dicit, quod Dei 
+      natiui<lb ed="#L" break="no" n="102"/>tas non potest non tenere naturam, ex qua 
+      pro<lb ed="#L" break="no" n="103"/>fecta est, ex qua videtur sequi, quod Diuina 
+      na<lb ed="#L" break="no" n="104"/>tiuitas, siue Deus natus sit profectus, &amp; 
+      produ<lb ed="#L" break="no" n="105"/>ctus ex natura. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e470">
+               <lb ed="#L" n="106"/>Tertiam inducit, quae ait, naturam genitam 
+      <lb ed="#L" n="107"/>naturaliter in se gignentem habuisse naturam, 
+      <lb ed="#L" n="108"/>ex qua videtur sequi, quod natura genuerit, &amp; 
+      <lb ed="#L" n="109"/>sit genita. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e481">
+               <lb ed="#L" n="110"/>Quartam vero, quae dicit, quod natiuitas 
+      vni<lb ed="#L" break="no" n="111"/>genita in naturam vnigenitam subsistit, &amp; ita 
+      vi<lb ed="#L" break="no" n="112"/>detur, quod natura Dei sit vnigenita. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e490">
+               <lb ed="#L" n="113"/>Secundo vero ibi, Sed quia haec verba. 
+      Respon<lb ed="#L" break="no" n="114"/>det Magister ad istas auctoritates, dicens, quod 
+      <lb ed="#L" n="115"/>iuxta verba eiusdem Hilarij, intelligentia 
+      Sancto<lb ed="#L" break="no" n="116"/>rum assumi debet ex causis dubitandi. Prima 
+      er<lb ed="#L" break="no" n="117"/>go auctoritas, nihil habet Filius, nisi natum, debet 
+      <lb ed="#L" n="118"/>intelligi, quod nascendo accepit naturam, &amp; 
+      quid<lb ed="#L" break="no" n="119"/>quid habet, non autem, quod natura sit nata, &amp; hoc 
+      <lb ed="#L" n="120"/>probat auctoritate Hila. dicentis, quod eandem 
+      <lb ed="#L" n="121"/>naturam habet genitus, quam ille, qui genuit: nam 
+      <lb ed="#L" n="122"/>in generatione Filij naturam suam sequitur inde 
+      <lb ed="#L" n="123"/>immutabilis Deus, vt sic intelligamus in Filio na 
+      <lb ed="#L" n="124"/>turam subsistentem, quam accipit a Patre 
+      nascen<lb ed="#L" break="no" n="125"/>do, ipsa tamen natura non est genita nullo modo. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e521">
+               <lb ed="#L" n="126"/>Postmodum ibi: <quote xml:id="ol96b1-c70224-Qd1e525">Dicitur quoque</quote>. Magister 
+      indu<lb ed="#L" break="no" n="127"/>cit contra se auctoritates Aug. &amp; facit tria. primo 
+      <lb ed="#L" n="128"/>namque inducit quinque auctoritates. primam 
+      <lb ed="#L" n="129"/>quae ait, quod Pater de sui natura genuit Deum Filium 
+      <lb ed="#L" n="130"/>ex qua videtur cum natura Patris, &amp; Filij sit eadem 
+      <lb ed="#L" n="131"/>quod filius sit genitus de natura sua, quinimmo, 
+      <lb ed="#L" n="132"/>de natura Trinitatis. secundam vero inducit, 
+      <lb ed="#L" n="133"/>quae ait, quod filius charitatis Dei, nullus est 
+      <!--0219.xml-->
+      <pb ed="#L" n="219"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>alius, quam qui de substantia Patris est genitus, 
+      <lb ed="#L" n="2"/>vnde vocat eum Filium substantiae Patris. 
+      Ter<lb ed="#L" break="no" n="3"/>tiam quoque in quartam, &amp; quintam, 
+      indu<lb ed="#L" break="no" n="4"/>cit, quae omnes idem sunt, scilicet, quod Filius 
+      <lb ed="#L" n="5"/>est de substantia Patris natus, &amp; Filius 
+      substan<lb ed="#L" break="no" n="6"/>tiae Patris. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e563">
+               <lb ed="#L" n="7"/>Secundo ibi: His verbis praemissis. Magister 
+      prae<lb ed="#L" break="no" n="8"/>fatas auctoritates exponit, dicens, quod haec ver 
+      <lb ed="#L" n="9"/>ba mirabiliter mouent ipsum, sed respondet 
+      di<lb ed="#L" break="no" n="10"/>cendo, quod in omnibus istis auctoritatibus 
+      te<lb ed="#L" break="no" n="11"/>netur substantia pro persona, vt sit sensus, Filius 
+      <lb ed="#L" n="12"/>est de natura Patris, quod est de Patre natura, &amp; 
+      <lb ed="#L" n="13"/>de Patre substantia, quod ille sit intellectus 
+      Au<lb ed="#L" break="no" n="14"/>gustini declarat, quod ipsemet sic exponit. ait 
+      <lb ed="#L" n="15"/>enim, quod non de aliqua materia, nec de nihilo 
+      <lb ed="#L" n="16"/>est Filius, sed de quo est genitus. Similiter Spiri 
+      <lb ed="#L" n="17"/>tus sanctus, non est de nihilo, aut de aliqua mate 
+      <lb ed="#L" n="18"/>ria, sed inde est, vnde procedit, &amp; ita patet, quod 
+      <lb ed="#L" n="19"/>auctoritates illae, quae dicunt Filium esse de 
+      sub<lb ed="#L" break="no" n="20"/>stantia Patris, debent intelligi, quod Filius est 
+      <lb ed="#L" n="21"/>de Patre. 
+    </p>
+            <p xml:id="ol96b1-c70224-d1e599">
+               <lb ed="#L" n="22"/>Tertio ibi: Ostenditur quoque. Magister dat 
+      a<lb ed="#L" break="no" n="23"/>lium intellectum harum auctoritatum, dicens, 
+      <lb ed="#L" n="24"/>quod intellectus est Augustini per hoc 
+      ostende<lb ed="#L" break="no" n="25"/>re, quod Filius, &amp; Spiritus sanctus non sunt 
+      de<lb ed="#L" break="no" n="26"/>nihilo, sed nec de aliqua materia, immo de 
+      ali<lb ed="#L" break="no" n="27"/>quo, non quidem materialiter, sed principatiue, 
+      <lb ed="#L" n="28"/>&amp; consubstantialiter, &amp; hoc probat aucttoritate 
+      <lb ed="#L" n="29"/>Hilarij. non est ergo intellectus auctoritatum, 
+      <lb ed="#L" n="30"/>quod Filius sit genitus de substantia Patris, aut 
+      <lb ed="#L" n="31"/>materialiter, aut principatiue, sed quod natus 
+      <lb ed="#L" n="32"/>est de Patre substantia, &amp; ad hoc adducit 
+      qua<lb ed="#L" break="no" n="33"/>tuor auctoritates Augustini, quae patent in 
+      lite<lb ed="#L" break="no" n="34"/>ra. In fine autem concludit, quod solus Dei 
+      Fi<lb ed="#L" break="no" n="35"/>lius dicitur natura filius, non quia natura Filium 
+      <lb ed="#L" n="36"/>generauerit, sed quia eandem naturam habet 
+      <lb ed="#L" n="37"/>cum Patre, &amp; haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

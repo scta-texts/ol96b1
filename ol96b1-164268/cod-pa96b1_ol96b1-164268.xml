@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="506"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-164268"> <!-- l1d21p1-prae -->
+            <head xml:id="ol96b1-164268-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-164268-d1e104">
+      <!--0506.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="44"/>QVAERJTVR, QVOMODO POSSIT DICI 
+      <lb ed="#L" n="45"/>solus Pater, vel solus Filius, uel Spiritus sanctus, 
+      <lb ed="#L" n="46"/>cum sint inseparabiles. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e117">
+               <lb ed="#L" n="47"/>DISTINCTIO XYI. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e122">
+      <!--0506.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="48"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e132">
+               <lb ed="#L" n="49"/>Ic oritur quaestio, &amp;c. Postquam 
+      <lb ed="#L" n="50"/>Magister probauit personas 
+      <lb ed="#L" n="51"/>aequa les in perfectione, &amp; in 
+      <lb ed="#L" n="52"/>potentia, in hac parte 
+      inci<lb ed="#L" break="no" n="53"/>denter inquirit, quia 
+      men<lb ed="#L" break="no" n="54"/>tionem fecerat de rationibus 
+      <lb ed="#L" n="55"/>exclusiuis, utrum congrue 
+      <lb ed="#L" n="56"/>possint addi vni personae, 
+      <lb ed="#L" n="57"/>quin excludatur altera, &amp; vniuersaliter 
+      quomo<lb ed="#L" break="no" n="58"/>dolocum habeant in diuinis. &amp; circa hoc duo facit. 
+      <lb ed="#L" n="59"/>Primo enim ostendit, quod dictio exclusiua 
+      <lb ed="#L" n="60"/>potest addi personis in ordine ad praedicata 
+      <lb ed="#L" n="61"/>personalia. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e163">
+               <lb ed="#L" n="62"/>Secundo vero inquirit, an similiter addi 
+      pos<lb ed="#L" break="no" n="63"/>sint in ordine ad essentialia. secunda ibi: Post hoc 
+      <lb ed="#L" n="64"/>quaeritur. Dicit itaque primo, quod hic oritur 
+      <lb ed="#L" n="65"/>quaestio ex hoc, quod supra dictum est, quod tan 
+      <lb ed="#L" n="66"/>tus est solus pater, quanti omnes tres simul, vtrum 
+      <lb ed="#L" n="67"/>sane, &amp; catholice dici possit, pater solus, aut 
+      fi<lb ed="#L" break="no" n="68"/>lius, cum secundum Augustinum, pater solus non 
+      <lb ed="#L" n="69"/>sit pro eo, quod inseparabiles sunt tres personae, 
+      <lb ed="#L" n="70"/>&amp; respondet ad hoc, quod in ordine ad 
+      praedica<lb ed="#L" break="no" n="71"/>ta notionalia catholice dici potest. sensus enim 
+      <lb ed="#L" n="72"/>est cum dicitur solus pater, quod in diuinis vnus 
+      <lb ed="#L" n="73"/>solus sit pater: non autem, quod pater ab aliis se 
+      <lb ed="#L" n="74"/>paretur, quia semper inseparabiles sunt personae. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e194">
+               <lb ed="#L" n="75"/>Postmodum ibi: Post hoc quaritur. Magister 
+      in<lb ed="#L" break="no" n="76"/>quirit, an possit addi dictio exclusiua vnius 
+      per<lb ed="#L" break="no" n="77"/>sonae in ordine ad praedicatum essentiale, vtpote 
+      <!--0506.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="78"/>si dicatur, solus pater est Deus. Et circa hoc 
+      fa<lb ed="#L" break="no" n="79"/>clt quatuor. Primo enim dicit, quod ista non est 
+      <lb ed="#L" n="80"/>admittenda, solus pater est Deus, dicens, quod 
+      <lb ed="#L" n="81"/>pater, &amp; filius, &amp; spiritus sanctus sunt vnus Deus. 
+      <lb ed="#L" n="82"/>vnde a nobis, verbis nostris utentibus non 
+      de<lb ed="#L" break="no" n="83"/>bent ista dici, sed vbi tantummodo occurrit ser 
+      <lb ed="#L" n="84"/>mo auctoritatis. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e223">
+               <lb ed="#L" n="85"/>Secundo ibi: Idem in eodem si quis interroget. Ma 
+      <lb ed="#L" n="86"/>gister ostendit, quod nec etiam ex parte 
+      praedi<lb ed="#L" break="no" n="87"/>cati, ponendo dictionem exclusiuam concedi 
+      de<lb ed="#L" break="no" n="88"/>bet, quod pater sit solus Deus. vnde dicit, quod 
+      <lb ed="#L" n="89"/>ex verbis Aug. concluditur, quod de Trinitate 
+      <lb ed="#L" n="90"/>tota praedicatur Deus cum dictione exclusiua, 
+      <lb ed="#L" n="91"/>dicendo, Trinitas est vnus solus Deus, sed nullo 
+      <lb ed="#L" n="92"/>modo de vna sola persona. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e243">
+               <lb ed="#L" n="93"/>Tertio ibi: Sed iterum. Magister obiicit contra 
+      <lb ed="#L" n="94"/>hoc, quod dictum est statim, dicens, quod dubium 
+      <lb ed="#L" n="95"/>est, quomodo ipsam Trinitatem dicimus solum 
+      <lb ed="#L" n="96"/>Deum, cum sit cum spiritibus, &amp; animabus 
+      san<lb ed="#L" break="no" n="97"/>ctis, &amp; respondet, quod propter hoc, vt 
+      significe<lb ed="#L" break="no" n="98"/>mus, quod non aliud, quam ipsa trinitas est neus. 
+    </p>
+            <p xml:id="ol96b1-164268-d1e259">
+               <lb ed="#L" n="99"/>Quarto ibi: Verumtamen. Magister ponit quan 
+      <lb ed="#L" n="100"/>dam regulam generalem de dictionibus exclusiuis, 
+      <lb ed="#L" n="101"/>dicens, quod si a licubi in scripturis inueniantur 
+      <lb ed="#L" n="102"/>praedicata essentialia alicui personae diuitiae 
+      at<lb ed="#L" break="no" n="103"/>tribui cum dictionibus exclusiuis, non debet intelli 
+      <lb ed="#L" n="104"/>gi, quod personae aliae excluduntur, vt cum 
+      legi<lb ed="#L" break="no" n="105"/>mus Matt. 10. Nemo nouit patrem, nisi filius. Ioan. 
+      <lb ed="#L" n="106"/>17. Vt cognoscant te solum Deum verum, &amp; quem 
+      <lb ed="#L" n="107"/>misisti Iesum Christum. non excluditur spiritus 
+      <lb ed="#L" n="108"/>sanctus a veritate Dei. haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

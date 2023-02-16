@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="331"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-107925"> <!-- l1d9p2-prae -->
+            <head xml:id="ol96b1-107925-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-107925-d1e104">
+               <lb ed="#L" n="85"/>SECVNDA PARS. 
+      <lb ed="#L" n="86"/>Vtrum debeat dici: Semper gignitur, vel 
+      <lb ed="#L" n="87"/>semper genitus est Filius. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e113">
+               <lb ed="#L" n="88"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-107925-d1e118">
+               <lb ed="#L" n="89"/>Ic quaeri potest, &amp;c. Postqnam Magi 
+      <lb ed="#L" n="90"/>ster ostendit de generatione Diui 
+      <lb ed="#L" n="91"/>na, quomodo sit, in hac parte 
+      in<lb ed="#L" break="no" n="92"/>quirit quomodo explicanda sit. 
+      <lb ed="#L" n="93"/>Et circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e132">
+               <lb ed="#L" n="94"/>Primo enim mouet quaestionem. 
+      <lb ed="#L" n="95"/>Secundo inducit solutionem. 
+      <lb ed="#L" n="96"/>Tertio ponit dictorum recollectionem. secun 
+      <lb ed="#L" n="97"/>da ibi: Sed ne tanti Doctores. tertia ibi: Dicamus 
+      er<lb ed="#L" break="no" n="98"/>go Filium natum. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e145">
+               <lb ed="#L" n="99"/>Circa primum Magister duo facit. Primo 
+      e<lb ed="#L" break="no" n="100"/>nim inducit auctoritates, quibus videtur posse 
+      <lb ed="#L" n="101"/>probari, quod melius exprimatur Filij 
+      genera<lb ed="#L" break="no" n="102"/>tio, dicendo, quod est semper natus, quam 
+      di<lb ed="#L" break="no" n="103"/>cendo, quod semper nascitur, &amp; est prima aucto 
+      <lb ed="#L" n="104"/>ritas Gregorij 2. Mor. in principio, qui ait, quod 
+      <lb ed="#L" n="105"/>Dominus Iesus de Patre ante tempora natus est, 
+      <lb ed="#L" n="106"/>quia nec coepit nasci, nec desijt, verius dicitur 
+      <lb ed="#L" n="107"/>semper natus, quam connatus, quatenus &amp; 
+      na<lb ed="#L" break="no" n="108"/>tus ad perfectionem pertineat, &amp; semper ad 
+      ae<lb ed="#L" break="no" n="109"/>ternitatem. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e171">
+               <lb ed="#L" n="110"/>Secunda vero est August. super illud Psal. Ego 
+      <lb ed="#L" n="111"/>hodie genui te, qui ait, quod Propheta dixit, 
+      <lb ed="#L" n="112"/>Hodie, vt innueret, quod generatio nec est 
+      prae<lb ed="#L" break="no" n="113"/>terita, quasi desierit, nec futura, vt nondum sit, sed 
+      <lb ed="#L" n="114"/>praesens tantum, quia quidquid est, semper est. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e184">
+               <lb ed="#L" n="115"/>Tertia adductio Chrysost. in gloss. super illud 
+      <lb ed="#L" n="116"/>ad Hebr. Cui enim Angelorum aliquando ait, 
+      <lb ed="#L" n="117"/>quod ex verbis Prophetae dicentis, Ego hodie 
+      <lb ed="#L" n="118"/>genui, nil manifestatur aliud, nisi quod ex essen 
+      <lb ed="#L" n="119"/>tia Patris semper genitus est Filius. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e197">
+               <lb ed="#L" n="120"/>Secundo ibi: Origenes vero. Inducit 
+      auctorita<lb ed="#L" break="no" n="121"/>tes, quibus probatur, quod melius dicatur, 
+      <lb ed="#L" n="122"/>quod Filius semper generatur a Patre, quam 
+      <lb ed="#L" n="123"/>qnod fit generatus. &amp; est prima Origenis 
+      expo<lb ed="#L" break="no" n="124"/>nentis, quod Filius est sapientia, &amp; splendor 
+      lu<lb ed="#L" break="no" n="125"/>cis aeternae, &amp; dicit, quod hoc est quia Saluator 
+      <lb ed="#L" n="126"/>noster semper nascitur, sicut splendor, qui non 
+      <lb ed="#L" n="127"/>semel nascitur, &amp; desinit, sed quoties Lumen 
+      <lb ed="#L" n="128"/>oritur. toties oriri necesse est, &amp; splendorem.
+    </p>
+            <p xml:id="ol96b1-107925-d1e219">
+      <!--0332.xml-->
+               <pb ed="#L" n="332"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Secundam ponit Origenis eiusdem, qui ait, 
+      <lb ed="#L" n="2"/>quod bene dicitur Prouerb. 8. Ante omnes colles 
+      <lb ed="#L" n="3"/>generat me Dominus. non vt quidam male legunt, 
+      <lb ed="#L" n="4"/>Generauit me, quia Filius est in continuo generari. 
+      <lb ed="#L" n="5"/>Postmodum ibi: Sod ne tanti. Magister ponit 
+      <lb ed="#L" n="6"/>solutionem, &amp; facit duo. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e242">
+               <lb ed="#L" n="7"/>Primo enim soluit dicens, quod ne tanti 
+      Do<lb ed="#L" break="no" n="8"/>ctores mutua contradictiobe videantur, 
+      dicen<lb ed="#L" break="no" n="9"/>dum est, quod vtrumque potest dici catholice, 
+      <lb ed="#L" n="10"/>scilicet, quod Pilius semper nascitur, &amp; quod Fi 
+      <lb ed="#L" n="11"/>lius semper est natus, &amp; quod dicit Greg. verius 
+      <lb ed="#L" n="12"/>dicit, quod semper natus est, non debet 
+      intelli<lb ed="#L" break="no" n="13"/>gi, quin aliud vere, &amp; catholice dici possit, sed 
+      <lb ed="#L" n="14"/>quod euidentius ex hoc modo loquendi veritas 
+      <lb ed="#L" n="15"/>exprimatur, &amp; haereticorum versutia melius obtu 
+      <lb ed="#L" n="16"/>ratur, quia cum dicitur Filius semper nascitur, 
+      <lb ed="#L" n="17"/>forte possent inferre haeretici, quod generatio 
+      <lb ed="#L" n="18"/>quotidie iteretur. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e271">
+               <lb ed="#L" n="19"/>Secundo ibi: Hilarius quoque. Solutionem 
+      con<lb ed="#L" break="no" n="20"/>firmat inducendo quatuor auctoritates Hilarij, 
+      <lb ed="#L" n="21"/>quibus confirmat istam solutionem, quia in 
+      <lb ed="#L" n="22"/>omnibus quatuor auctoritatibus dicit Hilar. 
+      <lb ed="#L" n="23"/>quod Filius nascitur in praesenti, ex quo patet, 
+      <lb ed="#L" n="24"/>quod catholice dici potest, quod Filius semper 
+      <lb ed="#L" n="25"/>generatur a Patre, licet forte sit maioris 
+      con<lb ed="#L" break="no" n="26"/>gruentiae, quod semper natus dicatur propter 
+      <lb ed="#L" n="27"/>euiden tiam potiorem. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e293">
+               <lb ed="#L" n="28"/>Postmodum ibi: Dicamus ergo. Magister ponit 
+      <lb ed="#L" n="29"/>quandam collectionem dictorum. Et circa hoc 
+      <lb ed="#L" n="30"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e302">
+               <lb ed="#L" n="31"/>Primo enim praedeterminata recolligit, 
+      di<lb ed="#L" break="no" n="32"/>cens, quod ista duo catholice profitenda, quod 
+      <lb ed="#L" n="33"/>Filius ante tempora de Patre natus est, &amp; quod 
+      <lb ed="#L" n="34"/>de eo nascitur semper, &amp; per consequens, quod 
+      <lb ed="#L" n="35"/>est aeternus, nec propter hoc est non natus, quia 
+      <lb ed="#L" n="36"/>quod ab aeterno nascitur, habet esse aeternum. 
+    </p>
+            <p xml:id="ol96b1-107925-d1e318">
+               <lb ed="#L" n="37"/>Secundo ibi, Sed inquit Haereticus. Magister 
+      obii<lb ed="#L" break="no" n="38"/>cit ex dictis Haeretici, contra illud, quod statim 
+      <lb ed="#L" n="39"/>dictum est, vnde probat Haereticus, quod natum 
+      <lb ed="#L" n="40"/>non possit osse aeternum, quia omne, quod 
+      na<lb ed="#L" break="no" n="41"/>scitur, ad illud nascitur, vt sit. ergo ante 
+      <lb ed="#L" n="42"/>non est, vt videtur, &amp; respondet Magister, quod 
+      <lb ed="#L" n="43"/>hoc argumentum tenet in rebus humanis, vbi 
+      <lb ed="#L" n="44"/>Pater non semper est Pater. sed ex tempore. In 
+      <lb ed="#L" n="45"/>Deo vero, qui semper Pater est, necesse est, vt 
+      <lb ed="#L" n="46"/>Filius semper sit, &amp; quod sit proprium eius aeter 
+      <lb ed="#L" n="47"/>naliter generari. Haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

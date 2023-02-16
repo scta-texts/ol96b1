@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="473"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-153432"> <!-- l1d19p2-prae -->
+            <head xml:id="ol96b1-153432-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-153432-d1e104">
+               <lb ed="#L" n="21"/>SECVNDA PARS. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e109">
+               <lb ed="#L" n="22"/>Ad id, quod coeperat redit, scilicet, vt 
+      <lb ed="#L" n="23"/>ostendat, quod magnitudine alius 
+      <lb ed="#L" n="24"/>alium non superet. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e118">
+               <lb ed="#L" n="25"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-153432-d1e124">
+               <lb ed="#L" n="26"/>SED iam nunc ad propositum 
+      redea<lb ed="#L" break="no" n="27"/>mus, &amp;c. Postquam Magister 
+      <lb ed="#L" n="28"/>probauit, in diuinis esse 
+      aequa<lb ed="#L" break="no" n="29"/>litatem, in hac parte ostendit, 
+      <lb ed="#L" n="30"/>quod diuina aequalitas 
+      exclu<lb ed="#L" break="no" n="31"/>dit omnem totalitatem, &amp; 
+      ra<lb ed="#L" break="no" n="32"/>tionem partis. &amp; circa hoc duo facit.
+    </p>
+            <p xml:id="ol96b1-153432-d1e142">
+               <lb ed="#L" n="33"/>Primo enim excludit rationem totius 
+      inte<lb ed="#L" break="no" n="34"/>gralis, &amp; secundo rationem totius vniuersalis 
+      <lb ed="#L" n="35"/>secunda ibi: Hic adijciendum est. Dicit itaque 
+      pri<lb ed="#L" break="no" n="36"/>mo, quod ad propositum redeundo, tenendum est, 
+      <lb ed="#L" n="37"/>quod personae diuinae aequales sunt 
+      magnitudi<lb ed="#L" break="no" n="38"/>ne, &amp; ex hoc excluditur ratio partis integralis, 
+      <lb ed="#L" n="39"/>quia personae non sunt partes Dei, vel diuinae 
+      es<lb ed="#L" break="no" n="40"/>sentiae, sed quaelibet est plenus Deus. &amp; essentia 
+      <lb ed="#L" n="41"/>tota, &amp; hoc probat Magister auctoritate 
+      Au<lb ed="#L" break="no" n="42"/>gustini contra Maximum lib. 3. &amp; patet 
+      aucto<lb ed="#L" break="no" n="43"/>ritas in littera. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e168">
+               <lb ed="#L" n="44"/>Postmodum ibi: Hic adijciendum est. Dicit itaque 
+      <lb ed="#L" n="45"/>primo, quod ad propositum remonet Magister 
+      <lb ed="#L" n="46"/>a diuinis rationem totius vniuersalis. &amp; primo 
+      <lb ed="#L" n="47"/>facit hoc. secundo obiicit contra se ex dictis Da 
+      <lb ed="#L" n="48"/>masceni. secunda ibi: His autem videtur. Circa 
+      <lb ed="#L" n="49"/>primum facit quatuor. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e184">
+               <lb ed="#L" n="50"/>Primo namque ostendit, quod essentia 
+      diui<lb ed="#L" break="no" n="51"/>na non praedicatur de tribus personis, sicut 
+      ge<lb ed="#L" break="no" n="52"/>nus de speciebus, dicens, quod tanta est 
+      aequali<lb ed="#L" break="no" n="53"/>tas personarum, quod excluditur omnis ratio 
+      <lb ed="#L" n="54"/>generis a diuinis, quod probatur ex hoc, quod 
+      <lb ed="#L" n="55"/>genus praedicatur in plurali de suis speciebus, 
+      <lb ed="#L" n="56"/>cum dicitur, quod homo, &amp; equus sunt duo 
+      a<lb ed="#L" break="no" n="57"/>nimalia, non potest autem sic dici de tribus 
+      perso<lb ed="#L" break="no" n="58"/>nis, quod sint tres dij, aut tres essentiae. non ergo 
+      <lb ed="#L" n="59"/>habet se Deus, vel diuina essentia, sicut genus.
+    </p>
+            <p xml:id="ol96b1-153432-d1e208">
+               <lb ed="#L" n="60"/>Secundo ibi: Si vero dicunt. probat, quod nec 
+      <!--0473.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="61"/>etiam pater, vt species, &amp; hoc dupliciter. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e219">
+               <lb ed="#L" n="62"/>Primo quidem, quia species plurificatur in 
+      <lb ed="#L" n="63"/>indiuiduis, vt dicatur, quod Abraham, Isaac, &amp; 
+      <lb ed="#L" n="64"/>Jacob, sunt tres homines. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e229">
+               <lb ed="#L" n="65"/>Secundo vero, quod indiuidua non 
+      praedican<lb ed="#L" break="no" n="66"/>tur de specie adiecta vnitate, dicendo 
+      videli<lb ed="#L" break="no" n="67"/>cet, quod vnus homo sit tria indiuidua, sicut 
+      <lb ed="#L" n="68"/>dicitur, quod vna essentia est tres personae. 
+      <lb ed="#L" n="69"/>Addit autem, quod nec essentia potest esse 
+      ge<lb ed="#L" break="no" n="70"/>nus propter hoc, quod tres personae non 
+      pos<lb ed="#L" break="no" n="71"/>sunt esse species. vna enim essentia species non 
+      <lb ed="#L" n="72"/>habet. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e249">
+               <lb ed="#L" n="73"/>Tertio ibi: Notandum etiam. Probat 
+      Magi<lb ed="#L" break="no" n="74"/>ster, quod nec praedicatur in habitudine 
+      cau<lb ed="#L" break="no" n="75"/>sae materialis esse de personis, &amp; hoc facit, 
+      <lb ed="#L" n="76"/>quia genus videtur habere rationem materiae. 
+      <lb ed="#L" n="77"/>dicit ergo, quod tres personae non ita 
+      dicun<lb ed="#L" break="no" n="78"/>tur vna essentia, sicut ex eodem auro tres 
+      an<lb ed="#L" break="no" n="79"/>nuli, aut ex eodem aere tres statuae esse 
+      dicun<lb ed="#L" break="no" n="80"/>tur. plus enim est de auro in duobus annulis, 
+      <lb ed="#L" n="81"/>quam in vno, &amp; in tribus, quam in duobus: 
+      <lb ed="#L" n="82"/>in illa autem essentia Trinitatis, nullo modo sic 
+      <lb ed="#L" n="83"/>est, cum quaelibet persona possideat 
+      plenitudi<lb ed="#L" break="no" n="84"/>nem Deitatis. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e278">
+               <lb ed="#L" n="85"/>Quarto ibi: His quoque addendum. Ostendit 
+      <lb ed="#L" n="86"/>Magister, quod nec essentia praedicatur 
+      secun<lb ed="#L" break="no" n="87"/>dum rationem similitudinis. dicens, quod non 
+      <lb ed="#L" n="88"/>similiter dicuntur tres personae vnius essentiae, 
+      <lb ed="#L" n="89"/>&amp; tres homines vnius complexionis, vel vnius 
+      <lb ed="#L" n="90"/>animalis sexus, quoniam ita causalitas est 
+      inae<lb ed="#L" break="no" n="91"/>qualitas, &amp; diuersitas naturarum, quod non est 
+      <lb ed="#L" n="92"/>in diuinis personis. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e298">
+               <lb ed="#L" n="93"/>Postmodum ibi: His autem videntur. Arguit 
+      <lb ed="#L" n="94"/>contra se Magister ex dictis Damasce. &amp; circa 
+      <lb ed="#L" n="95"/>hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e307">
+               <lb ed="#L" n="96"/>Primo namque inducit duas auctoritates Da 
+      <lb ed="#L" n="97"/>masceni, in quarum prima dicitur, quod 
+      di<lb ed="#L" break="no" n="98"/>uina substantia est vniuersale; hipostases 
+      ve<lb ed="#L" break="no" n="99"/>ro, siue personae sunt particularia. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e318">
+               <lb ed="#L" n="100"/>In secunda vero dicitur, quod Deus est 
+      spe<lb ed="#L" break="no" n="101"/>cies, sicut homo, &amp; quod pater, &amp; filius, &amp; 
+      <lb ed="#L" n="102"/>spiritus sanctus sunt indiuidua, sicut Petrus, 
+      <lb ed="#L" n="103"/>&amp; Paulus. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e330">
+               <lb ed="#L" n="104"/>In tertia etiam dicitur, quod personae 
+      nume<lb ed="#L" break="no" n="105"/>ro differunt, &amp; numeraliter distinguuntur. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e337">
+               <lb ed="#L" n="106"/>Secundo ibi: Haec autem, quae hic dicuntur. 
+      Sol<lb ed="#L" break="no" n="107"/>uit Magister, &amp; exponit dictum Damasceni, 
+      <lb ed="#L" n="108"/>quantum ad hoc, quod dixit, diuinam 
+      substan<lb ed="#L" break="no" n="109"/>tiam esse vniuersale, vel speciem; personas 
+      ve<lb ed="#L" break="no" n="110"/>ro particularia, vel indiuidua. &amp; ait 
+      Magi<lb ed="#L" break="no" n="111"/>ster, quod licet verba Damasceni 
+      superficie<lb ed="#L" break="no" n="112"/>tenus videantur aliena a fide, pium tamen 
+      in<lb ed="#L" break="no" n="113"/>tellectorem efflagitant. non enim intellexit, 
+      <lb ed="#L" n="114"/>quod diuina essentia sit proprie vniuersale, vel 
+      <lb ed="#L" n="115"/>species, sed quod habea: quandam 
+      similitudi<lb ed="#L" break="no" n="116"/>nem, inquantum de pluribus distinctis realiter 
+      <lb ed="#L" n="117"/>praedicatur; quaelibet vero persona est similis 
+      <lb ed="#L" n="118"/>particulari, vel indiuiduo, quia praedicatur de 
+      <lb ed="#L" n="119"/>vno solo. 
+    </p>
+            <p xml:id="ol96b1-153432-d1e370">
+               <lb ed="#L" n="120"/>Tertio ibi: <quote xml:id="ol96b1-153432-Qd1e374">Quod autem Ioannes</quote>. Magister 
+      ex<lb ed="#L" break="no" n="121"/>ponit dictum Damasceni, quoad hoc, qu od dixit 
+      <lb ed="#L" n="122"/>personas numero differre, dicens, quod differre 
+      <lb ed="#L" n="123"/>numero potest intelligi duobus modis, vno 
+      qui<lb ed="#L" break="no" n="124"/>dem realitate numerali tantum, quod nulla rea 
+      <lb ed="#L" n="125"/>litas indiuisa est in eis. sicut differunt Sortes, &amp; 
+      <lb ed="#L" n="126"/>Plato, &amp; hoc modo personae non differunt in 
+      <lb ed="#L" n="127"/>diuinis.
+    </p>
+            <p xml:id="ol96b1-153432-d1e392">
+      <!--0474.xml-->
+               <pb ed="#L" n="474"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Alio modo secundum computationem distin 
+      <lb ed="#L" n="2"/>ctam, &amp; discretam, &amp; quod tres personae 
+      discre<lb ed="#L" break="no" n="3"/>tae sunt, &amp; distinctae numerales in diuinis, ideo 
+      <lb ed="#L" n="4"/>secundum intellectum concedi potest, quod 
+      per<lb ed="#L" break="no" n="5"/>sonae numeraliter distinguuntur, hoc est 
+      nume<lb ed="#L" break="no" n="6"/>raliter, quia possunt inter se numerari discrete. 
+      <lb ed="#L" n="7"/>Haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

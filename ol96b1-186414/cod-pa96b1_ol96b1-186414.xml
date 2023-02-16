@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="574"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-186414"> <!-- l1d26p1-prae -->
+            <head xml:id="ol96b1-186414-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-186414-d1e104">
+      <!--0574.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="14"/>DE PROPRJETATJBVS PERSONARVM, 
+      <lb ed="#L" n="15"/>sed prius de hoc nomine, hypostasis.
+    </p>
+            <p xml:id="ol96b1-186414-d1e115">
+               <lb ed="#L" n="16"/>DISTINCTIO XX VI.
+    </p>
+            <p xml:id="ol96b1-186414-d1e120">
+      <!--0574.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="17"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e130">
+               <lb ed="#L" n="18"/>NVNC de proprietatibus, &amp;c. 
+      <lb ed="#L" n="19"/>Postquam Magister 
+      deter<lb ed="#L" break="no" n="20"/>minauit de nominibus 
+      per<lb ed="#L" break="no" n="21"/>sonalibus, &amp; communibus, 
+      <lb ed="#L" n="22"/>cuiusmodi sunt Trinitas, &amp; 
+      <lb ed="#L" n="23"/>Persona, hic determinat 
+      <lb ed="#L" n="24"/>de nominibus personalibus 
+      <lb ed="#L" n="25"/>propriis, &amp; appropriatis. 
+      <lb ed="#L" n="26"/>vnde agit de proprietatibus personarum. Et cir 
+      <lb ed="#L" n="27"/>ca hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e154">
+               <lb ed="#L" n="28"/>Primo namque agit de proprietatibus 
+      huius<lb ed="#L" break="no" n="29"/>modi absolute. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e161">
+               <lb ed="#L" n="30"/>Secundo vero eas comparat ad essentiam, &amp; 
+      <lb ed="#L" n="31"/>personas, inquirendo, vtrum proprietates sint 
+      <lb ed="#L" n="32"/>ipsae personae, &amp; diuina essentia. secunda infra di 
+      <lb ed="#L" n="33"/>stinct. 33. Post praedicta. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e172">
+               <lb ed="#L" n="34"/>Primo namque agit de proprietatibus 
+      pro<lb ed="#L" break="no" n="35"/>priis personarum. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e179">
+               <lb ed="#L" n="36"/>Secundo vero de similitudine, &amp; aequalitate, 
+      <lb ed="#L" n="37"/>quae competunt omnibus personis. sccunda 
+      in<lb ed="#L" break="no" n="38"/>fra dist. 31. Praeterea considerandum. Adnuc circa 
+      <lb ed="#L" n="39"/>primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e190">
+               <lb ed="#L" n="40"/>Primo namque agit de nominibus 
+      persona<lb ed="#L" break="no" n="41"/>libus. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e198">
+               <lb ed="#L" n="42"/>Secundo vero interserit de nominibus 
+      relati<lb ed="#L" break="no" n="43"/>uis, quae de Deo dicuntur ex tempore. secunda 
+      <lb ed="#L" n="44"/>infra dist. 30. Sunt enim quaedam. Circa primum 
+      <lb ed="#L" n="45"/>facit tria. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e209">
+               <lb ed="#L" n="46"/>Primo enim agit de tribus proprietatibus 
+      <lb ed="#L" n="47"/>constitutis personarum, quae sunt paternitas, 
+      fi<lb ed="#L" break="no" n="48"/>liatio, &amp; passiua spiratio. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e218">
+               <lb ed="#L" n="49"/>Secundo vero agit de proprietate, quam 
+      im<lb ed="#L" break="no" n="50"/>portat ingenitus, vel innascibilitas, quae 
+      qui<lb ed="#L" break="no" n="51"/>dem est patris notio, non constitutiua proprietas. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e227">
+               <lb ed="#L" n="52"/>Tertio vero agit de hoc nomine, Principium, 
+      <lb ed="#L" n="53"/>quod significat spirationem actiuam. secunda 
+      <lb ed="#L" n="54"/>infra dist. 28. Praeterea considerari. tertia dist. 29. 
+      <lb ed="#L" n="55"/>Est praeterea aliud nomen. Adhuc circa primum 
+      <lb ed="#L" n="56"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e240">
+               <lb ed="#L" n="57"/>Primo enim agit de proprietatibus tribus con 
+      <lb ed="#L" n="58"/>stitutiuis personarum, quae exprimuntur 
+      nomi<lb ed="#L" break="no" n="59"/>ne patris, &amp; filij, &amp; spiritus sancti. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e249">
+               <lb ed="#L" n="60"/>Secundo vero inquirit, vtrum eaedem 
+      proprie<lb ed="#L" break="no" n="61"/>tates exprimantur nomine genitoris, &amp; geniti, 
+      <lb ed="#L" n="62"/>imaginis, &amp; verbi. secunda infra distinct. 27. Hic 
+      <lb ed="#L" n="63"/>quaeri potest. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e261">
+               <lb ed="#L" n="64"/>Primo namque praemittit aliqua circa nomen 
+      <lb ed="#L" n="65"/>Hypostasis.
+    </p>
+            <p xml:id="ol96b1-186414-d1e268">
+      <!--0574.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="66"/>Secundo vero exequitur de proprietatibus 
+      <lb ed="#L" n="67"/>personarum, &amp; earum nominibus relatiuis. 
+      se<lb ed="#L" break="no" n="68"/>cunda ibi: Iam de proprietatibus. Dicit itaque pri 
+      <lb ed="#L" n="69"/>mo, quod nunc agendum est de proprietatibus, 
+      <lb ed="#L" n="70"/>sed praemittendum est de nomine Hypostasis, 
+      <lb ed="#L" n="71"/>quod in eo latet venenum, prout dicit 
+      Hieroy<lb ed="#L" break="no" n="72"/>mus, hoc autem intelligendum est pro tempore 
+      <lb ed="#L" n="73"/>primitiuo, &amp; quo nondum distinguebatur inter 
+      <lb ed="#L" n="74"/>ens solitarium, &amp; per se, &amp; inter substantiam sin 
+      <lb ed="#L" n="75"/>gularem. tunc enim hypostasis significabat 
+      <lb ed="#L" n="76"/>perseitatem tertij modi, &amp; videbatur importare 
+      <lb ed="#L" n="77"/>substantiam singularem, &amp; ita catholici 
+      conce<lb ed="#L" break="no" n="78"/>dentes tres hyposaases in diuinis deducebantur 
+      <lb ed="#L" n="79"/>ab haereticis ad concedendum tres essentias 
+      sin<lb ed="#L" break="no" n="80"/>gulares, quod est omnino erroneum, &amp; ita in 
+      <lb ed="#L" n="81"/>illo tempore sub nomine Hypostasis latebat 
+      ve<lb ed="#L" break="no" n="82"/>nenum, nunc autem considerata 
+      distinctione<lb ed="#L" break="no" n="83"/>huiusmodi rationum, nomen Hypostasis 
+      obti<lb ed="#L" break="no" n="84"/>nuit significatum proprium. vnde vsus eius 
+      abs<lb ed="#L" break="no" n="85"/>que periculo assumitur in diuinis. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e318">
+               <lb ed="#L" n="86"/>Postmodum ibi: Iam de prnprietatibus. 
+      Exe<lb ed="#L" break="no" n="87"/>quitur Magister inquisitionem personalium 
+      pro<lb ed="#L" break="no" n="88"/>prietatum. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e327">
+               <lb ed="#L" n="89"/>Primo namque enumerat huiusmodi 
+      pro<lb ed="#L" break="no" n="90"/>prietates. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e334">
+               <lb ed="#L" n="91"/>Secundo, mouet quaedam dubia circa ipsas. 
+      <lb ed="#L" n="92"/>secunda ibi: Hic quaeritur. Adhuc circa primum 
+      <lb ed="#L" n="93"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e343">
+               <lb ed="#L" n="94"/>Primo enim proprietates huiusmodi 
+      enume<lb ed="#L" break="no" n="95"/>rat, dicens, quod August. de fide ad Petrum ait, 
+      <lb ed="#L" n="96"/>quod aliud est genuisse, aliud natum esse, ex quo 
+      <lb ed="#L" n="97"/>colligitur, quod alia est proprietas, seu notio, 
+      <lb ed="#L" n="98"/>generatio, &amp; alia natiuitas, &amp; alia processio, 
+      <lb ed="#L" n="99"/>quae consueuerunt aliis nominibus appellati, pa 
+      <lb ed="#L" n="100"/>ternitas, filiatio, &amp; spiratio. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e362">
+               <lb ed="#L" n="101"/>Secundo ibi: Quocirca. Ostendit, huiusmodi 
+      <lb ed="#L" n="102"/>proprietates non esse Deo accidentales, sicut est 
+      <lb ed="#L" n="103"/>de proprietatibus creaturarum, &amp; ait, quod hu 
+      <lb ed="#L" n="104"/>iusmodi proprietates non dicuntur secundum 
+      <lb ed="#L" n="105"/>substantiam, sed secundum relationem, nec 
+      ta<lb ed="#L" break="no" n="106"/>men secundum accidens, quia nihil accidit 
+      Deo<lb ed="#L" break="no" n="107"/>cum totum immutabile, &amp; inamissibile sit, quod 
+      <lb ed="#L" n="108"/>est in eo, ex quo patet, quod fallit regula, 
+      qua<lb ed="#L" break="no" n="109"/>consuetum est inferri de aliquo, quod dicatur 
+      <lb ed="#L" n="110"/>secundum accidens, ex hoc, quod secundum 
+      sub<lb ed="#L" break="no" n="111"/>stantiam non dicitur: fallit inquam, quia in Deo 
+      <lb ed="#L" n="112"/>proprietates personales non dicuntur secundum 
+      <lb ed="#L" n="113"/>substantiam, &amp; tamen non est verum, quod 
+      secun<lb ed="#L" break="no" n="114"/>dum accidens dicantur, sed secundum 
+      relatio<lb ed="#L" break="no" n="115"/>nem, quae quidem non est accidentalis in Deo 
+    </p>
+            <p xml:id="ol96b1-186414-d1e397">
+      <!--0575.xml-->
+               <pb ed="#L" n="575"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Postmodum ibi: Hic quaeritur. Magister mouet 
+      <lb ed="#L" n="2"/>dubitationes circa praedicta. Et primo quidem 
+      <lb ed="#L" n="3"/>de nomine filij, seu nati: secundo de nomine 
+      do<lb ed="#L" break="no" n="4"/>ni, &amp; spiritus sancti. secunda ibi: Ita etiam de 
+      spi<lb ed="#L" break="no" n="5"/>ritu. Adhuc circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e417">
+               <lb ed="#L" n="6"/>Primo namque mouet dubitationem de hoc, 
+      <lb ed="#L" n="7"/>quod dictum est, proprium esse nato Deo, quod 
+      <lb ed="#L" n="8"/>est Dei filius, vel genitus ex Deo. non enim 
+      vide<lb ed="#L" break="no" n="9"/>tur hoc proprium, nato Deo, cum homines filij 
+      <lb ed="#L" n="10"/>Dei dicantur, vt saepe legimus in scripturis, &amp; 
+      <lb ed="#L" n="11"/>ponit responsionem ad hoc, dicens, quod magna 
+      <lb ed="#L" n="12"/>distantia est inter filiationem istam, &amp; illam 
+      <lb ed="#L" n="13"/>vna enim est naturalis, &amp; propria, secundum 
+      <lb ed="#L" n="14"/>quam persona diuina dicitur filius Dei; alia 
+      ve<lb ed="#L" break="no" n="15"/>ro est adoptiua, non naturalis, sed gratuita, 
+      se<lb ed="#L" break="no" n="16"/>cundum quam creatura, vtpote homo dicitur 
+      <lb ed="#L" n="17"/>filius Dei. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e446">
+               <lb ed="#L" n="18"/>Secundo ibi: Homo vero. Ponit solutionem se 
+      <lb ed="#L" n="19"/>cundam, dicens, quod aliter homo Dei filius est, 
+      <lb ed="#L" n="20"/>&amp; aliter Deus natus filius appellatur, 
+      quomo<lb ed="#L" break="no" n="21"/>do homo est filius totius Trinitatis, sed filius 
+      so<lb ed="#L" break="no" n="22"/>lius patris. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e459">
+               <lb ed="#L" n="23"/>Postmodum ibi: Ita etiam de spiritu. Mouet 
+      du<lb ed="#L" break="no" n="24"/>bitationem circa proprietatem spirationis, &amp; 
+      <lb ed="#L" n="25"/>facit tria. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e468">
+               <lb ed="#L" n="26"/>Primo namque assumit, quod nomen 
+      Spiri<lb ed="#L" break="no" n="27"/>tus dicitur relatiue, quamuis ipsa relatio non 
+      <lb ed="#L" n="28"/>appareat in nomine Spiritus, sed in nomine 
+      Do<lb ed="#L" break="no" n="29"/>ni, &amp; ostendit, quod de Patre, &amp; Filio 
+      praedica<lb ed="#L" break="no" n="30"/>tur nomen Spiritus, &amp; nomen sancti diuisim; &amp; 
+      <lb ed="#L" n="31"/>tunc spiritus significat substantiam; cum vero 
+      <lb ed="#L" n="32"/>coniunctim Spiritussanctus praedicatur de 
+      ter<lb ed="#L" break="no" n="33"/>tia persona significat relationem. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e489">
+               <lb ed="#L" n="34"/>Secundo ibi: Hic quaeri potest. Mouet circa hoc 
+      <lb ed="#L" n="35"/>dubitationem, dicens, quod quaeri potest, Vtrum 
+      <lb ed="#L" n="36"/>Pater, &amp; Filius, vel etiam Trinitas tota possit 
+      <lb ed="#L" n="37"/>dici coninctim, Spiritus sanctus praedicatur de 
+      <lb ed="#L" n="38"/>tertia persona, &amp; respondet quod sic; sed tamen 
+      <lb ed="#L" n="39"/>secundum aliam, &amp; aliam signisicationem, quia 
+      <lb ed="#L" n="40"/>cum de Trinitate, vel de Patre, seu Filio, Pater 
+      <lb ed="#L" n="41"/>significat essentiam, &amp; non relationem, cum 
+      ve<lb ed="#L" break="no" n="42"/>ro de tertia persona significat proprietatem 
+      <lb ed="#L" n="43"/>relatiuam. 
+    </p>
+            <p xml:id="ol96b1-186414-d1e513">
+               <lb ed="#L" n="44"/>Tertio ibi: Quidam tamen. Ex hoc 
+      reprehen<lb ed="#L" break="no" n="45"/>dit aliquorum errorem, qui putauerunt, nomen, 
+      <lb ed="#L" n="46"/>Donum, vel Spiritus relatiue non dici, ex hoc, 
+      <lb ed="#L" n="47"/>quod non apparent secundum conuertentiam; 
+      <lb ed="#L" n="48"/>&amp; mutuam correspondentiam se habere. non 
+      e<lb ed="#L" break="no" n="49"/>nim dicitur Doni, vel Spiritus amborum. elidit 
+      <lb ed="#L" n="50"/>orgo istum errorem, dicens, quod in multis rela 
+      <lb ed="#L" n="51"/>tiuis hoc contingit, vt non inueniatur 
+      vocabu<lb ed="#L" break="no" n="52"/>lum, quod sibi vicissim correllatiue respondeat; 
+      <lb ed="#L" n="53"/>potest tamen vocabulum confringi praeter vsum 
+      <lb ed="#L" n="54"/>communem, vt dicamus, quod pater, &amp; filius 
+      <lb ed="#L" n="55"/>sunt donator doni, &amp; spirator spiritus, &amp; secun 
+      <lb ed="#L" n="56"/>dum hoc dicetur spiratus spiratoris, &amp; spirator 
+      <lb ed="#L" n="57"/>spiritus; &amp; tamen similiter doni donator, &amp; 
+      do<lb ed="#L" break="no" n="58"/>natoris donum. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

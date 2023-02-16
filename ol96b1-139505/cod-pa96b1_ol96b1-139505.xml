@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="427"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-139505"> <!-- l1d17p2-prae -->
+            <head xml:id="ol96b1-139505-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-139505-d1e104">
+               <lb ed="#L" n="99"/>
+               <sic>TERTIA</sic> PARS. 
+      <lb ed="#L" n="100"/>Vtrum concedendum sit, quod 
+      Spiri<lb ed="#L" break="no" n="101"/>tus sanctus augetur in homine, vel 
+      <lb ed="#L" n="102"/>magis, vel nimis habeatur, 
+      <lb ed="#L" n="103"/>vel detur. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e120">
+               <lb ed="#L" n="104"/>HIc quaeritur, &amp;c. Postquam 
+      Ma<lb ed="#L" break="no" n="105"/>gister inquisiuit, quomodo 
+      spiri<lb ed="#L" break="no" n="106"/>tus sanctus inuisibiliter detur, 
+      <lb ed="#L" n="107"/>hic inquirit, quomodo magis, ac 
+      <lb ed="#L" n="108"/>magis detur. Et circa hoc tria 
+      <lb ed="#L" n="109"/>facit. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e136">
+               <lb ed="#L" n="110"/>Primo enim dubitationem mouet contra se 
+      <lb ed="#L" n="111"/>arguendo, &amp; dicit, quod si spiritus sanctus sit 
+      <lb ed="#L" n="112"/>charitas, dubium est, quomodo augmentatur, 
+      <lb ed="#L" n="113"/>vel minuatur. si enim homo habet aliquando 
+      <lb ed="#L" n="114"/>charitatem maiorem, aliquando minorem, 
+      vi<lb ed="#L" break="no" n="115"/>detur quod spiritus sanctus quandoque plus, 
+      <lb ed="#L" n="116"/>quandoque minus habeatur, &amp; sic quod sit 
+      mu<lb ed="#L" break="no" n="117"/>tabilis, quod omnino est extraneum a Deo, &amp; 
+      <lb ed="#L" n="118"/>iterum si charitas detur non habenti, vt habeat, 
+      <lb ed="#L" n="119"/>&amp; habenti, vt plenius habeat, dubium est quo 
+      <lb ed="#L" n="120"/>modo spiritus sanctus sit, cum constet, quod 
+      ip<lb ed="#L" break="no" n="121"/>se in omnibus creaturis sit totus. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e166">
+               <lb ed="#L" n="122"/>Secundo ibi: His itaque reddamus. Magister 
+      sol<lb ed="#L" break="no" n="123"/>uit vtramque dubitationem, primam, quod 
+      spiri<lb ed="#L" break="no" n="124"/>tus sanctus, seu charitas non augetur, vel 
+      minui<lb ed="#L" break="no" n="125"/>tur in se, sed incomparatione ad hominem, 
+      se<lb ed="#L" break="no" n="126"/>cundum quod decernit, vel magis, vel minus ad 
+      <lb ed="#L" n="127"/>amorem suum hominem inflammare, &amp; 
+      confir<lb ed="#L" break="no" n="128"/>matur auctoritate Cassiodori, qui dicit, quod 
+      <lb ed="#L" n="129"/>Deus non in se, sed in corde hominum gratia 
+      de<lb ed="#L" break="no" n="130"/>sit. Secundam vero, quod spiritus sanctus est 
+      <!--0428.xml-->
+      <pb ed="#L" n="428"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vbique per assistentiam quandam, &amp; praesentiam 
+      <lb ed="#L" n="2"/>generalem, sed est in rationalibus creaturis per 
+      <lb ed="#L" n="3"/>modum doni, &amp; misssi. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e201">
+               <lb ed="#L" n="4"/>Tertio ibi: Vt autem certius. Probat Magister 
+      <lb ed="#L" n="5"/>duplici auctoritate, quod dictum est. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e208">
+               <lb ed="#L" n="6"/>Prima quidem Augustini hom. 4. super 
+      Ioan<lb ed="#L" break="no" n="7"/>nem, qui dicit, quod spiritus sanctus magis, &amp; 
+      <lb ed="#L" n="8"/>minus datur, &amp; datus augetur, &amp; fiat in 
+      haben<lb ed="#L" break="no" n="9"/>te secundum perceptionem &amp; participationem 
+      <lb ed="#L" n="10"/>habentis, nec tamen proficit, nec deficit in se. 
+      <lb ed="#L" n="11"/>Secunda vero est Augustini, super prima 
+      ca<lb ed="#L" break="no" n="12"/>nonica Ioannis hom. 8. qui ait, quod probare se 
+      <lb ed="#L" n="13"/>debet homo quantum in illo profecit charitas, 
+      <lb ed="#L" n="14"/>vel potius quid ipse in charitate profecit. nam 
+      <lb ed="#L" n="15"/>si charitas est Deus, nec proficit, nec deficit, sed 
+      <lb ed="#L" n="16"/>tu in ea proficis, haec Augustinus. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e234">
+               <lb ed="#L" n="17"/>Postmodum ibi: Supra dictum est. Magister obij 
+      <lb ed="#L" n="18"/>cit contra suam opinionem: Et circa hoc tria 
+      <lb ed="#L" n="19"/>facit. Primo enim per auctoritates contra se ar 
+      <lb ed="#L" n="20"/>guit. Secundo rationes contra seipsum inducit, 
+      <lb ed="#L" n="21"/>&amp; tertio quandam quaestionem adducit iuxta 
+      <lb ed="#L" n="22"/>determinata. Secunda ibi: Alias quoque. Tertia 
+      <lb ed="#L" n="23"/>ibi: Hic quaeritur. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e252">
+               <lb ed="#L" n="24"/>Circa primum duo facit. primo enim contra 
+      <lb ed="#L" n="25"/>se duas auctoritates adducit, &amp; est prima Aug. 
+      <lb ed="#L" n="26"/>in lib. de littera, &amp; spiritu, qui dicit, quod 
+      cha<lb ed="#L" break="no" n="27"/>ritas Dei dicta est diffundi in cordibus nostris, 
+      <lb ed="#L" n="28"/>non quod ipse nos diligit, sed quia nos 
+      dilecto<lb ed="#L" break="no" n="29"/>res suos facit, hoc quidem videtur dicere Augu 
+      <lb ed="#L" n="30"/>stinus, quod dilectio, qua nos diligimus Deum. 
+      <lb ed="#L" n="31"/>non sit Deus spiritus sanctus. Secunda vero est 
+      <lb ed="#L" n="32"/>eiusdem, quae continet eandem sententiam 
+    </p>
+            <p xml:id="ol96b1-139505-d1e274">
+               <lb ed="#L" n="33"/>Secundo ibi: His respondemus. Soluit Magister 
+      <lb ed="#L" n="34"/>exponendo illas auctoritates. Prima siquidem, 
+      <lb ed="#L" n="35"/>quod non intendit Augustinus diuidere 
+      chari<lb ed="#L" break="no" n="36"/>tatem, qua Deus diligit, ab ea, qua nos diligimus 
+      <lb ed="#L" n="37"/>realiter, sed tantum ratione. eadem enim charitas, 
+      <lb ed="#L" n="38"/>quaDeus nos diligit, &amp; qui fecit nos dilectores, 
+      <lb ed="#L" n="39"/>sed dicitur diffundi in cordibus nostris, non 
+      in<lb ed="#L" break="no" n="40"/>quantum nos diligit, sed inquantum dilectores nos 
+      <lb ed="#L" n="41"/>facit, &amp; eodem modo exponitur auctoritas 
+      se<lb ed="#L" break="no" n="42"/>cunda, addit autem Magister, quod in praedicta 
+      <lb ed="#L" n="43"/>auctoritate Augustini videtur dicere, quod dile 
+      <lb ed="#L" n="44"/>ctio est a spiritu sancto, a quo est fides Respondet 
+      <lb ed="#L" n="45"/>autem ad hoc, quod fides est a spiritu sancto, &amp; 
+      <lb ed="#L" n="46"/>non est spiritus sanctus, charitas autem spiritus 
+      <lb ed="#L" n="47"/>sanctus &amp; a spiritu sancto est, quia spiritus 
+      da<lb ed="#L" break="no" n="48"/>tur, &amp; mittitur a seipso, vt supra dictum est. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e312">
+               <lb ed="#L" n="49"/>Postmodum ibi: Alias quoque. Magister 
+      indu<lb ed="#L" break="no" n="50"/>cit contra se rationes, &amp; facit duo. Primo enim 
+      <lb ed="#L" n="51"/>duas rationes inducit, vna quidem, quia spiritus 
+      <lb ed="#L" n="52"/>sanctus animi est motus, vt Augustinus dicit. 3. 
+      <lb ed="#L" n="53"/>de Doctr. Christia. quod charitas est motus ani 
+      <lb ed="#L" n="54"/>mi. ergo non est spiritus sanctus, alteram 
+      ve<lb ed="#L" break="no" n="55"/>ro, quod spiritus sanctus non est virtus, nec 
+      affe<lb ed="#L" break="no" n="56"/>ctio mentis, charitas autem est virtus, &amp; rectissi 
+      <lb ed="#L" n="57"/>ma animi affectio secundum Augustinum de 
+      <lb ed="#L" n="58"/>moribus Ecclesiae. non ergo spiritus sanctus est 
+      <lb ed="#L" n="59"/>charitas. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e338">
+               <lb ed="#L" n="60"/>Secundo ibi: Ad quod dicimus. Magister 
+      re<lb ed="#L" break="no" n="61"/>spondet, quod hoc intelligit effectiue. est enim 
+      <lb ed="#L" n="62"/>charitas motus, seu affectio animi, quia per eam 
+      <lb ed="#L" n="63"/>mouetur animus, &amp; afficitur ad diligendum Deum. 
+    </p>
+            <p xml:id="ol96b1-139505-d1e349">
+               <lb ed="#L" n="64"/>Postmodum ibi: Hic quaeritur. Iuxta 
+      praedeter<lb ed="#L" break="no" n="65"/>minata. Inducit quandam quaestionem, ex quo 
+      <lb ed="#L" n="66"/>enim spiritus sanctus ipsemet est donum Dei, 
+      <lb ed="#L" n="67"/>dubium est, quomodo dona Dei dicuntur varia, 
+      <!--0428.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="68"/>&amp; diuersa, &amp; respondet, quod licet omnes 
+      ha<lb ed="#L" break="no" n="69"/>beant vnum donum, scilicet spiritum sanctum, 
+      <lb ed="#L" n="70"/>ab ipso tamen varia donaprofluunt in diuersis, 
+      <lb ed="#L" n="71"/>quia omnia operatur vnus, atque idem 
+      spiri<lb ed="#L" break="no" n="72"/>tus diuidens singulis, prout vult. vnde ipse 
+      do<lb ed="#L" break="no" n="73"/>num, per quod dona diuiduntur, &amp; dantur, haec 
+      <lb ed="#L" n="74"/>est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="563"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-183007"> <!-- l1d25p1-q1 -->
+            <head xml:id="ol96b1-183007-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-183007-Hd1e104" type="question-title">
+        Vtrum significatum personae sit aliquid commune tribus, et plurificetur in eis.
+      </head>
+            <p xml:id="ol96b1-183007-d1e107">
+               <lb ed="#L" n="97"/>Vtrum significatum personae sit aliquid commune 
+      tri<lb ed="#L" break="no" n="98"/>bus, &amp; plurificetur in eis.
+    </p>
+            <p xml:id="ol96b1-183007-d1e114">
+               <lb ed="#L" n="99"/>ET quia Magister inquirit hic quid 
+      perso<lb ed="#L" break="no" n="100"/>na significet, cum in plurali dicimus tres 
+      <lb ed="#L" n="101"/>personas, vel cum dicitur alia est persona 
+      pa<lb ed="#L" break="no" n="102"/>tris, alia filij, idcirco inquirendum occurrit, 
+      <lb ed="#L" n="103"/>vtrum significatum personae sit commune 
+      tri<lb ed="#L" break="no" n="104"/>bus, quod re plurificatur in eis. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e131">
+               <lb ed="#L" n="105"/>Et videtur quod nou. si enim ratio 
+      persona<lb ed="#L" break="no" n="106"/>litatis esset communis tribus personis esset 
+      ge<lb ed="#L" break="no" n="107"/>nus, vel species, vel aliquid vniuersale, sed in 
+      <lb ed="#L" n="108"/>Deo locum non habet vniuersale aliquid, vt 
+      <lb ed="#L" n="109"/>declaratum est supra. ergo personalitas 
+      non<lb ed="#L" break="no" n="110"/>est communis tribus personis. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e147">
+               <lb ed="#L" n="111"/>Praeterea: Si ratio personalitatis communis 
+      <lb ed="#L" n="112"/>est tribus, plurificabilis in ipsis, aut dicit mere 
+      <lb ed="#L" n="113"/>essentiam, aut relationem meram, aut 
+      vtrum<lb ed="#L" break="no" n="114"/>que scilicet relationem, &amp; essentiam, sed non 
+      <lb ed="#L" n="115"/>potest plurificari, si dicit essentiam puram, cum 
+      <lb ed="#L" n="116"/>non sit, nisi vna essentia in tribus, nec esset com 
+      <lb ed="#L" n="117"/>munis, si dicit relationem solam, cum nulla vna 
+      <lb ed="#L" n="118"/>relatio communis sit tribus personis, nec etiam 
+      <lb ed="#L" n="119"/>plurificari poterit, aut esse communis, si dicit 
+      <lb ed="#L" n="120"/>vtrumque, quia plurificari obuiabit essentiae, &amp; 
+      <lb ed="#L" n="121"/>communitati relatio; non potest autem aliquid 
+      <lb ed="#L" n="122"/>aliud significare. ergo videtur, quod 
+      personali<lb ed="#L" break="no" n="123"/>tas non sit communis tribus personis 
+      plurifica<lb ed="#L" break="no" n="124"/>bilis in eis. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e180">
+               <lb ed="#L" n="125"/>Praeterea: Damascenus ait lib. 1. quod 
+      com<lb ed="#L" break="no" n="126"/>mune, &amp; vnum in diuinis consideratur secundum 
+      <lb ed="#L" n="127"/>rem, &amp; distinctio secundum rationem: sed 
+      ma<lb ed="#L" break="no" n="128"/>nifestum est, quod persona non est aliquid com 
+      <lb ed="#L" n="129"/>mune secundum rem, quia secundum hoc pater, 
+      <lb ed="#L" n="130"/>&amp; filius, &amp; spiritus sanctus essent vna persona. 
+      <lb ed="#L" n="131"/>ergo nullo modo est quid commune.
+    </p>
+            <p xml:id="ol96b1-183007-d1e198">
+      <!--0564.xml-->
+               <pb ed="#L" n="564"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Praeterea: Si significatum personae esset quid 
+      <lb ed="#L" n="2"/>commune, tunc idem suppositum contineretur 
+      <lb ed="#L" n="3"/>sub duabus quidditatiuis rationibus. pater 
+      e<lb ed="#L" break="no" n="4"/>nim quidditatiue continetur sub essentia, quod 
+      <lb ed="#L" n="5"/>interroganti quid est pater, respondetur est 
+      Dei<lb ed="#L" break="no" n="6"/>tas. Interroganti etiam quid est pater, 
+      respon<lb ed="#L" break="no" n="7"/>detur, quod est persona, quod essentia, si 
+      perso<lb ed="#L" break="no" n="8"/>nae ratio sit communis, pater quidditatiue con 
+      <lb ed="#L" n="9"/>tineri videtur sub duplici ratione; hoc autem 
+      <lb ed="#L" n="10"/>est contra regulam suprapositam in 
+      praedica<lb ed="#L" break="no" n="11"/>mentis, quod diuersorum generum, &amp; non 
+      subal<lb ed="#L" break="no" n="12"/>ternatim positorum diuersae sunt species, &amp; 
+      di<lb ed="#L" break="no" n="13"/>uersarum specierum diuersa sunt indiuidua. er 
+      <lb ed="#L" n="14"/>go persona non est quid commune. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e237">
+               <lb ed="#L" n="15"/>Praeterea: Si ratio personalitatis esset quid 
+      <lb ed="#L" n="16"/>commune plurificabile respectu trium 
+      perso<lb ed="#L" break="no" n="17"/>narum, pari ratione esset commune quid ad crea 
+      <lb ed="#L" n="18"/>turarum personas, quia definitio eius 
+      commu<lb ed="#L" break="no" n="19"/>nis est creatis, &amp; increatis, vt patet de 
+      defini<lb ed="#L" break="no" n="20"/>tione, quam ponit Boetius, &amp; quam ponit 
+      Ric<lb ed="#L" break="no" n="21"/>cardus, sed constat quod nihil est commune 
+      <lb ed="#L" n="22"/>vniuocum Deo, &amp; creaturae. ergo nec est 
+      com<lb ed="#L" break="no" n="23"/>munis ratio personae patri, &amp; filio in diuinis. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e259">
+               <lb ed="#L" n="24"/>Praeterea: Si personalitas est commune quid 
+      <lb ed="#L" n="25"/>patri, &amp; filio, &amp; spiritui sancto, aut 
+      communita<lb ed="#L" break="no" n="26"/>te abstrahitur a proprietatibus personalibus 
+      <lb ed="#L" n="27"/>eorundem, aut ab essentia, vel ab vtroque, sed 
+      <lb ed="#L" n="28"/>non potest abstrahi a proprietatibus, quia ab 
+      <lb ed="#L" n="29"/>vltimo distinctis, nil commune abstrahi potest, 
+      <lb ed="#L" n="30"/>alioquin sunt vltima distinctiua, quia non diffe 
+      <lb ed="#L" n="31"/>rent se totis, immo in illo communi 
+      conueni<lb ed="#L" break="no" n="32"/>rent, &amp; aliquo alio distinguerentur, &amp; per 
+      con<lb ed="#L" break="no" n="33"/>sequens illa addita, essent magis vltimo 
+      distin<lb ed="#L" break="no" n="34"/>cta. vnde vel procedetur in infinitum, vel si estl 
+      <lb ed="#L" n="35"/>deuenire ad vltimo distincta, necesse est, quod 
+      <lb ed="#L" n="36"/>ab eis nullum commune abstrahi possit, &amp; ita 
+      <lb ed="#L" n="37"/>cum proprietates vltimate distinguant 
+      perso<lb ed="#L" break="no" n="38"/>nas, ab eis non potest abstrahi aliquid 
+      commu<lb ed="#L" break="no" n="39"/>ne, nec potest etiam abessentia, cum sit singularitas 
+      <lb ed="#L" n="40"/>summa, nec etiam ab vtroque, quoniam vtrum 
+      <lb ed="#L" n="41"/>que repugnat. ergo ratio personalitatis non 
+      <lb ed="#L" n="42"/>potest esse communis. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e304">
+               <lb ed="#L" n="43"/>Praeterea: Si ratio personae communis 
+      es<lb ed="#L" break="no" n="44"/>set, oporteret poni sextum praedicabile, alia 
+      <lb ed="#L" n="45"/>namque ratio genus non esset, cum non habeat 
+      <lb ed="#L" n="46"/>species, nec species, cum non habeat indiuidua, 
+      <lb ed="#L" n="47"/>nec differentia, cum non constituat speciem 
+      <lb ed="#L" n="48"/>nec proprium, aut accidens, cum in Deo non sit 
+      <lb ed="#L" n="49"/>accidens, vel commune, sed contra Porphyrium, 
+      <lb ed="#L" n="50"/>vel philosophiam est, quod ponatur 
+      praedicabi<lb ed="#L" break="no" n="51"/>le sextum. ergo significatum personae non est 
+      <lb ed="#L" n="52"/>quid commune. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e328">
+               <lb ed="#L" n="53"/>Praeterea: Nullum significans substantiam 
+      <lb ed="#L" n="54"/>est commune plurificabile in diuinis, sed Aug. 
+      <lb ed="#L" n="55"/>dicit 7. de Trinit. quod non est aliud Deo esse 
+      <lb ed="#L" n="56"/>per hoc esse, &amp; quod non aliud dicimus personam 
+      <lb ed="#L" n="57"/>patris, quam substantiam patris. ergo 
+      persona<lb ed="#L" break="no" n="58"/>litas non est quid commune plurificabile, nec 
+      <lb ed="#L" n="59"/>possumus dicere tres personas, sicut nec tres es 
+      <lb ed="#L" n="60"/>sentias, vt videtur. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e348">
+               <lb ed="#L" n="61"/>Praeterea: Omne, quod dicitur ad se dicitur 
+      <lb ed="#L" n="62"/>singulariter in diuinis secundum August. 5. de 
+      <lb ed="#L" n="63"/>Trinit. sed persona dicitur ad se secundum cun 
+      <lb ed="#L" n="64"/>dem 7. de Trinitate. pater enim non dicitur 
+      <lb ed="#L" n="65"/>persona ad creatum, sed est persona ad se, sicut 
+      <lb ed="#L" n="66"/>ad se est magnus, &amp; Deus, ergo personalitas di- 
+      <!--0564.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="67"/>citur singulariter in diuinis, &amp; per consequem 
+      <lb ed="#L" n="68"/>non est commune plurificabile. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e372">
+               <lb ed="#L" n="69"/>Praeterea: Dionysius dicit 1. c. caelest. hierar. 
+      <lb ed="#L" n="70"/>quod non est audendum aliquid dicere de illa 
+      <lb ed="#L" n="71"/>ineffabili, &amp; supersubstantiali, atque occulta 
+      <lb ed="#L" n="72"/>deitate, praeter illa, quae diuinitus nobis in 
+      sa<lb ed="#L" break="no" n="73"/>cris eloquijs sunt expressa, sed nomen persona 
+      <lb ed="#L" n="74"/>non inuenitur expressum in scriptura. 
+      ergosi<lb ed="#L" break="no" n="75"/>gnificatum eius non est commune patri, &amp; 
+      fi<lb ed="#L" break="no" n="76"/>lio, &amp; spiritui sancto 
+    </p>
+            <p xml:id="ol96b1-183007-d1e392">
+               <lb ed="#L" n="77"/>Praeterea: Hoc, quod permissiue fit, non fit 
+      <lb ed="#L" n="78"/>proprie inconuenienter, sed Augustinus dicit 
+      <lb ed="#L" n="79"/>5. de Trinit. quod tres personae dictum est in di 
+      <lb ed="#L" n="80"/>uinis, non vt illud diceretur, sed ne taceretur 
+      <lb ed="#L" n="81"/>omnino interrogantibus haereticis, quos tres 
+      er<lb ed="#L" break="no" n="82"/>go ratio personalitatis non est proprie quid 
+      <lb ed="#L" n="83"/>commune plurificabile in diuinis.
+    </p>
+            <p xml:id="ol96b1-183007-d1e410">
+               <lb ed="#L" n="84"/>Quod ratio personalitatis est commune quid 
+      plurif<lb ed="#L" break="no" n="85"/>catum in tribus: 
+    </p>
+            <p xml:id="ol96b1-183007-d1e418">
+               <lb ed="#L" n="86"/>SED in oppositum videtur, quod ratio 
+      perso<lb ed="#L" break="no" n="87"/>nae communis sit patri, &amp; filio 
+      plurificata<lb ed="#L" break="no" n="88"/>in eis. dicit enim August. de fide ad Petr. quod 
+      <lb ed="#L" n="89"/>alius est in persona, seu personaliter pater, alius 
+      <lb ed="#L" n="90"/>personaliter filius, alius personaliter spiritus 
+      <lb ed="#L" n="91"/>sanctus, sed hoc non esset, nisi ratio personalita 
+      <lb ed="#L" n="92"/>tis plurificaretur in eis. ergo personalitas est 
+      <lb ed="#L" n="93"/>quid commune plurificatum, vt videtur. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e438">
+               <lb ed="#L" n="94"/>Praeterea: Omni termino numerali 
+      corre<lb ed="#L" break="no" n="95"/>spondet aliqua ratio commu nis plurificata. cum 
+      <lb ed="#L" n="96"/>enim dicitur tres homines, necesse est, vt huma 
+      <lb ed="#L" n="97"/>nitas sit communis ratio plurificata in tribus, 
+      <lb ed="#L" n="98"/>sed Athanasius concedit, quod in diuinis sunt 
+      <lb ed="#L" n="99"/>tres personae, &amp; Augustinus primo de Doctrina 
+      <lb ed="#L" n="100"/>Christ. quod sunt tres res, &amp; Magister quod sunt 
+      <lb ed="#L" n="101"/>tres entes. ergo necesse est, quod ratio 
+      persona<lb ed="#L" break="no" n="102"/>litatis communis sit, &amp; plurificata in Deo. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e460">
+               <lb ed="#L" n="103"/>Responsio ad quaestionem. 
+    </p>
+            <p xml:id="ol96b1-183007-d1e465">
+               <lb ed="#L" n="104"/>AD questionem istam respondendo hoc or 
+      <lb ed="#L" n="105"/>dine procedetur.
+    </p>
+            <p xml:id="ol96b1-183007-d1e472">
+               <lb ed="#L" n="106"/>primo namque dicetur ad eam 
+      secundum<lb ed="#L" break="no" n="107"/>modum antiquorum 
+    </p>
+            <p xml:id="ol96b1-183007-d1e479">
+               <lb ed="#L" n="108"/>Secundo vero iuxta opiniones modernorum. 
+      <lb ed="#L" n="109"/>Tertio quoque iuxta id, quod videtur. 
+    </p>
+            <div xml:id="ol96b1-183007-Dd1e487">
+               <head xml:id="ol96b1-183007-Hd1e489">Articulus 1</head>
+               <p xml:id="ol96b1-183007-d1e491">
+                  <lb ed="#L" n="110"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e496">
+                  <lb ed="#L" n="111"/>Modus dicendi antiquus.
+    </p>
+               <p xml:id="ol96b1-183007-d1e501">
+                  <lb ed="#L" n="112"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="113"/>antiqui dixerunt, rationem personalitatis 
+      <lb ed="#L" n="114"/>non esse aliud, quam essentiam, &amp; quia 
+      essen<lb ed="#L" break="no" n="115"/>tia communis est, &amp; non plurificata, idcirco ha 
+      <lb ed="#L" n="116"/>buerunt dicere consequenter, quod ratio 
+      per<lb ed="#L" break="no" n="117"/>sonalitatis non plurificabatur in Deo, propterq 
+      <lb ed="#L" n="118"/>propositiones illae, quibus dicitur in plurali, q 
+      <lb ed="#L" n="119"/>in diuinis sunt tres personae, &amp; quod alia est 
+      perso<lb ed="#L" break="no" n="120"/>na patris, quam filij. non debet intelligi, quod 
+      <lb ed="#L" n="121"/>triplicetur persona, sed sensus est, quod sunt 
+      tres<lb ed="#L" break="no" n="122"/>quorum quilibet est essentia, seu persona, sicut 
+      <lb ed="#L" n="123"/>si dicerentur tres boni, aut tres aeterni, non tri 
+      <lb ed="#L" n="124"/>plicaretur bonitas, aut aeternitas, sed esset 
+      sep<lb ed="#L" break="no" n="125"/>sus sunt tres, quorum quilibet est aeteruus, sej 
+      <!--0565.xml-->
+      <pb ed="#L" n="565"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>iste modus dicendi reprobatur a Magistro, in 
+      <lb ed="#L" n="2"/>tantum, quod expresse dicit Augustinus, quod 
+      <lb ed="#L" n="3"/>pater est alius in persona, &amp; personaliter a 
+      fi<lb ed="#L" break="no" n="4"/>lio, quod non esset verum, si personalitas 
+      pa<lb ed="#L" break="no" n="5"/>tris, &amp; filij eadem esset, &amp; ideo dicendum 
+      <lb ed="#L" n="6"/>cum Magistro, quod necessario ratio 
+      personalita<lb ed="#L" break="no" n="7"/>tis in Deo, est diuersa quod potest multipliciter 
+      <lb ed="#L" n="8"/>declarari: termini siquidem numerales ponunt 
+      <lb ed="#L" n="9"/>suum significatum circa aliquam formam, aut 
+      <lb ed="#L" n="10"/>aliquam plurificationem exercent, sed tres 
+      <lb ed="#L" n="11"/>praedicatur de patre, &amp; filio, &amp; spiritu sancto. 
+      <lb ed="#L" n="12"/>ergo necesse, quod sit aliqua ratio, quae vere 
+      <lb ed="#L" n="13"/>triplicetur in eis, non est autem essentia. ergo 
+      <lb ed="#L" n="14"/>personalitas ipsa. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e571">
+                  <lb ed="#L" n="15"/>Praeterea: Illud, quod respondetur ad 
+      inter<lb ed="#L" break="no" n="16"/>rogationem factam de tribus, quod tres sunt, 
+      <lb ed="#L" n="17"/>oportet necessario triplicari, si debite 
+      respon<lb ed="#L" break="no" n="18"/>deatur, quicquid sit illud, in quo sunt tres, 
+      <lb ed="#L" n="19"/>sed interroganti de illis tribus, quid sunt in 
+      <lb ed="#L" n="20"/>diuinis, quid tres sunt, vel quid tria, 
+      respon<lb ed="#L" break="no" n="21"/>detur, quod persona. ergo personalitas 
+      tripli<lb ed="#L" break="no" n="22"/>catur in eis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e592">
+                  <lb ed="#L" n="23"/>Praeterea: Augustinus concedit primo de 
+      <lb ed="#L" n="24"/>Doctrina Christiana, quod pater, &amp; filius, &amp; 
+      <lb ed="#L" n="25"/>spiritus sanctus sunt tres res, sed non potest 
+      di<lb ed="#L" break="no" n="26"/>ci, quod accipiatur ibi pro essentia, cum non 
+      <lb ed="#L" n="27"/>sint tres essentiae, nec pro subsistentia propria 
+      <lb ed="#L" n="28"/>cuiussibet personae, quia illa est in qualibet, non 
+      <lb ed="#L" n="29"/>in vna. ergo sumitur proratione subsistentiae, 
+      <lb ed="#L" n="30"/>&amp; personalitatis communis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e612">
+                  <lb ed="#L" n="31"/>Praeterea: Terminus numeralis additus 
+      no<lb ed="#L" break="no" n="32"/>mini substantiuo numerat formam, &amp; 
+      qualita<lb ed="#L" break="no" n="33"/>tem illius substantiui. vnde dicendo tres 
+      ho<lb ed="#L" break="no" n="34"/>mines, numeratur humanitas; secus autem 
+      <lb ed="#L" n="35"/>de nominibus adiectiuis, sed persona nomen 
+      <lb ed="#L" n="36"/>est substantiuum. ergo cum dicitur tres 
+      perso<lb ed="#L" break="no" n="37"/>nae, plurificari intelliguntur personalitates. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e630">
+                  <lb ed="#L" n="38"/>Praeterea: Si propositio ista pater, &amp; filius, 
+      <lb ed="#L" n="39"/>&amp; spiritus sanctus sunt tres personae, sub hoc 
+      <lb ed="#L" n="40"/>sensu sit admittenda, quia sunt tres, quorum 
+      <lb ed="#L" n="41"/>quilibet est persona, pari ratione &amp; ista sunt 
+      <lb ed="#L" n="42"/>tres Dij, vel tres essentiae, quorum quilibet 
+      es<lb ed="#L" break="no" n="43"/>sentia est, &amp; Deus, sed hoc nullo modo 
+      admit<lb ed="#L" break="no" n="44"/>titur, nec potest habere hunc sensum, nec ista. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e648">
+                  <lb ed="#L" n="45"/>Praeterea: Impossibile est aliqua esse tria 
+      <lb ed="#L" n="46"/>quin sit dare aliquid, in quo sint tria, alioquin 
+      <lb ed="#L" n="47"/>in plus se haberet significatum termini 
+      nume<lb ed="#L" break="no" n="48"/>ralis, quam significatum entis, vel alicuius, 
+      <lb ed="#L" n="49"/>quod esse non potest, sed esse tres vere 
+      praedi<lb ed="#L" break="no" n="50"/>catur de patre, &amp; filio, &amp; spiritu sancto, sicut 
+      <lb ed="#L" n="51"/>tcriptum est 1. Ioann. 5. Tres sunt, qui 
+      testimo<lb ed="#L" break="no" n="52"/>nium dant in caelo. Ergo necesse est, quod ens 
+      <lb ed="#L" n="53"/>praedicetur de eis, inquantum sunt tres, &amp; sic 
+      <lb ed="#L" n="54"/>erunt tres entes. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e672">
+                  <lb ed="#L" n="55"/>Opinio aliorum antiquorum
+    </p>
+               <p xml:id="ol96b1-183007-d1e677">
+                  <lb ed="#L" n="56"/>PROPTERIA dixerunt alij, quod 
+      perso<lb ed="#L" break="no" n="57"/>Tna dicit conceptum priuatiuum, &amp; non 
+      <lb ed="#L" n="58"/>aliquid positiuum; tale autem potest esse 
+      com<lb ed="#L" break="no" n="59"/>mune tribus in Deo, &amp; triplicari in illis tribus; 
+      <lb ed="#L" n="60"/>quod autem ratio personalitatis priuatiue sit, 
+      <lb ed="#L" n="61"/>patet ex definitione personae, in qua ponitur 
+      <!--0565.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="62"/>incommunicabile, quod priuationem 
+      impor<lb ed="#L" break="no" n="63"/>tat. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e702">
+                  <lb ed="#L" n="64"/>Sed nec iste modus possibilis est z pronomen 
+      <lb ed="#L" n="65"/>namque significat meram substantiam, &amp; 
+      me<lb ed="#L" break="no" n="66"/>rum suppositum omni qualitate, &amp; 
+      quiddita<lb ed="#L" break="no" n="67"/>tiua ratione spoliatum, sicut patet ex 
+      defini<lb ed="#L" break="no" n="68"/>tione pronominis, sed manifestum est, quod 
+      <lb ed="#L" n="69"/>conceptus, qui exprimitur per pronomen, 
+      <lb ed="#L" n="70"/>ego, tu, ille, &amp; sic de alijs non est pure 
+      negati<lb ed="#L" break="no" n="71"/>uus. ergo conceptus suppositi, vel personae 
+      <lb ed="#L" n="72"/>non est forma liter priuatiuus. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e724">
+                  <lb ed="#L" n="73"/>Praeterea: Nullus conceptus negatiuus 
+      re<lb ed="#L" break="no" n="74"/>spondetur ad interrogationem factam per 
+      <lb ed="#L" n="75"/>quid, sed interroganti quid tres, respondetur 
+      <lb ed="#L" n="76"/>quod personae secundum Augustinum. ergo id, 
+      <lb ed="#L" n="77"/>quod prius. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e737">
+                  <lb ed="#L" n="78"/>Praeterea: Suppositum, &amp; hypostasis eadem 
+      <lb ed="#L" n="79"/>est cum ratione personae addita cum 
+      determi<lb ed="#L" break="no" n="80"/>nata materia, scilicet intectuali natura, sed 
+      es<lb ed="#L" break="no" n="81"/>se hypostasim, vel suppositum non est esse 
+      ne<lb ed="#L" break="no" n="82"/>gatiuum. nulla enim negatio potest esse 
+      subsi<lb ed="#L" break="no" n="83"/>stens, aut fundamentum, &amp; hypostasis 
+      alicu<lb ed="#L" break="no" n="84"/>ius. ergo id, quod prius. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e755">
+                  <lb ed="#L" n="85"/>Praeterea: Personalitas est aliquid ad 
+      digni<lb ed="#L" break="no" n="86"/>tatem pertinens, vt dicit verbum vulgatum 
+      <lb ed="#L" n="87"/>sed negatio non est ratio dignitatis. ergo 
+      per<lb ed="#L" break="no" n="88"/>sonalitas non est ratio formaliter priuatiua. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e766">
+                  <lb ed="#L" n="89"/>Praeterea: Cuius suppositi, &amp; naturae est 
+      con<lb ed="#L" break="no" n="90"/>ceptus habentis, &amp; habiti, sed natura non est 
+      <lb ed="#L" n="91"/>habita ab aliquo pure negatiuo, alioquin 
+      con<lb ed="#L" break="no" n="92"/>ce ptus habentis esset imperfectior conceptu 
+      <lb ed="#L" n="93"/>habiti. ergo conceptus personae non potest 
+      es<lb ed="#L" break="no" n="94"/>se negatiuus formaliter. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e782">
+                  <lb ed="#L" n="95"/>Est ergo considerandum, quod licet 
+      conce<lb ed="#L" break="no" n="96"/>ptus suppositi &amp; hypostasis annexam habeat ne 
+      <lb ed="#L" n="97"/>gationem, quam dicit communicabile, 
+      uihilo<lb ed="#L" break="no" n="98"/>minus conceptus ille non claudit negationes 
+      <lb ed="#L" n="99"/>illas formaliter, &amp; in recto, sed 
+      connotatiue<lb ed="#L" break="no" n="100"/>tantummodo, &amp; in obliquo, propter quod 
+      Ric<lb ed="#L" break="no" n="101"/>eardus definiens personam, nec dicit quod 
+      <lb ed="#L" n="102"/>sit incommunicabilitas subsistens, sed nagis 
+      <lb ed="#L" n="103"/>econuerso, quod est subsistentia 
+      incommunica<lb ed="#L" break="no" n="104"/>bilis, &amp; in hoc articulus primus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-183007-Dd1e807">
+               <head xml:id="ol96b1-183007-Hd1e809">Articulus 2</head>
+               <p xml:id="ol96b1-183007-d1e811">
+                  <lb ed="#L" n="105"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e816">
+                  <lb ed="#L" n="106"/>Opinio S. Thomae parte prima quaest. 29. artic. 
+      <lb ed="#L" n="107"/>quarto &amp; quaest. 30. articulo 
+      <lb ed="#L" n="108"/>quarto. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e825">
+                  <lb ed="#L" n="109"/>CIRCA secundum vero considerandum 
+      <lb ed="#L" n="110"/>quod aliqui inter Doctores modernos 
+      di<lb ed="#L" break="no" n="111"/>cere voluerunt, quod licet de ratione 
+      perso<lb ed="#L" break="no" n="112"/>ne in communi non sit relatio, nihil prohibet 
+      <lb ed="#L" n="113"/>quod sit de ratione personae, inquantum est 
+      di<lb ed="#L" break="no" n="114"/>uina; relatio vero in diuinis non est accidens 
+      <lb ed="#L" n="115"/>inhaerens; sed subsistens, &amp; ita persona 
+      signifi<lb ed="#L" break="no" n="116"/>cat relationem subsistentem, siue per modum 
+      <lb ed="#L" n="117"/>substantiae, quae non est aliud, quam hypostasis, 
+      <lb ed="#L" n="118"/>quia vero hypostasis est diuina essentia, idcirco 
+      <lb ed="#L" n="119"/>significat essentiam etiam diuinam, vt secundum hoc 
+      <lb ed="#L" n="120"/>significat relationem, non per modum relatio 
+      <lb ed="#L" n="121"/>nis, sed vt subsistentem in recto, essentiam ve- 
+      <!--0566.xml-->
+      <pb ed="#L" n="566"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ro in obliquo, quia nil aliud est hypostasis in 
+      <lb ed="#L" n="2"/>diuinis, quam subsistens in diuina natura, vel 
+      <lb ed="#L" n="3"/>significat essentiam in recto, inquantum est 
+      hy<lb ed="#L" break="no" n="4"/>postasis, &amp; relationem per modum relationis 
+      <lb ed="#L" n="5"/>in obliquo, quia hypostasis significatur in 
+      di<lb ed="#L" break="no" n="6"/>uinis, vt relatione distincta. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e875">
+                  <lb ed="#L" n="7"/>Vlterius vero dixerunt, quod nomen 
+      perso<lb ed="#L" break="no" n="8"/>nae est commune in rebus humanis, non sicut 
+      <lb ed="#L" n="9"/>genus, vel species, sed sicut indiuiduum vagum. 
+      <lb ed="#L" n="10"/>nomina enim generum, vel specierum, vt 
+      ho<lb ed="#L" break="no" n="11"/>mo, vel animal sunt imposita ad significandum 
+      <lb ed="#L" n="12"/>in primis naturas communes; non autem 
+      in<lb ed="#L" break="no" n="13"/>tentiones naturarum communium, quae 
+      signi<lb ed="#L" break="no" n="14"/>ficantur his nominibus, genus, vel species, sed 
+      <lb ed="#L" n="15"/>indiuiduum vagum, vt aliquis homo significat 
+      <lb ed="#L" n="16"/>naturam cum determinato modo essendi, qui 
+      <lb ed="#L" n="17"/>competit singularibus, vt scilicet sit per se 
+      <lb ed="#L" n="18"/>subsistens distinctum ab aliis, hoc tamen inter 
+      <lb ed="#L" n="19"/>est, quod aliquis homo significat indiuiduum ex 
+      <lb ed="#L" n="20"/>parte naturae cum modo essendi, qui competit sin 
+      <lb ed="#L" n="21"/>gularibus; hoc autem nomen, persona non est 
+      <lb ed="#L" n="22"/>impositum ad significandum indiuiduum ex 
+      <lb ed="#L" n="23"/>parte naturae, sed ad significandum rem 
+      subsi<lb ed="#L" break="no" n="24"/>stentem in tali natura, &amp; quod hoc commune 
+      <lb ed="#L" n="25"/>est secundum rationem personis diuinis, vt 
+      <lb ed="#L" n="26"/>vnaquaeque earum subsistat in diuina natura, 
+      <lb ed="#L" n="27"/>idcirco nomen personae secundum rationem est 
+      <lb ed="#L" n="28"/>commune tribus, &amp; hoc est, quod plurificat 
+      si<lb ed="#L" break="no" n="29"/>gnificatum suum, cum dicimus tres personas. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e928">
+                  <lb ed="#L" n="30"/>Sed hic modus dicendi videtur deficere quo 
+      <lb ed="#L" n="31"/>ad tria, Primo quidem, quod ait, nomen 
+      per<lb ed="#L" break="no" n="32"/>sonae significare in recto essentiam diuinam 
+      <lb ed="#L" n="33"/>inquantum est idem, quod hypostasis, 
+      relatio<lb ed="#L" break="no" n="34"/>nem vero in obliquo. illud enim, quod 
+      signi<lb ed="#L" break="no" n="35"/>ficatur in recto nomine hypostasis, &amp; personae 
+      <lb ed="#L" n="36"/>explicatur per suam rationem, qua dicitur, quod 
+      <lb ed="#L" n="37"/>persona, &amp; hypostasis est distinctum subsistens 
+      <lb ed="#L" n="38"/>in aliqua natura, sed hoc numquam competit 
+      <lb ed="#L" n="39"/>essentiae, etiam prout idem est cum persona 
+      <lb ed="#L" n="40"/>non enim verum est, quod essentia sit 
+      distin<lb ed="#L" break="no" n="41"/>ca, sicut nec genita. proprietates enim non 
+      <lb ed="#L" n="42"/>distinguunt essentiam, nec determinant 
+      secun<lb ed="#L" break="no" n="43"/>dum Damascenum. ergo essentia, prout est 
+      <lb ed="#L" n="44"/>hypostasis, vel persona non significatur in 
+      <lb ed="#L" n="45"/>recto. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e965">
+                  <lb ed="#L" n="46"/>Praeterea: Numquam constitutum 
+      signifi<lb ed="#L" break="no" n="47"/>cat in recto constitutiua, sicut patet in omni 
+      <lb ed="#L" n="48"/>constituto, sed essentia quantumcumque sit 
+      <lb ed="#L" n="49"/>idem cum persona, &amp; similiter relatio, 
+      quan<lb ed="#L" break="no" n="50"/>tumcumque sit subsistens respiciunt personam, 
+      <lb ed="#L" n="51"/>sicut constitutiua. ergo persona, seu 
+      hyposta<lb ed="#L" break="no" n="52"/>sis constituta nullum eorum significat in 
+      re<lb ed="#L" break="no" n="53"/>cto, quantumcumque sit idem realiter, quod 
+      <lb ed="#L" n="54"/>hypostasis, vel persona. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e987">
+                  <lb ed="#L" n="55"/>Praeterea: Illud, quod significatur in recto, 
+      <lb ed="#L" n="56"/>vere plurificatur, cum dicitur tres personae. 
+      <lb ed="#L" n="57"/>non enim plurificatur, cum dicitur separat im 
+      <lb ed="#L" n="58"/>in obliquo, sed quod significatur in recto, sed 
+      <lb ed="#L" n="59"/>essentia, prout est idem, quod diuina persona, 
+      <lb ed="#L" n="60"/>non plurificatur, dicendo tres personas. sic 
+      e<lb ed="#L" break="no" n="61"/>nim est idem essentia cum persona, quod 
+      essen<lb ed="#L" break="no" n="62"/>tia non triplicatur, licet plurificetur persona. 
+      <lb ed="#L" n="63"/>ergo eisentia, prout est idem, quod persona, 
+      <lb ed="#L" n="64"/>non significatur nomine personae in recto. 
+      Se<lb ed="#L" break="no" n="65"/>cundo vero deficit in hoc, quod ait, personam 
+      <!--0566.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>significare relationem, prout subsistens est, &amp; 
+      <lb ed="#L" n="67"/>habet modum substantiae directae in recto, &amp; 
+      es<lb ed="#L" break="no" n="68"/>sentiam in obliquo. nullum enim constituens 
+      <lb ed="#L" n="69"/>aliquid significatur per constitutum in recto, 
+      <lb ed="#L" n="70"/>sed proprietas, vt subsistens constituit personam 
+      <lb ed="#L" n="71"/>secundum sic ponentes. ergo non significatur 
+      <lb ed="#L" n="72"/>in recto nomine personae, sed quasi per modum 
+      <lb ed="#L" n="73"/>partis, &amp; in obliquo. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1035">
+                  <lb ed="#L" n="74"/>Praeterea: Doctores isti dicunt in 
+      quaestioni<lb ed="#L" break="no" n="75"/>bus disputatis, quod persona diuina nec 
+      sub<lb ed="#L" break="no" n="76"/>stantiam, nec relationem formaliter significat, 
+      <lb ed="#L" n="77"/>sed subsistens diuinum distinctum, quicquid sit 
+      <lb ed="#L" n="78"/>illud, quod distinguitur, sed manifestum est, quod 
+      <lb ed="#L" n="79"/>proprietas non est distinctum subsistens in 
+      re<lb ed="#L" break="no" n="80"/>cto. non enim proprietas est, quae distinguitur, 
+      <lb ed="#L" n="81"/>sed quo fit distinctio. ergo relatio non 
+      impor<lb ed="#L" break="no" n="82"/>tatur nomine personae in recto. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1057">
+                  <lb ed="#L" n="83"/>Praeterea: Aut relatio habens modum 
+      sub<lb ed="#L" break="no" n="84"/>stantiae, &amp; subsistentis in natura diuina 
+      acci<lb ed="#L" break="no" n="85"/>pitur, quasi quid partiale respectu personae 
+      con<lb ed="#L" break="no" n="86"/>stituens ipsam vna cum essentia, aut quasi quid 
+      <lb ed="#L" n="87"/>totale constitutum, sed si detur primum, 
+      pa<lb ed="#L" break="no" n="88"/>tet, quod nomine personae importabitur in 
+      <lb ed="#L" n="89"/>obliquo, sicut constituens oblique clauditur 
+      <lb ed="#L" n="90"/>in constituto. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1077">
+                  <lb ed="#L" n="91"/>Si etiam detur secundum, manifestum est, 
+      <lb ed="#L" n="92"/>quod tuuc totum includit essentiam, videlicet, 
+      <lb ed="#L" n="93"/>&amp; relationem, &amp; ita nec essentia, nec relatio 
+      <lb ed="#L" n="94"/>est in recto, nec est dicere secundum istam 
+      ac<lb ed="#L" break="no" n="95"/>ceptionem, relationem, vt subsiltentem, nisi 
+      quid<lb ed="#L" break="no" n="96"/>dam constitutum ex essentia, &amp; relatione. ergo 
+      <lb ed="#L" n="97"/>in nullo verum est, quod relatio, prout est quid 
+      <lb ed="#L" n="98"/>partiale conscituens nomine personae 
+      significe<lb ed="#L" break="no" n="99"/>tur in recto. Vbi considerandum est, quod licet 
+      <lb ed="#L" n="100"/>essentia, &amp; relatio in diuinis sint idem per 
+      om<lb ed="#L" break="no" n="101"/>nimodam indistinctionem, vt supra dictum est, 
+      <lb ed="#L" n="102"/>&amp; ita concipiens essentiam concipiat 
+      relatio<lb ed="#L" break="no" n="103"/>nem in obliquo, &amp; per consequens quicquid 
+      <lb ed="#L" n="104"/>pertinet ad personam, &amp; similiter concipiens 
+      <lb ed="#L" n="105"/>relationem intelligat essentiam in obliquo, &amp; 
+      <lb ed="#L" n="106"/>totam personam, propter quod videtur 
+      claude<lb ed="#L" break="no" n="107"/>re relatio modum substantiae, nihilominus nec 
+      <lb ed="#L" n="108"/>essentia, nec relatio clauduntur in recto 
+      in<lb ed="#L" break="no" n="109"/>conceptu personae. res enim essentiae, &amp; 
+      rela<lb ed="#L" break="no" n="110"/>tionis, quae fundant penitus eandem 
+      indistin<lb ed="#L" break="no" n="111"/>ctionem concipi possunt tripliciter, vt 
+      supe<lb ed="#L" break="no" n="112"/>rius dicebatur. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1128">
+                  <lb ed="#L" n="113"/>Primo quidem, vt feratur intellectus 
+      ines<lb ed="#L" break="no" n="114"/>sentiam directe, &amp; tunc clauditur proprietas 
+      <lb ed="#L" n="115"/>indirecte. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1137">
+                  <lb ed="#L" n="116"/>Secundo vero est econuerso, vt concipiatur 
+      <lb ed="#L" n="117"/>relatiua proprietas in recto, &amp; claudatur 
+      essen<lb ed="#L" break="no" n="118"/>tia indirecte, &amp; neutro modo habetur 
+      conce<lb ed="#L" break="no" n="119"/>ptus proprius personae, sed primus est conceptus 
+      <lb ed="#L" n="120"/>essentiae, secundus vero relationis etiam 
+      sub<lb ed="#L" break="no" n="121"/>sistentis, vel habentis modum substantiae 
+      ra<lb ed="#L" break="no" n="122"/>tione indistinctionis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1155">
+                  <lb ed="#L" n="123"/>Tertio quoque fertur intellectus super 
+      con<lb ed="#L" break="no" n="124"/>stitutum directe, &amp; tunc tam proprietas, quam 
+      <lb ed="#L" n="125"/>essentia concipiuntur oblique, sicut 
+      constitu<lb ed="#L" break="no" n="126"/>tiua in constituto. vnde dicimus mente, quod 
+      <lb ed="#L" n="127"/>hoc totum constitutum constat ex essentia 
+      <lb ed="#L" n="128"/>&amp; proprietate; non differunt autem isti 
+      con<lb ed="#L" break="no" n="129"/>ceptus re, &amp; ratione obiectali, sed in modo 
+      <lb ed="#L" n="130"/>concipiendi eandem rationem, nunc oblique- 
+      <!--0567.xml-->
+      <pb ed="#L" n="567"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nunc recte, eandem inquam non per 
+      repetitio<lb ed="#L" break="no" n="2"/>nem, sed per indistinctionem, vt patet ex 
+      su<lb ed="#L" break="no" n="3"/>perius dictis. sic ergo non est verum, quod 
+      con<lb ed="#L" break="no" n="4"/>ceptus personae claudat essentiam, vel 
+      relatio<lb ed="#L" break="no" n="5"/>nem in recto, quantum cumque vterque sit idem 
+      <lb ed="#L" n="6"/>cum persona. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1194">
+                  <lb ed="#L" n="7"/>Tertio quoque deficit in eo, quod ait, 
+      com<lb ed="#L" break="no" n="8"/>munitatem personae esse communitatem 
+      indi<lb ed="#L" break="no" n="9"/>uidui vagi. illud enim, quod diuiditur per 
+      va<lb ed="#L" break="no" n="10"/>gum, &amp; signatum, &amp; simpliciter non claudit in 
+      <lb ed="#L" n="11"/>sua ratione conditionem indiuidui vagi, quia 
+      <lb ed="#L" n="12"/>tunc idem diuideretur in se, &amp; in opposita 
+      si<lb ed="#L" break="no" n="13"/>bi. vnde quia homo concipitur aliquando 
+      sim<lb ed="#L" break="no" n="14"/>pliciter, vt cum definitur in sua 
+      communita<lb ed="#L" break="no" n="15"/>te, aliquando vage, vt cum dicitur quidam 
+      <lb ed="#L" n="16"/>homo, vel aliquis, aliquando signate, vt cum 
+      <lb ed="#L" n="17"/>dicitur homo iste, vel ille, ideo nullus dicit, 
+      <lb ed="#L" n="18"/>quod sit indiuiduum vagum, sed persona 
+      ac<lb ed="#L" break="no" n="19"/>cipitur aliquando signate, dicendo hanc 
+      per<lb ed="#L" break="no" n="20"/>sonam, aliquando vage, vt dicendo quandam, 
+      <lb ed="#L" n="21"/>vel aliquam personam, aliquando simpliciter, 
+      <lb ed="#L" n="22"/>vt dicendo personam. ergo non habet 
+      commu<lb ed="#L" break="no" n="23"/>nitatem indiuidui vagi, sicut nec homo. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1233">
+                  <lb ed="#L" n="24"/>Praeterea: Si persona sic esset communis 
+      tri<lb ed="#L" break="no" n="25"/>bus, sicut indiuiduum vagum, ita esset 
+      com<lb ed="#L" break="no" n="26"/>munis, ficut aliquis Deus, sed hoc non est 
+      ve<lb ed="#L" break="no" n="27"/>rum, quia secundum hoc dici posset, quod 
+      pa<lb ed="#L" break="no" n="28"/>ter, filius, &amp; spiritus sanctus sunt tres quaedam 
+      <lb ed="#L" n="29"/>dij, sicut dicimus quod sunt tres quaedam 
+      perso<lb ed="#L" break="no" n="30"/>nae. ergo id, quod prius: 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1251">
+                  <lb ed="#L" n="31"/>Praeterea: Indiuiduum vagum quaerendum 
+      <lb ed="#L" n="32"/>est, quomodo accipitur ab istis. aut enim pro 
+      <lb ed="#L" n="33"/>intentione, aut pro re substrata intentioni, sed 
+      <lb ed="#L" n="34"/>non potest dici, quod persona significet 
+      indi<lb ed="#L" break="no" n="35"/>uiduum vagum, si sumatur pro secunda 
+      inten<lb ed="#L" break="no" n="36"/>tione, quoniam isti duo dicunt, quod persona 
+      <lb ed="#L" n="37"/>non significat intentionem secundam, nec 
+      po<lb ed="#L" break="no" n="38"/>test dici, quod persona significet rem 
+      substra<lb ed="#L" break="no" n="39"/>tam tali intentioni: tum quia huiusmodi 
+      sub<lb ed="#L" break="no" n="40"/>stratum significatur per nomen substantiae, 
+      spe<lb ed="#L" break="no" n="41"/>ciei addito signo particulari, vtpote aliquis ho 
+      <lb ed="#L" n="42"/>mo, vel quidam, non est autem idem patrem, 
+      <lb ed="#L" n="43"/>&amp; filium esse personas, quod esse aliquos Deos: 
+      <lb ed="#L" n="44"/>tum quia substratum vagationi huiusmodi non 
+      <lb ed="#L" n="45"/>est aliquid determinatum, quia in omni 
+      natu<lb ed="#L" break="no" n="46"/>ra potest accipi indiuiduum vagum, &amp; in 
+      qua<lb ed="#L" break="no" n="47"/>litate aliquis color, &amp; in quantitate aliqua 
+      li<lb ed="#L" break="no" n="48"/>nea, &amp; sic de aliis, personae nomen non inuenitur, 
+      <lb ed="#L" n="49"/>nisi in determinata natura: tum etiam quia 
+      <lb ed="#L" n="50"/>non est vna ratio substrata indiuiduo vago, 
+      <lb ed="#L" n="51"/>quia in quibusdam est aliquis homo, in 
+      quibus<lb ed="#L" break="no" n="52"/>dam est aliquis bos, &amp; sic de aliis; persona 
+      <lb ed="#L" n="53"/>vero habet vnam definibilem rationem, vt 
+      pa<lb ed="#L" break="no" n="54"/>ser tuet sti urtium, c. persona non habet 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1307">
+                  <lb ed="#L" n="55"/>Opinio Heruei in 1. sent. dist. 23. &amp; in quolibetis 
+      <lb ed="#L" n="56"/>quolibeto 10. q. 4. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1314">
+                  <lb ed="#L" n="57"/>PROPTEREA dixerunt alij. Primo 
+      qui<lb ed="#L" break="no" n="58"/>dem, quod persona significat substantiam, 
+      <lb ed="#L" n="59"/>&amp; relationem, non quidem vt relatio est, sed 
+      <lb ed="#L" n="60"/>vt proprietas distincta. vnde persona 
+      secun<lb ed="#L" break="no" n="61"/>dum istos, inquantum diuina est, est quid relati 
+      <lb ed="#L" n="62"/>uum, non tantum inquantum pater, vel filius 
+      <lb ed="#L" n="63"/>est, immo ratione suae communitatis, quod li- 
+      <!--0567.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>cet persona simpliciter sumpta non importet 
+      <lb ed="#L" n="65"/>relationem, importat tamen, vt diuina, &amp; 
+      ra<lb ed="#L" break="no" n="66"/>tio huius est, quia de conceptu ipsius est, quod 
+      <lb ed="#L" n="67"/>sit subsistens, incommunicabile, &amp; 
+      vltimate<lb ed="#L" break="no" n="68"/>distinctum, &amp; idcirco oportet, quod includat 
+      <lb ed="#L" n="69"/>essentiam, per quam subsistit, &amp; relationem, 
+      <lb ed="#L" n="70"/>per quam incommunicabiliter, &amp; distincte 
+      sub<lb ed="#L" break="no" n="71"/>sistit; non distinguitur autem in esse 
+      subsisten<lb ed="#L" break="no" n="72"/>tia li, siue suppositali per relationem, 
+      inquan<lb ed="#L" break="no" n="73"/>tum relatio, quia vt sic habet referre, sed prout 
+      <lb ed="#L" n="74"/>est proprietas existens idem cum diuina 
+      essen<lb ed="#L" break="no" n="75"/>tia. vnde relatio in esse subsistentiali 
+      distin<lb ed="#L" break="no" n="76"/>guit pro eo, quod est substantia in diuinis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1364">
+                  <lb ed="#L" n="77"/>Secundo vero dixerunt, quod relationem, &amp; 
+      <lb ed="#L" n="78"/>substantiam persona significat in obliquo, &amp; non 
+      <lb ed="#L" n="79"/>in recto pro eo, quod concretum semper 
+      sup<lb ed="#L" break="no" n="80"/>ponit in obliquo formam, a qua descendit, vt 
+      <lb ed="#L" n="81"/>album albedinem. cum ergo significetur per 
+      <lb ed="#L" n="82"/>modum concreti, quia vt subsisteret in natura 
+      <lb ed="#L" n="83"/>diuina proprietate distinctum, sequitur, quod 
+      <lb ed="#L" n="84"/>modum, per quem subsistit, &amp; 
+      proprieta<lb ed="#L" break="no" n="85"/>tem, qua distinguitur significet in obliquo.
+    </p>
+               <p xml:id="ol96b1-183007-d1e1386">
+                  <lb ed="#L" n="86"/>Tertio quoque dixerunt, quod concretum 
+      <lb ed="#L" n="87"/>aliquando sumitur adiectiue, vt dicendo 
+      iu<lb ed="#L" break="no" n="88"/>stus, albus, &amp; sic de aliis, &amp; hoc modo pater, 
+      <lb ed="#L" n="89"/>&amp; filius si adiectiue sumantur, non significant 
+      <lb ed="#L" n="90"/>suppositum, sed pater habens paternitatem, 
+      <lb ed="#L" n="91"/>vel filiationem, sicut album habens albedinem; 
+      <lb ed="#L" n="92"/>aliquando vero sumitur substantiue, ac si 
+      es<lb ed="#L" break="no" n="93"/>sent concreta substantiae vt homo, vel leo, &amp; 
+      <lb ed="#L" n="94"/>sic pater, vel filius prout significant 
+      supposi<lb ed="#L" break="no" n="95"/>tum, vel personam, tamquam fundamentum 
+      <lb ed="#L" n="96"/>significati formalis personae in diuinis 
+      expri<lb ed="#L" break="no" n="97"/>munt relationem, &amp; essentiam concretiue. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1415">
+                  <lb ed="#L" n="98"/>Sed nec iste modus dicendi rationalis est, 
+      <lb ed="#L" n="99"/>quo ad multa. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1422">
+                  <lb ed="#L" n="100"/>Primo quidem in hoc, quod dicit de 
+      proprie<lb ed="#L" break="no" n="101"/>tate, quod non clauditur in conceptu per sonae, 
+      <lb ed="#L" n="102"/>prout est relatio, sed prout est proprietas 
+      di<lb ed="#L" break="no" n="103"/>stincta, est autem distinctiua, inquantum est di 
+      <lb ed="#L" n="104"/>uina substantia, hoc nimirum stare non potest, 
+      <lb ed="#L" n="105"/>opposita namque non possunt inesse eidem, 
+      <lb ed="#L" n="106"/>inquantum idem, sed relatio inquantum est 
+      <lb ed="#L" n="107"/>diuina essentia identificatur alteri relationi, 
+      <lb ed="#L" n="108"/>cum quaelibet sit diuina substantia, &amp; eadem 
+      <lb ed="#L" n="109"/>diuina substantia. ergo inquantum diuina 
+      <lb ed="#L" n="110"/>substantia est, non habet relatio, quod 
+      distin<lb ed="#L" break="no" n="111"/>guat. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1452">
+                  <lb ed="#L" n="112"/>Praeterea: Isti dicunt, quod relatio 
+      distin<lb ed="#L" break="no" n="113"/>guit, inquantum opposita, sed manifestum est, 
+      <lb ed="#L" n="114"/>quod relationes non sunt oppositae, 
+      inquan<lb ed="#L" break="no" n="115"/>tum diuinae sunt. ergo vt sic non distinguunt, 
+      <lb ed="#L" n="116"/>immo vt sic sunt inter se indistincta. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1465">
+                  <lb ed="#L" n="117"/>Secundo vero irrationabilis est in eo, quod 
+      <lb ed="#L" n="118"/>dicit, quod persona formaliter subsistit per 
+      es<lb ed="#L" break="no" n="119"/>sentiam, quamuis incommunicabiliter, &amp; 
+      in<lb ed="#L" break="no" n="120"/>distincte per proprietatem. impossibile est 
+      e<lb ed="#L" break="no" n="121"/>nim effectum formalem multiplicari, forma 
+      <lb ed="#L" n="122"/>eadem remanente, sed formale, quo subsistunt 
+      <lb ed="#L" n="123"/>personae, est essentia secundum istos. ergo cum 
+      <lb ed="#L" n="124"/>essentia sit vna tribus, sequitur, quod tres erunt 
+      <lb ed="#L" n="125"/>vnum subsistens, &amp; per consequens vnum 
+      sup<lb ed="#L" break="no" n="126"/>positum, &amp; vna persona iuxta Sabellianum 
+      <lb ed="#L" n="127"/>errorem 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1491">
+                  <lb ed="#L" n="128"/>Praeterea: Quandocumque sunt vnum, &amp; 
+      <lb ed="#L" n="129"/>idem, plurificato vno, plurificatur &amp; reliquum, 
+      <!--0568.xml-->
+      <pb ed="#L" n="568"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ed subsiscentia, quae personae formaliter 
+      sub<lb ed="#L" break="no" n="2"/>istunt, est diuina essentia; constat autem 
+      <lb ed="#L" n="3"/>uod subsistentia, triplicatur, quia sunt tres 
+      <lb ed="#L" n="4"/>ubsistentiae, sicut Magister dicit in praesenti 
+      <lb ed="#L" n="5"/>listinctione, &amp; hic sensus. ergo in tribus 
+      per<lb ed="#L" break="no" n="6"/>onis erunt tres essentiae, &amp; reddit haeresis 
+      ar<lb ed="#L" break="no" n="7"/>iana 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1520">
+                  <lb ed="#L" n="8"/>Praeterea: Quod non distinguit, non reddit 
+      <lb ed="#L" n="9"/>ncommunicabilem effectum formalem, sed 
+      pro<lb ed="#L" break="no" n="10"/>rietas non distinguit essentiam, nec reddit eam 
+      <lb ed="#L" n="11"/>ncommunicabilem. ergo si essentia, &amp; 
+      subsisten<lb ed="#L" break="no" n="12"/>iam non sunt idem, sic quod per essentiam 
+      for<lb ed="#L" break="no" n="13"/>maliter personae subsistant, sequitur quod 
+      pro<lb ed="#L" break="no" n="14"/>rietas subsistentium, ac subsistere non distinguit, 
+      <lb ed="#L" n="15"/>nec incommunicabilem reddit. vnde nihil est 
+      <lb ed="#L" n="16"/>lictu, quod per essentiam pater subsistit, &amp; quod 
+      <lb ed="#L" n="17"/>ber proprietatem incommunicabiliter, seu 
+      di<lb ed="#L" break="no" n="18"/>stincte pater subsistat. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1546">
+                  <lb ed="#L" n="19"/>Tertio quoque irrationabilis est in 
+      conclu<lb ed="#L" break="no" n="20"/>sone, quae sequitur ex praedictis. licet enim 
+      ve<lb ed="#L" break="no" n="21"/>rum sit, quod pater proprietatem, &amp; essentiam 
+      <lb ed="#L" n="22"/>importet in obliquo, &amp; concretiue, nihilominus 
+      <lb ed="#L" n="23"/>ratio, ex qua infertur stare non potest, vt dictum 
+      <lb ed="#L" n="24"/>est, scilicet quod persona subsistat per essentiam, 
+      <lb ed="#L" n="25"/>&amp; distinguatur per proprietatem, quod etiam 
+      <lb ed="#L" n="26"/>patet ex definitione personae, quam ipsimet 
+      po<lb ed="#L" break="no" n="27"/>nunt, dicendo quod diuina persona in generali 
+      <lb ed="#L" n="28"/>definiri potest, quod est subsistens in natura 
+      di<lb ed="#L" break="no" n="29"/>uina distinctum proprietate. manifestum est 
+      <lb ed="#L" n="30"/>enim, quod non dicitur subsistens per naturam 
+      <lb ed="#L" n="31"/>diuinam, sed in natura diuina. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1577">
+                  <lb ed="#L" n="32"/>Quarto vero irrationalis est in eo, quod ait 
+      <lb ed="#L" n="33"/>personam, vt diuinam esse relatiuum 
+      concreti<lb ed="#L" break="no" n="34"/>tiue, licet enim relationem includant, non 
+      ta<lb ed="#L" break="no" n="35"/>men esse personam, est esse relatiuum 
+      formali<lb ed="#L" break="no" n="36"/>ter, &amp; concretiue idipsum, quod est alterius, vt 
+      <lb ed="#L" n="37"/>patet in praedicamentis. vnde esse patrem est 
+      es<lb ed="#L" break="no" n="38"/>se patrem filij, &amp; esse Dominum est esse 
+      Domi<lb ed="#L" break="no" n="39"/>num serui, &amp; sic de aliis, sed manifestum est, quod 
+      <lb ed="#L" n="40"/>esse personae in patre non est esse filij. non enim 
+      <lb ed="#L" n="41"/>pater est persona filij, nec econuerso. ergo esse 
+      <lb ed="#L" n="42"/>personam diuinam, non est relatiuum 
+      formali<lb ed="#L" break="no" n="43"/>ter, &amp; concretiue. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1607">
+                  <lb ed="#L" n="44"/>Praeterea: Pater est filii pater, sed non est 
+      fi<lb ed="#L" break="no" n="45"/>lii persona. ergo non est idem formaliter in pa 
+      <lb ed="#L" n="46"/>tre esse patrem, &amp; personam, siue personalitas, 
+      <lb ed="#L" n="47"/>&amp; paternitas. vnde personalitas diuina nullo 
+      <lb ed="#L" n="48"/>modo est relatio relatiua, quamuis relationem 
+      <lb ed="#L" n="49"/>includat, vt inferius apparebit. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1623">
+                  <lb ed="#L" n="50"/>Opinio quorundam aliorum.
+    </p>
+               <p xml:id="ol96b1-183007-d1e1628">
+                  <lb ed="#L" n="51"/>ET idcirco dixerunt ali. Primo quidem, 
+      <lb ed="#L" n="52"/>L quod si nomen personae significet secundam 
+      <lb ed="#L" n="53"/>intentionem, tunc nec significat substantiam, 
+      <lb ed="#L" n="54"/>vel relationem, nec in diuinis, nec in creaturis; 
+      <lb ed="#L" n="55"/>si vero significet rem intentioni substratam, 
+      <lb ed="#L" n="56"/>adhuc non exprimit substantiam, nec 
+      relatio<lb ed="#L" break="no" n="57"/>nem, sed abstrahit ab vtroque, quod patet ex 
+      <lb ed="#L" n="58"/>de finitione personae, quae vtique potest 
+      compe<lb ed="#L" break="no" n="59"/>tere tam supposito absoluto, quam relatiuo: si 
+      <lb ed="#L" n="60"/>vero quaeratur non de significato, sed de eo, de 
+      <lb ed="#L" n="61"/>quo nomen personae dicitur in diuinis, patet 
+      <lb ed="#L" n="62"/>quod ista significant constitutum ex essentia 
+      <lb ed="#L" n="63"/>&amp; relatione. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1659">
+                  <lb ed="#L" n="64"/>Secundo vero dixerunt, quod si persona sit 
+      <!--0568.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>nomen rei, non dicitur vniuoce de Deo, &amp; 
+      <lb ed="#L" n="66"/>creaturis, cum plus distet Deus a creatura, 
+      <lb ed="#L" n="67"/>quam res vnius praedicamenti a re alterius; 
+      re<lb ed="#L" break="no" n="68"/>bus autem diuersorum praedicamentorum 
+      ni<lb ed="#L" break="no" n="69"/>hil est commune vniuocum, quia illud esset 
+      <lb ed="#L" n="70"/>ens, quod non potest esse vniuocum; si vero sit 
+      <lb ed="#L" n="71"/>nomen intentionis secundae, videretur dici 
+      vni<lb ed="#L" break="no" n="72"/>uoce de Deo, &amp; creatura, sed tamen dicendum, 
+      <lb ed="#L" n="73"/>quod quia persona idem est, quod suppositum 
+      <lb ed="#L" n="74"/>naturae intellectualis; suppositum autem 
+      Sor<lb ed="#L" break="no" n="75"/>tis ex hoc, quod subsistit, vel supponit alteri, 
+      <lb ed="#L" n="76"/>tanquam communi, sicut Sortes sub homine 
+      <lb ed="#L" n="77"/>ponitur. cum ergo in creaturis, &amp; in diuinis, 
+      <lb ed="#L" n="78"/>non sit eadem ratio suppositionis, quia in his, 
+      <lb ed="#L" n="79"/>quae communia sunt suppositis increatis est 
+      vni<lb ed="#L" break="no" n="80"/>tas realis; in suppositis autem creatis est 
+      vni<lb ed="#L" break="no" n="81"/>tas rationis; manifestum est autem, quod 
+      sup<lb ed="#L" break="no" n="82"/>poni communibus secundum rem, &amp; 
+      commu<lb ed="#L" break="no" n="83"/>nibus secundum rationem, non est vniuoce sup 
+      <lb ed="#L" n="84"/>poni, nec ratio suppositionis vniuoca est. 
+      er<lb ed="#L" break="no" n="85"/>go persona, &amp; suppositum non dicuntur 
+      vni<lb ed="#L" break="no" n="86"/>uoce de Deo, &amp; creatura 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1716">
+                  <lb ed="#L" n="87"/>Sed nec iste modus dicendi competens est 
+      <lb ed="#L" n="88"/>in duobus. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1723">
+                  <lb ed="#L" n="89"/>Primo quidem in eo quod ait illa, de quibus 
+      <lb ed="#L" n="90"/>persona dicitur in diuinis, vtpote patrem, vel 
+      <lb ed="#L" n="91"/>filium importare essentiam, &amp; relationem-. 
+      <lb ed="#L" n="92"/>per hoc enim non explicatur, an personalitas 
+      <lb ed="#L" n="93"/>in patre sit alia ratio a paternitate, sic quod 
+      <lb ed="#L" n="94"/>esse patrem non sit idem formaliter, quod esse 
+      <lb ed="#L" n="95"/>personam. si enim intelligatur, quod idem sit, 
+      <lb ed="#L" n="96"/>stare non potest, sicut probatum est contra 
+      <lb ed="#L" n="97"/>praecedentem opinionem. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1746">
+                  <lb ed="#L" n="98"/>Secundo vero incompetens est, quia dicit 
+      <lb ed="#L" n="99"/>personam non dici vniuoce de Deo, &amp; 
+      crea<lb ed="#L" break="no" n="100"/>tura: definitio namque personae secundum sic 
+      <lb ed="#L" n="101"/>ponentem abstrahit ab absoluto, &amp; relatiuo, &amp; 
+      <lb ed="#L" n="102"/>a Deo, ac creatura, ex quo potest inferri 
+      con<lb ed="#L" break="no" n="103"/>tradictorium dicti sui; vniuoca namque 
+      dicun<lb ed="#L" break="no" n="104"/>tur, quorum nom en est commune &amp; ratio, seu 
+      <lb ed="#L" n="105"/>definitio eadem, vt patet in ante 
+      praedicamen<lb ed="#L" break="no" n="106"/>tis, sed nomen personae dicitur de Deo, &amp; crea 
+      <lb ed="#L" n="107"/>tura, &amp; item definitio abstrahit ab absoluto, 
+      <lb ed="#L" n="108"/>&amp; relatiuo, &amp; a Deo, &amp; a creatura, sicut 
+      pa<lb ed="#L" break="no" n="109"/>tet de definitione Boetii, &amp; Riccardi. ergo 
+      <lb ed="#L" n="110"/>vniuoce dicetur de Deo, &amp; creatura. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1777">
+                  <lb ed="#L" n="111"/>Nec motiuum valet, quid suppositum non 
+      <lb ed="#L" n="112"/>dicitur a subsistendo alicui communi, prout 
+      <lb ed="#L" n="113"/>idem est cum persona, sed accipitur pro 
+      per<lb ed="#L" break="no" n="114"/>seitate tertii modi, quae non est aliud, quam 
+      <lb ed="#L" n="115"/>subsistentia, seu per se stantia, vel persistentia 
+      <lb ed="#L" n="116"/>incommunicabilis intellectualis naturae; 
+      con<lb ed="#L" break="no" n="117"/>ceptus autem istius per se stantiae communis 
+      <lb ed="#L" n="118"/>est Deo, &amp; creaturae, vt inferius apparebit. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1797">
+                  <lb ed="#L" n="119"/>Opinio Scoti. I. sentent. distinct. 3. quaes. 2.
+    </p>
+               <p xml:id="ol96b1-183007-d1e1802">
+                  <lb ed="#L" n="120"/>QVAPROPTER dixerunt alii, quod a 
+      <lb ed="#L" n="121"/>tribus personis diuinis potest abstrahi 
+      <lb ed="#L" n="122"/>aliquis communis conceptus negatiuus, quia 
+      <lb ed="#L" n="123"/>duplex incommunicabilitas, videlicet, illa 
+      <lb ed="#L" n="124"/>quae opposita est communicabilitati 
+      vniuersa<lb ed="#L" break="no" n="125"/>lis respectu inferiorum, &amp; illa, quae opponitur 
+      <lb ed="#L" n="126"/>communicabilitati formae, qua aliquid est, haec 
+      <lb ed="#L" n="127"/>inquam incommunicabilitas dupliciter abstra 
+      <!--0569.xml-->
+      <pb ed="#L" n="569"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>hi potest a personis, &amp; ab vltimis distinctis, 
+      da<lb ed="#L" break="no" n="2"/>to etiam quod nihil positiuum commune 
+      pos<lb ed="#L" break="no" n="3"/>set abstrahi, cui primo inesset talis negatio, &amp; 
+      <lb ed="#L" n="4"/>secundum hoc persona non diceret aliquid sup 
+      <lb ed="#L" n="5"/>positum commune in tribuspersonis, quamuis com 
+      <lb ed="#L" n="6"/>municaret tria positiua. Primum quidem 
+      pa<lb ed="#L" break="no" n="7"/>trem, &amp; filium, &amp; spiritum sanctum eo modo, quo 
+      <lb ed="#L" n="8"/>superius connotat inferius, pro quo supponit. 
+      <lb ed="#L" n="9"/>Secundum vero relationem, qua patri conuenit 
+      <lb ed="#L" n="10"/>talis relatio, &amp; negatio similiter, qua conuenit 
+      <lb ed="#L" n="11"/>filio. Tertium vero essentia quaelibet in primo 
+      <lb ed="#L" n="12"/>connotato sit, non tamen ratio illius 
+      negatio<lb ed="#L" break="no" n="13"/>nis fundatur in ea. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1857">
+                  <lb ed="#L" n="14"/>Vlterius vero dixerunt isti, quod aliquod 
+      com<lb ed="#L" break="no" n="15"/>mune positiuum, cui primo insit talis negatio 
+      <lb ed="#L" n="16"/>est possibile abstrahi a personis, &amp; ab vltimis 
+      <lb ed="#L" n="17"/>distinctis, vtpote ratio subsistentis indifferens 
+      <lb ed="#L" n="18"/>est ad absolutum, &amp; relatiuum, &amp; quod haec pos 
+      <lb ed="#L" n="19"/>sit abstrahi, patet: tum quia ab indiuiduis 
+      po<lb ed="#L" break="no" n="20"/>test ad commune abstrahi, non solum 
+      conce<lb ed="#L" break="no" n="21"/>ptus speciei, immo aliquid aliud, vt ratio 
+      hypo<lb ed="#L" break="no" n="22"/>statica. conueniunt enim in hoc indiuidua om 
+      <lb ed="#L" n="23"/>nia substantiae, quod quodlibet est hyposta sis: 
+      <lb ed="#L" n="24"/>tum quia personae diuinae realiter conueniunt 
+      <lb ed="#L" n="25"/>in ratione incommunicabilis subsistentiae, sicut 
+      <lb ed="#L" n="26"/>duo alba in ratione albedinis; ratio autem 
+      sub<lb ed="#L" break="no" n="27"/>sistentiae non est negatiua; tum quia conceptus 
+      <lb ed="#L" n="28"/>idem non potest esse simul certus, &amp; dubius, 
+      <lb ed="#L" n="29"/>potest aliquis esse certus, quod in diuinis est 
+      <lb ed="#L" n="30"/>persona, &amp; tamen erit dubius, vtrum pater, 
+      <lb ed="#L" n="31"/>&amp; filius sint in eo, &amp; per consequens 
+      conce<lb ed="#L" break="no" n="32"/>ptus personae communis est patri, &amp; filio: tum 
+      <lb ed="#L" n="33"/>quia paternitati, filiationi, &amp; spirationi est cō- 
+      <lb ed="#L" n="34"/>munis conceptus relationis, &amp; abstrahibilis ab l 
+      <lb ed="#L" n="35"/>eis, quare &amp; a personis constitutis per 
+      relatio<lb ed="#L" break="no" n="36"/>nes huiusmodi potest abstrahi conceptus 
+      posi<lb ed="#L" break="no" n="37"/>tiue communis; haec autem communitas non 
+      <lb ed="#L" n="38"/>est alicuius realitatis, sed tantum rationis realis. 
+      <lb ed="#L" n="39"/>siue formalitatis, &amp; propter hoc non est genus, 
+      <lb ed="#L" n="40"/>vel species; est tamen communis positiuus, &amp; 
+      <lb ed="#L" n="41"/>vere plurificatus in tribus. Iste autem 
+      conce<lb ed="#L" break="no" n="42"/>ptus non significat essentiam, aut relationem 
+      <lb ed="#L" n="43"/>sed aliquid indifferens, &amp; commune, connotat 
+      <lb ed="#L" n="44"/>tamen ea eo modo, quo dicebatur de 
+      negati<lb ed="#L" break="no" n="45"/>uo conceptu. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e1929">
+                  <lb ed="#L" n="46"/>Iste modus dicendi licet appropinquet ad ve 
+      <lb ed="#L" n="47"/>rum, in hoc tamen deficit, quod illum 
+      commu<lb ed="#L" break="no" n="48"/>nem conceptum aestimat esse alium a conceptu 
+      <lb ed="#L" n="49"/>entis, quasi sit aliqua ratio positiua existens in 
+      <lb ed="#L" n="50"/>re, quod omnino dici non potest. si enim esset 
+      <lb ed="#L" n="51"/>talis ratio, sequeretur, quod personalitas filij 
+      <lb ed="#L" n="52"/>constitueretur ex ratione personalitatis in 
+      com<lb ed="#L" break="no" n="53"/>muni, &amp; ratione propriae personalitatis, &amp; ita 
+      <lb ed="#L" n="54"/>esset in patre duplex ratio, ita quod esset 
+      perso<lb ed="#L" break="no" n="55"/>nalitas patris posita ex communi 
+      personalita<lb ed="#L" break="no" n="56"/>te, &amp; ex ratione contrahente personalitatem 
+      <lb ed="#L" n="57"/>communem ad personalitatem patris. Sed 
+      de<lb ed="#L" break="no" n="58"/>claratum est supra, quod in persona non est 
+      com<lb ed="#L" break="no" n="59"/>positio realium rationum, immo nec etiam 
+      ra<lb ed="#L" break="no" n="60"/>tionum fabricatarum ab intellectu. ergo illud 
+      <lb ed="#L" n="61"/>poni non potest.
+    </p>
+               <p xml:id="ol96b1-183007-d1e1967">
+                  <lb ed="#L" n="62"/>Praeterea: Nullum existens in re potest esse 
+      <lb ed="#L" n="63"/>commune Deo &amp; creaturae, alioquin 
+      sequere<lb ed="#L" break="no" n="64"/>tur, quod eadem ratio realis esset vere causa 
+      <lb ed="#L" n="65"/>exemplaris, prous ost in Deo, &amp; exemplata, prout 
+      <lb ed="#L" n="66"/>esset in creatura, cum esse, quod est increatura 
+      <!--0569.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>sit transcriptum &amp; exemplariter exaratum ab 
+      <lb ed="#L" n="68"/>eo, quod est in Creatore, &amp; referatur ad illud 
+      <lb ed="#L" n="69"/>secundum tertium modum relatiuorum, qui est 
+      <lb ed="#L" n="70"/>modo mensurae. vnde quaelibet ratio, quae 
+      in<lb ed="#L" break="no" n="71"/>Deo est exemplaris differt, nec est eiusdem 
+      ra<lb ed="#L" break="no" n="72"/>tionis cum diminuta ratione, quae est in 
+      creatu<lb ed="#L" break="no" n="73"/>ra ad similitudinem illius rationis exemplaris, 
+      <lb ed="#L" n="74"/>sicut nec albedo, &amp; species albedinis dicuntur 
+      <lb ed="#L" n="75"/>albedo eiusdem rationis, sed manifestum est 
+      se<lb ed="#L" break="no" n="76"/>cundum sic ponentes, quod ratio 
+      personalita<lb ed="#L" break="no" n="77"/>tis vniuoce dicitur de Deo &amp; creatura. ergo 
+      <lb ed="#L" n="78"/>non potest esse realis ratio existens in vtroque. 
+      <lb ed="#L" n="79"/>&amp; in hoc secundus articulus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-183007-Dd1e2014">
+               <head xml:id="ol96b1-183007-Hd1e2016">Articulus 3</head>
+               <p xml:id="ol96b1-183007-d1e2018">
+                  <lb ed="#L" n="80"/>ARTJCVLVS TERTJVS. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2023">
+                  <lb ed="#L" n="81"/>Quid dicendum secundum veritatem, &amp; primo quod 
+      <lb ed="#L" n="82"/>ratio personalitatis dicit conceptum entis 
+      formali<lb ed="#L" break="no" n="83"/>ter, &amp; in recto, &amp; negationem 
+      incommunicabilita<lb ed="#L" break="no" n="84"/>tis circa illum conceptum, secundum quod 
+      commu<lb ed="#L" break="no" n="85"/>nis est Deo, &amp; creaturae &amp; ideo tribus personis nec 
+      <lb ed="#L" n="86"/>aliquid est illis commune. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2039">
+                  <lb ed="#L" n="87"/>CIRCA tertium uero considerandum, quod 
+      <lb ed="#L" n="88"/>huius quaesiti veritas ex propositione 
+      tri<lb ed="#L" break="no" n="89"/>plici poterit apparere. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2048">
+                  <lb ed="#L" n="90"/>Prima quidem, quod ratio personalitatis non 
+      <lb ed="#L" n="91"/>est, nisi conceptus entis substratus 
+      incommuni<lb ed="#L" break="no" n="92"/>cabilitati, seu distinctioni. vnde non est aliud 
+      <lb ed="#L" n="93"/>concipere personam, nisi concipere ens 
+      distin<lb ed="#L" break="no" n="94"/>ctum, discretum, &amp; solitarium, habens perseita 
+      <lb ed="#L" n="95"/>tem tertij modi, nec aliqua alia ratio 
+      positiua<lb ed="#L" break="no" n="96"/>subiicitur incommunicabilitati. vnde nil 
+      de<lb ed="#L" break="no" n="97"/>terminatum positiuum est de conceptu ipsius, 
+      <lb ed="#L" n="98"/>sed determinatae negationes clauduntur in 
+      ip<lb ed="#L" break="no" n="99"/>so concretiue; conceptus vero entis formaliter, 
+      <lb ed="#L" n="100"/>&amp; in recto, &amp; per modum substrati 
+      negationi<lb ed="#L" break="no" n="101"/>bus istis, ita personam esse communem Deo, &amp; 
+      <lb ed="#L" n="102"/>creaturae non est aliud, quam ens 
+      incommuni<lb ed="#L" break="no" n="103"/>cabile esse commune, &amp; similiter eam esse 
+      com<lb ed="#L" break="no" n="104"/>munem patri, &amp; filio, &amp; spiritui sancto est rem 
+      <lb ed="#L" n="105"/>incommunicabilem esse communem, vel tribus, 
+      <lb ed="#L" n="106"/>&amp; non rationem aliquam positiuam indetermi 
+      <lb ed="#L" n="107"/>natam, &amp; contentam sub ente. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2091">
+                  <lb ed="#L" n="108"/>Est tamen sciendum, quod ista ratio, quae 
+      di<lb ed="#L" break="no" n="109"/>cta est magis ratio hypostasis est, &amp; suppositi, 
+      <lb ed="#L" n="110"/>quam personae, nam addit personae 
+      determina<lb ed="#L" break="no" n="111"/>tam naturam, scilicet intellectualem, nihilomi 
+      <lb ed="#L" n="112"/>nus non propter hoc uariatur ratio hypostasis 
+      <lb ed="#L" n="113"/>&amp; personae. sicut enim se habet concauitas, ad 
+      <lb ed="#L" n="114"/>simitatem, quod simitas dicit concauitatem in 
+      <lb ed="#L" n="115"/>naso, sic persona non est aliud quam hypostasis 
+      <lb ed="#L" n="116"/>in intellectuali natura, concipere itaque ens 
+      in<lb ed="#L" break="no" n="117"/>communicabile, seu distinctum, &amp; discretum, ac 
+      so<lb ed="#L" break="no" n="118"/>litarium, quod ita sit incommunicabile, &amp; 
+      om<lb ed="#L" break="no" n="119"/>nino sui ipsius, vt nec sit alterius sorma substan 
+      <lb ed="#L" n="120"/>tialis, vel accidentalis, aut dans esse alicui, nec 
+      <lb ed="#L" n="121"/>sit alterius materia, nec alterius pars 
+      integra<lb ed="#L" break="no" n="122"/>lis, sic sit in alio praedicatiue, sicut vniuersale, 
+      <lb ed="#L" n="123"/>sed sit omnino per se, idest inquantum 
+      concipe<lb ed="#L" break="no" n="124"/>re est apprehendere hypostasim, suppositum, &amp; 
+      <lb ed="#L" n="125"/>subsistentiam; hoc vero concipere in intellectua 
+      <lb ed="#L" n="126"/>linatura, sicut quod qualificetur tale ens per 
+      <lb ed="#L" n="127"/>intellectualitatem, est apprehendere personam. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2137">
+                  <lb ed="#L" n="128"/>Quod ergo infra rationem suppositi, &amp; 
+      sub<lb ed="#L" break="no" n="129"/>sistentiae, non sit determinata aliqua ratio, quae 
+      <!--0570.xml-->
+      <pb ed="#L" n="570"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>communis sit tribus suppositis in diuinis, aut 
+      <lb ed="#L" n="2"/>supposito creato, &amp; increato, sed illud 
+      commu<lb ed="#L" break="no" n="3"/>ne sit tantummodo generalis conceptus entis 
+      <lb ed="#L" n="4"/>per negationes, cum specificus arctatus, &amp; 
+      de<lb ed="#L" break="no" n="5"/>terminatus, possit multipliciter declarari: defi 
+      <lb ed="#L" n="6"/>nitio namque exprimit quicquid est de 
+      conce<lb ed="#L" break="no" n="7"/>ptu, &amp; ratione, vt patet 4. &amp; 7. Met. sed 
+      manife<lb ed="#L" break="no" n="8"/>stum est, quod in definitione hypostasis, &amp; 
+      sup<lb ed="#L" break="no" n="9"/>positi, nihil potiuum determinatum 
+      exprimi<lb ed="#L" break="no" n="10"/>tur, sed tantum conceptus entis cum 
+      incom<lb ed="#L" break="no" n="11"/>municabilitate. remoto enim a definitione 
+      Ric<lb ed="#L" break="no" n="12"/>cardi, quam ponit de persona 4. de Trin. c. 21. illo, 
+      <lb ed="#L" n="13"/>quod est immateriale, &amp; contrahens rationem 
+      <lb ed="#L" n="14"/>suppositi ad personam, videlicet intellectualis 
+      <lb ed="#L" n="15"/>naturae hoc, quod sequitur, scilicet incommuni 
+      <lb ed="#L" n="16"/>cabilis existentia est tota ratio subsistentiae, &amp; 
+      <lb ed="#L" n="17"/>suppositi, sed constat, quod hic nihil ponitur po 
+      <lb ed="#L" n="18"/>sitiuum, nisi existentia, seu conceptus entis. 
+      er<lb ed="#L" break="no" n="19"/>go de ratione suppositi non est determinatum 
+      <lb ed="#L" n="20"/>aliquod positiuum, sed tantum conceptus entis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2194">
+                  <lb ed="#L" n="21"/>Praeterea: Eadem est ratio suppositi, &amp; 
+      per<lb ed="#L" break="no" n="22"/>seitatis tertij modi, quod patet ex his, quae 
+      re<lb ed="#L" break="no" n="23"/>mouentur ab isto modo perseitatis, quia &amp; 
+      ac<lb ed="#L" break="no" n="24"/>cidentia, &amp; formae substantiales, &amp; materia. &amp; 
+      <lb ed="#L" n="25"/>partes integrales, &amp; vniuersalia. vnde sola 
+      in<lb ed="#L" break="no" n="26"/>diuidua, quae non sunt alterius, sed habent esse 
+      <lb ed="#L" n="27"/>solitarie, &amp; distincte sunt in tertio modo persei 
+      <lb ed="#L" n="28"/>tatis, &amp; haec omnia similiter remouentur a 
+      ra<lb ed="#L" break="no" n="29"/>tione suppositi, &amp; solitaria indiuidna sunt 
+      tan<lb ed="#L" break="no" n="30"/>tum supposita, &amp; subsistentia secundum 
+      com<lb ed="#L" break="no" n="31"/>munem modum loquendi, sed perseitas tertij 
+      <lb ed="#L" n="32"/>modi nullam rationem determinatam positiuam 
+      <lb ed="#L" n="33"/>includit, sed tantum conceptum entis, artatum 
+      <lb ed="#L" n="34"/>per negationes, quibus substernitur. est enim 
+      <lb ed="#L" n="35"/>per se tertio modo ens solitariumsingulare, nec 
+      <lb ed="#L" n="36"/>de conceptu talis entis est ratio hominis, aut 
+      <lb ed="#L" n="37"/>lapidis, nec substantiae, nec qualitatis, aut alicu 
+      <lb ed="#L" n="38"/>ius rationis praedicamentalis, seu cuiuscumque 
+      <lb ed="#L" n="39"/>determinati. ergo de ratione suppositi non est 
+      <lb ed="#L" n="40"/>aliquod positiuum determinatum 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2240">
+                  <lb ed="#L" n="41"/>Et si dicatur, quod de ratione tertij modi 
+      per<lb ed="#L" break="no" n="42"/>seitatis est conceptus praedicamentalis substan 
+      <lb ed="#L" n="43"/>tiae, nam primae substantiae solae videntur esse 
+      <lb ed="#L" n="44"/>per se tertio modo, dicendum quod de 
+      ratio<lb ed="#L" break="no" n="45"/>ne primae substantiae est quod sit ens solitarium, 
+      <lb ed="#L" n="46"/>&amp; illud est proprie subsistentia, seu per se 
+      stan<lb ed="#L" break="no" n="47"/>tia: &amp; cum hoc aliqua natura, quae sit hoc 
+      ali<lb ed="#L" break="no" n="48"/>quid clauditur in prima subsantia. semper 
+      e<lb ed="#L" break="no" n="49"/>nim quod per se stat in creaturis est aliqua 
+      na<lb ed="#L" break="no" n="50"/>tura, quae vere est hoc aliquid, vtpote lapis, vel 
+      <lb ed="#L" n="51"/>lignum: dictum est autem supra, quod ratio 
+      prae<lb ed="#L" break="no" n="52"/>dicamentalis substantiae consistit in singulari, 
+      <lb ed="#L" n="53"/>quasi quoddam hoc aliquid. vel modo determi 
+      <lb ed="#L" n="54"/>nato, vt Sortes, vel Plato, vel modo 
+      indetermi<lb ed="#L" break="no" n="55"/>nato, &amp; sicut appellationis figura, sicut homo, 
+      <lb ed="#L" n="56"/>vel animal, accidit inquam perseitati tertij mo 
+      <lb ed="#L" n="57"/>di significatum praedicamentalis substantiae. vn 
+      <lb ed="#L" n="58"/>de si esset aliquod ens stans per se, quod non 
+      es<lb ed="#L" break="no" n="59"/>set hoc aliquid, sed tota natura simpliciter 
+      sub<lb ed="#L" break="no" n="60"/>sistens, sicut Plato posuit de ideis, adhuc esset 
+      <lb ed="#L" n="61"/>per se tertio modo, &amp; ideo adstracta vocabat 
+      <lb ed="#L" n="62"/>Plato per se hominem, per se bonum, vt patet⸗ 
+      <lb ed="#L" n="63"/>1. Et hicorunL. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2292">
+                  <lb ed="#L" n="64"/>Praeterea: Nullum positiuum commune Deo, 
+      <lb ed="#L" n="65"/>&amp; creaturae est formaliter aliqua ratio 
+      deter<lb ed="#L" break="no" n="66"/>minata; nulla namque determinata ratio est in 
+      <!--0570.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>creatura, quin exemplata, &amp; diminuta a 
+      ratio<lb ed="#L" break="no" n="68"/>ne eminenti, &amp; exemplata existente in Deo. &amp; 
+      <lb ed="#L" n="69"/>multo fortius, quam species lapidis, &amp; 
+      quiddi<lb ed="#L" break="no" n="70"/>tas lapiditatis sit diminuta a quidditatiua 
+      ra<lb ed="#L" break="no" n="71"/>tione ipsius. sicut ergo species lapidis, &amp; 
+      quid<lb ed="#L" break="no" n="72"/>ditas lapidis, non sunt lapis vnius rationis, 
+      im<lb ed="#L" break="no" n="73"/>mo aequiuoce, sicut exemplar, &amp; exemplatum, 
+      <lb ed="#L" n="74"/>diminutum, &amp; eminens, sic oportet esse 
+      de<lb ed="#L" break="no" n="75"/>omni ratione determinata, quae reperitur 
+      in<lb ed="#L" break="no" n="76"/>Deo exemplari, &amp; in creatura exemplata, sed 
+      <lb ed="#L" n="77"/>manife stum est, quod conceptus suppositi com 
+      <lb ed="#L" n="78"/>munis est Deo, &amp; creaturae. Riccardus enim 
+      <lb ed="#L" n="79"/>cum ait quod est incommunicabilis existentia 
+      <lb ed="#L" n="80"/>exprimit conceptum communem Deo, &amp; crea 
+      <lb ed="#L" n="81"/>turae, quia &amp; Sortes est incommunicabilis 
+      exi<lb ed="#L" break="no" n="82"/>stentia, &amp; similiter pater diuinus. ergo non est 
+      <lb ed="#L" n="83"/>possibile, quod infra conceptum suppositi clau 
+      <lb ed="#L" n="84"/>datur ratio aliqua determinata positiua; 
+      con<lb ed="#L" break="no" n="85"/>stat autem, quod clauditur aliquod positiuum, 
+      <lb ed="#L" n="86"/>cum conceptus suppositi sit conceptus 
+      cuius<lb ed="#L" break="no" n="87"/>dam principalis, &amp; habentis &amp; strati respectu 
+      <lb ed="#L" n="88"/>naturae, quod purae negationi competere non 
+      <lb ed="#L" n="89"/>potest. relinquitur ergo, quod infra conceptum 
+      <lb ed="#L" n="90"/>suppositi sit aliquid positiuum simpliciter 
+      in<lb ed="#L" break="no" n="91"/>de terminatum, cuiusmodi est conceptus entis, 
+      <lb ed="#L" n="92"/>sicut similiter extitit declaratum, dum 
+      agere<lb ed="#L" break="no" n="93"/>tur de ente. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2364">
+                  <lb ed="#L" n="94"/>Praeterea: Signi ficatum pro nominis est 
+      con<lb ed="#L" break="no" n="95"/>ceptns suppositi, &amp; subsistentiae, cum pronomen 
+      <lb ed="#L" n="96"/>significet meram substantiam spoliatam ab om 
+      <lb ed="#L" n="97"/>ni qualitate, non quidem substantiam 
+      praedica<lb ed="#L" break="no" n="98"/>mentalem denuda tam a qualitatibus 
+      praedica<lb ed="#L" break="no" n="99"/>menta libus, sed meram subsistentiam abstractam 
+      <lb ed="#L" n="100"/>ab omni determinatione, &amp; quidditate, seu 
+      na<lb ed="#L" break="no" n="101"/>tura, sed significatum pro nominis non claudit 
+      <lb ed="#L" n="102"/>aliquid positiuum, nisi conceptum entis. 
+      signi<lb ed="#L" break="no" n="103"/>ficat enim ens solitarium, quia ens 
+      demonstra<lb ed="#L" break="no" n="104"/>tum, sicut patet, quia illud, &amp; illud, &amp; ille, &amp; ille 
+      <lb ed="#L" n="105"/>absolute non dicuntur, nisi de ente solitario, vi 
+      <lb ed="#L" n="106"/>sa namque albedine, non dicitur 
+      absolute<lb ed="#L" break="no" n="107"/>illud, vel ille, quia tunc intelligeretur totum 
+      <lb ed="#L" n="108"/>album demonstrari, &amp; non folum albedo. 
+      vn<lb ed="#L" break="no" n="109"/>de notum est, quod ista pronomina sic 
+      demon<lb ed="#L" break="no" n="110"/>strant entia solitaria, quod non exprimant 
+      cir<lb ed="#L" break="no" n="111"/>ca eum aliquam determinatam rationem, seu 
+      <lb ed="#L" n="112"/>naturam; solus autem conceptus entis est 
+      posi<lb ed="#L" break="no" n="113"/>tiuum quid indeterminate. ergo conceptus sup 
+      <lb ed="#L" n="114"/>positi non includit aliud positiuum, nisi eus 
+      <lb ed="#L" n="115"/>ipsum. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2415">
+                  <lb ed="#L" n="116"/>Praeterea: Ens aliquid, &amp; res idem significant 
+      <lb ed="#L" n="117"/>secundum Auicen. 1. meta. sed conceptus 
+      sup<lb ed="#L" break="no" n="118"/>positi non est, nisi concipi, vt aliquis vnus solus, 
+      <lb ed="#L" n="119"/>nec tria supposita sunt, nisi tres aliqui, quidam 
+      <lb ed="#L" n="120"/>foli, discreti, &amp; distincti secundum Riccar. 4 de 
+      <lb ed="#L" n="121"/>Trinitate. ergo conceptus suppositi non est, 
+      <lb ed="#L" n="122"/>nisi entis solitarij absque omni 
+      determinata<lb ed="#L" break="no" n="123"/>ratione 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2435">
+                  <lb ed="#L" n="124"/>Praeterea: Subsistentia communis est tribus 
+      <lb ed="#L" n="125"/>personis. pater enim, &amp; filius, &amp; spiritus sun 
+      <lb ed="#L" n="126"/>ctus sunt tres aliqui. aut ergo sunt tres aliqui 
+      <lb ed="#L" n="127"/>Dij, aut tres aliqui entes, simpliciter, &amp; indeter 
+      <lb ed="#L" n="128"/>minate, aut tres aliqui in ratione positina, quae 
+      <lb ed="#L" n="129"/>numeratur in eis, sed non potestponi primum 
+      <lb ed="#L" n="130"/>quia non sunt tres Dij, nec tertium quia 
+      non<lb ed="#L" break="no" n="131"/>potest, nec potuit vmquam aliqua pofitiua ta 
+      <lb ed="#L" n="132"/>tio reperiri determinata, quae mediet inter 
+      <!--0571.xml-->
+      <pb ed="#L" n="571"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>deitatem, &amp; personas, ita quod interrroganti, 
+      <lb ed="#L" n="2"/>quid est illud positiuum, in quo sunt tres, 
+      num<lb ed="#L" break="no" n="3"/>quam potuit responderi aliquid determinatum, 
+      <lb ed="#L" n="4"/>vt dicit August. 5. de Trin. vnde, nec sunt tres bo 
+      <lb ed="#L" n="5"/>ni, aut tres magni, aut aliquod aliud 
+      determi<lb ed="#L" break="no" n="6"/>natum. relinquitur ergo, vt detur tertium, 
+      scili<lb ed="#L" break="no" n="7"/>cet, vt sint tres aliqui indeterminate, &amp; hoc est, 
+      <lb ed="#L" n="8"/>quod dicit Magister, quod sunt tres entes, tres 
+      <lb ed="#L" n="9"/>res, tres subsistentes, seu solitarie existentes, &amp; 
+      <lb ed="#L" n="10"/>secundum hoc non triplicatur in eis aliqua 
+      de<lb ed="#L" break="no" n="11"/>terminata ratio, quia nec essentia, nec bonitas, 
+      <lb ed="#L" n="12"/>nec aliquid positiuum determinatum, sed 
+      so<lb ed="#L" break="no" n="13"/>lus conceptus entis solitarij plurificatur in eis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2492">
+                  <lb ed="#L" n="14"/>Ex istis autem patet de facili, quod positores 
+      <lb ed="#L" n="15"/>aliqui non poterant saluare. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2499">
+                  <lb ed="#L" n="16"/>Primum quidem, quomodo triplicatur in di 
+      <lb ed="#L" n="17"/>uinis, ad quod respondetur per interrogationem 
+      <lb ed="#L" n="18"/>factam per quid. triplicatur enim in eis 
+      aliqui<lb ed="#L" break="no" n="19"/>tas, seu entitas solitaria, &amp; ideo interroganti, 
+      <lb ed="#L" n="20"/>quid tres, responderi potest, quod tres aliqui, 
+      <lb ed="#L" n="21"/>tres singuli, &amp; tres entes. ens enim, &amp; aliqui 
+      <lb ed="#L" n="22"/>praedicantur in quid, &amp; respondetur proprie ad 
+      <lb ed="#L" n="23"/>interrogationem factam per quid. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2519">
+                  <lb ed="#L" n="24"/>Secundum vero, quod illud sit triplicatum, 
+      <lb ed="#L" n="25"/>non est secunda intentio, immo conceptus rei, 
+      <lb ed="#L" n="26"/>&amp; entis, secundum quod Augustinus dicit, tres 
+      <lb ed="#L" n="27"/>esse res, quibus fruendum est, patrem, filium, &amp; 
+      <lb ed="#L" n="28"/>idem creatis, &amp; increatis suppositis, quod est 
+      <lb ed="#L" n="29"/>commune suppositis increatis, significatum 
+      vi<lb ed="#L" break="no" n="30"/>delicet solitarium entis, sic quod nil aliud est 
+      <lb ed="#L" n="31"/>commune, quod triplicatur in personis diuinis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2539">
+                  <lb ed="#L" n="32"/>Quartum vero, quod conceptus suppositi po 
+      <lb ed="#L" n="33"/>test esse communis Deo, &amp; creaturae, sicut &amp; con 
+      <lb ed="#L" n="34"/>ceptus entis, &amp; saluatur analogia quantum ad 
+      <lb ed="#L" n="35"/>omnem determinatam rationem: simultas 
+      au<lb ed="#L" break="no" n="36"/>tem, &amp; aliqualis vniuocatio quantum ad 
+      inde<lb ed="#L" break="no" n="37"/>termina tum conceptum entis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2556">
+                  <lb ed="#L" n="38"/>Quintum autem, quod communitas 
+      supposi<lb ed="#L" break="no" n="39"/>ti, &amp; persona non est, quasi generis, vel speciei. 
+      <lb ed="#L" n="40"/>cum omne genus, &amp; species omnes importent 
+      <lb ed="#L" n="41"/>aliquam determinatam rationem, &amp; 
+      positi<lb ed="#L" break="no" n="42"/>uam, qualem suppositum non importat, vt 
+      di<lb ed="#L" break="no" n="43"/>ctum est. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2572">
+                  <lb ed="#L" n="44"/>Sextum autem, quod suppositum non dicit 
+      <lb ed="#L" n="45"/>puram negationem, nec etiam positiuum 
+      deter<lb ed="#L" break="no" n="46"/>minatum aliquod, in quo opinantes 
+      diuersimo<lb ed="#L" break="no" n="47"/>de errauerunt. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2583">
+                  <lb ed="#L" n="48"/>Quod positiuum indeterminatum importatum 
+      perra<lb ed="#L" break="no" n="49"/>tionem personalitatis coincidit in essentiam, &amp; 
+      <lb ed="#L" n="50"/>relationem in vtrumque cum obliquo, 
+      <lb ed="#L" n="51"/>&amp; in recto inconstitutum, dum 
+      ap<lb ed="#L" break="no" n="52"/>plicantur ad diuina. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2596">
+                  <lb ed="#L" n="53"/>SECVNDA quoque propositio est, quod dum 
+      <lb ed="#L" n="54"/>ratio personalitatis, seu entis solitarij ad pa 
+      <lb ed="#L" n="55"/>trem, &amp; filium applicatur, retinet quidem 
+      de<lb ed="#L" break="no" n="56"/>terminate negationes ipsas, quae per solitarium 
+      <lb ed="#L" n="57"/>importantur, coincidit in constitutum ex 
+      pro<lb ed="#L" break="no" n="58"/>prietate, &amp; essentia formaliter in recto, sed in 
+      <lb ed="#L" n="59"/>essentiam, &amp; relationem coinclusiue, &amp; in obliquo. 
+      <lb ed="#L" n="60"/>Hic tamen videntur aliqui obuiare. Primo 
+      <lb ed="#L" n="61"/>quidem, quia non est verum, quod negationes 
+      <lb ed="#L" n="62"/>per solitarium importatae sint vnius rationis, &amp; 
+      <lb ed="#L" n="63"/>vuluoce dictae de omnibus, in quibus 
+      reperiun<lb ed="#L" break="no" n="64"/>spiritum sanctum.
+    </p>
+               <p xml:id="ol96b1-183007-d1e2625">
+                  <lb ed="#L" n="65"/>Tertium quoque, quod illud commune est 
+      <!--0571.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>tur. constat enim, quod ratio negationis 
+      sumi<lb ed="#L" break="no" n="67"/>tur ab affirmatione, sicut ratio priuationis ab 
+      <lb ed="#L" n="68"/>habitu, &amp; ita multiplicato habitu, &amp; variata 
+      af<lb ed="#L" break="no" n="69"/>firmatione, habet necessario variari vera 
+      nega<lb ed="#L" break="no" n="70"/>tiua, sicut multiplicato vno oppositorum, 
+      mul<lb ed="#L" break="no" n="71"/>tiplicatur, &amp; reliquum, vt patet primo topic. 
+      vn<lb ed="#L" break="no" n="72"/>de &amp; Philosophus 5. Metaph. distinguit multa 
+      <lb ed="#L" n="73"/>nomina priuatiua, tamquam multipliciter, &amp; 
+      <lb ed="#L" n="74"/>non vniuoce dicta, sed manifestum est, quod 
+      nul<lb ed="#L" break="no" n="75"/>lus habitus, aut affirmatio dicitur vniuoce, &amp; 
+      <lb ed="#L" n="76"/>secundum eandem rationem de Deo, &amp; 
+      creatu<lb ed="#L" break="no" n="77"/>ra. ergo nec rationes negatiuorum per 
+      solita<lb ed="#L" break="no" n="78"/>rium importatae, erunt eiusdem rationis in Deo, 
+      <lb ed="#L" n="79"/>&amp; creatura. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2664">
+                  <lb ed="#L" n="80"/>Secundo vero obuiare videtur, quod natura 
+      <lb ed="#L" n="81"/>intellectualis est de primario intellectu 
+      perso<lb ed="#L" break="no" n="82"/>nae, cum ponatur in eius definctione, sed nihil 
+      <lb ed="#L" n="83"/>coincidit in hoc, quod explicite est de suo 
+      intel<lb ed="#L" break="no" n="84"/>lectu. ergo persona non coincidit in essentiam, 
+      <lb ed="#L" n="85"/>dum applicatur ad patrem, &amp; filium. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2681">
+                  <lb ed="#L" n="86"/>Tertio quoque in illud videtur in recto 
+      coin<lb ed="#L" break="no" n="87"/>cidere ratio personalitatis, super quod fundan 
+      <lb ed="#L" n="88"/>tur negationes, quae per solitarium 
+      importan<lb ed="#L" break="no" n="89"/>tur, seu per incommunicabile, quod idem est, 
+      <lb ed="#L" n="90"/>seu incommunicabilitas fundatur super 
+      relatio<lb ed="#L" break="no" n="91"/>ne in diuinis, quia proprietas relatiua dat 
+      in<lb ed="#L" break="no" n="92"/>communicabile existere, &amp; solitarie, ac per se. 
+      <lb ed="#L" n="93"/>ergo personalitas non coincidit in obliquo in 
+      <lb ed="#L" n="94"/>relationem, dum adaptatur ad diuina, immo 
+      <lb ed="#L" n="95"/>formaliter, &amp; in recto. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2705">
+                  <lb ed="#L" n="96"/>Quarto quoque, quoniam constitutum ex 
+      <lb ed="#L" n="97"/>proprietate, &amp; essentia videtur esse relatiuum. 
+      <lb ed="#L" n="98"/>vnde pater in eo, quod pater constitutus est in es 
+      <lb ed="#L" n="99"/>se relatiuo ex essentia, &amp; proprietate; sed dictum 
+      <lb ed="#L" n="100"/>est supra contra opinionem in secundo 
+      articu<lb ed="#L" break="no" n="101"/>lo secundario recitatam, quod ratio 
+      personali<lb ed="#L" break="no" n="102"/>tatis non est. ergo personalitas coincidere non 
+      <lb ed="#L" n="103"/>potest in recto in constitutum ex esentia, &amp; 
+      <lb ed="#L" n="104"/>relatione. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2727">
+                  <lb ed="#L" n="105"/>Sed istis non obstantibus dicendum est, sicut 
+      <lb ed="#L" n="106"/>prius. omnis enim conceptus indeterminatus 
+      <lb ed="#L" n="107"/>quidem positiue; determinatus vero negatiue, 
+      <lb ed="#L" n="108"/>dum applicatur ad rationem aliquam positiuam, 
+      <lb ed="#L" n="109"/>&amp; determinatam fundantem negationem 
+      huius<lb ed="#L" break="no" n="110"/>modi coincidit secundum illum indeterminatum 
+      <lb ed="#L" n="111"/>conceptum in rationem determina tam, &amp; 
+      posi<lb ed="#L" break="no" n="112"/>tiuam, quae dat illam negationem, sicut 
+      appa<lb ed="#L" break="no" n="113"/>ret de conceptu vnius, qui coincidit subiectiue 
+      <lb ed="#L" n="114"/>in omnem entitatem cuiuslibet rei propriam, 
+      <lb ed="#L" n="115"/>&amp; determinatam, quae tamen fundat 
+      indiuisio<lb ed="#L" break="no" n="116"/>nem, &amp; diuidit ab alio, sicut saepe dictum est; 
+      <lb ed="#L" n="117"/>sed negationes per incommunicabile, &amp; 
+      solita<lb ed="#L" break="no" n="118"/>rium importatae, quae non sunt aliud, nisi non esse 
+      <lb ed="#L" n="119"/>alterius modi partis integralis, vel partis mate 
+      <lb ed="#L" n="120"/>rialis, vel formalis, vel vniuersalis, aut modo 
+      <lb ed="#L" n="121"/>quolibet esse alterius fundantur super 
+      constitu<lb ed="#L" break="no" n="122"/>tum ex essentia, &amp; relatione, quasi super vnum 
+      <lb ed="#L" n="123"/>totum, &amp; non super solam essentiam, aut solam 
+      <lb ed="#L" n="124"/>relationem, cum quilibet sit alterius, scilicet 
+      <lb ed="#L" n="125"/>constituti. vnde constitutum est immediatum 
+      <lb ed="#L" n="126"/>fundamentum solitudinis, &amp; 
+      incommunicabi<lb ed="#L" break="no" n="127"/>litatis. ergo necesse est, quod ratio personae 
+      co<lb ed="#L" break="no" n="128"/>incidat in constitutum formaliter, &amp; in recto, in 
+      <lb ed="#L" n="129"/>relationem vero, &amp; essentiam indirecte. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2784">
+                  <lb ed="#L" n="130"/>Nec procedunt instantiae. Prima siquidem 
+      <lb ed="#L" n="131"/>non, quia habitus, qui per solitarium excludun 
+      <lb ed="#L" n="132"/>tur, vtpote esse partem integralem, vel sorma- 
+      <!--0572.xml-->
+      <pb ed="#L" n="572"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>lem, vel esse vniuersale vniuoce sunt, vt 
+      exclu<lb ed="#L" break="no" n="2"/>ditur a suppositis creatis, &amp; increatis, &amp; ideo 
+      <lb ed="#L" n="3"/>vnius rationis sunt negationes, quae per 
+      solita<lb ed="#L" break="no" n="4"/>rium importantur. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2808">
+                  <lb ed="#L" n="5"/>Non valet etiam secunda, quia licet 
+      intelle<lb ed="#L" break="no" n="6"/>ctualis natura in generali concepta sit de 
+      intel<lb ed="#L" break="no" n="7"/>lectu personae, non quidem formaliter, sed quasi 
+      <lb ed="#L" n="8"/>materialiter, sicut de intellectu simitatis est 
+      na<lb ed="#L" break="no" n="9"/>sus. significat enim persona ens solitarium, &amp; 
+      <lb ed="#L" n="10"/>per se in intellectuali natura, sicut simitas 
+      con<lb ed="#L" break="no" n="11"/>cauitatem in naso. vnde &amp; consuetum est dici, 
+      <lb ed="#L" n="12"/>quod persona est subsistens in natura rationali, 
+      <lb ed="#L" n="13"/>nihilominus diuina essentia est id, in quod 
+      ra<lb ed="#L" break="no" n="14"/>tio personae coincidit in obliquo, inquantum 
+      <lb ed="#L" n="15"/>vna cum relatione fundat personalitatem, 
+      soli<lb ed="#L" break="no" n="16"/>tudinem, &amp; incommunicabilitatem. quamuis 
+      <lb ed="#L" n="17"/>enim intellectu natura sit de communitate 
+      per<lb ed="#L" break="no" n="18"/>sonae per modum materiae, in qua reperitur ens 
+      <lb ed="#L" n="19"/>solitarium, non tamen per modum fundantis 
+      <lb ed="#L" n="20"/>solitudinem, immo hoc accidit. dato enim, quod 
+      <lb ed="#L" n="21"/>aliud solitudinem fundaret, adhuc includeretur 
+      <lb ed="#L" n="22"/>natura intellectualis per modum qualificantis, 
+      <lb ed="#L" n="23"/>&amp; indeterminantis rationem suppositi, 
+      secun<lb ed="#L" break="no" n="24"/>dum modum, quo nasus caracterizat, &amp; 
+      qua<lb ed="#L" break="no" n="25"/>lificat concauitatem, vt ex hoc simitas 
+      ap<lb ed="#L" break="no" n="26"/>pelletur. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2858">
+                  <lb ed="#L" n="27"/>Non valet etiam tertia. falsum enim 
+      assumi<lb ed="#L" break="no" n="28"/>tur, cum dictum sit saepe, quod perscitatem, &amp; 
+      <lb ed="#L" n="29"/>vnitatem, ac solitudinem non fundat relatio 
+      <lb ed="#L" n="30"/>praecise, sed nec essentia, sed ambo fundant 
+      pe<lb ed="#L" break="no" n="31"/>nitus eandem indistinctionem, &amp; omnimodam 
+      <lb ed="#L" n="32"/>vnitatem. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2875">
+                  <lb ed="#L" n="33"/>Non valet etiam quarta, quoniam 
+      constitu<lb ed="#L" break="no" n="34"/>tum ex essentia, &amp; relatione, tamquam ex 
+      ma<lb ed="#L" break="no" n="35"/>teria, &amp; ex actu, &amp; ex subiecto, &amp; inhaerente, vel 
+      <lb ed="#L" n="36"/>ex substrato, &amp; forma existente eo modo, quo pa 
+      <lb ed="#L" n="37"/>ter in creaturis constituitur ex sorte, &amp; 
+      pater<lb ed="#L" break="no" n="38"/>nitate, tale siquidem constitutum in esse 
+      resul<lb ed="#L" break="no" n="39"/>tante est formaliter relatiuum, cum non sit 
+      a<lb ed="#L" break="no" n="40"/>liud tale esse, quam relatio in subiecto 
+      partici<lb ed="#L" break="no" n="41"/>pata, constitutum vero ex ipsis per modum 
+      re<lb ed="#L" break="no" n="42"/>sultantis, eo modo, quo ex distinctis resultat 
+      v<lb ed="#L" break="no" n="43"/>num solitarium, &amp; distinctum non est 
+      formali<lb ed="#L" break="no" n="44"/>ter relatiuum, cum relatio non sit forma in 
+      il<lb ed="#L" break="no" n="45"/>lo, sed nec essentiale, sed vtrumque includens, 
+      <lb ed="#L" n="46"/>neutrum tamen per modum formalis, &amp; ita 
+      pa<lb ed="#L" break="no" n="47"/>ter, vt persona claudit quidem relationem, &amp; 
+      <lb ed="#L" n="48"/>essentiam, non tamen esse personam est esse 
+      for<lb ed="#L" break="no" n="49"/>maliter relatiuum, nec esse formaliter quid 
+      es<lb ed="#L" break="no" n="50"/>sentiale, sed esse quiddam solitarium, &amp; 
+      discre<lb ed="#L" break="no" n="51"/>tum, &amp; ens tertio modo. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2919">
+                  <lb ed="#L" n="52"/>Et si dicamus, quod esse patrem est esse 
+      rela<lb ed="#L" break="no" n="53"/>tum, dicendum, quod verum est in creaturis 
+      <lb ed="#L" n="54"/>quidem formaliter, in quibus non est aliud esse 
+      <lb ed="#L" n="55"/>patrem, quam participatio paternitatis, in Deo 
+      <lb ed="#L" n="56"/>vero esse partem est relatiuum non formaliter, sed 
+      <lb ed="#L" n="57"/>coinclusiue, inquantum non est subiectum aliquod 
+      <lb ed="#L" n="58"/>paternitatem participans, sed aliquid intrinsece 
+      <lb ed="#L" n="59"/>pate utnt fiutstens cost cstese nesus e 
+      autbou<lb ed="#L" break="no" n="60"/>iusdam solitarij per se stantis, &amp; 
+      se<lb ed="#L" break="no" n="61"/>cundum hoc esse relatum 
+      aequi<lb ed="#L" break="no" n="62"/>uoce dicitur de patre 
+      <lb ed="#L" n="63"/>creato, &amp; 
+      increa<lb ed="#L" break="no" n="64"/>to, vt 
+      pa<lb ed="#L" break="no" n="65"/>tet.
+    </p>
+               <p xml:id="ol96b1-183007-d1e2952">
+      <!--0572.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>Quod Aug. aliter accipiat personam, quam hodie 
+      re<lb ed="#L" break="no" n="67"/>cipiatur, &amp; quomodo respondet quaerenti de 
+      <lb ed="#L" n="68"/>persona, an significet substantiam, 
+      <lb ed="#L" n="69"/>vel relationem. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e2968">
+                  <lb ed="#L" n="70"/>TERTIA quoque propositio est, quod 
+      Do<lb ed="#L" break="no" n="71"/>ctores non distinxerunt a principio inter 
+      <lb ed="#L" n="72"/>rationem entis solitarij, seu perseitatis tertij 
+      <lb ed="#L" n="73"/>modi, &amp; rationem substantiae singularis proeo, 
+      <lb ed="#L" n="74"/>quod in creaturis nullum est ens solitarium, nisi 
+      <lb ed="#L" n="75"/>singulares, &amp; indiuiduae substantiae, &amp; ideo 
+      per<lb ed="#L" break="no" n="76"/>sona, &amp; hypostasis apud eos dicebatur secundum 
+      <lb ed="#L" n="77"/>substantiam, prout definit Boetius personam 
+      <lb ed="#L" n="78"/>esse indiuiduam substantiam, &amp; ad hoc accedens 
+      <lb ed="#L" n="79"/>August. 7. de Trinit. dicit, quod non est aliud 
+      es<lb ed="#L" break="no" n="80"/>se personam, quam esse substantiam; processu 
+      <lb ed="#L" n="81"/>vero temporis distinxerunt Doctores rationem 
+      <lb ed="#L" n="82"/>entis solitarij a ratione substantiae singularis cō 
+      <lb ed="#L" n="83"/>siderantes, quod non est impossibile 
+      manente<lb ed="#L" break="no" n="84"/>eadem substantia singulari plurificari rationem 
+      <lb ed="#L" n="85"/>solitarij, &amp; perseitatis, prout Riccardus 4 
+      de<lb ed="#L" break="no" n="86"/>Trin. dicit, quod audiens tres personas 
+      intelli<lb ed="#L" break="no" n="87"/>git tres aliquos discretos, &amp; distinctos per ses, 
+      <lb ed="#L" n="88"/>quorum quilibet sit intellectualis natura, sed 
+      <lb ed="#L" n="89"/>quae vna, vel plures ignorat, &amp; secundum hoc 
+      <lb ed="#L" n="90"/>in vsu modernorum doctorum persona 
+      nondi<lb ed="#L" break="no" n="91"/>citur secundum substantiam, nec est idem pati 
+      <lb ed="#L" n="92"/>personam esse, &amp; Deum esse, immo 
+      plurifica<lb ed="#L" break="no" n="93"/>tur ratio personalitatis manente identitate 
+      Dei<lb ed="#L" break="no" n="94"/>tate: primus autem, qui distinxit inter praedictas 
+      <lb ed="#L" n="95"/>rationes, &amp; qui per propriam 
+      fignificationem<lb ed="#L" break="no" n="96"/>personae, quae numero vtantur adinuenit, fuit 
+      <lb ed="#L" n="97"/>August. sicut patet de fide ad Petrum, vbi 
+      di<lb ed="#L" break="no" n="98"/>cit, quod alius est in persona, siue personaliter 
+      <lb ed="#L" n="99"/>pater, &amp; alius personaliter filius. 
+      quaerentier<lb ed="#L" break="no" n="100"/>go de nomine hypostasis, vel suppositi, vel 
+      subsi<lb ed="#L" break="no" n="101"/>stentiae, seu substantiae, prout nomen subsantiam 
+      <lb ed="#L" n="102"/>significat, quaerenti inquam, quid exprimant 
+      <lb ed="#L" n="103"/>nomina ista in communi, an scilicet substantiam, 
+      <lb ed="#L" n="104"/>seu relationem, responderi oportet, quod nec 
+      <lb ed="#L" n="105"/>istud, nec illud, cum conceptus solitarij 
+      abstra<lb ed="#L" break="no" n="106"/>hant ab vtroque. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3051">
+                  <lb ed="#L" n="107"/>Quaerenti vero, quid nomen personae 
+      expti<lb ed="#L" break="no" n="108"/>mat, similiter in communi responderi oportet, 
+      <lb ed="#L" n="109"/>quod nec substantiam, nec relationem 
+      forma<lb ed="#L" break="no" n="110"/>liter, &amp; in recto, sed illud idem, quod 
+      hyposta<lb ed="#L" break="no" n="111"/>sis, videlicet ens solitarium perse. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3064">
+                  <lb ed="#L" n="112"/>Tertio modo in obliquo tamen, &amp; quasi 
+      ma<lb ed="#L" break="no" n="113"/>terialiter exprimit intellectualem substantiam 
+      <lb ed="#L" n="114"/>quaecumque sit illa, cum persona non sit aliud, 
+      <lb ed="#L" n="115"/>quam ens solitarie in intellectuali natura. 
+      Quae<lb ed="#L" break="no" n="116"/>renti vero in speciali de persona diuina, quid 
+      <lb ed="#L" n="117"/>exprimat, an scilicet relationem, vel 
+      substan<lb ed="#L" break="no" n="118"/>tiam, responderi oportet, quod neutrum 
+      for<lb ed="#L" break="no" n="119"/>maliter, &amp; in recto, sed illud idem, quod 
+      perso<lb ed="#L" break="no" n="120"/>na in generali, videlicet existens solitarie, &amp; per 
+      <lb ed="#L" n="121"/>se materialiter, cum &amp; oblique specificat 
+      intelle<lb ed="#L" break="no" n="122"/>ctualem naturam, quam persona dicit in 
+      gene<lb ed="#L" break="no" n="123"/>rali, vnde diuina persona non est aliud, 
+      quam<lb ed="#L" break="no" n="124"/>existens solitarie, &amp; distincte solitudine terti 
+      <lb ed="#L" n="125"/>modi in natura diuina, nec potest aliqua ratio 
+      <lb ed="#L" n="126"/>communis, quae impotetur in recto per diuiui 
+      <lb ed="#L" n="127"/>personam abstra hi a tribus, sicut imaginati sunt 
+      <lb ed="#L" n="128"/>aliqui, quia nihil est eis commune, nisi ens 
+      so<lb ed="#L" break="no" n="129"/>litarium, vel ens incommunicabile, siue res per 
+      <lb ed="#L" n="130"/>se tertio modo, &amp; ideo non inuenitur dictumai 
+      <lb ed="#L" n="131"/>cubi, quod sint tres in aliquo alio, nisimiu 
+      <!--0573.xml-->
+      <pb ed="#L" n="573"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vel re, quemadmodum dicit Augustinus, quod 
+      <lb ed="#L" n="2"/>sunt tres res, vel tres entes, nec a constitutiuis 
+      <lb ed="#L" n="3"/>proprietatibus potest abstrahi communis alius 
+      <lb ed="#L" n="4"/>conceptus a conceptu entis, &amp; rei, vt supra 
+      di<lb ed="#L" break="no" n="5"/>ctum est dist. 19. dum inquireretur de totalitate 
+      <lb ed="#L" n="6"/>vniuersali, an reperibilis sit in Deo. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3130">
+                  <lb ed="#L" n="7"/>Deinde <sic>quuaerenti</sic>, an significant personae, 
+      tri<lb ed="#L" break="no" n="8"/>pliciter responderi oportet, quod sic, cum 
+      ra<lb ed="#L" break="no" n="9"/>tio entis solitar ij, &amp; perseitatis tertij modi 
+      ve<lb ed="#L" break="no" n="10"/>re plurificetur, nec tamen propter hoc persona 
+      <lb ed="#L" n="11"/>est aliquid vniuersale, nec genus, nec species, 
+      si<lb ed="#L" break="no" n="12"/>cut nec ens, quamuis commune sit. &amp; in hoc ar 
+      <lb ed="#L" n="13"/>ticulus tertius terminetur. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3150">
+                  <lb ed="#L" n="14"/>Responsio ad obiecta. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3155">
+                  <lb ed="#L" n="15"/>AD ea vero, quae superius inducuntur, dicen 
+      <lb ed="#L" n="16"/>dum est. Ad primum quidem, quod 
+      ra<lb ed="#L" break="no" n="17"/>tio personalitatis, licet communis sit tribus 
+      per<lb ed="#L" break="no" n="18"/>sonis, &amp; plurisicata in eis, non est tamen genus, 
+      <lb ed="#L" n="19"/>aut species propter rationem iam tactam. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3168">
+                  <lb ed="#L" n="20"/>Ad secundum dicendum, quod ratio 
+      perso<lb ed="#L" break="no" n="21"/>sonae non dicit essentiam, nec relationem, nec 
+      <lb ed="#L" n="22"/>vtrumque de suo communi significato explicito, 
+      <lb ed="#L" n="23"/>cum significet ens per se solitarium, &amp; discretum; 
+      <lb ed="#L" n="24"/>ens autem nullam rationem explicite significet, 
+      <lb ed="#L" n="25"/>vt superius dicebatur, nihilominus coincidit in 
+      <lb ed="#L" n="26"/>constitutum ex essentia, &amp; relatione, dum 
+      coa<lb ed="#L" break="no" n="27"/>ptatur ad diuina, &amp; quia constituti ex essentia, 
+      <lb ed="#L" n="28"/>&amp; relatione sunt tres, necesse est, quod ratio en 
+      <lb ed="#L" n="29"/>tis solitarij triplicetur. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3192">
+                  <lb ed="#L" n="30"/>Ad tertium dicendum, quod communitas 
+      <lb ed="#L" n="31"/>personae non est secundum rem, sed tantum 
+      se<lb ed="#L" break="no" n="32"/>cundum rationem, nec tamen est communitas. 
+      <lb ed="#L" n="33"/>secundae intentionis, vt superius dicebatur, &amp; 
+      <lb ed="#L" n="34"/>quod Damascenus dicit, communitatem in 
+      di<lb ed="#L" break="no" n="35"/>uinis attendi secundum rem, loquitur de 
+      com<lb ed="#L" break="no" n="36"/>munitate essentiae, non de omni alia 
+      commu<lb ed="#L" break="no" n="37"/>nitate. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3212">
+                  <lb ed="#L" n="38"/>Ad quartum dicendum, quod idem 
+      supposi<lb ed="#L" break="no" n="39"/>tum contineri sub duabus quidditatiuis 
+      ratio<lb ed="#L" break="no" n="40"/>nibus determinatis, &amp; dispositis, impossibile est; 
+      <lb ed="#L" n="41"/>sed sub duabus, quarum vna determinata est; 
+      a<lb ed="#L" break="no" n="42"/>lia vero conceptus indeterminatus, vtpote 
+      en<lb ed="#L" break="no" n="43"/>tis solitarij, vel huiusmodi, possibile. vnde 
+      inter<lb ed="#L" break="no" n="44"/>roganti, quid est sortes, responderi potest, quod 
+      <lb ed="#L" n="45"/>est persona, ens solitarium, &amp; quod est 
+      indiui<lb ed="#L" break="no" n="46"/>duum, quia ens singulare, &amp; similiter, quod est 
+      <lb ed="#L" n="47"/>homo, a simili in proposito interroganti, quid 
+      <lb ed="#L" n="48"/>est pater, potest responderi, quod est Deus, &amp; 
+      <lb ed="#L" n="49"/>quod est persona, quia ens de omnibus 
+      quiddi<lb ed="#L" break="no" n="50"/>tatiue praedicetur. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3244">
+                  <lb ed="#L" n="51"/>Ad quintum dicendum, quod ratio personae 
+      <lb ed="#L" n="52"/>communis est Deo, &amp; creaturae, vniuoce quidem, 
+      <lb ed="#L" n="53"/>quoad negationes incommunicabilitatis, &amp; 
+      so<lb ed="#L" break="no" n="54"/>litudinis, quas significat concretiue; 
+      analogi<lb ed="#L" break="no" n="55"/>ce vero quoad conceptum entis, quem exprimit 
+      <lb ed="#L" n="56"/>substantiue. vnde non est maior difficultas 
+      de<lb ed="#L" break="no" n="57"/>persona, quam de ente, de quo superius 
+      di<lb ed="#L" break="no" n="58"/>ctum fuit.
+    </p>
+               <p xml:id="ol96b1-183007-d1e3264">
+                  <lb ed="#L" n="59"/>Ad sextum dicendum, quod conceptus entis 
+      <lb ed="#L" n="60"/>potest abstrahi ab vltimis distinctis, &amp; a 
+      diffe<lb ed="#L" break="no" n="61"/>rentiis quibuscumque, vt visum fuit supra, 
+      quam<lb ed="#L" break="no" n="62"/>uis nulla determinata ratio abstrahipossit a sup 
+      <lb ed="#L" n="63"/>positis diuinis.
+    </p>
+               <p xml:id="ol96b1-183007-d1e3277">
+                  <lb ed="#L" n="64"/>Ad septimum dicendum, quod significatum 
+      <lb ed="#L" n="65"/>personae praedicatur de tribus in diuinis, nec ta- 
+      <!--0573.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>men est genus, aut species, aut aliquod de 
+      quin<lb ed="#L" break="no" n="67"/>que praedicabilibus, sicut de ente dicum est 
+      su<lb ed="#L" break="no" n="68"/>pra, cum persona nihil addat ad ens, nisi 
+      persei<lb ed="#L" break="no" n="69"/>tatem tertij modi, quantum ad hoc, quod 
+      for<lb ed="#L" break="no" n="70"/>maliter dicit, licet materialiter denotet 
+      intel<lb ed="#L" break="no" n="71"/>lectualem naturam. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3301">
+                  <lb ed="#L" n="72"/>Ad octauum dicendum, quod persona a 
+      prin<lb ed="#L" break="no" n="73"/>cipio significabat substantiam, seu essentiam 
+      di<lb ed="#L" break="no" n="74"/>uinam, antequam distinxissent Doctores inter 
+      <lb ed="#L" n="75"/>rationem per se entis, &amp; substantiae singularis; 
+      <lb ed="#L" n="76"/>postquam vero inter haec distinxerunt, imposue 
+      <lb ed="#L" n="77"/>runt nomen personae enti solitario, &amp; per se, &amp; 
+      <lb ed="#L" n="78"/>incommunicabili, &amp; ideo non significauit ex 
+      <lb ed="#L" n="79"/>tunc essentiam diuinam. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3321">
+                  <lb ed="#L" n="80"/>Et si dicatur, quod August. distinxit omne no 
+      <lb ed="#L" n="81"/>men diuinum in significans substantiam, &amp; rela 
+      <lb ed="#L" n="82"/>tionem, dicendum, quod persona non significat 
+      <lb ed="#L" n="83"/>essentiam diuinam, sed nec relationem; sed ens 
+      <lb ed="#L" n="84"/>solitarium, quod abstrahit ab vtroque, &amp; 
+      coin<lb ed="#L" break="no" n="85"/>cidit in constitutum ex essentia, &amp; relatione. vn 
+      <lb ed="#L" n="86"/>de quantum ad suum significatum non est relati 
+      <lb ed="#L" n="87"/>uum, nec essentiale, sed aliquid commune; quan 
+      <lb ed="#L" n="88"/>tum vero ad id, per quod significatum 
+      explica<lb ed="#L" break="no" n="89"/>tur potest dici nec essentiale, nec relatiuum 
+      prae<lb ed="#L" break="no" n="90"/>cise, sed vtrumque complectens in obliquo, 
+      in<lb ed="#L" break="no" n="91"/>quantum constitutum includit illa, quasi 
+      obli<lb ed="#L" break="no" n="92"/>que, &amp; per modum partis. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3352">
+                  <lb ed="#L" n="93"/>Ad nonum dicendum, quod nomen personae, 
+      <lb ed="#L" n="94"/>quantum ad significatum dicitur ad se, quia 
+      <lb ed="#L" n="95"/>conceptus entis solitarij, &amp; per se, est absolutus, 
+      <lb ed="#L" n="96"/>non relatiuus, quantum vero ad illud, per quod 
+      <lb ed="#L" n="97"/>explicatur, dicitur permixtus ex absoluto, &amp; 
+      <lb ed="#L" n="98"/>relatiuo, quia constitutum ex ipsis; tale autem 
+      <lb ed="#L" n="99"/>non est inconueniens de pure absoluto. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3371">
+                  <lb ed="#L" n="100"/>Et si dicatur, quod non potest haberi 
+      conce<lb ed="#L" break="no" n="101"/>ptus permixtus ex absoluto, &amp; relatiuo, 
+      dicen<lb ed="#L" break="no" n="102"/>dum, quod potest haberi tripliciter. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3380">
+                  <lb ed="#L" n="103"/>Primo quidem implicite, vt supra dictum est 
+      <lb ed="#L" n="104"/>de conceptu entis, in quo omnis ratio absoluta, 
+      <lb ed="#L" n="105"/>&amp; relatiua implicite continetur; nulla vero 
+      ex<lb ed="#L" break="no" n="106"/>plicite, vel in actu. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3391">
+                  <lb ed="#L" n="107"/>Secundo vero potest haberi conceptus permi 
+      <lb ed="#L" n="108"/>xtus ex absoluto, &amp; relatione explicite in 
+      oppo<lb ed="#L" break="no" n="109"/>sito relatiuo, &amp; talis conceptus est per accidens 
+      <lb ed="#L" n="110"/>vnus, quoniam includit absolutum, tamquam 
+      <lb ed="#L" n="111"/>fundamentum, &amp; habens propriam vnitatem, 
+      <lb ed="#L" n="112"/>extra quam est relatio; ipsam vero relationem 
+      <lb ed="#L" n="113"/>claudit, tamquam formam inhaerentem. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3409">
+                  <lb ed="#L" n="114"/>Tertio quoque potest conceptus mixtus ex 
+      <lb ed="#L" n="115"/>relatione, &amp; absoluto haberi, quod sit vnus per 
+      <lb ed="#L" n="116"/>se, &amp; hoc est, dum nec absolntum, nec relatio ha 
+      <lb ed="#L" n="117"/>bent proprias vnitates, sed ambo concurrunt ad 
+      <lb ed="#L" n="118"/>vnitatem eandem, fundando indistinctionem 
+      om<lb ed="#L" break="no" n="119"/>nimodam, quia secundum hoc intellectus 
+      rela<lb ed="#L" break="no" n="120"/>tionem, &amp; absolutum claudit in vno conceptu 
+      <lb ed="#L" n="121"/>indiuisibili, &amp; per se vno. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3429">
+                  <lb ed="#L" n="122"/>Ad decimum dicendum, quod nomen 
+      perso<lb ed="#L" break="no" n="123"/>nae auctoritate generalis concilij est inductum, 
+      <lb ed="#L" n="124"/>quod pari reuerentia deber a nobis acceptari, 
+      <lb ed="#L" n="125"/>sicut &amp; Euangelium, aut reliqua scriptura secun 
+      <lb ed="#L" n="126"/>dum Sanctos. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3442">
+                  <lb ed="#L" n="127"/>Vel dicendum, quod Dionysius loquitur, non 
+      <lb ed="#L" n="128"/>quidem de nominibus, sed de sensibus, quia non 
+      <lb ed="#L" n="129"/>est praesumendum, vt aliquis assumatur de 
+      diui<lb ed="#L" break="no" n="130"/>nis praeter illa, quae in sacris eloquiis sunt nobis 
+      <lb ed="#L" n="131"/>tradita, sed quin ad illa possimus vocabula 
+      pro<lb ed="#L" break="no" n="132"/>pria adaptare, non est prohibitum. vnde licitum 
+      <!--0574.xml-->
+      <pb ed="#L" n="574"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>fuit, cum confiteamur secundum scripturam, 
+      <lb ed="#L" n="2"/>quod in diuinis sunt tres, inuenire aliquod 
+      no<lb ed="#L" break="no" n="3"/>men significans illum conceptum, quod 
+      tripli<lb ed="#L" break="no" n="4"/>catur, &amp; ad exprimendum illum inuentum est 
+      <lb ed="#L" n="5"/>nomen personae. 
+    </p>
+               <p xml:id="ol96b1-183007-d1e3476">
+                  <lb ed="#L" n="6"/>Ad vltimum dicendum, quod si persona 
+      signi<lb ed="#L" break="no" n="7"/>ficaret singularem substantiam, sicut a princi- 
+      <!--0574.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>pio, non triplicaretur in Deo proprie, sed 
+      per<lb ed="#L" break="no" n="9"/>missiue, in quo casu loquitur Augustinus, sed 
+      <lb ed="#L" n="10"/>quia in vsu moderno significat ens solitarium, 
+      <lb ed="#L" n="11"/>quod se habet in plus, quam substantia 
+      singula<lb ed="#L" break="no" n="12"/>ris, possibile est, quod manente eadem 
+      substan<lb ed="#L" break="no" n="13"/>tia plurificetur persona, vt dictum est saepe. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

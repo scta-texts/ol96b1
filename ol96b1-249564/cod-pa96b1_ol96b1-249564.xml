@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="769"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-249564"> <!-- l1d35p2-prae -->
+            <head xml:id="ol96b1-249564-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-249564-d1e104">
+               <lb ed="#L" n="48"/>SECVNDA PARS.
+    </p>
+            <p xml:id="ol96b1-249564-d1e109">
+               <lb ed="#L" n="49"/>Quod scientia Dei non tantum est 
+      detem<lb ed="#L" break="no" n="50"/>poralibus, sed etiam de aeternis. 
+    </p>
+            <p xml:id="ol96b1-249564-d1e116">
+               <lb ed="#L" n="51"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-249564-d1e122">
+               <lb ed="#L" n="52"/>SCIENTIA vero, vel sapientia, 
+      <lb ed="#L" n="53"/>&amp;c. Postquam magister 
+      enun<lb ed="#L" break="no" n="54"/>ciauit nomina, quibus vnica 
+      <lb ed="#L" n="55"/>Dei sapientia diuersimode 
+      ap<lb ed="#L" break="no" n="56"/>pellatur; hic exequitur in 
+      spe<lb ed="#L" break="no" n="57"/>ciali de nominibus illis. Et cir 
+      <lb ed="#L" n="58"/>ca hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-249564-d1e140">
+               <lb ed="#L" n="59"/>Primo namque agit de nomine scientiae, vel 
+      <lb ed="#L" n="60"/>sapientiae. 
+    </p>
+            <p xml:id="ol96b1-249564-d1e147">
+               <lb ed="#L" n="61"/>Secundo vero de nomine praescientiae. 
+      <lb ed="#L" n="62"/>Tertio autem de nomine praedestinationis, 
+      <!--0769.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>seu dispositionis. secunda ibi distinct. 38. Nunc 
+      <lb ed="#L" n="64"/>ergo ad propositum. tertia ibi distinct. 40. 
+      Praede<lb ed="#L" break="no" n="65"/>stinatio vero. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-249564-d1e165">
+               <lb ed="#L" n="66"/>Primo enim agit de scientia, vel sapientia 
+      <lb ed="#L" n="67"/>Dei. Secundo incidenter quaedam inquirit. 
+      se<lb ed="#L" break="no" n="68"/>cunda ibi dist. 36. Solet hic quaeri. Adhuc circa pri 
+      <lb ed="#L" n="69"/>mum duo facit. Primo enim de scientia, vel 
+      sa<lb ed="#L" break="no" n="70"/>pientia agit ostendendo, respectu quorum sit. 
+    </p>
+            <p xml:id="ol96b1-249564-d1e178">
+               <lb ed="#L" n="71"/>Secundo vero correlatiua duo concludit. 
+      se<lb ed="#L" break="no" n="72"/>cunda ibi capitulo sequenti: Propterea omnia. 
+      <lb ed="#L" n="73"/>Dicit itaque primo, quod Dei scientia, &amp; 
+      sa<lb ed="#L" break="no" n="74"/>pientia non tantum ad temporalia se extendit, 
+      <lb ed="#L" n="75"/>quinimmo ad aeterna, vnde sciuit Deus ab 
+      aeter<lb ed="#L" break="no" n="76"/>no esse aeternum, &amp; omne, quod futurum erat, 
+      <lb ed="#L" n="77"/>&amp; sciuit non minus praeterita, quam futura, ita 
+      <lb ed="#L" n="78"/>quod omnis ratio supernae, terrenaeque 
+      sapien<lb ed="#L" break="no" n="79"/>tiae in eo est, &amp; breuiter, immensa sua 
+      scien<lb ed="#L" break="no" n="80"/>tia scit ipse omnia, quae sciuntur. haec est 
+      sen<lb ed="#L" break="no" n="81"/>tentia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

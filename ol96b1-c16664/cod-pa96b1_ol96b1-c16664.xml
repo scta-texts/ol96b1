@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="52"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c16664"> <!-- l1prolp5-prae -->
+            <head xml:id="ol96b1-c16664-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c16664-d1e104">
+               <lb ed="#L" n="116"/>Vt autem ei, quod quaeritur facilius occurratur, &amp; c. 
+      <lb ed="#L" n="117"/>Postquam magister aperuit libri auctoritatem, 
+      <lb ed="#L" n="118"/>libri vtilitatem, suam humilitatem; hic aperit 
+      <lb ed="#L" n="119"/>suam diligentiam, &amp; sedulitatem magnam, quod 
+      <lb ed="#L" n="120"/>quidem ostendit praeordinando titulos 
+      capitulo<lb ed="#L" break="no" n="121"/>ter quidem est vnus habitus, per connexionem 
+      <lb ed="#L" n="122"/>vero est plures. 
+      <!--0053.xml-->
+      <pb ed="#L" n="53"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rum omnium primi libri. Et circa hoc duo 
+      <lb ed="#L" n="2"/>facit. 
+    </p>
+            <p xml:id="ol96b1-c16664-d1e133">
+               <lb ed="#L" n="3"/>Primo enim aperit propositum in generali, &amp; 
+      <lb ed="#L" n="4"/>secundo ibi: Omnis doctrina, illud exequitur in 
+      <lb ed="#L" n="5"/>speciali. Dicit ergo primo, quod ipse tantam 
+      <lb ed="#L" n="6"/>sedulitatem, &amp; diligentiam adhibuit ad hoc 
+      o<lb ed="#L" break="no" n="7"/>pus, quod titulos praemisit, quibus singulorum
+      <!-- missing line break -->librorum capitula distinguuntur, vt quod 
+      quae<lb ed="#L" break="no" n="8"/>ritur facilius valeat adinueniri. Deinde ibi, 
+      om<lb ed="#L" break="no" n="9"/>nis doctrina. exequitur in speciali, assignando 
+      ti<lb ed="#L" break="no" n="10"/>titulos omnibus capitulis primi libri, &amp; 
+      assi<lb ed="#L" break="no" n="11"/>gnat ducentos, &amp; nouem titulos, iuxta 
+      nu<lb ed="#L" break="no" n="12"/>merum capitulorum, qui in primo libro 
+      con<lb ed="#L" break="no" n="13"/>tinentur: vbi vero quilibet titulus incipit, 
+      sa<lb ed="#L" break="no" n="14"/>tis patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

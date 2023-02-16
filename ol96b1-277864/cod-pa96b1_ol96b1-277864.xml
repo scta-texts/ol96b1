@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="857"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-277864"> <!-- l1d37p1-q1 -->
+            <head xml:id="ol96b1-277864-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-277864-Hd1e104" type="question-title">
+        Utrum Deus sit ubique per essentiam, praesentiam, et potentiam. 
+      </head>
+            <p xml:id="ol96b1-277864-d1e107">
+               <lb ed="#L" n="25"/>Vtrum Deus sit vbique per essentiam, praesentiam, 
+      <lb ed="#L" n="26"/>&amp; potentiam. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e114">
+               <lb ed="#L" n="27"/>ET quia Magister determinat in hoc loco, 
+      <lb ed="#L" n="28"/>Lquomodo Deus est in rebus; idcirco 
+      inqui<lb ed="#L" break="no" n="29"/>rendum occurrit, vtrum Deus sit vbique per es 
+      <lb ed="#L" n="30"/>sentiam, praesentiam, &amp; potentiam. Et videtur, 
+      <lb ed="#L" n="31"/>quod non; quia in modis essendi non est 
+      recipro<lb ed="#L" break="no" n="32"/>catio. dicit enim Philosophus, 4. Physic. quod si 
+      <lb ed="#L" n="33"/>vinum est in am phora, non potest poni recipro 
+      <lb ed="#L" n="34"/>ce, quod amphora sit in vno; sed omnia sunt in 
+      <lb ed="#L" n="35"/>Deo iuxta illud Apostoli Act. 17. In illo 
+      viui<lb ed="#L" break="no" n="36"/>mus, mouemur, &amp; sumus. &amp; Beda super Lucam 
+      <lb ed="#L" n="37"/>dicit, quod angelus vbicumque moueatur, intra 
+      <lb ed="#L" n="38"/>Deum erit. ergo dici non potest e conuerso, 
+      <lb ed="#L" n="39"/>quod Deus sit in omnibus rebus. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e146">
+               <lb ed="#L" n="40"/>Praeterea: Opposita non possunt inesse eidem, 
+      <lb ed="#L" n="41"/>sed Deus est extra omnia, &amp; supra omnia, secun 
+      <lb ed="#L" n="42"/>dum illud Psal. Excelsus super omnes gentes 
+      Domi<lb ed="#L" break="no" n="43"/>nus: &amp; septima propositione de maximis 
+      Theo<lb ed="#L" break="no" n="44"/>logiae dicitur, quod Deus est sphaera, cuius 
+      cen<lb ed="#L" break="no" n="45"/>trum est vbique, circumferentia nusquam. 
+      con<lb ed="#L" break="no" n="46"/>stat autem, quod circumferentia Dei Deus est. 
+      <lb ed="#L" n="47"/>ergo Deus nusquam est, &amp; per consequens non 
+      <lb ed="#L" n="48"/>erit vbique. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e168">
+               <lb ed="#L" n="49"/>Praeterea: Ita abstrahit Deus a loco, sicut a 
+      <lb ed="#L" n="50"/>tempore; sed declaratum est supra per Auctorem 
+      <lb ed="#L" n="51"/>de causis, quod Deus non est in tempore, sed su 
+      <lb ed="#L" n="52"/>pra tempus: ergo non erit in loco, sed supra locum. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e179">
+               <lb ed="#L" n="53"/>Praeterea: Ansel. dicit, quod si vsus loquendi 
+      ad<lb ed="#L" break="no" n="54"/>mitteret, conuenientius diceretur Deus esse cum 
+      <lb ed="#L" n="55"/>loco, vel tempore, quam in loco, vel tempore; &amp; 
+      <lb ed="#L" n="56"/>subdit: In nullo itaque loco, vel tempore proprie 
+      <lb ed="#L" n="57"/>dicitur Deus esse, sed haec non essent vera, si 
+      <lb ed="#L" n="58"/>Deus esset vbique. ergo id poni non potest. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e195">
+               <lb ed="#L" n="59"/>Praeterea: Quod non est alicubi, non est 
+      vbi<lb ed="#L" break="no" n="60"/>que, sed Aug. dicit 8 3. quaestionum, quod Deus 
+      <lb ed="#L" n="61"/>non alicubi est, in illo sunt potius omnia, quam 
+      <lb ed="#L" n="62"/>ipse alicubi sit, &amp; subdit, quod Deus locus non 
+      <lb ed="#L" n="63"/>est, nec in loco. est ergo id, quod prius. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e208">
+               <lb ed="#L" n="64"/>Praeterea: Nullum praedicamentum est in Deo 
+      <lb ed="#L" n="65"/>praeter substantiam, &amp; relationem, secundum Boet. 
+      <!--0857.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>1. de Trin. sed esse vbique non praedicat substan 
+      <lb ed="#L" n="67"/>tiam, nec relationem, sed magis de praedicamento 
+      <lb ed="#L" n="68"/>vbi; respondetur enim ad interrogationem 
+      fa<lb ed="#L" break="no" n="69"/>ctam per vbi, quod est hic, vel ibi, vel forte 
+      vbi<lb ed="#L" break="no" n="70"/>que: ergo esse vbique non praedicatur de Deo. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e230">
+               <lb ed="#L" n="71"/>Praeterea: Deus est abstractior omni 
+      creatu<lb ed="#L" break="no" n="72"/>ra, sed aliquae sunt creaturae, abstrahentes simpli 
+      <lb ed="#L" n="73"/>citer a loco, vtpote vnitas, vel nunc; abstrahit 
+      <lb ed="#L" n="74"/>enim vnitas a positione, &amp; fitu, vt patet primo 
+      <lb ed="#L" n="75"/>post. nunc etiam non est alicubi, nec vltra mare, 
+      <lb ed="#L" n="76"/>nec citra; quia nullam habet comparationem, 
+      <lb ed="#L" n="77"/>aut habitudinem ad situm. ergo poni non potest, 
+      <lb ed="#L" n="78"/>quod Deus sit in loco, &amp; per consequens nec vbique. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e251">
+               <lb ed="#L" n="79"/>Praeterea: Non est ponendum in Deo, quod 
+      indu<lb ed="#L" break="no" n="80"/>ceret mutationem in eo; vel per se, vel per acci 
+      <lb ed="#L" n="81"/>dens, quia 12. Met. &amp; 8. Physic. dicitur, quod in 
+      pri<lb ed="#L" break="no" n="82"/>mo motore non cadit mutatio, nec per se, nec 
+      <lb ed="#L" n="83"/>per accidens, sed si esset vbique, necessario 
+      con<lb ed="#L" break="no" n="84"/>sequeretur eum mutatio, quia creato lapide, inci 
+      <lb ed="#L" n="85"/>peret esse in eo, &amp; a non esse in lapide, mutatus 
+      <lb ed="#L" n="86"/>esset ad esse in lapide, cum non sit transitus a 
+      <lb ed="#L" n="87"/>contradictorio in contradictorium sine mutatio 
+      <lb ed="#L" n="88"/>ne facta in eo, quod transit, vel per se, vel saltem 
+      <lb ed="#L" n="89"/>per accidens: ergo dici non potest, quod Deus 
+      <lb ed="#L" n="90"/>sit vbique. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e280">
+               <lb ed="#L" n="91"/>Praeterea: Deus est causa extrinseca rerum; 
+      <lb ed="#L" n="92"/>quia efficiens, &amp; finis: non est enim materia, vel 
+      <lb ed="#L" n="93"/>forma, quae sunt causae intra rem existentes. sed 
+      <lb ed="#L" n="94"/>constat, quod Deus non est in rebus, nisi inquan 
+      <lb ed="#L" n="95"/>tum causa earum; ergo non potest dici, quod sit 
+      <lb ed="#L" n="96"/>proprie in omnibus rebus, cum sit causa extrin 
+      <lb ed="#L" n="97"/>seca omnium rerum. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e298">
+               <lb ed="#L" n="98"/>Praeterea: Damas. lib. 1. dicit, quod Deus 
+      imma<lb ed="#L" break="no" n="99"/>terialis existens, in loco non est, ipse enim sui ip 
+      <lb ed="#L" n="100"/>sius locus est, &amp; super vniuersa existens continet 
+      <lb ed="#L" n="101"/>omnia. sed haec vera non essent, si Deus esset 
+      ali<lb ed="#L" break="no" n="102"/>cubi, vel vbique. ergo id, quod prius. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e311">
+               <lb ed="#L" n="103"/>Quod Deus sit vbique per essentiam, praesentiam, 
+      <lb ed="#L" n="104"/>&amp; potentiam. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e318">
+               <lb ed="#L" n="105"/>SED in oppositum videtur, quod Deus sit 
+      vbi<lb ed="#L" break="no" n="106"/>Dque per illud Greg. super cant. dicentis, quod 
+      li<lb ed="#L" break="no" n="107"/>cet Deus communi modo omnibus rebus insit 
+      <lb ed="#L" n="108"/>praesentia, potentia, &amp; substātantia, tamen familiari 
+      <lb ed="#L" n="109"/>modo dicitur esse per gratiam in sanctis; &amp; Aug. 
+      <lb ed="#L" n="110"/>ait in lib. de praesentia Dei, quod cum Deus sit 
+      na<lb ed="#L" break="no" n="111"/>tura incorporea, totus adest omnibus rebus, &amp; 
+      <lb ed="#L" n="112"/>singulis totus, &amp; similiter Hilar. s. de Trinit. quod 
+      <lb ed="#L" n="113"/>Deus immensae virtutis est, qui nusquam non 
+      ad<lb ed="#L" break="no" n="114"/>sir, nec desit vsquam; sed haec vera non essent, 
+      ni<lb ed="#L" break="no" n="115"/>si Deus esset vbique, non solum per potentiam, 
+      <lb ed="#L" n="116"/>immo per essentiam, &amp; praesentiam. ergo est in 
+      <lb ed="#L" n="117"/>omnibus rebus, isto triplici modo. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e349">
+               <lb ed="#L" n="118"/>Praeterea: Illud, quod est medium sufficiens ad 
+      <lb ed="#L" n="119"/>probandum de aliquo, quod sit Deus, vere attribuen 
+      <lb ed="#L" n="120"/>dum est Deo, sed Ambros. in lib. de Spiritu 
+      san<lb ed="#L" break="no" n="121"/>cto probat Spiritum sanctum non esse 
+      creatu<lb ed="#L" break="no" n="122"/>ram quia vbique est: ergo esse vbique attribuen 
+      <lb ed="#L" n="123"/>dum est Deo. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e366">
+               <lb ed="#L" n="124"/>Praeterea: Omne, quod sonat quandam 
+      perfe<lb ed="#L" break="no" n="125"/>ctionem, &amp; infinitatem. poni debet in Deo. sed 
+      im<lb ed="#L" break="no" n="126"/>mensitas, per quam Deus in omnibus rebus est, vi 
+      <lb ed="#L" n="127"/>detur sonare quandam perfectionem, &amp; 
+      infini<lb ed="#L" break="no" n="128"/>tatem, iuxta illud Pet. 1 3. Caelum, &amp; terram ego 
+      <lb ed="#L" n="129"/>impleo: &amp; illud Sap. 8. Attingit a fine vsque ad fi 
+      <lb ed="#L" n="130"/>nem fortiter. ergo illud debet attribui Deo: 
+    </p>
+            <p xml:id="ol96b1-277864-d1e384">
+      <!--0858.xml-->
+               <pb ed="#L" n="858"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Responsio ad quaestionem. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e395">
+               <lb ed="#L" n="2"/>AD quaestionem istam respondendo, hoc 
+      or<lb ed="#L" break="no" n="3"/>dine procedetur.
+    </p>
+            <p xml:id="ol96b1-277864-d1e402">
+               <lb ed="#L" n="4"/>primo namque, inquiretur, quid importat 
+      <lb ed="#L" n="5"/>formaliter, Deum esse vbique. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e409">
+               <lb ed="#L" n="6"/>Secundo vero, an ex operatione, qua Deus 
+      <lb ed="#L" n="7"/>generaliter conseruat, &amp; manutenet creaturas, 
+      <lb ed="#L" n="8"/>probari possit demonstratiue. quod sit vbique. 
+    </p>
+            <p xml:id="ol96b1-277864-d1e418">
+               <lb ed="#L" n="9"/>Tertio quoque inquiretur distinctio 
+      modo<lb ed="#L" break="no" n="10"/>rum essendi per essentiam, potentiam, 
+      praesen<lb ed="#L" break="no" n="11"/>tiam, &amp; gratiam, qui communiter assignantur. 
+    </p>
+            <div xml:id="ol96b1-277864-Dd1e428">
+               <head xml:id="ol96b1-277864-Hd1e430">Articulus 1</head>
+               <p xml:id="ol96b1-277864-d1e432">
+                  <lb ed="#L" n="12"/>ARTJCVLVS PRJMVS.
+    </p>
+               <p xml:id="ol96b1-277864-d1e437">
+                  <lb ed="#L" n="13"/>Opin. S. Tho. 1. 2. q. 8.ar. 1. &amp; 2.
+    </p>
+               <p xml:id="ol96b1-277864-d1e442">
+                  <lb ed="#L" n="14"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="15"/>aliqui dicere voluerunt, ideo Deum esse in 
+      <lb ed="#L" n="16"/>rebus, quia virtus sua, &amp; potentia actualiter 
+      <lb ed="#L" n="17"/>attingit vique ad intima rei. agens adest, cum, 
+      <lb ed="#L" n="18"/>quid agit, se cundum quod 7. Physic. probatur, 
+      <lb ed="#L" n="19"/>quod mouens, &amp; motum oportet esse simul; Deus 
+      <lb ed="#L" n="20"/>autem, cum sit ipsum esse, oportet, quod esse cuiussi 
+      <lb ed="#L" n="21"/>bet creaturae sit primus, &amp; proprius effectus 
+      e<lb ed="#L" break="no" n="22"/>ius: esse autem est intimius omni quocumque alio, 
+      <lb ed="#L" n="23"/>&amp; per consequens Deus est intimus omni rei, 
+      <lb ed="#L" n="24"/>cum esse rei causet, &amp; continue conseruet. Vbi 
+      <lb ed="#L" n="25"/>considerandum, quod differenter agens 
+      corpo<lb ed="#L" break="no" n="26"/>reum attingit suum effectum ab agente 
+      incor<lb ed="#L" break="no" n="27"/>poreo, &amp; abstracto. agens namque corporeum 
+      <lb ed="#L" n="28"/>cum sit quantitatis termino circumscriptum, 
+      <lb ed="#L" n="29"/>non potest ibi esse, vbi est suus effectus; sed 
+      tan<lb ed="#L" break="no" n="30"/>tum est simul per contactum. vnde virtute sua 
+      <lb ed="#L" n="31"/>immutat corpus, quod immediate sibi 
+      coniun<lb ed="#L" break="no" n="32"/>gitur, quod etiam immutatum immutare aliud 
+      <lb ed="#L" n="33"/>potest, vsque ad terminum certum; agens vero 
+      <lb ed="#L" n="34"/>spirituale, &amp; abstractum a quantitate, &amp; situ, non 
+      <lb ed="#L" n="35"/>potest esse distinctum per locum, vel situm ab 
+      <lb ed="#L" n="36"/>eo, quod mouet; sed vbi est, quod mouetur, ibi 
+      <lb ed="#L" n="37"/>est iplum mouens; &amp; propter hoc anima est in 
+      <lb ed="#L" n="38"/>corpore, &amp; virtus mouens caelum in dextra par 
+      <lb ed="#L" n="39"/>te orbis secundum Philosophum 1. Physic. &amp; 2. 
+      <lb ed="#L" n="40"/>caeli &amp; mun. sic ergo Deus, cum sit agens 
+      abstra<lb ed="#L" break="no" n="41"/>ctissimum, in rebus erit per suam operationem, 
+      <lb ed="#L" n="42"/>qua continue attingit vsque ad intima rei esse 
+      <lb ed="#L" n="43"/>illius operando, &amp; conseruando; &amp; ita non est 
+      <lb ed="#L" n="44"/>aliud Deum esse vbique formaliter, quam 
+      <lb ed="#L" n="45"/>operari vbique. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e514">
+                  <lb ed="#L" n="46"/>Opinio Scoti 1, sent. dist. 37. q. vnica.
+    </p>
+               <p xml:id="ol96b1-277864-d1e520">
+                  <lb ed="#L" n="47"/>DIXERVNT vero alij, quod operatio Dei, 
+      <lb ed="#L" n="48"/>quae attingit continuae intima cuiussibet 
+      <lb ed="#L" n="49"/>creaturae, non sussicienter probat, quod Deus sit in 
+      <lb ed="#L" n="50"/>omnibus rebus, agens enim quanto perfectius, 
+      <lb ed="#L" n="51"/>tanto magis potest agere in aliud distans a for 
+      <lb ed="#L" n="52"/>ma, per quam agit; quod patet de sole, qui non 
+      <lb ed="#L" n="53"/>mediante radio, sed immediate per formam 
+      <lb ed="#L" n="54"/>suam producit formas substantiales in 
+      mate<lb ed="#L" break="no" n="55"/>rijs dispositis, per calorem mediantibus radijs 
+      <lb ed="#L" n="56"/>generatum. licet enim alteratio fiat radio 
+      me<lb ed="#L" break="no" n="57"/>diante, introductio tamen formae substantialis 
+      <lb ed="#L" n="58"/>sit immediate a forma solis, alioquin effectus es 
+      <!--0858.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="59"/>set nobilior sua causa. sed manifestum est, quod 
+      <lb ed="#L" n="60"/>Deus est agens perfectissimum; poterit ergo 
+      age<lb ed="#L" break="no" n="61"/>re distantem effectum: &amp; ita non probatur, quod 
+      <lb ed="#L" n="62"/>Deus sit in rebus, quamuis conseruando 
+      conti<lb ed="#L" break="no" n="63"/>nue operetur in eis. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e564">
+                  <lb ed="#L" n="64"/>Et si dicatur, quod radius immediate 
+      indu<lb ed="#L" break="no" n="65"/>cit formam substantialem, tamen in virtute so 
+      <lb ed="#L" n="66"/>lis, non valet quidem; quia vel virtus illa est 
+      ac<lb ed="#L" break="no" n="67"/>cidens, existens in radio: &amp; tunc ratio manet; 
+      <lb ed="#L" n="68"/>quia nec radius, nec illa virtus poterat 
+      induce<lb ed="#L" break="no" n="69"/>re formam substantialem, quae nobilior est illis; 
+      <lb ed="#L" n="70"/>vel virtus illa erit ipsamet forma solis, &amp; tunc 
+      <lb ed="#L" n="71"/>habetur intentum, quod operatur, vbi praesens 
+      <lb ed="#L" n="72"/>non est. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e586">
+                  <lb ed="#L" n="73"/>Praeterea: Quicquid perfectionis attribuitur 
+      <lb ed="#L" n="74"/>soli, multo fortius debet Deo attribui. sed attri 
+      <lb ed="#L" n="75"/>buitur soli operari, vbi non est, nec per se, nec 
+      <lb ed="#L" n="76"/>per aliquod medium, dicimus enim, quod 
+      ho<lb ed="#L" break="no" n="77"/>mo, &amp; sol generant hominem, &amp; tamen multi ge 
+      <lb ed="#L" n="78"/>nerantur, sole in alio hemisphaerio existente. 
+      si<lb ed="#L" break="no" n="79"/>militer etiam in visceribus terrae generantur 
+      <lb ed="#L" n="80"/>ferrum, &amp; aurum, &amp; alia mineralia, ad quae 
+      ra<lb ed="#L" break="no" n="81"/>dius solis non penetrat, nec etiam calor in 
+      su<lb ed="#L" break="no" n="82"/>perficie terrae ex reuerberatione radij 
+      genera<lb ed="#L" break="no" n="83"/>tus. talis enim calor non penetrat vsque ad 
+      tan<lb ed="#L" break="no" n="84"/>tam distantiam, in quanta reperi untur minera 
+      <lb ed="#L" n="85"/>lia; ergo &amp; Deus poterit operari, vbi non est. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e617">
+                  <lb ed="#L" n="86"/>Praeterea: Omnipotens suo velle causat 
+      quic<lb ed="#L" break="no" n="87"/>quid vult, sed ad hoc, quod velit, non oportet 
+      <lb ed="#L" n="88"/>ipsum esse coniunctum illi, quod vult. ergo illud 
+      <lb ed="#L" n="89"/>volitum erit causatum, &amp; productum 
+      absque<lb ed="#L" break="no" n="90"/>hoc, quod sit in eo omnipotens essentia, 
+      qua<lb ed="#L" break="no" n="91"/>lis est Deus. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e633">
+                  <lb ed="#L" n="92"/>Praeterea: Prius potest separari a posteriori: 
+      <lb ed="#L" n="93"/>sed praesentialitas per operationem, &amp; 
+      poten<lb ed="#L" break="no" n="94"/>tiam prior est coniunctione, seu 
+      praesentialita<lb ed="#L" break="no" n="95"/>te esentiae diuinae cum rebus; quod patet, tum 
+      <lb ed="#L" n="96"/>quia Deus extra mundum potest operari, &amp; 
+      ta<lb ed="#L" break="no" n="97"/>men extra mundum essentia non est: tum quia 
+      <lb ed="#L" n="98"/>creatura oportet ordine naturae, quod prior sit, 
+      <lb ed="#L" n="99"/>quam essentia diuina, sit sibi praesens. non est au 
+      <lb ed="#L" n="100"/>tem creatura in illo priori, nisi per operationem, 
+      <lb ed="#L" n="101"/>&amp; actionem diuinam, &amp; per consequens actio 
+      <lb ed="#L" n="102"/>praeced it praesentialitatem essentiae cum rebus. 
+      <lb ed="#L" n="103"/>ergo non oportet essentiam esse praesentem 
+      <lb ed="#L" n="104"/>quia intimae operatur. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e664">
+                  <lb ed="#L" n="105"/>Praeterea: Non est propter operationem 
+      at<lb ed="#L" break="no" n="106"/>tribuendum Deo id, quod Philosophi negarunt; 
+      <lb ed="#L" n="107"/>sed Philosophi posuerunt duas intelligentias 
+      <lb ed="#L" n="108"/>motrices cuiuslibet orbis, &amp; vnam quidem 
+      po<lb ed="#L" break="no" n="109"/>suerunt in determinata parte orbis, scilicet 
+      in<lb ed="#L" break="no" n="110"/>oriente, alteram vero, quae erat infinitae 
+      virtu<lb ed="#L" break="no" n="111"/>tis secundum eos; erat enim primum 
+      princi<lb ed="#L" break="no" n="112"/>pium, &amp; Deus, non posuerunt in aliquo loco, 
+      <lb ed="#L" n="113"/>vel situ. ergo non est verum, quod agens, uel 
+      <lb ed="#L" n="114"/>mouens sit de necessitate in moto. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e689">
+                  <lb ed="#L" n="115"/>Praeterea: Impossibile est intelligere 
+      transi<lb ed="#L" break="no" n="116"/>tum e contradictorio in contradictorium, nisi 
+      <lb ed="#L" n="117"/>facta mutatione circa aliquid. sed constat, quod 
+      <lb ed="#L" n="118"/>Deus intelligitur de non praesente fieri praesens 
+      <lb ed="#L" n="119"/>creaturae, quae de nouo fit. non est autem per 
+      <lb ed="#L" n="120"/>mutationem factam in se; sed potius propter 
+      <lb ed="#L" n="121"/>productionem creaturae. ergo productio 
+      crea<lb ed="#L" break="no" n="122"/>turae praeintelligitur praesentialitati essentiae di 
+      <lb ed="#L" n="123"/>uinae cum eadem creatura, &amp; per consequens 
+      <lb ed="#L" n="124"/>non est formalis ratio illius praesentialitatis. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e713">
+      <!--0859.xml-->
+                  <pb ed="#L" n="859"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Praeterea: Illa propositio septimo physi. quod 
+      <lb ed="#L" n="2"/>mouens, &amp; motum sunt simul, intelligitur in 
+      <lb ed="#L" n="3"/>corporibus, quae coniunguntur per contactum 
+      <lb ed="#L" n="4"/>qualitatum actiuarum, &amp; passiuarum. non 
+      e<lb ed="#L" break="no" n="5"/>nim oportet, quod vnum sit in alio per essentiam, 
+      <lb ed="#L" n="6"/>quamuis per qualitates se contingant: sed nos 
+      <lb ed="#L" n="7"/>hic loquimur de praesentialitate per essentiam; 
+      <lb ed="#L" n="8"/>inquirumus enim, quomodo Dei essentia est in 
+      <lb ed="#L" n="9"/>rebus. ideo auctoritas illa non est ad 
+      proposi<lb ed="#L" break="no" n="10"/>tum, nec probat intentum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e744">
+                  <lb ed="#L" n="11"/>Praeterea: Quod agens aliquod naturale non 
+      <lb ed="#L" n="12"/>possit agere in aliquod distans, nisi prius agat 
+      <lb ed="#L" n="13"/>in medium, potest esse ratio duplex. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e753">
+                  <lb ed="#L" n="14"/>Primo quidem ordo potentiarum, &amp; 
+      pro<lb ed="#L" break="no" n="15"/>pter hoc forma substantialis solis non potest im 
+      <lb ed="#L" n="16"/>mediate attingere ad formarum substantialium 
+      <lb ed="#L" n="17"/>introductionem, nisi prius lux solis alteret 
+      irra<lb ed="#L" break="no" n="18"/>diando, nec tamen forma substantlalis agit in 
+      <lb ed="#L" n="19"/>medium illa actione, qua agit in distans, vbi gene 
+      <lb ed="#L" n="20"/>rat mineralia, &amp; plantas; non tamen potest ibi 
+      <lb ed="#L" n="21"/>generare immediate, nisi prius radius 
+      diffunda<lb ed="#L" break="no" n="22"/>tur propter ordinem potentiarum, sicut nec vo 
+      <lb ed="#L" n="23"/>luntas potest exire in actum, nisi intellectus sit 
+      <lb ed="#L" n="24"/>prius in actu suo. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e779">
+                  <lb ed="#L" n="25"/>Secunda vero ratio potest esse imperfectio po 
+      <lb ed="#L" n="26"/>tentiae actiuae, que procedit de necessitate de 
+      <lb ed="#L" n="27"/>imperfecto ad perfectum, propter quod 
+      opor<lb ed="#L" break="no" n="28"/>tet, quod agens naturale prius agat in medium, 
+      <lb ed="#L" n="29"/>quam attingat passum, quod distat. si ergo 
+      tol<lb ed="#L" break="no" n="30"/>lantur haec duo, scilicet ordo, &amp; imperfectio ab 
+      <lb ed="#L" n="31"/>aliqua potentia, tunc non patet, quare non 
+      <lb ed="#L" n="32"/>possit agere, vbi praesentialiter non existit. sed 
+      <lb ed="#L" n="33"/>mani festum est, quod haec duo tolluntur ab 
+      om<lb ed="#L" break="no" n="34"/>nipotentia Dei. ergo potest agere Deus, vbi 
+      <lb ed="#L" n="35"/>praesentialiter non existit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e805">
+                  <lb ed="#L" n="36"/>Dixerunt ergo isti, quod licet Deus vbique 
+      <lb ed="#L" n="37"/>sit, &amp; vbiqne ipsius actio se extendat, non tamen 
+      <lb ed="#L" n="38"/>eius actio facit, quod per essentiam 
+      praesentia<lb ed="#L" break="no" n="39"/>liter iit vbique; est ergo non propter operationem 
+      <lb ed="#L" n="40"/>vbique, sed propter praesentiam suae essentiae ad 
+      <lb ed="#L" n="41"/>res omnes, &amp; quod huiusmodi praesentia aliud 
+      <lb ed="#L" n="42"/>est ab operatione, &amp; potest poni realis 
+      respe<lb ed="#L" break="no" n="43"/>ctus existens subiectiue in creatura, &amp; 
+      termina<lb ed="#L" break="no" n="44"/>tus ad diuinam essentiam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e828">
+                  <lb ed="#L" n="45"/>Opinio Riccardi in 1. Sent. dict. 37. q.3. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e833">
+                  <lb ed="#L" n="46"/>DIXERVNT quoque alij, quod Deus est 
+      v<lb ed="#L" break="no" n="47"/>bique, ratione immensitatis suae 
+      spiritua<lb ed="#L" break="no" n="48"/>lis positiuae. vbi considerandum est, quod 
+      qua<lb ed="#L" break="no" n="49"/>druplex est simplicitas puncti. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e844">
+                  <lb ed="#L" n="50"/>Prima quidem negatiua magnitudinis, 
+      qua<lb ed="#L" break="no" n="51"/>lis est simplicitas puncti, qui nec est extensus, 
+      <lb ed="#L" n="52"/>nec natus extendi. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e853">
+                  <lb ed="#L" n="53"/>Sec unda vero simplicitas priuatiua magnitu 
+      <lb ed="#L" n="54"/>dinis, qualis esset in substantia corporea, si per 
+      <lb ed="#L" n="55"/>diuinam potentiam foret a dimensionibus se 
+      <lb ed="#L" n="56"/>parata. tunc enim esset nata extendi, &amp; non 
+      <lb ed="#L" n="57"/>extensa. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e866">
+                  <lb ed="#L" n="58"/>Tertia vero est simplicitas positiua 
+      spiritua<lb ed="#L" break="no" n="59"/>lis magnitudinis. figurae tamen, &amp; talis est 
+      sim<lb ed="#L" break="no" n="60"/>plicitas angeli, &amp; animae. non enim debet 
+      con<lb ed="#L" break="no" n="61"/>cipi angelus, sicut punctus; sed cum quadam ma 
+      <lb ed="#L" n="62"/>gnitudine spirituali. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e879">
+                  <lb ed="#L" n="63"/>Quarta vero est simplicitas positiua spiritua 
+      <lb ed="#L" n="64"/>lis magnitudinis infinitae, &amp; talis est simplicitas 
+      <lb ed="#L" n="65"/>diuina, quae ponit immensitatem. secundum 
+      <!--0859.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>hoc ergo Deus ratione magnitudinis infinitae 
+      <lb ed="#L" n="67"/>spiritualis, quam habet, attingit omnem creatu 
+      <lb ed="#L" n="68"/>ram, &amp; est vbique. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e900">
+                  <lb ed="#L" n="69"/>Opinio Durandi 1. Sent. dist. 37. q. 2.
+    </p>
+               <p xml:id="ol96b1-277864-d1e905">
+                  <lb ed="#L" n="70"/>DIXERVNT autem alij, quod vltra illam 
+      <lb ed="#L" n="71"/>existentiam, qua Deus est in rebus per 
+      o<lb ed="#L" break="no" n="72"/>perationem, dicitur ibi esse per essentiam, &amp; 
+      <lb ed="#L" n="73"/>praesentiam; quia operatio facit realem exhibi 
+      <lb ed="#L" n="74"/>tionem, &amp; coexistentiam Dei ad creaturam 
+      <lb ed="#L" n="75"/>sicut figura sigilli non fit, neque 
+      conserua<lb ed="#L" break="no" n="76"/>tur in aqua, nisi ad realem coexistentiam Dei 
+      <lb ed="#L" n="77"/>cum creatura. haec autem coexistentia, vel 
+      prae<lb ed="#L" break="no" n="78"/>sentia litas non est situs, sed ordo; quia quod est 
+      <lb ed="#L" n="79"/>situs in corporibus, est ordo in spiritibus 
+      secun<lb ed="#L" break="no" n="80"/>dum Augustinum. iste ergo ordo Dei ad creatu 
+      <lb ed="#L" n="81"/>ram vocatur praesentialitas, secundum quam 
+      <lb ed="#L" n="82"/>Deus praesens est omni creaturae. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e936">
+                  <lb ed="#L" n="83"/>Opinio quorumdam aliorum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e941">
+                  <lb ed="#L" n="84"/>DIXERVNT deinde alij, quod locus 
+      pro<lb ed="#L" break="no" n="85"/>prie dictus, quatuor habet conditignes, 
+      ha<lb ed="#L" break="no" n="86"/>bet enim locatum circumscribere, comeruare, 
+      <lb ed="#L" n="87"/>definire, &amp; praesentialiter tenere; &amp; secundum 
+      <lb ed="#L" n="88"/>hoc inueniuntur aliqua quatuor esse in loce. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e954">
+                  <lb ed="#L" n="89"/>Primo quidem naturalia corporalia 
+      secun<lb ed="#L" break="no" n="90"/>dum omnes istas quatuor conditiones. nam &amp; 
+      <lb ed="#L" n="91"/>in loco circumscribuntur, conseruantur, 
+      defi<lb ed="#L" break="no" n="92"/>niuntur, &amp; praesentialiter existunt. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e965">
+                  <lb ed="#L" n="93"/>Secundo vero corpora mathematica, 
+      imagi<lb ed="#L" break="no" n="94"/>namur quidem ea in loco secundum tres 
+      condi<lb ed="#L" break="no" n="95"/>tiones, exclusa conseruatione. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e975">
+                  <lb ed="#L" n="96"/>Tertio vero sunt in loco spiritus creati secun 
+      <lb ed="#L" n="97"/>dum duas conditiones tantum, quia &amp; 
+      praesen<lb ed="#L" break="no" n="98"/>tes sunt loco, &amp; ibi definiuntur. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e984">
+                  <lb ed="#L" n="99"/>Quarto vero est in loco Deus solum secundum 
+      <lb ed="#L" n="100"/>vltimam conditionem, quae est praesentialitas, 
+      <lb ed="#L" n="101"/>haec autem praesentialitas non est situs, sed 
+      quae<lb ed="#L" break="no" n="102"/>dam simultas, quae quidam simultas est relatio 
+      <lb ed="#L" n="103"/>realis ex parte creaturae, terminata ad essentiam 
+      <lb ed="#L" n="104"/>diuinam, sub ratione absoluta, in spiritibus 
+      ta<lb ed="#L" break="no" n="105"/>men praesentialitas ad locum est realis relatio, 
+      <lb ed="#L" n="106"/>consurgens in vtroque extremorum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1004">
+                  <lb ed="#L" n="107"/>Quid dicendum secundum veritatem, &amp; primo, quod 
+      <lb ed="#L" n="108"/>praesentialitas Dei ad res, secundum quam dicitur 
+      <lb ed="#L" n="109"/>per essentiam in rebus, non potest dici simul 
+      <lb ed="#L" n="110"/>tas, vel relatio simultatis, contra 
+      se<lb ed="#L" break="no" n="111"/>cundam, &amp; vltimam opinion. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1017">
+                  <lb ed="#L" n="112"/>RESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="113"/>sub quintuplici propositione. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1024">
+                  <lb ed="#L" n="114"/>Prima quidem, quod illa praesentialitas, qua 
+      <lb ed="#L" n="115"/>Deus per essentiam dicitur esse in rebus, non 
+      <lb ed="#L" n="116"/>potest poni relatio simultatis, vel simultas 
+      enti<lb ed="#L" break="no" n="117"/>tatis diuinae cum entitate creata. impossibile 
+      <lb ed="#L" n="118"/>est enim concipere simultatem inter aliqua, quin 
+      <lb ed="#L" n="119"/>concipiatur aliquod fundamentum, in quo sint 
+      <lb ed="#L" n="120"/>simul, vt ea, quae sunt simul in tempore, vel in 
+      <lb ed="#L" n="121"/>situ, vel in spatio, vel in aliquo alio. sed 
+      reali<lb ed="#L" break="no" n="122"/>tates Deitatis, &amp; creaturae non sunt in aliquo 
+      <lb ed="#L" n="123"/>simul: non enim sunt simul in tempore, vt supra 
+      <lb ed="#L" n="124"/>probatum fuit, nec sunt simul in situ, cum Deus 
+      <lb ed="#L" n="125"/>abstrahat ab omni situ; nec sunt simul in loco, 
+      <lb ed="#L" n="126"/>cum Deus abstrahat a loco, immo ipsum esle- 
+      <!--0860.xml-->
+      <pb ed="#L" n="860"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in loco non est aliud secundum sic ponentes, quam 
+      <lb ed="#L" n="2"/>talis simultas. dicere autem, quod sint simul in 
+      <lb ed="#L" n="3"/>illa simultate, nihil est dictu. nam illud, in quo 
+      <lb ed="#L" n="4"/>aliqua sunt simul, est fundamentum illius 
+      simul<lb ed="#L" break="no" n="5"/>tatis; simultas autem non est fundamentum sui 
+      <lb ed="#L" n="6"/>ipsius. vnde patet, quod non possunt dici istae 
+      <lb ed="#L" n="7"/>duae entitates simul in loco. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1076">
+                  <lb ed="#L" n="8"/>Et confirmatur, quia si poneretur aliquod cor 
+      <lb ed="#L" n="9"/>pus non esse in loco, vtpote vltima sphaera, Deus 
+      <lb ed="#L" n="10"/>non posset dici simul in loco cum vltima 
+      sphae<lb ed="#L" break="no" n="11"/>ra, quod nec vltima sphaera esset in loco, nec 
+      <lb ed="#L" n="12"/>possunt etiam dici simul in aliquo alio, nisi 
+      for<lb ed="#L" break="no" n="13"/>san in essendo, quia vtrumque est ens, quod non 
+      <lb ed="#L" n="14"/>sufficit ad hoc, quod vnum alteri sit praesens. 
+      er<lb ed="#L" break="no" n="15"/>go nihil est dictu ista realis simultas, aut realis 
+      <lb ed="#L" n="16"/>praesentia. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1099">
+                  <lb ed="#L" n="17"/>Praeterea: Impossibile est Deum, aut aliquam 
+      <lb ed="#L" n="18"/>rem concipi, vt simul existentem cum alia, nisi 
+      <lb ed="#L" n="19"/>quatenus intelligitur ibi esse, vbi est alia, &amp; per 
+      <lb ed="#L" n="20"/>consequens praesentialitas, &amp; simultas 
+      praesup<lb ed="#L" break="no" n="21"/>ponit, quod vtrumque habeat esse ibi, vel hic: &amp; 
+      <lb ed="#L" n="22"/>sic quod vtrumque sit subiectum situs, vel vbi; 
+      <lb ed="#L" n="23"/>vnde praesentialitas, &amp; simultas non potest intel 
+      <lb ed="#L" n="24"/>ligi, nisi inter duo situata, quorum quodlibet 
+      <lb ed="#L" n="25"/>sit hic, &amp; quia in eodem hic, propter quod dican 
+      <lb ed="#L" n="26"/>tur simul esse, &amp; mutuo praesentia. vnde 
+      simul<lb ed="#L" break="no" n="27"/>tas non facit aliquod esse in loco, sed supponit es 
+      <lb ed="#L" n="28"/>se in loco. Sed manifestum est, quod Deus non est 
+      subie<lb ed="#L" break="no" n="29"/>ctum situs, alioquin se ipso locaretur, &amp; 
+      situa<lb ed="#L" break="no" n="30"/>retur. ergo non potest dici, quod suum esse in 
+      <lb ed="#L" n="31"/>creaturis sit relatio simultatis, cum illa 
+      suppo<lb ed="#L" break="no" n="32"/>nat situm. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1136">
+                  <lb ed="#L" n="33"/>Praeterea: Si concipitur coexistentia, aut 
+      prae<lb ed="#L" break="no" n="34"/>sentialitas, vel simultas inter creaturas, &amp; 
+      quo<lb ed="#L" break="no" n="35"/>niam quasi relatio media, aut fundatur ista 
+      re<lb ed="#L" break="no" n="36"/>latio coexistentiae in creatura super ipsam, vt res 
+      <lb ed="#L" n="37"/>est, aut super ipsam, vt situata est; sed non 
+      po<lb ed="#L" break="no" n="38"/>test dici, quod super ipsam, vt absolute, vt res 
+      <lb ed="#L" n="39"/>est; simultas enim fundata super aliqua, vt res 
+      <lb ed="#L" n="40"/>sunt, facit tantum illa esse simul in essendo rem; non 
+      <lb ed="#L" n="41"/>est enim aliud tale coexistere, quam vtrumque rem 
+      <lb ed="#L" n="42"/>esse. hoc autem non sufficit ad praesentialitatem, 
+      <lb ed="#L" n="43"/>secundum quam dicimus, quod Deus praesens est 
+      <lb ed="#L" n="44"/>creaturis. talis namque simultas est inter ea, quae 
+      <lb ed="#L" n="45"/>sunt in oriente, &amp; in occidente, aut quae 
+      maxi<lb ed="#L" break="no" n="46"/>me distant, cum quodlibet illorum sit res. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1169">
+                  <lb ed="#L" n="47"/>Nec potest dici, quod fundetur super rem, vt 
+      <lb ed="#L" n="48"/>situata est, quia simultas facit vtrumque esse 
+      <lb ed="#L" n="49"/>situatum. non enim fundatur simultas in aliquo, 
+      <lb ed="#L" n="50"/>inquantum album, nisi ad aliud coalbum, nec 
+      simul<lb ed="#L" break="no" n="51"/>tas in aliquo, inquantum res, nisi ad aliquid aliud, 
+      <lb ed="#L" n="52"/>quod sit res, &amp; ita nec simultas fundatur in crea 
+      <lb ed="#L" n="53"/>turis, inquantum situatae sunt in ordine ad 
+      ali<lb ed="#L" break="no" n="54"/>quid aliud, quod sit situatum, cuiusmodi non est 
+      <lb ed="#L" n="55"/>Deus. ergo poni non potest talis praesentialitas 
+      <lb ed="#L" n="56"/>simultatis inter Deum, &amp; creaturam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1193">
+                  <lb ed="#L" n="57"/>Praeterea: Omne, quod intelligitur, vt abstra 
+      <lb ed="#L" n="58"/>ctum in se ipso ab omni termino, infra quem fit, 
+      <lb ed="#L" n="59"/>&amp; extra quem nihil de eo sit, ita quod careat hu 
+      <lb ed="#L" n="60"/>iusmodi terminis, &amp; omni intra, vel extra in sua 
+      <lb ed="#L" n="61"/>realitate, nec aliter concipitur, nisi sub ratione 
+      <lb ed="#L" n="62"/>mere quidditatiua per necessitatem abstrahit 
+      <lb ed="#L" n="63"/>ab omni simultate ad aliquod situatum. nam ta 
+      <lb ed="#L" n="64"/>lis simultas daret sibi, quod conciperetur cum 
+      <lb ed="#L" n="65"/>quodam intra, vel extra. vnde conciperetur, 
+      <lb ed="#L" n="66"/>vt intra rem, &amp; non extra. sed manifestum 
+      <lb ed="#L" n="67"/>est, quod Deus abstrahit simpliciter ab hu- 
+      <!--0860.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>iusmodi, sicut ratio rosae simpliciter sumpte, 
+      <lb ed="#L" n="69"/>vt alias dictum fuit; ergo non potest concipi 
+      <lb ed="#L" n="70"/>cum tali simultate, vel coexistentis ad rem 
+      <lb ed="#L" n="71"/>situatam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1232">
+                  <lb ed="#L" n="72"/>Quod ista praesentialitas non potest esse relatio ordinis, 
+      <lb ed="#L" n="73"/>vt opinio quarta dicit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1239">
+                  <lb ed="#L" n="74"/>SECVNDA vero propositio est, quod 
+      presen<lb ed="#L" break="no" n="75"/>tialitas illa non potest dici relatio ordinis. 
+      <lb ed="#L" n="76"/>talis enim ordo, vel esset causalis, vtpote 
+      habi<lb ed="#L" break="no" n="77"/>tudo huius ab hoc effectiue, vel huius ad 
+      hocfi<lb ed="#L" break="no" n="78"/>naliter, vel huius sub hoc formaliter; veleeset 
+      <lb ed="#L" n="79"/>habitudo situalis, vtpote, quod huius in hoc, 
+      <lb ed="#L" n="80"/>vel iuxta hoc, vel infra hoc situaliter, vel ante, 
+      <lb ed="#L" n="81"/>vel retro. sed nullum istorum dici potest. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1260">
+                  <lb ed="#L" n="82"/>Primum siquidem non; quia, dato quod neus 
+      <lb ed="#L" n="83"/>non esset in rebus, adhuc saluaretur ordo 
+      cau<lb ed="#L" break="no" n="84"/>salis. vnde patet, quod non est idem formaliter 
+      <lb ed="#L" n="85"/>Deum esse in rebus, quod res esse a Deo, vel ad 
+      <lb ed="#L" n="86"/>Deum, vel in nobilitate sub eo. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1273">
+                  <lb ed="#L" n="87"/>Nec potest dari secundum, quia tunc 
+      perne<lb ed="#L" break="no" n="88"/>cessitatem Deus situaretur, si Deum esse 
+      praesen<lb ed="#L" break="no" n="89"/>tem lapidi, esset ipsum iuxta lapidem, vel infra 
+      <lb ed="#L" n="90"/>lapidem situare. non enim potest intelligi Dei 
+      <lb ed="#L" n="91"/>esse iuxta, vel infra sine situ, cum illae sint 
+      dife<lb ed="#L" break="no" n="92"/>rentiae positionis secundum Philosophum 3. Phy 
+      <lb ed="#L" n="93"/>sic. &amp; Commenta torem ibidem. ergo non potest 
+      <lb ed="#L" n="94"/>poni, quod praesentia, secundum quam Deus est 
+      <lb ed="#L" n="95"/>in creatura, sit formaliter ordo. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1295">
+                  <lb ed="#L" n="96"/>Praeterea: Ordo in communi non videtur 
+      a<lb ed="#L" break="no" n="97"/>liud esse, quam habitudo. vnde vel sic dicentes 
+      <lb ed="#L" n="98"/>intelligunt, quod ista praesentialitas est ordo; 
+      <lb ed="#L" n="99"/>quia est quaedam relatio, aut habitudo in 
+      gene<lb ed="#L" break="no" n="100"/>rali; aut intendunt, quod sit quaedam specialis 
+      <lb ed="#L" n="101"/>habitudo, quae dicatur ordo, sed quodcumque 
+      <lb ed="#L" n="102"/>dicant, insufficienter dictum est. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1313">
+                  <lb ed="#L" n="103"/>Primum quidem, quia nimis generale, &amp; con 
+      <lb ed="#L" n="104"/>fusum est. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1320">
+                  <lb ed="#L" n="105"/>Secundum vero, quia non declarant de isto or 
+      <lb ed="#L" n="106"/>dine, qualis habitudo est, praesertim cum Deum 
+      <lb ed="#L" n="107"/>esse in creatura, non sit formaliter Deum 
+      ordi<lb ed="#L" break="no" n="108"/>nari ad creaturam, aut creaturam ordinari ad 
+      <lb ed="#L" n="109"/>Deum; esse enim formaliter non est esse ad 
+      ali<lb ed="#L" break="no" n="110"/>quid ordinatum, vt ex terminis patet. ergo id, 
+      <lb ed="#L" n="111"/>quod prius.
+    </p>
+               <p xml:id="ol96b1-277864-d1e1338">
+                  <lb ed="#L" n="112"/>Quod praesentialitas ista non potest esse formaliter 
+      ope<lb ed="#L" break="no" n="113"/>ratio, procedens a Deo, &amp; terminata ad 
+      <lb ed="#L" n="114"/>creaturam, vt opinio 
+      pri<lb ed="#L" break="no" n="115"/>ma dicit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1350">
+                  <lb ed="#L" n="116"/>TTERTIA quoque propositio est, quod 
+      <lb ed="#L" n="117"/>huiusmodi praesentialitas, secundum quam 
+      <lb ed="#L" n="118"/>Deus dicitur in creaturis, non potest esse 
+      forma<lb ed="#L" break="no" n="119"/>liter ipsa operatio Dei in creaturis, vtpote con 
+      <lb ed="#L" n="120"/>tinentia, conseruatio, aut datio entitatis earum; si 
+      <lb ed="#L" n="121"/>enim Deum esse in creaturis, esset formaliter ip 
+      <lb ed="#L" n="122"/>sum operari, sequeretur, quod non esset aliud 
+      <lb ed="#L" n="123"/>Deum esse in creaturis per essentiam, quam per 
+      <lb ed="#L" n="124"/>potentiam; vnumquodque enim 
+      metaphorice<lb ed="#L" break="no" n="125"/>dicitur esse, vbi resplendet sua potentia per suum 
+      <lb ed="#L" n="126"/>operari; secundum quem modum dicimus 
+      re<lb ed="#L" break="no" n="127"/>gem esse in qualibet parte regni. sed manifestum 
+      <lb ed="#L" n="128"/>est, quod aliquid aliud importat Deum esse 
+      vbi<lb ed="#L" break="no" n="129"/>que per essentiam, quam secundum illum 
+      mo<lb ed="#L" break="no" n="130"/>dum metaphoricum, &amp; resplendentiam poten- 
+      <!--0861.xml-->
+      <pb ed="#L" n="861"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tiae, &amp; virtutis. ergo aliud sonat Deum esse 
+      vbi<lb ed="#L" break="no" n="2"/>que, quam ipsum operari vbique. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1396">
+                  <lb ed="#L" n="3"/>Et confirmatur per verbum Magistri in 
+      litte<lb ed="#L" break="no" n="4"/>ra, reprehendentis praesumptionem aliquorum 
+      <lb ed="#L" n="5"/>dicentium, quod ideo Deus per substantiam di 
+      <lb ed="#L" n="6"/>citur esse in rebus, quia per virtutem propriae 
+      <lb ed="#L" n="7"/>substantiae facit, vt &amp; loca, &amp; omnia, quae in eis 
+      <lb ed="#L" n="8"/>sunt sint, nec cessat in eis aliquid operari: &amp; sub 
+      <lb ed="#L" n="9"/>dit Magist. quod in verbis illis, in quibus dicitur 
+      <lb ed="#L" n="10"/>Deum esse vbique per essentiam, plus contineri 
+      <lb ed="#L" n="11"/>credendum est, quam homo viuens capere non 
+      <lb ed="#L" n="12"/>valeat. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1420">
+                  <lb ed="#L" n="13"/>Praeterea: Si idem esset Deum operari creaturas, 
+      <lb ed="#L" n="14"/>&amp; esse in creaturis, res ponerentur indifferenter 
+      <lb ed="#L" n="15"/>vel hoc, vel illud ad eandem interrogationem; 
+      <lb ed="#L" n="16"/>ex interrogationibus enim formalis identitas 
+      <lb ed="#L" n="17"/>perpenditur, vel non identitas eorum, quae 
+      re<lb ed="#L" break="no" n="18"/>spondentur; &amp; propter hoc conuincitur 
+      distin<lb ed="#L" break="no" n="19"/>ctio quantitatis; &amp; qualitatis; quia vnum 
+      re<lb ed="#L" break="no" n="20"/>spondetur ad interrogationem factam per 
+      quan<lb ed="#L" break="no" n="21"/>tum; reliquum vero, dum interrogatur per 
+      qua<lb ed="#L" break="no" n="22"/>le, sed constat, quod interroganti, vbi est Deus, 
+      <lb ed="#L" n="23"/>non proprie respondetur, quod creat, vel 
+      con<lb ed="#L" break="no" n="24"/>seruat; interroganti vero quid agit, non 
+      pro<lb ed="#L" break="no" n="25"/>prie respondetur, quod est vbique. ergo hoc non 
+      <lb ed="#L" n="26"/>est illud formaliter. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1453">
+                  <lb ed="#L" n="27"/>Praeterea: Augustinus 8. de Trinitate, 
+      distin<lb ed="#L" break="no" n="28"/>guit inter illum, cum ait: Intelligamus Deum 
+      <lb ed="#L" n="29"/>sine indigentia, creatorem sine loco, vbique to 
+      <lb ed="#L" n="30"/>tum. sed non distingueret, si formaliter essent 
+      <lb ed="#L" n="31"/>idem Deum esse creatorem, &amp; Deum esse 
+      vbi<lb ed="#L" break="no" n="32"/>que. ergo non sunt idem. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1469">
+                  <lb ed="#L" n="33"/>Quod non sufficit dicere, Deum esse in loco, propter 
+      sim<lb ed="#L" break="no" n="34"/>plicitatem positam spiritualis 
+      magnitudi<lb ed="#L" break="no" n="35"/>nis, sicut opinio tertia fingit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1478">
+                  <lb ed="#L" n="36"/>QVARTA autem propositio est, quod sim 
+      <lb ed="#L" n="37"/>plicitas magnitudinis positiua non 
+      suffi<lb ed="#L" break="no" n="38"/>cienter declarat, quomodo Deus est vbique-; 
+      <lb ed="#L" n="39"/>aut enim intelligunt sic dicentes, quod in Deo 
+      <lb ed="#L" n="40"/>sit magnitudo distensiua, aut quod in eo sit 
+      ma<lb ed="#L" break="no" n="41"/>gnitudo intensiua, ponens intentionem 
+      nobili<lb ed="#L" break="no" n="42"/>tatis, &amp; perfectionis eo modo, quo sapientia ali 
+      <lb ed="#L" n="43"/>cuius dicitur magna, vel intellectus, prout 
+      Au<lb ed="#L" break="no" n="44"/>gustinus dicit, quod in rebus, quae non mole 
+      ma<lb ed="#L" break="no" n="45"/>gnae sunt, id est maius, quod est melius. 
+      <lb ed="#L" n="46"/>Sed manifestum est, quod primum dari non po 
+      <lb ed="#L" n="47"/>test, quia talis magnitudo est formaliter 
+      quan<lb ed="#L" break="no" n="48"/>titas, &amp; dimensio, quod omnino Deo repugnat. 
+      <lb ed="#L" n="49"/>si vero intelligitur magnitudo intensiua, sic non 
+      <lb ed="#L" n="50"/>apparet, quod aliquid faciat ad esse in pluribus 
+      <lb ed="#L" n="51"/>locis. non enim albedo intensior exigit maiorem 
+      <lb ed="#L" n="52"/>locum, quam minus intensa, vt Auctor 6. 
+      prin<lb ed="#L" break="no" n="53"/>cipiorum in cap. de susceptione magis, &amp; 
+      mi<lb ed="#L" break="no" n="54"/>nus. ait enim, quod non est purior albedo in 
+      pe<lb ed="#L" break="no" n="55"/>de equi, quam in margarita, immo minus inten 
+      <lb ed="#L" n="56"/>sa. ergo immensitas, aut magnitudo intensiua 
+      <lb ed="#L" n="57"/>non sufficienter declarat, quomodo Deus sit 
+      <lb ed="#L" n="58"/>vbique. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1531">
+                  <lb ed="#L" n="59"/>Et confirmatur per hoc, quod Augustinus ait 
+      <lb ed="#L" n="60"/>ad Dardanum, in libro de praesentia Dei. dicit 
+      <lb ed="#L" n="61"/>enim, quod non quasi speciosa magnitudine opi 
+      <lb ed="#L" n="62"/>nemur Deum per cuncta diffundi, sicut lux ista 
+      <lb ed="#L" n="63"/>diffunditur, sed potius in duobus sapientibus, 
+      <lb ed="#L" n="64"/>quorum alter altero grandior est. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1547">
+                  <lb ed="#L" n="65"/>Praeterea: Dato quod haberet Deus spiritua- 
+      <!--0861.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>lem magnitudinem, restat inquirere, quid est 
+      <lb ed="#L" n="67"/>dictu magnitudinem illam esse vbique, an 
+      vide<lb ed="#L" break="no" n="68"/>licet per contactum, vel praesentialitatem, vel 
+      <lb ed="#L" n="69"/>simultatem, aut coexistentiam, aut aliquid 
+      hu<lb ed="#L" break="no" n="70"/>iusmodi; sed declaratum est, quod nullum 
+      illo<lb ed="#L" break="no" n="71"/>rum est possibile. ergo id, quod prius. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1569">
+                  <lb ed="#L" n="72"/>Quod Deus dicitur esse in rebus, non secundum 
+      ali<lb ed="#L" break="no" n="73"/>quam conditionem positiuam, quam habeat 
+      lo<lb ed="#L" break="no" n="74"/>catum in ordine ad locum, sed quia 
+      reti<lb ed="#L" break="no" n="75"/>net vnam conditionem negatiuam, 
+      <lb ed="#L" n="76"/>scilicet omnimodam in 
+      di<lb ed="#L" break="no" n="77"/>stantiam a loco. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1585">
+                  <lb ed="#L" n="78"/>QVINTA demum propositio est, quod cum 
+      <lb ed="#L" n="79"/>locatum habeat multas conditiones po 
+      <lb ed="#L" n="80"/>sitiuas in ordine ad locum, per nullam tamen 
+      <lb ed="#L" n="81"/>de eis dicitur Deus esse in loco, sed propter hoc 
+      <lb ed="#L" n="82"/>quod retinet vnam conditionem negatiuam, 
+      <lb ed="#L" n="83"/>quam locatum habet in ordine ad ipsum locum: 
+      <lb ed="#L" n="84"/>haec autem est indistantia, aut non distare a loco. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1603">
+                  <lb ed="#L" n="85"/>Ad cuius euidentiam considerandum, quod 
+      <lb ed="#L" n="86"/>locatum respectu loci habet multas conditiones. 
+      <lb ed="#L" n="87"/>Primam quidem, quod ipsum contingit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1612">
+                  <lb ed="#L" n="88"/>Secundam vero, quod est simul cum eo: quae 
+      <lb ed="#L" n="89"/>quidem simultas non est aliud, quam vnitas in 
+      <lb ed="#L" n="90"/>situ: vltima enim eorum sunt vnum in situ, 
+      vni<lb ed="#L" break="no" n="91"/>tate cuiusdam contactus, &amp; ex istis oritur illa 
+      <lb ed="#L" n="92"/>conditio, quae appellatur praesentialitas, vel 
+      coe<lb ed="#L" break="no" n="93"/>xistentia locati cum loco; alia vero conditio 
+      <lb ed="#L" n="94"/>est, quod circumscribitur a loco, &amp; alia est, 
+      <lb ed="#L" n="95"/>quod figuratur secundum figuram loci, &amp; alia 
+      <lb ed="#L" n="96"/>est quod conseruatur in loco, &amp; alia est, quod 
+      <lb ed="#L" n="97"/>non distat a loco; si enim interminarent spacium, 
+      <lb ed="#L" n="98"/>medium non diceretur in loco illo. contingit 
+      <lb ed="#L" n="99"/>autem aliquid non distare a loco propter 
+      posi<lb ed="#L" break="no" n="100"/>tionem relationis, oppositae scilicet 
+      propinqui<lb ed="#L" break="no" n="101"/>tatis: &amp; hoc modo locatum est non distans a lo 
+      <lb ed="#L" n="102"/>co, quia propinquum est ei, &amp; ipsum contingens: 
+      <lb ed="#L" n="103"/>vel contingit non distare absque positione 
+      op<lb ed="#L" break="no" n="104"/>positae habitudinis, ita quod illud non distans 
+      <lb ed="#L" n="105"/>non erit propinquum, aut contigens, nec tamen 
+      <lb ed="#L" n="106"/>erit remotum, quia abstrahit ab omni situ, nec 
+      <lb ed="#L" n="107"/>est capax propinquitatis, aut distantiae, seu 
+      si<lb ed="#L" break="no" n="108"/>multatis, &amp; elongationis, quae sunt 
+      habitudi<lb ed="#L" break="no" n="109"/>nes fundatae super situm. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1663">
+                  <lb ed="#L" n="110"/>Ad propositum ergo impossibile est, quod 
+      <lb ed="#L" n="111"/>Deus comparetur ad machinam mundialem, 
+      se<lb ed="#L" break="no" n="112"/>cundum aliquam habitudinem positiuam 
+      loca<lb ed="#L" break="no" n="113"/>ti ad locum, nam omnes illae fundantur super 
+      <lb ed="#L" n="114"/>situm, &amp; exigunt vtrumque situatum, cuius 
+      <lb ed="#L" n="115"/>sunt contactus, simultas, praesentialitas, 
+      propin<lb ed="#L" break="no" n="116"/>quitas, coexistentia, esse intra, vel intimari, &amp; 
+      <lb ed="#L" n="117"/>similia. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1683">
+                  <lb ed="#L" n="118"/>Retinet ergo priuationem oppositi omnium 
+      <lb ed="#L" n="119"/>istorum, videlicet quod non distat a tota machi 
+      <lb ed="#L" n="120"/>na mundiali, &amp; a qualibet parte eius, nec 
+      elon<lb ed="#L" break="no" n="121"/>gatur, nec est extra, sed est omnino indistans, 
+      <lb ed="#L" n="122"/>nec tamen propter hoc est propinquus, aut 
+      in<lb ed="#L" break="no" n="123"/>tra, vel simul, sed abstrahit ab huiusmodi 
+      habi<lb ed="#L" break="no" n="124"/>tudinibus positiuis, relinquendo negationem al 
+      <lb ed="#L" n="125"/>terius, videlicet distantiae, &amp; elongationis, quam 
+      <lb ed="#L" n="126"/>&amp; locatum detinebat, &amp; cum hoc oppositam ha 
+      <lb ed="#L" n="127"/>bitudinem positiuam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1707">
+                  <lb ed="#L" n="128"/>Sic ergo esse vbique non ponit in Deo habitu 
+      <lb ed="#L" n="129"/>dinem positiuam. sed negationem cuiusdam 
+      <lb ed="#L" n="130"/>habitudinis, videlicet omnimodam indisttantiam 
+      <!--0862.xml-->
+      <pb ed="#L" n="862"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ab omnibus rebus; non dicit autem 
+      priuatio<lb ed="#L" break="no" n="2"/>nem illarum habitudinum, quas locatum 
+      re<lb ed="#L" break="no" n="3"/>tinet in ordine ad locum: vnde Deum esse 
+      vbi<lb ed="#L" break="no" n="4"/>que, non dicit formaliter Deum non esse intra 
+      <lb ed="#L" n="5"/>res, aut non coexistere rebus, aut non esse 
+      propin<lb ed="#L" break="no" n="6"/>quum rebus. secundum hoc enim tolleretur om 
+      <lb ed="#L" n="7"/>nis conditio locati ad locum, &amp; nulla 
+      relinque<lb ed="#L" break="no" n="8"/>retur: propter quod esse vbique nullam de illis 
+      <lb ed="#L" n="9"/>formaliter importat, sed potius illam, quam lo 
+      <lb ed="#L" n="10"/>catum habet ad locum, videlicet omnimodam 
+      <lb ed="#L" n="11"/>inelongationem, &amp; indistantiam. haec autem 
+      <lb ed="#L" n="12"/>indistantia videtur esse quaedam praesentialitas, 
+      <lb ed="#L" n="13"/>vel intimitas, vel simultas, quamuis non 
+      positi<lb ed="#L" break="no" n="14"/>ua: &amp; propter hoc conceduntur propositiones 
+      <lb ed="#L" n="15"/>huiusmodi in scriptura, &amp; dicitur, quod Deus 
+      <lb ed="#L" n="16"/>est intimus omni rei, &amp; coexistens, ac praesens. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1757">
+                  <lb ed="#L" n="17"/>His tamen, quae dicta sunt, multa obuiare 
+      <lb ed="#L" n="18"/>videntur. quandocumque enim aliqua non 
+      po<lb ed="#L" break="no" n="19"/>nunt inter se in numerum, impossibile est vnum 
+      <lb ed="#L" n="20"/>sine altero retineri; sed in locato non est aliud 
+      <lb ed="#L" n="21"/>non distare a loco, quam loco propinquum esse; 
+      <lb ed="#L" n="22"/>fundatur enim super propinquitatem huiusmo 
+      <lb ed="#L" n="23"/>di negatio distantiae, nec est ibi alia indistantia 
+      <lb ed="#L" n="24"/>formaliter, quam propinquitas. ergo est 
+      impos<lb ed="#L" break="no" n="25"/>sibile, quod Deus retineat indistantiam a 
+      re<lb ed="#L" break="no" n="26"/>bus, nisi retineat propinquitatem, &amp; 
+      simul<lb ed="#L" break="no" n="27"/>tatem 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1783">
+                  <lb ed="#L" n="28"/>Praeterea: Secundum ista, non est aliud Deum 
+      <lb ed="#L" n="29"/>esse vbique, quam ab omnibus non distare; sed 
+      <lb ed="#L" n="30"/>constat, quod angelus, &amp; omnis spiritualis crea 
+      <lb ed="#L" n="31"/>tura, immo &amp; omnis conceptus obiectiuus 
+      ab<lb ed="#L" break="no" n="32"/>stractus, est indistans ab omnibus rebus; angelus 
+      <lb ed="#L" n="33"/>enim nec est propinquus, nec distans; similiter 
+      <lb ed="#L" n="34"/>nec vnitas, nec rosa simpliciter concepta, nec 
+      <lb ed="#L" n="35"/>virtus, nec iustitia. ergo angelus, &amp; omnis res 
+      <lb ed="#L" n="36"/>abstracta erit vbique; quod est erroneum, cum 
+      <lb ed="#L" n="37"/>esse vbique sit proprium solius Dei. 
+      <lb ed="#L" n="38"/>Praeterea: Si esse vbique dicit Deum non 
+      di<lb ed="#L" break="no" n="39"/>stare a rebus, pari ratione debet importare Deum 
+      <lb ed="#L" n="40"/>esse non propinquum rebus, cum Deus, nec 
+      pro<lb ed="#L" break="no" n="41"/>pinquus sit, nec remotus secundum ista; sed ma 
+      <lb ed="#L" n="42"/>nifestum est, quod hoc non significat esse vbique, 
+      <lb ed="#L" n="43"/>alioquin non esset aliud dicere, Deum esse 
+      vbi<lb ed="#L" break="no" n="44"/>que, quam ipsum non esse propinquum 
+      omni<lb ed="#L" break="no" n="45"/>bus, aut non insistens omnibus, cuius 
+      opposi<lb ed="#L" break="no" n="46"/>tum Sancti dicunt. ergo id, quod prius. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1827">
+                  <lb ed="#L" n="47"/>Praeterea: Nullius positiui formalis ratio con 
+      <lb ed="#L" n="48"/>sistit in negatione, sed esse in, formale est quid 
+      <lb ed="#L" n="49"/>positiuum; ergo non consistet in negatione. 
+      vn<lb ed="#L" break="no" n="50"/>de modus iste dicendi videtur contradictoria 
+      <lb ed="#L" n="51"/>implicare, cum ponit, quod esse in, consistit in 
+      <lb ed="#L" n="52"/>non esse in. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1844">
+                  <lb ed="#L" n="53"/>Praeterea: August. in libro de praesentia Dei di 
+      <lb ed="#L" n="54"/>cit, quod Deus adest omnibus rebus, &amp; non solum 
+      <lb ed="#L" n="55"/>dicit, quod non desit, immo vtrumque reperitur 
+      <lb ed="#L" n="56"/>dictum, videlicet, quod non deest, sed adest. 
+      er<lb ed="#L" break="no" n="57"/>go plus importat Deum esse vbique, quam non 
+      <lb ed="#L" n="58"/>distare, vel non esse absens omnibus rebus. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1860">
+                  <lb ed="#L" n="59"/>Haec est enim mens Augustini in lib. 83. 
+      quae<lb ed="#L" break="no" n="60"/>stionum, cum dicit, quod Deus non alicubi est, 
+      <lb ed="#L" n="61"/>&amp; tamen quia est, &amp; in loco non est; in illo sunt 
+      <lb ed="#L" n="62"/>potius omnia, quam ipse alicubi. &amp; Hilar. 8. de 
+      <lb ed="#L" n="63"/>Trinitate, cum dicit, quod Deus est viuens 
+      po<lb ed="#L" break="no" n="64"/>testas, quae nusquam non adsit, nec desit vsquam, 
+      <lb ed="#L" n="65"/>vt vbique esse credatur, cum in omnibus non 
+      de<lb ed="#L" break="no" n="66"/>Sed istis non obstantibus, dicendum est, 
+      si<lb ed="#L" break="no" n="67"/>cut prius. 
+      <!--0862.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>sit. similiter &amp; Aug. super Ioan. dicentss,qua 
+      <lb ed="#L" n="69"/>Deus est, qui nusquam deest. vnde per istos ent 
+      <lb ed="#L" n="70"/>dos loquuendi, innunt Sancti, quod Deuimun 
+      <lb ed="#L" n="71"/>vbique, non importat aliquam habitudinemp 
+      <lb ed="#L" n="72"/>sitiuam; sed tantum non distare ab omnibus, iu 
+      <lb ed="#L" n="73"/>non abesse, siue non deesse, cum quandoque di 
+      <lb ed="#L" n="74"/>cant ipsum nusquam esse, &amp; in omnibus essen 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1902">
+                  <lb ed="#L" n="75"/>Est tamen considerandum, quod allud est 
+      a<lb ed="#L" break="no" n="76"/>strahere a distantia, &amp; propinquita t is 
+      <lb ed="#L" n="77"/>vtrumque negare; &amp; aliud est negatlonem d 
+      <lb ed="#L" n="78"/>stantiae concernere, seu indistantiam sibi de 
+      <lb ed="#L" n="79"/>minare esse. ergo in, non abstrahit simplia t 
+      <lb ed="#L" n="80"/>distantia, vel propinquitate, &amp; a negatior fii 
+      <lb ed="#L" n="81"/>stantiae; immo concernit, &amp; determinut eua 
+      <lb ed="#L" n="82"/>tionem huiusmodi. vnde cum intelligitur nu 
+      <lb ed="#L" n="83"/>in aliqua re esse, non apprehenditur Deus uid 
+      <lb ed="#L" n="84"/>stracte a propinquitate, &amp; a distantia, &amp; aupu 
+      <lb ed="#L" n="85"/>tione vtriusque; immo intelligitur determiam 
+      <lb ed="#L" n="86"/>te sub negatione distantiae; quia sub 
+      oumitu<lb ed="#L" break="no" n="87"/>da indistantia a re illa; &amp; secundum hoc patem 
+      <lb ed="#L" n="88"/>quod praeexigitur aliquid, per quod Deus 
+      de<lb ed="#L" break="no" n="89"/>terminetur ad huiusmodi negationem: aliud m 
+      <lb ed="#L" n="90"/>tem est operatio attiugens intima creaturesu 
+      <lb ed="#L" n="91"/>hoc enim, quod omnis creatura apprehentiiur 
+      <lb ed="#L" n="92"/>virtute diuina subsistere, necessario concioites 
+      <lb ed="#L" n="93"/>vt distans, &amp; ita a situ longe positus, aut vt uiilibi 
+      <lb ed="#L" n="94"/>siue propinquus illi realitati, quam conseruant, aut 
+      <lb ed="#L" n="95"/>saltem, ut indistans, quamuis non sit contingum fine 
+      <lb ed="#L" n="96"/>propinquus. apparet enim, quod de necessumai 
+      <lb ed="#L" n="97"/>portet, quod sic apprehendatur sub altero itm 
+      <lb ed="#L" n="98"/>trium modorum. si enim res conseruatur uoroin 
+      <lb ed="#L" n="99"/>suis intimis, aut conseruatur ab eo extra 
+      eti<lb ed="#L" break="no" n="100"/>stente, aut ab eo intra existente, aut saltem non 
+      <lb ed="#L" n="101"/>extra existente. non potest autem mem 
+      cond<lb ed="#L" break="no" n="102"/>pere, quod res concipiatur, aut aliqua res fut 
+      <lb ed="#L" n="103"/>a virtute quacumque, nisi vel propinqua, &amp; con 
+      <lb ed="#L" n="104"/>tingente, vel saltem non distante; quia operatio 
+      <lb ed="#L" n="105"/>non distat a virtute. vnde hoc habet natura ops 
+      <lb ed="#L" n="106"/>rationis, quod de necessitate exigat virturem 
+      <lb ed="#L" n="107"/>quae sit non esse absentem, aut in remotis enistea 
+      <lb ed="#L" n="108"/>tem. secundum hoc ergo virtus diuina 
+      necesa<lb ed="#L" break="no" n="109"/>rio intelligitur, vt indistans ratione operatid⸗ 
+      <lb ed="#L" n="110"/>nis, vel vt positiue propinqua. ostensum est au⸗ 
+      <lb ed="#L" n="111"/>tem, quod omne tale propinquum esset 
+      situa<lb ed="#L" break="no" n="112"/>tum. quare relinquitur, quod tantum 
+      determi<lb ed="#L" break="no" n="113"/>net sibi virtutem, vt indistincte, absque omni con 
+      <lb ed="#L" n="114"/>tingentia, vel propinquitate, seu coexistentia, 
+      <lb ed="#L" n="115"/>vel simultate. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e1993">
+                  <lb ed="#L" n="116"/>Est autem hic attendendum, quod plane per 
+      <lb ed="#L" n="117"/>istum modum Damascenus libro primo 
+      osten<lb ed="#L" break="no" n="118"/>dit Deum esse vbique. ait enim, quod Deus 
+      di<lb ed="#L" break="no" n="119"/>citur esse in loco, &amp; locus Dei dicitur, vbi 
+      mani<lb ed="#L" break="no" n="120"/>festa eius operatio sit. nam ipse quidem per omnis 
+      <lb ed="#L" n="121"/>immiscibiliter pertransit, &amp; omnibus tradit sud 
+      <lb ed="#L" n="122"/>operationem; &amp; paulo ante praemisit, quod locus vbi 
+      <lb ed="#L" n="123"/>intelligitur, &amp; est intelligibilis natura incorpe⸗ 
+      <lb ed="#L" n="124"/>rea, est locus ille, vbi nimirum operatur, &amp; ideo con 
+      <lb ed="#L" n="125"/>cludit in sequenti capitulo, quod solius Dei est 
+      <lb ed="#L" n="126"/>vbique esse, &amp; secundum idem operari: Deus an 
+      <lb ed="#L" n="127"/>tem vbique ens, &amp; super omnia, vbique, &amp; 
+      se<lb ed="#L" break="no" n="128"/>cundum idem operatur, vera, &amp; simplici 
+      opera<lb ed="#L" break="no" n="129"/>tione. haec est etiam mens Philosophi s. Physio 
+      <lb ed="#L" n="130"/>vbi dicit, quod motor est in parte illa mobilis, 
+      <lb ed="#L" n="131"/>quae velocius mouetur, vbi dicit Commentator, 
+      <lb ed="#L" n="132"/>quod quia iste motor non est in materia, nonia 
+      <lb ed="#L" n="133"/>stat dicere, nisi ipsum esse in illis locis, in quibus 
+      <lb ed="#L" n="134"/>effectus eius apparet; &amp; subdit, quod ille imum 
+      <!--0863.xml-->
+      <pb ed="#L" n="863"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sphaerae, qui mouetur velocius, propinquior est 
+      <lb ed="#L" n="2"/>motori. hanc autem appropinquationem 
+      de<lb ed="#L" break="no" n="3"/>bemus intelligere non secundum locum, sed 
+      se<lb ed="#L" break="no" n="4"/>cundum esse. quod enim non est in corpore, non 
+      <lb ed="#L" n="5"/>est in loco. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2054">
+                  <lb ed="#L" n="6"/>Sic ergo patet secundum istos, quod 
+      forma<lb ed="#L" break="no" n="7"/>lis ratio locationis substantiarum abstractarum 
+      <lb ed="#L" n="8"/>consistit in quadam indistantia speciali, quam 
+      <lb ed="#L" n="9"/>specialiter operatio exigit in virtute, a qua 
+      <lb ed="#L" n="10"/>profluit effectiue; &amp; ita dicuntur locari per ope 
+      <lb ed="#L" n="11"/>rationem, non quidem formaliter, sed coexigen 
+      <lb ed="#L" n="12"/>ter, &amp; manifestatiue, vel magis determinatiue. 
+      <lb ed="#L" n="13"/>determinant enim sibi per necessitatem huiusmo 
+      <lb ed="#L" n="14"/>di indistantiam illius, &amp; propter hoc solus Deus 
+      <lb ed="#L" n="15"/>potest esse vbique, &amp; a cunctis rebus indistans; 
+      <lb ed="#L" n="16"/>quia potest vbique operari: &amp; omnem effectum 
+      <lb ed="#L" n="17"/>attingit per omnipotentiam. angelus vero non 
+      <lb ed="#L" n="18"/>potest operari vbique, cum sit determinatus ad 
+      <lb ed="#L" n="19"/>certos effectus, &amp; ideo non intelligitur, vt 
+      indi<lb ed="#L" break="no" n="20"/>stans ab omnibus, &amp; ita nec vbique. Nec 
+      pro<lb ed="#L" break="no" n="21"/>cedunt instantiae. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2091">
+                  <lb ed="#L" n="22"/>Prima quidem non; probat enim, quod illa 
+      <lb ed="#L" n="23"/>indistantia numeralis, quae fundatur super 
+      pro<lb ed="#L" break="no" n="24"/>pinquitate duorum corporum, non possit 
+      sepa<lb ed="#L" break="no" n="25"/>rari ab illa propinquitate: sed quin alia negatio 
+      <lb ed="#L" n="26"/>distantiae, quae dicitur indistantia absque 
+      pro<lb ed="#L" break="no" n="27"/>pinquitate poni non possit, ratio non concludit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2108">
+                  <lb ed="#L" n="28"/>Nec procedit etiam secunda; non enim 
+      quae<lb ed="#L" break="no" n="29"/>libet indistantia, ab omnibus rebus concepta, cir 
+      <lb ed="#L" n="30"/>ca Deum, facit Deum esse vbique; sed 
+      indistan<lb ed="#L" break="no" n="31"/>tia illa, quam sibi determinat operatio, &amp; 
+      exi<lb ed="#L" break="no" n="32"/>git in virtute, a qua profluit. constat autem 
+      <lb ed="#L" n="33"/>quod talem indistantiam non habet angelus 
+      re<lb ed="#L" break="no" n="34"/>spectu omnium rerum, nec ex hoc 
+      apprehendi<lb ed="#L" break="no" n="35"/>tur ab omnibus indistans, quia omnia operetur. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2128">
+                  <lb ed="#L" n="36"/>Non valet etiam tertia, quia operatio non 
+      <lb ed="#L" n="37"/>exigit de natura sua in virtute, a qua procedit, 
+      <lb ed="#L" n="38"/>negationem propinquitatis, immo propinquita 
+      <lb ed="#L" n="39"/>tem exigit in corporibus, vel saltem non absen 
+      <lb ed="#L" n="40"/>tiam, &amp; non distantiam in rebus abstractis. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2141">
+                  <lb ed="#L" n="41"/>Non valet etiam quarta; illa enim, quae sunt 
+      <lb ed="#L" n="42"/>difficilia ad intelligendum, sunt etiam 
+      diffici<lb ed="#L" break="no" n="43"/>lia ad exprimendum; propter quod oportet in 
+      <lb ed="#L" n="44"/>talibus vti circumlocutionibus multis. est autem 
+      <lb ed="#L" n="45"/>valde difficile non distantiam a propinquitate 
+      <lb ed="#L" n="46"/>separari, propter hoc, quod imaginatio, vt in 
+      <lb ed="#L" n="47"/>pluribus, dominatur in hominibus virtuti 
+      cogi<lb ed="#L" break="no" n="48"/>tatiuae, &amp; abstractiuae. propter quod dicit 
+      Ma<lb ed="#L" break="no" n="49"/>gister, quod aliquid vltra humanum ingenium 
+      <lb ed="#L" n="50"/>videtur contineri in diuina localitate: &amp; hinc 
+      <lb ed="#L" n="51"/>est, quod Augustinus aliquando dicit Deum 
+      es<lb ed="#L" break="no" n="52"/>se vbique; quia non deest omnibus, exprimendo 
+      <lb ed="#L" n="53"/>negatiue, aliquando, quod adest positiue, 
+      quam<lb ed="#L" break="no" n="54"/>uis secundum veritatem non sit ibi habitudo ali 
+      <lb ed="#L" n="55"/>qua positiua, sed indistantia, vel sola non 
+      absen<lb ed="#L" break="no" n="56"/>tia: vnde quia non omnis indistantia a rebus 
+      fa<lb ed="#L" break="no" n="57"/>cit Deum esse vbique, sed illa sola, quam exigit 
+      <lb ed="#L" n="58"/>operatio apud virtutem propriam, a qua fluit; 
+      <lb ed="#L" n="59"/>idcirco neus dicitur adesse omnibus rebus, 
+      <lb ed="#L" n="60"/>quia in corporalibus videmus, quod 
+      <lb ed="#L" n="61"/>operatio exigit virtutem, esse 
+      <lb ed="#L" n="62"/>propinquam, &amp; 
+      affisten<lb ed="#L" break="no" n="63"/>tem. &amp; in hoc 
+      pri<lb ed="#L" break="no" n="64"/>mus articulus 
+      <lb ed="#L" n="65"/>
+      termine<lb ed="#L" break="no" n="66"/>tur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-277864-Dd1e2201">
+               <head xml:id="ol96b1-277864-Hd1e2203">Articulus 2</head>
+               <p xml:id="ol96b1-277864-d1e2205">
+      <!--0863.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>ARTJCVLVS SECVNDVS.
+    </p>
+               <p xml:id="ol96b1-277864-d1e2214">
+                  <lb ed="#L" n="68"/>An possit demonstrari ex omnipotentia, quod sit Deus 
+      <lb ed="#L" n="69"/>in omnibus rebus. opinio S. Thomae prima 
+      <lb ed="#L" n="70"/>parte, quaest. 8. art. 3. &amp; Dur. in 
+      <lb ed="#L" n="71"/>1. Sent. dist. 37. q. 2. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2225">
+                  <lb ed="#L" n="72"/>CIRCA secundum vero considerandum est, 
+      <lb ed="#L" n="73"/>quod dixerunt aliqui, Deum esse vbique 
+      <lb ed="#L" n="74"/>efficaciter posse concludi propter hoc, quod 
+      <lb ed="#L" n="75"/>vbique per sui omnipotentiam operatur, largien 
+      <lb ed="#L" n="76"/>do esse rebus, &amp; continue conseruando. 
+      opera<lb ed="#L" break="no" n="77"/>tio enim exhibet per necessitatem virtutem, &amp; 
+      <lb ed="#L" n="78"/>praesentem, &amp; intimam effectui profluenti: 
+      vir<lb ed="#L" break="no" n="79"/>tus autem, &amp; essentia sunt idem in eo. quare 
+      <lb ed="#L" n="80"/>potest concludi, quod Dei essentia est 
+      vbique<lb ed="#L" break="no" n="81"/>praesens, &amp; coexistit omni rei per huiusmodi 
+      <lb ed="#L" n="82"/>operationem. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2251">
+                  <lb ed="#L" n="83"/>Opinio Scoti 1. sent. dist. 37. q. 1. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2257">
+                  <lb ed="#L" n="84"/>DIXERVNT quoque alij, quod nullo modo 
+      <lb ed="#L" n="85"/>concludit operatio, Deum esse omni rei 
+      <lb ed="#L" n="86"/>praesentem, cum virtus possit attingere 
+      operan<lb ed="#L" break="no" n="87"/>do, vbi realiter non attingit, secundum quod au 
+      <lb ed="#L" n="88"/>ctor rationibus declarat super primo articulo 
+      <lb ed="#L" n="89"/>in opinione secunda. Deum ergo esse vbique, 
+      <lb ed="#L" n="90"/>non est demonstrabi le, sed pure creditum secun 
+      <lb ed="#L" n="91"/>dum istos. hoc enim attestatur scriptura sacra, 
+      <lb ed="#L" n="92"/>&amp; auctoritates Sanctorum, &amp; illa ratio, quam 
+      <lb ed="#L" n="93"/>Magister ponit in littera, quod neus non potest 
+      <lb ed="#L" n="94"/>esse nusquam. quod enim nusquam est, nihil est: 
+      <lb ed="#L" n="95"/>restat, quod nihil sit alicubi, &amp; alicubi non: quod 
+      <lb ed="#L" n="96"/>repugnaret diuinae perfectioni. posset enim mu 
+      <lb ed="#L" n="97"/>tari transeundo de loco ad locum, aut quod po 
+      <lb ed="#L" n="98"/>neretur vbique: quod vtique verum est. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2292">
+                  <lb ed="#L" n="99"/>Opinio quorumdam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2297">
+                  <lb ed="#L" n="100"/>IXERVNT autem alij, quod 
+      omnipoten<lb ed="#L" break="no" n="101"/>tia potest Deus demonstrari esse vbique, 
+      <lb ed="#L" n="102"/>non quidem quia operatio Deum arguat 
+      coexi<lb ed="#L" break="no" n="103"/>stentem effectui operato; sed per alium modum. 
+      <lb ed="#L" n="104"/>omnipotentia namque Dei in hoc consistit, quod 
+      <lb ed="#L" n="105"/>potest in omne illud, quod non implicat 
+      contra<lb ed="#L" break="no" n="106"/>dictionem. tunc ergo posita re in esse, neus 
+      ne<lb ed="#L" break="no" n="107"/>cessario est praesens illi essentialiter, vel potest 
+      <lb ed="#L" n="108"/>non esse praesens. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2319">
+                  <lb ed="#L" n="109"/>Sed non potest dari secundum, quia si potest 
+      <lb ed="#L" n="110"/>non esse praesens, &amp; postea praesens; aut hoc 
+      e<lb ed="#L" break="no" n="111"/>rit per mutationem factam in creatura, aut per 
+      <lb ed="#L" n="112"/>mutationem factam in Deo. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2330">
+                  <lb ed="#L" n="113"/>Primum dari non potest, quia per se notum 
+      <lb ed="#L" n="114"/>est philosophis, quod neus est necesse esse, &amp; im 
+      <lb ed="#L" n="115"/>possibilis mutari, &amp; secundum hoc oportebit, 
+      <lb ed="#L" n="116"/>quod de nouo incipiat esse in re per hoc, quod 
+      <lb ed="#L" n="117"/>aliquid facit in re, sed nulla mutatio facta est 
+      <lb ed="#L" n="118"/>in re, cum iam res ante esset; ergo per 
+      necessi<lb ed="#L" break="no" n="119"/>tatem Deus ante erat in re: vel sequitur vnum de 
+      <lb ed="#L" n="120"/>tribus, quod scilicet Deus possit mutari, aut 
+      <lb ed="#L" n="121"/>quod non sit omnipotens; quia non potest se 
+      <lb ed="#L" n="122"/>praesentem facere rei, aut quod semper sit in re 
+      <lb ed="#L" n="123"/>immutabiliter, &amp; de necessitate. Prima duo 
+      da<lb ed="#L" break="no" n="124"/>ri non possunt. ergo tertium sequitur de 
+      ne<lb ed="#L" break="no" n="125"/>cessitate. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2361">
+                  <lb ed="#L" n="126"/>Sed hic modus procedendi defectuosus est in 
+      <lb ed="#L" n="127"/>duobus. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2369">
+      <!--0864.xml-->
+                  <pb ed="#L" n="864"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Primo quidem, quod relinquit quartum mē- 
+      <lb ed="#L" n="2"/>brum, scilicet quod neus sit abstractus, sic quod 
+      <lb ed="#L" n="3"/>nullo modo rei sit praesens; &amp; ideo non tollitur 
+      <lb ed="#L" n="4"/>omnipotentia, licet non possit se praesentem 
+      <lb ed="#L" n="5"/>facere, sicut nec tollitur, quamuis non possit se 
+      <lb ed="#L" n="6"/>facere lapidem, vel lignum. dicerent enim 
+      phi<lb ed="#L" break="no" n="7"/>losophi, quod res abstracta nusquam est, &amp; 
+      se<lb ed="#L" break="no" n="8"/>cundum verita tem res abstracta non est praesens 
+      <lb ed="#L" n="9"/>alicui praesentialitate positiua, sed solum est ne 
+      <lb ed="#L" n="10"/>gatiue indistans. vnde ex hoc, quod ponitur 
+      <lb ed="#L" n="11"/>praesens, ponitur situari; &amp; per consequens cor 
+      <lb ed="#L" n="12"/>pus esse, non est autem Deus non omnipotens, 
+      <lb ed="#L" n="13"/>quia non potest se facere corpus esse, &amp; ita 
+      <lb ed="#L" n="14"/>omnipotentia non concludit neum vbique esse. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2408">
+                  <lb ed="#L" n="15"/>Secundo vero deficit iste modus, quia dicerent, 
+      <lb ed="#L" n="16"/>qui ponerent praesentialitatem realem, quod 
+      <lb ed="#L" n="17"/>ista est quaedam relatio realis, existens in 
+      crea<lb ed="#L" break="no" n="18"/>tura, &amp; terminata ad Deum, quae quidem esset 
+      <lb ed="#L" n="19"/>extrinsecus adueniens, &amp; per consequens imme 
+      <lb ed="#L" n="20"/>diate acquisibilis, sicut respectus vbi 
+      acquiri<lb ed="#L" break="no" n="21"/>tur, &amp; corrumpitur, nullo absoluto corrupto, 
+      <lb ed="#L" n="22"/>vel acquisito. Sic ergo Deus respectum illum 
+      <lb ed="#L" n="23"/>per suam omnipotentiam posset de nouo impri 
+      <lb ed="#L" n="24"/>mere creaturae, &amp; sic ipse fieret praesens; quia 
+      <lb ed="#L" n="25"/>respectus praesens praesentialitatis creaturae 
+      <lb ed="#L" n="26"/>de nouo datus, terminaretur ad ipsam, &amp; ita 
+      <lb ed="#L" n="27"/>per omnipotentiam, tollendo respectum, fieret 
+      <lb ed="#L" n="28"/>de praesente non praesens, &amp; de non praesente 
+      <lb ed="#L" n="29"/>praesens, illum dando de nouo, sicut &amp; angelus 
+      <lb ed="#L" n="30"/>secundum istos nunc facit se praesentem isti 
+      cor<lb ed="#L" break="no" n="31"/>pori, nunc illi per hoc, quod respectus 
+      praesen<lb ed="#L" break="no" n="32"/>tialitatis subest suae voluntati. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2450">
+                  <lb ed="#L" n="33"/>Quid dicendum secundum veritatem, &amp; primo, quod 
+      <lb ed="#L" n="34"/>operatio generalis, qua Deus cuncta conseruat, non 
+      <lb ed="#L" n="35"/>arguit demonstratiue Deum habere 
+      praesentialita<lb ed="#L" break="no" n="36"/>tem, aut coexistentiam positiuam, vel simultatem, 
+      <lb ed="#L" n="37"/>cum rebus, contra primam opinionem. 
+      <lb ed="#L" n="38"/>DESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="39"/>sub quadruplici propositione. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2468">
+                  <lb ed="#L" n="40"/>Prima quidem, quod operatio non arguit 
+      de<lb ed="#L" break="no" n="41"/>monstratiue virtutem operanté esse praesentem, 
+      <lb ed="#L" n="42"/>vel habere simultatem, aut coexistentiam, aut 
+      <lb ed="#L" n="43"/>positiuam praesentialitatem cum operatione, 
+      <lb ed="#L" n="44"/>vel operato. operatio namque, quantumcumque 
+      <lb ed="#L" n="45"/>sit situata, non arguit virtutem operantem esse 
+      <lb ed="#L" n="46"/>corpoream, vel situatam, alioquin sequeretur, 
+      <lb ed="#L" n="47"/>quod motus non posset esse a virtute abstracta, &amp; 
+      <lb ed="#L" n="48"/>ita caeli non mouerentur a virtute immateriali; 
+      <lb ed="#L" n="49"/>cuius oppositum demonstratur 8. Physic. ibi 
+      e<lb ed="#L" break="no" n="50"/>nim ostenditur, quod infinita motio caeli arguit 
+      <lb ed="#L" n="51"/>virtutem mouentem esse omnino incorpoream, 
+      <lb ed="#L" n="52"/>&amp; abstractam ab hic, vel ibi, &amp; penitus ab 
+      om<lb ed="#L" break="no" n="53"/>ni situ, sed si operatio existens in corpore argue 
+      <lb ed="#L" n="54"/>ret virtutem mouentem esse coexistentem illi cor 
+      <lb ed="#L" n="55"/>pori, vel esse simultanee praesentem, vtpote inti 
+      <lb ed="#L" n="56"/>mius existentem; necessario argueret virtutem 
+      <lb ed="#L" n="57"/>illam esse situatam, cum pateat exterius, quod 
+      <lb ed="#L" n="58"/>intus existere, vel simultanee praesens esse 
+      for<lb ed="#L" break="no" n="59"/>maliter non sit aliud, quam in eodem situ esse. 
+      <lb ed="#L" n="60"/>ergo operatio manens in corpore, non arguit 
+      <lb ed="#L" n="61"/>virtutem operantem esse intimam illi corpori, 
+      <lb ed="#L" n="62"/>vel simultanee praesentem, immo stant ista duo, 
+      <lb ed="#L" n="63"/>videlicet, quod ista virtus sit penitus abstracta, 
+      <lb ed="#L" n="64"/>sic quod nec sit intra corpus, nec extra, &amp; quod 
+      <lb ed="#L" n="65"/>immediate profluat motio corporis ab eadem: 
+      <!--0864.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>talis enim interminatio, aut insistentix ropa 
+      <lb ed="#L" n="67"/>gnat omni abstracto a fitu. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2536">
+                  <lb ed="#L" n="68"/>Sed forte dicetur, quod praesentialitas npmi 
+      <lb ed="#L" n="69"/>est aliquid situale, licet intimitas sit aliqumnaa 
+      <lb ed="#L" n="70"/>tineus ad situm, &amp; ideo praesentialitas oniausa 
+      <lb ed="#L" n="71"/>ber partis corporis probari potest de illa virtn⸗ 
+      <lb ed="#L" n="72"/>te abstracta ex vi operationis. fundabitur enis 
+      <lb ed="#L" n="73"/>non super situm, sed super esse, &amp; realitarem ds⸗ 
+      <lb ed="#L" n="74"/>lius virtutis abstractae. non solum enim fituaimim 
+      <lb ed="#L" n="75"/>situa to videtur esse praesens, immo &amp; abstrades 
+      <lb ed="#L" n="76"/>abstracto, &amp; quaelibet res, ex eo, quod res uium 
+      <lb ed="#L" n="77"/>tur posibilis esse praesens alteri rei, iuxt ni 
+      <lb ed="#L" n="78"/>Commentatoris 8. Physicor. qui dicit, quincam 
+      <lb ed="#L" n="79"/>propinquationem ad motorem debemus hiani 
+      <lb ed="#L" n="80"/>gere secundum esse, &amp; non secundum locuiica 
+      <lb ed="#L" n="81"/>eodem modo videtur posse dici de praesonri 
+      <lb ed="#L" n="82"/>litate. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2571">
+                  <lb ed="#L" n="83"/>Si vtique sic dicatur, non valet, quia uettum 
+      <lb ed="#L" n="84"/>est, quod praesentialitas est relatio situalis, vnio 
+      <lb ed="#L" n="85"/>duo abstracta non possunt apprehendi, vt mumu 
+      <lb ed="#L" n="86"/>praesentia; quia patet, quod non est aliud 
+      pre<lb ed="#L" break="no" n="87"/>sentialitas, quam propinquitas sine medio, 
+      fi<lb ed="#L" break="no" n="88"/>cut eius oppositum, videlicet absentia, muestii 
+      <lb ed="#L" n="89"/>aliud, quam elongatio quaedam, &amp; interiaceil 
+      <lb ed="#L" n="90"/>distantia; vnde destructa tota machina 
+      corpo<lb ed="#L" break="no" n="91"/>rali, nullus posset, nisi phantasmate 
+      apprehen<lb ed="#L" break="no" n="92"/>dere, quod angeli a se distant, vel sint elongatin 
+      <lb ed="#L" n="93"/>&amp; absentes: sic nec potest apprehendere, quod 
+      <lb ed="#L" n="94"/>sint propinqui, vel praesentes. &amp; patet, quodi 
+      <lb ed="#L" n="95"/>Commenta tor vtitur verbo appropinquationis, 
+      <lb ed="#L" n="96"/>quod exprimit relationem situalem; &amp; idenns 
+      <lb ed="#L" n="97"/>accipit propinquitatem positiue, sed 
+      prinati<lb ed="#L" break="no" n="98"/>ue pro non distantia. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2609">
+                  <lb ed="#L" n="99"/>Quod operatio per necessitatem arguit virtutem, d qua 
+      <lb ed="#L" n="100"/>profluit, carere relatione distantiae, contra 
+      <lb ed="#L" n="101"/>secundam opinionem. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2618">
+                  <lb ed="#L" n="102"/>SECVNDA vero propositio est, quod 
+      ope<lb ed="#L" break="no" n="103"/>Dratio per necessitatem, probat virtutem ope 
+      <lb ed="#L" n="104"/>rantem non esse elongatam, vel distantem, stta 
+      <lb ed="#L" n="105"/>quod relatio distantiae impedit operationem b 
+      <lb ed="#L" n="106"/>omnis enim virtus, quae est substantiae, &amp; elongai 
+      <lb ed="#L" n="107"/>tionis est situata; omne autem situatum agit pen 
+      <lb ed="#L" n="108"/>contactum, cum sit coporeum, &amp; quantum: 
+      om<lb ed="#L" break="no" n="109"/>ne autem agens per contactum, dum agit, 
+      ca<lb ed="#L" break="no" n="110"/>ret distantia, &amp; elongatione, contactus enim 
+      <lb ed="#L" n="111"/>est simultas opposita distantiae, &amp; 
+      elongationi<lb ed="#L" break="no" n="112"/>ergo omnis virtus, quae est apta nata subiici di 
+      <lb ed="#L" n="113"/>stantiae, &amp; elōgationi, impossibile est, quod agat 
+      <lb ed="#L" n="114"/>nisi careat actuali distantia, &amp; elongatione, su 
+      <lb ed="#L" n="115"/>per consequens omnis operatio est a virtute ine 
+      <lb ed="#L" n="116"/>distante. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2653">
+                  <lb ed="#L" n="117"/>Praeterea: Si aliqua operatio esset a 
+      virtute<lb ed="#L" break="no" n="118"/>distante, sequeretur, quod illa operatio esses 
+      <lb ed="#L" n="119"/>abstractior, &amp; altior illa virtute; quia non pror 
+      <lb ed="#L" n="120"/>cederet ab illa virtute secundum modum situa. 
+      <lb ed="#L" n="121"/>lem, &amp; linearem. si enim modo lineari, &amp; situ 
+      <lb ed="#L" n="122"/>li procederet, necessario extenderetur operatio 
+      <lb ed="#L" n="123"/>illa per totum spatium distantiae, quod est anter 
+      <lb ed="#L" n="124"/>virtutem, &amp; terminum ipsius operationis. &amp; 
+      <lb ed="#L" n="125"/>per consequens haberetur intentum, quod 
+      vir<lb ed="#L" break="no" n="126"/>tus non esset distans ab operatione; &amp; ideo 
+      vi<lb ed="#L" break="no" n="127"/>demus, cum aliquid agit in distans, quod 
+      actio<lb ed="#L" break="no" n="128"/>nem suam diffundit per totum spatium 
+      ipsum<lb ed="#L" break="no" n="129"/>alterando, quod si non procederet illa actio⸗ 
+      <lb ed="#L" n="130"/>virtute modo abstracto, abstrahendo sciliceta- 
+      <!--0865.xml-->
+      <pb ed="#L" n="865"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>spatio, &amp; distantia, ac situ, quod imposribile est. 
+      <lb ed="#L" n="2"/>tunc enim, modus agendi esset nobilior, quam 
+      <lb ed="#L" n="3"/>virtus 3 eigo impossibile est operationem 
+      pro<lb ed="#L" break="no" n="4"/>cedere a virtute fitualiter distante. vnde atten 
+      <lb ed="#L" n="5"/>dendum, quod fecundum hoc, &amp; virtus esset 
+      si<lb ed="#L" break="no" n="6"/>tuata, &amp; operatio situam; ex quo essent 
+      adin<lb ed="#L" break="no" n="7"/>nicem distantes, habitudo tamen operationis 
+      <lb ed="#L" n="8"/>d virtutem, non dependeret a situ, nec 
+      habe<lb ed="#L" break="no" n="9"/>ret aspectum ad spatium, &amp; ita modus 
+      operan<lb ed="#L" break="no" n="10"/>di esset abstractus, ita quod virtus non 
+      depen<lb ed="#L" break="no" n="11"/>deret a spatio in operando, quod impossib ile 
+      <lb ed="#L" n="12"/>est, quia operari sequitur esse, &amp; modus operan 
+      <lb ed="#L" n="13"/>di modum essendi. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2721">
+                  <lb ed="#L" n="14"/>Praeterea: Si virtus aliqua posset agere 
+      im<lb ed="#L" break="no" n="15"/>mediate in aliquid distans sub certa 
+      remotio<lb ed="#L" break="no" n="16"/>ne, poset agere immediate in aliquid distans in 
+      <lb ed="#L" n="17"/>infinitum, ex quo enim distantia non impedit, 
+      <lb ed="#L" n="18"/>nec exigitur simultas virtutis cum operatione: 
+      <lb ed="#L" n="19"/>spatium intermedium accidit virtuti in 
+      ope<lb ed="#L" break="no" n="20"/>rando; quaecunque autem variatio fiat circa ac 
+      <lb ed="#L" n="21"/>cidens, non immutatur, quod est per se, vnde 
+      va<lb ed="#L" break="no" n="22"/>riato musico, qui per accidens aedificat, 
+      sem<lb ed="#L" break="no" n="23"/>per remanere potest aedificator, per le aedificans. 
+      <lb ed="#L" n="24"/>existente ergo spatio finito, vel infinito, nil 
+      im<lb ed="#L" break="no" n="25"/>mutabitur circa operationem virtutis, quae non 
+      <lb ed="#L" n="26"/>respicit spatium, nisi per accidens. Sed constat, 
+      <lb ed="#L" n="27"/>quod sol, aut virtus alia quaecumque creata, age 
+      <lb ed="#L" n="28"/>re non potest in aliquid distans in infinitum, si 
+      <lb ed="#L" n="29"/>infinitum per impossibile poneretur; ergo nec 
+      <lb ed="#L" n="30"/>potest absolute agere in distans immediate, 
+      <lb ed="#L" n="31"/>spatio intermedio abstrahendo. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2763">
+                  <lb ed="#L" n="32"/>Praeterea: Quandocumque aliqua finita 
+      di<lb ed="#L" break="no" n="33"/>stantia exigitur inter virtutem, &amp; operationem, 
+      <lb ed="#L" n="34"/>ita quod virtus aspiciat aliquam certam 
+      di<lb ed="#L" break="no" n="35"/>stantiam, vltra quam agere non potest, 
+      ea<lb ed="#L" break="no" n="36"/>dem virtus necessario aspicit quamlibet 
+      par<lb ed="#L" break="no" n="37"/>tem illius distantiae, &amp; ita illud spatium, quod 
+      <lb ed="#L" n="38"/>est inter virtutem, &amp; operationem, aspicit, 
+      <lb ed="#L" n="39"/>qtantum ad omnem sui partem, sed virtus 
+      <lb ed="#L" n="40"/>aspiciens spatium, quantum ad quamlibet sui 
+      <lb ed="#L" n="41"/>partem in operando, necessario totum 
+      spa<lb ed="#L" break="no" n="42"/>tium alterat, &amp; immutat. ergo talis virtus 
+      <lb ed="#L" n="43"/>necessario elicit operationem primo in 
+      par<lb ed="#L" break="no" n="44"/>tem spatij contingentem, &amp; deinde in partes 
+      <lb ed="#L" n="45"/>reliquas, &amp; per consequens agit contingendo, 
+      <lb ed="#L" n="46"/>nec immediate indistans, relinquitur ergo, 
+      <lb ed="#L" n="47"/>quod virtus quae non potest agere in distans in 
+      <lb ed="#L" n="48"/>infinitum, sed impeditur ab aliqua finita 
+      distan<lb ed="#L" break="no" n="49"/>tia, necesario impediatur a qualibet distantia, 
+      <lb ed="#L" n="50"/>quantumcumque minima; nisi prius pars, virtutem 
+      <lb ed="#L" n="51"/>contingens, immediate attingatur. respicit 
+      <lb ed="#L" n="52"/>quidem quamlibet partem medij, ex quo 
+      respi<lb ed="#L" break="no" n="53"/>cit totum; nam totalitas consurgit ex 
+      parti<lb ed="#L" break="no" n="54"/>bus, &amp; si non respiceret aliquam partem, 
+      <lb ed="#L" n="55"/>iam non respiceret totum. illud autem 
+      respi<lb ed="#L" break="no" n="56"/>cere non est aliud, quam per operationem 
+      <lb ed="#L" n="57"/>attingere: vnde manifestum est, quod si 
+      ali<lb ed="#L" break="no" n="58"/>qua finita distantia impedit virtutem, hoc 
+      <lb ed="#L" n="59"/>non est, nisi quia per totum spatium 
+      diffun<lb ed="#L" break="no" n="60"/>ditur operatio; &amp; ita talis virtus non aget 
+      im<lb ed="#L" break="no" n="61"/>mediare in distans: quod si operatio non 
+      dif<lb ed="#L" break="no" n="62"/>funditur, a nulla finita distantia virtus 
+      im<lb ed="#L" break="no" n="63"/>pedietur: &amp; ita sol potest inducere formam 
+      <lb ed="#L" n="64"/>substantialem, quantum est ex se, in 
+      mate<lb ed="#L" break="no" n="65"/>riam dispositam, in infinitum distantem, si eius 
+      <!--0865.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>actio non eget, vt per torui spatium iterru 
+      <lb ed="#L" n="67"/>dium diffundatus. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2848">
+                  <lb ed="#L" n="68"/>Est ergo sciendum, quid ideo omnis viomm 
+      <lb ed="#L" n="69"/>corporea potest in aliquam cortam 
+      distan<lb ed="#L" break="no" n="70"/>tiam; ita quod vlera non potest, quia dil 
+      <lb ed="#L" n="71"/>fundit actionem suam per totum medium, 
+      <lb ed="#L" n="72"/>ita quod immediate partem propinquant 
+      at<lb ed="#L" break="no" n="73"/>tingit, &amp; deinde partem remoram, eediuu. 
+      <lb ed="#L" n="74"/>te propinqua, actio autem quanto magis 
+      re<lb ed="#L" break="no" n="75"/>mouetur a virtute, tanto amplius debilitu⸗ 
+      <lb ed="#L" n="76"/>tur: &amp; per consequens in terea distantia 
+      <lb ed="#L" n="77"/>deficit. sed si virtus non diffunderes actin⸗ 
+      <lb ed="#L" n="78"/>nem in totum spatium, sed immediate dis 
+      <lb ed="#L" n="79"/>funderet in distans, non esset debilior actio 
+      <lb ed="#L" n="80"/>in parte magis distante, quam minus 
+      distan<lb ed="#L" break="no" n="81"/>te, cum aeque immediate prostueret a 
+      virtu<lb ed="#L" break="no" n="82"/>te; &amp; per consequens, quaecumque distamila 
+      <lb ed="#L" n="83"/>daretur, virtutem istam in agendo non 
+      im<lb ed="#L" break="no" n="84"/>pediret. cum ergo nulla sit virtus situata 
+      <lb ed="#L" n="85"/>&amp; corporea, quae possit in omnem distautiam 
+      <lb ed="#L" n="86"/>in infinitum; manifeste conuincitur, quod 
+      <lb ed="#L" n="87"/>nulla potest immediate in aliquid distaus, 
+      <lb ed="#L" n="88"/>sed semper attingit propinquius mediante 
+      re<lb ed="#L" break="no" n="89"/>motiori: vnde agens corporeum, agit 
+      con<lb ed="#L" break="no" n="90"/>tingendo superficiem passi. nec potest 
+      da<lb ed="#L" break="no" n="91"/>ri primi pars, quae immediate attingat; illa 
+      <lb ed="#L" n="92"/>enim diuisibilis esset, &amp; partem priorem 
+      il<lb ed="#L" break="no" n="93"/>lius partis prius attigisset., &amp; deinde 
+      eius<lb ed="#L" break="no" n="94"/>dem partis partem propinquiorem, &amp; sic in 
+      <lb ed="#L" n="95"/>infinitum: &amp; ideo dari non potest primum mu 
+      <lb ed="#L" n="96"/>tatum esse- 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2914">
+                  <lb ed="#L" n="97"/>Et si dicatur, quod ea, quae dicta sunt, 
+      <lb ed="#L" n="98"/>probant de virtute corporea, quod non 
+      pos<lb ed="#L" break="no" n="99"/>sit in distans, sed non de virtute diuina, aut 
+      <lb ed="#L" n="100"/>quacumque spirituali, &amp; abstracta; non 
+      va<lb ed="#L" break="no" n="101"/>let quidem; quia omnis virtus distans, 
+      neces<lb ed="#L" break="no" n="102"/>sario est corporea, &amp; situata, cum distantia 
+      <lb ed="#L" n="103"/>sit relatio fundata super situatum, &amp; positum; 
+      <lb ed="#L" n="104"/>tale autem es quantum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2934">
+                  <lb ed="#L" n="105"/>Quod rationes supra positae articulo primo 
+      <lb ed="#L" n="106"/>opinione secunda, concludentes, quod 
+      <lb ed="#L" n="107"/>aliquid potest agere in distans 
+      <lb ed="#L" n="108"/>immediate, efficaces 
+      <lb ed="#L" n="109"/>non sunt. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2947">
+                  <lb ed="#L" n="110"/>TERTIA quoque propositio est, quod 
+      ra<lb ed="#L" break="no" n="111"/>tiones, supra primo articulo inductae, 
+      <lb ed="#L" n="112"/>quod aliquid possit agere immediate in 
+      ali<lb ed="#L" break="no" n="113"/>quod distans a forma, per quam agit, nullo 
+      mo<lb ed="#L" break="no" n="114"/>do procedunt. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e2960">
+                  <lb ed="#L" n="115"/>Prima siquidem non; falsum enim assumit, 
+      <lb ed="#L" n="116"/>scilicet quod formarum substantialium 
+      intro<lb ed="#L" break="no" n="117"/>ductio sit immediate a forma solum, &amp; non 
+      me<lb ed="#L" break="no" n="118"/>diante calore, qui generatur a sole, radio 
+      me<lb ed="#L" break="no" n="119"/>diante; secundum hoc enim generatio formae 
+      <lb ed="#L" n="120"/>substantialis non esset finis alterationis, 
+      quam<lb ed="#L" break="no" n="121"/>uis esset in fine alterationis: nec esset vna actio 
+      <lb ed="#L" n="122"/>alteratio, &amp; introductio formae substantialis in 
+      <lb ed="#L" n="123"/>ordine ad agens, sed essent actiones duae dispa 
+      <lb ed="#L" n="124"/>rate coniunctae, &amp; ita generatio formae 
+      substan<lb ed="#L" break="no" n="125"/>tialis fieret per se ab agente: quod est contra Cõ- 
+      <lb ed="#L" n="126"/>mentatorem sexto Physicorum, qui dicit. quod 
+      <!--0866.xml-->
+      <pb ed="#L" n="866"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>transm utationes sunt duobus modis, quia 
+      mo<lb ed="#L" break="no" n="2"/>dus existens per se, &amp; est transmutatio, quae est de 
+      <lb ed="#L" n="3"/>quiete in quietem, &amp;t iodus existens non per se, &amp; 
+      <lb ed="#L" n="4"/>est transmutatio, quae est finis alterius transmuta 
+      <lb ed="#L" n="5"/>tionis, vt mutatio colunum de dextro in dextrum a 
+      <lb ed="#L" n="6"/>matu locali columnae: &amp; manifestum est, quod 
+      mu<lb ed="#L" break="no" n="7"/>tationes istae sunt in non tempore ; quia sunt 
+      fi<lb ed="#L" break="no" n="8"/>nes transmutatrom. finis autem 
+      indiuisibi<lb ed="#L" break="no" n="9"/>li est. &amp; difert a ilio, euins est finis, &amp; est 
+      ma<lb ed="#L" break="no" n="10"/>nifectum, quod impoffibile est, vt sit per se. haec 
+      <lb ed="#L" n="11"/>Commentator, Ix quibus patet, quod nulla 
+      <lb ed="#L" n="12"/>matio indiuisilis attingitur immediate ab 
+      <lb ed="#L" n="13"/>agente, sed mediāte aliqua transmutatione di 
+      <lb ed="#L" n="14"/>nisibili, cuius indiuibilis transmutatio sit 
+      ter<lb ed="#L" break="no" n="15"/>minus, &amp; finis. vnde transmutans columnamsa 
+      <lb ed="#L" n="16"/>dexera in sinistram, non facit alia actione 
+      co<lb ed="#L" break="no" n="17"/>lummam dextram, nisi transmutando localiter 
+      <lb ed="#L" n="18"/>ipsam, nec domificans alia actione inducit 
+      <lb ed="#L" n="19"/>formam domus, quam per motum localem 
+      <lb ed="#L" n="20"/>lapidum, &amp; lignorum, nec imprimens figuram 
+      <lb ed="#L" n="21"/>in cera, alia actione figuram imprimit, &amp; alia 
+      <lb ed="#L" n="22"/>partes mouet, immo partes cerae mouendo 
+      <lb ed="#L" n="23"/>ad situs varios, eadem motione figuram 
+      intro<lb ed="#L" break="no" n="24"/>ducit. similiter ergo inducens formam substan 
+      <lb ed="#L" n="25"/>tialem, non alia actione imprimit formam substam 
+      <lb ed="#L" n="26"/>tialem ab alteratione, immo alterando 
+      for<lb ed="#L" break="no" n="27"/>mam substantialem per modum cuiusdam 
+      se<lb ed="#L" break="no" n="28"/>quelae inducit. sicut enim figura est quaedam 
+      se<lb ed="#L" break="no" n="29"/>quela motus localis, pro eo quod eius 
+      termi<lb ed="#L" break="no" n="30"/>nus, scilicet situs partium, est accidens proprium, 
+      <lb ed="#L" n="31"/>&amp; inseparabile a figura, propter quod inducens 
+      <lb ed="#L" n="32"/>varium situm partium de minoritate, ex 
+      conse<lb ed="#L" break="no" n="33"/>quenti inducit figuram, alioquin separaretur 
+      <lb ed="#L" n="34"/>situs partium a figura, quod imposs ibile est, sic 
+      <lb ed="#L" n="35"/>inducens accidentia propria formae 
+      substan<lb ed="#L" break="no" n="36"/>tialis, &amp; inseparabilia: inducit per 
+      necessita<lb ed="#L" break="no" n="37"/>tem consequenter formam substantialem: 
+      pro<lb ed="#L" break="no" n="38"/>pter quod dicit Commentator primo Physic. 
+      <lb ed="#L" n="39"/>quod si forma substantialis non suscipit magis, 
+      <lb ed="#L" n="40"/>&amp; minus, necessario accidit in proprijs acciden 
+      <lb ed="#L" n="41"/>tibus, quod non cessant partes recedere, &amp; 
+      <lb ed="#L" n="42"/>partes fieri, donec forma inducatur; vnde 
+      ne<lb ed="#L" break="no" n="43"/>cessario sequitur alterationem: &amp; similiter in 
+      <lb ed="#L" n="44"/>sexto dicit, quod cum caro generatur ex 
+      san<lb ed="#L" break="no" n="45"/>guine, amittuntur qualitates, &amp; accidentia 
+      <lb ed="#L" n="46"/>propria sanguinis, &amp; fiunt propria carnis, 
+      do<lb ed="#L" break="no" n="47"/>nec mittatur forma sanguinis, &amp; fiat forma car 
+      <lb ed="#L" n="48"/>nis in non tempore. similiter etiam secundo cae 
+      <lb ed="#L" n="49"/>li, &amp; mundi, sententialiter dicit, quod calor ge 
+      <lb ed="#L" n="50"/>neratur a motu, quia motus est perfectio 
+      cor<lb ed="#L" break="no" n="51"/>poris calidi. cum ergo corpus fuerit in sua 
+      vl<lb ed="#L" break="no" n="52"/>tima perfectione motus, erunt &amp; omnia 
+      acci<lb ed="#L" break="no" n="53"/>dentia necessaria formae ignis in sua 
+      perfectio<lb ed="#L" break="no" n="54"/>ne, &amp; ita &amp; forma ignis; propter quod motus 
+      <lb ed="#L" n="55"/>generat calorem, &amp; ignem. sic ergo radius 
+      sola<lb ed="#L" break="no" n="56"/>ris inducit in materia corporali lucem 
+      pro<lb ed="#L" break="no" n="57"/>priam alicui formae substantiali, &amp; inducendo 
+      <lb ed="#L" n="58"/>lucem, necessario inducit calorem 
+      proportio<lb ed="#L" break="no" n="59"/>nalem illi formae, &amp; mediate omnia 
+      acciden<lb ed="#L" break="no" n="60"/>tia propria: quibus inductis, forma 
+      substan<lb ed="#L" break="no" n="61"/>tialis de necessitate inducta est eadem 
+      indu<lb ed="#L" break="no" n="62"/>ctione, quemadmodum &amp; figura eadem 
+      actio<lb ed="#L" break="no" n="63"/>ne inducitur in cera, qua partes cerae 
+      mo<lb ed="#L" break="no" n="64"/>uentur ad situm proportionalem illi figurae: 
+      <lb ed="#L" n="65"/>&amp; propter hoc Philosophus septimo Physico- 
+      <!--0866.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>rum assimilat generationem sorumrum substus 
+      <lb ed="#L" n="67"/>tialium genorationi figurarum. &amp; apeii 
+      <lb ed="#L" n="68"/>rum, doquira specie qualitatis. qse uea 
+      <lb ed="#L" n="69"/>quod don sit immediate motus in ds, Iu 
+      <lb ed="#L" n="70"/>ooquirueai per modum sequela, ain au 
+      <lb ed="#L" n="71"/>quisitoa ebi dicit Commentaton, quod si a 
+      <lb ed="#L" n="72"/>meratio figurarum est alteratio, connuu 
+      <lb ed="#L" n="73"/>quod grneratio in substantia est alteratio, q 
+      <lb ed="#L" n="74"/>si sit simile omniso, in acquifitionibus vep 
+      <lb ed="#L" n="75"/>que. vnde pates, quod in istis, quod est o 
+      <lb ed="#L" n="76"/>mum intentione agentis, est ultimum inam 
+      <lb ed="#L" n="77"/>quutione. nam artifex, &amp; sigillans per priala 
+      <lb ed="#L" n="78"/>tendit formam domus, &amp; figuram sigilli o 
+      <lb ed="#L" n="79"/>inducit autem, nisi ex consequenti per morum 
+      <lb ed="#L" n="80"/>sequela. similitor &amp; penarans, per prius inmm 
+      <lb ed="#L" n="81"/>dit formam substantialem, &amp; tamen ipsom⸗ 
+      <lb ed="#L" n="82"/>per prius non inducit. quia non indacbhb 
+      <lb ed="#L" n="83"/>est, cum sit indiuisibilis. Non est autem i 
+      <lb ed="#L" n="84"/>rum, quod aliqui imaginamur, sicum potim 
+      <lb ed="#L" n="85"/>formaliter esse figuram, &amp; propter hoc inai⸗ 
+      <lb ed="#L" n="86"/>cens situm, inducat figuram. situs enim as 
+      <lb ed="#L" n="87"/>propria passio quantitatis, vt patet in pimi⸗ 
+      <lb ed="#L" n="88"/>camentis, &amp; respondetur formaliter ad 
+      muria<lb ed="#L" break="no" n="89"/>gationem factam per vbi, dicitur enima uddhec 
+      <lb ed="#L" n="90"/>pars est superior, illa inferior, haec ibi, la 
+      <lb ed="#L" n="91"/>hicifigura autem, cum sit terminus quantitatia, 
+      <lb ed="#L" n="92"/>non respondetur ad interrogationem fudam 
+      <lb ed="#L" n="93"/>per vbi, sed per quale; vnde patet, quihsim 
+      <lb ed="#L" n="94"/>&amp; terminus quantitatis non sunt toumalitr 
+      <lb ed="#L" n="95"/>idem 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3205">
+                  <lb ed="#L" n="96"/>Quod ergo assumebatur solem per su 
+      for<lb ed="#L" break="no" n="97"/>mam substantialem, inducere formas 
+      istan<lb ed="#L" break="no" n="98"/>les, &amp; non radio mediante, patet quod falsum 
+      <lb ed="#L" n="99"/>est, quia radio alter ante, inducit omnis 
+      acri<lb ed="#L" break="no" n="100"/>dentia propria formae generandae, &amp; ipsam far 
+      <lb ed="#L" n="101"/>mam per modum sequelae, sicut artitos, 
+      a<lb ed="#L" break="no" n="102"/>diante motu locali, inducit formam domm. 
+      <lb ed="#L" n="103"/>non enim artifex per motum localem disponit 
+      <lb ed="#L" n="104"/>partes, vt deinde alia actione imprimat. 
+      sor<lb ed="#L" break="no" n="105"/>mam: &amp; ideo nec sol per radium disponis 
+      na<lb ed="#L" break="no" n="106"/>teriam, vt demum in fine di spositionis sur 
+      <lb ed="#L" n="107"/>aliam actionem imprimat formam, immo 
+      a<lb ed="#L" break="no" n="108"/>terando inducit formam, tanquam finem 
+      ala<lb ed="#L" break="no" n="109"/>rationis; finis enim saperari non potest ab eo, 
+      <lb ed="#L" n="110"/>cuius est finis, accipiendo finem pro termino 
+      in<lb ed="#L" break="no" n="111"/>diuisibili, cuiusmodi est punctus, respectu 
+      li<lb ed="#L" break="no" n="112"/>neae. &amp; simililer finis attingitur immediate ab 
+      <lb ed="#L" n="113"/>eo, cuius est finis. quare alteratio de 
+      necelsi<lb ed="#L" break="no" n="114"/>tate attingit generationem formae 
+      substantia<lb ed="#L" break="no" n="115"/>lis. nec est verum, quin illud, quod 
+      acquiri<lb ed="#L" break="no" n="116"/>tur per modum sequelae, possit excedere 
+      me<lb ed="#L" break="no" n="117"/>dium, per quod attingitur; alioquin motus 
+      <lb ed="#L" n="118"/>non generaret ignem. vnde propositio illa, quod 
+      <lb ed="#L" n="119"/>effectus aequiuocus non excedit suam causam, 
+      <lb ed="#L" n="120"/>non habet verum, nisi in effectu totaliter 
+      pro<lb ed="#L" break="no" n="121"/>ducto, sicut est in creatura; ibi enim totus 
+      effe<lb ed="#L" break="no" n="122"/>ctus continetur virtualiter in agente, &amp; pel 
+      <lb ed="#L" n="123"/>consequens inferior est virtute agentis; in ef 
+      <lb ed="#L" n="124"/>fectibus vero, quorum productio non est 
+      crea<lb ed="#L" break="no" n="125"/>tio, sed tantum motio materiae, donec potene 
+      <lb ed="#L" n="126"/>tia trahatur ad actum, hoc est materia tu 
+      <lb ed="#L" n="127"/>formam, necessario huiusmodi motio fit 
+      aqua<lb ed="#L" break="no" n="128"/>litatibus actiuis, &amp; passiuis, nec contintuur 
+      <lb ed="#L" n="129"/>virtualiter forma subitantialis in illis, quia pos 
+      <lb ed="#L" n="130"/>fit, cum non sit, nisi perfectio, &amp; complementum. 
+      <!--0867.xml-->
+      <pb ed="#L" n="867"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>&amp; nullo modo res praecise. vnde per hunc 
+      mo<lb ed="#L" break="no" n="2"/>dum declarat Commentator 11. Metaphysicae, 
+      <lb ed="#L" n="3"/>quomodo forma ignis potest induci a motu, 
+      <lb ed="#L" n="4"/>cum sit perfectior ipso motu. ait enim, quod 
+      <lb ed="#L" n="5"/>cum dicitur conueniens, seu simile fieri a 
+      con<lb ed="#L" break="no" n="6"/>ueniente simile sibi, nón est intentio, quod 
+      con<lb ed="#L" break="no" n="7"/>ueniens agat per se, id est per suam formam 
+      <lb ed="#L" n="8"/>sibi conuenientis; sed est dicere, quod extrahit 
+      <lb ed="#L" n="9"/>eam de potentia in actum, &amp; sequitur 
+      gene<lb ed="#L" break="no" n="10"/>rans. ergo non est dicere, quod anima ponat 
+      <lb ed="#L" n="11"/>animam in materia, sed extrahit illud, quod 
+      <lb ed="#L" n="12"/>est in anima in potentia, ad esse animam in 
+      <lb ed="#L" n="13"/>actu. vnde ignis generatur a motu, fieut ab 
+      <lb ed="#L" n="14"/>igne. Hoc Commentator, vnde patet, quod si 
+      <lb ed="#L" n="15"/>agens faceret formam, tamquam vnam rem 
+      <lb ed="#L" n="16"/>praecisam, non esset possibile, quod motus 
+      ge<lb ed="#L" break="no" n="17"/>neraret ignem, aut quod virtus formatiua 
+      exi<lb ed="#L" break="no" n="18"/>stens in semine generaret animam; sed quia nul 
+      <lb ed="#L" n="19"/>la res fit totaliter per agens naturale, sed 
+      tan<lb ed="#L" break="no" n="20"/>tum perficitur, &amp; completur; possibile est, 
+      <lb ed="#L" n="21"/>quod aliquid ignobilius moueat incompletum 
+      <lb ed="#L" n="22"/>ad suum completum; &amp; hoc vocauerunt 
+      anti<lb ed="#L" break="no" n="23"/>qui latitationem formarum, aut inchoatiuum, 
+      <lb ed="#L" n="24"/>seu seminarium. non est autem ibi 
+      inchoati<lb ed="#L" break="no" n="25"/>uum aliud, nisi ipsamet materia. realitas enim 
+      <lb ed="#L" n="26"/>ignis, cum sit vna simpliciter indiuisibilis in 
+      <lb ed="#L" n="27"/>duas, quarum quaelibet sit hoc aliquid, &amp; res 
+      <lb ed="#L" n="28"/>praecisa; diuisibilis est in aliqua, quae non sunt 
+      <lb ed="#L" n="29"/>praecisae; sed potius rei; vnde non sunt duo in 
+      <lb ed="#L" n="30"/>veritate, secundum Commentatorem ibidem. 
+      <lb ed="#L" n="31"/>ignis ergo est inchoatus in aere per aliquid sui, 
+      <lb ed="#L" n="32"/>&amp; dum a motu illud inchoatiuum trahitur ad 
+      <lb ed="#L" n="33"/>complementum, generatur realitas ignis in 
+      <lb ed="#L" n="34"/>actu, cuius quidem praecessit inchoatio, quae 
+      <lb ed="#L" n="35"/>est materia, &amp; subsecutus est actus, &amp; 
+      comple<lb ed="#L" break="no" n="36"/>mentum, quod est forma, sed de his dictum est 
+      <lb ed="#L" n="37"/>perfectius in tractatu de principiis physicis, &amp; 
+      <lb ed="#L" n="38"/>dicetur etiam amplius in secundo. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3372">
+                  <lb ed="#L" n="39"/>Non valet etiam secunda, quia verum non 
+      <lb ed="#L" n="40"/>est, quin sol sua virtute penetret vsque ad 
+      inti<lb ed="#L" break="no" n="41"/>ma terrae, vbi mineralia generantur. haec 
+      au<lb ed="#L" break="no" n="42"/>tem virtus, vel est ipsemet radius, qui aliquo 
+      <lb ed="#L" n="43"/>modo potest penetrare, etiam vique ad 
+      cen<lb ed="#L" break="no" n="44"/>trum terrae, quia omne elementum, etiam 
+      <lb ed="#L" n="45"/>ipsa terra, habet aliquid diaphaneitatis, alias 
+      <lb ed="#L" n="46"/>quodlibet elementum non haberet propriam 
+      <lb ed="#L" n="47"/>lucem, &amp; visibilem qualitatem, cuius 
+      oppo<lb ed="#L" break="no" n="48"/>situm patet per sensum, vel potest esse alia 
+      <lb ed="#L" n="49"/>qualitas insensibilis, delata cum lumine; quod 
+      <lb ed="#L" n="50"/>videtur innuere Commentator secundo caeli, &amp; 
+      <lb ed="#L" n="51"/>mundi, cum dicit, quod non est remotum, quod 
+      <lb ed="#L" n="52"/>aliqua forma compleatur cum lumine, &amp; 
+      re<lb ed="#L" break="no" n="53"/>flectatur cum sua reflexione, &amp; abscindatur 
+      <lb ed="#L" n="54"/>cum sua abscissione, &amp; loquitur de illa 
+      virtu<lb ed="#L" break="no" n="55"/>te, per quam sol, &amp; stellae generant ista 
+      infe<lb ed="#L" break="no" n="56"/>riora: vel potest dici, quod ista virtus sit 
+      ali<lb ed="#L" break="no" n="57"/>quis calor, aut aliqua qualitas proueniens a 
+      ra<lb ed="#L" break="no" n="58"/>dio solis, reflexo in superficie terrae, &amp; 
+      proce<lb ed="#L" break="no" n="59"/>dens vlterius alterando vsque ad loca illa, vbi 
+      <lb ed="#L" n="60"/>mineralia generantur. Sol etiam existens in 
+      <lb ed="#L" n="61"/>alio hemisphaerio dicitur plantas, &amp; homines in 
+      <lb ed="#L" n="62"/>nostro hemisphaerio generare, &amp; conseruare, vel 
+      <lb ed="#L" n="63"/>ratione qualitatum derelictarum in ipso 
+      hemi<lb ed="#L" break="no" n="64"/>sphaerio, ex latione solis diurna, vel ratione 
+      ra<lb ed="#L" break="no" n="65"/>diorum solarium, qui reflectuntur ad lunam, &amp; 
+      <lb ed="#L" n="66"/>stellas, quoniam omnia sidera aliqualiter 
+      lu<lb ed="#L" break="no" n="67"/>men recipiunt a sole. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3438">
+      <!--0867.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>Non obsistit etiam tertia, quia 
+      omnipo<lb ed="#L" break="no" n="69"/>tens suo velle sic causat, quod nec est 
+      propin<lb ed="#L" break="no" n="70"/>quus, nec distans illi rei, quam causat, cum 
+      <lb ed="#L" n="71"/>simpliciter sit abstractus, sed est omnino 
+      indi<lb ed="#L" break="no" n="72"/>stans, &amp; per consequens habetur propositum, 
+      <lb ed="#L" n="73"/>quod nulla virtus potest agere in aliquid sibi 
+      <lb ed="#L" n="74"/>di stans. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3460">
+                  <lb ed="#L" n="75"/>Nec obuiat etiam quarta; procedit 
+      enim<lb ed="#L" break="no" n="76"/>ex falsa imaginatione, quasi Deus esset 
+      prae<lb ed="#L" break="no" n="77"/>sens intimitate positiua; tunc enim 
+      separare<lb ed="#L" break="no" n="78"/>tur operatio a tali praesentialitate, tamquam 
+      <lb ed="#L" n="79"/>quid prius; sed quia praesentialitas 
+      huiusmo<lb ed="#L" break="no" n="80"/>di est tantum indistantia, quam quidem sibi 
+      de<lb ed="#L" break="no" n="81"/>terminat operatio circa virtutem, a qua fluit, 
+      <lb ed="#L" n="82"/>impossibile est, quod apprehendatur Deus, vt 
+      <lb ed="#L" n="83"/>operans, quin statim apprehendatur indistans. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3482">
+                  <lb ed="#L" n="84"/>Non valet etiam quinta: tum quia non 
+      le<lb ed="#L" break="no" n="85"/>gitur, quod isti allegant, Philosophum, aut 
+      <lb ed="#L" n="86"/>Commentatorem dixisse, quod sit aliqua 
+      intel<lb ed="#L" break="no" n="87"/>ligentia mouens orbem non existens in orbe, 
+      <lb ed="#L" n="88"/>per modum, qui expressus est, scilicet per 
+      in<lb ed="#L" break="no" n="89"/>distantiam negatiuam, immo expresse 
+      Philoso<lb ed="#L" break="no" n="90"/>phus primo caeli, &amp; mundi, dicit Deum esse 
+      <lb ed="#L" n="91"/>in caelo. vbi Commentator ait, quod dicere 
+      <lb ed="#L" n="92"/>Deum esse in caelo, &amp; corpus in loco, non est 
+      <lb ed="#L" n="93"/>idem; declaratus est enim in fine octaui 
+      Physi<lb ed="#L" break="no" n="94"/>corum, modus, secundum quem Deus dicitur 
+      <lb ed="#L" n="95"/>esse in caelo, &amp; post declarabit Magister in 
+      <lb ed="#L" n="96"/>scientia diuinali: tum quia primum 
+      princi<lb ed="#L" break="no" n="97"/>pium non mouet, vt efficiens motum, 
+      secun<lb ed="#L" break="no" n="98"/>dum philosophos executiue, sed tantum 
+      intel<lb ed="#L" break="no" n="99"/>ligentia coniuncta, qua appellatur motor 
+      or<lb ed="#L" break="no" n="100"/>bis; &amp; ideo non procederet ratio, quod 
+      effi<lb ed="#L" break="no" n="101"/>ciens motum non intelligatur semper esse 
+      in<lb ed="#L" break="no" n="102"/>distans. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3526">
+                  <lb ed="#L" n="103"/>Est tamen sciendum, quod quia 
+      primum<lb ed="#L" break="no" n="104"/>principium mouet causando desiderium in mo 
+      <lb ed="#L" n="105"/>tore coniuncto secundum philosophos: ideo 
+      in<lb ed="#L" break="no" n="106"/>telligitur non distare ab illo motore, 
+      secun<lb ed="#L" break="no" n="107"/>dum eos, propter quod posuerunt ipsum in 
+      <lb ed="#L" n="108"/>eadem parte orbis per indistantiam, in qua 
+      po<lb ed="#L" break="no" n="109"/>suerunt motorem. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3544">
+                  <lb ed="#L" n="110"/>Non procedit etiam sexta; quia illa 
+      praesen<lb ed="#L" break="no" n="111"/>tialitas non est positiua, sed negatio sola, &amp; ideo 
+      <lb ed="#L" n="112"/>simul intelligitur circa virtutem cum effluxu 
+      <lb ed="#L" n="113"/>operationis ab ipsa. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3555">
+                  <lb ed="#L" n="114"/>Non cogit etiam septima: quia licet 
+      pro<lb ed="#L" break="no" n="115"/>positio, agens, &amp; patiens sint simul, 
+      solummo<lb ed="#L" break="no" n="116"/>do teneat in corporibus, quae agunt per 
+      con<lb ed="#L" break="no" n="117"/>tactum; generaliter tamen verum est, quod 
+      o<lb ed="#L" break="no" n="118"/>peratio est indistans a virtute, siue illa virtus 
+      <lb ed="#L" n="119"/>corporalis sit, siue incorporea, &amp; abstracta. in 
+      <lb ed="#L" n="120"/>virtute vero corporea non sufficit sola indistan 
+      <lb ed="#L" n="121"/>tia negatiua, sed est ibi necessaria simultas, &amp; 
+      <lb ed="#L" n="122"/>contactus. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3578">
+                  <lb ed="#L" n="123"/>Non obsistit etiam vltima: non est enim 
+      ve<lb ed="#L" break="no" n="124"/>rum, quod ideo sol inducat formas 
+      substan<lb ed="#L" break="no" n="125"/>tiales radio prius diffuso, quia hoc exigat 
+      or<lb ed="#L" break="no" n="126"/>do potentiarum actiuarum, aut propter 
+      pro<lb ed="#L" break="no" n="127"/>cessum ab imperfecto: ad perfectum, immo 
+      <lb ed="#L" n="128"/>perfectior est operatio in parte propinquiori, 
+      <lb ed="#L" n="129"/>quam in remotiori; dum tamen adsit 
+      suscepti<lb ed="#L" break="no" n="130"/>uum. est ergo ratio, quia alteratio inducit ad 
+      <lb ed="#L" n="131"/>formam substantialem, sicut motio partium 
+      ce<lb ed="#L" break="no" n="132"/>rae inducit siguram sigilli; &amp; idcirco non 
+      sequi<lb ed="#L" break="no" n="133"/>tur, quin omne agens sit indistans a sua 
+      opera<lb ed="#L" break="no" n="134"/>tionez quia vel operatio contiguatur agenti, si- 
+      <!--0868.xml-->
+      <pb ed="#L" n="868"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>eut in corporalibus, vel saltem in distans, sicut 
+      <lb ed="#L" n="2"/>in formis abstractis.
+    </p>
+               <p xml:id="ol96b1-277864-d1e3617">
+                  <lb ed="#L" n="3"/>Quod vniuersalis conseruatio, qua Deus agit in res om 
+      <lb ed="#L" n="4"/>nes, ipsas manutenendo, probat 
+      demonstra<lb ed="#L" break="no" n="5"/>tiue, Deum esse per essentiam 
+      indi<lb ed="#L" break="no" n="6"/>stantem ab omnibus rebus, 
+      <lb ed="#L" n="7"/>&amp; ita quod sit 
+      <lb ed="#L" n="8"/>vbique. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3633">
+                  <lb ed="#L" n="9"/>QVARTA demum propositio est, quod 
+      vni<lb ed="#L" break="no" n="10"/>uersalis manutennetia, qua Deus 
+      re<lb ed="#L" break="no" n="11"/>bus omnibus intime operatur, 
+      demon<lb ed="#L" break="no" n="12"/>stratiue concludit, Deum esse vbique per 
+      indistan<lb ed="#L" break="no" n="13"/>tiam ab omnibus rebus, non quidem, quod 
+      hu<lb ed="#L" break="no" n="14"/>iusmodi manutenentia sit nota in lumine 
+      natu<lb ed="#L" break="no" n="15"/>rali, sed hac habita per fidem, &amp; supposita, quia, &amp; 
+      <lb ed="#L" n="16"/>sic omnino verum est, potest formari ratio, hoc 
+      <lb ed="#L" n="17"/>supposito, de monstratiue concludens. 
+      impossibi<lb ed="#L" break="no" n="18"/>le est enim propriam operationem profluere a 
+      vir<lb ed="#L" break="no" n="19"/>tute non intellecta existente distanter, &amp; a remo 
+      <lb ed="#L" n="20"/>tis, vt iam probatum est. quare a virtute non distan 
+      <lb ed="#L" n="21"/>te: non autem oportet, quod intelligatur procedere a 
+      <lb ed="#L" n="22"/>virtute de necessitate propinqua, vt etiam demon 
+      <lb ed="#L" n="23"/>stratum est: quare relinquitur, quod hoc solum 
+      <lb ed="#L" n="24"/>sit de ratione operationis, vt cogat intellectum 
+      <lb ed="#L" n="25"/>apprehendere virtutem, vt indistantem a se. sed con 
+      <lb ed="#L" n="26"/>stat, quod operatio, qua res in esse conseruantur, 
+      <lb ed="#L" n="27"/>est intima cuiuslibet rei; ergo necesse est, quod 
+      <lb ed="#L" n="28"/>diuina virtus concipiatur, vt indistans ab 
+      inti<lb ed="#L" break="no" n="29"/>mis omnis rei. virtus autem diuina non est aliud, 
+      <lb ed="#L" n="30"/>quam sua realis essentia; ergo de necessitate ap 
+      <lb ed="#L" n="31"/>prehenditur Deus, vt indistans realiter, &amp; per 
+      <lb ed="#L" n="32"/>essentiam ab omni creatura. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3688">
+                  <lb ed="#L" n="33"/>Quod autem haec ratio demonstratiue conclu 
+      <lb ed="#L" n="34"/>dat, patet; quia omnis propositio, quae alia coas 
+      <lb ed="#L" n="35"/>sumpta, nota in lumine naturali, concludit 
+      de<lb ed="#L" break="no" n="36"/>monstratiue simpliciter, &amp; absolute; assumpta 
+      <lb ed="#L" n="37"/>vna alia, quae supponitur esse vera, concludet 
+      <lb ed="#L" n="38"/>demonstratiue, non quidem simplicite, sed ex 
+      sup<lb ed="#L" break="no" n="39"/>positione, sed Philos. &amp; Comment. 8. Phyf. demõ- 
+      <lb ed="#L" n="40"/>stratiue concludunt primum motorem in deter 
+      <lb ed="#L" n="41"/>minata parte orbis ex ista propositione: 
+      Impos<lb ed="#L" break="no" n="42"/>sibile est virtutem esse distantem ab 
+      operatio<lb ed="#L" break="no" n="43"/>ne, assumpta ista alia: operatio motoris est maxi 
+      <lb ed="#L" n="44"/>me in circulo maiori, diuidente sphaeram in duas 
+      <lb ed="#L" n="45"/>partes, arguendo sic, quod motor est per 
+      indi<lb ed="#L" break="no" n="46"/>stantiam in illa parte, vbi maxime relucet sua 
+      <lb ed="#L" n="47"/>operatio; in illo autem circulo lucet, quia 
+      velo<lb ed="#L" break="no" n="48"/>cius mouetur; ergo in illo circulo est motor, non 
+      <lb ed="#L" n="49"/>quidem situaliter, sed per omnimodam indistan 
+      <lb ed="#L" n="50"/>tiam. ergo si eadem propositio sumatur, 
+      coassu<lb ed="#L" break="no" n="51"/>mendo aliam, &amp; demus, quod Deus est ibi per 
+      <lb ed="#L" n="52"/>omnimodam indistantiam, vbi sua operatio ma 
+      <lb ed="#L" n="53"/>xime lucet, lucet autem in omnibus rebus, quia 
+      <lb ed="#L" n="54"/>omnes intime conseruat, vt supponitur ex 
+      <lb ed="#L" n="55"/>fide, ergo demonstratiue sequitur, hoc 
+      <lb ed="#L" n="56"/>supposito, quod Deus est vbique, 
+      <lb ed="#L" n="57"/>non quidem situaliter, sed 
+      <lb ed="#L" n="58"/>per omnimodam indi 
+      <lb ed="#L" n="59"/>stantiam. &amp; in 
+      <lb ed="#L" n="60"/>hoc 
+      articu<lb ed="#L" break="no" n="61"/>lus 
+      secun<lb ed="#L" break="no" n="62"/>dus fini 
+      <lb ed="#L" n="63"/>tur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-277864-Dd1e3759">
+               <head xml:id="ol96b1-277864-Hd1e3761">Articulus 3</head>
+               <p xml:id="ol96b1-277864-d1e3763">
+      <!--0868.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>ARTJCVLVS TERTJVS. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3772">
+                  <lb ed="#L" n="65"/>An bene assignentur quatuor modi, quibus Deus est in 
+      <lb ed="#L" n="66"/>rebus per essentiam, praesentiam, &amp; potentiam, &amp; in 
+      <lb ed="#L" n="67"/>quibusdam per gratiam. op. S. Thom. p. 1.4. B. art. 4
+    </p>
+               <p xml:id="ol96b1-277864-d1e3781">
+                  <lb ed="#L" n="68"/>CIRCA tertium uero considerandum, quod 
+      <lb ed="#L" n="69"/>aliqui dixerunt, suffic ientiam quatuor me 
+      <lb ed="#L" n="70"/>dorum, quibus Deus dicitur esse in rebus, sic 
+      ac<lb ed="#L" break="no" n="71"/>cipi posse, quod Deus dupliciter dicitur esse in 
+      <lb ed="#L" n="72"/>rebus. Primo quidem, sicut obiectum 
+      operatio<lb ed="#L" break="no" n="73"/>nis est in operante, ququid proprium est in 
+      opera<lb ed="#L" break="no" n="74"/>tionibus animae secundum quod cognitum est in 
+      <lb ed="#L" n="75"/>cognoscente, &amp; desideratum indesiderante, &amp; sic 
+      <lb ed="#L" n="76"/>consurgit primus modus, quo Deus speialitet 
+      <lb ed="#L" n="77"/>est in creatura rationali per gratiam, per quam 
+      <lb ed="#L" n="78"/>ipsum diligit, &amp; cognoscit actu, vel habitu. 
+      <lb ed="#L" n="79"/>Secundo vero sicut causa agens dicitur in 
+      ef<lb ed="#L" break="no" n="80"/>fectu, &amp; sic est in omnibus rebus; videmus autem 
+      <lb ed="#L" n="81"/>in rebus humanis, quod rex dicitur esse in toto 
+      <lb ed="#L" n="82"/>regno per suam potentiam, licet non sit vbique 
+      <lb ed="#L" n="83"/>praesens, sed tantum est praesens in omnibus, quae 
+      <lb ed="#L" n="84"/>sunt in conspectu ipsius. nec etiam in qualibet 
+      <lb ed="#L" n="85"/>parte domus est per substantiam suam, quamuis 
+      <lb ed="#L" n="86"/>omnes partes domus sint praesentes, &amp; secundum 
+      <lb ed="#L" n="87"/>hoc aliud est esse alicubi per potentiam, ab esse per 
+      <lb ed="#L" n="88"/>praesentiam, &amp; e conuerso. vnde 
+      <lb ed="#L" n="89"/>ista tria distinguuntur in tantum, quod 
+      Manichaei<lb ed="#L" break="no" n="90"/>dixeruut, non omnia subesse diuinae potentiae, sed 
+      <lb ed="#L" n="91"/>tantum spiritualia, contra quos dicimus Deum esse 
+      <lb ed="#L" n="92"/>vbique per potentiam. Quidam vero dixerunt, 
+      <lb ed="#L" n="93"/>non omnia subiecta diuinae prouidentiae, conera 
+      <lb ed="#L" n="94"/>quos dicimus, Deum esse vbique per 
+      praesen<lb ed="#L" break="no" n="95"/>tiam. Quidam vero dixerunt, quod non 
+      imme<lb ed="#L" break="no" n="96"/>diate creauit Deus omnia, sed quod immediate 
+      <lb ed="#L" n="97"/>creauit primas creaturas, &amp; quod illae alias creaúe 
+      <lb ed="#L" n="98"/>runt: contra quos dicimus, quod Deus est vbique 
+      <lb ed="#L" n="99"/>per essentiam. sic ergo est in omnibus per poter 
+      <lb ed="#L" n="100"/>tiam, inquantum eius potentiae subduntur, &amp; in om 
+      <lb ed="#L" n="101"/>nibus per praesentiam, inquantum omnia nuda, &amp; 
+      <lb ed="#L" n="102"/>aperta sunt oculis eius, &amp; in omnibus per 
+      essen<lb ed="#L" break="no" n="103"/>tiam, inquantum adest omnibus, vt causa essendi. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3862">
+                  <lb ed="#L" n="104"/>Sed hic modus dicendi non sufficienter 
+      vide<lb ed="#L" break="no" n="105"/>turdistinguere modos, quibus ponitur Deus esse 
+      <lb ed="#L" n="106"/>in rebus. Primo quidem, quantum ad hoc, quod 
+      <lb ed="#L" n="107"/>per gratiam dicit Deum esse in rebus, sicut 
+      ob<lb ed="#L" break="no" n="108"/>iectum in operante, quia si hoc verum esset, 
+      <lb ed="#L" n="109"/>non esset actu in illis, qui actualiter ipsum non di 
+      <lb ed="#L" n="110"/>ligunt, vel cognoscunt, sed tantum in habitu, cum 
+      <lb ed="#L" n="111"/>actu aliter non obiiciatur eorum intellectui, &amp; 
+      <lb ed="#L" n="112"/>voluntati, sed Aug. dicit in lib. de praesentia Dei 
+      <lb ed="#L" n="113"/>ad Dardanum, quod Deus inhabitator est 
+      quo<lb ed="#L" break="no" n="114"/>rumdam, non cognoscentium eum, vtpote 
+      par<lb ed="#L" break="no" n="115"/>uulorum, &amp; non solum in potentia, vel habitu, 
+      im<lb ed="#L" break="no" n="116"/>mo in actu; sunt enim actualiter templum 
+      Dei<lb ed="#L" break="no" n="117"/>ergo iste modus essendi per gratiam non 
+      dici<lb ed="#L" break="no" n="118"/>tur, secundum quod obiectum est in cognoscen 
+      <lb ed="#L" n="119"/>te, vel diligente. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3900">
+                  <lb ed="#L" n="120"/>Praeterea: In solis bonis, &amp; sanctis dicitur 
+      <lb ed="#L" n="121"/>Deus per gratiam secundum Aug. sed per 
+      mo<lb ed="#L" break="no" n="122"/>dum obiecti cogniti, est in multis non sanctis. er 
+      <lb ed="#L" n="123"/>go id, quod prius. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3911">
+                  <lb ed="#L" n="124"/>Praeterea: Augustinus dicit, quod anima 
+      <lb ed="#L" n="125"/>cum in singulis partibus corporis adsit tota 
+      si<lb ed="#L" break="no" n="126"/>mul, in aliis tamen intensius, in aliis verorus 
+      <lb ed="#L" n="127"/>missius operatur: &amp; Magister in praesenti dig 
+      <lb ed="#L" n="128"/>stinctione cap. 2. ait, quod similiter neus, cumii 
+      <lb ed="#L" n="129"/>in omnibus essentia liter totus: singularitemtu- 
+      <!--0869.xml-->
+      <pb ed="#L" n="869"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>men dicitur esse in sanctis, quia in illis plenius, 
+      <lb ed="#L" n="2"/>&amp; intensius operatur. ergo non est Deus per mo 
+      <lb ed="#L" n="3"/>dum obiecti cogniti, sed potius per modum spi 
+      <lb ed="#L" n="4"/>ritualiter operantis, vbi existit per gratiam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3942">
+                  <lb ed="#L" n="5"/>Secundo vero deficit, quantum ad aslignationem 
+      <lb ed="#L" n="6"/>praesentiae: tum quia res creatae non sunt praesen 
+      <lb ed="#L" n="7"/>tes diuino intuitu obiectiue, &amp; terminatiue, sed 
+      <lb ed="#L" n="8"/>potius denominatiue; est enim sola sua essentia 
+      <lb ed="#L" n="9"/>sibi praesens, qua praesente existente, omnis crea 
+      <lb ed="#L" n="10"/>tura aequiualenter, immo eminenter est sibi 
+      prae<lb ed="#L" break="no" n="11"/>sens: tum quia si praesentialitas illa referatur ad 
+      <lb ed="#L" n="12"/>esse cognitum, sequetur, quod diuina essentia 
+      <lb ed="#L" n="13"/>non solum est in rebus per praesentiam, immo 
+      <lb ed="#L" n="14"/>Deus est in sua essentia per praesentiam, cum sit 
+      si<lb ed="#L" break="no" n="15"/>bi cognita; quod tamen nullus concedit: tum 
+      <lb ed="#L" n="16"/>quia secundum esse cognitum obiectum dicitur 
+      <lb ed="#L" n="17"/>per praesentiam in cognoscente, &amp; non e conuer 
+      <lb ed="#L" n="18"/>so: &amp; secundum hoc Deus non erit in rebus per 
+      <lb ed="#L" n="19"/>praesentiam, sed potius res in Deo. vnde patet, 
+      <lb ed="#L" n="20"/>quod praesentialitas, secundum quam Deus est 
+      <lb ed="#L" n="21"/>in rebus, non debet accipi pro prosentia 
+      intui<lb ed="#L" break="no" n="22"/>tus, seu conspectus, tunc enim improprie 
+      dice<lb ed="#L" break="no" n="23"/>retur Deus per praesentiam in rebus, sed res 
+      di<lb ed="#L" break="no" n="24"/>cerentur in eius praesentia, &amp; conspectu. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e3988">
+                  <lb ed="#L" n="25"/>Tertio vero deficit quantum ad illum modum, 
+      <lb ed="#L" n="26"/>quem accipit de potentia, sicut rex est in regno; 
+      <lb ed="#L" n="27"/>talis enim modus est metaphoricus, &amp; abusiuus; 
+      <lb ed="#L" n="28"/>non enim proprie dicitur rex in regno per 
+      po<lb ed="#L" break="no" n="29"/>rentia, quia talis potentia non arguit regem esse 
+      <lb ed="#L" n="30"/>praesentem immediate, sed per aliquem 
+      executo<lb ed="#L" break="no" n="31"/>rem mandati regij, non quod sit ibi vere potentia 
+      <lb ed="#L" n="32"/>regis, nisi quia apprehenditur a subditis 
+      volun<lb ed="#L" break="no" n="33"/>tas regia, &amp; obligatio cuiuslibet subiecti, ad cō 
+      <lb ed="#L" n="34"/>cordia exequendum, &amp; ita non est ibi regis 
+      po<lb ed="#L" break="no" n="35"/>tentia, nisi secundum esse rationis; quia quidam 
+      <lb ed="#L" n="36"/>re spectus, &amp; quaedam habitudo apprehensa. non 
+      <lb ed="#L" n="37"/>sic autem dici potest, quod Deus per potentiam 
+      <lb ed="#L" n="38"/>metaphorice sit in rebus. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4021">
+                  <lb ed="#L" n="39"/>Quarto vero deficit, quantum ad modum, quo 
+      <lb ed="#L" n="40"/>Deus est in rebus per essentiam. adesse namque 
+      <lb ed="#L" n="41"/>omnibus rebus, vt causa essendi, est adesse secun 
+      <lb ed="#L" n="42"/>dum potentiam; sed iste modus potentiae 
+      distin<lb ed="#L" break="no" n="43"/>guitur a modo, quo Deus est in rebus per 
+      essen<lb ed="#L" break="no" n="44"/>tiam. non ergo bene assignatur ille modus, quod 
+      <lb ed="#L" n="45"/>scilicet Deum esse in rebus per essentiam, sit 
+      <lb ed="#L" n="46"/>omnibus adesse, tamquam causa essendi. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4041">
+                  <lb ed="#L" n="47"/>Opinio Scoti 1. Sent. dist. 37. q. 1. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4047">
+                  <lb ed="#L" n="48"/>PROPTEREA dixerunt alij, quod Deus 
+      po<lb ed="#L" break="no" n="49"/>test tripliciter considerari. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4054">
+                  <lb ed="#L" n="50"/>Primo quidem, vt res efficiens, &amp; conseruans, 
+      <lb ed="#L" n="51"/>&amp; sic est in illis per potentiam. 
+      <lb ed="#L" n="52"/>Secundo vero vt res cognoscens, &amp; sic est in 
+      <lb ed="#L" n="53"/>ipsis per praesentiam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4065">
+                  <lb ed="#L" n="54"/>Tertio vero secundum rationem suae infinita 
+      <lb ed="#L" n="55"/>tis, &amp; illimitationis, prout cuilibet rei illabitur 
+      <lb ed="#L" n="56"/>intime, &amp; secundum hoc est in rebus per essentiam. 
+      <lb ed="#L" n="57"/>Sed iste modus dicendi deficere viderur. 
+      Pri<lb ed="#L" break="no" n="58"/>mo quidem ex parte primi modi, qui coincidit 
+      <lb ed="#L" n="59"/>cum tertio. non enim Deus aliter illabitur crea 
+      <lb ed="#L" n="60"/>turae, nisi quia esse ipsius efficit, &amp; conseruat: 
+      <lb ed="#L" n="61"/>quia declaratum est supra, quod omnis intimatio, 
+      <lb ed="#L" n="62"/>vel illapsus positiuus, quo intelligeretur Deus 
+      <lb ed="#L" n="63"/>esse in rebus, per necessitatem esset aspectus 
+      si<lb ed="#L" break="no" n="64"/>tualis. &amp; ita exigeret Deum esse in situ, &amp; per 
+      <lb ed="#L" n="65"/>consequens esset quid corporeum, &amp; quantum.
+    </p>
+               <p xml:id="ol96b1-277864-d1e4094">
+                  <lb ed="#L" n="66"/>Secundo vero deficit in modo praesentiae, quia 
+      <!--0869.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>non aliter Deus cognoscit creaturas, postquam 
+      <lb ed="#L" n="68"/>factae sunt, quam antequam fierent, secundum 
+      <lb ed="#L" n="69"/>Aug. 5. super Cien. sed constat, quod Deus non 
+      <lb ed="#L" n="70"/>erat in rebus per praesentiam, antequam fierent. 
+      <lb ed="#L" n="71"/>ergo Deum esse in rebus per praesentiam, non est 
+      <lb ed="#L" n="72"/>esse secundum cognitionem. Et confirmatur, 
+      <lb ed="#L" n="73"/>quia potius deberet dici res esse in Deo per prae 
+      <lb ed="#L" n="74"/>sentiam, quam e conuerso, vt statim arguebatur. 
+      <lb ed="#L" n="75"/>Tertio vero deficit in hoc, quod dicit de modo 
+      <lb ed="#L" n="76"/>infinitatis, &amp; illapsus; talis enim infinitas dicit 
+      <lb ed="#L" n="77"/>causam: vnde oritur, quod Deus sit vbique, aut 
+      <lb ed="#L" n="78"/>esse possit. vnde dicit rationem essendi in loco, non 
+      <lb ed="#L" n="79"/>autem ipsum esse in loco actualiter; illapsus ve 
+      <lb ed="#L" n="80"/>ro videtur importare intimationem adrem, seu 
+      <lb ed="#L" n="81"/>esse intime intra rem, quae sunt habitudines 
+      si<lb ed="#L" break="no" n="82"/>tuales, vt supra dictum est. &amp; iterum illapsus inti 
+      <lb ed="#L" n="83"/>mus non videtur esse aliud, quam 
+      praesentiali<lb ed="#L" break="no" n="84"/>tas; &amp; per consequens modus, in quo Deus est in 
+      <lb ed="#L" n="85"/>rebus per essentiam, non bene distinguitur ab il 
+      <lb ed="#L" n="86"/>lo, quo per praesentiam non existit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4146">
+                  <lb ed="#L" n="87"/>Opinio Durandi 1. Sent. dist. 37. q. 2. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4151">
+                  <lb ed="#L" n="88"/>QVAPROPTER dixerunt alij, quod isti 
+      <lb ed="#L" n="89"/>modi distinguuntur secundum tria, quae 
+      <lb ed="#L" n="90"/>concurrunt ex parte Dei, res actualiter causan 
+      <lb ed="#L" n="91"/>tis, &amp; conseruantis, quae tria sunt substantia, vir 
+      <lb ed="#L" n="92"/>tus, &amp; operatio. actio namque creationis facit 
+      <lb ed="#L" n="93"/>rem existere, conseruatio vero existentiam rei con 
+      <lb ed="#L" n="94"/>tinuat: existentia autem rei exhibet rem Deo 
+      prae<lb ed="#L" break="no" n="95"/>sentem, &amp; per consequens Deum rebus, quia non 
+      <lb ed="#L" n="96"/>est esse praesens rebus, nisi quatenus res sunt sibi 
+      <lb ed="#L" n="97"/>praesentes, &amp; quia praesentialitas illa non solum 
+      <lb ed="#L" n="98"/>est secundum cognitionem, immo secundum 
+      rea<lb ed="#L" break="no" n="99"/>lem exhibitionem, ideo Deus dicitur per 
+      essen<lb ed="#L" break="no" n="100"/>tiam esse in rebus. sed quia virtus, &amp; potentia non 
+      <lb ed="#L" n="101"/>differunt ab essentia, &amp; operatio profluit a virtu 
+      <lb ed="#L" n="102"/>te; ideo est in rebus per potentiam, &amp; virtutem, 
+      <lb ed="#L" n="103"/>&amp; sic distinguuntur isti modi. secundum 
+      opera<lb ed="#L" break="no" n="104"/>tionem, essentiam, &amp; virtutem. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4191">
+                  <lb ed="#L" n="105"/>Sed nec iste modus conueniens est; quia 
+      secun<lb ed="#L" break="no" n="106"/>dum hoc modus essendi per potentiam, &amp; 
+      virtu<lb ed="#L" break="no" n="107"/>tem ponit in numerum cum modo essendi per 
+      o<lb ed="#L" break="no" n="108"/>perationem, vnde erunt quatuor modi. Primus 
+      <lb ed="#L" n="109"/>quidem per operationem. Secundus vero per 
+      prae<lb ed="#L" break="no" n="110"/>sentia litatis exhibitionem. Tertius quoque per 
+      <lb ed="#L" n="111"/>realem essentiae exhibitionem. Quartus quoque 
+      <lb ed="#L" n="112"/>per potentiam, &amp; virtutem, ita enim Deus est in 
+      <lb ed="#L" n="113"/>rebus per operationem, sicut per potentiam, vel 
+      <lb ed="#L" n="114"/>virtutem, quare si distinguitur modus essendi 
+      <lb ed="#L" n="115"/>per operationem, ab illo, qui est per virtutem, erunt 
+      <lb ed="#L" n="116"/>quatuor modi, per operationem, per potentiam, 
+      <lb ed="#L" n="117"/>per essentiam, &amp; per praesentiam; ergo non 
+      di<lb ed="#L" break="no" n="118"/>stinguuntur isti modi secundum ista tria. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4224">
+                  <lb ed="#L" n="119"/>Opinio quorumdam aliorum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4229">
+                  <lb ed="#L" n="120"/>VOCJRCA dixerunt alij, quod Deus est 
+      <lb ed="#L" n="121"/>Avbique per potentiam, ratione causalitatis, 
+      <lb ed="#L" n="122"/>quia cuncta continuat, &amp; conseruat; est vero in re 
+      <lb ed="#L" n="123"/>bus per praesentiam ratione fimultatis, non quidem 
+      <lb ed="#L" n="124"/>contactus, qualis est inter duo corpora, nec etiam 
+      <lb ed="#L" n="125"/>duratiuae coexistentiae, prout duo temporanea 
+      si<lb ed="#L" break="no" n="126"/>mul sunt in tempore, quo ad durationem, sed coexi 
+      <lb ed="#L" n="127"/>stentiae praesentialitatis, prout vna essentia, alte 
+      <lb ed="#L" n="128"/>ri praesentialiter coexistit: &amp; quia praesentialitas 
+      <lb ed="#L" n="129"/>ista potest attendi, vel penes extrinseca, &amp; 
+      ac<lb ed="#L" break="no" n="130"/>cidentia, quando scilicet nullum medium cadit 
+      <lb ed="#L" n="131"/>inter aliqua, quinfibi sint praefentia, quo ad 
+      <!--0870.xml-->
+      <pb ed="#L" n="870"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>accidentalia vtriusque: vel potest attendi penes. 
+      <lb ed="#L" n="2"/>intrinseca, &amp; intimas essentias vtriusque, quan 
+      <lb ed="#L" n="3"/>do scilicet nullum medium cadit inter intima 
+      <lb ed="#L" n="4"/>vtriusque. Deus autem coexistit 
+      praesentiali<lb ed="#L" break="no" n="5"/>ter omni rei, non secundum extrinseca sibi, 
+      <lb ed="#L" n="6"/>immo secundum essentiam, quia nullum 
+      acci<lb ed="#L" break="no" n="7"/>dens est in eo; idcirco additur tertius modus, 
+      <lb ed="#L" n="8"/>quod Deus est in rebus, non solum per 
+      praesen<lb ed="#L" break="no" n="9"/>tiam, immo per essentiam, vt iste tertius modus 
+      <lb ed="#L" n="10"/>specificet, &amp; determinet secundum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4286">
+                  <lb ed="#L" n="11"/>Sed nec ista sufficiunt: tum quia assumitur vnum, 
+      <lb ed="#L" n="12"/>quod non est verum, videlicet inter Deum, &amp; essem 
+      <lb ed="#L" n="13"/>tias creaturae esse aliquam coexistentiam, aut 
+      <lb ed="#L" n="14"/>simultatem positiuam; cum tamen ista 
+      expri<lb ed="#L" break="no" n="15"/>mant habitudinem situalem, vt sepe dictum est: 
+      <lb ed="#L" n="16"/>tum quia declarando huiusmodi praesentiam, 
+      dici<lb ed="#L" break="no" n="17"/>tur, quod est simultas, &amp; deinde declarando, 
+      <lb ed="#L" n="18"/>qualis sit haec simultas, excluditur simultas con 
+      <lb ed="#L" n="19"/>tactus, aut durationis, &amp; additur, quod est 
+      si<lb ed="#L" break="no" n="20"/>multas praesentiae, &amp; ita fit circulus, cum prius 
+      <lb ed="#L" n="21"/>praesentia declarata fuerit per simultatem, &amp; 
+      <lb ed="#L" n="22"/>deinde simultas declaretur per 
+      praesentialita<lb ed="#L" break="no" n="23"/>tem; vnde patet, quod nulla praesentialitas, aut 
+      <lb ed="#L" n="24"/>coexistentia positiua potest intelligi, nisi secun 
+      <lb ed="#L" n="25"/>dum simultatem durationis, vel situs, sicut 
+      su<lb ed="#L" break="no" n="26"/>pra deducebatur: tum quia simultatem, &amp; 
+      prae<lb ed="#L" break="no" n="27"/>sentialitatem istam exponit per carentiam 
+      me<lb ed="#L" break="no" n="28"/>dijs medium autem, &amp; extrema sunt vnigenea. 
+      <lb ed="#L" n="29"/>constat autem, quod medium non est, nisi 
+      in<lb ed="#L" break="no" n="30"/>ter situata, nec medium tollitur, nisi a situatis. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4332">
+                  <lb ed="#L" n="31"/>Quid dicendum secundum veritatem; &amp; primo, quod 
+      <lb ed="#L" n="32"/>haec tria per potentiam, praesentiam, essentiam, 
+      <lb ed="#L" n="33"/>exprimunt perfecte vnum modum 
+      <lb ed="#L" n="34"/>essendi Deum vbique. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4343">
+                  <lb ed="#L" n="35"/>DESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="36"/>sub quadruplici propositione. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4351">
+                  <lb ed="#L" n="37"/>Prima quidem, quod haec tria non exprimunt 
+      <lb ed="#L" n="38"/>tres modos essendi Deum in rebus, sed perfecte 
+      <lb ed="#L" n="39"/>declarant modum illum, quo Deus est vbique. 
+      <lb ed="#L" n="40"/>illa namque propositio per, exprimit 
+      causali<lb ed="#L" break="no" n="41"/>tatem, potest autem exprimere, vel 
+      substra<lb ed="#L" break="no" n="42"/>tum, quod dicitur esse vbique, vel causam 
+      for<lb ed="#L" break="no" n="43"/>malem, qua scilicet substratum formaliter est 
+      vbi<lb ed="#L" break="no" n="44"/>que, vel determinans illud formale ad substratum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4371">
+                  <lb ed="#L" n="45"/>Cum ergo dicitur Deus vbique per essentiam, 
+      <lb ed="#L" n="46"/>non vocatur aliquis modus essendi, formaliter 
+      <lb ed="#L" n="47"/>distinctus ab aliis, sed exprimitur quid sit illud 
+      <lb ed="#L" n="48"/>in Deo, quod subiicitur isti conditioni, quae est 
+      <lb ed="#L" n="49"/>esse vbique, &amp; illud est essentia: cum vero 
+      di<lb ed="#L" break="no" n="50"/>citur Deus vbique per praesentiam, 
+      exprimi<lb ed="#L" break="no" n="51"/>tur, quid sit formaliter Deum esse vbique, illud 
+      <lb ed="#L" n="52"/>enim esse vbique, non est aliud, quam quaedam 
+      <lb ed="#L" n="53"/>praesentialitas, non quidem positiua, sed 
+      po<lb ed="#L" break="no" n="54"/>tius priuatiua, seu negatiua, quia omnimoda 
+      <lb ed="#L" n="55"/>indistantia ab omnibus rebus. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4397">
+                  <lb ed="#L" n="56"/>Cum autem dicitur, quod est vbique per 
+      po<lb ed="#L" break="no" n="57"/>tentiam, non signatur, quod Dei potentia sit 
+      <lb ed="#L" n="58"/>vbique, quasi alius modus sit iste a primo, cum 
+      <lb ed="#L" n="59"/>essentia, &amp; potentia sint idem in Deo, nec aliter 
+      <lb ed="#L" n="60"/>potentia sit vbique, nisi quia essentia est vbique. 
+      <lb ed="#L" n="61"/>nec etiam notatur formalitas essendi vbique, 
+      <lb ed="#L" n="62"/>nam potentia non est formaliter vbique, vt 
+      pa<lb ed="#L" break="no" n="63"/>tet. exprimitur ergo aliquid determinans 
+      for<lb ed="#L" break="no" n="64"/>male ad substratum, videlicet indistantia ad 
+      es<lb ed="#L" break="no" n="65"/>sentiam. per hoc enim apprehenditur virtuosa 
+      <!--0870.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>operatio Dei attingere intima omnis rei deue⸗ 
+      <lb ed="#L" n="67"/>cessitate, &amp; apprehenditur essentia, a qua prostu 
+      <lb ed="#L" n="68"/>operatio, vt indistans ab omnibus rebus, &amp; hoc 
+      <lb ed="#L" n="69"/>est neum esse vbique, per essentiam quide subis 
+      <lb ed="#L" n="70"/>ctiue, vel potius substractiue; per potentiã
+      ne<lb ed="#L" break="no" n="71"/>ro determinatiue, &amp; exigitine; sed per praesum 
+      <lb ed="#L" n="72"/>tiam formaliter, &amp; quidditatiue, per praesun 
+      <lb ed="#L" n="73"/>tiam semper intelligendo aliquod negariuos 
+      <lb ed="#L" n="74"/>scilicet indistantiam. Et sicubi inueniaturu 
+      <lb ed="#L" n="75"/>ctum Deum tripliciter esse in rebus, triplicium 
+      <lb ed="#L" n="76"/>ista referri non debet ad tres modos escendi sut 
+      <lb ed="#L" n="77"/>maliter distinctos, sed ad tria, quae concurrum 
+      <lb ed="#L" n="78"/>circa vnum modum essendi 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4454">
+                  <lb ed="#L" n="79"/>Est autem hic attendendum, quod non solum 
+      <lb ed="#L" n="80"/>potentia, vt actuata per operationem conclis 
+      <lb ed="#L" n="81"/>dit essentiam indistantem esse a rebus, immo 
+      <lb ed="#L" n="82"/>vniuersaliter, operatio intellecta alicubi, etiam 
+      <lb ed="#L" n="83"/>in potentia, concludit, quod substantia 
+      operi<lb ed="#L" break="no" n="84"/>tionis sit indistans. vnde quia Deus non solumo 
+      <lb ed="#L" n="85"/>conseruat intima creaturae, immo circa crea 
+      <lb ed="#L" n="86"/>ram potest operari pro libito voluntatis, idcis⸗ 
+      <lb ed="#L" n="87"/>co non solum operatio, qua conseruat, est illud, 
+      <lb ed="#L" n="88"/>quo determinatiue apprehenditur Deus 
+      efse<lb ed="#L" break="no" n="89"/>vbique, immo &amp; operatio potentialiss propter 
+      <lb ed="#L" n="90"/>quod magis exprimitur, quod Deus sit vbique 
+      <lb ed="#L" n="91"/>per potentiem, quam per operationem, licet 
+      <lb ed="#L" n="92"/>potentia hic non arguat, sed potius operatio po 
+      <lb ed="#L" n="93"/>ni possibilis, vel posita iam in actu, vt sit sensi, 
+      <lb ed="#L" n="94"/>quod est vbique per potentiam, hoc est 
+      perope<lb ed="#L" break="no" n="95"/>rationem, actu a potentia profluentem, aut 
+      es<lb ed="#L" break="no" n="96"/>fluere possibilem. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4496">
+                  <lb ed="#L" n="97"/>Quod superflua est inquisitio aliquorum quaerentiumas 
+      <lb ed="#L" n="98"/>scilicet Scoti, &amp; sequentium, an modus, quo 
+      <lb ed="#L" n="99"/>Deus est in rehus per essentiam, &amp; 
+      <lb ed="#L" n="100"/>praesentiam sit posterior, &amp; 
+      se<lb ed="#L" break="no" n="101"/>paretur ab eo, quo est 
+      <lb ed="#L" n="102"/>per potentiam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4512">
+                  <lb ed="#L" n="103"/>SECVNDA vero propositio est; quod 
+      super<lb ed="#L" break="no" n="104"/>fluit quorumdam inquisitio quaerentium 
+      <lb ed="#L" n="105"/>quis ex istis modis essendi alium praecedat, &amp; 
+      <lb ed="#L" n="106"/>aliud subsequatur. Dixerunt enim, quod modus, 
+      <lb ed="#L" n="107"/>quo Deus est vbique per potentiam, prior est, &amp; 
+      <lb ed="#L" n="108"/>separabilis, quantum est ex se, ab illo modo, 
+      <lb ed="#L" n="109"/>quo inexistit per essentiam, &amp; praesentialitatem, 
+      li<lb ed="#L" break="no" n="110"/>cet in Deo separari non possit propter suam 
+      infi<lb ed="#L" break="no" n="111"/>nitatem, &amp; illimitationem. quod enim ille modus es 
+      <lb ed="#L" n="112"/>sendi praecedat istum, apparet, quia omnis reasis 
+      <lb ed="#L" n="113"/>relatio exigit existentiam sui fundamenti, sed 
+      re<lb ed="#L" break="no" n="114"/>spectus praesentialitatis, secundum quem 
+      dici<lb ed="#L" break="no" n="115"/>tur Deus per essentiam praesens omnibus 
+      crea<lb ed="#L" break="no" n="116"/>turis, est realis respectus fundatus in creatura, 
+      <lb ed="#L" n="117"/>&amp; terminatus ad diuinam essentiam. ergo 
+      prae<lb ed="#L" break="no" n="118"/>supponit existentiam creaturae; existentia 
+      au<lb ed="#L" break="no" n="119"/>tem creaturae exigit operationem diuinam, operatio 
+      <lb ed="#L" n="120"/>vero facit Deum esse in rebus per potentiã; ergo 
+      <lb ed="#L" n="121"/>praeintelligitur Deus in rebus per potentiam, 
+      <lb ed="#L" n="122"/>&amp; subsequitur praesentialitas suae essentiae ad res 
+      <lb ed="#L" n="123"/>omnes. prius autem pote st separari a posierintis 
+      <lb ed="#L" n="124"/>quantum est ex se, nec ipsum infert de necessitats 
+      <lb ed="#L" n="125"/>propter quod operatio non infert Deum peraessta 
+      <lb ed="#L" n="126"/>tiam praesentem esse vbique. haec ergo inquisitio 
+      de<lb ed="#L" break="no" n="127"/>ficit: tum quia imaginatur praesentialitatenua 
+      <lb ed="#L" n="128"/>tamquam relationem realem, cum fit solumn 
+      <lb ed="#L" n="129"/>do iud istantia: tum quia imaginatur, quo aoe 
+      <lb ed="#L" n="130"/>in rebus per potentiam formaliter, imp⸗ 
+      <!--0871.xml-->
+      <pb ed="#L" n="871"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>modum essendi, exclusa praesentialitate; cum ta 
+      <lb ed="#L" n="2"/>men si tollatur praesentialitas, nullo modo 
+      ope<lb ed="#L" break="no" n="3"/>ratio sit esse inloco. vnde non facit aliter esse 
+      <lb ed="#L" n="4"/>in loco, nisi quia exhibet indistantem virtutem, 
+      <lb ed="#L" n="5"/>&amp; essentiam operantis. superfluum ergo est 
+      in<lb ed="#L" break="no" n="6"/>quirere, quis modus essendi praecedat alium, 
+      <lb ed="#L" n="7"/>cum exclusa praesentialitate, vel indistantia, 
+      ope<lb ed="#L" break="no" n="8"/>ratio non exprimat modum essendi; vnde ordo 
+      <lb ed="#L" n="9"/>est inter ista, tamquam inter exigita ad idem. 
+      <lb ed="#L" n="10"/>praeintelligitur enim substratum &amp; determinans 
+      <lb ed="#L" n="11"/>ipsi formali; &amp; iterum terminus illius formalis, 
+      <lb ed="#L" n="12"/>vt sic praeintelligatur essentia, &amp; operatio 
+      pro<lb ed="#L" break="no" n="13"/>fluens ab ea, &amp; creatura, in quam profluit 
+      ope<lb ed="#L" break="no" n="14"/>ratio: &amp; ex hoc consurgat indistantia omnimo 
+      <lb ed="#L" n="15"/>da essentiae ab omni creatura, quae quidem indi 
+      <lb ed="#L" n="16"/>stantia, &amp; si non sit relatio positiua, est tamen 
+      <lb ed="#L" n="17"/>negatio relatiua, secundum quod August. 5. de 
+      <lb ed="#L" n="18"/>Trinit. dicit, quod negatio reducitur ad idem 
+      <lb ed="#L" n="19"/>genus cum affirmatione. vnde ingenitum 
+      dici<lb ed="#L" break="no" n="20"/>tur relatiue, sicut &amp; genitum secundum ipsum. 
+      <lb ed="#L" n="21"/>sic ergo creatura, &amp; operatio, per quam existit 
+      <lb ed="#L" n="22"/>&amp; Deum operari, praecedit praesentialitatem, vel 
+      <lb ed="#L" n="23"/>indistantiam, secundum quam Deus dicitur 
+      es<lb ed="#L" break="no" n="24"/>se vbique; non quidem sicut modus essendi 
+      prae<lb ed="#L" break="no" n="25"/>cedit alium modum essendi, sed sicut 
+      praeexigi<lb ed="#L" break="no" n="26"/>ta ad id, quod est formale in isto modo essendi.
+    </p>
+               <p xml:id="ol96b1-277864-d1e4639">
+                  <lb ed="#L" n="27"/>Quid secundum praedicta importat Dei immensitas, 
+      <lb ed="#L" n="28"/>&amp; illapsus, &amp; continentia, secundum quae 
+      dici<lb ed="#L" break="no" n="29"/>tur Deus implere omnia, illabi omnibus, &amp; 
+      <lb ed="#L" n="30"/>omnia continere. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4650">
+                  <lb ed="#L" n="31"/>TERTIA quoque inquisitio est, quod 
+      im<lb ed="#L" break="no" n="32"/>mensitas, qua Deus dicitur caelum, &amp; terram, 
+      <lb ed="#L" n="33"/>&amp; vniuersa implere; similiter &amp; illapsus, quo 
+      di<lb ed="#L" break="no" n="34"/>citur intimus omni creaturae, &amp; continentia 
+      <lb ed="#L" n="35"/>qua dicitur omia continere, ita quod omnia 
+      <lb ed="#L" n="36"/>magis sunt in Deo, quam Deus in omnibus; hoc 
+      <lb ed="#L" n="37"/>vtique quid importet ex superioribus colligi 
+      <lb ed="#L" n="38"/>potest. immensitas namque Dei non debet 
+      in<lb ed="#L" break="no" n="39"/>telligi per modum magni tudinis distensiuae, vt 
+      <lb ed="#L" n="40"/>impleat omnia secundum longum, latum, &amp; 
+      pro<lb ed="#L" break="no" n="41"/>fundum: quia tales dimensiones spectant ad ge 
+      <lb ed="#L" n="42"/>nus quantitatis, a quo Deus simpliciter est 
+      ab<lb ed="#L" break="no" n="43"/>stractus: nec per modum magnitudinis 
+      intensi<lb ed="#L" break="no" n="44"/>uae, co modo, quo albedo purior dicitur maior; 
+      <lb ed="#L" n="45"/>quia talis magnitudo intensiua ab omni termi 
+      <lb ed="#L" n="46"/>no exprimitur per infinitatem, quae non habet 
+      <lb ed="#L" n="47"/>aspectum aliquem ad loca, sicut immensitas. vn 
+      <lb ed="#L" n="48"/>de aliud attributum est immensitas ab 
+      infinita<lb ed="#L" break="no" n="49"/>te, quae exprimit huiusmodi magnitudinem 
+      in<lb ed="#L" break="no" n="50"/>finitam: debet ergo intelligi immensitas in 
+      ordi<lb ed="#L" break="no" n="51"/>ne ad locum, &amp; ad cuncta creata; non habet autem 
+      <lb ed="#L" n="52"/>aliquem ordinem positiuum; quia nec praesens 
+      <lb ed="#L" n="53"/>est locis praesentialitate propinquitatis, aut 
+      si<lb ed="#L" break="no" n="54"/>multatis, siue coexistentiae, nec absens est absen 
+      <lb ed="#L" n="55"/>tia distantiae, sed est omnino indistans, &amp; per 
+      <lb ed="#L" n="56"/>consequens non absens. vis ergo illa, per quam 
+      <lb ed="#L" n="57"/>impossibile est Deum absentari, aut esse 
+      distan<lb ed="#L" break="no" n="58"/>tem ab aliquo loco, immo per oppositum vis, 
+      <lb ed="#L" n="59"/>qua necesse est Deum esse non absentem 
+      om<lb ed="#L" break="no" n="60"/>nibus locis, &amp; indistantem vocatur 
+      immensi<lb ed="#L" break="no" n="61"/>tas, includendo, infra omnem locum, non 
+      <lb ed="#L" n="62"/>solum facta, immofactibilia etiam in infinitum; 
+      <lb ed="#L" n="63"/>&amp; secundum hoc imaginari Deum immensum 
+      <lb ed="#L" n="64"/>est ipsum apprehendere, vt necessario non ab- 
+      <!--0871.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>sentem, aut indistantem cum loco factibili, vel 
+      <lb ed="#L" n="66"/>facto. &amp; sic patet, cum illa vis, vnde oritur haec 
+      <lb ed="#L" n="67"/>necessitas, sit Deitas ipsas quod immensitas est 
+      <lb ed="#L" n="68"/>id ipsum, quod Deitas cum certo connotato; 
+      <lb ed="#L" n="69"/>quia inquantum connotat impossibilitatem 
+      <lb ed="#L" n="70"/>absentiae, aut distantiae ab omni loco 
+      possibi<lb ed="#L" break="no" n="71"/>li esse, &amp; per hoc dicitur omnia implere, vel quia 
+      <lb ed="#L" n="72"/>non abest corporibus, implentibus omnia, vel 
+      <lb ed="#L" n="73"/>quia non abest etiam cunctis locis. &amp; patet, quod 
+      <lb ed="#L" n="74"/>hoc est proprium solius Dei. sola namque 
+      Dei<lb ed="#L" break="no" n="75"/>tas est, circa quam potest talis negatio 
+      indistan<lb ed="#L" break="no" n="76"/>tiae, seu non absentiae apprehendi; illapsus 
+      ve<lb ed="#L" break="no" n="77"/>ro, vel intimitas non importat aliquam 
+      habitu<lb ed="#L" break="no" n="78"/>dinem positiuam, respectu Dei, sed potius non 
+      <lb ed="#L" n="79"/>absentiam negatiue, vltra quam addit certum 
+      <lb ed="#L" n="80"/>connotatum, scilicet intima creaturae, vt sit sen 
+      <lb ed="#L" n="81"/>sus, cum dicitur Deus intime illabi, quod est non 
+      <lb ed="#L" n="82"/>absens, aut indistās ab intimis creaturae, &amp; 
+      pro<lb ed="#L" break="no" n="83"/>pter hoc consuetum est dici, quod est aeque inti 
+      <lb ed="#L" n="84"/>mus Deus creaturae, sicut res sibi ipsi; quia non 
+      <lb ed="#L" n="85"/>est dare intimum inre, quod non profluat ab es 
+      <lb ed="#L" n="86"/>sentia Deitatis, &amp; per consequens non potest 
+      <lb ed="#L" n="87"/>esse absens, aut distans ab aliquo intimo rei, sed 
+      <lb ed="#L" n="88"/>est omnino non absens. continere vero 
+      dici<lb ed="#L" break="no" n="89"/>tur omnia, &amp; potius esse in eo esse omnia, quam 
+      <lb ed="#L" n="90"/>ipse in omnibus, pro eo quod huiusmodi 
+      in<lb ed="#L" break="no" n="91"/>distantia oritur ex indigentia creaturae, 
+      ope<lb ed="#L" break="no" n="92"/>ratio enim exigit non absentiam virtutis, vel 
+      in<lb ed="#L" break="no" n="93"/>distantiam, &amp; non e conuerso, virtus scilicet non 
+      <lb ed="#L" n="94"/>absentiam operationis: &amp; propter hoc Deus 
+      <lb ed="#L" n="95"/>potest esse cum non absentia creaturae; 
+      creatu<lb ed="#L" break="no" n="96"/>ra vero non potest esse cum absentia 
+      creato<lb ed="#L" break="no" n="97"/>ris, quia ergo locatum indiget loco, &amp; non e 
+      con<lb ed="#L" break="no" n="98"/>uerso, ideo non absentia, aut indistantia 
+      creatu<lb ed="#L" break="no" n="99"/>rarum ad Deum, quae oritur ex indigentia, assi 
+      <lb ed="#L" n="100"/>milatur illi non absentiae, quam habet locatum 
+      <lb ed="#L" n="101"/>in ordine ad locum, &amp; contentum per respectum ad 
+      <lb ed="#L" n="102"/>continens: non absentia vero Dei a creaturis 
+      <lb ed="#L" n="103"/>assimilatur illi, quam habet continens respectu 
+      <lb ed="#L" n="104"/>contenti, &amp; secundum hoc creaturae sunt in Deo, 
+      <lb ed="#L" n="105"/>&amp; continentur potius, quam contineant, vel in 
+      <lb ed="#L" n="106"/>ipsis sit Deus, quia sunt non absentes sibi, aut 
+      in<lb ed="#L" break="no" n="107"/>distantes propter sui indigentiam, sicut locatum 
+      <lb ed="#L" n="108"/>indistans est a suo loco, quia indiget eo.
+    </p>
+               <p xml:id="ol96b1-277864-d1e4826">
+                  <lb ed="#L" n="109"/>Quod Deum esse in rationali creatura, per gratiam, re 
+      <lb ed="#L" n="110"/>ducatur ad modum essendi per essentiam, 
+      praesen<lb ed="#L" break="no" n="111"/>tiam, &amp; potentiam, illeuatio, qua es per vnionem 
+      <lb ed="#L" n="112"/>in Christo ad modum essendi per essentiam, &amp; 
+      prae<lb ed="#L" break="no" n="113"/>sentiam, sed non per potentiam. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4839">
+                  <lb ed="#L" n="114"/>QVARTA demum propositio est, quod 
+      <lb ed="#L" n="115"/>iste modus, quo Deus est in rationali crea 
+      <lb ed="#L" n="116"/>tura per gratiam, reducitur ad praedictum 
+      mo<lb ed="#L" break="no" n="117"/>dum essendi; licet enim operatio quaecumque 
+      <lb ed="#L" n="118"/>exigat virtutis indistantiam, &amp; non 
+      absen<lb ed="#L" break="no" n="119"/>tiam, multo tamen amplius videtur illam exige 
+      <lb ed="#L" n="120"/>re operatio potentior, &amp; magis intensa, &amp; 
+      pro<lb ed="#L" break="no" n="121"/>pter hoc motor ponitur in maximo circulo 
+      <lb ed="#L" n="122"/>sphaerae caeli a Philos. 8. Physic. quia licet motus 
+      <lb ed="#L" n="123"/>existens in toto caelo, arguat motorem 
+      indista<lb ed="#L" break="no" n="124"/>stare, &amp; non abesse alicui parti caeli; 
+      nihilomi<lb ed="#L" break="no" n="125"/>nus motus velocissimus circuli aequinoctialis, 
+      <lb ed="#L" n="126"/>qui est maximus omnium circulorum 
+      descriptibi<lb ed="#L" break="no" n="127"/>lium in orbe, concludit motorem specialius, &amp; 
+      <lb ed="#L" n="128"/>singularius illi circulo indistare. sed manife- 
+      <!--0872.xml-->
+      <pb ed="#L" n="872"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>stum est, quod licet Deus insit omnibus rebus 
+      <lb ed="#L" n="2"/>communiter per operationem manutenentiae, 
+      <lb ed="#L" n="3"/>&amp; conseruationis in esse, nihilominus circa res 
+      <lb ed="#L" n="4"/>aliquas vehementius operatur, vt circa 
+      crea<lb ed="#L" break="no" n="5"/>turas rationales non solum operatur, quantum 
+      <lb ed="#L" n="6"/>ad esse, &amp; bene esse naturae, sicut in omnibus 
+      <lb ed="#L" n="7"/>rebus, immo quantum ad bene esse 
+      supernatura<lb ed="#L" break="no" n="8"/>le, quia quantum ad dona gratiae, quae tribuit, &amp; 
+      <lb ed="#L" n="9"/>conseruat rat ionali creaturae. ergo secundum hoc 
+      <lb ed="#L" n="10"/>singulari modo videtur Deus a viris sanctis 
+      in<lb ed="#L" break="no" n="11"/>distare, &amp; ita singulariter non abesse, sed esse in 
+      <lb ed="#L" n="12"/>eis, sicut motor singulariter est in maximo cir 
+      <lb ed="#L" n="13"/>culo sphaerae, quamuis communiter sit in 
+      quali<lb ed="#L" break="no" n="14"/>bet eius parte. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e4911">
+                  <lb ed="#L" n="15"/>Praeterea: Deus singulariter est in rebus, in 
+      <lb ed="#L" n="16"/>quibus apparet ipsius operatio singularis, vt ra 
+      <lb ed="#L" n="17"/>tione miraculorum dixerunt Magi Pharaonis, 
+      <lb ed="#L" n="18"/>Exod. 8. Digitus Dei est hic: &amp; ratione 
+      victo<lb ed="#L" break="no" n="19"/>riae virtute diuina consecuta dictum est Iudith. 
+      <lb ed="#L" n="20"/>13. Aperite, aperite portas, quia Dominus 
+      <lb ed="#L" n="21"/>Deus. Sed singularis operatio, &amp; vltra omnes 
+      <lb ed="#L" n="22"/>operationes naturae, est infusio gratiae, &amp; 
+      con<lb ed="#L" break="no" n="23"/>seruatio eius in mente; ergo singulari modo 
+      <lb ed="#L" n="24"/>dicitur Deus per gratiam esse in rationali 
+      <lb ed="#L" n="25"/>mente. Sic ergo patet, quod non est specifice 
+      <lb ed="#L" n="26"/>alterius rationis modus essendi per gratiam a 
+      <lb ed="#L" n="27"/>modo essendi per praesentiam, essentiam, &amp; po 
+      <lb ed="#L" n="28"/>tentiam; quamuis differat numeraliter, vel 
+      <lb ed="#L" n="29"/>ratione materiae, quia quod in omnibus rebus 
+      na<lb ed="#L" break="no" n="30"/>tura arguit, hoc in rationali creatura gratia 
+      <lb ed="#L" n="31"/>singulariter facit. vnde posset dici, quod Deus 
+      <lb ed="#L" n="32"/>est in cunctis rebus creatis, per collatam eis 
+      na<lb ed="#L" break="no" n="33"/>turam; in sanctis vero per gratiam, &amp; tunc 
+      ap<lb ed="#L" break="no" n="34"/>pareret, quod non est alius modus essendi, quamuis 
+      <lb ed="#L" n="35"/>sint alia, quae determinant, &amp; arguunt illum 
+      <lb ed="#L" n="36"/>modum, &amp; haec est intentio Magistri in praesenti 
+      <lb ed="#L" n="37"/>dist. cap. 2. cum dicit, quod quemadmodum ani 
+      <lb ed="#L" n="38"/>ma in singulis partibus corporis essentialiter 
+      <lb ed="#L" n="39"/>tota est, tamen in alijs intentius, &amp; in alijs 
+      re<lb ed="#L" break="no" n="40"/>missius operatur, ita &amp; Deus, cum sit in 
+      omni<lb ed="#L" break="no" n="41"/>bus essentialiter; in illis tamen esse plenius 
+      di<lb ed="#L" break="no" n="42"/>citur, in quibus ita est, vt dicitur, faciat eos 
+      ve<lb ed="#L" break="no" n="43"/>ros seruos. vnde non oportet recurrere ad 
+      il<lb ed="#L" break="no" n="44"/>lud, quod ab aliquibus dicebatur, Deum esse per 
+      <lb ed="#L" n="45"/>gratiam, per modum obiecti scilicet, sicut cognitum 
+      <lb ed="#L" n="46"/>in cognoscente, aut amatum in amante, &amp; secundum 
+      <lb ed="#L" n="47"/>hoc patet, quod in paruulis nondum 
+      diligenti<lb ed="#L" break="no" n="48"/>bus, aut cognoscentibus Deum, dicitur esse 
+      De<lb ed="#L" break="no" n="49"/>us per gratiam; patet etiam, quare in eis 
+      dici<lb ed="#L" break="no" n="50"/>tur habitare, in quibus est per gratiam, &amp; 
+      ta<lb ed="#L" break="no" n="51"/>men non in omnibus rebus. hoc enim facit ope 
+      <lb ed="#L" n="52"/>ratio singularis infusionis, &amp; conseruationis 
+      gra<lb ed="#L" break="no" n="53"/>tiae, sicut &amp; motor dicitur habitare in circulo 
+      <lb ed="#L" n="54"/>caeli maiori, posset tamen dici, sicut supra dictum 
+      <lb ed="#L" n="55"/>est, dum ageretur de temporali processione spi 
+      <lb ed="#L" n="56"/>ricus sancti, quod Deus habitat obiectiue, sicut 
+      <lb ed="#L" n="57"/>amans in amato, per gratiam in anima sancta, &amp; 
+      <lb ed="#L" n="58"/>in illam procedit: &amp; tamen ille modus 
+      inexisten<lb ed="#L" break="no" n="59"/>di est intentionalis, nec includit indistantiam, 
+      <lb ed="#L" n="60"/>&amp; non absentiam, de qua sermo est in praesenti. 
+      <lb ed="#L" n="61"/>Vlterius vero sciendum, quod Deus 
+      singula<lb ed="#L" break="no" n="62"/>riter est in homine Christo per essentiam, &amp; 
+      in<lb ed="#L" break="no" n="63"/>distantiam, vel non absentiam, quam quidem 
+      <lb ed="#L" n="64"/>exigit non operatio, sicut in omnibus alijs, sed 
+      <lb ed="#L" n="65"/>hypostat ica vnio, que madmodum anima 
+      dici<lb ed="#L" break="no" n="66"/>tur esse in corpore, quia effectus formalis, qui 
+      <!--0872.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>est perficere, &amp; animare corpus, exigitein⸗ 
+      <lb ed="#L" n="68"/>animae, non abesse, &amp; indistantem esse, non tames 
+      <lb ed="#L" n="69"/>propter hoc esse propinquam, aut contingetu 
+      <lb ed="#L" n="70"/>corpus, aut intra corpus esse secundum aliqua 
+      <lb ed="#L" n="71"/>habitudinem positiuam, &amp; consimiliter hyposs 
+      <lb ed="#L" n="72"/>tice sustentare humanitatem, exigit verbi iidd. 
+      <lb ed="#L" n="73"/>stantiam singularem, &amp; per consequens Deita 
+      <lb ed="#L" n="74"/>tis totius, sicut magis apparebit in glibro. In 
+      <lb ed="#L" n="75"/>hoc ergo tertius articulus terminetur. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5050">
+                  <lb ed="#L" n="76"/>Responsio ad obiecta
+    </p>
+               <p xml:id="ol96b1-277864-d1e5056">
+                  <lb ed="#L" n="77"/>AD ea ergo, quae in oppositum 
+      inducut<lb ed="#L" break="no" n="78"/>tur, dicendum est. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5063">
+                  <lb ed="#L" n="79"/>Ad primum quidem, quod reciprocatio non 
+      <lb ed="#L" n="80"/>est in loco, &amp; locato, quantum ad habitudinem 
+      <lb ed="#L" n="81"/>continentiae. vnde si vinum continetur ab amu 
+      <lb ed="#L" n="82"/>phora, impossibile est, quod amphora contineatur 
+      <lb ed="#L" n="83"/>a vino, alioquin amphora contineretur 
+      abam<lb ed="#L" break="no" n="84"/>phora, sed quantum ad habitudinem praesentiae, 
+      <lb ed="#L" n="85"/>&amp; contactus reciprocatio fit. locus enim cotiu 
+      <lb ed="#L" n="86"/>git locatum, &amp; e conuerso, &amp; similiter primo ad 
+      <lb ed="#L" n="87"/>non distantiam, vel non absentiam: vnde non est 
+      <lb ed="#L" n="88"/>inconueniens, quod Deus sit in rebus, &amp; e 
+      con<lb ed="#L" break="no" n="89"/>uerso. Apostolus autem dicit, quod in illo 
+      viui<lb ed="#L" break="no" n="90"/>mus, &amp; mouemur: &amp; Beda, quod Angelus es 
+      <lb ed="#L" n="91"/>intra Deum. pro eo quod indistantia Dei a rebus assi 
+      <lb ed="#L" n="92"/>milatur distantiae continentis, est enim propter 
+      <lb ed="#L" n="93"/>indigentiam rerum, non propter indigentiam Dei, ficut 
+      <lb ed="#L" n="94"/>contentum indiget continente, &amp; non e conuerso. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5100">
+                  <lb ed="#L" n="95"/>Ad secundum dicendum, quod Deus dicitur 
+      <lb ed="#L" n="96"/>super omnia esse, non quidem situaliter, sed 
+      en<lb ed="#L" break="no" n="97"/>titatiue: dicitur etiam, quod est nusquam 
+      pro<lb ed="#L" break="no" n="98"/>pter carentiam omnis situs, &amp; fimultatis 
+      cum<lb ed="#L" break="no" n="99"/>rebus; sed hoc non impedit, quin sit vbique per 
+      <lb ed="#L" n="100"/>non absentiam, &amp; omnimodam indistantium 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5116">
+                  <lb ed="#L" n="101"/>Ad tertium dicendum, quod Deus a loco, &amp; 
+      <lb ed="#L" n="102"/>a tempore abstrahit, sed sic abstrahit esse 
+      diui<lb ed="#L" break="no" n="103"/>num a tempore, quod de necessitate connotat 
+      <lb ed="#L" n="104"/>ipsum; quia non potest intelligi aliquis actus vel 
+      <lb ed="#L" n="105"/>primus, vel secundus, quin cointelligatur 
+      dura<lb ed="#L" break="no" n="106"/>tio, vel per modum mensurae, vel per modum all 
+      <lb ed="#L" n="107"/>cuius, quod subditur, &amp; propterea esse immedid 
+      <lb ed="#L" n="108"/>te connotat tempus. non est autem sic de loco, 
+      <lb ed="#L" n="109"/>non enim connotatur, vt indistans, vel non 
+      ab<lb ed="#L" break="no" n="110"/>sens ab esse diuino, ex hoc, quod locus est, sed 
+      <lb ed="#L" n="111"/>quia productus est, &amp; a Deo dependens; posset 
+      <lb ed="#L" n="112"/>etiam dici, quod aeternitas connotat tempus, 
+      <lb ed="#L" n="113"/>non vt coexistens, aut sub habitudine simultatis, 
+      <lb ed="#L" n="114"/>sed negatiue, vt indistans secundum lineam, nb 
+      <lb ed="#L" n="115"/>situalem quidem, sed secundum lineam successi 
+      <lb ed="#L" n="116"/>uam prioris, &amp; posterioris. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5153">
+                  <lb ed="#L" n="117"/>Ad quartum dicendum, quod Ansel. intelligit; 
+      <lb ed="#L" n="118"/>quod in nullo loco est Deus situaliter, aut coexi 
+      <lb ed="#L" n="119"/>stendo secundum aliquam habitudinem positum 
+      <lb ed="#L" n="120"/>uam, sed tantummodo per non absentiam, &amp; non 
+      <lb ed="#L" n="121"/>distando; &amp; per idem patet ad quintum. 
+      <lb ed="#L" n="122"/>Ad sextum dicendum, quod vbi quaerit 
+      de<lb ed="#L" break="no" n="123"/>situ, &amp; habitudinibus fundatis super situm 
+      <lb ed="#L" n="124"/>cuiusmodi sunt sursum, &amp; deorsum, propeis. 
+      <lb ed="#L" n="125"/>longe, &amp; simul; &amp; ista pertinent ad praedica. 
+      <lb ed="#L" n="126"/>mentum distinctum. quaerit etiam de non asa 
+      <lb ed="#L" n="127"/>sentia, vel indistantia, quae est negatio relatim 
+      <lb ed="#L" n="128"/>locati ad locum; &amp; ideo non est inconueniene 
+      <lb ed="#L" n="129"/>quod tale vbi, habeat locum in Deo. Vt - 
+      <lb ed="#L" n="130"/>Ad septimum dicendum, quod Demn bbuam 
+      <!--0873.xml-->
+      <pb ed="#L" n="873"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>hit ab omni habitudine pofitiua ad locum, sicut 
+      <lb ed="#L" n="2"/>vnitas, vel nunc, non autem a negatione relatiua, 
+      <lb ed="#L" n="3"/>quae est non absentia; nulla enim operatio 
+      pro<lb ed="#L" break="no" n="4"/>fluit ab vnitate, vel nunc, quae arguit illa 
+      alicu<lb ed="#L" break="no" n="5"/>bi esse; forsitan tamen nunc vbique est, sicut 
+      <lb ed="#L" n="6"/>Philosophus dicit de tempore 4. Physi. quod est 
+      <lb ed="#L" n="7"/>in caelo, &amp; in terra, non quidem per aliquam ha 
+      <lb ed="#L" n="8"/>bitudinem positiuam, sed per non absentiam 
+      <lb ed="#L" n="9"/>&amp; indistantiam sui ad omnia, quae mensurat: non 
+      <lb ed="#L" n="10"/>tamen ita vbique est, sicut Deus; quia non 
+      om<lb ed="#L" break="no" n="11"/>nia creata a Deo mensurantur tempore. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5216">
+                  <lb ed="#L" n="12"/>Ad octauum dicendum, quod nulla mutatio 
+      <lb ed="#L" n="13"/>fit in Deo, dum de absente, fit non absens per 
+      <lb ed="#L" n="14"/>creationem alicuius rei de nouo; non enim erat 
+      <lb ed="#L" n="15"/>absens per aliquid positiuum, sed quia creatura 
+      <lb ed="#L" n="16"/>non erat: &amp; ideo, dum creatura fit, non 
+      exclu<lb ed="#L" break="no" n="17"/>ditur aliquid a Deo per hoc, quod non abest de 
+      <!--0873.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>nouo creaturae, sed ponitur creaturae, cui 
+      non<lb ed="#L" break="no" n="19"/>absit. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5241">
+                  <lb ed="#L" n="20"/>Ad nonum dicendum, quod Deus non est 
+      in<lb ed="#L" break="no" n="21"/>rebus, inquantum causa, sic quod suum causare 
+      <lb ed="#L" n="22"/>sit formaliter existere in loco, sed est quoddam, 
+      <lb ed="#L" n="23"/>exigens indistantiam essentiae causatiue, &amp; per 
+      <lb ed="#L" n="24"/>consequens non absentiam Dei, in qua non 
+      ab<lb ed="#L" break="no" n="25"/>sentia formaliter consistit ratio essendi in loco, 
+      <lb ed="#L" n="26"/>quae competit Deo, quamuis sit efficiens, &amp; 
+      ex<lb ed="#L" break="no" n="27"/>trinseca causa; &amp; per idem patet ad vltimum. 
+    </p>
+               <p xml:id="ol96b1-277864-d1e5261">
+                  <lb ed="#L" n="28"/>Quamuis autem Magister de loco, &amp; motu 
+      <lb ed="#L" n="29"/>spiritus creati faciat mentionem in dist. 
+      prae<lb ed="#L" break="no" n="30"/>senti, &amp; similiter de anima rationali, quomodo 
+      <lb ed="#L" n="31"/>sit tota in qualibet parte corporis: quod forte 
+      <lb ed="#L" n="32"/>verum non est de animabus brutorum; tamen 
+      <lb ed="#L" n="33"/>de his supersedendum est vsque ad librum 
+      secun<lb ed="#L" break="no" n="34"/>dum, vbi tractatur directe de creaturis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="384"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-125491"> <!-- l1d14p1-prae -->
+            <head xml:id="ol96b1-125491-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-125491-d1e104">
+      <!--0384.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="66"/>DE PROCESSJONE TEMPORALJ SPJRJTVS 
+      <lb ed="#L" n="67"/>sancti, quid videlicet in ea datur, &amp; a quo.
+    </p>
+            <p xml:id="ol96b1-125491-d1e115">
+               <lb ed="#L" n="68"/>DISTINCTIO XIIIJ. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e120">
+      <!--0384.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="69"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e130">
+               <lb ed="#L" n="70"/>PRAETEREA diligenter, &amp;c. 
+      <lb ed="#L" n="71"/>Postquam determinauit Ma 
+      <lb ed="#L" n="72"/>gister de prima proprietate 
+      <lb ed="#L" n="73"/>spiritus sancti, quae est 
+      aeter<lb ed="#L" break="no" n="74"/>na spiratio, hic incipit 
+      tra<lb ed="#L" break="no" n="75"/>ctare de secunda 
+      proprieta<lb ed="#L" break="no" n="76"/>te eiusdem spiritus, quae est 
+      <lb ed="#L" n="77"/>processio temporalis. Et cir 
+      <lb ed="#L" n="78"/>ca hoc duo facit. Inquirit enim primo de 
+      tem<lb ed="#L" break="no" n="79"/>porali processione, quid sit. Secundo vero, quot 
+      <lb ed="#L" n="80"/>modis fit. secunda ibi dist. I6. Nunc de Spiritu 
+      san<lb ed="#L" break="no" n="81"/>cto. Circa primum duo facit, quia processio 
+      spi<lb ed="#L" break="no" n="82"/>ritus sancti sortitur nomen Missionis, &amp; 
+      Datio<lb ed="#L" break="no" n="83"/>nis, &amp; nomen Processionis. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e163">
+               <lb ed="#L" n="84"/>Primo ergo tractat de ea sub nomine 
+      Proces<lb ed="#L" break="no" n="85"/>sionis, &amp; secundo sub nomine Dationis, &amp; 
+      Mis<lb ed="#L" break="no" n="86"/>sionis. secunda ibi dist. 15. Hic considerandum est. 
+      <lb ed="#L" n="87"/>Circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e174">
+               <lb ed="#L" n="88"/>Primo enim ostendit, spiritum sanctum 
+      tem<lb ed="#L" break="no" n="89"/>nos procedere, vel nobis dari, an videlicet illud 
+      <lb ed="#L" n="90"/>poraliter procedere. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e183">
+               <lb ed="#L" n="91"/>Secundo vero inquirit modum, quo dicitur in 
+      <!--0384.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="92"/>sit, quia eius dona donentur, vel quia ipsemet 
+      <lb ed="#L" n="93"/>detur. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e196">
+               <lb ed="#L" n="94"/>Tertio vero inquirit, vtrum secundum istum 
+      <lb ed="#L" n="95"/>modum a viris sanctis procedat, vel detur. 
+      se<lb ed="#L" break="no" n="96"/>cunda ibi: Sunt autem aliqui. tertia ibi, Hic 
+      inqui<lb ed="#L" break="no" n="97"/>ritur. Circa primum tria facit, secundum quod 
+      <lb ed="#L" n="98"/>auctoritate triplici probat, spiritum sanctum 
+      <lb ed="#L" n="99"/>ex tempore procedere. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e212">
+               <lb ed="#L" n="100"/>Primo ergo inducit auctoritatem Augustini, 
+      <lb ed="#L" n="101"/>dicens, quod non solum spiritus sanctus 
+      aeterna<lb ed="#L" break="no" n="102"/>liter a patre, filioque procedit, immo &amp; 
+      tempora<lb ed="#L" break="no" n="103"/>liter procedit ab vtroque ad sanctificandam 
+      crea<lb ed="#L" break="no" n="104"/>turam, &amp; hoc est, quod dicit Augustinus 15. de 
+    </p>
+            <p xml:id="ol96b1-125491-d1e226">
+               <lb ed="#L" n="105"/>Trinit. ait enim, quod spiritus sanctus non 
+      pro<lb ed="#L" break="no" n="106"/>cedit de patre in filium, vt postmodum ad 
+      crea<lb ed="#L" break="no" n="107"/>turam sanctificandam de filio procedat, sed ad 
+      <lb ed="#L" n="108"/>sanctificandum simul exit, &amp; procedit ab vtroque. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e237">
+               <lb ed="#L" n="109"/>Secundo ibi: De temporali autem. inducit 
+      au<lb ed="#L" break="no" n="110"/>ctoritatem exponentis illud Ioan. I5. Cum 
+      vene<lb ed="#L" break="no" n="111"/>rit paraclitus. ait enim, quod cum spiritus sancti 
+      <lb ed="#L" n="112"/>gratia datur, profecto mittitur a patre, &amp; filio 
+      <lb ed="#L" n="113"/>spiritus sanctus, proceditque a patre, &amp; procedit 
+      <lb ed="#L" n="114"/>a filio, quia eius missio, ipsa est processio, ex 
+      qui<lb ed="#L" break="no" n="115"/>bus verbis colligitur, quod cum missio sit pro- 
+      <!--0385.xml-->
+      <pb ed="#L" n="385"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>prietas temporalis, &amp; processio erit aliquid 
+      <lb ed="#L" n="2"/>temporale. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e266">
+               <lb ed="#L" n="3"/>Tertio ibi: Hanc quoque temporalem. Magister 
+      <lb ed="#L" n="4"/>inducit auctoritatem Augustini dicentis, quod 
+      <lb ed="#L" n="5"/>cum Christus a mortuis surrexisset insufflauit in 
+      <lb ed="#L" n="6"/>discipulos dicendo: Accipite spiritum sanctum, 
+      <lb ed="#L" n="7"/>ostenderet procedere de seipso: haec autem 
+      pro<lb ed="#L" break="no" n="8"/>cessio referri debet ad temporalem donationem, 
+      <lb ed="#L" n="9"/>quod patet ex his, quae subdit Augustinus 
+      ibi<lb ed="#L" break="no" n="10"/>dem. ait enim, quod post resurrectionem bis 
+      <lb ed="#L" n="11"/>dedit Dominus spiritum sanctum, semel in 
+      ter<lb ed="#L" break="no" n="12"/>ra, dum insufflauit in discipulos propter 
+      dile<lb ed="#L" break="no" n="13"/>ctionem proximi, &amp; iterum de coelo in die 
+      Pen<lb ed="#L" break="no" n="14"/>tec. propter dilectionem. sic ergo patet, quod 
+      <lb ed="#L" n="15"/>illa infuflatio processionem temporalem 
+      spiri<lb ed="#L" break="no" n="16"/>tus sancti denotabat. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e299">
+               <lb ed="#L" n="17"/>Postmodum ibi: Sunt autem aliqui. inquirit, an 
+      ipse<lb ed="#L" break="no" n="18"/>met spiritus sanctus procedat temporaliter in 
+      <lb ed="#L" n="19"/>nos, &amp; detur ipsemet in nobis, aut procedant tan 
+      <lb ed="#L" n="20"/>tummodo dona eius, puta gratia, &amp; virtutes. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e310">
+               <lb ed="#L" n="21"/>Et circa hoc quatuor facit, secundum quod 
+      <lb ed="#L" n="22"/>quatuor auctoritates inducit, quibus probatur, 
+      <lb ed="#L" n="23"/>quod non solum spiritus sancti dona, immo 
+      ip<lb ed="#L" break="no" n="24"/>semet spiritus sanctus, qui est Deus, in nos 
+      pro<lb ed="#L" break="no" n="25"/>cedit, &amp; in nobis. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e323">
+               <lb ed="#L" n="26"/>Est ergo prima Augustini, qui dicit eundem 
+      <lb ed="#L" n="27"/>spiritum sanctum datum, cum insufflauit Iesus, 
+      <lb ed="#L" n="28"/>de quo mox ait: Ite baptizate in nomine patris, 
+      <lb ed="#L" n="29"/>&amp; filij, &amp; spiritus sancti, &amp; subdit, quomodo 
+      <lb ed="#L" n="30"/>Iesus non estt Deus, qui dat spiritum sanctum 
+      <lb ed="#L" n="31"/>Deum 
+    </p>
+            <p xml:id="ol96b1-125491-d1e340">
+               <lb ed="#L" n="32"/>Secunda vero est Ambrosij, qui dicit, quod 
+      <lb ed="#L" n="33"/>spiritus sanctus, qui est filius amoris, &amp; 
+      illabi<lb ed="#L" break="no" n="34"/>tur sensibus, non est de substantia, seu natura 
+      <lb ed="#L" n="35"/>corporalium, vel inuisibilium creaturarum, per 
+      <lb ed="#L" n="36"/>quod innuit, quod spiritus, qui mentibus 
+      illa<lb ed="#L" break="no" n="37"/>bitur, non est creatura, sed Deus. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e356">
+               <lb ed="#L" n="38"/>Tertia quoque auctoritas est eiusdem Ambro 
+      <lb ed="#L" n="39"/>sij, qui dicit, quod spiritus sanctus, qui datus 
+      <lb ed="#L" n="40"/>est nobis, non est mutabilis: omnis autem 
+      crea<lb ed="#L" break="no" n="41"/>tura es mutabilis, per quod aperte innuit, quod 
+      <lb ed="#L" n="42"/>spiritus, qui datur hominibus, non est 
+      creatu<lb ed="#L" break="no" n="43"/>ra, sed Deus.
+    </p>
+            <p xml:id="ol96b1-125491-d1e372">
+               <lb ed="#L" n="44"/>Quarta deinde est Augustini, qui dicit 
+      spiri<lb ed="#L" break="no" n="45"/>tum sanctum esse donum tantum, &amp; tale 
+      qua<lb ed="#L" break="no" n="46"/>tenus, &amp; qualis est ipse, qui dat, vnde dicit, 
+      <lb ed="#L" n="47"/>quod donum est aequale danti, &amp; ita sequitur, 
+      <lb ed="#L" n="48"/>quod est Deus, cum datur a Deo. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e385">
+               <lb ed="#L" n="49"/>Postmodum ibi: Hic quaeritur. Magister 
+      in<lb ed="#L" break="no" n="50"/>quirit, vtrum secundum hunc modum spiritus 
+      <lb ed="#L" n="51"/>sanctus procedat, aut detur a sanctis viris. Et 
+      <lb ed="#L" n="52"/>tria facit. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e396">
+               <lb ed="#L" n="53"/>Primo enim inquirit, quid sit de facto, &amp; 
+      de<lb ed="#L" break="no" n="54"/>terminat, quod spiritus sanctus ab hominibus 
+      <lb ed="#L" n="55"/>non datur, nec donatur, quod probat ratione 
+      <lb ed="#L" n="56"/>quidem, quia dari, vel mitti spiritum est 
+      proce<lb ed="#L" break="no" n="57"/>dere ipsum: nunc autem creator non procedit a 
+      <lb ed="#L" n="58"/>creatura; &amp; per consequens spiritus sanctus non 
+      <lb ed="#L" n="59"/>datur ab hominibus, nec mittitur, nec procedit. 
+      <lb ed="#L" n="60"/>auctoritate quoque August hoc confirmat, idem 
+      <lb ed="#L" n="61"/>dicentis, quod nullus discipulorum Christi dedit 
+      <lb ed="#L" n="62"/>spiritum sanctum; sed nec Simon Magus fuit 
+      au<lb ed="#L" break="no" n="63"/>sus ab Apostolis postulare, quod cui imponeret 
+      <lb ed="#L" n="64"/>manus acciperet spiritum sanctum, sed quod 
+      da<lb ed="#L" break="no" n="65"/>retur sibi spiritus sanctus. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e427">
+               <lb ed="#L" n="66"/>Secundo ibi: Et quod plus est. ostendit Magister, 
+      <lb ed="#L" n="67"/>quod est de possibili, &amp; determinat secundum au- 
+      <!--0385.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="68"/>ctoritatem Augustini, quod nulla creatura potest 
+      <lb ed="#L" n="69"/>dare spiritum sanctum, nec vero etiam potuit 
+      <lb ed="#L" n="70"/>Christus, inquantum homo. 
+    </p>
+            <p xml:id="ol96b1-125491-d1e446">
+               <lb ed="#L" n="71"/>Tertio ibi: Sed huic videtur contrarium. 
+      Magi<lb ed="#L" break="no" n="72"/>ster obiicit contra praedicta, &amp; dissoluit, dicens, 
+      <lb ed="#L" n="73"/>quod huic videtur opponi, quod Apostolus ait 
+      <lb ed="#L" n="74"/>ad Gal. 3. loquens de seipso interrogans, quis tri 
+      <lb ed="#L" n="75"/>buit vobis spiritum, &amp; operatur virtutes in 
+      vo<lb ed="#L" break="no" n="76"/>bis, per hoc innuens, quod ipse spiritum 
+      tribuis<lb ed="#L" break="no" n="77"/>set; &amp; respondet Magister, quod Apostolus intel 
+      <lb ed="#L" n="78"/>lexit se tribuisse dispositiue, inquantum per 
+      prae<lb ed="#L" break="no" n="79"/>dicationem Apostoli Galatae fuerunt dispositi ad 
+      <lb ed="#L" n="80"/>receptionem spiritus sancti, quem non ipse Apo 
+      <lb ed="#L" n="81"/>stolus, sed Deus tribuit illis effectiue. haec est 
+      <lb ed="#L" n="82"/>sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

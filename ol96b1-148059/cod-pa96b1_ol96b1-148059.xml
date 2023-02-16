@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="454"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-148059"> <!-- l1d18p1-prae -->
+            <head xml:id="ol96b1-148059-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-148059-d1e104">
+      <!--0454.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="55"/>VTRVM EADEM RATJONE SPJRJTVS 
+      <lb ed="#L" n="56"/>sanctus dicatur donum, &amp; datum, siue donatum. 
+      <lb ed="#L" n="57"/>DJS TJNCTIO XVJJJ. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e117">
+      <!--0454.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="58"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e126">
+               <lb ed="#L" n="59"/>PRAETEREA diligenter, &amp;c. 
+      <lb ed="#L" n="60"/>Postquam Magister 
+      deter<lb ed="#L" break="no" n="61"/>minauit de Spiritu sancto, 
+      <lb ed="#L" n="62"/>quantum ad proprietatem 
+      <lb ed="#L" n="63"/>spirationis, &amp; processionis, 
+      <lb ed="#L" n="64"/>hic determinat de ipso 
+      quan<lb ed="#L" break="no" n="65"/>tum ad proprietatem doni. 
+      <lb ed="#L" n="66"/>Et circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e147">
+               <lb ed="#L" n="67"/>Primo namque ostendit, quod donum est 
+      Spi<lb ed="#L" break="no" n="68"/>ritus sancti proprietas, differentiam 
+      assignan<lb ed="#L" break="no" n="69"/>do inter donum, &amp; datum. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e156">
+               <lb ed="#L" n="70"/>Secundo ex hoc confirmat quaedam supra 
+      de<lb ed="#L" break="no" n="71"/>terminata. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e163">
+               <lb ed="#L" n="72"/>Tertio ex illis quandam dubitationem 
+      mo<lb ed="#L" break="no" n="73"/>uet, &amp; soluit. secundo ibi: Ex praedictis patet: 
+      ter<lb ed="#L" break="no" n="74"/>tio ibi: Per hoc quaeritur. Circa primum duo 
+      fa<lb ed="#L" break="no" n="75"/>cit. primo enim ostendit, quod donum est 
+      pro<lb ed="#L" break="no" n="76"/>prietas deriuata, assignando inter donum, &amp; 
+      <lb ed="#L" n="77"/>datum. secundo dubitationem mouet circa 
+      de<lb ed="#L" break="no" n="78"/>terminata. secundo ibi: Sed quaeritur, cui 
+      donabi<lb ed="#L" break="no" n="79"/>lis. &amp; circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e183">
+               <lb ed="#L" n="80"/>Primo namque mouet dubitationem, &amp; ait, 
+      <lb ed="#L" n="81"/>quod hic considerandum est, vtrum secundum 
+      <lb ed="#L" n="82"/>eandem rationem dicatur Spiritus sancttus, &amp; 
+      do<lb ed="#L" break="no" n="83"/>num, &amp; datum, &amp; videtur, quod sic; tum quia 
+      <lb ed="#L" n="84"/>donum dicitur a donari, &amp; datum a dari: tum 
+      <!--0454.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="85"/>quia Augustinus dicit, quod Spiritus sanctus 
+      in<lb ed="#L" break="no" n="86"/>tantum donum Dei est, inquantum datur. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e205">
+               <lb ed="#L" n="87"/>Secundo ibi: <quote xml:id="ol96b1-148059-Qd1e209">Ad quod dicimus</quote>. Respondet 
+      Ma<lb ed="#L" break="no" n="88"/>gister dicens, quod Spiritus sanctus aliter 
+      do<lb ed="#L" break="no" n="89"/>num Dei dicitur ex temporali donatione: 
+      do<lb ed="#L" break="no" n="90"/>num vero ex aeternali proprietate, quae 
+      sempi<lb ed="#L" break="no" n="91"/>terne donum fuit: ex hoc autem a patre, filioque 
+      <lb ed="#L" n="92"/>procedit, &amp; hoc probatur triplici auctoritate. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e223">
+               <lb ed="#L" n="93"/>Prima quidem Augustini de Trinit. qui dicit, 
+      <lb ed="#L" n="94"/>quod sicut natum esse est ipsi Filio esse a Patre, 
+      <lb ed="#L" n="95"/>sic Spirituisancto donum esse est a Patre, Filioque 
+      <lb ed="#L" n="96"/>procedere; vnde manifeste concluditur, quod 
+      <lb ed="#L" n="97"/>eadem proprietas est doni, &amp; aeternae processionis. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e237">
+               <lb ed="#L" n="98"/>Secunda auctoritas est eiusdem Augustini de 
+      <lb ed="#L" n="99"/>Trinit. dicentis, quod si Spiritus sanctus 
+      appa<lb ed="#L" break="no" n="100"/>ret in hoc nomine donum, quia donum dicitur 
+      <lb ed="#L" n="101"/>ex hoc, quod procedit a Filio, &amp; a Patre. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e248">
+               <lb ed="#L" n="102"/>Tertia quoque est eiusdem libro quinto, qui 
+      <lb ed="#L" n="103"/>ait, quod Spiritus sanctus sempiternaliter 
+      do<lb ed="#L" break="no" n="104"/>num est, antequam temporaliter donaretur, non 
+      <lb ed="#L" n="105"/>quia a Patre Filio, vel a Filio Patri, sed quia ab 
+      <lb ed="#L" n="106"/>aet erno donabilis processit. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e261">
+               <lb ed="#L" n="107"/>Postmodum ibi: Sed quaeritur. mouet Magister 
+      <lb ed="#L" n="108"/>triplicem dubitationem. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e268">
+               <lb ed="#L" n="109"/>Primam quidem, si Spiritus sanctus 
+      proces<lb ed="#L" break="no" n="110"/>sit ab aeterno, vt donabilis, vtrum processit, vt 
+      <lb ed="#L" n="111"/>donabilis nobis, vel Patri, &amp; Filio, &amp; 
+      respon<lb ed="#L" break="no" n="112"/>det, quod vt donabilis nobis, sicut &amp; ex tempo- 
+      <!--0455.xml-->
+      <pb ed="#L" n="455"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>re datus est nobis, &amp; si diceretur, quod filius 
+      ex<lb ed="#L" break="no" n="2"/>tempore datus est nobis, &amp; ita videtur, quod 
+      <lb ed="#L" n="3"/>processit, vt donatum abaeterno, dicendum quod 
+      <lb ed="#L" n="4"/>non est verum. processit enim filius, non vt 
+      do<lb ed="#L" break="no" n="5"/>num, velut donabile, sed vt natus; eius namque 
+      <lb ed="#L" n="6"/>processio est natiuitas, non donatio, Spiritus 
+      <lb ed="#L" n="7"/>vero sancti processio est donatio quaedam. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e301">
+               <lb ed="#L" n="8"/>Secundam dubitationem mouet ibi: Et 
+      No<lb ed="#L" break="no" n="9"/>tandum. dicens quod cum filius accipiat a patre 
+      <lb ed="#L" n="10"/>nascendo, non solum, vt filius sit, sed immo vt om 
+      <lb ed="#L" n="11"/>nino sit, &amp; similiter Spiritus sanctus a patre, &amp; 
+      <lb ed="#L" n="12"/>a filio procedendo, non solum accipit, quod 
+      do<lb ed="#L" break="no" n="13"/>num sit, immo quod omnino sit, merito 
+      quaeri<lb ed="#L" break="no" n="14"/>tur, vtrum acceperit quod substantia sit ex hoc, 
+      <lb ed="#L" n="15"/>quod datur, &amp; respondet quod non, quia non da 
+      <lb ed="#L" n="16"/>retur, nisi ex tempore acciperet suam 
+      substan<lb ed="#L" break="no" n="17"/>tiam, &amp; quod omnino esset, &amp; ideo hoc non 
+      ac<lb ed="#L" break="no" n="18"/>cepit ex hoc, quod detur, sed per aeternam 
+      pro<lb ed="#L" break="no" n="19"/>cessionem, sicut &amp; filius per generationem 
+      <lb ed="#L" n="20"/>aeternam. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e332">
+               <lb ed="#L" n="21"/>Tertiam quoque dubitationem mouet ibi: 
+      <lb ed="#L" n="22"/>Hic oritur quastio. dicens quod si filius nascendo 
+      <lb ed="#L" n="23"/>accepit substantiam, vel essentiam deitatis, aut 
+      <lb ed="#L" n="24"/>Spiritus sanctus procedendo, videbitur, quod fi 
+      <lb ed="#L" n="25"/>filius eo sit essentia, quo nascitur, &amp; secundum 
+      <lb ed="#L" n="26"/>hoc filius natiuitate erit essentia, &amp; Spiritus san 
+      <lb ed="#L" n="27"/>ctus processione, quod negat penitus August. 
+      <lb ed="#L" n="28"/>non enim pater est Deus paternitate, nec filius 
+      <lb ed="#L" n="29"/>est Deus filiatione, nec Spiritus sanctus 
+      proces<lb ed="#L" break="no" n="30"/>sione, &amp; ideo dicendum est, quod processio, &amp; 
+      <lb ed="#L" n="31"/>natiuitas possunt notare habitudinem originis, 
+      <lb ed="#L" n="32"/>&amp; tunc verum est, quod filius accepit nascendo, 
+      <lb ed="#L" n="33"/>quod sit Deus, &amp; Spiritus sanctus procedendo 
+      <lb ed="#L" n="34"/>accepit hoc, vel habitudinem causae formalis, l 
+      <lb ed="#L" n="35"/>&amp; tunc est verum, quod filius sit Deus 
+      natiuita<lb ed="#L" break="no" n="36"/>te, &amp; Spiritus sanctus processione. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e370">
+               <lb ed="#L" n="37"/>Postmodum ibi: Ex praedictis patet. Magister 
+      <lb ed="#L" n="38"/>ex ijs, quae praedicta sunt in hac distinctione 
+      con<lb ed="#L" break="no" n="39"/>firmat quaedam supradicta. Et circa hoc tria fa 
+      <lb ed="#L" n="40"/>cit. Primo enim illa confirmat dicens, quod iam 
+      <lb ed="#L" n="41"/>patet id, quod superius dicebatur de gemina 
+      <lb ed="#L" n="42"/>processione Spiritus sancti, vna aeterna, &amp; alia 
+      <lb ed="#L" n="43"/>temporali, ex hoc quod hic dictum est, quod 
+      Spi<lb ed="#L" break="no" n="44"/>ritus sanctus donum est ab aeterno, datum vero 
+      <lb ed="#L" n="45"/>ex tempore, seu donatum, nam secundum 
+      pro<lb ed="#L" break="no" n="46"/>cessionem aeternam dicitur donum, &amp; secundum 
+      <lb ed="#L" n="47"/>temporalem donatum. Secundo ibi: Et 
+      secun<lb ed="#L" break="no" n="48"/>dum hoc. Magister infert quoddam dicens, quod 
+      <lb ed="#L" n="49"/>in hoc, quod Spiritus sanctus donum est, tantum 
+      <lb ed="#L" n="50"/>refertur ad eos, quibus datur &amp; ad eum, qui 
+      ten<lb ed="#L" break="no" n="51"/>dit, &amp; hinc est, quod Spiritus sanctus dicitur no 
+      <lb ed="#L" n="52"/>ster, vt spiritus Heliae 4. Regum 11. &amp; spiritus 
+      <lb ed="#L" n="53"/>Moysi numer. 11. Tertio ibi: Hic quaeritur. 
+      mo<lb ed="#L" break="no" n="54"/>uet quandam dubitationem Magister, dicens, 
+      <lb ed="#L" n="55"/>quod cum filius datus sit nobis, sicut &amp; spiritus, 
+      <lb ed="#L" n="56"/>merito quaeri potest, an possit dici noster, sicut 
+      <lb ed="#L" n="57"/>&amp; spiritus dicitur noster, &amp; respondet, quod po 
+      <lb ed="#L" n="58"/>test dici Redemptor noster, &amp; panis noster, non 
+      <lb ed="#L" n="59"/>tamen filius noster, ne ex hoc falsus insurgerent 
+      <lb ed="#L" n="60"/>intellectus, quo crederetur generatus a nobis. 
+      <lb ed="#L" n="61"/>vnde inquantum filius solum refertur ad 
+      pa<lb ed="#L" break="no" n="62"/>trem, a quo genitus est. 
+    </p>
+            <p xml:id="ol96b1-148059-d1e429">
+               <lb ed="#L" n="63"/>Postmodum ibi: Post hoc quaeritur. mouet Ma 
+      <lb ed="#L" n="64"/>gister vltimam quaestionem, an scilicet 
+      Spiri<lb ed="#L" break="no" n="65"/>tus sanctus ad seipsum referatur. videtur enim 
+      <lb ed="#L" n="66"/>quod sic, quia datur a se, omne vero, quod datur 
+      <!--0455.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="67"/>refertur ad eum, qui dat; remittit autem 
+      Ma<lb ed="#L" break="no" n="68"/>gister hanc quaestionem soluendam dist. 38. c. 
+      <lb ed="#L" n="69"/>vltimo, vt patebit haec sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

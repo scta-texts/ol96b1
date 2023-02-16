@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="404"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-132149"> <!-- l1d17p1-prae -->
+            <head xml:id="ol96b1-132149-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-132149-d1e104">
+      <!--0404.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="98"/>DE INVJSJBJLJ MJSSJONE 
+      <lb ed="#L" n="99"/>Spiritus sancti. 
+      <lb ed="#L" n="100"/>DISTJNCTIO XVJJ. 
+    </p>
+            <p xml:id="ol96b1-132149-d1e117">
+      <!--0404.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="101"/>IAM nunc accedamus. 
+      Post<lb ed="#L" break="no" n="102"/>quam magister 
+      determina<lb ed="#L" break="no" n="103"/>uit de spiritus sancti 
+      visi<lb ed="#L" break="no" n="104"/>bili millione, in hac 
+      par<lb ed="#L" break="no" n="105"/>te determinat de 
+      inuisibi<lb ed="#L" break="no" n="106"/>li missione ipsius, quia 
+      <lb ed="#L" n="107"/>mittitur in dono 
+      charita<lb ed="#L" break="no" n="108"/>tis. Idcirco primo 
+      osten<lb ed="#L" break="no" n="109"/>dit qualiter detur spiritus, &amp; mittatur per cha 
+      <!--0404.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="110"/>ritatem. secundo vero inquirit, qualiter magis 
+      <lb ed="#L" n="111"/>debet secundum augmentum charitatis. tertio 
+      <lb ed="#L" n="112"/>vero mouet dubium contra determinata, secun 
+      <lb ed="#L" n="113"/>dum facit ibi: Hic quaeritur si causalitas. tertium ibi: 
+      <lb ed="#L" n="114"/>Supra dictum est, quod spiritus sanctus. Circa primum 
+      <lb ed="#L" n="115"/>tria facit. Primo enim ex hoc declarat intentum, 
+      <lb ed="#L" n="116"/>qualiter spiritus sanctus visibiliter mittatur, 
+      <lb ed="#L" n="117"/>&amp; detur sibi, secunda ibi: Ne autem rem tantam. 
+      <lb ed="#L" n="118"/>tertia ibi: Tunc enim nobis mitti, vel dari dicitur.
+    </p>
+            <p xml:id="ol96b1-132149-d1e167">
+      <!--0405.xml-->
+               <pb ed="#L" n="405"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Dicit itaque primo, quod nunc agendum est 
+      <lb ed="#L" n="2"/>de missione inuisibili, qua spiritus sanctus 
+      mit<lb ed="#L" break="no" n="3"/>titur in corda fidelium per quam missionem 
+      <lb ed="#L" n="4"/>vera persona spiritus sancti datur; ad 
+      euiden<lb ed="#L" break="no" n="5"/>tiam autem qualiter possit hoc fieri, 
+      praemit<lb ed="#L" break="no" n="6"/>tendum est vnum, quod est valde necessarium, videli 
+      <lb ed="#L" n="7"/>cet quod spiritus sanctus, qui est amor patris, 
+      <lb ed="#L" n="8"/>&amp; filij ipse est amor ille, quo nos ipsi diligamus 
+      <lb ed="#L" n="9"/>Deum &amp; proximum; vnde tunc spiritus sanctus 
+      <lb ed="#L" n="10"/>mitti, vel dari nobis dicitur, cum facit nos 
+      dili<lb ed="#L" break="no" n="11"/>gere Deum. amor enim, &amp; charitas non sunt 
+      <lb ed="#L" n="12"/>aliud, quam ipse spiritus sanctus. 
+    </p>
+            <p xml:id="ol96b1-132149-d1e203">
+               <lb ed="#L" n="13"/>Postmodum ibi: Ne autem in re tanta. Magister 
+      <lb ed="#L" n="14"/>probat illud praemissum, &amp; circa hoc tria 
+      fa<lb ed="#L" break="no" n="15"/>cit. primo enim ostendit multiplici auctoritate, 
+      <lb ed="#L" n="16"/>quod charitas, &amp; dilectio, qua diligimus 
+      proxi<lb ed="#L" break="no" n="17"/>mum sit vere Deus, &amp; est prima auctoritas 
+      Au<lb ed="#L" break="no" n="18"/>gustini 8. de Trinit. dicentis, &amp; qui diligit proxi 
+      <lb ed="#L" n="19"/>mum, consequens est, vt ipsam dilectionem diligat 
+      <lb ed="#L" n="20"/>Deus autem dilectio est; secunda est eiusdem eodem 
+      <lb ed="#L" n="21"/>libro, dicentis quod Deus dilectio est, vt quid ergo 
+      <lb ed="#L" n="22"/>vnus, &amp; trinus in coelorum sublimia quaerentes eum, 
+      <lb ed="#L" n="23"/>qui apud nos est. quo enim, nisi Deo plenus est, 
+      <lb ed="#L" n="24"/>qui plenus, dilectio est. Tertia quoque eiusdem 
+      <lb ed="#L" n="25"/>Augustini in eodem lib. &amp; eodem cap. dicens 
+      su<lb ed="#L" break="no" n="26"/>pernam dilectionem, qua diligimus non solum 
+      <lb ed="#L" n="27"/>inuicem ex Deo, sed etiam Deum esse. Quarta 
+      <lb ed="#L" n="28"/>vero auctoritas est eiusdem, &amp; eodem cap. qui 
+      <lb ed="#L" n="29"/>ait, quod Deus dilectio est, &amp; loquitur de 
+      dile<lb ed="#L" break="no" n="30"/>ctione, qua diligimus proximum. 
+    </p>
+            <p xml:id="ol96b1-132149-d1e245">
+               <lb ed="#L" n="31"/>Secundo ibi: Cum autem fraterna. Magister ostē- 
+      <lb ed="#L" n="32"/>dit, quod ille Deus, qui est dilectio, &amp; charitas, 
+      <lb ed="#L" n="33"/>sicut probatum est, non sit pater, aut filius, sed 
+      <lb ed="#L" n="34"/>tantum spiritus sanctus, &amp; adducit duas 
+      aucto<lb ed="#L" break="no" n="35"/>ritates. Prima siquidem Aug. qui dicit, quod 
+      il<lb ed="#L" break="no" n="36"/>la dilectio, quae Deus est, est Deus ex Deo. Secun 
+      <lb ed="#L" n="37"/>da etiam eiusdem dicentis, quod spiritus sanctus 
+      <lb ed="#L" n="38"/>est illa dilectio, quae facit nos in Deo manere, &amp; 
+      <lb ed="#L" n="39"/>ipsemet in nobis, &amp; concludit August. de spiritu 
+      <lb ed="#L" n="40"/>sancto, quod ipse sit Deus dilectio.
+    </p>
+            <p xml:id="ol96b1-132149-d1e269">
+               <lb ed="#L" n="41"/>Tertio ibi: Sed ne forte Remouet solutionem, 
+      <lb ed="#L" n="42"/>quae daretur. forsitan enim diceret, quod ista 
+      <lb ed="#L" n="43"/>sunt dicta per causae expressionem, vt 
+      intellige<lb ed="#L" break="no" n="44"/>retur, quod Deus charitas, quia charitatem in no 
+      <lb ed="#L" n="45"/>bis causat, hanc autem solutionem refellit 
+      di<lb ed="#L" break="no" n="46"/>cens, quod de omnibus rationibus, quae 
+      dicun<lb ed="#L" break="no" n="47"/>tur de Deo per causae expressionem, potest dici, 
+      <lb ed="#L" n="48"/>quod Deus est tale, quod nostrum, vnde Deus est 
+      <lb ed="#L" n="49"/>patientia nostra, quia patientiam causat, &amp; 
+      <lb ed="#L" n="50"/>spes nostra, quia spem causat in nobis, 
+      num<lb ed="#L" break="no" n="51"/>quam autem scriptum legitur, quod Deus sit 
+      cha<lb ed="#L" break="no" n="52"/>ritas nostra, legitur tamen de ipsa patientia in 
+      <lb ed="#L" n="53"/>Psal. Tu es patientia mea, &amp; refugium meum. &amp; mul 
+      <lb ed="#L" n="54"/>ta similia. non ergo Deus charitas, sicut 
+      patien<lb ed="#L" break="no" n="55"/>tia, quia charitatem tantummodo causet, 
+      im<lb ed="#L" break="no" n="56"/>mo videtur charitas ipsa, qua Deum, &amp; 
+      proxi<lb ed="#L" break="no" n="57"/>mum diligimus. 
+    </p>
+            <p xml:id="ol96b1-132149-d1e308">
+               <lb ed="#L" n="58"/>Postmodum ibi: Tunc enim. Magister ex 
+      nomi<lb ed="#L" break="no" n="59"/>ne proprio declarat intentum, dicens, quod optime 
+      <lb ed="#L" n="60"/>ex his patet, quando inuisibiliter mittitur spiri 
+      <lb ed="#L" n="61"/>tus sanctus. tunc enim nobis mitti, vel dari 
+      di<lb ed="#L" break="no" n="62"/>citur, cum ita in nobis est, vt faciat nos diligere 
+      <lb ed="#L" n="63"/>Deum, &amp; proximum, &amp; hoc ostendit duplici au 
+      <lb ed="#L" n="64"/>ctoritate. Augustin. vt patet in littera, haec est 
+      <lb ed="#L" n="65"/>sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

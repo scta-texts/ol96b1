@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="362"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-118152"> <!-- l1d12p1-prae -->
+            <head xml:id="ol96b1-118152-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-118152-d1e104">
+      <!--0362.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="52"/>QVOD SPJRJTVS SANCTVS PRJVS, 
+      <lb ed="#L" n="53"/>vel plenius non procedat a Patre, quam a Filio; 
+      princi<lb ed="#L" break="no" n="54"/>paliter tamen, ac proprie procedit a Patre. 
+      <lb ed="#L" n="55"/>DISTINCTIO XII. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e120">
+      <!--0362.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="56"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e129">
+               <lb ed="#L" n="57"/>ITEM quaeritur, &amp;c. Postquam 
+      <lb ed="#L" n="58"/>Magister determinauit de 
+      <lb ed="#L" n="59"/>emanatione spiritus sancti 
+      <lb ed="#L" n="60"/>in ordine ad principium, 
+      <lb ed="#L" n="61"/>hic determinat de ea in 
+      or<lb ed="#L" break="no" n="62"/>dini ad modum quaerit e-
+      <!-- missing line break-->nim, vtrum spiritus sanctus
+      <lb ed="#L" n="63"/>procedat vniformiter a 
+      fi<lb ed="#L" break="no" n="64"/>lio, &amp; a patre, vel procedat per prius a patre, 
+      <lb ed="#L" n="65"/>&amp; plenius, &amp; magis. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e154">
+               <lb ed="#L" n="66"/>Primo enim inquirit, an per prius procedat 
+      <lb ed="#L" n="67"/>a patre, quam a filio. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e161">
+               <lb ed="#L" n="68"/>Secundo, an plenius, vel magis. secunda ibi: 
+      <lb ed="#L" n="69"/>Nunc tractandum est. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e168">
+               <lb ed="#L" n="70"/>Circa primum facit duo. Mouet enim primo 
+      <lb ed="#L" n="71"/>dubitationem dicens, quod hic quaerendum 
+      <lb ed="#L" n="72"/>est: Vtrum spiritus sanctus per prius procedat 
+      <lb ed="#L" n="73"/>a patre, quam a filio; &amp; etiam, vtrum 
+      ma<lb ed="#L" break="no" n="74"/>gis procedat, &amp; probat Haereticus, quod per 
+      <lb ed="#L" n="75"/>prius, quia, aut procedit a patre, filio iam 
+      <lb ed="#L" n="76"/>nato, aut filio nondum nato, sed non filio iam 
+      <lb ed="#L" n="77"/>nato, quia secundum hoc processionem 
+      spiri<lb ed="#L" break="no" n="78"/>tus sancti natiuitas praecederet. ergo procedit 
+      <lb ed="#L" n="79"/>filio nondum nato, &amp; ita procedet ante a patre 
+      <lb ed="#L" n="80"/>quam filius sit genitus, &amp; per consequens est per 
+      <lb ed="#L" n="81"/>prius ab eo.
+    </p>
+            <p xml:id="ol96b1-118152-d1e197">
+      <!--0362.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="82"/>Secundo ibi: His, &amp; huiusmodi quaestionibus. 
+      <lb ed="#L" n="83"/>Respondet Magister secundum Augustinum 
+      <lb ed="#L" n="84"/>quod in illa summa Trinitate nulla interualla 
+      <lb ed="#L" n="85"/>temporum esse possunt, per quae saltem 
+      requi<lb ed="#L" break="no" n="86"/>ri possit, vtrum prius de patre sit natus filius, 
+      <lb ed="#L" n="87"/>&amp; postea spiritus sanctus processit de ambobus; 
+      <lb ed="#L" n="88"/>vnde dicendum est ad interrogationem 
+      haereti<lb ed="#L" break="no" n="89"/>ci, quod non processit spiritus filio iam nato, nec 
+      <lb ed="#L" n="90"/>filio nondum nato, quoniam ibi nec prius, nec po 
+      <lb ed="#L" n="91"/>sterius assignatur. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e226">
+               <lb ed="#L" n="92"/>Postmodum ibi: <quote xml:id="ol96b1-118152-Qd1e230">Nunc tranctandum est</quote>. 
+      Ma<lb ed="#L" break="no" n="93"/>gister inquirit, an saltem magis, vel plenius. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e235">
+               <lb ed="#L" n="94"/>Et circa hoc facit quinque. 
+      <lb ed="#L" n="95"/>Primo enim quaestionem proponit, &amp; soluit 
+      <lb ed="#L" n="96"/>dicens, quod nunc tractandum est, quod 
+      secun<lb ed="#L" break="no" n="97"/>do quaerebatur, an scilicet magis, vel plenius 
+      <lb ed="#L" n="98"/>procedat a patre spiritus sanctus, quam a 
+      fi<lb ed="#L" break="no" n="99"/>lio, &amp; dicendum, quod nec plenius, nec magis. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e252">
+               <lb ed="#L" n="100"/>Secunda ibi: <quote xml:id="ol96b1-118152-Qd1e256">Augustinus obijcit contra istam 
+      <lb ed="#L" n="101"/>responsionem</quote>. ab illo enim videtur spiritus 
+      san<lb ed="#L" break="no" n="102"/>ctus emanare magis, &amp; plenius, a quo 
+      proce<lb ed="#L" break="no" n="103"/>dit principalius. Augustinus autem dicit, quod 
+      <lb ed="#L" n="104"/>de patre procedit principaliter. ergo plenius 
+      <lb ed="#L" n="105"/>&amp; magis procedet, &amp; respondet ad hoc, iuxta 
+      <lb ed="#L" n="106"/>quod Augustinus exponit, quod ideo dicitur a 
+      <lb ed="#L" n="107"/>patre principaliter procedere, quia filius 
+      na<lb ed="#L" break="no" n="108"/>scendo accepit a patre, quod donum 
+      commu<lb ed="#L" break="no" n="109"/>ne, quod est spiritus sanctus procederet ab 
+      v<lb ed="#L" break="no" n="110"/>troque.
+    </p>
+            <p xml:id="ol96b1-118152-d1e281">
+      <!--0363.xml-->
+               <pb ed="#L" n="363"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Tertio ibi: Ex eodem sensu. obijcit secundario 
+      <lb ed="#L" n="2"/>ex verbis Hieronymi, qui dicit in tribus locis, 
+      <lb ed="#L" n="3"/>quod spiritus sanctus est vere, &amp; proprie de 
+      pa<lb ed="#L" break="no" n="4"/>tre, &amp; respondet, quod haec veritas, &amp; 
+      proprie<lb ed="#L" break="no" n="5"/>tas referri debet ad hoc, quod pater a se habet, 
+      <lb ed="#L" n="6"/>vt spiritus procedat ab eo, filius vero illud 
+      ha<lb ed="#L" break="no" n="7"/>bet a patre. 
+    </p>
+            <p xml:id="ol96b1-118152-d1e305">
+               <lb ed="#L" n="8"/>Quarto ibi: Forte etiam. obiicit tertio dicens, 
+      <lb ed="#L" n="9"/>quod eodem modo soluuntur tres auctoritates 
+      <lb ed="#L" n="10"/>Hilarij, in quibus dicitur, quod spiritus sanctus 
+      <lb ed="#L" n="11"/>est a patre, per filium, vel mittitur. referri enim 
+      <lb ed="#L" n="12"/>debent haec verba ad istum intellectum, quod 
+      pa<lb ed="#L" break="no" n="13"/>ter dat filio, &amp; filius habet a patre, vt ab ipso sit 
+      <lb ed="#L" n="14"/>spiritus sanctus, &amp; mittatur.
+    </p>
+            <p xml:id="ol96b1-118152-d1e323">
+               <lb ed="#L" n="15"/>Vltimo ibi: Iude est etiam. obiicit quarto, 
+      di<lb ed="#L" break="no" n="16"/>cens, quod secundum istum intellectum sumi 
+      de<lb ed="#L" break="no" n="17"/>bet Euangelium illud, Spiritus, qui a patre 
+      pro<lb ed="#L" break="no" n="18"/>cedit. non enim per hoc innuit, quod magis, vel 
+      <lb ed="#L" n="19"/>plenius sit a patre, quam a filio, sed quod pater 
+      <lb ed="#L" n="20"/>auctor est processionis, qua procedit spiritus 
+      <lb ed="#L" n="21"/>sanctus a filio. non enim habet a semetipso filius, 
+      <lb ed="#L" n="22"/>sed a patre, vnde propter huiusmodi rationem 
+      <lb ed="#L" n="23"/>dicit filius: Mea doctriua non est mea, &amp; quasi 
+      <lb ed="#L" n="24"/>omnia sua dicit esse non sua, sed patris, quia 
+      om<lb ed="#L" break="no" n="25"/>nia sunt a patre. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

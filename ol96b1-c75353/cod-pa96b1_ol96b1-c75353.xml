@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="233"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c75353"> <!-- l1d6p1-prae -->
+            <head xml:id="ol96b1-c75353-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c75353-d1e104">
+      <!--0233.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="25"/>QVOD PATER NEC VOLVNTATE GENVJT 
+      <lb ed="#L" n="26"/>Filium: nec necessitate: sicut nec volens, nec 
+      no<lb ed="#L" break="no" n="27"/>lens, est Deus. 
+    </p>
+            <p xml:id="ol96b1-c75353-d1e117">
+               <lb ed="#L" n="28"/>DISTINCTIO VI
+    </p>
+            <p xml:id="ol96b1-c75353-d1e122">
+      <!--0233.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="29"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-c75353-d1e132">
+               <lb ed="#L" n="30"/>
+               <quote xml:id="ol96b1-c75353-Qd1e136">PRAETEREA solet quaeri</quote>, &amp;c. 
+      <lb ed="#L" n="31"/>Postquam Magister 
+      compa<lb ed="#L" break="no" n="32"/>rauit actum generationis ad 
+      <lb ed="#L" n="33"/>hunc terminum, Deus, &amp; 
+      <lb ed="#L" n="34"/>hunc terminum, Deitas, hic 
+      <lb ed="#L" n="35"/>comparat ipsum, ad hos ter 
+      <lb ed="#L" n="36"/>minos, voluntas, necessitas, 
+      <lb ed="#L" n="37"/>&amp; natura. Et circa hoc facit quatuor. Primo 
+      nam<lb ed="#L" break="no" n="38"/>que proponit quaestionem. secundo ponit 
+      solu<lb ed="#L" break="no" n="39"/>tionem. tertio addit obiectionem. quarto redit 
+      <lb ed="#L" n="40"/>ad expositionem datae solutionis. secunda ibi: 
+      <lb ed="#L" n="41"/>Dicamus hoc verbum. tertia ibi: <quote xml:id="ol96b1-c75353-Qd1e162">Sed contra 
+      praedi<lb ed="#L" break="no" n="42"/>cta</quote>. quarta ibi: <quote xml:id="ol96b1-c75353-Qd1e167">Praedicta tamen verba</quote>. 
+    </p>
+            <p xml:id="ol96b1-c75353-d1e170">
+               <lb ed="#L" n="43"/>Circa primum duo facit. Primo namque 
+      mo<lb ed="#L" break="no" n="44"/>uet quaestionem, &amp; arguit secundum Augustinum, 
+      <lb ed="#L" n="45"/>dicens, quod quaeri solet, vtrum Pater genuerit 
+      <lb ed="#L" n="46"/>Filium voluntate, an necessitate, &amp; introducitur 
+      <lb ed="#L" n="47"/>ista quaestio propter hoc, quod statim dictum fuit, 
+      <lb ed="#L" n="48"/>Filium Dei esse genitum natura, arguit autem 
+      se<lb ed="#L" break="no" n="49"/>cundum Augustinum, quod nec genuerit necessitate, 
+      <lb ed="#L" n="50"/>quia in Deo necessitas non est, nec genuerit 
+      vo<lb ed="#L" break="no" n="51"/>luntate, quia Filius Sapientia est: voluntas 
+      au<lb ed="#L" break="no" n="52"/>tem sapientiam, &amp; intellectum praeire non potest. 
+      <lb ed="#L" n="53"/>Secundo ibi: Quocirca. Ex argumentatione 
+      <lb ed="#L" n="54"/>hac Magister deridet haereticum, dicens, quod ir 
+      <lb ed="#L" n="55"/>ridenda est Dialectica Eunomij, a quo 
+      Eunomia<lb ed="#L" break="no" n="56"/>ni haeretici sunt exorti: ille namque non potuit 
+      <lb ed="#L" n="57"/>intelligere vnigenitum Dei verbum esse Filium 
+      <lb ed="#L" n="58"/>natura, &amp; ideo confessus est, eum esse filium 
+      vo<lb ed="#L" break="no" n="59"/>luntatis. Intellexit per huiusmodi voluntatem, 
+      <lb ed="#L" n="60"/>quod sicut nobis aliquando voluntas accedit, qua 
+      <lb ed="#L" n="61"/>volumus, quod antea nolebamus, sic secundum 
+      <lb ed="#L" n="62"/>istum Patri voluntas accessit, qua filium 
+      genera<lb ed="#L" break="no" n="63"/>uit, non enim potuit intelligere, quod ipsum 
+      gene<lb ed="#L" break="no" n="64"/>rasset necessitate naturae. 
+    </p>
+            <p xml:id="ol96b1-c75353-d1e220">
+               <lb ed="#L" n="65"/>Postmodum ibi: Dicamus ergo. Soluit Magister 
+      <lb ed="#L" n="66"/>quaestionem, dicens, quod Filius Dei est natura 
+      <lb ed="#L" n="67"/>filius, non voluntate, &amp; ad argumentum 
+      haereti<lb ed="#L" break="no" n="68"/>ci respondetur satis acute per quendam. cum 
+      e<lb ed="#L" break="no" n="69"/>nim versutissime interrogaret haereticus, vtrum 
+      <!--0233.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="70"/>Deus Filium suum genuit volens, aut nolens, vt 
+      <lb ed="#L" n="71"/>si diceret fidelis, quod nolens, Dei miseria 
+      <lb ed="#L" n="72"/>inferretur, quod absurdum est: si autem 
+      conce<lb ed="#L" break="no" n="73"/>deret, quod voluntas volens, continuo quod 
+      in<lb ed="#L" break="no" n="74"/>tendebat concluderet, videlicet, Filium esse filium 
+      <lb ed="#L" n="75"/>voluntatis, non naturae, vigilantissime 
+      catholi<lb ed="#L" break="no" n="76"/>cus respondit quaerendo vicissim ab haeretico, 
+      v<lb ed="#L" break="no" n="77"/>trum Deus pater volens, an nolens sit Deus, vt 
+      <lb ed="#L" n="78"/>si responderet haereticus, quod nolens, statim 
+      <lb ed="#L" n="79"/>Dei miseria, &amp; absurditas sequeretur. Si autem 
+      <lb ed="#L" n="80"/>responderet, quod volens, inferretur, quod 
+      vo<lb ed="#L" break="no" n="81"/>luntate sua Deus est, non natura, &amp; sic obmutuit 
+      <lb ed="#L" n="82"/>haeretici versutia, interrogatione propria 
+      inno<lb ed="#L" break="no" n="83"/>data, &amp; concludit Magister, quod sicut Pater 
+      <lb ed="#L" n="84"/>non est Deus voluntate, vel necessitate, sic nec 
+      <lb ed="#L" n="85"/>genuit Filium voluntate, nec necessitate. 
+    </p>
+            <p xml:id="ol96b1-c75353-d1e272">
+               <lb ed="#L" n="86"/>Postmodum ibi: Sed contra praedicta. Magister 
+      <lb ed="#L" n="87"/>arguit, &amp; ponit talem obiectionem, quando 
+      ali<lb ed="#L" break="no" n="88"/>qua sunt idem, quidquid attribuitur vni, 
+      attri<lb ed="#L" break="no" n="89"/>buitur alteri, sed voluntas, essentia, &amp; natura, 
+      <lb ed="#L" n="90"/>idem sunt in Deo. ergo cum Filium genuerit natu 
+      <lb ed="#L" n="91"/>ra, videtur, quod genuerit voluntate. Respondet 
+      <lb ed="#L" n="92"/>Magister, quod licet sint idem, non tamen, quod 
+      <lb ed="#L" n="93"/>dicitur de vno, dicitur de alio, exemplum de 
+      vo<lb ed="#L" break="no" n="94"/>luntate, &amp; praescientia, quae sunt idem, nec tamen 
+      <lb ed="#L" n="95"/>ideo vult mala, quia praescit ea. Hanc autem 
+      so<lb ed="#L" break="no" n="96"/>lutionem, complet infra dist. 35. in cap. ad hoc 
+      <lb ed="#L" n="97"/>iuxta. &amp; dist. 45. in cap. &amp; licet. &amp; vbicumque, quae 
+      <lb ed="#L" n="98"/>stat in hoc secundum eum, quod voluntas, &amp; scien 
+      <lb ed="#L" n="99"/>tia, &amp; natura, &amp; similia, quamuis sint id ipsum, 
+      <lb ed="#L" n="100"/>monstrant tamen, &amp; denotant aliqua Deo subie 
+      <lb ed="#L" n="101"/>cta esse, alia autem demonstrat, &amp; denotat volun 
+      <lb ed="#L" n="102"/>tas, alia praescientia, &amp; alia natura, vnde non 
+      se<lb ed="#L" break="no" n="103"/>Equitur natura, &amp; voluntas sunt idem in Deo. 
+    </p>
+            <p xml:id="ol96b1-c75353-d1e314">
+               <lb ed="#L" n="104"/>Produxit autem Filium natura. ergo produxit 
+      <lb ed="#L" n="105"/>voluntate, non sequitur ratione alterius 
+      conno<lb ed="#L" break="no" n="106"/>tati, vel demonstrati. 
+    </p>
+            <p xml:id="ol96b1-c75353-d1e323">
+               <lb ed="#L" n="107"/>Postmodum ibi: <quote xml:id="ol96b1-c75353-Qd1e327">Praedicta tamen</quote>. Magister 
+      re<lb ed="#L" break="no" n="108"/>dit ad exponendum, quod dictum est, Patrem non 
+      <lb ed="#L" n="109"/>esse Deum, aut generasse Filium volentem, nec 
+      <lb ed="#L" n="110"/>nolentem, &amp; dicit, quod distinguendum est, 
+      <lb ed="#L" n="111"/>de voluntate accedente, praecedente, efficiente, &amp; 
+      <!--0234.xml-->
+      <pb ed="#L" n="234"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>concomirante, non enim pater est Deus, vel 
+      fi<lb ed="#L" break="no" n="2"/>lium genuir voluntate efficiente, aut accedente, 
+      <lb ed="#L" n="3"/>aut praepedente, sed concomitante. sicut enim 
+      <lb ed="#L" n="4"/>Sapiens, &amp; bonus genuit filium, ita &amp; volens con 
+      <lb ed="#L" n="5"/>comitatiue. Haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

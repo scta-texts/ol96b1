@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="87"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c27573"> <!-- l1d1p2-q1 -->
+            <head xml:id="ol96b1-c27573-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-c27573-Hd1e104" type="question-title">
+        Utrum fruitio sit unicus, et simplex actus uoluntatis
+      </head>
+            <p xml:id="ol96b1-c27573-d1e107">
+               <lb ed="#L" n="60"/>Vtrum fruitio sit vnicus, et simplex actus uoluntatis
+    </p>
+            <p xml:id="ol96b1-c27573-d1e112">
+               <lb ed="#L" n="61"/>ET quia Magister hic notificat quid est frui, 
+      <lb ed="#L" n="62"/>&amp; vti, ponendo diuersas notificationes 
+      frui<lb ed="#L" break="no" n="63"/>tionis, idcirco ad videndum, quid sit vsus, &amp; 
+      frui<lb ed="#L" break="no" n="64"/>tio, inquirendum occurrit, vtrum fruitio sit 
+      vni<lb ed="#L" break="no" n="65"/>cus, &amp; simplex actus voluntatis. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e126">
+      <!--0087.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>Quod frui sit delectari de beatifica visione.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e135">
+               <lb ed="#L" n="67"/>ET videtur, quod sic sit delectatio de 
+      beati<lb ed="#L" break="no" n="68"/>fica visione, &amp; per consequens vnus actus. 
+      <lb ed="#L" n="69"/>omnis enim amor concupiscentiae fertur non 
+      im<lb ed="#L" break="no" n="70"/>mediate super rem, sed super rei habitionem, 
+      <lb ed="#L" n="71"/>sicut patet exemplo: qui enim diligit vinum, &amp; 
+      <lb ed="#L" n="72"/>concupiscit ipsum, huius delectationis obiectum 
+      <lb ed="#L" n="73"/>non est vinum, sed vsus vini, qui est actus 
+      gustan<lb ed="#L" break="no" n="74"/>tis, sed fruitio est amor concupiscentiae, cum sit 
+      <lb ed="#L" n="75"/>delectatio de Deo non inquantum Deus, sed 
+      in<lb ed="#L" break="no" n="76"/>quantum habitus. ergo fruitio, est delectatio 
+      pro<lb ed="#L" break="no" n="77"/>ueniens ex Diuina habitione, &amp; per consequens 
+      <lb ed="#L" n="78"/>erit delectatio de beatifica visione per quam 
+      <lb ed="#L" n="79"/>Deus habetur.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e166">
+               <lb ed="#L" n="80"/>Praeterea: Fruitio succedit desiderio, sed 
+      desi<lb ed="#L" break="no" n="81"/>derium est respectu habitionis Diuinae, non 
+      re<lb ed="#L" break="no" n="82"/>spectu Dei absolute. non enim desideramus Deum, 
+      <lb ed="#L" n="83"/>sed habere, vel videre ipsum. ergo nec fruitio est 
+      <lb ed="#L" n="84"/>delectatio de Deo, sed de visione Dei. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e179">
+               <lb ed="#L" n="85"/>Praeterea: Obiectum fruitionis est aliqua 
+      per<lb ed="#L" break="no" n="86"/>fectio nostra formaliter inhaerens. est enim 
+      dele<lb ed="#L" break="no" n="87"/>ctatio aliquid proueniens ex coniunctione 
+      con<lb ed="#L" break="no" n="88"/>uenientis cum conueniente, &amp; sic coniunctio est 
+      <lb ed="#L" n="89"/>perfectio formaliter inhaerens, nec aliquid est no 
+      <lb ed="#L" n="90"/>stra perfectio vltimata, nisi actus, quo 
+      coniun<lb ed="#L" break="no" n="91"/>gimur Deo. ergo fruitio, &amp; delectatio de actu 
+      <lb ed="#L" n="92"/>beatifico, non est de ipso Deo. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e199">
+               <lb ed="#L" n="93"/>Praeterea: Omnis amor, siue desiderij, siue 
+      de<lb ed="#L" break="no" n="94"/>lectationis habet aliquid complexum pro 
+      obie<lb ed="#L" break="no" n="95"/>cto: voluntas namque sequitur actum intellectus 
+      <lb ed="#L" n="96"/>componentis, &amp; diuidentis. talis enim solum 
+      <lb ed="#L" n="97"/>proponit aliquid, vt conueniens ad 
+      prosequen<lb ed="#L" break="no" n="98"/>dum, vel disconueniens ad fugiendum, sed Deus 
+      <lb ed="#L" n="99"/>absolute sumptus, est aliquid incomplexum, &amp; 
+      <lb ed="#L" n="100"/>per modum incomplexi apprehensum: Deum 
+      <lb ed="#L" n="101"/>autem videri, vel manifestari est aliquid 
+      comple<lb ed="#L" break="no" n="102"/>xum. ergo Deus secundum se non pote st esse 
+      ob<lb ed="#L" break="no" n="103"/>iectum desiderij, vel delectationis, sed solum 
+      vi<lb ed="#L" break="no" n="104"/>sio, vel manifestatio eius, &amp; per consequens 
+      frui<lb ed="#L" break="no" n="105"/>tio est delectatio de visione Dei. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e230">
+               <lb ed="#L" n="106"/>Praeterea: Nullum vanum ponendum est in Bea 
+      <lb ed="#L" n="107"/>tis, sed desiderare aliquod bonum Deo, omnino 
+      fa<lb ed="#L" break="no" n="108"/>tuum est, &amp; vanum, quia Deus babet omne bonum, 
+      <lb ed="#L" n="109"/>delectari etiam, quod Deus habet omne bonum, 
+      <lb ed="#L" n="110"/>videtur esse quoddam vanum, cum aliter esse non 
+      pos<lb ed="#L" break="no" n="111"/>sit quin habeat. ergo videtur, quod delectari de 
+      <lb ed="#L" n="112"/>Deo, vel quod Deus habet aliquod bonum, non sit 
+      <lb ed="#L" n="113"/>fruitio, quae ponitur in Beatis, sed magis 
+      delecta<lb ed="#L" break="no" n="114"/>ri de Dei habitione a se per actum visionis. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e253">
+               <lb ed="#L" n="115"/>Quod sit delectatio proueniens ex dilectione.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e258">
+               <lb ed="#L" n="116"/>VLTERJVS videtur, quod sit vnicus actus 
+      volun<lb ed="#L" break="no" n="117"/>tatis, scilicet delectatio proueniens ex Dei 
+      dile<lb ed="#L" break="no" n="118"/>ctione in patria. delectatio enim maxime 
+      sequi<lb ed="#L" break="no" n="119"/>tur ex vnione summi conuenientis, vt patet 10. 
+      <lb ed="#L" n="120"/>Ethic. sed dilectio est maxime actus vnitiuus, &amp; 
+      <lb ed="#L" n="121"/>maxime in patria, vbi fit mutua penetratio per 
+      <lb ed="#L" n="122"/>amorem, sicut dicitur I. Io. Qui manet in charitate, 
+      <lb ed="#L" n="123"/>in Deo manet, &amp; Deus in eo. ergo delectatio 
+      fruiti<lb ed="#L" break="no" n="124"/>ua, quae est in patria prouenit ex dilectione. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e280">
+               <lb ed="#L" n="125"/>Praeterea: Sicut se habet visio ad 
+      comprehen<lb ed="#L" break="no" n="126"/>sionem, sic se videtur habere dilectio ad 
+      fruitio<lb ed="#L" break="no" n="127"/>nem, &amp; delectationem, sed ex visione oritur 
+      com<lb ed="#L" break="no" n="128"/>prehensio. per hoc enim, quod Deus videtur non 
+      <lb ed="#L" n="129"/>per similitudinem, sed per essentiam, quasi 
+      quodammo<lb ed="#L" break="no" n="130"/>do efficitur intra videntem, &amp; per consequens intra 
+      <!--0088.xml-->
+      <pb ed="#L" n="88"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>capitur, &amp; comprehenditur. ergo ex dilectione 
+      <lb ed="#L" n="2"/>oritur mutua intimatio; &amp; per consequens 
+      frui<lb ed="#L" break="no" n="3"/>tio, &amp; delectatio summa.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e309">
+               <lb ed="#L" n="4"/>Praeterea: Nomen fruitionis tractum videtur 
+      <lb ed="#L" n="5"/>esse a fructu: fructus autem est illud, quod ad 
+      vl<lb ed="#L" break="no" n="6"/>timum ex arbore expectatur, &amp; cum quadam 
+      sua<lb ed="#L" break="no" n="7"/>uitate carpitur, &amp; percipitur, &amp; per consequens 
+      <lb ed="#L" n="8"/>fruitio videtur esse delectatio, quam quis habet 
+      <lb ed="#L" n="9"/>de eo, quod expectatur pro vltimo, &amp; fine, sed 
+      <lb ed="#L" n="10"/>actus delectationis est vltimior actu visionis in 
+      <lb ed="#L" n="11"/>Patria; consequitur namque visionem dilectio. 
+      <lb ed="#L" n="12"/>ergo fruitio oritur ex dilectione, &amp; est 
+      delecta<lb ed="#L" break="no" n="13"/>tio proueniens ex amore, quod maxime 
+      aman<lb ed="#L" break="no" n="14"/>tibus appropriatur, sed frui praesentia alicuius 
+      <lb ed="#L" n="15"/>maxime appropriatur amanti, &amp; potissime mul 
+      <lb ed="#L" n="16"/>tum amanti: non enim frueretur 
+      quantumcum<lb ed="#L" break="no" n="17"/>que videretur, nisi amaretur. ergo fruitio est 
+      <lb ed="#L" n="18"/>delectatio proueniens ex amore.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e344">
+               <lb ed="#L" n="19"/>Quod fruitio sit dilectio, &amp; delectatio, quoniam 
+      <lb ed="#L" n="20"/>haec nomina sunt idem re, etsi 
+      dif<lb ed="#L" break="no" n="21"/>ferant ratione. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e353">
+               <lb ed="#L" n="22"/>Vlterius videtur, quod sit vnus actus
+      <!-- missing line break -->&amp; simpliciter, dato etiam, quod sit 
+      delecta<lb ed="#L" break="no" n="23"/>tio, &amp; dilectio eadem sint realiter, sed differentia 
+      <lb ed="#L" n="24"/>ratione. illi enim actus sunt realiter idem, qui 
+      <lb ed="#L" n="25"/>sunt eiusdem potentiae respectu eiusdem obiecti, 
+      <lb ed="#L" n="26"/>sed diligere, &amp; delectari sunt actus eiusdem potentiae 
+      <lb ed="#L" n="27"/>scilicet voluntatis, &amp; respectu eiusdem obiecti, puta 
+      <lb ed="#L" n="28"/>Dei praesentis. ergo videtur, quod delectatio volunta 
+      <lb ed="#L" n="29"/>tis in Deo praesente, &amp; dilectio Dei sit vnus actus. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e376">
+               <lb ed="#L" n="30"/>Praeterea: Idem inquantum idem semper est 
+      <lb ed="#L" n="31"/>aptum natum facere idem, sed bonum praesens 
+      <lb ed="#L" n="32"/>causat in voluntate dilectionem, &amp; delectationem. 
+      <lb ed="#L" n="33"/>ergo dilectio, &amp; delectatio, sunt realiter idem. 
+      <lb ed="#L" n="34"/>Praeterea: Quorum opposita sunt idem, ipsa 
+      <lb ed="#L" n="35"/>t videntur idem, sed oppositum dilectionis quod 
+      <lb ed="#L" n="36"/>est odium, seu displicentia habiti mali videtur 
+      <lb ed="#L" n="37"/>esse idem, quod tristari de malo habito, quod est 
+      <lb ed="#L" n="38"/>oppositum delectationis. ergo dilectio, &amp; 
+      dele<lb ed="#L" break="no" n="39"/>ctatio realiter erunt idem. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e400">
+               <lb ed="#L" n="40"/>Praeterea: Illa sunt eadem, quae habent eosdem 
+      <lb ed="#L" n="41"/>effectus, sed dilectio, &amp; delectatio eosdem 
+      effe<lb ed="#L" break="no" n="42"/>ctus habent, scilicet perficere, &amp; intendere 
+      <lb ed="#L" n="43"/>actum intellectus. ea enim, quae fiunt ex 
+      dile<lb ed="#L" break="no" n="44"/>ctione, vel delectatione perfectius, &amp; intentius 
+      <lb ed="#L" n="45"/>fiunt. ergo illud, quod prius. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e416">
+               <lb ed="#L" n="46"/>Praeterea: Via a potentia in obiectum, &amp; ab 
+      <lb ed="#L" n="47"/>obiecto in potentiam videtur esse eadem 
+      reali<lb ed="#L" break="no" n="48"/>ter, quamuis differant ratione, sicut Philosophus 
+      <lb ed="#L" n="49"/>dicit, sed delectatio est quaedam impressio in 
+      <lb ed="#L" n="50"/>potentia ab obiecto, dilectio vero tendentia 
+      po<lb ed="#L" break="no" n="51"/>tentiae in obiectum. ergo videntur esse idem 
+      rea<lb ed="#L" break="no" n="52"/>liter, etsi differant ratione, sicut de actione, &amp; 
+      <lb ed="#L" n="53"/>passione, Philosophus dicit 3. Phys. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e436">
+               <lb ed="#L" n="54"/>Praeterea: Delectatio dicit quietem 
+      poten<lb ed="#L" break="no" n="55"/>tiae: dilectio vero vnionem potentiae in 
+      obie<lb ed="#L" break="no" n="56"/>ctum; sed vnione quiescit, &amp; quiescendo 
+      vni<lb ed="#L" break="no" n="57"/>tur. ergo dilectio, &amp; delectatio, etsi differant 
+      ra<lb ed="#L" break="no" n="58"/>raac, sut uihilominus realiter idem, vt hacte- 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e449">
+               <lb ed="#L" n="59"/>Quod sit plures actus.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e454">
+               <lb ed="#L" n="60"/>SED in oppositum videtur, quod fruitio sit 
+      <lb ed="#L" n="61"/>plures actus. frui enim, &amp; vti ex opposito 
+      di<lb ed="#L" break="no" n="62"/>stinguuntur, sicut dicit Augustinus primo de do 
+      <!--0088.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>ctrina Christ. &amp; Magister in littera, sed vti est plu 
+      <lb ed="#L" n="64"/>res actus. est namque actus intellectus 
+      directi<lb ed="#L" break="no" n="65"/>ue, &amp; voluntatis imperatiue, &amp; potentiae 
+      moti<lb ed="#L" break="no" n="66"/>uae executiue. ergo fruitio est plures actus. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e477">
+               <lb ed="#L" n="67"/>Praeterea: Id quod includit actum voluntatis, 
+      <lb ed="#L" n="68"/>&amp; intellectus videtur esse plures actus: non enim 
+      <lb ed="#L" n="69"/>possibile est, vt idem sit actus intellectus, &amp; 
+      vo<lb ed="#L" break="no" n="70"/>luntatis, cum sint distinctae potentiae, sed frui 
+      <lb ed="#L" n="71"/>est actus voluntatis, iuxta illud August. primo 
+      <lb ed="#L" n="72"/>de Trinit. dicentis, quod plenum gaudium 
+      no<lb ed="#L" break="no" n="73"/>strum est frui Trinitate, gaudium autem est in 
+      <lb ed="#L" n="74"/>voluntate: est autem actus intellectus, tum quia 
+      <lb ed="#L" n="75"/>visio est tota merces secundum Augustinum, mer 
+      <lb ed="#L" n="76"/>ces autem totius menti, consistit in fruitione 
+      Tri<lb ed="#L" break="no" n="77"/>nitatis: tum quia fruitio est nobilissimus actus, 
+      <lb ed="#L" n="78"/>&amp; perfectissimus, propter quod debet attribui 
+      <lb ed="#L" n="79"/>nobilissimae potentiae, qualis est intellectus: ergo 
+      <lb ed="#L" n="80"/>fruitio est plures actus. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e510">
+               <lb ed="#L" n="81"/>Praeterea: Illa sunt plura, quae plures habent 
+      <lb ed="#L" n="82"/>definitiones, sed Magister ponit in littera tres 
+      <lb ed="#L" n="83"/>definitiones fruitionis. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e519">
+               <lb ed="#L" n="84"/>Primam quidem. quod frui est amore inhaerere 
+      <lb ed="#L" n="85"/>alicui rei propter seipsam. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e526">
+               <lb ed="#L" n="86"/>Secundam autem, quod fruimur cognitis, in 
+      <lb ed="#L" n="87"/>quibus propter se voluntas conquiescit. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e533">
+               <lb ed="#L" n="88"/>Tertiam vero, quod frui est vti cum gaudio non 
+      <lb ed="#L" n="89"/>adhuc spei, sed iam rei. ergo frui est plures actus 
+      <lb ed="#L" n="90"/>vt videtur. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e542">
+               <lb ed="#L" n="91"/>Quod sit plures pro eo, quod est delectatio, 
+      <lb ed="#L" n="92"/>&amp; dilectio. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e550">
+               <lb ed="#L" n="93"/>VYLTERJVS videtur, quod sit plures actus, 
+      <lb ed="#L" n="94"/>si sit delectatio, &amp; dilectio, sicut Magister
+      <lb ed="#L" n="95"/>in litera innuere videtur. illa enim sunt plura, 
+      <lb ed="#L" n="96"/>&amp; distincta realiter, quorum realiter opposita 
+      <lb ed="#L" n="97"/>distinguuntur, sed odium, &amp; tristitia sunt 
+      oppo<lb ed="#L" break="no" n="98"/>sita dilectionis, &amp; delectationis: odium autem, 
+      <lb ed="#L" n="99"/>&amp; tristitia realiter distinguuntur, quod patet ex 
+      <lb ed="#L" n="100"/>hoc, quod odium potest esse non existentis, 
+      tri<lb ed="#L" break="no" n="101"/>stitia est malum tantummodo praesentis, &amp; 
+      exi<lb ed="#L" break="no" n="102"/>stentis, &amp; iterum tristari est violentari; odire 
+      <lb ed="#L" n="103"/>autem est voluntarium, &amp; iterum Deus, &amp; 
+      Bea<lb ed="#L" break="no" n="104"/>ti oderunt malum, secundum illud Prophetae: 
+      Di<lb ed="#L" break="no" n="105"/>lexisti iustitiam, &amp; odisti iniquitatem. &amp; tamen nul 
+      <lb ed="#L" n="106"/>lo modo tristantur, sed delectantur in summo. ergo 
+      <lb ed="#L" n="107"/>dilectio, &amp; delectatio non sunt realiter idem actus. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e585">
+               <lb ed="#L" n="108"/>Praeterea: Illa non sunt realiter idem, cuius 
+      <lb ed="#L" n="109"/>summum vnius non est summum alterius: sed 
+      <lb ed="#L" n="110"/>summum dilectionis non est summum 
+      delecta<lb ed="#L" break="no" n="111"/>tionis, vt patet in multis, qui fortiter Deum 
+      <lb ed="#L" n="112"/>diligunt, &amp; tamen nullam, vel modicam 
+      dele<lb ed="#L" break="no" n="113"/>ctationem experiuntur, &amp; de hoc multum tristan 
+      <lb ed="#L" n="114"/>tur, patet etiam in fortibus, qui multum eligunt, 
+      <lb ed="#L" n="115"/>&amp; summe diligunt actus fortitudinis, &amp; 
+      pericu<lb ed="#L" break="no" n="116"/>la mortis, &amp; tamen modicum delectantur, vt 
+      pa<lb ed="#L" break="no" n="117"/>tet per experientiam, &amp; Philosophus docet 
+      ter<lb ed="#L" break="no" n="118"/>tio Ethicor. ergo dilectio, &amp; delectatio realiter 
+      <lb ed="#L" n="119"/>non sunt idem. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e614">
+               <lb ed="#L" n="120"/>Praeterea: Illa non sunt realiter idem, quae ab 
+      <lb ed="#L" n="121"/>inuicem separantur, cum idem non possit a se 
+      <lb ed="#L" n="122"/>separari, sed in Daemonibus, &amp; in damnatis 
+      se<lb ed="#L" break="no" n="123"/>parantur dilectio sui a delectatione. summe 
+      e<lb ed="#L" break="no" n="124"/>nim se diligunt, &amp; tamen non summe in seipsis 
+      <lb ed="#L" n="125"/>delectantur. quod enim summe se diligant 
+      pa<lb ed="#L" break="no" n="126"/>tet per Augustinum 14. de Ciuit. Dei, dicentem, 
+      <lb ed="#L" n="127"/>quod amor suiipsius ad contemptum Dei fecit 
+      <!--0089.xml-->
+      <pb ed="#L" n="89"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Daemonis ciuitatem, sicut, amor Dei vsque ad 
+      <lb ed="#L" n="2"/>contemptum sui fecit ciuitatem Dei. Quod ve 
+      <lb ed="#L" n="3"/>ro summe doleant patet per illud Sapientiae 5. 
+      <lb ed="#L" n="4"/>scciptum. <quote xml:id="ol96b1-c27573-Qd1e648">Quod erunt prae angustia spiritus 
+      gemen<lb ed="#L" break="no" n="5"/>aa, &amp; inmo se penitentiam agentes</quote>: ergo fruitio, 
+      <lb ed="#L" n="6"/>&amp; delectatio non sunt idem. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e656">
+               <lb ed="#L" n="7"/>Praeterea: Illud, quod est passio impressa ab 
+      <lb ed="#L" n="8"/>obiecto non videtur esse idem cum actu volunta 
+      <lb ed="#L" n="9"/>uios &amp; libere elicito a potentia voluntatis, sed 
+      <lb ed="#L" n="10"/>delectatio est quaedam passio impressa ab 
+      obie<lb ed="#L" break="no" n="11"/>cto: delectatio enim est ex conninctione conue 
+      <lb ed="#L" n="12"/>nientis cum conueniente. dilectio autem est 
+      a<lb ed="#L" break="no" n="13"/>actus liberrimus voluntatis. ergo illud, quod 
+      <lb ed="#L" n="14"/>prius. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e676">
+               <lb ed="#L" n="15"/>Praeterea illud super quod ferri potest dile 
+      <lb ed="#L" n="16"/>ctio actu recto, non est idem cum dilectione 
+      rea<lb ed="#L" break="no" n="17"/>liter dilectio enim non fertur super se ipsam 
+      a<lb ed="#L" break="no" n="18"/>ctu recto, sed tantum reflexo: sed praesente 
+      obie<lb ed="#L" break="no" n="19"/>cto, homo diligit, delectatur, &amp; desiderat actu 
+      <lb ed="#L" n="20"/>recto, iuxta illud August. 9. de Trinitate. 
+      dicen<lb ed="#L" break="no" n="21"/>tis, quodedesiderium inhiantis, est amor 
+      fruen<lb ed="#L" break="no" n="22"/>tis. ergo videtur, quod dilectio, &amp; delectatio 
+      <lb ed="#L" n="23"/>nou sunt idem. 
+    </p>
+            <p xml:id="ol96b1-c27573-d1e698">
+               <lb ed="#L" n="24"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e704">
+               <lb ed="#L" n="25"/>AD quaestionem istam respondendo hoc 
+      or<lb ed="#L" break="no" n="26"/>dine procedetur.
+    </p>
+            <p xml:id="ol96b1-c27573-d1e711">
+               <lb ed="#L" n="27"/>Primo namque fruitio comparabitur ad 
+      di<lb ed="#L" break="no" n="28"/>lectionem, &amp; delectationem. 
+      <lb ed="#L" n="29"/>Secundo vero ad voluntatem finis, &amp; intentionem. 
+      <lb ed="#L" n="30"/>Tertio quoque ad vsum, &amp; consensum, &amp; 
+      e<lb ed="#L" break="no" n="31"/>lectionem. 
+      <lb ed="#L" n="32"/>Quarto directe ex hoc respondendo ad 
+      quae<lb ed="#L" break="no" n="33"/>stionem videbitur quid est frui, &amp; quid est vti 
+      se<lb ed="#L" break="no" n="34"/>cundum rem, &amp; distinctionem.
+    </p>
+            <div xml:id="ol96b1-c27573-Dd1e731">
+               <head xml:id="ol96b1-c27573-Hd1e733">Articulus 1</head>
+               <p xml:id="ol96b1-c27573-d1e735">
+                  <lb ed="#L" n="35"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e740">
+                  <lb ed="#L" n="36"/>Opinio Durandi lib. I. dist. I. q. 1.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e745">
+                  <lb ed="#L" n="37"/>CIRCA primum ergo considerandum est,, 
+      <lb ed="#L" n="38"/>quod aliqui voluerunt dicere, quod 
+      volun<lb ed="#L" break="no" n="39"/>tas Beati in patria non habet actum dilectionis 
+      <lb ed="#L" n="40"/>transeuntem super Deum, sed transeuntem 
+      su<lb ed="#L" break="no" n="41"/>per actum, quo immediate habetur Deus, &amp; 
+      se<lb ed="#L" break="no" n="42"/>cundum hoc fruitio non est aliud, quam 
+      delecta<lb ed="#L" break="no" n="43"/>tio de visione beata, vt sic Deus sit obiectum 
+      re<lb ed="#L" break="no" n="44"/>motum fruitionis: visio vero dicitur 
+      immedia<lb ed="#L" break="no" n="45"/>tum, &amp; potest poni tale exemplum: delectatio 
+      <lb ed="#L" n="46"/>namque secundum gusum habet pro immediato 
+      <lb ed="#L" n="47"/>obiectto actum gustandi, sed pro remoto cibum 
+      <lb ed="#L" n="48"/>gustatum: haec autem opinio fulciri potest 
+      quin<lb ed="#L" break="no" n="49"/>que rationibus superius arguendo primo loco 
+      <lb ed="#L" n="50"/>inductis. Quibus non obstantibus minime stare 
+      <lb ed="#L" n="51"/>potest, maxime quoad hoc, quod dicit 
+      fruitio<lb ed="#L" break="no" n="52"/>nem esse delectari de actu, quo habetur Deus, &amp; 
+      <lb ed="#L" n="53"/>non de bonitate Dei. nullus enim actus amoris 
+      <lb ed="#L" n="54"/>inhaeret alteri alicui propter se, sed inquantum est 
+      <lb ed="#L" n="55"/>persectio habentis, sed frui est in amore 
+      inhaere<lb ed="#L" break="no" n="56"/>re alicui propter se. vt Aug. dicit ergo frui non 
+      <lb ed="#L" n="57"/>est amare, vel delectari de actu visionis.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e793">
+                  <lb ed="#L" n="58"/>Praeterea: Frui est finem laetitiae in aliquo 
+      po<lb ed="#L" break="no" n="59"/>nere, vnde illo est potissime fruendum, in quo 
+      <lb ed="#L" n="60"/>spem ponimus, &amp; quo efficimur Beati, iuxta 
+      il<lb ed="#L" break="no" n="61"/>lud August. 1. de doct. Christ. dicentis, quod eo 
+      <lb ed="#L" n="62"/>frueris, quo efficeris Beatus, &amp; in quo spem po- 
+      <!--0089.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>nis, sed beatus non spem ponit in actu yisionis, 
+      <lb ed="#L" n="64"/>sed in Deo, nec finem laetitiae ponit in Diuina 
+      vi<lb ed="#L" break="no" n="65"/>sione, sed in bonitate Dei, alias inordinatus esset, 
+      <lb ed="#L" n="66"/>plus enim debet laetari de bonitate, quam Deus 
+      <lb ed="#L" n="67"/>habet, quam de hoc, quod ipse Deum haben, &amp; 
+      <lb ed="#L" n="68"/>plus sibi debet placere, quod Deus beatus est. 
+      <lb ed="#L" n="69"/>quam quod ipse Beatus est, ergo actus fruitionis 
+      <lb ed="#L" n="70"/>non habet pro obiecto uisionem: sed ipsum Deum. 
+      <lb ed="#L" n="71"/>Praeterea. Primum obiectuim fruitionis est ras 
+      <lb ed="#L" n="72"/>primo fruibilis? sed res primo fruibilis non est 
+      <lb ed="#L" n="73"/>creatura, iuxta illud Aug.. de doct. Christan 
+      om<lb ed="#L" break="no" n="74"/>nibus rebus illae tantum sunt, quibus fruendum est, 
+      <lb ed="#L" n="75"/>quae aeternae, &amp; incommutabiles sunt: caeteris 
+      au<lb ed="#L" break="no" n="76"/>tem vtendum est. ergo obiectum fruitionis 
+      pri<lb ed="#L" break="no" n="77"/>marium non potest esse actus visionis, cum 
+      <lb ed="#L" n="78"/>non sit res incommutabilis, &amp; aeterna, sed pura 
+      <lb ed="#L" n="79"/>creatura.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e848">
+                  <lb ed="#L" n="80"/>Praeterea: Illud non est primum, &amp; potissimum 
+      <lb ed="#L" n="81"/>obiectum fruitionis, vbi non sistitur gressus dile 
+      <lb ed="#L" n="82"/>ctionis, sed refertur ad illud summum bonum. 
+      il<lb ed="#L" break="no" n="83"/>lud enim, quod ad aliud bonum refertur, non est 
+      <lb ed="#L" n="84"/>sruibile, sed vtibile, cum vti sit, quod in 
+      faculta<lb ed="#L" break="no" n="85"/>tem voluntaris venerit ad aliud referre secundum 
+      <lb ed="#L" n="86"/>Augustinum: sed Beatus gressum dilectionis suae 
+      <lb ed="#L" n="87"/>non figit in actu visionis, immo ipsum refert, &amp; 
+      <lb ed="#L" n="88"/>diligit propter Deum, non enim Deum diligit 
+      <lb ed="#L" n="89"/>propter visionem, sed visionem refert, &amp; 
+      ordi<lb ed="#L" break="no" n="90"/>nat in Deum. alioquin si faciat, ordinat 
+      Creato<lb ed="#L" break="no" n="91"/>rem ad creaturam, quae est peruersitas, &amp; 
+      inordi<lb ed="#L" break="no" n="92"/>natio summa. ergo actus visionis non est 
+      pri<lb ed="#L" break="no" n="93"/>mum, &amp; potissimum obiectum fruitionis.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e881">
+                  <lb ed="#L" n="94"/>Praeterea: Actus fruitionis est etiam in via, vt 
+      <lb ed="#L" n="95"/>patet per Augustinum, sed secundum eundem 
+      <lb ed="#L" n="96"/>fruitio viae consistit in amore Dei, vsque ad 
+      con<lb ed="#L" break="no" n="97"/>temptum sui. ergo &amp; fruitio patriae consistit in 
+      <lb ed="#L" n="98"/>amore Dei, &amp; non in amore, aut delectatione ha 
+      <lb ed="#L" n="99"/>bitionis Dei.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e897">
+                  <lb ed="#L" n="100"/>Praeterea: Inter omnes actus voluntatis 
+      frui<lb ed="#L" break="no" n="101"/>tio est nobilior, sed delectatio, &amp; gaudium de 
+      <lb ed="#L" n="102"/>visione Dei non est actus nobilior, qui sit in 
+      vo<lb ed="#L" break="no" n="103"/>luntate Beati. constat enim, quod Beatus gaudet 
+      <lb ed="#L" n="104"/>de Deo, &amp; de felicitate ipsius, hoc gaudium est 
+      <lb ed="#L" n="105"/>nobilius, &amp; intensius, &amp; honestius, quam gaudium 
+      <lb ed="#L" n="106"/>de visione eius. plus enim gaudet Beatus de 
+      feli<lb ed="#L" break="no" n="107"/>citate Dei, quam de propria, &amp; virtuosius est sic 
+      <lb ed="#L" n="108"/>gaudere, &amp; magis secundum leges amicitiae. 
+      er<lb ed="#L" break="no" n="109"/>go fruitio non est gaudium de visione, sed potius 
+      <lb ed="#L" n="110"/>de re visa. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e923">
+                  <lb ed="#L" n="111"/>Praeterea: Res, qua fruendum est habet 
+      ratio<lb ed="#L" break="no" n="112"/>nem vltimi finis, &amp; diligibilis vltimate, &amp; per 
+      <lb ed="#L" n="113"/>consequens praeponitur omnibus, quae sunt ad 
+      <lb ed="#L" n="114"/>finem, sed clarum est, quod Beatus non 
+      praepo<lb ed="#L" break="no" n="115"/>nit visionem suam Deo, nec statuit visionem 
+      <lb ed="#L" n="116"/>suam pro fine vltimo, &amp; Deum pro eo, quod est 
+      <lb ed="#L" n="117"/>ad finem. ergo visio non est fruibilis obiecti, 
+      re<lb ed="#L" break="no" n="118"/>spectu ipsius, sed potius Dei. haec autem opinio 
+      <lb ed="#L" n="119"/>tamquam omnino irrationalis dimittatur. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e945">
+                  <lb ed="#L" n="120"/>Opinio Thomae scripto primo. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e950">
+                  <lb ed="#L" n="121"/>ET propterea alij dixerunt primitus, quod 
+      <lb ed="#L" n="122"/>fruitio est delectatio proueniens, &amp; 
+      conse<lb ed="#L" break="no" n="123"/>quens amorem. sicut enim ex visione videns 
+      effi<lb ed="#L" break="no" n="124"/>citur intra videntem, &amp; ita est comprehensio 
+      <lb ed="#L" n="125"/>consequens visionem, ita quod visio succedit 
+      fi<lb ed="#L" break="no" n="126"/>dei &amp; comprehensio spei, sic ex amore, qui est 
+      quae<lb ed="#L" break="no" n="127"/>dam mutua penetratio, &amp; vnio, sequitur delectatio 
+      <!--0090.xml-->
+      <pb ed="#L" n="90"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>summa, in qua perficitur nostra felicitas, quam 
+      <lb ed="#L" n="2"/>sruitio nominat ex parte sui complementi, haec 
+      <lb ed="#L" n="3"/>autem opinio fulciri potest quatuor rationibus 
+      <lb ed="#L" n="4"/>superius secundo loco in arguendo inductis. Quae 
+      <lb ed="#L" n="5"/>quidem opinio minime stare potest: fruitio 
+      nam<lb ed="#L" break="no" n="6"/>que est nobiliffima operatio voluntatis, etiam 
+      se<lb ed="#L" break="no" n="7"/>cundum sic ponentem, sed amor est nobilior 
+      a<lb ed="#L" break="no" n="8"/>ctus, quam delectatio proueniens ex amore: 
+      er<lb ed="#L" break="no" n="9"/>go fruitio magis erit amor, quam delectatio 
+      <lb ed="#L" n="10"/>proueniens ex amore.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e997">
+                  <lb ed="#L" n="11"/>Praeterea: Delectatio proueniens ex amore, 
+      <lb ed="#L" n="12"/>aut est idem realiter quod amor, aut aliud, si idem 
+      <lb ed="#L" n="13"/>realiter, contradictio est, quod proueniat ex eo, 
+      <lb ed="#L" n="14"/>cum causa, &amp; effectus non possint esse eadem 
+      <lb ed="#L" n="15"/>res, cum idem non sit causa sui, nec proueniat ex 
+      <lb ed="#L" n="16"/>se, aut sequatur se. Si vero sit aliud realiter non 
+      <lb ed="#L" n="17"/>se habent delectatio, &amp; amor, sicut 
+      compre<lb ed="#L" break="no" n="18"/>hensio, &amp; visio: comprehensio namque Dei ab 
+      <lb ed="#L" n="19"/>intellectu, non est aliud, quam visio ipsa, tunc 
+      <lb ed="#L" n="20"/>intellectus haberet duas operationes circa 
+      <lb ed="#L" n="21"/>Deum praesentem, videlicet comprehendere, 
+      <lb ed="#L" n="22"/>&amp; videre. ergo si amare, &amp; delectari realiter 
+      <lb ed="#L" n="23"/>distinguuntur, tunc isti Doctores opposita 
+      di<lb ed="#L" break="no" n="24"/>cunt, dicentes, quod se habent sicut 
+      comprehen<lb ed="#L" break="no" n="25"/>dere, &amp; videre. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1032">
+                  <lb ed="#L" n="26"/>Praeterea: Delectatio, quae requiritur ad 
+      bea<lb ed="#L" break="no" n="27"/>titudinem, est quietatio voluntatis in 
+      operatio<lb ed="#L" break="no" n="28"/>ne, &amp; visione, qua Deus habetur secundum quod 
+      <lb ed="#L" n="29"/>dicunt isti Doctores, sed fruitio, non est 
+      quieta<lb ed="#L" break="no" n="30"/>tio in ipsa visione, alias visio esset obiectum 
+      pri<lb ed="#L" break="no" n="31"/>marium fruitionis, &amp; redit opinio superius 
+      im<lb ed="#L" break="no" n="32"/>pugnata, quae imposibilis est ostensa. ergo non 
+      <lb ed="#L" n="33"/>potest dici, quod huiusmodi delectatio sit fruitio. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1052">
+                  <lb ed="#L" n="34"/>Opinio Petri de Aluernia. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1057">
+                  <lb ed="#L" n="35"/>VAPROPTER alij dicere voluerunt, quod 
+      <lb ed="#L" n="36"/>fruitio est amor, &amp; delectatio simul, 
+      <lb ed="#L" n="37"/>quia idem sunt realiter, etsi differant 
+      ra<lb ed="#L" break="no" n="38"/>tione amor, &amp; delectatio, &amp; ad hoc sunt rationes 
+      <lb ed="#L" n="39"/>sex tertio loco in arguendo superius inductae, 
+      <lb ed="#L" n="40"/>quae quidem opinio nimis loquitur 
+      vniuersali<lb ed="#L" break="no" n="41"/>ter, quoniam in beatis est aliqua delectatio, &amp; 
+      <lb ed="#L" n="42"/>gaudium, quod non potest esse fruitio. certum 
+      <lb ed="#L" n="43"/>est enim, quod visio beatifica summam affert) 
+      <lb ed="#L" n="44"/>delectationem: delectationes enim spirituales 
+      <lb ed="#L" n="45"/>nobiliores sunt, vt patet 7. Ethic. &amp; iterum 
+      de<lb ed="#L" break="no" n="46"/>lectationi, quae est in sciendo nihil est 
+      contra<lb ed="#L" break="no" n="47"/>rium. si ergo aliae notitiae afferunt delectationem, 
+      <lb ed="#L" n="48"/>multo fortius beatifica visio: sed clarum est, 
+      <lb ed="#L" n="49"/>quod ista delectatio non potest esse fruitio, 
+      ali<lb ed="#L" break="no" n="50"/>ter creatura esset obiectum fruitionis. ergo non 
+      <lb ed="#L" n="51"/>omnis delectatio Beatorum est fruitio. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1096">
+                  <lb ed="#L" n="52"/>Praeterea: Beati gaudent in visione 
+      humanita<lb ed="#L" break="no" n="53"/>tis Christi, &amp; de euasione laborum suorum, &amp; de 
+      <lb ed="#L" n="54"/>alijs multis. ergo delectatio non potest esse 
+      frui<lb ed="#L" break="no" n="55"/>tio, si vniuersaliter sumatur. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1107">
+                  <lb ed="#L" n="56"/>Opinio Scoti in 1. Sent. dist. 1. q. 3.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1113">
+                  <lb ed="#L" n="57"/>ET ideo dixerunt alij, quod fruitio includit 
+      <lb ed="#L" n="58"/>dilectionem, &amp; delectationem, quae realiter 
+      <lb ed="#L" n="59"/>distinguuntur, includit autem vel vtrumque 
+      prin<lb ed="#L" break="no" n="60"/>cipaliter secundum aliquos, vt non sit aliud 
+      frui<lb ed="#L" break="no" n="61"/>tio, quam delectabilis dilectio. Secundum alios 
+      <lb ed="#L" n="62"/>vero dilectionem principaliter, delectationem 
+      <lb ed="#L" n="63"/>autem quasi, sine qua non, &amp; concomitanter, &amp; 
+      <!--0090.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>hinc est, quod aliquando fruitio definitur per 
+      a<lb ed="#L" break="no" n="65"/>morem, aliquando per delectationem, quoniam 
+      <lb ed="#L" n="66"/>vtrumque includit, vt sit quasi quoddam ens per 
+      <lb ed="#L" n="67"/>accidens, duo realiter includens, &amp; pro hac 
+      opi<lb ed="#L" break="no" n="68"/>nione sunt rationes quinque in oppositum arguen 
+      <lb ed="#L" n="69"/>do superius secundo loco inductae. Quae quidem 
+      <lb ed="#L" n="70"/>opinio nimis vniuersaliter loquitur, sicut illa, 
+      <lb ed="#L" n="71"/>quae fuit posita immediate ante istam, vnde si ad 
+      <lb ed="#L" n="72"/>concordiam reducantur, quaelibet habet aliquid 
+      <lb ed="#L" n="73"/>veritatis: patet autem, quod ista nimis 
+      vni<lb ed="#L" break="no" n="74"/>uersaliter loquitur, quoniam dilectio Dei, quae 
+      <lb ed="#L" n="75"/>nil aliud est, quam complacentia in eo, est 
+      quod<lb ed="#L" break="no" n="76"/>dam delectari, sicut &amp; omne amare virtuosum 
+      <lb ed="#L" n="77"/>est quaedam complacentia de amico. ergo non 
+      <lb ed="#L" n="78"/>est verum, quod omnis delectatio ab omni 
+      amo<lb ed="#L" break="no" n="79"/>re realiter distinguatur. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1170">
+                  <lb ed="#L" n="80"/>Praeterea: Si fruitio includit dilectionem, &amp; 
+      <lb ed="#L" n="81"/>delectationem realiter distinctas, aut delectatio 
+      <lb ed="#L" n="82"/>est complacentia de visione, &amp; placere in Dei 
+      <lb ed="#L" n="83"/>habitione, aut est complacentia in Deo, &amp; 
+      de<lb ed="#L" break="no" n="84"/>lectari in ipso, non potest poni secundum, quod ta 
+      <lb ed="#L" n="85"/>lis delectatio, &amp; complacentia est amor ipse, non 
+      <lb ed="#L" n="86"/>enim est aliud amor beatisicus, nisi in Deum per 
+      <lb ed="#L" n="87"/>complacentiam transformari, &amp; secundum hoc 
+      <lb ed="#L" n="88"/>contradictio includetur, quod delectatio, &amp; 
+      <lb ed="#L" n="89"/>dilectio realiter distinguentur; nec potest etiam 
+      <lb ed="#L" n="90"/>dari primum, quod delectatio ista sit complacen 
+      <lb ed="#L" n="91"/>tia, quae habetur de visione, quia tunc 
+      tem<lb ed="#L" break="no" n="92"/>poris fruitio quantum ad aliquid sui haberet 
+      <lb ed="#L" n="93"/>creaturam pro immediato obiecto, quod est 
+      su<lb ed="#L" break="no" n="94"/>perius improbatum. relinquitur ergo quod 
+      frui<lb ed="#L" break="no" n="95"/>tio non sit ista duo realiter distincta. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1207">
+                  <lb ed="#L" n="96"/>Quomodo se habeat fruitio ad dilectionem, 
+      <lb ed="#L" n="97"/>&amp; delectationem, iuxta illud, 
+      <lb ed="#L" n="98"/>quod videtur. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1216">
+                  <lb ed="#L" n="99"/>NVnc igitur quo ad istum articulum di- 
+      <!-- missing line break -->cendum eset quod videtur sub quatuor 
+      pro<lb ed="#L" break="no" n="100"/>positionibus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1225">
+                  <lb ed="#L" n="101"/>Prima quidem, quod omnis actus voluntatis 
+      <lb ed="#L" n="102"/>affirmatiuus est desiderium, vel delectatio sic, 
+      <lb ed="#L" n="103"/>quod omnis amor, est amor desider ij, vel delecta 
+      <lb ed="#L" n="104"/>tionis, &amp; per oppositum omne odium diuiditur 
+      <lb ed="#L" n="105"/>in fugam, &amp; tristitiam, sic est omne odisse, vel 
+      <lb ed="#L" n="106"/>est abominari, &amp; fugere, vel tristari, &amp; 
+      displice<lb ed="#L" break="no" n="107"/>re, &amp; secundum hoc omnes actus voluntatis, 
+      <lb ed="#L" n="108"/>prout est concupiscibilis, qui quidem actus sunt 
+      <lb ed="#L" n="109"/>velle, &amp; nolle, sunt quatuor videlicet, velle 
+      desi<lb ed="#L" break="no" n="110"/>derij, &amp; velle delectationis, nolle fugae, &amp; nolle 
+      <lb ed="#L" n="111"/>displicentiae. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1251">
+                  <lb ed="#L" n="112"/>Hoc autem potest multipliciter declarari: 
+      si<lb ed="#L" break="no" n="113"/>cut enim se habet appetitus naturalis in 
+      enti<lb ed="#L" break="no" n="114"/>bus sensu carentibus, sic se habet animalis in 
+      <lb ed="#L" n="115"/>sensibilibus, &amp; voluntas in intellectualibus. 
+      cor<lb ed="#L" break="no" n="116"/>respondet enim cuilibet naturae suus proprius 
+      <lb ed="#L" n="117"/>appetitus, sed appetitus naturalis non habet 
+      ni<lb ed="#L" break="no" n="118"/>si duos actus positiuos, &amp; duos priuatiuos: 
+      po<lb ed="#L" break="no" n="119"/>sitiuos quidem, moueri in finem, &amp; 
+      quiescere<lb ed="#L" break="no" n="120"/>in ipsum. lapis enim per grauitatem mouetur 
+      <lb ed="#L" n="121"/>ad centrum, &amp; quiescit in ipso, priuatiuos 
+      au<lb ed="#L" break="no" n="122"/>tem fugere ab opposito, &amp; inquietari, dum est 
+      <lb ed="#L" n="123"/>sub ipso. lapis enim per naturam suam 
+      inquie<lb ed="#L" break="no" n="124"/>tatur sursum, &amp; per eandem fugit, &amp; resilit ab 
+      <lb ed="#L" n="125"/>ipso. ergo &amp; appetitus sensitiuus, &amp; rationalis 
+      <lb ed="#L" n="126"/>non habebunt nisi hos quatuor actus, duos 
+      qui<lb ed="#L" break="no" n="127"/>dem positiuos, &amp; duos alios priuatiuos.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1289">
+      <!--0091.xml-->
+                  <pb ed="#L" n="91"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Positiuorum quidem primus est quasi moueri, 
+      <lb ed="#L" n="2"/>videlicet desiderium, &amp; prosecutio. Secundus ve 
+      <lb ed="#L" n="3"/>ro quasi quiescere in obiecto videlicet delectari. 
+      <lb ed="#L" n="4"/>Priuatiuorum autem primus correspondet fugae, 
+      <lb ed="#L" n="5"/>&amp; resilitioni, videlicet abominatio, seu 
+      detesta<lb ed="#L" break="no" n="6"/>tio, &amp; fuga a malo. Secundus vero inquietationi 
+      <lb ed="#L" n="7"/>scilicet displicentia, &amp; contristatio: nec valet si 
+      <lb ed="#L" n="8"/>dicatur non esse simile pro eo, quod in 
+      naturali<lb ed="#L" break="no" n="9"/>bus est quoddam pondus praecedens motionem, puta 
+      <lb ed="#L" n="10"/>grauitas, vel Leuitas, quod quidem pondus non 
+      <lb ed="#L" n="11"/>est aliquis actus, sed forma habitualis, in anima 
+      <lb ed="#L" n="12"/>libus autem, &amp; rationalibus necesse est esse 
+      pon<lb ed="#L" break="no" n="13"/>dus, a quo desiderium oriatur, quod quidem pon 
+      <lb ed="#L" n="14"/>dus est amor, iuxta illud Augustini, pondus meum 
+      <lb ed="#L" n="15"/>amor meus, eo feror quocumque feror, sic igitur 
+      <lb ed="#L" n="16"/>amor erit actus correspondens ponderi naturali, 
+      <lb ed="#L" n="17"/>desiderium, quod respondebit motioni, &amp; delectatio 
+      <lb ed="#L" n="18"/>ni &amp; quieti, hoc nimirum non valet, nam ille amor 
+      <lb ed="#L" n="19"/>ex quo oritur desiderium non est aliud, quam 
+      de<lb ed="#L" break="no" n="20"/>lectatio in obiecto apprehenso: memoria enim, &amp; 
+      <lb ed="#L" n="21"/>species, &amp; imaginatio delectabilium 
+      delectabi<lb ed="#L" break="no" n="22"/>les sunt, vt Philosophus dicit primo Rhetoricae, 
+      <lb ed="#L" n="23"/>ex hoc autem, quod homo delectatur, &amp; compla 
+      <lb ed="#L" n="24"/>cet in obiecto apprehenso incipit desiderare eius 
+      <lb ed="#L" n="25"/>realem praesentiam, &amp; per consequens apparet, 
+      <lb ed="#L" n="26"/>quod amor excitans desiderium non est alius actus 
+      <lb ed="#L" n="27"/>Edelectari, vnde posset ex hoc praecedens ratio 
+      <lb ed="#L" n="28"/>confirmari sic secundario arguendo. Si enim 
+      ali<lb ed="#L" break="no" n="29"/>quis amor esset alius a desiderio, &amp; delectatione, 
+      <lb ed="#L" n="30"/>esset vtique ille amor, qui incitat desiderium, &amp; 
+      <lb ed="#L" n="31"/>facit delectari, iuxta illud Philosophi 1. Ethic. 
+      <lb ed="#L" n="32"/>vnicuique delectabile est ad quod amicus est, sed 
+      <lb ed="#L" n="33"/>amor excitans desiderium, &amp; concitans non est 
+      <lb ed="#L" n="34"/>aliud, quam delectari, &amp; complacere in obiecto, &amp; 
+      <lb ed="#L" n="35"/>conditionibus eius, vt ex terminis patet, idem 
+      <lb ed="#L" n="36"/>enim est dictu tale quid amo, vel diligo, &amp; tale 
+      <lb ed="#L" n="37"/>quid est complacens mihi, &amp; delectabile. ergo 
+      <lb ed="#L" n="38"/>amor praeueniens desiderium est delectatio, 
+      desi<lb ed="#L" break="no" n="39"/>derium autem infert delectationem, vt patet 
+      se<lb ed="#L" break="no" n="40"/>cundo Ethic. &amp; per consequens delectatio de obie 
+      <lb ed="#L" n="41"/>cto apprehenso est ille amor, vnde oritur delecta 
+      <lb ed="#L" n="42"/>tio de ipso praesente. ergo vt videtur, omnis 
+      a<lb ed="#L" break="no" n="43"/>mor, vel est desiderium, vel delectatio obiecti 
+      ap<lb ed="#L" break="no" n="44"/>prehensi, desiderium praeueniens, vel 
+      delecta<lb ed="#L" break="no" n="45"/>tio obiecti praesentis, desiderium subsequens. 
+      <lb ed="#L" n="46"/>Praeterea: Omnis actus amoris transiens tam 
+      <lb ed="#L" n="47"/>super absens vel est concupiscentia, vel amicitia, 
+      <lb ed="#L" n="48"/>amor enim omnis sufficienter euacuatur per 
+      a<lb ed="#L" break="no" n="49"/>morem concupiscentiae, &amp; amicitiae. sed omnis 
+      <lb ed="#L" n="50"/>amor concupiscentiae respectu absentis est 
+      desi<lb ed="#L" break="no" n="51"/>derium, concupiscere namque absens, est 
+      deside<lb ed="#L" break="no" n="52"/>rare ipsum, respectu vero praesentis est 
+      delecta<lb ed="#L" break="no" n="53"/>tio, &amp; siquidem sit praesens tantummodo in 
+      con<lb ed="#L" break="no" n="54"/>spectu est delectatio praeueniens desiderium, si ve 
+      <lb ed="#L" n="55"/>ro sit praesens in re est delectatio subsequens, simi 
+      <lb ed="#L" n="56"/>liter omnis amor amicitiae respectu absentis est 
+      <lb ed="#L" n="57"/>desiderium, non quidem quo desiderans optat 
+      si<lb ed="#L" break="no" n="58"/>bi bonum, sed quo optat amico suo bonum illud, 
+      <lb ed="#L" n="59"/>quod non habet, respectu vero praesentis 
+      delecta<lb ed="#L" break="no" n="60"/>tio qua quis delectatur in bono quod amicus ha 
+      <lb ed="#L" n="61"/>bet iam praesens in actu, &amp; siquidem amicus 
+      ha<lb ed="#L" break="no" n="62"/>beat omne bonum, &amp; nullo sit indigens, non 
+      po<lb ed="#L" break="no" n="63"/>test esse desiderium amoris, aut amicitiae circa 
+      <lb ed="#L" n="64"/>ipsum, sed delectatio, &amp; complacentia sola, &amp; 
+      il<lb ed="#L" break="no" n="65"/>lo amore amicitiae non diligitur Deus, nisi 
+      solum<lb ed="#L" break="no" n="66"/>modo amore illo, qui vere est delectatio, &amp; 
+      com<lb ed="#L" break="no" n="67"/>placentia in ipso: si autem amicus indigeat ali- 
+      <!--0091.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>quo bono, tunc circa ipsum est amor duplicis 
+      de<lb ed="#L" break="no" n="69"/>lectationis, &amp; vniti desiderij, ex hos enim quod 
+      a<lb ed="#L" break="no" n="70"/>micus delectatur, &amp; complacet in amico, oritur 
+      <lb ed="#L" n="71"/>desiderium, quo illi desiderat, &amp; concupiscit 
+      bo<lb ed="#L" break="no" n="72"/>num quo caret; cum autem consecutus est illud 
+      <lb ed="#L" n="73"/>bonum, statim delectatur, &amp; complacet 
+      delecta<lb ed="#L" break="no" n="74"/>tione amicitiae desiderium consequente. ergo 
+      <lb ed="#L" n="75"/>euidenter apparet, quod omnis amoris est 
+      desi<lb ed="#L" break="no" n="76"/>derium, vel delectatio.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1467">
+                  <lb ed="#L" n="77"/>Praeterea: Quod complacentia, &amp; delectatio 
+      <lb ed="#L" n="78"/>idem sint apparet ex terminis, nam idem est 
+      di<lb ed="#L" break="no" n="79"/>ctu delector in te, &amp; complacet mihi in te, 
+      placi<lb ed="#L" break="no" n="80"/>bilis es mihi, &amp; delectabilis es mihi, sed omnis 
+      <lb ed="#L" n="81"/>amor est desiderium, vel complacentia, desiderium 
+      <lb ed="#L" n="82"/>quidem sicut gluto diligit morsellum, &amp; caupo 
+      <lb ed="#L" n="83"/>vinum, cuius dilectio non est aliud, quam 
+      deside<lb ed="#L" break="no" n="84"/>rium, &amp; concupiscentia, complacentia vero vel 
+      <lb ed="#L" n="85"/>in re habita realiter, vel saltem habita in 
+      conspe<lb ed="#L" break="no" n="86"/>ctu. ergo euidenter apparet, quod omnis amor 
+      <lb ed="#L" n="87"/>vel est desiderium, vel delectatio. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1493">
+                  <lb ed="#L" n="88"/>Praeterea: Si oportet poni actum amoris 
+      ter<lb ed="#L" break="no" n="89"/>tium a desiderio, &amp; delectatione, propter hoc 
+      <lb ed="#L" n="90"/>oportet ponere, vt videtur, quod amor actus ter 
+      <lb ed="#L" n="91"/>tius nil aliud est, quam obiecto vniri, &amp; ipsum 
+      <lb ed="#L" n="92"/>transformari in amatum, quiescere, &amp; amato se 
+      <lb ed="#L" n="93"/>condonare. Ista enim quatuor videntur 
+      conue<lb ed="#L" break="no" n="94"/>nire amori, qui ast actus vnitiuus, &amp; quasi 
+      trans<lb ed="#L" break="no" n="95"/>latiuus sui in formam, &amp; entitatem amati, &amp; est 
+      il<lb ed="#L" break="no" n="96"/>lud quo amans se donat amato, &amp; quiescit in 
+      ip<lb ed="#L" break="no" n="97"/>sum, sed haec omnia competunt complacentiae, &amp; 
+      <lb ed="#L" n="98"/>delectationi, qui enim in aliquo delectatur, &amp; cō- 
+      <lb ed="#L" n="99"/>placet, quasi in ipsum spiritualiter transit, &amp; 
+      <lb ed="#L" n="100"/>quiescit, &amp; ita se dat, &amp; seipsum vnit, vt ex 
+      ter<lb ed="#L" break="no" n="101"/>minis apparet. ergo iste actus tertius non est 
+      ter<lb ed="#L" break="no" n="102"/>tius, sed delectatio ipsa. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1528">
+                  <lb ed="#L" n="103"/>Praeterea: Augustinus est expresse huiusmodi 
+      <lb ed="#L" n="104"/>intentionis, vbi dicit, quod amor inhians, idest 
+      <lb ed="#L" n="105"/>desiderans habere quod amatur, cupiditas est, 
+      <lb ed="#L" n="106"/>amor autem habens id, quod amatur, eoque fruens, 
+      <lb ed="#L" n="107"/>laetitia est, siue delectatio, amor vero fugiens quod 
+      <lb ed="#L" n="108"/>ei aduersatur timor est, &amp; accipit timorem pro 
+      <lb ed="#L" n="109"/>abominatione, vel fuga, quae opponitur desiderio, 
+      <lb ed="#L" n="110"/>sequitur illud quod si acciderit sentiens tristitia 
+      <lb ed="#L" n="111"/>est, hoc Augustinus, cum ergo ipse hic diuidat 
+      <lb ed="#L" n="112"/>amorem in amorem inhiantem, qui est 
+      deside<lb ed="#L" break="no" n="113"/>rium, &amp; amorem fruentem eo, quod amatur qui 
+      <lb ed="#L" n="114"/>est delectatio, siue letitia, odium autem in sugam 
+      <lb ed="#L" n="115"/>eius quod aduersatur, manifeste apparet, quod 
+      <lb ed="#L" n="116"/>fuit eius intentio omne odium diuidi in fugam, &amp; 
+      <lb ed="#L" n="117"/>in tristitiam; amorem vero in delectationem, &amp; 
+      de<lb ed="#L" break="no" n="118"/>siderium, &amp; sic patet propositio prima.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1565">
+                  <lb ed="#L" n="119"/>Quomodo duo actus amoris multiplicantur in sex.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1570">
+                  <lb ed="#L" n="120"/>SECVNDA vero propositio talis est, quod si 
+      <lb ed="#L" n="121"/>desiderium, vt delectatio distinguatur per de 
+      <lb ed="#L" n="122"/>siderium concupiscentiae, quo aliquid sibi 
+      deside<lb ed="#L" break="no" n="123"/>ratur, &amp; desiderium amicitiae, quomodo aliquid 
+      <lb ed="#L" n="124"/>amato desideratur, &amp; per delectationem 
+      concu<lb ed="#L" break="no" n="125"/>piscentiae, quo aliquid delectatur in bono sibi 
+      ade<lb ed="#L" break="no" n="126"/>pto, &amp; delectationem amicitiae, quo quis 
+      dele<lb ed="#L" break="no" n="127"/>ctatur in bono habito ab amico, &amp; iterum si 
+      de<lb ed="#L" break="no" n="128"/>lectatio distinguatur in delectationem 
+      praeue<lb ed="#L" break="no" n="129"/>nientem desiderium, quae est respectu praesentis, 
+      <lb ed="#L" n="130"/>in cognitionem, &amp; delectationem sequentem 
+      de<lb ed="#L" break="no" n="131"/>siderium, quae est respectu praesentis in re, si sic 
+      <lb ed="#L" n="132"/>vtique diuidatur actus amoris, multiplicantur in 
+      <!--0092.xml-->
+      <pb ed="#L" n="92"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sex, &amp; est vnus ordo amoris amicitiae, est primus 
+      <lb ed="#L" n="2"/>actus, complacere, &amp; delectari in amico, 
+      secun<lb ed="#L" break="no" n="3"/>dus vero desiderare sibi bonum quo caret: tertius 
+      <lb ed="#L" n="4"/>vero complacere in praesentia boni, quod habet 
+      <lb ed="#L" n="5"/>ipse amicus, &amp; maxime complacere in 
+      existen<lb ed="#L" break="no" n="6"/>tia, &amp; praesentia reali ipsius: secundus vero ordo 
+      <lb ed="#L" n="7"/>amoris, &amp; concupiscentiae, &amp; est primus actus, 
+      <lb ed="#L" n="8"/>delectari, &amp; complacere in aliquo obiecto 
+      ip<lb ed="#L" break="no" n="9"/>sum perficiente: secundus autem desiderare 
+      il<lb ed="#L" break="no" n="10"/>lud sibi: tertius quoque in iam habito delectari, 
+      <lb ed="#L" n="11"/>&amp; complaceres. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1632">
+                  <lb ed="#L" n="12"/>Sunt autem hic duo consideranda, primum 
+      <lb ed="#L" n="13"/>quidem quod primus ordo, &amp; secundus differunt 
+      <lb ed="#L" n="14"/>ex obiecto, amor enim amicitiae siue delectatio in 
+      <lb ed="#L" n="15"/>aliquo conspectu, siue sit desiderium, quo sibi bo 
+      <lb ed="#L" n="16"/>num optetur, siue sit delectatio, &amp; complacentia 
+      <lb ed="#L" n="17"/>in amico praesente, omnes quidem isti actus 
+      fe<lb ed="#L" break="no" n="18"/>runtur in obiectum propter se, quatenus ipsum 
+      <lb ed="#L" n="19"/>est bonum in se, non quatenus est bonum amati, 
+      <lb ed="#L" n="20"/>amor autem concupiscentiae, &amp; delectatur in 
+      ima<lb ed="#L" break="no" n="21"/>ginando, &amp; desiderat, &amp; concupiscit habere, &amp; 
+      <lb ed="#L" n="22"/>delectatur, ac concupiscit in habendo, non quate 
+      <lb ed="#L" n="23"/>nus obiectum est bonum in se, sed quantus est bo 
+      <lb ed="#L" n="24"/>num sibi: ex quo patet, quod obiectum amoris 
+      con<lb ed="#L" break="no" n="25"/>cupiscentiae est res sub ratione qua perfectio est 
+      <lb ed="#L" n="26"/>amantis, &amp; quia perfectio est ratione aliquorum 
+      <lb ed="#L" n="27"/>actuum quibus vnitur, idcirco amor iste transit 
+      <lb ed="#L" n="28"/>super rem vnibilem, quatenus per aliquem actum, 
+      <lb ed="#L" n="29"/>vt sic magis transeat super actum quo attingitur 
+      <lb ed="#L" n="30"/>ipsa res, quam super rem ipsam, sicut patet, quod 
+      <lb ed="#L" n="31"/>delectatur ebriosus in imaginatione gustus vini, 
+      <lb ed="#L" n="32"/>non vini simpliciter, sed desiderat gustum vini, &amp; 
+      <lb ed="#L" n="33"/>vltimate fruitur gustu vini, obiectum autem 
+      amo<lb ed="#L" break="no" n="34"/>ris amicitiae non est res, quatenus vnibilis per 
+      ali<lb ed="#L" break="no" n="35"/>quem actum, sed res simpliciter in se bona: sic pa 
+      <lb ed="#L" n="36"/>tet, quod virtuosus amicus delectatur in 
+      imagi<lb ed="#L" break="no" n="37"/>natione amici sui virtuosi, absque hoc, quod ima 
+      <lb ed="#L" n="38"/>ginetur aliquem actum viuentem, &amp; desiderat 
+      om<lb ed="#L" break="no" n="39"/>ne bonum competens illi, &amp; delectatur in illo, &amp; 
+      <lb ed="#L" n="40"/>fruitur ipso, &amp; absolute complacet dum est 
+      prae<lb ed="#L" break="no" n="41"/>sens, non quod complaceat tantummodo de 
+      vi<lb ed="#L" break="no" n="42"/>sione, immo eius exclusa visione complacet, &amp; 
+      <lb ed="#L" n="43"/>delectatur in ipso. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1704">
+                  <lb ed="#L" n="44"/>Secundum vero considerandum est, quod aliud 
+      <lb ed="#L" n="45"/>est delectari de intellectione rei, aliud de re intel 
+      <lb ed="#L" n="46"/>lecta, &amp; similiter aliud est delectari de visione 
+      <lb ed="#L" n="47"/>rei, &amp; aliud de re visa, nam prima delectatio 
+      ha<lb ed="#L" break="no" n="48"/>bet pro principali obiecto actum visionis, &amp; 
+      de<lb ed="#L" break="no" n="49"/>lectationis, pro secundario autem, &amp; sine quo non 
+      <lb ed="#L" n="50"/>rem ipsam intellectam, vel visam, quia si sine re 
+      <lb ed="#L" n="51"/>posset esse visio, vel intellectio, adhuc delectatio, 
+      <lb ed="#L" n="52"/>&amp; eius obiectum maneret. Secunda vero delecta 
+      <lb ed="#L" n="53"/>tio habet pro principali obiecto ipsam rem 
+      vi<lb ed="#L" break="no" n="54"/>sam, &amp; intellectam, pro eo autem sine quo non, 
+      <lb ed="#L" n="55"/>visionem, &amp; intellectionem, quoniam si posset 
+      <lb ed="#L" n="56"/>transire delectatio: super rem sine visione, &amp; intelle 
+      <lb ed="#L" n="57"/>ctione, adhuc maneret tota ratio delectationis, 
+      <lb ed="#L" n="58"/>secundum hoc ergo delectatio amicitiae super 
+      <lb ed="#L" n="59"/>obiectum praesens transit, super rem quatenus res 
+      <lb ed="#L" n="60"/>est, non quatenus visa, delectatio vero 
+      concupi<lb ed="#L" break="no" n="61"/>scentiae transit super visionem rei, vel gustationem 
+      <lb ed="#L" n="62"/>eius, vel habitionem eius per aliquem actum; 
+      <lb ed="#L" n="63"/>super rem autem ipsam non transit per se, sed 
+      <lb ed="#L" n="64"/>quatenus visa habita, vel gustata, vnde actus, &amp; 
+      <lb ed="#L" n="65"/>res attincta per actum, sic quod actus est 
+      forma<lb ed="#L" break="no" n="66"/>lis ratio in isto obiecto sunt vnum obiectum 
+      de<lb ed="#L" break="no" n="67"/>lectationis, &amp; desiderij ad amorem concupiscen 
+      <!--0092.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>tiae continentis. Ex quo patet, quod delectatio 
+      <lb ed="#L" n="69"/>exteriorum sensuum non est obiectiue in sensu 
+      <lb ed="#L" n="70"/>exteriori, quia sensus exterior non reflectitur su 
+      <lb ed="#L" n="71"/>per actum suum, sed est subiectiue in appetitu 
+      <lb ed="#L" n="72"/>sensitiuo, qui est subiectiue in corde, vt Commen 
+      <lb ed="#L" n="73"/>tator dicit in tertio de anima, apprehensio 
+      nam<lb ed="#L" break="no" n="74"/>que gustationis vini, aut alterius delectabilis, est 
+      <lb ed="#L" n="75"/>actus existimatiuae, quae iudicat gustationem 
+      ta<lb ed="#L" break="no" n="76"/>lis rei delectabilem fore, ex quo iudicio oritur 
+      <lb ed="#L" n="77"/>in corde delectatio, quamuis videatur esse in gu 
+      <lb ed="#L" n="78"/>stu, &amp; inde accidit quod homo, nec delectatur, 
+      <lb ed="#L" n="79"/>nec dolet aliquando, quamuis tristabile, vel 
+      dele<lb ed="#L" break="no" n="80"/>ctabile sit in sensu, vt patet in ijs, qui subito 
+      vul<lb ed="#L" break="no" n="81"/>nerantur, &amp; in absortis. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1793">
+                  <lb ed="#L" n="82"/>Quod fruitio beatifica est amor, qui est 
+      dele<lb ed="#L" break="no" n="83"/>ctatio de obiectio. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1800">
+                  <lb ed="#L" n="84"/>TERTIA quoque propositio est talis, quod 
+      <lb ed="#L" n="85"/>fruitio beatifica non est delectatio, quam 
+      <lb ed="#L" n="86"/>beati hauriunt de diuina visione, cumtalis 
+      dele<lb ed="#L" break="no" n="87"/>ctatio habeat pro obiecto aliquid creatum, &amp; 
+      com<lb ed="#L" break="no" n="88"/>mutabile, fruitio autem non sit, nisi de bono 
+      in<lb ed="#L" break="no" n="89"/>commutabili; est ergo complacentia qua beatus 
+      <lb ed="#L" n="90"/>delectatur in Deo, haec autem complacentia qua 
+      <lb ed="#L" n="91"/>Deus est beato delectabilis, &amp; complacens 
+      vlti<lb ed="#L" break="no" n="92"/>mate, non est aliud, quam beatificus amor, &amp; per 
+      <lb ed="#L" n="93"/>consequens fruitio dicit vnum simplicem actum, 
+      <lb ed="#L" n="94"/>videlicet amorem complacentiae, &amp; 
+      delectatio<lb ed="#L" break="no" n="95"/>nis in Deo. Quod enim amor delectationis 
+      bea<lb ed="#L" break="no" n="96"/>tificus sit multipliciter, patet, constat enim quod 
+      <lb ed="#L" n="97"/>aliquis actus voluntatis est beatificus 
+      essentiali<lb ed="#L" break="no" n="98"/>ter, vt alias apparebit, sed nullus actus voluntatis 
+      <lb ed="#L" n="99"/>beati potest esse beatificus, nisi complacere in 
+      <lb ed="#L" n="100"/>Deo, &amp; in illo conquiescere, &amp; delectari, si enim 
+      <lb ed="#L" n="101"/>alius est beatificus, aut iste est desiderium quo Deo 
+      <lb ed="#L" n="102"/>optat aliquid, quod ipse non habet, &amp; hoc esse 
+      <lb ed="#L" n="103"/>non potest, quia talis actus est frustratorius, &amp; 
+      <lb ed="#L" n="104"/>vanus, aut desiderium quo Deo optat illud, quod 
+      <lb ed="#L" n="105"/>habet, &amp; hoc minus esse potest, cum desiderium 
+      <lb ed="#L" n="106"/>non sit respectu habiti, sed habendi, aut est deside 
+      <lb ed="#L" n="107"/>rium quo Deum optat sibi, quod minus esse potest, 
+      <lb ed="#L" n="108"/>cum illud sit concupiscibile Deum diligere, &amp; 
+      <lb ed="#L" n="109"/>Deum velle sibi, &amp; per consequens non habet pro 
+      <lb ed="#L" n="110"/>vltimo Deum, sed seipsum cui vult Deum, aut 
+      <lb ed="#L" n="111"/>erit delectatio qua complacet in Deo, &amp; in bono 
+      <lb ed="#L" n="112"/>quod habet Deus, qua quidem complacentia 
+      to<lb ed="#L" break="no" n="113"/>taliter quiescit, &amp; transformatur in eum, &amp; hoc 
+      <lb ed="#L" n="114"/>vtique est verum: relinquitur ergo quod delecta 
+      <lb ed="#L" n="115"/>tio, &amp; complacentia qua beatus conquiescit in 
+      <lb ed="#L" n="116"/>Deum, sit amor fruitiuus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1874">
+                  <lb ed="#L" n="117"/>Praeterea: Amor iste est beatificus, &amp; fruitio 
+      <lb ed="#L" n="118"/>patriae, qui est actus potius charitatis, sed actus 
+      <lb ed="#L" n="119"/>charitatis potissimus est complacere vltimate 
+      <lb ed="#L" n="120"/>in Deo. ergo vltima delectatio, &amp; 
+      complacen<lb ed="#L" break="no" n="121"/>tia boni diuini est amor beatificus, &amp; fruitio bea 
+      <lb ed="#L" n="122"/>torum 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1890">
+                  <lb ed="#L" n="123"/>Praeterea: Iste actus quo vltimate Deus 
+      attin<lb ed="#L" break="no" n="124"/>gitur a creatura rationali est beatificus, cum 
+      <lb ed="#L" n="125"/>beatitudo sit vltimus finis, sed complacere, &amp; 
+      <lb ed="#L" n="126"/>delectari in Deo est actus attingens Deum 
+      im<lb ed="#L" break="no" n="127"/>mediate, &amp; non visionem beatificam, aut aliud 
+      <lb ed="#L" n="128"/>quodcumque creatum, &amp; est actus vltimus circa 
+      <lb ed="#L" n="129"/>Deum, qui secundum rectam rationem vltimo 
+      <lb ed="#L" n="130"/>expectatur, &amp; desideratur, debet enim beatus 
+      de<lb ed="#L" break="no" n="131"/>siderare visionem Dei, vt ex hoc in bono diuino 
+      <lb ed="#L" n="132"/>magis valeat complacere, &amp; gaudere, vnde non 
+      <!--0093.xml-->
+      <pb ed="#L" n="93"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>optat complacere in Deo, vt magis videat, sed 
+      vi<lb ed="#L" break="no" n="2"/>dere optat, vt amplius complaceat, &amp; gaudeat 
+      <lb ed="#L" n="3"/>de bono diuino. ergo actus ille est maxime 
+      bea<lb ed="#L" break="no" n="4"/>tificus, vt videtur. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1930">
+                  <lb ed="#L" n="5"/>Praeterea: Actus iste, qui ex ratione sua 
+      speci<lb ed="#L" break="no" n="6"/>fica ad nullum actum alium ordinatur, sed tantum 
+      <lb ed="#L" n="7"/>ad obiectum, habet rationem vltimi finis 
+      forma<lb ed="#L" break="no" n="8"/>lis, nullus enim actus, qui ex natuta sua in alium 
+      <lb ed="#L" n="9"/>actum est ordinabilis habet rationem vltimi for 
+      <lb ed="#L" n="10"/>malis finis, &amp; per consequens, nec beatifici actus, 
+      <lb ed="#L" n="11"/>cum actus beatificus sit vltimus finis formalis, 
+      <lb ed="#L" n="12"/>sicut obiectum beatificum est finis vltimus 
+      obie<lb ed="#L" break="no" n="13"/>ctalis, sed complacentia in Deo, &amp; in bono eius 
+      <lb ed="#L" n="14"/>vltimate, &amp; propter se, est actus ex natura sua 
+      <lb ed="#L" n="15"/>non ordinabilis ad actum alium, sed 
+      tantummo<lb ed="#L" break="no" n="16"/>do ad obiectum: Interrogatus namque beatus 
+      <lb ed="#L" n="17"/>quare vult complacere in Deo, &amp; in omni 
+      bo<lb ed="#L" break="no" n="18"/>no ipsius, respondet, quod propter ipsummet 
+      <lb ed="#L" n="19"/>Deum, quoniam ita decet. Interrogatus autem 
+      <lb ed="#L" n="20"/>cur videre vellet, non dubium quin responderet, 
+      quo<lb ed="#L" break="no" n="21"/>niam, vt bonum Dei posset sibi magis placere, 
+      ami<lb ed="#L" break="no" n="22"/>cus enim virtuosus vult videre felicem statum 
+      <lb ed="#L" n="23"/>amici, vt congaudeat illi, &amp; placeat sibi in eo. 
+      <lb ed="#L" n="24"/>ergo euidenter apparet, quod actus iste est 
+      sum<lb ed="#L" break="no" n="25"/>me beatificus, &amp; fruitiuus. Ex praedictis apparet 
+      <lb ed="#L" n="26"/>quomodo duplex est delectatio, vna siquidem 
+      sum<lb ed="#L" break="no" n="27"/>mum bonum, in qua consistit felicitas, quae 
+      tran<lb ed="#L" break="no" n="28"/>sit directissime super Deum obiectiue, alia vero, 
+      <lb ed="#L" n="29"/>quae non est principale bonum, sed perficit 
+      ope<lb ed="#L" break="no" n="30"/>rationem, sicut pulchritudo iuuentutem, oritur 
+      <lb ed="#L" n="31"/>ex ipsa operatione, &amp; haec est delectatio, quae 
+      tran<lb ed="#L" break="no" n="32"/>sit super habitam visionem, &amp; habitionem Dei, 
+      <lb ed="#L" n="33"/>in prima consistit essentialiter beatitudo, in 
+      se<lb ed="#L" break="no" n="34"/>cunda actualiter. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e1998">
+                  <lb ed="#L" n="35"/>Prima est vera fruitio, quae est simplex actus 
+      <lb ed="#L" n="36"/>aliorum, scilicet delectationis, &amp; complacentiae: 
+      <lb ed="#L" n="37"/>secunda vero non est fruitio: prima enim est 
+      sum<lb ed="#L" break="no" n="38"/>mum bonum: secunda vero non, &amp; in hoc 
+      solui<lb ed="#L" break="no" n="39"/>tur. quaest. 10. Ethic. quam Philosophus mouet de 
+      <lb ed="#L" n="40"/>delectatione: vtrum sit summum bonum, quam 
+      <lb ed="#L" n="41"/>etiam dimittit insolutam, potest autem solui ex 
+      <lb ed="#L" n="42"/>hoc, quod delectatio consequens operationem non 
+      <lb ed="#L" n="43"/>est summum bonum, delectatio autem, quae transit su 
+      <lb ed="#L" n="44"/>per obiectum, &amp; maxime super Deum, est summum bo 
+      <lb ed="#L" n="45"/>num, &amp; sic redit opinio Enodoxi, &amp; communis animi 
+      <lb ed="#L" n="46"/>conceptio, quod felicitas consistit in 
+      delectatio<lb ed="#L" break="no" n="47"/>ne, quam etiam omnis natura, &amp; animalia 
+      desi<lb ed="#L" break="no" n="48"/>derant, vt dicitur 7. Ethic. vnde Doctores illi, 
+      <lb ed="#L" n="49"/>qui non potuerunt delectationem aliam capere, 
+      <lb ed="#L" n="50"/>nisi illam, quae oritur ex visione diuina, dixerunt 
+      <lb ed="#L" n="51"/>quod beatitudo non potest essentialiter 
+      consi<lb ed="#L" break="no" n="52"/>stere in delectatione, nec esse principale 
+      bo<lb ed="#L" break="no" n="53"/>num, qui non possunt concipere ducti 
+      experien<lb ed="#L" break="no" n="54"/>tia virtuosi amoris, quod complacere in Deo, est 
+      <lb ed="#L" n="55"/>quaedam summa delectatio, de qua dicit 
+      Prophe<lb ed="#L" break="no" n="56"/>ta, Laetamini in Domino, &amp; exultate iusti, &amp; 
+      glo<lb ed="#L" break="no" n="57"/>riamini omnes recti corde. &amp; Augustinus. I. de 
+      Tri<lb ed="#L" break="no" n="58"/>nita. exponens illud Psalm. Adimplebis laetitia 
+      <lb ed="#L" n="59"/>cum vultu tuo: dicit, quod ista laetitia nihil 
+      am<lb ed="#L" break="no" n="60"/>plius requiretur, quia nec erit, quod amplius 
+      re<lb ed="#L" break="no" n="61"/>i quiratur, ex istis faciliter aduertere potes, 
+      quo<lb ed="#L" break="no" n="62"/>modo delectatio sit principale bonum, &amp; 
+      quomo<lb ed="#L" break="no" n="63"/>do in eo beatitudo consistat, haec autem 
+      dele<lb ed="#L" break="no" n="64"/>ctatio cum sit potissimus actus amoris, est 
+      dele<lb ed="#L" break="no" n="65"/>ctatio fruitiua, actus vnicus, &amp; simplex 
+      volunta<lb ed="#L" break="no" n="66"/>tis, ex quo patet veritas tertiae propositionis.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2070">
+      <!--0093.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>Quod supradictae opiniones habuerunt 
+      fal<lb ed="#L" break="no" n="68"/>sum mixtum. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2081">
+                  <lb ed="#L" n="69"/>QVARTA vero propositio est, quod omnes 
+      <lb ed="#L" n="70"/>opiniones superius recitatae habuerunt 
+      a<lb ed="#L" break="no" n="71"/>liquid veritatis, sicut Philosophus dicit 1. Ethic. 
+      <lb ed="#L" n="72"/>de varie opinantibus, circa felicitatem. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2092">
+                  <lb ed="#L" n="73"/>Prima namque opinio, quo ad hoc verum 
+      <lb ed="#L" n="74"/>dicit, quod delectatio proueniens ex visione, &amp; 
+      <lb ed="#L" n="75"/>ex habitione Dei summe conuenientis, illa non 
+      <lb ed="#L" n="76"/>transit immediate super Deum, sed transit 
+      im<lb ed="#L" break="no" n="77"/>mediatius super visionem Dei, quod autem 
+      di<lb ed="#L" break="no" n="78"/>cit hanc delectationem esse fruitionem, verum 
+      <lb ed="#L" n="79"/>est, vt probatum est supra, similiter secunda 
+      opi<lb ed="#L" break="no" n="80"/>nio, quae dicit ex amore, &amp; vnione, ac penetratio 
+      <lb ed="#L" n="81"/>ne mutua suauitatem, &amp; delectationem 
+      proueni<lb ed="#L" break="no" n="82"/>re in animo beatorum, vtique bene dicit, quod 
+      <lb ed="#L" n="83"/>autem illa suauitas sit fruitio, non est verum: 
+      ter<lb ed="#L" break="no" n="84"/>tia quoque opinio, dicens delectationem, &amp; 
+      dile<lb ed="#L" break="no" n="85"/>ctionem realiter esse idem, vtique vera est, haben 
+      <lb ed="#L" n="86"/>do aspectum ad complacentiam voluntatis, quae 
+      <lb ed="#L" n="87"/>transit super Deum immediate, falsum tamen est 
+      <lb ed="#L" n="88"/>quantum ad hoc, quod ponit de omni 
+      delectatio<lb ed="#L" break="no" n="89"/>ne, &amp; omni amore, non enim omnis amor est 
+      de<lb ed="#L" break="no" n="90"/>lectatio, licet sit e conuerso. Quarta quoque 
+      o<lb ed="#L" break="no" n="91"/>pinio verum dicit, quod delectatio subsequens 
+      <lb ed="#L" n="92"/>desiderium non est amor, accipiendo amorem 
+      <lb ed="#L" n="93"/>pro delectatione praeueniente, &amp; desiderio 
+      con<lb ed="#L" break="no" n="94"/>sequente, &amp; ad hoc doctor iste subtiliter aspexit. 
+      <lb ed="#L" n="95"/>Si autem vellet dicere, quod etiam amor iste cō- 
+      <lb ed="#L" n="96"/>citans desiderium sit delectatio quaedam, non 
+      vti<lb ed="#L" break="no" n="97"/>que verum esset, vt declaratum est supra. 
+      <lb ed="#L" n="98"/>Est autem notandum, quod licet delectatio, 
+      <lb ed="#L" n="99"/>complacentia, laetitia, gaudium sint idem actus 
+      <lb ed="#L" n="100"/>amoris, &amp; dilectionis, nihilominus nominum 
+      <lb ed="#L" n="101"/>impositio diuersa est, sicut lapis, &amp; petra, quia 
+      <lb ed="#L" n="102"/>enim actus complacentiae dulcis est, &amp; 
+      ablacta<lb ed="#L" break="no" n="103"/>tiuus, idcirco dicitur delectatio, quia vero 
+      cor<lb ed="#L" break="no" n="104"/>dis dilatatiuus, dicitur laetitia, &amp; sic de alijs, &amp; 
+      <lb ed="#L" n="105"/>hoc sufficiat de artic. 1. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c27573-Dd1e2167">
+               <head xml:id="ol96b1-c27573-Hd1e2169">Articulus 2</head>
+               <p xml:id="ol96b1-c27573-d1e2171">
+                  <lb ed="#L" n="106"/>ARTJCVLVS SECVNDVS.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2176">
+                  <lb ed="#L" n="107"/>Quomodo se habeat fruitio ad voluntatem, &amp; 
+      in<lb ed="#L" break="no" n="108"/>tellectionem, opinio S. Thomae prima. 2.q. 
+      <lb ed="#L" n="109"/>31. per totam. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2185">
+                  <lb ed="#L" n="110"/>CIRCA secundum autem considerandum est, 
+      <lb ed="#L" n="111"/>quod voluntas, fruitio, &amp; intellectio ponuntur
+      <lb ed="#L" n="112"/>in voluntate in ordine ad finem, dicunt ergo aliqui, 
+      <lb ed="#L" n="113"/>quod sunt tres actus voluntatis in ordine ad finem, qui 
+      <lb ed="#L" n="114"/>sic differunt. finis enim potest esse volitus, 
+      secun<lb ed="#L" break="no" n="115"/>dum se, vel vt terminus eius, quod est ad finem, actus 
+      <lb ed="#L" n="116"/>ergo voluntatis, qui fertur in finem secundum se, 
+      <lb ed="#L" n="117"/>appellatur voluntas simpliciter; omnis enim 
+      a<lb ed="#L" break="no" n="118"/>ctus denominatus a potentia, nominat simplicem 
+      <lb ed="#L" n="119"/>actum illius, sicut intelligere nominat simplicem 
+      <lb ed="#L" n="120"/>actum intellectus, simplex autem actus 
+      poten<lb ed="#L" break="no" n="121"/>tiae est in illud, quod est secundum se obiectum 
+      <lb ed="#L" n="122"/>potentiae, illud autem, quod est per se bonum, &amp; 
+      <lb ed="#L" n="123"/>volitum, est finis, &amp; idcirco voluntas proprie est 
+      <lb ed="#L" n="124"/>ipsius finis, ac tus autem voluntatis, qui fertur in 
+      <lb ed="#L" n="125"/>ipsum finem, prout est terminus eorum, quae sunt 
+      <lb ed="#L" n="126"/>ad finem, appellatur intentio: fruitio vero impor 
+      <lb ed="#L" n="127"/>tat quandam delectationem, &amp; dulcedinem 
+      ap<lb ed="#L" break="no" n="128"/>petitus, vt sic frui respectu finis, addat 
+      delecta<lb ed="#L" break="no" n="129"/>tionem, &amp; quietem respectu illius. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2231">
+      <!--0094.xml-->
+                  <pb ed="#L" n="94"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Haec autem positio videtur deficere in duobus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2243">
+                  <lb ed="#L" n="2"/>Primo quidem, quod ait intentionem esse 
+      a<lb ed="#L" break="no" n="3"/>cum. illud enim, quod est circunstantia alicuius 
+      <lb ed="#L" n="4"/>actus non nominat actum, sed intentio est 
+      cir<lb ed="#L" break="no" n="5"/>cunstantia actus electiui. electio enim fit alicuius 
+      <lb ed="#L" n="6"/>gratia, &amp; propter aliquem finem, habitudo autem 
+      <lb ed="#L" n="7"/>importata, pro cuius gratia, &amp; propter quid, est 
+      <lb ed="#L" n="8"/>tantum circūstantia, &amp; relatio actus in finem. Idem 
+      <lb ed="#L" n="9"/>est autem, cuius gratia, &amp; intentio. dicimus 
+      e<lb ed="#L" break="no" n="10"/>nim aliquid eligere gratia talis rei, &amp; 
+      intentio<lb ed="#L" break="no" n="11"/>ne talis rei, idem significantes. ergo intentio non 
+      <lb ed="#L" n="12"/>potest esse actus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2269">
+                  <lb ed="#L" n="13"/>Praeterea: Si intentio finis sit aliquis actus, aut 
+      <lb ed="#L" n="14"/>eidem cum electione, aut alius, non alius actus, 
+      <lb ed="#L" n="15"/>quia ipsimet dicunt, quod voluntas non fertur 
+      <lb ed="#L" n="16"/>alio actu in finem, &amp; in ea quae sunt ad finem, 
+      <lb ed="#L" n="17"/>nec etiam idem quia electio, non est nisi 
+      deside<lb ed="#L" break="no" n="18"/>rium praeconsiliati, vt dicitur 3. Ethic. de fine au 
+      <lb ed="#L" n="19"/>tem non fuit consilium, quia supposito fine 
+      tam<lb ed="#L" break="no" n="20"/>quam principio consilium fuit de ijs, quae sunt ad 
+      <lb ed="#L" n="21"/>finem. ergo intentio non potest poni aliquis 
+      a<lb ed="#L" break="no" n="22"/>ctus voluntatis. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2293">
+                  <lb ed="#L" n="23"/>Praeterea: Nullus actus est mera relatio, aut 
+      <lb ed="#L" n="24"/>habitudo, sed intentio finis non est aliud, quam 
+      <lb ed="#L" n="25"/>ordo, &amp; habitudo actus, qui fertur super ea, quae 
+      <lb ed="#L" n="26"/>sunt respectu ipsius finis: ordo inquam eorum, 
+      <lb ed="#L" n="27"/>quae sunt ad finem, in ipsum finem, tamquam in 
+      <lb ed="#L" n="28"/>terminum. ergo intentio non potest poni actus 
+      <lb ed="#L" n="29"/>voluntatis.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2311">
+                  <lb ed="#L" n="30"/>Secundo vero videtur deficere in hoc, quod 
+      <lb ed="#L" n="31"/>ait fruitionem addere super voluntatem finis 
+      de<lb ed="#L" break="no" n="32"/>lectationem, &amp; quietationem. probatum 
+      <lb ed="#L" n="33"/>est enim supra, quod fruitio non est delectatio 
+      <lb ed="#L" n="34"/>proueniens ex actu, sed magis est complacentia, 
+      <lb ed="#L" n="35"/>&amp; amor cadens super obiectum. 
+      
+      <lb ed="#L" n="36"/>Quomodo se habeat voluntas, &amp; fruitio, iuxta 
+      <lb ed="#L" n="37"/>id, quod videtur. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2331">
+                  <lb ed="#L" n="38"/>ET ideo dicendum est, quod respectu finis non 
+      <lb ed="#L" n="39"/>L est actus aliquis in voluntate, nisi iste, quem 
+      <lb ed="#L" n="40"/>Philosophus ponit 3. Ethi. voluntatem nominat 
+      <lb ed="#L" n="41"/>vocabulo absoluto. Voluntas autem diuiditur 
+      <lb ed="#L" n="42"/>s in duos actus, scilicet in desiderium, &amp; 
+      compla<lb ed="#L" break="no" n="43"/>centiam, seu delectationem. potest autem sinis 
+      <lb ed="#L" n="44"/>aliquis desiderari, vtputa honor, vel scientia, iu 
+      <lb ed="#L" n="45"/>xta illud Philosophi 1. Metaph. Omnes homines 
+      <lb ed="#L" n="46"/>natura scire desiderant: potest etiam 
+      compla<lb ed="#L" break="no" n="47"/>cere, &amp; esse delectabile, sicut contingit 
+      dele<lb ed="#L" break="no" n="48"/>ctari in scientia, honoribus, &amp; virtute: oritur 
+      <lb ed="#L" n="49"/>autem ex delectatione, &amp; complacentia finis, 
+      de<lb ed="#L" break="no" n="50"/>siderium eius: ex desiderio vero consilium, &amp; 
+      ele<lb ed="#L" break="no" n="51"/>ctio eorum, quae sunt ad finem. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2364">
+                  <lb ed="#L" n="52"/>Vlterius autem considerandum estt, quod 
+      nul<lb ed="#L" break="no" n="53"/>e lus actus desiderij dici potest fruitio, cum 
+      frui<lb ed="#L" break="no" n="54"/>tio importet quietudinem, &amp; dulcedinem 
+      quan<lb ed="#L" break="no" n="55"/>dam, quam non importat desiderium, cum sit 
+      <lb ed="#L" n="56"/>quidam motus, &amp; quaedam inquietatio appetitus, 
+      <lb ed="#L" n="57"/>non includens dulcedinem, &amp; voluptatem, 
+      im<lb ed="#L" break="no" n="58"/>mo magis oppositum, quia spes, quae differtur 
+      <lb ed="#L" n="59"/>affligit animam. restat ergo, vt frui sit 
+      dele<lb ed="#L" break="no" n="60"/>ctari, seu complacere in fine; &amp; sic voluntas, 
+      <lb ed="#L" n="61"/>quam Philosophus ponit respectu finis, &amp; frui, 
+      <lb ed="#L" n="62"/>quod Augustinus ponit respectu eiusdem, viden 
+      <lb ed="#L" n="63"/>tur se habere sicut superius, &amp; inferius, si 
+      volun<lb ed="#L" break="no" n="64"/>tas dicatur, vel desiderare honorem, vel compla 
+      <lb ed="#L" n="65"/>cere in eo, &amp; sic de alijs finibus. Si vero volun- 
+      <!--0094.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>tas arctetur ad desiderium, tunc sunt disparata. 
+      <lb ed="#L" n="67"/>De intentione autem, quae est ratio finis, 
+      dicen<lb ed="#L" break="no" n="68"/>dum est, quod non est specialis actus, nec est nisi 
+      <lb ed="#L" n="69"/>circunstatia actus in electione. est enim iste 
+      or<lb ed="#L" break="no" n="70"/>do, quem importat, cuius gratia, vel propter 
+      <lb ed="#L" n="71"/>quid, vt superius dictum fuit, &amp; in hoc finis 
+      hu<lb ed="#L" break="no" n="72"/>ius articuli. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c27573-Dd1e2417">
+               <head xml:id="ol96b1-c27573-Hd1e2419">Articulus 3</head>
+               <p xml:id="ol96b1-c27573-d1e2421">
+                  <lb ed="#L" n="73"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2426">
+                  <lb ed="#L" n="74"/>Quomodo se habet fruitio ad vti, &amp; electio, &amp; 
+      <lb ed="#L" n="75"/>consensus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2433">
+                  <lb ed="#L" n="76"/>CIRCA tertium ergo considerandum est, quod 
+      <lb ed="#L" n="77"/>frui differt ab vti, &amp; electione, ac consensu; 
+      <lb ed="#L" n="78"/>quia frui est quies voluntatis in finem: electio au 
+      <lb ed="#L" n="79"/>tem, &amp; vsus, &amp; consensus sunt de ijs, quae sunt ad 
+      <lb ed="#L" n="80"/>finem. ista autem tria, quomodo differant 
+      in<lb ed="#L" break="no" n="81"/>ter se volunt aliqui dicere, quod vsus sumitur ab 
+      <lb ed="#L" n="82"/>applicatione rei alicuius ad aliquam operationem, 
+      <lb ed="#L" n="83"/>&amp; quod huiusmodi applicatio est ab intellectu di 
+      <lb ed="#L" n="84"/>rectiue; a voluntate autem imperatiue, &amp; tamquam 
+      <lb ed="#L" n="85"/>a primo mouente, potentiarum autem aliarum 
+      appli<lb ed="#L" break="no" n="86"/>cantium res ad operationem executiue: idcirco 
+      <lb ed="#L" n="87"/>vti proprie est actus voluntatis, quia est primus 
+      <lb ed="#L" n="88"/>motor, &amp; applicans principaliter. aliae enim po 
+      <lb ed="#L" n="89"/>tentiae se habent sicut instrumenta executiue: con 
+      <lb ed="#L" n="90"/>sensus autem nominat applicationem appetitui 
+      <lb ed="#L" n="91"/>motus ad aliquid praeexistens in potestate 
+      appli<lb ed="#L" break="no" n="92"/>cantis, &amp; quia appetitus in vltimum finem 
+      ten<lb ed="#L" break="no" n="93"/>dit naturaliter, idcirco applicatio motus 
+      appe<lb ed="#L" break="no" n="94"/>titiui in finem apprehensum, non habet rationem 
+      <lb ed="#L" n="95"/>assensus, sed simplicis voluntatis: motus autem 
+      <lb ed="#L" n="96"/>appetitus in ea, quae sunt sub fine vltimo est in 
+      <lb ed="#L" n="97"/>potestate appetentis, maxime consilio primo, &amp; 
+      <lb ed="#L" n="98"/>idcirco applicatio appetitiui motus ad 
+      deter<lb ed="#L" break="no" n="99"/>minationem consilij, consensus proprie dici 
+      po<lb ed="#L" break="no" n="100"/>test: electio autem est aliquid compositum ex 
+      <lb ed="#L" n="101"/>appetitu, &amp; ratione, vnde electio est quidam 
+      mo<lb ed="#L" break="no" n="102"/>tus substantialiter, &amp; materialiter existens in 
+      <lb ed="#L" n="103"/>appetitu: ordo autem, &amp; directio illius motus ad 
+      <lb ed="#L" n="104"/>finem est per rationem, &amp; sic patet quomodo haec 
+      <lb ed="#L" n="105"/>tria distinguuntur: nam appetitus eorum, quae 
+      <lb ed="#L" n="106"/>sunt ad finem ordinatus, &amp; directus in finem per 
+      <lb ed="#L" n="107"/>rationem, est electio: motus autem appetitus 
+      pro<lb ed="#L" break="no" n="108"/>ut causat imperatiue applicationem 
+      potentia<lb ed="#L" break="no" n="109"/>rum ad operationes suas, vsus appellatur.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2509">
+                  <lb ed="#L" n="110"/>Contra opinionem S. Thomae praemissam, quae 
+      po<lb ed="#L" break="no" n="111"/>nitur prima secundae q. 13. I5. &amp; dicit, 
+      <lb ed="#L" n="112"/>quod videtur de differentia ele 
+      <lb ed="#L" n="113"/>ctionis, consensus, 
+      <lb ed="#L" n="114"/>&amp; vsus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2523">
+                  <lb ed="#L" n="115"/>HAEc autem positio non videtur 
+      rationa<lb ed="#L" break="no" n="116"/>lis quoad tria. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2530">
+                  <lb ed="#L" n="117"/>Primo quidem, quod dicit vti, dici ab 
+      appli<lb ed="#L" break="no" n="118"/>catione rei ad operationem. haec enim stare non 
+      <lb ed="#L" n="119"/>potest. oppositarum enim differentiarum 
+      oppo<lb ed="#L" break="no" n="120"/>sitae debent esse rationes, vt patet de 
+      congrega<lb ed="#L" break="no" n="121"/>tiuo, &amp; disgregatiuo, rationali, &amp; irrationali, 
+      <lb ed="#L" n="122"/>sed frui, &amp; vti sunt differentiae diuisiuae actuum 
+      <lb ed="#L" n="123"/>voluntatis, vt Augustinus innuit, &amp; Magister in 
+      <lb ed="#L" n="124"/>littera: ratio autem frui totaliter sistit intra 
+      vo<lb ed="#L" break="no" n="125"/>luntatem. dicit enim quietem voluntatis in 
+      ali<lb ed="#L" break="no" n="126"/>quo. ergo vti totaliter sistet intra voluntatem 
+      <!--0095.xml-->
+      <pb ed="#L" n="95"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dicendo rationem oppositam quieti voluntatis: 
+      <lb ed="#L" n="2"/>haec autem ratio opposita non est nisi voluntatem 
+      <lb ed="#L" n="3"/>ferri transitorie super aliquid, non quiescendo in 
+      <lb ed="#L" n="4"/>id. ergo ratio vsus non sumitur ab applicatione 
+      <lb ed="#L" n="5"/>rei ad operationem, sed potius ex transitoria 
+      la<lb ed="#L" break="no" n="6"/>tione super id, quod est ad finem, non 
+      quiescen<lb ed="#L" break="no" n="7"/>do in eo. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2576">
+                  <lb ed="#L" n="8"/>Praeterea: Si vsus sumetur ab applicatione rei 
+      <lb ed="#L" n="9"/>ad operationem, illis rebus vti non posset, quas 
+      <lb ed="#L" n="10"/>applicare non valeret, sed certum est, quod 
+      vo<lb ed="#L" break="no" n="11"/>luntas nostra non potest applicare caelum, aut 
+      <lb ed="#L" n="12"/>Angelos ad suam operationem, &amp; tunc vtitur 
+      <lb ed="#L" n="13"/>caelo, &amp; Angelis, &amp; omni creato secundum 
+      Au<lb ed="#L" break="no" n="14"/>gustinum, dum fertur super illa, in quodam 
+      <lb ed="#L" n="15"/>transitu ad Deum. ergo vsus non sumitur ab 
+      ap<lb ed="#L" break="no" n="16"/>plicatione rei ad operationem, sed magis ex 
+      tran<lb ed="#L" break="no" n="17"/>sitoria latione super eo, quod est ad finem, non 
+      <lb ed="#L" n="18"/>quiescendo in eo. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2602">
+                  <lb ed="#L" n="19"/>Praeterea: Ratio, quae significat nomen est sua 
+      <lb ed="#L" n="20"/>desiuitio Meraph. sed definitio vsus, quam 
+      Ma<lb ed="#L" break="no" n="21"/>gister ponit in litera, &amp; Augustinus primo de 
+      <lb ed="#L" n="22"/>doctr. Chris. non facit mentionem de 
+      applica<lb ed="#L" break="no" n="23"/>tione ad operationem, sed relationem in finem, 
+      <lb ed="#L" n="24"/>non quipscendo in illud, quod est ad finem, sed tran 
+      <lb ed="#L" n="25"/>fitorie se habendo, sicut patet de ista definitione, 
+      <lb ed="#L" n="26"/>vti est, quod in vsum venit ad illud, quod amat 
+      <lb ed="#L" n="27"/>obtinendum referro, si tamen amandum est: hic 
+      <lb ed="#L" n="28"/>quidem non fit mentio de applicatione ad 
+      opera<lb ed="#L" break="no" n="29"/>tionem, sed tantum de relatione eius, quod venit 
+      <lb ed="#L" n="30"/>ad intellectum, vel ad voluntatem, vel ad manum, 
+      <lb ed="#L" n="31"/>vel quomodocumque in facultatem voluntatis. 
+      <lb ed="#L" n="32"/>ad illud, quod est amandum. ergo id, quod prius. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2635">
+                  <lb ed="#L" n="33"/>Praeterea: Regulare in Deum omnia, &amp; 
+      seip<lb ed="#L" break="no" n="34"/>sum, &amp; cuncta creata, est omnibus vti: sed clarum 
+      <lb ed="#L" n="35"/>est, quod hoc non est applicare seipsum, &amp; 
+      om<lb ed="#L" break="no" n="36"/>nia creata ad operationem aliquam, sed 
+      tantum<lb ed="#L" break="no" n="37"/>modo dilectionem suam super omnia ferre, sub 
+      <lb ed="#L" n="38"/>quodam transitu, &amp; in ordine ad Deum. ergo ap 
+      <lb ed="#L" n="39"/>plicatio ad operationem nil facit ad vsum. dicen 
+      <lb ed="#L" n="40"/>dum est ergo, quod aequiuocatio nominis huius 
+      <lb ed="#L" n="41"/>vsus, decipit sic ponentes, etsi enim vsus accipia 
+      <lb ed="#L" n="42"/>tur pro operatione, &amp; frequentatione 
+      operatio<lb ed="#L" break="no" n="43"/>nis, nihilominus vt vti est actus voluntatis, nil 
+      <lb ed="#L" n="44"/>ad operationem, sed si est quidam motus 
+      vo<lb ed="#L" break="no" n="45"/>luntarij actus oppositus fruitioni, voluntas 
+      fer<lb ed="#L" break="no" n="46"/>tur super aliquid quiescendo, &amp; consistendo in 
+      <lb ed="#L" n="47"/>illo, &amp; hoc proprie dicitur frui: potest etiam 
+      <lb ed="#L" n="48"/>ferri super aliquid non quiescendo ibi, aut 
+      sisten<lb ed="#L" break="no" n="49"/>do, sed gradiendo ad aliquid, quod sit terminus 
+      <lb ed="#L" n="50"/>dilectionis suae, &amp; hoc vti proprie appellatur, &amp; 
+      <lb ed="#L" n="51"/>haec est expressa intentio Augustini primo de do 
+      <lb ed="#L" n="52"/>ctrina Christ. cum ait: Quomodo si essemus 
+      pe<lb ed="#L" break="no" n="53"/>regrini, qui beate viuere, nisi in nostra patria 
+      <lb ed="#L" n="54"/>non possemus, opus esset terrestribus, vel 
+      mari<lb ed="#L" break="no" n="55"/>nis vehiculis, quibus vtendum esset, vt ad 
+      pa<lb ed="#L" break="no" n="56"/>triam, qua fruendum erat peruenire valeremus, 
+      <lb ed="#L" n="57"/>sic in huius mortalitatis vita peregrinantes a no 
+      <lb ed="#L" n="58"/>mino, si redire in patriam volumus, vbi beati 
+      es<lb ed="#L" break="no" n="59"/>se possimus, vtendum est hoc mundo, vt 
+      inuisibi<lb ed="#L" break="no" n="60"/>lia Dei per ea, quae facta sunt, intellecta 
+      conspi<lb ed="#L" break="no" n="61"/>ciantur, hoc est, vt de corporalibus rebus, &amp; 
+      <lb ed="#L" n="62"/>temporalibus, aeterna, &amp; spiritualia capiamus. 
+      <lb ed="#L" n="63"/>Haec Augustinus. Ex quibus patet, quod non est 
+      <lb ed="#L" n="64"/>aliud voluntatem vti rebus, quam per eas 
+      con<lb ed="#L" break="no" n="65"/>scendere in Deum, &amp; eas applicare in finem, non 
+      <lb ed="#L" n="66"/>applicare ad operationem: haec etiam est 
+      inten<lb ed="#L" break="no" n="67"/>tio Magistri in eadem dist. cap. vlt. ergo.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2713">
+      <!--0095.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>Secundo vero positio ista deficere videtur in 
+      <lb ed="#L" n="69"/>hoc, quod dicit, electionem inquantum est 
+      mo<lb ed="#L" break="no" n="70"/>tus appetitus esse in voluntate: directionem vero, 
+      <lb ed="#L" n="71"/>&amp; ordinationem illius motus in finem, esse a 
+      ra<lb ed="#L" break="no" n="72"/>tione. cuius enim est actus, eius est directio actus 
+      <lb ed="#L" n="73"/>in finem, cum ista directio non sit, nisi quidam or 
+      <lb ed="#L" n="74"/>do, &amp; quaedam relatio fundata super actum: ibi 
+      <lb ed="#L" n="75"/>autem est relatio, vbi est fundamentum 
+      relatio<lb ed="#L" break="no" n="76"/>nis. ibi namque est similitudo, vbi est subiectiue 
+      <lb ed="#L" n="77"/>albedo, sed appetitus, &amp; motus ipsius in illud, 
+      <lb ed="#L" n="78"/>quod est ad finem, est fundamentum ordinis in 
+      <lb ed="#L" n="79"/>finem. ergo videtur, quod directio motus 
+      appe<lb ed="#L" break="no" n="80"/>titiui in finem sit ab ipso appetitu, &amp; voluntate. 
+      <lb ed="#L" n="81"/>Praeterea: Intentio est actus voluntatis 
+      secun<lb ed="#L" break="no" n="82"/>dum istum Doctorem, sed intentio non est aliud, 
+      <lb ed="#L" n="83"/>quam directio appetitiui motus in finem. ergo 
+      <lb ed="#L" n="84"/>huiusmodi directio non est actus rationis, sed 
+      <lb ed="#L" n="85"/>voluntatis.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2760">
+                  <lb ed="#L" n="86"/>Praeterea: Nullus actus, aut potentia fertur 
+      <lb ed="#L" n="87"/>super obiectum materiale, nisi attingendo 
+      obie<lb ed="#L" break="no" n="88"/>ctum formale, sed ratio volendi illud, quod est 
+      <lb ed="#L" n="89"/>ad finem, quod est materialiter volitum, est ipse 
+      <lb ed="#L" n="90"/>finis. ergo voluntas volendi illud, quod est ad 
+      <lb ed="#L" n="91"/>finem, attingit finem; sed non aliter attingit, 
+      <lb ed="#L" n="92"/>quam dirigendo volitionem eius, quae est ad 
+      fi<lb ed="#L" break="no" n="93"/>nem, in ipsum finem. ergo id, quod prius. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2780">
+                  <lb ed="#L" n="94"/>Dicendum est ergo, quod electio totaliter, &amp; 
+      <lb ed="#L" n="95"/>quoad desiderium eius, quod est ad finem, &amp; 
+      <lb ed="#L" n="96"/>quoad ordinationem, &amp; directionem desiderij in 
+      <lb ed="#L" n="97"/>finem totaliter est in voluntate, nec ratio causat 
+      <lb ed="#L" n="98"/>plus illam directionem, quam ipsum desiderium, 
+      <lb ed="#L" n="99"/>nec se habet dirigendo obiectiue; voluntas vero 
+      <lb ed="#L" n="100"/>dirigit executiue. quare autem electio dicatur 
+      <lb ed="#L" n="101"/>appetitus consiliatiuus, ratio est, quia est 
+      con<lb ed="#L" break="no" n="102"/>clusio consilij, &amp; est denominatio quasi 
+      extrinse<lb ed="#L" break="no" n="103"/>ca, non quod electio constituatur intrinsece ex 
+      <lb ed="#L" n="104"/>consilio, aut ex aliquo rationis; vnde directio in 
+      <lb ed="#L" n="105"/>finem, non est aliquid rationis, nec 
+      volunta<lb ed="#L" break="no" n="106"/>tis merae. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2811">
+                  <lb ed="#L" n="107"/>Tertio vero, in quo videtur insufficienter 
+      di<lb ed="#L" break="no" n="108"/>xisse ista positio est, quod ait, con sensum dici 
+      ap<lb ed="#L" break="no" n="109"/>plicationem appetitiui motus ad 
+      determinatio<lb ed="#L" break="no" n="110"/>nem consiliĳ: hoc quidem verum est, sed 
+      insuffi<lb ed="#L" break="no" n="111"/>cienter dictum. Constat enim, quod incontinens 
+      <lb ed="#L" n="112"/>dicitur passionibus consentire, &amp; sensualitati, 
+      a<lb ed="#L" break="no" n="113"/>git enim ex consensu; sed clarum est, quod non 
+      <lb ed="#L" n="114"/>applicat motum appetitus ad determinationem 
+      <lb ed="#L" n="115"/>consilij; immo magis ad passionem: mouetur 
+      e<lb ed="#L" break="no" n="116"/>nim contra rationem, &amp; agit. ergo non omnis 
+      <lb ed="#L" n="117"/>consensus est applicatio voluntatis ad 
+      determi<lb ed="#L" break="no" n="118"/>nationem consilij. Nec valet, si dicatur, quod 
+      <lb ed="#L" n="119"/>in incontinente, &amp; passionato consilium 
+      deter<lb ed="#L" break="no" n="120"/>minat pro passione, vt Philosophus dicit. hoc 
+      <lb ed="#L" n="121"/>quidem non valet: non enim ibi determinatiot 
+      <lb ed="#L" n="122"/>consilij, sed magis subuersio per passionem, 
+      vn<lb ed="#L" break="no" n="123"/>de magis dicitur ignorantia, seu excaecatio, seu 
+      <lb ed="#L" n="124"/>ligamentum rationis, quam consilium, sicut 
+      di<lb ed="#L" break="no" n="125"/>cit Philosophus, assimilando tales, vinolentis, &amp; 
+      <lb ed="#L" n="126"/>dormientibus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2857">
+                  <lb ed="#L" n="127"/>Dicendum est ergo, quod consensus dicitur in I 
+      <lb ed="#L" n="128"/>ordine ad persuadentem, &amp; quia voluntas 
+      per<lb ed="#L" break="no" n="129"/>suasibilis estt a ratione, &amp; appetitu sensitiuo, qui 
+      <lb ed="#L" n="130"/>est aptus natus voluntatem allicere, iuxta illud 
+      <lb ed="#L" n="131"/>Jacobi: Vnusquisque tentatur a concupiscentia sua, 
+      <lb ed="#L" n="132"/>abstractus, &amp; illectus, idcirco voluntas 
+      consen<lb ed="#L" break="no" n="133"/>tiendo rationi, a qua suadibilis est, vt dicitur in 
+      <lb ed="#L" n="134"/>1. Ethic. vel sensitiuo appetitui dicitur actum 
+      <!--0096.xml-->
+      <pb ed="#L" n="96"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>habere qui appellatur consensus. Claret ergo 
+      <lb ed="#L" n="2"/>ex praedictis, quomodo isti tres actus, vsus, 
+      ele<lb ed="#L" break="no" n="3"/>ctio, &amp; consensus sunt omnino idem actus 
+      rea<lb ed="#L" break="no" n="4"/>liter, quamuis sit varia nominum impositio. 
+      ap<lb ed="#L" break="no" n="5"/>petitus enim eius, quod est ad finem, dicitur 
+      v<lb ed="#L" break="no" n="6"/>sus, inquantum est sub quodam transitu, non 
+      si<lb ed="#L" break="no" n="7"/>stendo gressum in eo, sed gradiendo vlterius, &amp; 
+      <lb ed="#L" n="8"/>applicando ad finem: vti namque proprie est ad 
+      <lb ed="#L" n="9"/>aliud referre, &amp; applicare: dicitur autem electio 
+      <lb ed="#L" n="10"/>inquantum in ordine ad finem praeeligitur aliquid, 
+      <lb ed="#L" n="11"/>&amp; omittitur aliud, vnde electio dicit ordinem 
+      e<lb ed="#L" break="no" n="12"/>lecti ad illud, quod est omissum, &amp; dicitur 
+      con<lb ed="#L" break="no" n="13"/>sensus, inquantum actus iste persuasus est, vel a cō 
+      <lb ed="#L" n="14"/>silio, vel a passione. Intentio autem dicit in isto 
+      <lb ed="#L" n="15"/>actu habitudinem, quam habet ad ipsum finem. 
+      <lb ed="#L" n="16"/>idem enim est actus, qui habet habitudinem ad 
+      <lb ed="#L" n="17"/>illud, quod est ad finem tamquam ad volitum, ad 
+      <lb ed="#L" n="18"/>finem autem tamquam ad cuius gratia, &amp; 
+      pro<lb ed="#L" break="no" n="19"/>pter quid est volitum, &amp; hoc sufficiat de tertio 
+      <lb ed="#L" n="20"/>articulo.
+    </p>
+            </div>
+            <div xml:id="ol96b1-c27573-Dd1e2928">
+               <head xml:id="ol96b1-c27573-Hd1e2930">Articulus 4</head>
+               <p xml:id="ol96b1-c27573-d1e2932">
+                  <lb ed="#L" n="21"/>ARTJCVLVS QVARTVS. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2937">
+                  <lb ed="#L" n="22"/>Quid sit vti, &amp; frui secundum rem, &amp; 
+      defi<lb ed="#L" break="no" n="23"/>nitionem, iuxta id, quod videtur.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e2944">
+                  <lb ed="#L" n="24"/>CIRCA quartum vero considerandum est, 
+      <lb ed="#L" n="25"/>quid sit vti, &amp; frui, &amp; quod frui secundum 
+      <lb ed="#L" n="26"/>rem non potest esse actus voluntatis, qui est desi 
+      <lb ed="#L" n="27"/>derare, vt supra dictum est, quoniam frui 
+      quan<lb ed="#L" break="no" n="28"/>dam quietem importat. quia ergo quies 
+      volun<lb ed="#L" break="no" n="29"/>tatis non est aliud, quam delectatio, &amp; 
+      compla<lb ed="#L" break="no" n="30"/>centia in aliquo obiecto, idcirco omnis 
+      compla<lb ed="#L" break="no" n="31"/>centia, &amp; delectatio voluntatis largo nomine, 
+      <lb ed="#L" n="32"/>fruitio dici potest, &amp; secundum hoc definitur ab 
+      <lb ed="#L" n="33"/>Augustino dicente, quod fruimur cognitis, in 
+      <lb ed="#L" n="34"/>quibus voluntas delectata conquiescit, non quod 
+      <lb ed="#L" n="35"/>aliud sit voluntatem conquiescere, &amp; aliud 
+      dele<lb ed="#L" break="no" n="36"/>ctari, immo penitus idem, vnde est formalis con 
+      <lb ed="#L" n="37"/>structio, dicendo delectatione conquiescit, 
+      si<lb ed="#L" break="no" n="38"/>cut si diceretur, albedine corpus albescit: quia 
+      <lb ed="#L" n="39"/>vero delectatio, &amp; complacentia de obiecto 
+      prae<lb ed="#L" break="no" n="40"/>senti tantummodo in esse cognito, &amp; non in esse 
+      <lb ed="#L" n="41"/>reali, &amp; si sit quies aliqua voluntatis, non tamen 
+      <lb ed="#L" n="42"/>est totalis, quoniam excitat desiderium ad 
+      prae<lb ed="#L" break="no" n="43"/>sentiam realem, idcirco talis delectatio, 
+      quam<lb ed="#L" break="no" n="44"/>uis sit fruitio large dicta, non tamen proprie, &amp; 
+      <lb ed="#L" n="45"/>perfecte, quia non est plena quies, adhuc 
+      dele<lb ed="#L" break="no" n="46"/>ctatio, &amp; complacentia de obiecto praesenti 
+      rea<lb ed="#L" break="no" n="47"/>liter. &amp; si sit quietatio voluntatis, tamen in illa 
+      <lb ed="#L" n="48"/>re praesenti non delectatur vltimate, sed propter 
+      <lb ed="#L" n="49"/>aliud adhuc non perfecte quiescet, vnde erit 
+      frui<lb ed="#L" break="no" n="50"/>tio imperfecta: si autem sit res illa delectabilis 
+      <lb ed="#L" n="51"/>propter se vltimate, sic quod sit finis omnium 
+      mo<lb ed="#L" break="no" n="52"/>tuum, &amp; desideriorum, talis proprijssime erit 
+      frui<lb ed="#L" break="no" n="53"/>tio, &amp; perfecte, &amp; secundum hoc definitur frui 
+      <lb ed="#L" n="54"/>ab Augustino, quod est amore inhaerere alicui 
+      <lb ed="#L" n="55"/>rei propter se ipsam, amore inquam non 
+      deside<lb ed="#L" break="no" n="56"/>rij, sed complacentiae, &amp; delectationis. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3018">
+                  <lb ed="#L" n="57"/>Contingit autem delectationem huiusmo di to 
+      <lb ed="#L" n="58"/>taliter quietantem, vel esse de re, quae ex 
+      natu<lb ed="#L" break="no" n="59"/>ra sua hoc habet simpliciter videlicet, &amp; 
+      tota<lb ed="#L" break="no" n="60"/>liter quiescere, &amp; cum hoc sit solus Deus, solo 
+      <lb ed="#L" n="61"/>Deo simpliciter est fruendum: &amp; hoc est, quod 
+      <lb ed="#L" n="62"/>Augustinus dicit, Res quibus fruendum est esse 
+      <lb ed="#L" n="63"/>Patrem, &amp; Filium, &amp; Spiritum sanctum, qui 
+      ae<lb ed="#L" break="no" n="64"/>terni, &amp; incommutabiles sunt, caeteris autem 
+      <!--0096.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>est vtendum, aut contingit quod natura rei, non 
+      ha<lb ed="#L" break="no" n="66"/>bet hoc, vt voluntas vltimate delectetur, &amp; 
+      quie<lb ed="#L" break="no" n="67"/>stat in ea, &amp; si sic fuerit talis quietatiua 
+      delecta<lb ed="#L" break="no" n="68"/>tio, non erit fruitio recta, sed magis peruersa, &amp; in 
+      <lb ed="#L" n="69"/>consistit peruersitas humanae: talis autem est 
+      frui<lb ed="#L" break="no" n="70"/>tio in amore concupiscentiae, vnde patet, quod 
+      <lb ed="#L" n="71"/>nulla vltimata fruitio, &amp; perfectio potest 
+      esse<lb ed="#L" break="no" n="72"/>recte, &amp; ordinate, nisi in amore amicitiae, nec in 
+      <lb ed="#L" n="73"/>amore Dei, nisi in patria, vbi realiter Deus erit 
+      <lb ed="#L" n="74"/>praesens: complacentia namque voluntatis in, 
+      <lb ed="#L" n="75"/>Deum pro statu viae non quietat perfecte, sed 
+      ex<lb ed="#L" break="no" n="76"/>citat desiderium ad videndum, &amp; sic soluitur 
+      <lb ed="#L" n="77"/>quaestio, quam Magister mouet, Vtrum possimus 
+      <lb ed="#L" n="78"/>Deo frui in vita. Dicendum est enim, quod non 
+      <lb ed="#L" n="79"/>fruitione simpliciter dicta, quae est totaliter 
+      <lb ed="#L" n="80"/>quietatiua, extenso tamen fruitionis nomine⸗ 
+      <lb ed="#L" n="81"/>ad delectationem, &amp; complacentiam rei 
+      praesen<lb ed="#L" break="no" n="82"/>tis in esse cognito, dicendum est, quod eo irui 
+      <lb ed="#L" n="83"/>possumus, &amp; debemus potius, quam quacumque 
+      <lb ed="#L" n="84"/>creatura, pro eo, quod delectari debemus in eo 
+      <lb ed="#L" n="85"/>sic apprehenso per se, &amp; vltimate, in nullo 
+      au<lb ed="#L" break="no" n="86"/>tem alio citra ipsum 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3091">
+                  <lb ed="#L" n="87"/>Est autem hic vnum dubium, quo scilicet 
+      <lb ed="#L" n="88"/>fruuntur peccatores in peruersa fruitione, quae 
+      <lb ed="#L" n="89"/>est in amore concupiscentiae; vnde dicendum 
+      <lb ed="#L" n="90"/>est, quod non fruuntur re ipsa, quia non delectan 
+      <lb ed="#L" n="91"/>tur in illa propter se, nec fruuntur actu, quo res 
+      <lb ed="#L" n="92"/>ista habetur ab eis, quia non delectantur in actu 
+      <lb ed="#L" n="93"/>nisi inquantum perfectio eorum. ergo directe⸗ 
+      <lb ed="#L" n="94"/>fruuntur se ipsis, vnde vnica delectatione 
+      ferun<lb ed="#L" break="no" n="95"/>tur in rem habitam, &amp; habitionem, inquantum 
+      <lb ed="#L" n="96"/>est perfectio eorum; &amp; per consequens in 
+      scip<lb ed="#L" break="no" n="97"/>sos. Ex quo patet, quod omnis fruitio vltimata, 
+      <lb ed="#L" n="98"/>si recta sit habet pro obiecto Deum, si peruersa fit 
+      <lb ed="#L" n="99"/>seipsum, &amp; isti sunt duo amores, qui faciunt duas 
+      <lb ed="#L" n="100"/>ciuitates secundum Augustinum, Caelestem 
+      vi<lb ed="#L" break="no" n="101"/>delicet, &amp; Terrenam 14. de Ciuita. &amp; sic patet, 
+      <lb ed="#L" n="102"/>quid sit frui. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3128">
+                  <lb ed="#L" n="103"/>Quid sit vti. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3133">
+                  <lb ed="#L" n="104"/>VTi autem est secundum rem, aliquando 
+      <lb ed="#L" n="105"/>quidem desiderium, aliquando quidem 
+      de<lb ed="#L" break="no" n="106"/>lectatio. Omne namque desiderium vti est, fi 
+      re<lb ed="#L" break="no" n="107"/>cte desideretur, quod appetitur, quod patet, quod 
+      <lb ed="#L" n="108"/>non desideratur, nisi quod est perfectio 
+      deside<lb ed="#L" break="no" n="109"/>rantis. non enim desideratur Deus, sed visio Dei, 
+      <lb ed="#L" n="110"/>nec honor, sed honoris obtentus, &amp; sic de alijs, 
+      <lb ed="#L" n="111"/>cuius ratio est, quia desiderium est motus in 
+      ha<lb ed="#L" break="no" n="112"/>bitionem rei, &amp; non in rem ipsam: motus enim 
+      <lb ed="#L" n="113"/>in rem ipsam, est complacentia, seu delectatio, 
+      <lb ed="#L" n="114"/>qui quidem magis est quies, quam motus, vnde 
+      <lb ed="#L" n="115"/>nihil est dictu, desidero hoc, vel illud: constat 
+      <lb ed="#L" n="116"/>autem, quod omne desideratum tamquam 
+      per<lb ed="#L" break="no" n="117"/>fectio appetitur, non propter se, sed propter 
+      il<lb ed="#L" break="no" n="118"/>lud, cuius est perfectio, ex quo sequitur, quod 
+      <lb ed="#L" n="119"/>omne desiderium est vsus, &amp; desiderare est vti, 
+      <lb ed="#L" n="120"/>cum omne, quod desideratur in aliud referatur. 
+      <lb ed="#L" n="121"/>vti vero sic est delectari, quod non omne 
+      dele<lb ed="#L" break="no" n="122"/>ctari est vti, sed tantum illud, quod in aliud 
+      re<lb ed="#L" break="no" n="123"/>fertur, &amp; idcirco omne delectari transiens super 
+      <lb ed="#L" n="124"/>quamcumque perfectionem humanam, &amp; super 
+      <lb ed="#L" n="125"/>visionem Diuinam, quia referri debet in Deum, 
+      <lb ed="#L" n="126"/>omnis inquam delectatio talis est vsus; sola vero 
+      <lb ed="#L" n="127"/>delectatio, &amp; complacentia, quae fertur in Deum 
+      <lb ed="#L" n="128"/>vsus non est, siue sit in patria, siue sit in via: 
+      com<lb ed="#L" break="no" n="129"/>placentia enim, quae in via habetur de Deo tran 
+      <!--0097.xml-->
+      <pb ed="#L" n="97"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sit in Deum propter se, quoniam in eum propter 
+      <lb ed="#L" n="2"/>se complacendum, &amp; sic patet, quod omnis actus 
+      <lb ed="#L" n="3"/>voluntatis, quo fertur in seipsum, &amp; in 
+      omne<lb ed="#L" break="no" n="4"/>creatum, siue desiderium, siue delectatio sit vsus, 
+      <lb ed="#L" n="5"/>debet esse respoctu vnius Dei sine in via, siue in 
+      <lb ed="#L" n="6"/>patria, non habet voluntas actum debitum 
+      <lb ed="#L" n="7"/>nne frui. quia solus Deus habet rationem 
+      frui<lb ed="#L" break="no" n="8"/>bilis obiecti: omnia autem alia vtibilia sunt. 
+      <lb ed="#L" n="9"/>g ais itaque patet, quid sit vti definitiue-: 
+      <lb ed="#L" n="10"/>g enim est, quod in voluntate venerit ad aliud 
+      <lb ed="#L" n="11"/>mueres veninnt autem in voluntate ea, quae 
+      vo<lb ed="#L" break="no" n="12"/>diaus, &amp;t idcirco vti est ea, que volumus 
+      a<lb ed="#L" break="no" n="13"/>bindereferre, quod principaliter volumus, &amp; in 
+      <lb ed="#L" n="14"/>aoo simpliciter complacemus. &amp; hic finitur 
+      <lb ed="#L" n="15"/>du um articulus. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3231">
+                  <lb ed="#L" n="16"/>Responsio ad obiecta primo.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3236">
+                  <lb ed="#L" n="17"/>papf ea ergo, quae quarto inducuntur 
+      dicen<lb ed="#L" break="no" n="18"/>dum est. ad primum quidem. quod 
+      fal<lb ed="#L" break="no" n="19"/>est delectationem non esse de Deo 
+      inquan<lb ed="#L" break="no" n="20"/>pa Deus. sed inquantum habitus tantum. 
+      pro<lb ed="#L" break="no" n="21"/>biam est enim in corpore quaestionis, 
+      quomo<lb ed="#L" break="no" n="22"/>burri auiplius complacent sibi in Deo, &amp; in 
+      <lb ed="#L" n="23"/>simis Dinina, quam in bono proprio, &amp; in 
+      <lb ed="#L" n="24"/>Mpre ipsa 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3256">
+                  <lb ed="#L" n="25"/>Hiundum dicendum, quod verum est, 
+      de<lb ed="#L" break="no" n="26"/>dinnas non attingere absolute Deum, sed 
+      ha<lb ed="#L" break="no" n="27"/>bbiaaiuo Dei, sed non est simile de 
+      delectatio<lb ed="#L" break="no" n="28"/>nt st quies, qua beatus sibi complacet non 
+      <lb ed="#L" n="29"/>su habitione Dei, sed in ipsomet Deo. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3270">
+                  <lb ed="#L" n="30"/>Ad tertium dicendum, quod delectatio 
+      con<lb ed="#L" break="no" n="31"/>cafscentiae succedens desiderio est illa, quae 
+      <lb ed="#L" n="32"/>auicit aliquam perfectionem nobis 
+      formali<lb ed="#L" break="no" n="33"/>eoimerentem, delectatio vero amicitiae, quae 
+      <lb ed="#L" n="34"/>ma estaliud, quam complacentia in amato, est 
+      <lb ed="#L" n="35"/>dose amatus subsistens, non aliquid nobis 
+      in<lb ed="#L" break="no" n="36"/>harens. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3288">
+                  <lb ed="#L" n="37"/>Ad quartum dicendum, quod falsum est, 
+      amo<lb ed="#L" break="no" n="38"/>rem complacentiae habere complexum aliquid 
+      <lb ed="#L" n="39"/>pro obiecto, immo potest voluntas sibi 
+      compla<lb ed="#L" break="no" n="40"/>cere in Deo simplicissimo, &amp; vnitissime bono, 
+      <lb ed="#L" n="41"/>secus autem est de desiderio, quod mouet ad 
+      pro<lb ed="#L" break="no" n="42"/>secutionem, vel fugam. tale enim eo quod sit 
+      <lb ed="#L" n="43"/>super complexum: quia super bonum 
+      prosecutio<lb ed="#L" break="no" n="44"/>ne attingendum. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3308">
+                  <lb ed="#L" n="45"/>Ad quintum dicendum, quod non est vanum, 
+      <lb ed="#L" n="46"/>nec fatuum complacere in Deo, &amp; nec per 
+      con<lb ed="#L" break="no" n="47"/>sequens babere amorem delectationis erga 
+      ip<lb ed="#L" break="no" n="48"/>sum, nisi forsitan illi vanum, &amp; fatuum videatur, 
+      <lb ed="#L" n="49"/>qui non est expertus se complacere in aliquo, 
+      ni<lb ed="#L" break="no" n="50"/>si concupiscibiliter, ac modo mercenario, &amp; 
+      ve<lb ed="#L" break="no" n="51"/>nali, quo contra Pater alio modo delectatur in 
+      <lb ed="#L" n="52"/>Filio, iuxta illud Matth. 3. Hic est Filius meus 
+      dile<lb ed="#L" break="no" n="53"/>ctus, in quo mihi complacui. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3330">
+                  <lb ed="#L" n="54"/>Ad obiecta secundo.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3335">
+                  <lb ed="#L" n="55"/>AD ea vero, quae secundario inducuntur 
+      di<lb ed="#L" break="no" n="56"/>cendum est. ad primum, quod vtique ex 
+      <lb ed="#L" n="57"/>amore in patria oritur delectatio, &amp; voluptas, 
+      <lb ed="#L" n="58"/>placet enim summe beato, &amp; quia Deum videt, 
+      <lb ed="#L" n="59"/>&amp; quia sibi in eum complacet, nihilominus haec 
+      <lb ed="#L" n="60"/>complacentia, nec est fruitio beatifica, tum quia 
+      <lb ed="#L" n="61"/>P est actus reflexus placere sibi, quod complacet, 
+      <lb ed="#L" n="62"/>tum quia transit super primam complacentiam, 
+      <lb ed="#L" n="63"/>quae est pura creatura. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3357">
+      <!--0097.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>Ad secundum dicendum, quod non est verum 
+      <lb ed="#L" n="65"/>comprehensionem sic sequi visionem, sicut 
+      de<lb ed="#L" break="no" n="66"/>lectatio sequitur dilectionemi visio namque sic 
+      <lb ed="#L" n="67"/>est comprehensio, quod eam non sequitur aliqu 
+      <lb ed="#L" n="68"/>comprehensio realiter distincta: dilecio autem 
+      <lb ed="#L" n="69"/>sic est delectatio, &amp; fruitio, quod eam sequitur 
+      <lb ed="#L" n="70"/>aliqua delectatio realiter distincta, quae tamen 
+      <lb ed="#L" n="71"/>fruitio non est, vt patet ex praedictis. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3382">
+                  <lb ed="#L" n="72"/>Ad tertium dicendum, quod nomen 
+      fruitio<lb ed="#L" break="no" n="73"/>nis videtur esse impositum actui absorbenti prae 
+      <lb ed="#L" n="74"/>suauitate, vnde qui absorbentur gaudio, &amp; 
+      dele<lb ed="#L" break="no" n="75"/>tione dicuntur frui, &amp; quia poma, &amp; talia 
+      <lb ed="#L" n="76"/>consueuerunt delectabiliter absorberi, idcirco 
+      <lb ed="#L" n="77"/>putandum est nomen fructus magis tractum suis 
+      <lb ed="#L" n="78"/>se a fruitione, quam econuerso, vnde fruitio 
+      <lb ed="#L" n="79"/>proprie importat suauitatem, delectationem 
+      <lb ed="#L" n="80"/>&amp; complacentiam quietantem. Illa autem 
+      <lb ed="#L" n="81"/>complacentia, qua quietatur Beatus in ordine 
+      <lb ed="#L" n="82"/>ad Deum non oritur ex dilectione, sed est 
+      dile<lb ed="#L" break="no" n="83"/>ctio ipsa. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3411">
+                  <lb ed="#L" n="84"/>Ad quartum dicendum, quod fruitio est amor 
+      <lb ed="#L" n="85"/>delectationis re praesente, quae quidem oritur ex 
+      <lb ed="#L" n="86"/>amore delectationis, &amp; complacentiae, qui 
+      prae<lb ed="#L" break="no" n="87"/>cessit praesentialitatem rei, vt dictum fuit in cor 
+      <lb ed="#L" n="88"/>pore quaestionis. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3424">
+                  <lb ed="#L" n="89"/>Ad obiecta tertio. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3429">
+                  <lb ed="#L" n="90"/>AD ea vero, quae tertio inducuntur, pro 
+      tan<lb ed="#L" break="no" n="91"/>to dicendum est, pro quanto concludunt, 
+      <lb ed="#L" n="92"/>omnem dilectionem esse delectationem. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3438">
+                  <lb ed="#L" n="93"/>Ad primum enim dicendum est, quod in 
+      ea<lb ed="#L" break="no" n="94"/>dem potentia respectu eiusdem obiecti possunt es 
+      <lb ed="#L" n="95"/>se duo actus, puta desiderium, &amp; delectatio in 
+      <lb ed="#L" n="96"/>voluntate, vel etiam duae delectationes, ordine 
+      <lb ed="#L" n="97"/>quodam, vna s licet, transiens immediate super 
+      <lb ed="#L" n="98"/>obiectum, &amp; alia transiens mediante actu super 
+      <lb ed="#L" n="99"/>ipsum, vt pote delectatio de ipsa visione. 
+      <lb ed="#L" n="100"/>Ad secundum dicendum, quod idem 
+      inquan<lb ed="#L" break="no" n="101"/>tum idem natum est facere idem, &amp; ideo ordine 
+      <lb ed="#L" n="102"/>quodam potest facere plura. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3462">
+                  <lb ed="#L" n="103"/>Ad tertium dicendum, quod odium, &amp; 
+      di<lb ed="#L" break="no" n="104"/>splicentia non videntur idem quod tristari, quia 
+      <lb ed="#L" n="105"/>tristari videtur referri ad malum praesens, &amp; 
+      <lb ed="#L" n="106"/>opponi delectationi concupiscentiae. odium 
+      au<lb ed="#L" break="no" n="107"/>tem, &amp; displicentia opponuntur delectationi 
+      <lb ed="#L" n="108"/>complacentiae, &amp; amicitiae. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3479">
+                  <lb ed="#L" n="109"/>Vel dicendum, quod prima ratio verum 
+      <lb ed="#L" n="110"/>concludit, delectationem videlicet, esse 
+      dile<lb ed="#L" break="no" n="111"/>ctionem; non tamen econtrario: dilectio 
+      e<lb ed="#L" break="no" n="112"/>nim se habet in plus, cum desiderium 
+      com<lb ed="#L" break="no" n="113"/>prehendat. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3492">
+                  <lb ed="#L" n="114"/>Ad quartum dicendum, quod est fallacia con 
+      <lb ed="#L" n="115"/>sequentis; habent enim eosdem effectus. ergo 
+      <lb ed="#L" n="116"/>sunt idem; possunt enim plura communicare 
+      <lb ed="#L" n="117"/>in eadem operatione, vt Homo, &amp; Asinus 
+      con<lb ed="#L" break="no" n="118"/>ueniunt in videre, vel dicendum, quod 
+      pro<lb ed="#L" break="no" n="119"/>bat ratio, quod delectatio sit dilectio, sed non 
+      <lb ed="#L" n="120"/>cconuerso. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3510">
+                  <lb ed="#L" n="121"/>Ad quintum dicendum, quod si delectatio 
+      es<lb ed="#L" break="no" n="122"/>set aliquid impressum ab obiecto. dilectio 
+      ve<lb ed="#L" break="no" n="123"/>ro aliquid elicitum a potentia, non dubium, quod 
+      <lb ed="#L" n="124"/>non essent realiter idem, ideo illud medium est 
+      <lb ed="#L" n="125"/>ad oppositum eius, quod intendit. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3523">
+                  <lb ed="#L" n="126"/>Ad sextum dicendum, quod probat 
+      delecta<lb ed="#L" break="no" n="127"/>tionem esse dilectionem, quod auautem omnis 
+      <lb ed="#L" n="128"/>dilectio sit delectatio, non probat, nec est verum.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3532">
+      <!--0098.xml-->
+                  <pb ed="#L" n="98"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Ad obiecta in oppositum primo.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3543">
+                  <lb ed="#L" n="2"/>AD ea vero, quae in oppositum inducuntur 
+      <lb ed="#L" n="3"/>dicendum est, ad primum quidem, quod 
+      <lb ed="#L" n="4"/>vti est vaus actus simplex voluntatis non plures, 
+      <lb ed="#L" n="5"/>sicut dictum est in corpore quaestionis.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3555">
+                  <lb ed="#L" n="6"/>secandum dicendum, quod intellectus non 
+      <lb ed="#L" n="7"/>fruitur, nec complacer, nec delectatur, sed 
+      tan<lb ed="#L" break="no" n="8"/>nemmodo appetitus, &amp; quod dicitur, quod 
+      vi<lb ed="#L" break="no" n="9"/>quest tota merces: intelligitur inehoatiue, nam 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3566">
+                  <lb ed="#L" n="10"/>tincipalius, &amp; completiue est in eo, quod 
+      me<lb ed="#L" break="no" n="11"/>lius est, &amp; Deo acceptins, videlicet in 
+      delecta<lb ed="#L" break="no" n="12"/>tions, qua Beatus complacet sibi in Deo, &amp; 
+      <lb ed="#L" n="13"/>quod additur intellectum esse nobiliffimam 
+      po<lb ed="#L" break="no" n="14"/>tputiam, non est verum, vt alias ostendetur. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3579">
+                  <lb ed="#L" n="15"/>Adtertium dicendum, quod frui non habet 
+      plu<lb ed="#L" break="no" n="16"/>res definitiones, omnes onim iste tres redeunt in 
+      <lb ed="#L" n="17"/>hoc idelicet, quod frui est quies, seu gaudium, seu 
+      <lb ed="#L" n="18"/>delectatio voluntatis in rem aliquam propter se.
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3590">
+                  <lb ed="#L" n="19"/>Ad abiecta in oppositam secundo. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3595">
+                  <lb ed="#L" n="20"/>Ad vero, quae secundarid in 
+      oppositum<lb ed="#L" break="no" n="21"/>lindunentur, dicendum est ad primum, quod 
+      <lb ed="#L" n="22"/>opposita delectationis, &amp; dilectionis sunt idem. 
+      <lb ed="#L" n="23"/>odium enim, quod opponitur dilectioni, idem est 
+      <lb ed="#L" n="24"/>quod displicentia. displicentia vero opponitur 
+      de<lb ed="#L" break="no" n="25"/>sectationi, &amp; complacentiae, &amp; quod dicitur de 
+      <lb ed="#L" n="26"/>tistitia, sciendum est, quod tristitia duplex est, 
+      <lb ed="#L" n="27"/>quaedam, quae opponitur delectationi amicitiae, 
+      <lb ed="#L" n="28"/>quomodo tristatur homo de malo amici, 
+      quae<lb ed="#L" break="no" n="29"/>dam, quae opponitur delectationi concupiscentiae, 
+      <lb ed="#L" n="30"/>quomodo tristatur homo de malo proprio sibi 
+      <lb ed="#L" n="31"/>adiacenti, vtraque autem tristitia odium est, 
+      <lb ed="#L" n="32"/>non oppositum desiderio, sed delectationi, quod 
+      <lb ed="#L" n="33"/>ergo dicitur tristitiam non esse nisi praesentis, 
+      o<lb ed="#L" break="no" n="34"/>dium autem posse esse absentis, dicendum est, 
+      <lb ed="#L" n="35"/>quod eodem modo, &amp; tristitia potest esse 
+      absen<lb ed="#L" break="no" n="36"/>tis, nam &amp; de malo expectato amico tristatur 
+      <lb ed="#L" n="37"/>amicus, &amp; de vino amaro gustando, tristatur glu 
+      <lb ed="#L" n="38"/>to, &amp; dolet absque expectatione etiam 
+      quodli<lb ed="#L" break="no" n="39"/>bet imaginatum, quod tristabile, &amp; displicibile 
+      <lb ed="#L" n="40"/>concipitur. Quod etiam additur tristari non 
+      es<lb ed="#L" break="no" n="41"/>se voluntarium, odire autem voluntarium esse, 
+      <lb ed="#L" n="42"/>dicendum, quod odium oppositum desiderio vo 
+      <lb ed="#L" n="43"/>luntarium est: oppositum autem delectationi, &amp; 
+      <lb ed="#L" n="44"/>complacentiae respectu futuri quidem, vel 
+      ima<lb ed="#L" break="no" n="45"/>ginati voluntarium est, &amp; eodem modo tristitia, 
+      <lb ed="#L" n="46"/>posset enim gluto imaginari, aut expectare 
+      po<lb ed="#L" break="no" n="47"/>tionem amaram, vt non tristabilem si vellet, &amp; 
+      <lb ed="#L" n="48"/>similiter amicus malum amici, respectu vero 
+      <lb ed="#L" n="49"/>praesentis, odium, quod opponitur complacentiae, 
+      <lb ed="#L" n="50"/>&amp; delectationi amicitiae, adhuc est voluntarium, 
+      <lb ed="#L" n="51"/>&amp; tristitia similiter. malo enim amici praesente 
+      <lb ed="#L" n="52"/>potest amicus alius contristari, vel non, sicut pla 
+      <lb ed="#L" n="53"/>cet: odium autem, quod opponitur amori 
+      con<lb ed="#L" break="no" n="54"/>cupiscentiae, non est voluntarium malo praesente 
+      <lb ed="#L" n="55"/>sicut nec tristitia. ad praesentiam enim ignis 
+      trista<lb ed="#L" break="no" n="56"/>tur, qui comburitur, &amp; ratio istius est, quia 
+      de<lb ed="#L" break="no" n="57"/>lectatio amicitiae, &amp; eius odium gratis sunt, odium 
+      <lb ed="#L" n="58"/>autem, &amp; delectatio concupiscentiae sunt 
+      refle<lb ed="#L" break="no" n="59"/>xa, &amp; per idem patet ad illud, quod inducitur 
+      <lb ed="#L" n="60"/>de Deo, &amp; Beatis, quod sicut odiunt malum, sic 
+      <lb ed="#L" n="61"/>est displicibile, &amp; contristabile, accipiendo 
+      tri<lb ed="#L" break="no" n="62"/>stitiam non pro attritione, quam facit 
+      concupi<lb ed="#L" break="no" n="63"/>scentia malum praesens, sed pro displicentia 
+      so<lb ed="#L" break="no" n="64"/>la: vel dicendum, quod nec Deus, nec Beati di- 
+      <!--0098.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>cuntur odire, iniquitatem, nisi negatiue, quia 
+      <lb ed="#L" n="66"/>non placet, quod autem atterantur positiue, &amp; 
+      <lb ed="#L" n="67"/>eis malum displiceat nullo modo. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3706">
+                  <lb ed="#L" n="68"/>Ad secundum dicendum, quod deuotus 
+      sum<lb ed="#L" break="no" n="69"/>me diligens Deum, summe complacet sibi in eo, 
+      <lb ed="#L" n="70"/>&amp; ideo non procedit. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3716">
+                  <lb ed="#L" n="71"/>Ad tertium dicendum, quod Daemon in 
+      se<lb ed="#L" break="no" n="72"/>summe complacet, &amp; summe delectatur, quia 
+      <lb ed="#L" n="73"/>summe se diligit, immo hoc est summe se 
+      dilige<lb ed="#L" break="no" n="74"/>re, in se summe complacere, &amp; tamen cum hoc 
+      <lb ed="#L" n="75"/>summe tristatur in poenis, quae sibi summe displi 
+      <lb ed="#L" n="76"/>cenp, &amp; quas odit. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3732">
+                  <lb ed="#L" n="77"/>Ad quartum dicendum, quod delectatio 
+      com<lb ed="#L" break="no" n="78"/>placentiae non imprimitur ab obiecto, sicut nec 
+      <lb ed="#L" n="79"/>dilectio, aut amor: vel dicendum, quod omnis 
+      <lb ed="#L" n="80"/>actus voluntatis aliquo modo imprimitur ab 
+      <lb ed="#L" n="81"/>obiecto, vt alias apparebit. 
+    </p>
+               <p xml:id="ol96b1-c27573-d1e3745">
+                  <lb ed="#L" n="82"/>Ad vltimum dicendum, quod dilectio, qua 
+      <lb ed="#L" n="83"/>Beatus complacet in Deo non potest ferri actu 
+      <lb ed="#L" n="84"/>recto in complacentiam, &amp; delectationem 
+      pri<lb ed="#L" break="no" n="85"/>mam, immo est aliqua complacentia, qua sibi 
+      <lb ed="#L" n="86"/>placet, quod complacet in Deo. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

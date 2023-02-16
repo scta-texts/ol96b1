@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="525"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-170428"> <!-- l1d23p1-prae -->
+            <head xml:id="ol96b1-170428-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-170428-d1e104">
+      <!--0525.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="15"/>DE HOC NOMJNE, QVOD EST PERSONA: 
+      <lb ed="#L" n="16"/>quod cum secundum substantiam dicatur, tamen pluraliter, 
+      <lb ed="#L" n="17"/>non singulariter in summa accipitur. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e117">
+               <lb ed="#L" n="18"/>DISTJNCTIO XXJJJ.
+    </p>
+            <p xml:id="ol96b1-170428-d1e122">
+      <!--0525.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="19"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e132">
+               <lb ed="#L" n="20"/>PRAEDICTIS adijciendum est, 
+      <lb ed="#L" n="21"/>&amp;c. Postquam Magister 
+      de<lb ed="#L" break="no" n="22"/>terminauit de diuinis nomi 
+      <lb ed="#L" n="23"/>nibus in generali, hic 
+      deter<lb ed="#L" break="no" n="24"/>minat de eis in speciali. Et 
+      <lb ed="#L" n="25"/>circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e148">
+               <lb ed="#L" n="26"/>Primo namque tractat de 
+      <lb ed="#L" n="27"/>nominibus personalibus, &amp; 
+      <lb ed="#L" n="28"/>de his, quae dicuntur ex tempore. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e157">
+               <lb ed="#L" n="29"/>Secundo vero tractat de tribus specialibus no 
+      <lb ed="#L" n="30"/>minibus, videlicet scientia, potentia, 
+      volunta<lb ed="#L" break="no" n="31"/>te, quae requirunt specialem conceptum. 
+      secun<lb ed="#L" break="no" n="32"/>dum facit ibi, dist. 35. Cumque supra dixerimus. 
+      Cir<lb ed="#L" break="no" n="33"/>ca primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e170">
+               <lb ed="#L" n="34"/>Primo namque agit de nominibus propriis. 
+      <lb ed="#L" n="35"/>Secundo de nominibus appropriatis, &amp; 
+      trans<lb ed="#L" break="no" n="36"/>latiue dictis. secundum facit ibi, dist. 34 circa 
+      <lb ed="#L" n="37"/>medium: Ex praedictis constat, quod sic esse. Adhuc 
+      <lb ed="#L" n="38"/>circa primum facit duo. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e183">
+               <lb ed="#L" n="39"/>Primo enim agit de nominibus personalibus 
+      <lb ed="#L" n="40"/>propriis significantibus proprietates 
+      persona<lb ed="#L" break="no" n="41"/>rum. secundum facit ibi dist. 26. Nunc de 
+      proprie<lb ed="#L" break="no" n="42"/>tatibus. Circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e194">
+               <lb ed="#L" n="43"/>Primo namque inquirit de hoc nomine, 
+      per<lb ed="#L" break="no" n="44"/>sona, quid significet in diuinis. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e202">
+               <lb ed="#L" n="45"/>Secundo de hoc nomine, Trinitas, &amp; de termi 
+      <lb ed="#L" n="46"/>nis numeralibus. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e209">
+               <lb ed="#L" n="47"/>Tertio redit ad nomen personae, inquirens, 
+      <lb ed="#L" n="48"/>sub quo intendendo pluraliter praedicetur. secun 
+      <lb ed="#L" n="49"/>dum facit dist. 24. Hic diligenter. tertium facit 
+      <lb ed="#L" n="50"/>dist. 25. Praeterea considerandum. Circa primum 
+      <lb ed="#L" n="51"/>tria facit. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e222">
+               <lb ed="#L" n="52"/>Primo enim agit de hoc nomine, persona. 
+      <lb ed="#L" n="53"/>Secundo de hypostasi, &amp; substantia. 
+      <lb ed="#L" n="54"/>Tertio recapitulat dicta. secunda ibi: Quod 
+      <lb ed="#L" n="55"/>enim. tertia ibi: Iam sufficienter. Adhuc circa 
+      pri<lb ed="#L" break="no" n="56"/>mum tria facit. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e235">
+               <lb ed="#L" n="57"/>Primo namque personam excipit a regula su 
+      <lb ed="#L" n="58"/>praposita, de nominibus significantibus 
+      sub<lb ed="#L" break="no" n="59"/>stantiam. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e244">
+               <lb ed="#L" n="60"/>Secundo probat, quod persona significet 
+      sub<lb ed="#L" break="no" n="61"/>stantiam. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e251">
+               <lb ed="#L" n="62"/>Tertio quoque contra hoc instat, &amp; soluit. 
+      se<lb ed="#L" break="no" n="63"/>ounda ibi: Quam autem personam. tertia ibi: Ideo 
+      <lb ed="#L" n="64"/>hic oritur. Dicit itaque primo, quod hoc nomen, 
+      <lb ed="#L" n="65"/>persona, quod secundum substantiam dicitur, 
+      <lb ed="#L" n="66"/>excipitur a regula data superius, secundum 
+      <!--0525.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="67"/>quod dicebatur, quod nullum nomem significans 
+      <lb ed="#L" n="68"/>substantiam pluraliter praedicatur. manifestum 
+      <lb ed="#L" n="69"/>est enim, quod persona dicitur in plurali: nam 
+      <lb ed="#L" n="70"/>pater, &amp; filius, &amp; spiritus sanctus non sunt vna 
+      <lb ed="#L" n="71"/>persona, sed tres personae. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e280">
+               <lb ed="#L" n="72"/>Postmodum ibi: Quod autem persona. Probat, 
+      <lb ed="#L" n="73"/>quit tou notnt sente e é ianiruinit 
+      <lb ed="#L" n="74"/>quod ideo idem est essentiam, &amp; personam esse: 
+      <lb ed="#L" n="75"/>constat autem, quod esse significat substantiam. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e291">
+               <lb ed="#L" n="76"/>Secundo vero, quod eodem lib. cap. 5. 
+      expres<lb ed="#L" break="no" n="77"/>se dicit August. quod cum dicimus patris 
+      per<lb ed="#L" break="no" n="78"/>personam, non aliud dicimus, quam patris 
+      sub<lb ed="#L" break="no" n="79"/>stantiam. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e302">
+               <lb ed="#L" n="80"/>Tertia quoque quia ibi dicit quod pater 
+      di<lb ed="#L" break="no" n="81"/>citur persona non ad filium, sed ad se, sicut ad se 
+      <lb ed="#L" n="82"/>dicitur magnus, vel bonus. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e311">
+               <lb ed="#L" n="83"/>Post modum ibi: Ideo hic oritur quaestio. Tertia 
+      <lb ed="#L" n="84"/>ibi: Vnde hi, &amp; alia. Circa primum tertia facit. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e318">
+               <lb ed="#L" n="85"/>Primo enim mouet quaestionem, dicens, 
+      <lb ed="#L" n="86"/>quod mirum est ex quo persona significet id 
+      ip<lb ed="#L" break="no" n="87"/>sum, quod substantia, vel essentia, quare non 
+      di<lb ed="#L" break="no" n="88"/>cimus, quod pater, &amp; filius, &amp; spiritus sanctus 
+      <lb ed="#L" n="89"/>sunt vna persona tantum, sicut sunt vna essentia, 
+      <lb ed="#L" n="90"/>vel substantia. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e334">
+               <lb ed="#L" n="91"/>Secundo ibi: Quia volumus. Respondet ad hoc 
+      <lb ed="#L" n="92"/>secundum Augustinum, quia inopia humani elo 
+      <lb ed="#L" n="93"/>quij vrget, cum confiteamur in Deo Trinitatem, 
+      <lb ed="#L" n="94"/>vt nomen, aliquod reseruetur, quod 
+      respondea<lb ed="#L" break="no" n="95"/>tur interrogantibus, qui tres sunt, &amp; cur non 
+      <lb ed="#L" n="96"/>sunt tres dij, aut tres boni, dictum est, quod sunt 
+      <lb ed="#L" n="97"/>tres personae; non vt illud proprie diceretur, 
+      <lb ed="#L" n="98"/>sed ne haereticis vrgentibus penitus taceretur. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e355">
+               <lb ed="#L" n="99"/>Tertio ibi: Sed quaritur. Magister resolutionem 
+      <lb ed="#L" n="100"/>confirmat, per ea, quae accidunt inter Graecos, 
+      <lb ed="#L" n="101"/>dicens, quod eadem necessitate, &amp; eadem 
+      penu<lb ed="#L" break="no" n="102"/>ria laborantes Graeci, concesserunt, quod 
+      pa<lb ed="#L" break="no" n="103"/>ter, &amp; filius, &amp; Spiritus sanctus, cum sint vna vsya, 
+      <lb ed="#L" n="104"/>&amp; essentia, sunt nihilominus tres hypostases, vel 
+      <lb ed="#L" n="105"/>tres substantiae, accipiendo per substantiam, &amp; 
+      <lb ed="#L" n="106"/>hypostasim, quod nos intelligimus per personam. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e375">
+               <lb ed="#L" n="107"/>Postmodum ibi: Qua necessitate. Mouet 
+      secun<lb ed="#L" break="no" n="108"/>dam quaestionem, dicens, quod dubium est, cum 
+      <lb ed="#L" n="109"/>dicamus pluraliter in diuinis tres personas, cur 
+      <lb ed="#L" n="110"/>non dicamus similiter &amp; tres Deos, cum 
+      vtrum<lb ed="#L" break="no" n="111"/>que significet substantiam, &amp; aliquid 
+      commu<lb ed="#L" break="no" n="112"/>ne tribus. &amp; respondet, quod scriptura 
+      contra<lb ed="#L" break="no" n="113"/>dicit, ne dicamus tres Deos, quia dictum est 
+      Deu<lb ed="#L" break="no" n="114"/>teronom. 6. Audi Israel, Deus tuus vnus est. de 
+      <!--0526.xml-->
+      <pb ed="#L" n="526"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>persona vero non obuiat, propter quod cum 
+      co<lb ed="#L" break="no" n="2"/>geremur adhibere aliquod nomen, quod 
+      plura<lb ed="#L" break="no" n="3"/>liter diceretur, magis fuit idoneum de nomine 
+      <lb ed="#L" n="4"/>personae, quam de nomine Dei. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e410">
+               <lb ed="#L" n="5"/>Postmodum ibi: Vnde haec, &amp; alia. Mouet 
+      ter<lb ed="#L" break="no" n="6"/>tiam quaestionem, cur non dicimus patrem, &amp; 
+      <lb ed="#L" n="7"/>filium, &amp; spiritum sanctum tres essentias, cum 
+      <lb ed="#L" n="8"/>scriptura non contradicat, &amp; respondet, quod 
+      <lb ed="#L" n="9"/>magis esset propinquum ad hoc, quod 
+      confite<lb ed="#L" break="no" n="10"/>rentur tres Deos.
+    </p>
+            <p xml:id="ol96b1-170428-d1e426">
+               <lb ed="#L" n="11"/>Postmodum ibi: Quod enim de personis. Tractat 
+      <lb ed="#L" n="12"/>Magister de his nominibus, hypostasis, &amp; 
+      substan<lb ed="#L" break="no" n="13"/>tia, &amp; dicit, quod simili necessitate Graeci cum 
+      <lb ed="#L" n="14"/>confiteantur vnam vsyam, hoc est, vnam 
+      essen<lb ed="#L" break="no" n="15"/>tiam, confitentur tres hypostases, tres 
+      substan<lb ed="#L" break="no" n="16"/>tias, &amp; possent etiam dici tria prosopha, quia 
+      <lb ed="#L" n="17"/>prosopon idem est, quod persona. 
+    </p>
+            <p xml:id="ol96b1-170428-d1e444">
+               <lb ed="#L" n="18"/>Vltimo ibi: Iam sufficienter. Epilogat ea, quae 
+      <lb ed="#L" n="19"/>dicta sunt Magister, dicens, Ex praedictis patet, 
+      <lb ed="#L" n="20"/>qua necessitate dictum est, quod tres personae 
+      <lb ed="#L" n="21"/>sunt in diuinis, &amp; tamen non tres Dij, vel tres 
+      <lb ed="#L" n="22"/>essentiae. hoc enim dictum non est, vt diuersitas 
+      <lb ed="#L" n="23"/>intelligatur in Deo, in quo non est diuersitas, 
+      <lb ed="#L" n="24"/>nec singularitas, sicut probat Magister octo 
+      au<lb ed="#L" break="no" n="25"/>ctoritatibus, quae patent in littera, &amp; in fine con 
+      <lb ed="#L" n="26"/>cludit, quod nec etiam multiplicitas est in eo, 
+      <lb ed="#L" n="27"/>&amp; inducit auctoritatem Ambrosij hoc dicentis. 
+      <lb ed="#L" n="28"/>haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

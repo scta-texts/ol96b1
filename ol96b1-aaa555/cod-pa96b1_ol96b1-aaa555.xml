@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="1"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-aaa555"> <!-- l1prolp1-prae -->
+            <head xml:id="ol96b1-aaa555-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-aaa555-d1e104"><!--0001.xml-->
+               <pb ed="#L" n="1"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>PETRJ AVREOLJ 
+      <lb ed="#L" n="2"/>S. R. E. CARD. AMPLJSSJMJ 
+      <lb ed="#L" n="3"/>ORDJNIS MINORVM 
+      <lb ed="#L" n="4"/>JN QVATVOR LJBROS SENTENTJARVM 
+      <lb ed="#L" n="5"/>DISERTA, AC DJLVCJDA 
+      <lb ed="#L" n="6"/>QVAESTIONE S. 
+   </p>
+            <p xml:id="ol96b1-aaa555-d1e125">
+               <lb ed="#L" n="7"/>EXPANDIT 
+      <lb ed="#L" n="8"/>Librum coram me, qui scriptus erat intus, &amp; foris.
+   </p>
+            <p xml:id="ol96b1-aaa555-d1e132">
+      <!--0001.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="9"/>LIBER scripturae 
+      canoni<lb ed="#L" break="no" n="10"/>cae, qui per Prophetam 
+      <lb ed="#L" n="11"/>dictus est inuolutus ratio 
+      <lb ed="#L" n="12"/>ne suae difficultatis, ab 
+      eo<lb ed="#L" break="no" n="13"/>dem intus, &amp; foris, 
+      dici<lb ed="#L" break="no" n="14"/>tur scriptus ratione suae 
+      <lb ed="#L" n="15"/>proprietatis. Quoniam 
+      <lb ed="#L" n="16"/>ait Gregorius: Liber 
+      sa<lb ed="#L" break="no" n="17"/>cri eloquij intus scriptus 
+      <lb ed="#L" n="18"/>est per allegoriam, sed foris per historiam: intus 
+      <lb ed="#L" n="19"/>per spiritualem intellectum; foris per sensum 
+      li<lb ed="#L" break="no" n="20"/>terae simplicem, adhuc infirmantibus congruen 
+      <lb ed="#L" n="21"/>tem: intus, quia inuisibilia promittit; foris, quia 
+      <lb ed="#L" n="22"/>inuisibilium praeceptorum suorum rectitudinem 
+      <lb ed="#L" n="23"/>disponit; intus, quia caelestia pollicetur, foris 
+      au<lb ed="#L" break="no" n="24"/>tem, quia terrena contemptibilia, qualiter sint 
+      <lb ed="#L" n="25"/>in vsu habenda, vel ex desiderio fugienda, 
+      prae<lb ed="#L" break="no" n="26"/>cipit. Alia namque de secretis caelestibus 
+      loqui<lb ed="#L" break="no" n="27"/>tur, alia vero in exterioribus actionibus iubet, 
+      <lb ed="#L" n="28"/>&amp; ea quidem, quae foris praecipit, patent; sed 
+      <lb ed="#L" n="29"/>ea, quae narrat interius, plene nequeunt 
+      appre<lb ed="#L" break="no" n="30"/>hendi. Haec Gregorius. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e188">
+               <lb ed="#L" n="31"/>Hunc igitur librum, qui secundum 
+      Grego<lb ed="#L" break="no" n="32"/>rium, ratione suae conditionis scriptus est intus, 
+      <lb ed="#L" n="33"/>&amp; foris, propheta Ezechiel ante viderat 
+      inuolu<lb ed="#L" break="no" n="34"/>tum, dicens: Vidi, &amp; ecce manus missa ad me, in 
+      <lb ed="#L" n="35"/>qua erat inuolutus liber. Et hunc eundem librum 
+      <lb ed="#L" n="36"/>modo videt expansum, dicens: Expandit librum 
+      <lb ed="#L" n="37"/>coram me, qui scriptus erat intus, &amp; foris. Quoniam 
+      <lb ed="#L" n="38"/>liber scripturae sacrae in quatuor libris 
+      Senten<lb ed="#L" break="no" n="39"/>tiarum, quasi expanditur, qui (prout est in 
+      sa<lb ed="#L" break="no" n="40"/>cro Canone) quasi omnibus occultatur. Dicat 
+      <lb ed="#L" n="41"/>itaque de Magistro sententiarum quilibet 
+      stu<lb ed="#L" break="no" n="42"/>diosus: Magister sententiarum expandit librum 
+      <lb ed="#L" n="43"/>coram me, librum scripturae sacrae, qui scriptus 
+      <lb ed="#L" n="44"/>intus, &amp; foris, inuolutus est liber. Expanditur, 
+      <lb ed="#L" n="45"/>quando hoc, quod obscure prolatum fuerat, per 
+      <lb ed="#L" n="46"/>intellectus latitudinem aperitur. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e225">
+               <lb ed="#L" n="47"/>In hoc itaque verbo, circa librum 
+      Sententia<lb ed="#L" break="no" n="48"/>rum Propheta innuit aliquid respectu Magistri, 
+      <lb ed="#L" n="49"/>aliquid respectu nostri, aliquid respectu libri. 
+      <!--0001.xml-->
+      <cb ed="#L" n="c"/>
+               <lb ed="#L" n="50"/>Respectu Magistri diligentem visum, 
+      <lb ed="#L" n="51"/>Respectu nostri congruentem stylum, 
+      <lb ed="#L" n="52"/>Respectu libri continentem sinum.
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e245">
+               <lb ed="#L" n="53"/>Ecce enim visus diligens Magistri, qui 
+      expan<lb ed="#L" break="no" n="54"/>dit librum. ecce stylus congruens respectu 
+      no<lb ed="#L" break="no" n="55"/>stri, quia coram me, ecce sinus continens huius 
+      <lb ed="#L" n="56"/>libri, quia in eo expanditur liber scriptus intus, 
+      <lb ed="#L" n="57"/>&amp; foris; vt sic appareat sententiarum liber 
+      se<lb ed="#L" break="no" n="58"/>riose exaratus, luminose coaptatus, virtuose 
+      ro<lb ed="#L" break="no" n="59"/>boratus: Appareat, inquam, seriosa exaratio, 
+      <lb ed="#L" n="60"/>dum implicitum explicatur: Expandit librum 
+      <lb ed="#L" n="61"/>luminosa coaptatio, dum absconditum 
+      praesen<lb ed="#L" break="no" n="62"/>tatur coram me: virtuosa consummatio, dum 
+      <lb ed="#L" n="63"/>suppositum, &amp; alias creditum applicatur huic 
+      <lb ed="#L" n="64"/>libro; quia liber scriptus intus, &amp; foris, liber 
+      Ca<lb ed="#L" break="no" n="65"/>nonis sacri. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e276">
+               <lb ed="#L" n="66"/>Vide Magistri laborem vtilem, quia expandit 
+      <lb ed="#L" n="67"/>librum: vide libri tenorem facilem, quia coram 
+      <lb ed="#L" n="68"/>me: vide libri valorem admirabilem, quia in eo 
+      <lb ed="#L" n="69"/>continetur liber scriptus intus, &amp; foris. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e287">
+               <lb ed="#L" n="70"/>PRJMVS ARTJCVLVS. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e292">
+               <lb ed="#L" n="71"/>DRJMO igitur proponitur hic Magistri 
+      la<lb ed="#L" break="no" n="72"/>bor vtilis, quia expandit. Magister quidem
+      <lb ed="#L" n="73"/>erexit tabernaculum, &amp; posuit tabulas, &amp; 
+      ba<lb ed="#L" break="no" n="74"/>ses, &amp; vectes, statuitque columnas, &amp; expandit 
+      <lb ed="#L" n="75"/>tectum, vt scribitur. quoniam Magister 
+      studio<lb ed="#L" break="no" n="76"/>sissime laborando, librum istum Sententiarum 
+      <lb ed="#L" n="77"/>composuit.
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e311">
+               <lb ed="#L" n="78"/>In rudimentum respecu agendorum, 
+      <lb ed="#L" n="79"/>In fulcimentum respectu credendorum, 
+      <lb ed="#L" n="80"/>In argumentum respectu perfidorum, 
+      <lb ed="#L" n="81"/>In iuuamentum respectu prouectorum, 
+      <lb ed="#L" n="82"/>In tutamentum respectu infirmorum 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e324">
+               <lb ed="#L" n="83"/>In hoc quidem libro Magister instruit, astruit, 
+      <lb ed="#L" n="84"/>destruit, extrahit, statuit. Agenda istruit, 
+      ma<lb ed="#L" break="no" n="85"/>xime in tertio, vbi agit de donis, virtutibus, &amp; 
+      <lb ed="#L" n="86"/>praeceptis. Credenda astruit, maxime in 
+      prin<lb ed="#L" break="no" n="87"/>cipio tertij, &amp; in quarto. Horrenda destruit 
+      <lb ed="#L" n="88"/>haereticorum dicta, quasi in toto libro. Perfecta 
+      <!--0002.xml-->
+      <pb ed="#L" n="2"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ertrahit, maxime in primo Infirma statuit 
+      qua<lb ed="#L" break="no" n="2"/>si in toto libro, vt sic iste liber sip 
+      <lb ed="#L" n="3"/>Explicaritus respectu agibilium, 
+      <lb ed="#L" n="4"/>Roboratiuus respectu 
+      credibilium<lb ed="#L" break="no" n="5"/>Confutatiuus respectu horribilium 
+      <lb ed="#L" n="6"/>dictorum haereticorum, 
+      <lb ed="#L" n="7"/>Eleuatiuus respectu docibilium 
+      <lb ed="#L" n="8"/>Manuductiuus respectu inibecillitum 
+      <lb ed="#L" n="9"/>de quibus scriptum est:
+      <lb ed="#L" n="10"/>Erunt omnes docibiles Dei
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e368">
+               <lb ed="#L" n="11"/>Quia igitur iste liber est rudimentum 
+      respe<lb ed="#L" break="no" n="12"/>ctu agendorum, idcirco dicitur, quod Magister 
+      <lb ed="#L" n="13"/>posuit tabulas, videlicet testamenti, morum, 
+      <lb ed="#L" n="14"/>praeceptorum, &amp; agibilium contentiuas: Quia 
+      <lb ed="#L" n="15"/>hic liber est fulcimentum credendorum, idcirco 
+      <lb ed="#L" n="16"/>dicitur, quod posuit bases; quia est perfidorum 
+      <lb ed="#L" n="17"/>argumentum, non quo arguant, sed quo arguan 
+      <lb ed="#L" n="18"/>tur, idcirco dicitur, quod posuit vectes ad 
+      ca<lb ed="#L" break="no" n="19"/>piendum; Quia vero est iuuamentum 
+      prouecto<lb ed="#L" break="no" n="20"/>rum ad conscendendum ad summa, idcirco 
+      di<lb ed="#L" break="no" n="21"/>citur, quod statuit columnas, sed quia est 
+      tuta<lb ed="#L" break="no" n="22"/>mentum infirmorum, idcirco dicitur, quod 
+      ex<lb ed="#L" break="no" n="23"/>pandit tectum; &amp; ex hoc sequitur, quod erexit 
+      <lb ed="#L" n="24"/>Ecclesiae totius tabernaculum; erexit, inquit, 
+      ta<lb ed="#L" break="no" n="25"/>bernaculum, &amp; posuit tabulas, &amp; c. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e403">
+               <lb ed="#L" n="26"/>Et considerate hic, quod huiusmodi quinque 
+      <lb ed="#L" n="27"/>proprie figurantur per expansionem 
+      quintupli<lb ed="#L" break="no" n="28"/>cem, quam legimus in Scriptura: legimus 
+      qui<lb ed="#L" break="no" n="29"/>dem in Scriptura, expansionem ramorum, 
+      ala<lb ed="#L" break="no" n="30"/>rum, retis, nubis, lucis: Et quia Magister huius 
+      <lb ed="#L" n="31"/>libri, in hoc libro quasi ramos expandit ad 
+      dire<lb ed="#L" break="no" n="32"/>ctionem agendorum in tertio libro, quia 
+      scri<lb ed="#L" break="no" n="33"/>ptum est: Expandit ramos suos, semen sanctum erit 
+      <lb ed="#L" n="34"/>id, quod steterit in ea. Quasi alas expandit ad 
+      sub<lb ed="#L" break="no" n="35"/>uectionem prouectorum. Expandit enim alas suas, 
+      <lb ed="#L" n="36"/>&amp; assumpsit eos, atque portauit in humeris suis. 
+      Qua<lb ed="#L" break="no" n="37"/>si rete expandit, ad conclusionem perfidorum, 
+      <lb ed="#L" n="38"/>ita vt quilibet haereticus possit dicere de 
+      Magi<lb ed="#L" break="no" n="39"/>stro: Expandit rete pedibus meis, conuertit me 
+      retror<lb ed="#L" break="no" n="40"/>sum. quasi lumen expandit in ostensionem 
+      cre<lb ed="#L" break="no" n="41"/>dendorum: Quasi mane expansum super montes: 
+      <lb ed="#L" n="42"/>Quasi nubem expandit ad protectionem infirmo 
+      <lb ed="#L" n="43"/>rum: Expandit nubem in protectionem eorum. Vt sic 
+      <lb ed="#L" n="44"/>Magister expandat istum librum. 
+      <lb ed="#L" n="45"/>Tanquam ramum corrigentem, 
+      <lb ed="#L" n="46"/>Tanquam hamum capientem 
+      <lb ed="#L" n="47"/>haereticos, 
+      <lb ed="#L" n="48"/>Tanquam alam erigentem, 
+      <lb ed="#L" n="49"/>Tanquam lucem ostendentem 
+      <lb ed="#L" n="50"/>veritatem fidei. 
+      <lb ed="#L" n="51"/>Tanquam nubem protegentem. 
+      <lb ed="#L" n="52"/>Ex quo bene apparet Magistri labor vtilis, 
+      <lb ed="#L" n="53"/>quia expandit. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e466">
+               <lb ed="#L" n="54"/>SECVNDVS ARTJCVLVS.
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e471">
+               <lb ed="#L" n="55"/>VIDE secundo libri tenorem facilem, quia 
+      <lb ed="#L" n="56"/>coram me. Coram nobis esse dicuntur, vel 
+      <lb ed="#L" n="57"/>quae sunt nobis obiecta facialiter, vel detecta ocu 
+      <lb ed="#L" n="58"/>lariter, in quibus nullum est velamen, nullum 
+      <lb ed="#L" n="59"/>impediens, vel subiecta liberaliter: Ecce terra 
+      co<lb ed="#L" break="no" n="60"/>ram te, vt dicit Abraham ad Loth. Ergo &amp; liber 
+      <lb ed="#L" n="61"/>Sententiarum cum sit nobis obiectus ratione suae 
+      <lb ed="#L" n="62"/>proportionis: continet enim proportionata 
+      no<lb ed="#L" break="no" n="63"/>bis, non improportionata, vt liber Canonis, vel 
+      <lb ed="#L" n="64"/>saltem modo proportionato. Detectus ratione 
+      <lb ed="#L" n="65"/>suae connexionis; procedit enim connexe, &amp; id- 
+      <!--0002.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>girco clare: Subiectus ratione suae traditionis; 
+      <lb ed="#L" n="67"/>traditur enim, vt capiatur a nobis. 
+      <lb ed="#L" n="68"/>Merito dicit Propheta: Expandit illum coram 
+      <lb ed="#L" n="69"/>me in horrore visionis nocturnae, quando solet sopor 
+      <lb ed="#L" n="70"/>soccupare homines, Imago hominis coram oculis meis, 
+      <lb ed="#L" n="71"/>&amp; vocem, quasi aurae lenis audiui. Et considera in 
+      <lb ed="#L" n="72"/>hoc verbo, quod in libro Sententiarum Magister 
+      <lb ed="#L" n="73"/>ponitcoram te, quod erat supra te, &amp; hoc in 
+      pri<lb ed="#L" break="no" n="74"/>mo: quod fuit ante te, &amp; hoc in secundo: quod 
+      <lb ed="#L" n="75"/>erat contra te, in tertio: quod erat vltra te s in 
+      <lb ed="#L" n="76"/>quarto. Est enim Diuinorum mysterium. Quod 
+      <lb ed="#L" n="77"/>est supra te, ponit coram te, in primo 
+      Creato<lb ed="#L" break="no" n="78"/>rum initium, quod fuit ante te, ponit coram te, 
+      <lb ed="#L" n="79"/>in secundo. Praeceptorum insignium, quod erat 
+      <lb ed="#L" n="80"/>contra te in testimonium, ponit coram te, in 
+      <lb ed="#L" n="81"/>tertio. Mortuorum iudicium, quod erit post te, 
+      <lb ed="#L" n="82"/>ponit coram te, in quarto. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e539">
+               <lb ed="#L" n="83"/>Et ecce in hoc verbo, Diuinorum mysterium, 
+      <lb ed="#L" n="84"/>respectu cuius stupor in homine, &amp; horror: In 
+      <lb ed="#L" n="85"/>horrore, inquit, visionis nocturnae. hoc enim 
+      <lb ed="#L" n="86"/>mysterium, quasi modo nocturno videtur a 
+      no<lb ed="#L" break="no" n="87"/>bis, quasi modo obscuro. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e552">
+               <lb ed="#L" n="88"/>Ecce in hoc verbo secundo, Creatorum 
+      ini<lb ed="#L" break="no" n="89"/>tium, respectu cuius sopor in homine; quia tunc 
+      <lb ed="#L" n="90"/>sopor veritatis homines occupabat; Quando, 
+      <lb ed="#L" n="91"/>inquit, solet sopor occupare homines. 
+      <lb ed="#L" n="92"/>Ecce tertio, Praeceptorum insignium, 
+      respe<lb ed="#L" break="no" n="93"/>ctu quorum, &amp; ex quibus decor in homine: 
+      Ima<lb ed="#L" break="no" n="94"/>go hominis coram oculis meis, imago decora 
+      <lb ed="#L" n="95"/>&amp; pulchra.
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e572">
+               <lb ed="#L" n="96"/>Ecce quarto, Mortuorum iudicium, respectu 
+      <lb ed="#L" n="97"/>cuius dulcor in homine, quantum tamen ad 
+      il<lb ed="#L" break="no" n="98"/>los, qui audituri sunt vocem illam: Venite 
+      bene<lb ed="#L" break="no" n="99"/>dicti Patris mei, &amp;c. De qua voce hic dicitur: 
+      <lb ed="#L" n="100"/>Vocem, quasi aurae lenis audiui. Sic igitur patet 
+      li<lb ed="#L" break="no" n="101"/>bri tenor facilis, qui ponitur coram nobis. 
+      Ex<lb ed="#L" break="no" n="102"/>pandit, inquit, librum coram me. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e590">
+               <lb ed="#L" n="103"/>TERTJVS ARTJCVLVS. 
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e595">
+               <lb ed="#L" n="104"/>NJJe nils cltitnus flut teuigren s aute 
+      <lb ed="#L" n="105"/>continetur liber scriptus intus, &amp; foris, liber 
+      sa<lb ed="#L" break="no" n="106"/>crae Scripturae. Vbi considerandum, quod etiam 
+      <lb ed="#L" n="107"/>ex hoc libro Sententiarum contrahit quidem 
+      <lb ed="#L" n="108"/>priuilegium, vt sit scriptus intus, &amp; foris. Liber 
+      <lb ed="#L" n="109"/>quippe Sententiarum scribitur supra, &amp; extra: 
+      <lb ed="#L" n="110"/>intus, &amp; subtus, vt sit scriptus subtus, supra, 
+      in<lb ed="#L" break="no" n="111"/>tus, &amp; extra. Et hoc propter diuersas materias, 
+      <lb ed="#L" n="112"/>quas determinatas inuenies in hoc libro. 
+      Deter<lb ed="#L" break="no" n="113"/>minat enim hic liber quasdam materias exterius 
+      <lb ed="#L" n="114"/>apparentes, vt sacramenta, &amp; actus humanos, 
+      <lb ed="#L" n="115"/>de quibus in fine tertij, &amp; in quarto; interius 
+      re<lb ed="#L" break="no" n="116"/>sidentes: de gratia, de virtutibns, in fine 
+      secun<lb ed="#L" break="no" n="117"/>di, &amp; in tertio; inferius detrahentes, vt de 
+      pec<lb ed="#L" break="no" n="118"/>cato originali, actuali, &amp; alijs vitijs in secundo; 
+      <lb ed="#L" n="119"/>superius erigentes de mysterio Trinitatis, &amp; 
+      vni<lb ed="#L" break="no" n="120"/>tatis in primo: de mysterio Incarnationis in 
+      ter<lb ed="#L" break="no" n="121"/>tio, vt hic sit liber scriptus intus, &amp; foris, manens 
+      <lb ed="#L" n="122"/>in dextera sedentis super thronum, quem agnus 
+      <lb ed="#L" n="123"/>Christus pro nobis occisus aperire nobis 
+      digna<lb ed="#L" break="no" n="124"/>tus est per manus Magistri Petri Lombardi 
+      com<lb ed="#L" break="no" n="125"/>positoris huius libri. Vidi, ait, in dextera sedentis 
+      <lb ed="#L" n="126"/>super thronum, librum scriptum intus, &amp; foris, et nemo 
+      <lb ed="#L" n="127"/>poterat nec in caelo, nec in terra, nec subtus terram ape 
+      <lb ed="#L" n="128"/>rire librum, donec vicit Leo de Tribu Iuda, aperire 
+      li<lb ed="#L" break="no" n="129"/>brum, &amp; soluere signacula eius.
+    </p>
+            <p xml:id="ol96b1-aaa555-d1e654">
+      <!--0003.xml-->
+               <pb ed="#L" n="3"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Nos igitur, qui Deo duce ad huius libri 
+      expo<lb ed="#L" break="no" n="2"/>sitionem, toto conamine properamus eius 
+      aper<lb ed="#L" break="no" n="3"/>tionem a Leone dignissimo, &amp; Agno 
+      mansuetissi<lb ed="#L" break="no" n="4"/>mo postulemus Domino lesu Christo, quam 
+      no<lb ed="#L" break="no" n="5"/>bis ipse concedat, qui crim patre, &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

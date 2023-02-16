@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="464"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-150482"> <!-- l1d19p1-prae -->
+            <head xml:id="ol96b1-150482-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-150482-d1e104">
+      <!--0464.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="1"/>HIC DE AEQVALJTATE TRJVM 
+      <lb ed="#L" n="2"/>Personarum. 
+      <lb ed="#L" n="3"/>DISTINCTIO XIX. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e117">
+      <!--0464.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="4"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e126">
+               <lb ed="#L" n="5"/>NVNC postquam coaeternitatem. 
+      <lb ed="#L" n="6"/>&amp; c. Postquam Magister 
+      de<lb ed="#L" break="no" n="7"/>terminauit de diuinis perso 
+      <lb ed="#L" n="8"/>nis, de Patre scilicet, &amp; 
+      Fi<lb ed="#L" break="no" n="9"/>lio, &amp; Spiritu sancto 
+      sigilla<lb ed="#L" break="no" n="10"/>tim, &amp; singulariter, in hac 
+      <lb ed="#L" n="11"/>parte determinat de eis, 
+      <lb ed="#L" n="12"/>quantum ad proprietates 
+      <lb ed="#L" n="13"/>communes, quae sunt aequalitas in magnitudine, 
+      <lb ed="#L" n="14"/>potentia, &amp; duratione. &amp; circa hoc facit duo. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e151">
+               <lb ed="#L" n="15"/>Primo enim ostendit personas diuinas esse 
+      ae<lb ed="#L" break="no" n="16"/>quales per omnia. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e158">
+               <lb ed="#L" n="17"/>Secundo vero inquirit, an huiusmodi 
+      aequali<lb ed="#L" break="no" n="18"/>tas patiatur, quod dictiones exclusiuae in 
+      diui<lb ed="#L" break="no" n="19"/>nis adhibeantur. secunda ibi distinct. 21. Hic 
+      ori<lb ed="#L" break="no" n="20"/>tur quaestio. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e169">
+               <lb ed="#L" n="21"/>Primo namque ostendit, personas esse 
+      aequa<lb ed="#L" break="no" n="22"/>les in duratione, &amp; magnitudine. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e176">
+               <lb ed="#L" n="23"/>Secundo vero in potentia. secunda ibi dist. 20. 
+      <lb ed="#L" n="24"/>Nunc ostendere restat. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e183">
+               <lb ed="#L" n="25"/>Primo namque ostendit, quod personae sunt 
+      <lb ed="#L" n="26"/>aequales in duratione, &amp; magnitudine, ratione 
+      <lb ed="#L" n="27"/>sumpta ex omnibus attributis. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e192">
+               <lb ed="#L" n="28"/>Secundo vero idem ostendit in speciali ex 
+      ra<lb ed="#L" break="no" n="29"/>tione vnitatis, tamquam ex speciali attributo. 
+      <lb ed="#L" n="30"/>secunda ibi, iuxta finem distinctionis: Sciendum 
+      <lb ed="#L" n="31"/>igitur. Adhuc circa primum facit duo. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e204">
+               <lb ed="#L" n="32"/>Primo namque probat personarum omnimo 
+      <lb ed="#L" n="33"/>dam aequalitatem.
+    </p>
+            <p xml:id="ol96b1-150482-d1e211">
+      <!--0464.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="34"/>Secundo vero ex hoc ab eis excludit omnem 
+      <lb ed="#L" n="35"/>rationem partis, &amp; omnem totalitatem. 
+      secun<lb ed="#L" break="no" n="36"/>da ibi: Sed iam nunc ad propositum redeamus. Adhuc 
+      <lb ed="#L" n="37"/>circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e227">
+               <lb ed="#L" n="38"/>Primo namque probat personarum aequalita 
+      <lb ed="#L" n="39"/>tem, vt dictum est. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e234">
+               <lb ed="#L" n="40"/>Secundo vero ex hoc infert, quomodo vna 
+      <lb ed="#L" n="41"/>persona est in alia immansiue, &amp; per 
+      circum<lb ed="#L" break="no" n="42"/>sessionem. secunda ibi: Et inde est, quod Paur. 
+      <lb ed="#L" n="43"/>Adhuc circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e245">
+               <lb ed="#L" n="44"/>Primo enim in generali proponit, quod tres 
+      <lb ed="#L" n="45"/>personae aequales sunt in duratione, &amp; magnitu 
+      <lb ed="#L" n="46"/>dine, dicens, quod postquam declaratum est 
+      su<lb ed="#L" break="no" n="47"/>pra, quomodo coaeternae sunt tres personae, sic 
+      <lb ed="#L" n="48"/>declarandum restat, quomodo sint coaequales, 
+      <lb ed="#L" n="49"/>quia vtrumque fides catholica confitetur; sunt 
+      <lb ed="#L" n="50"/>autem aequales in hoc, quod vna aliquam non prae 
+      <lb ed="#L" n="51"/>cedit aeternitate, nec excedit magnitudine, 
+      <lb ed="#L" n="52"/>nec superat potestate, quia vna prorsus est vna 
+      <lb ed="#L" n="53"/>aeternitas, vna immensitas, vna potestas. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e269">
+               <lb ed="#L" n="54"/>Secundo ibi: Cumque enumerentur. Magister 
+      re<lb ed="#L" break="no" n="55"/>mouet dubium, dicens, quod licet ista quasi 
+      du<lb ed="#L" break="no" n="56"/>bia enumerata sint, nihilominus in Deo sunt 
+      v<lb ed="#L" break="no" n="57"/>num, &amp; idem, nam magnitudo idem est, quod 
+      <lb ed="#L" n="58"/>virtus, &amp; quod essentia, &amp; quod potentia, &amp; 
+      <lb ed="#L" n="59"/>quod aeternitas, &amp; voluntas, &amp; sic de ceteris 
+      per<lb ed="#L" break="no" n="60"/>fectionibus, quae Deitati attribuuntur. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e288">
+               <lb ed="#L" n="61"/>Tertio ibi: Quod autem aeternitate. probat 
+      in<lb ed="#L" break="no" n="62"/>speciali, quomodo sint aequales magnitudine 
+      <lb ed="#L" n="63"/>dicens, quod ex praedictis satis apparet, quomon 
+      <!--0465.xml-->
+      <pb ed="#L" n="465"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>do sunt in aeternitate aequales, &amp; ideo 
+      declaran<lb ed="#L" break="no" n="2"/>dum est, quod sint aequales in magnitudine; hoc 
+      <lb ed="#L" n="3"/>autem apparet, sed consideret, quod essentia 
+      <lb ed="#L" n="4"/>diuina non est maior in Patre, quam in Filio, 
+      <lb ed="#L" n="5"/>nec in duobus simul sumptis, quam sit in vna 
+      so<lb ed="#L" break="no" n="6"/>la persona. tota enim essentia est in qualibet, ita 
+      <lb ed="#L" n="7"/>vt sit perfectus Deus Pater, &amp; Filius Deus 
+      per<lb ed="#L" break="no" n="8"/>fectus, &amp; similiter Spiritus sanctus. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e321">
+               <lb ed="#L" n="9"/>Postmodum ibi: Et idem est. Infert ex his, quae 
+      <lb ed="#L" n="10"/>dicta sunt, quod vna immansiue, &amp; per 
+      circum<lb ed="#L" break="no" n="11"/>sessionem, hoc est per circularem sessionem, seu 
+      <lb ed="#L" n="12"/>sesionem, &amp; mutuam mansionem, dicens, quod 
+      <lb ed="#L" n="13"/>quia tota essentia, quae est in Patre, est in Filio, 
+      <lb ed="#L" n="14"/>&amp; econuerso Saluator dixit Ioan. 18. quod ipse 
+      <lb ed="#L" n="15"/>erat in Patre, &amp; Pater in eo. &amp; ad declarandum 
+      <lb ed="#L" n="16"/>inducit quattuor auctorita tes. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e341">
+               <lb ed="#L" n="17"/>Primam quidem Augustini de fide ad Petrum, 
+      <lb ed="#L" n="18"/>qui dicit, quod propter vnitatem naturae totus 
+      <lb ed="#L" n="19"/>Pater est in Filio, &amp; econuerso. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e350">
+               <lb ed="#L" n="20"/>Secundam vero Hilarij 3. de Trin. dicentis, quod 
+      <lb ed="#L" n="21"/>Patrem in Filio, &amp; Filium in Patre esse facit ple 
+      <lb ed="#L" n="22"/>nitudo Deitatis in vtroque. quod enim in 
+      Pa<lb ed="#L" break="no" n="23"/>tre est, hoc &amp; in Filio est. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e361">
+               <lb ed="#L" n="24"/>Tertiam quoque eiusdem Hilarij 7. de Trin. qui 
+      <lb ed="#L" n="25"/>dicit, quod non per vnitiuam capaciores sint 
+      <lb ed="#L" n="26"/>naturam, sed per naturae vnitiuam 
+      similitudi<lb ed="#L" break="no" n="27"/>nem, sed tamen res non differt, dum naturam 
+      <lb ed="#L" n="28"/>Dei non regenerat, natiuitas tamen non aliud 
+      <lb ed="#L" n="29"/>e Deo, quam Deus nascitur, dum omnia ista 
+      <lb ed="#L" n="30"/>faluantur in diuinis, sequitur, quod Pater sit in 
+      <lb ed="#L" n="31"/>Filio, &amp; Filius in Patre. 
+    </p>
+            <p xml:id="ol96b1-150482-d1e381">
+               <lb ed="#L" n="32"/>Quartam deinde inducit Ambrosij super 
+      se<lb ed="#L" break="no" n="33"/>cundam epistolam ad Corinth. qui dicit, quod 
+      <lb ed="#L" n="34"/>per hoc intelligitur Pater in Filio, &amp; Filius in 
+      <lb ed="#L" n="35"/>Patre, quia vna est substantia eprum. Haec est 
+      <lb ed="#L" n="36"/>sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

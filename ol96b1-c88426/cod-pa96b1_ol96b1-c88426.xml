@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="272"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c88426"> <!-- l1d8p2-prae -->
+            <head xml:id="ol96b1-c88426-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c88426-d1e104">
+               <lb ed="#L" n="86"/>SECVNDA PARS. 
+      <lb ed="#L" n="87"/>De incommutabilitate Dei. 
+    </p>
+            <p xml:id="ol96b1-c88426-d1e111">
+               <lb ed="#L" n="88"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-c88426-d1e116">
+               <lb ed="#L" n="89"/>EI etiam solius, &amp;c. Postquam 
+      de<lb ed="#L" break="no" n="90"/>terminauit Magister de Diuini es 
+      <lb ed="#L" n="91"/>se proprietate, &amp; vnitate. In hac 
+      <lb ed="#L" n="92"/>parte tractat de Diuini esse 
+      incom<lb ed="#L" break="no" n="93"/>mutabilitate. &amp; circa hoc tria 
+      <lb ed="#L" n="94"/>facit.
+    </p>
+            <p xml:id="ol96b1-c88426-d1e133">
+               <lb ed="#L" n="95"/>Primo enim ostendit, quod solus Deus est 
+      in<lb ed="#L" break="no" n="96"/>commutabilis, quia accidentia accipere non 
+      <lb ed="#L" n="97"/>potest, dicens, quod essentia solius Dei proprie 
+      <lb ed="#L" n="98"/>incommutabilis dicitur, quia aliae essentiae 
+      ca<lb ed="#L" break="no" n="99"/>piunt accidentia, quibus in eis fiat mutatio quan 
+      <lb ed="#L" n="100"/>tacumque: Deo autem nihil accidere potest om 
+      <lb ed="#L" n="101"/>nino, vnde nec mutari potest per accidentia, nec 
+      <lb ed="#L" n="102"/>mutari in suo esse, quia non potest non esse, non 
+      <lb ed="#L" n="103"/>sequitur autem de creaturis, possunt non esse, 
+      <lb ed="#L" n="104"/>&amp; idcirco esse propriissimum est Deo ipsi. 
+    </p>
+            <p xml:id="ol96b1-c88426-d1e157">
+               <lb ed="#L" n="105"/>Secundo, ibi: Ideoque Apostolus. Ostendit Deum 
+      <lb ed="#L" n="106"/>esse immortalem ex ista incommutabilitate, 
+      di<lb ed="#L" break="no" n="107"/>cens, quod quia commutatio est aliqua 
+      obum<lb ed="#L" break="no" n="108"/>bratio esse, &amp; aliqua mortalitas, ideo recte dicit 
+      <lb ed="#L" n="109"/>Apostolus dicendo, quod solus Deus habet 
+      im<lb ed="#L" break="no" n="110"/>mortalitatem, apud quem non est transmutatio, 
+      <lb ed="#L" n="111"/>nec vicissitudinis obumbratio: omnis autem 
+      <lb ed="#L" n="112"/>creatura mutatur, sicut patet de anima 
+      huma<lb ed="#L" break="no" n="113"/>na, quae moritur per peccatum, &amp; eodem modo 
+      <lb ed="#L" n="114"/>de Angelis, propter quod non habent simpliciter 
+      <lb ed="#L" n="115"/>immortalitatem Angelus, &amp; anima, quamuis 
+      <lb ed="#L" n="116"/>quo ad esse substantiale sint immortales. 
+      <lb ed="#L" n="117"/>Tertio, ibi: Et ideo solus. Remouet dubium, 
+      <lb ed="#L" n="118"/>quod posset oriri, quomodo scilicet in omni 
+      <lb ed="#L" n="119"/>creatura mutabili existente, Deus moueat 
+      <lb ed="#L" n="120"/>eam, &amp; faciat, tamen 
+      incommutabi<lb ed="#L" break="no" n="121"/>lis manens, &amp; dicit, quod licet 
+      <lb ed="#L" n="122"/>hoc nosse difficile sit, 
+      opor<lb ed="#L" break="no" n="123"/>tet tamen sic 
+      crede<lb ed="#L" break="no" n="124"/>re, &amp; tenere. haec 
+      <lb ed="#L" n="125"/>est 
+      senten<lb ed="#L" break="no" n="126"/>tia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

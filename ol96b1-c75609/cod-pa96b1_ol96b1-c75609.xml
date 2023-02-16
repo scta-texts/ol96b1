@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="234"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c75609"> <!-- l1d6p1-q1 -->
+            <head xml:id="ol96b1-c75609-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-c75609-Hd1e104" type="question-title">
+          Utrum Pater genuerit Filium voluntate, 
+          vel necessitate, vel natura. 
+        </head>
+            <p xml:id="ol96b1-c75609-d1e107">
+               <lb ed="#L" n="6"/>Vtrum Pater genuerit Filium voluntate, vel 
+      ne<lb ed="#L" break="no" n="7"/>cessitate, vel natura. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e114">
+               <lb ed="#L" n="8"/>ET quia Magister hic discutit questtionem. 
+      <lb ed="#L" n="9"/>rrimembrem, ideo inquiritur de ea, vtrùm 
+      <lb ed="#L" n="10"/>vldelicet pater genuerit filium natura, an volun 
+      <lb ed="#L" n="11"/>tate, an necessitate, 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e126">
+               <lb ed="#L" n="12"/>Quod Pater non genuerit Filium natura.
+    </p>
+            <p xml:id="ol96b1-c75609-d1e131">
+               <lb ed="#L" n="13"/>Et videtur, quod pater non produxerit filium 
+      <lb ed="#L" n="14"/>natura, natura enim, &amp; intellectus ratione 
+      <lb ed="#L" n="15"/>distinguuntur in Deo, sed pater genuit filium per 
+      <lb ed="#L" n="16"/>intellectum, cum sit verbum. ergo non genuit 
+      ip<lb ed="#L" break="no" n="17"/>sum natura. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e144">
+               <lb ed="#L" n="18"/>Praeterea: Natura, &amp; essentia idem sunt, vt 
+      <lb ed="#L" n="19"/>patet 5. Met, sed pater non genuit filium essentia, 
+      <lb ed="#L" n="20"/>nec hoc conceditur. ergo non debet concedi, 
+      <lb ed="#L" n="21"/>quod genuit natura, 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e155">
+               <lb ed="#L" n="22"/>Praeterea: Natura videtur esse principium mo 
+      <lb ed="#L" n="23"/>tus, &amp; quietis, vt dicitur 2. Phys. sed in Deo non 
+      <lb ed="#L" n="24"/>est motus: ergo nec natura, &amp; per consequens pa 
+      <lb ed="#L" n="25"/>ter non genuit filium natura.
+    </p>
+            <p xml:id="ol96b1-c75609-d1e166">
+               <lb ed="#L" n="26"/>Praeterea: In Diuinis debet esse nobilissimus 
+      <lb ed="#L" n="27"/>modus productionis, sed actiones naturales non 
+      <lb ed="#L" n="28"/>sunt nobilissimae, immo intellectuales, &amp; rationa 
+      <lb ed="#L" n="29"/>les, quae sunt ad oppositum, vt Philos. dicit. ergo 
+      <lb ed="#L" n="30"/>pater non genuit filium natura. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e179">
+               <lb ed="#L" n="31"/>Praeterea: Hilar. dicit, quod si quis dicat, quod 
+      <lb ed="#L" n="32"/>pater naturali necessitate ductus genuerit filium, 
+      <lb ed="#L" n="33"/>anathema sit, sed si genuisset natura, genuisset, 
+      <lb ed="#L" n="34"/>vtique necessitate naturali. ergo illud, quod prius. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e191">
+               <lb ed="#L" n="35"/>Quod genuerit voluntate.
+    </p>
+            <p xml:id="ol96b1-c75609-d1e196">
+               <lb ed="#L" n="36"/>Vlterius videtur, quod pater genuerit
+      <!-- missing line break -->voluntate filium, nobilissimo enim 
+      produ<lb ed="#L" break="no" n="37"/>cto, debetur nobilissimus modus productionis; 
+      <lb ed="#L" n="38"/>sed nobilissimus modus productionis estt libere 
+      <lb ed="#L" n="39"/>producere, ac voluntarie, &amp; complacenter: filius 
+      <lb ed="#L" n="40"/>autem est productum nobilissimum, cum sit Deus. 
+      <lb ed="#L" n="41"/>ergo videtur, quod sit productus libere, &amp; per 
+      <lb ed="#L" n="42"/>consequens voluntate. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e216">
+               <lb ed="#L" n="43"/>Praeterea: Spiritus sanctus non producitur no 
+      <lb ed="#L" n="44"/>biliori modo, quam filius in Diuinis, sed si filius 
+      <lb ed="#L" n="45"/>non producitur voluntate, nobiliori modo 
+      pro<lb ed="#L" break="no" n="46"/>ducetur Spiritus sanctus. agens enim 
+      volunta<lb ed="#L" break="no" n="47"/>rium, ac actio voluntaria, nobilior est naturali. 
+      <lb ed="#L" n="48"/>voluntas enim est perfectio simpliciter, natura 
+      <lb ed="#L" n="49"/>autem non. ergo videtur, quod filius 
+      produca<lb ed="#L" break="no" n="50"/>tur voluntate. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e236">
+               <lb ed="#L" n="51"/>Praeterea: Filius dilectionis, &amp; charitatis 
+      vi<lb ed="#L" break="no" n="52"/>detur esse productus voluntate, sed Apostolus di 
+      <lb ed="#L" n="53"/>cit ad Colossen. I. Pater transtulit nos in regnum 
+      <lb ed="#L" n="54"/>Filij dilectionis suae. ergo filius est productus 
+      vo<lb ed="#L" break="no" n="55"/>luntate. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e249">
+               <lb ed="#L" n="56"/>Praeterea: Illum pater genuit voluntate, quem 
+      <lb ed="#L" n="57"/>mos genuit, vt voluit, sed Hilar. dicit libro de 
+      <lb ed="#L" n="58"/>Synod. quod pater mox, vt voluit sine tempore, 
+      <lb ed="#L" n="59"/>&amp; impassibiliter ex se vnigenitum 
+      demonstra<lb ed="#L" break="no" n="60"/>uit. ergo genuit ipsum voluntate. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e262">
+      <!--0234.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="61"/>Et confirmatur, quia idem dicit Hilarius, 
+      <lb ed="#L" n="62"/>quod eos, qui dicunt, quod nec consilio, nec 
+      vo<lb ed="#L" break="no" n="63"/>luntate pater genuit filium, anathematirat 
+      Ec<lb ed="#L" break="no" n="64"/>clesia sancta 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e279">
+               <lb ed="#L" n="65"/>Quod non genuerit necessitate. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e284">
+               <lb ed="#L" n="66"/>VLTERIVS videtur, quod pater non genu 
+      <lb ed="#L" n="67"/>Vrit filium necessitate. patri enim in 
+      gene<lb ed="#L" break="no" n="68"/>rando debet attribui quidquid est nobilitatis, 
+      <lb ed="#L" n="69"/>sed necessitari nullius est nobilitatis. ergo pater 
+      <lb ed="#L" n="70"/>non necessitate genuit filium.
+    </p>
+            <p xml:id="ol96b1-c75609-d1e297">
+               <lb ed="#L" n="71"/>Praeterea: Filius in Diuinis est verbum 
+      ema<lb ed="#L" break="no" n="72"/>nans a patre per modum artis, &amp; exemplaritatis; 
+      <lb ed="#L" n="73"/>est enim imago, &amp; ars plena omnium rationum 
+      <lb ed="#L" n="74"/>viuentium, secundum Augustinum, sed ea, quae 
+      <lb ed="#L" n="75"/>procedunt modo exemplaritantis, &amp; artis non 
+      <lb ed="#L" n="76"/>procedunt de necessitate. ergo filius, vt uidetur, 
+      <lb ed="#L" n="77"/>non producitur necessitate. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e315">
+               <lb ed="#L" n="78"/>Praeterea: Quod producitur necessitate, non 
+      <lb ed="#L" n="79"/>producitur gratuite, &amp; per modum doni, sed filius 
+      <lb ed="#L" n="80"/>producitur gratuite, vt dicitur Ioan. 1O. Pater, 
+      <lb ed="#L" n="81"/>quod dedit mihi, maius omnibus est. ergo non 
+      vi<lb ed="#L" break="no" n="82"/>detur produci necessitate. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e328">
+               <lb ed="#L" n="83"/>Praeterea: Nobilius est in patre, quod ductu 
+      <lb ed="#L" n="84"/>proprio, &amp; sciens quid agat, producat filium, 
+      <lb ed="#L" n="85"/>quam si producat nesciens, quid agat, nec ductu 
+      <lb ed="#L" n="86"/>proprio, aut spontaneo, sed si pater producat ne 
+      <lb ed="#L" n="87"/>cessitate, non producit ductu proprio, ac sponta 
+      <lb ed="#L" n="88"/>neo, immo magis agitur, quam agat, si cut 2. phy 
+      <lb ed="#L" n="89"/>sio. dicit Philos. de iis, quae mouentur nec efsitate 
+      <lb ed="#L" n="90"/>naturali. ergo, vt videtur, pater necessitate 
+      fi<lb ed="#L" break="no" n="91"/>lium non produxit. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e350">
+               <lb ed="#L" n="92"/>Et confirmatur, quia magis videbitur teneri 
+      <lb ed="#L" n="93"/>patri filius, si ipsum produxerit, non de 
+      necessi<lb ed="#L" break="no" n="94"/>tate, sed ductu proprio, &amp; sponte. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e360">
+               <lb ed="#L" n="95"/>Quod genuerit natura.
+    </p>
+            <p xml:id="ol96b1-c75609-d1e365">
+               <lb ed="#L" n="96"/>SED in oppositum videtur, quod genuerit 
+      <lb ed="#L" n="97"/>D ipsum natura. filius enim naturae est genitus 
+      <lb ed="#L" n="98"/>natura, sed Augustinus nominat 15. de 
+      Trinita<lb ed="#L" break="no" n="99"/>te, filium Dei, filium naturae. ergo videtur 
+      geni<lb ed="#L" break="no" n="100"/>tus natura. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e378">
+               <lb ed="#L" n="101"/>Praeterea: Verbum in Diuinis vere est filius, 
+      <lb ed="#L" n="102"/>sed de ratione filij est, quod producatur modo na 
+      <lb ed="#L" n="103"/>turae, &amp; per generationem naturalem. ergo filius 
+      <lb ed="#L" n="104"/>in Diuinis producitur natura. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e389">
+               <lb ed="#L" n="105"/>Praeterea: Natura est vis insita rebus ex 
+      simi<lb ed="#L" break="no" n="106"/>libus similia proc: eans, sed filius in Diuinis 
+      e<lb ed="#L" break="no" n="107"/>manat per modum similis. ergo producitur 
+      mo<lb ed="#L" break="no" n="108"/>do naturae. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e400">
+               <lb ed="#L" n="109"/>Praeterea: Illud, quod producitur per 
+      princi<lb ed="#L" break="no" n="110"/>pium determinatum ad vnum, producitur 
+      natu<lb ed="#L" break="no" n="111"/>ra, sed filius producitur principio determinato 
+      <lb ed="#L" n="112"/>ad vnum. ergo producitur natura. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e411">
+               <lb ed="#L" n="113"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-c75609-d1e417">
+               <lb ed="#L" n="114"/>AD quaestionem istam respondendo hoc 
+      or<lb ed="#L" break="no" n="115"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e424">
+               <lb ed="#L" n="116"/>Primo namque inquiretur, vtrum filius sit 
+      pro<lb ed="#L" break="no" n="117"/>ductus natura. 
+    </p>
+            <p xml:id="ol96b1-c75609-d1e431">
+               <lb ed="#L" n="118"/>Secundo, an sit productus voluntate. 
+      <lb ed="#L" n="119"/>Tertio quoque, an sit productus necessitate.
+    </p>
+            <div xml:id="ol96b1-c75609-Dd1e438">
+               <head xml:id="ol96b1-c75609-Hd1e440">Articulus 1</head>
+               <p xml:id="ol96b1-c75609-d1e442">
+      <!--0235.xml-->
+                  <pb ed="#L" n="235"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICVLVS PRJMVS. 
+      <lb ed="#L" n="2"/>Quomodo Filius natura gignitur. Opinio 
+      Gof<lb ed="#L" break="no" n="3"/>fredi 1. Sent. dist. 6. q. 1. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e458">
+                  <lb ed="#L" n="4"/>CIRCA primum dixerunt aliqui, quod ideo 
+      <lb ed="#L" n="5"/>Pater dicitur Filium genuisse natura, quia 
+      <lb ed="#L" n="6"/>productus est ab vno, Spiritum sanctum autem, 
+      <lb ed="#L" n="7"/>quia producitur a duobus, dicunt esse 
+      produ<lb ed="#L" break="no" n="8"/>ctum modo voluntatis, &amp; ratio istius est, 
+      quo<lb ed="#L" break="no" n="9"/>niam in creaturis, actus voluntatis emanat a 
+      <lb ed="#L" n="10"/>duobus, ab intellectu, &amp; voluntate, ab intellectu 
+      <lb ed="#L" n="11"/>quidem actiue, sed a voluntate passiue, actus 
+      <lb ed="#L" n="12"/>vero intellectus oritur tantum ab vno, 
+      videli<lb ed="#L" break="no" n="13"/>cet ab obiecto. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e482">
+                  <lb ed="#L" n="14"/>Sed hic modus dicendi minime stare potest, 
+      <lb ed="#L" n="15"/>primo quidem, quia motio visus oritur a 
+      duo<lb ed="#L" break="no" n="16"/>bus, puta a colore, &amp; luce; sed nullus dicit, quod 
+      <lb ed="#L" n="17"/>motio visus sit voluntaria. ergo emanare a 
+      <lb ed="#L" n="18"/>duobus non est emanare per modum 
+      volunta<lb ed="#L" break="no" n="19"/>rium 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e498">
+                  <lb ed="#L" n="20"/>Praeterea: Intellectio producitur in nobis a 
+      <lb ed="#L" n="21"/>duobus, videlicet ab intellectu, &amp; 
+      phantasma<lb ed="#L" break="no" n="22"/>te. ergo produci ab vno non constituit rationem 
+      <lb ed="#L" n="23"/>naturalis productionis, &amp; cōfirmatur, quia si 
+      ra<lb ed="#L" break="no" n="24"/>tio naturalis productionis consisteret in 
+      pro<lb ed="#L" break="no" n="25"/>duci ab vno, nec filius in humanis 
+      producere<lb ed="#L" break="no" n="26"/>tur modo naturae, cum producatur a duobus, 
+      <lb ed="#L" n="27"/>scilicet a patre, &amp; matre, &amp; breuiter paucae sunt 
+      <lb ed="#L" n="28"/>actiones naturales, in quibus non occurrant plu 
+      <lb ed="#L" n="29"/>rima agentia, vt agens vniuersale, &amp; agens 
+      par<lb ed="#L" break="no" n="30"/>ticulare, &amp; forma substantialis, &amp; aliae 
+      qualita<lb ed="#L" break="no" n="31"/>tes actinae, &amp; passiuae, nil ergo est dictu, quod 
+      <lb ed="#L" n="32"/>naturalis modus productionis consistat in esse 
+      <lb ed="#L" n="33"/>ab vno producente.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e532">
+                  <lb ed="#L" n="34"/>Opinio Scoti, &amp; sequentium, lib. I. Sent. 
+      <lb ed="#L" n="35"/>dist. 6. quaest. I. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e539">
+                  <lb ed="#L" n="36"/>PROPTEREA dixerunt alij, quod Pater de 
+      <lb ed="#L" n="37"/>A memoria foecunda producit verbum, quod 
+      <lb ed="#L" n="38"/>est Filius in diuinis, memoria autem foecunda 
+      <lb ed="#L" n="39"/>est principium productiuum mere naturaliter, 
+      <lb ed="#L" n="40"/>quod patet, de ratione principij naturalis sunt 
+      <lb ed="#L" n="41"/>tria. Primum quidem, quod sit determinatum 
+      <lb ed="#L" n="42"/>ad vnum. Secundum vero, quod sit 
+      assimilati<lb ed="#L" break="no" n="43"/>uum. Tertium autem, quod non requirat 
+      in<lb ed="#L" break="no" n="44"/>tellectionem, tamquam intrinsece dirigentem, 
+      <lb ed="#L" n="45"/>sic autem est de memoria, quae est determinata 
+      <lb ed="#L" n="46"/>ad vnum, puta ad intellectionis productionem, 
+      <lb ed="#L" n="47"/>&amp; est assimilatiua, quia intellectio simillima est 
+      <lb ed="#L" n="48"/>memoriae de qua gignitur, &amp; iterum non 
+      diri<lb ed="#L" break="no" n="49"/>gitur ab intellectualitate, sed praeuenit eam, 
+      vn<lb ed="#L" break="no" n="50"/>de Verbum emanans a memoria, dicitur modo 
+      <lb ed="#L" n="51"/>naturali proprijssime emanere. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e576">
+                  <lb ed="#L" n="52"/>Sed hic modus dicendi deficit in duobus. 
+      Pri<lb ed="#L" break="no" n="53"/>mo quidem, quia imaginatur dicere in diuinis, 
+      <lb ed="#L" n="54"/>siue gignere esse aliquid elicitum, cuius opposi 
+      <lb ed="#L" n="55"/>tum est supra probatum in praecedenti 
+      quaestio<lb ed="#L" break="no" n="56"/>ne. Secundo vero quia imaginatur memoriam 
+      <lb ed="#L" n="57"/>in diuinis esse principium foecundum, &amp; 
+      produ<lb ed="#L" break="no" n="58"/>ctiuum, cuius oppositum probatum est supra 
+      <lb ed="#L" n="59"/>in quaestione de imagine.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e596">
+                  <lb ed="#L" n="60"/>Quid dicendum sit, secundum veritatem. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e601">
+                  <lb ed="#L" n="61"/>ET ideo dicendum est, quod natura potest 
+      <lb ed="#L" n="62"/>accipi, vel pro principio motus, &amp; sic defi- 
+      <!--0235.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>nit eam Philosophus 2. Physic. vel pro principio 
+      <lb ed="#L" n="64"/>non cuiuslibet motus, sed generationis, quae ap 
+      <lb ed="#L" n="65"/>paret in pullulantibus, sicut Philosophus dicit 
+      <lb ed="#L" n="66"/>5. met. &amp; sic natura addit ad principium motus 
+      <lb ed="#L" n="67"/>simpliciter, generationem simpliciter, quia 
+      gene<lb ed="#L" break="no" n="68"/>ratum hoc modo debet esse distinctum a 
+      gene<lb ed="#L" break="no" n="69"/>rante, &amp; tamen colligatum cum eo, sicut patet 
+      <lb ed="#L" n="70"/>de fructibus, &amp; seminibus, &amp; embrionibus, vt 
+      di<lb ed="#L" break="no" n="71"/>cit Commentat. ibid. &amp; est commento 5. vnde 
+      <lb ed="#L" n="72"/>talia maxime debent fieri naturaliter, quamuis 
+      <lb ed="#L" n="73"/>enim ignis generet per naturam, nihilominus 
+      <lb ed="#L" n="74"/>consueuimus dicere de pullulantibus per 
+      quan<lb ed="#L" break="no" n="75"/>dam appropriationem, quod naturaliter 
+      gene<lb ed="#L" break="no" n="76"/>rantur, vel dicitur natura pro principio indito 
+      <lb ed="#L" n="77"/>rebus ex similibus similia procreante, sic ergo 
+      <lb ed="#L" n="78"/>ex his tribus posset colligi ratio naturae, quod 
+      <lb ed="#L" n="79"/>est principium productionis, qua simile procrea 
+      <lb ed="#L" n="80"/>tur, distinctum quidem a producente, sed 
+      aliqua<lb ed="#L" break="no" n="81"/>liter intra ipsum. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e653">
+                  <lb ed="#L" n="82"/>Ad propositum ergo, si per naturam 
+      intelli<lb ed="#L" break="no" n="83"/>gatur aliquod elicitiuum principium productio 
+      <lb ed="#L" n="84"/>num intrinfecarum, dicendum, quod nullo mo 
+      <lb ed="#L" n="85"/>do in Deo productiones sunt elicitae. Si vero 
+      in<lb ed="#L" break="no" n="86"/>telligatur per naturam, non aliquod principium, 
+      <lb ed="#L" n="87"/>sed modus naturalis, habet productio, &amp; 
+      obser<lb ed="#L" break="no" n="88"/>uat aeque bene, sicut si esset elicita, vt videlicet 
+      <lb ed="#L" n="89"/>quia est similis productio distincta a 
+      producen<lb ed="#L" break="no" n="90"/>te, intra producens manente, poni potest in 
+      <lb ed="#L" n="91"/>diuinis. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e678">
+                  <lb ed="#L" n="92"/>Est tamen vltimo considerandum, quod illud 
+      <lb ed="#L" n="93"/>simile potest referri, vel ad formam specificam 
+      <lb ed="#L" n="94"/>absolutam. sicut homo est similis homini, vel 
+      <lb ed="#L" n="95"/>potest referri ad similitudinem relatiuam, quam 
+      <lb ed="#L" n="96"/>imago importat, &amp; primo quidem modo in 
+      <lb ed="#L" n="97"/>corporalibus natura generat simile, vt ignis 
+      <lb ed="#L" n="98"/>ignem, &amp; homo hominem. Secundo autem mo 
+      <lb ed="#L" n="99"/>do intellectu natura generat simile, quia 
+      imagi<lb ed="#L" break="no" n="100"/>nem, seu speciem, siue esse conspicuum, quod res 
+      <lb ed="#L" n="101"/>capit intellectione. Est ergo in Deo naturalis 
+      <lb ed="#L" n="102"/>modus productionis, &amp; Filius dicitur natura 
+      <lb ed="#L" n="103"/>produci, quia productio non elicita, est illatiua 
+      <lb ed="#L" n="104"/>similitudinis, &amp; imaginis, videlicet esse conspi 
+      <lb ed="#L" n="105"/>cui, &amp; notitiae obiectalis, nec producit eam 
+      <lb ed="#L" n="106"/>extra, immo intra conceptum Paternum 
+      obie<lb ed="#L" break="no" n="107"/>ctiue, Scriptura autem sacra, quia procedit 
+      <lb ed="#L" n="108"/>per modum egressus extra per vim amoris, &amp; 
+      <lb ed="#L" n="109"/>iterum ex vi illius productionis non capit esse 
+      <lb ed="#L" n="110"/>similitudinarium, siue modum imaginationis, 
+      <lb ed="#L" n="111"/>immo magis modum cuiusdam egressus, &amp; 
+      fla<lb ed="#L" break="no" n="112"/>tus, idcirco non procedit per modum naturae, 
+      <lb ed="#L" n="113"/>sic ergo dicendum ad hunc Articulum, quod Fi 
+      <lb ed="#L" n="114"/>lius procedit natura, non ratione alicuius prin 
+      <lb ed="#L" n="115"/>cipij productiui, sed ratione modi 
+      productio<lb ed="#L" break="no" n="116"/>nis, est enim quaedam similitudo manens intra 
+      <lb ed="#L" n="117"/>producens. 
+    </p>
+        </div>
+            <div xml:id="ol96b1-c75609-Dd1e738">
+               <head xml:id="ol96b1-c75609-Hd1e740">Articulus 2</head>
+               <p xml:id="ol96b1-c75609-d1e742">
+                  <lb ed="#L" n="118"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e747">
+                  <lb ed="#L" n="119"/>An producatur voluntate, &amp; ponitur distinctio 
+      <lb ed="#L" n="120"/>de voluntate. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e754">
+                  <lb ed="#L" n="121"/>CIRCA secundum autem considerandum est, 
+      <lb ed="#L" n="122"/>quod aliquid dici potest voluntarium 
+      tri<lb ed="#L" break="no" n="123"/>pliciter. Primo quidem, quia a voluntate 
+      eli<lb ed="#L" break="no" n="124"/>citum, vt amare, odisse, &amp; omnes actus 
+      volun<lb ed="#L" break="no" n="125"/>tatis. Secundo vero, quia a voluntate 
+      impera<lb ed="#L" break="no" n="126"/>tum, vt currere, &amp; saltare, imperat namque 
+      <!--0236.xml-->
+      <pb ed="#L" n="236"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>voluntas actus inferiorum potentiarum, 
+      quam<lb ed="#L" break="no" n="2"/>uis non eliciat eos. Tertio quoque, quia a volun 
+      <lb ed="#L" n="3"/>tate approbatum, seu acceptatum: hoc autem 
+      <lb ed="#L" n="4"/>contingit tripliciter, quandoquidem 
+      approba<lb ed="#L" break="no" n="5"/>tio, &amp; acceptatio voluntatis praecedit, quamuis 
+      <lb ed="#L" n="6"/>non eliciat, nec imperet, vt quando euenit, quod 
+      <lb ed="#L" n="7"/>praeoptatum est, quandoque vero sequitur, vt 
+      <lb ed="#L" n="8"/>quando placet, quod factum est, quando autem 
+      <lb ed="#L" n="9"/>concomitatur, secundum hoc distinguitur 
+      vo<lb ed="#L" break="no" n="10"/>luntas antecedens, concomitans &amp; subsequens. 
+      <lb ed="#L" n="11"/>cum ergo inquiritur, an Filius producatur volun 
+      <lb ed="#L" n="12"/>tate, formandae sunt tres propositiones. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e802">
+                  <lb ed="#L" n="13"/>Quod Filius non est a voluntate elicitiue.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e808">
+                  <lb ed="#L" n="14"/>PRIMA quidem, quod Filij productio non est 
+      <lb ed="#L" n="15"/>A absolute a voluntate elicitiue: omne namque 
+      <lb ed="#L" n="16"/>quod est a voluntate per hunc modum, vel est 
+      ip<lb ed="#L" break="no" n="17"/>semet actus voluntatis, vel aliquid emanans ab 
+      <lb ed="#L" n="18"/>actu voluntatis, actus quidem vt amor, emanans 
+      <lb ed="#L" n="19"/>vero vt spiritus amantis, &amp; hoc patuit supra, sed 
+      <lb ed="#L" n="20"/>Filius in Diuinis non emanat, vt amor, nec vt 
+      a<lb ed="#L" break="no" n="21"/>mantis spiritus, Filius quidem est verissime Ver 
+      <lb ed="#L" n="22"/>bum, iuxta illud Ioan. primo. In principio erat ver 
+      <lb ed="#L" n="23"/>bum: verbum autem, vel est formalis cognitio, 
+      <lb ed="#L" n="24"/>siue intellectionis actus secundum aliquos, vel est 
+      <lb ed="#L" n="25"/>formata cognitio, siue intellectio obiectiua, 
+      <lb ed="#L" n="26"/>quod alias probabitur esse verum, &amp; per 
+      conse<lb ed="#L" break="no" n="27"/>quens verbum non potest esse actus voluntatis, 
+      <lb ed="#L" n="28"/>nec emanans cum actu. ergo non est vera a 
+      vo<lb ed="#L" break="no" n="29"/>luntate principiatiue, &amp; elicitiue. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e845">
+                  <lb ed="#L" n="30"/>Sed contra istam conclusionem Magister 
+      mo<lb ed="#L" break="no" n="31"/>uet quandam difficultatem in litera. quando 
+      e<lb ed="#L" break="no" n="32"/>nim aliqua sunt vnum, &amp; idem, quidquid 
+      attri<lb ed="#L" break="no" n="33"/>buitur vni, videtur attribuendum alteri, sed 
+      vo<lb ed="#L" break="no" n="34"/>luntas, &amp; natura sunt idem in Deo, &amp; Filius est 
+      <lb ed="#L" n="35"/>productus natura: ergo videtur, quod sit 
+      produ<lb ed="#L" break="no" n="36"/>ctus etiam a voluntate. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e863">
+                  <lb ed="#L" n="37"/>Ad hanc autem difficultatem respondetur 
+      du<lb ed="#L" break="no" n="38"/>pliciter. Primo quidem, quod positio, quod 
+      vo<lb ed="#L" break="no" n="39"/>luntas, &amp; natura habeant identitatem 
+      omnimo<lb ed="#L" break="no" n="40"/>dam, quia tamen virtualiter distinguuntur, siue 
+      <lb ed="#L" n="41"/>contradictorie, potest voluntati aliquid attribui, 
+      <lb ed="#L" n="42"/>quod non attribuitur naturae, &amp; quod identitas 
+      <lb ed="#L" n="43"/>omnimoda naturae, &amp; voluntatis non impediat 
+      <lb ed="#L" n="44"/>hoc, quin possint esse principia distinctionis, 
+      <lb ed="#L" n="45"/>patet: tum quia modus producendi 
+      perfectissi<lb ed="#L" break="no" n="46"/>mus, &amp; causalitas perfectissima, consequitur per 
+      <lb ed="#L" n="47"/>fectissimum modum essendi, nec impeditur 
+      cau<lb ed="#L" break="no" n="48"/>salitatis perfectio, ex perfectione entitatis, nunc 
+      <lb ed="#L" n="49"/>autem si voluntas, &amp; natura essent distincta, pos 
+      <lb ed="#L" n="50"/>sent esse principia distinctorum, perfectiori 
+      au<lb ed="#L" break="no" n="51"/>tem modo sunt, cum sunt indistincta, &amp; idem 
+      v<lb ed="#L" break="no" n="52"/>nitiue. non ergo impeditur, quin possint esse 
+      <lb ed="#L" n="53"/>principia distinctorum: tum quia cum tanta 
+      v<lb ed="#L" break="no" n="54"/>nitate stat pluralitas virtualis in ordine, &amp; 
+      ha<lb ed="#L" break="no" n="55"/>bitudine ad diuersas productiones, habens autem 
+      <lb ed="#L" n="56"/>plura in virtute potest esse principium 
+      distincto<lb ed="#L" break="no" n="57"/>rum, cum Idaeae sint omnino idem in Deo, &amp; 
+      ta<lb ed="#L" break="no" n="58"/>men alia ratione idaeali conditus est homo, alia 
+      <lb ed="#L" n="59"/>equus secundum August. consimiliter ergo stat 
+      <lb ed="#L" n="60"/>sitn iue nut natte ic voluntatis, qua sunt di 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e918">
+                  <lb ed="#L" n="61"/>Secundo vero ab aliis respondetur, quod 
+      ne<lb ed="#L" break="no" n="62"/>cesse est inter intellectum, &amp; voluntatem, non 
+      es<lb ed="#L" break="no" n="63"/>se omnimodam vnitatem, si deberent esse 
+      prin<lb ed="#L" break="no" n="64"/>cipia distinctorum, quod pater: tum quia ista, 
+      <!--0236.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>quae in tantum sunt vnum, quod vnum non 
+      po<lb ed="#L" break="no" n="66"/>test esse principium alicuius, quin statim reliquum 
+      <lb ed="#L" n="67"/>sit principium productionis eiusdem; illa inquam 
+      <lb ed="#L" n="68"/>sunt magis vnum, quam quae sic sunt vnum, quod 
+      <lb ed="#L" n="69"/>non sequitur, quod si vnum est principium 
+      alicu<lb ed="#L" break="no" n="70"/>ius productionis, quod reliquum. ista enim est 
+      <lb ed="#L" n="71"/>aliqua non vnitas, sicut patet; non autem sic est 
+      <lb ed="#L" n="72"/>de natura, &amp; voluntate, quae sunt principia distin 
+      <lb ed="#L" n="73"/>ctorum, &amp; natura est principium Filij, cuius non 
+      <lb ed="#L" n="74"/>est principium voluntas. non sunt ergo summe 
+      <lb ed="#L" n="75"/>vnum, tum quia si sunt summe vnum, 
+      contradi<lb ed="#L" break="no" n="76"/>ctoria verificabuntur de summe vno, puta 
+      prin<lb ed="#L" break="no" n="77"/>cipiare filium, &amp; non principiare, tum quia quan 
+      <lb ed="#L" n="78"/>do de aliquo subiecto vere aliquid affirmatur, &amp; 
+      <lb ed="#L" n="79"/>de aliquo vere negatur, oportet aliquam 
+      distin<lb ed="#L" break="no" n="80"/>ctionem assignare inter illa obiecta: vere autem 
+      <lb ed="#L" n="81"/>dicitur, quod Pater generat natura Filium, &amp; ve 
+      <lb ed="#L" n="82"/>re dicitur, quod non generat ipsum voluntate. 
+      <lb ed="#L" n="83"/>necesse est ergo inter voluntatem, &amp; naturam as 
+      <lb ed="#L" n="84"/>signari aliquam non vnitatem, tum quia non 
+      in<lb ed="#L" break="no" n="85"/>tantum sunt vnum, natura, &amp; voluntas, 
+      inquan<lb ed="#L" break="no" n="86"/>tum natura, &amp; intellectus, alioquin sicut natura, 
+      <lb ed="#L" n="87"/>&amp; intellectus sunt vnum principium Filij, dici 
+      pos<lb ed="#L" break="no" n="88"/>set, quod natura, &amp; voluntas essent vnum 
+      prin<lb ed="#L" break="no" n="89"/>cipium ipsius. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e988">
+                  <lb ed="#L" n="90"/>Istarum autem solutionum neutra satisfacit.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e993">
+                  <lb ed="#L" n="91"/>Prima siquidem non, quia implicat 
+      contradi<lb ed="#L" break="no" n="92"/>ctionem, vel omnino non soluit. concedit enim, 
+      <lb ed="#L" n="93"/>quod natura, &amp; voluntas sint eadem omnino, &amp; 
+      <lb ed="#L" n="94"/>tamen, quod sint diuersa principia, quia vnum, 
+      <lb ed="#L" n="95"/>&amp; idem potest habere diuersas habitudines, &amp; 
+      <lb ed="#L" n="96"/>virtutes respectu distinctarum productionum, 
+      <lb ed="#L" n="97"/>siquidem illae virtutes, &amp; habitudines, aut sunt 
+      <lb ed="#L" n="98"/>in ipsa Deitate secundum rem, &amp; absque 
+      intelle<lb ed="#L" break="no" n="99"/>ctu, &amp; habetur propositum, quod non omnino 
+      <lb ed="#L" n="100"/>sunt vnum, &amp; idem natura, &amp; voluntas, &amp; 
+      im<lb ed="#L" break="no" n="101"/>plicatur contradictio in dictis eorum, qui 
+      <lb ed="#L" n="102"/>primo concedunt, quod sunt omnino idem, &amp; 
+      <lb ed="#L" n="103"/>secundario dicunt, quod sunt diuersae 
+      habitu<lb ed="#L" break="no" n="104"/>dines, &amp; virtutes. Si vero huiusmodi 
+      habitudi<lb ed="#L" break="no" n="105"/>nes sunt per intellectum tantummodo in Deo, 
+      <lb ed="#L" n="106"/>tunc non soluitur argumentum, quia circumscri 
+      <lb ed="#L" n="107"/>pto omni actu intellectus pater producit Filium 
+      <lb ed="#L" n="108"/>natura, non producit autem voluntate, &amp; sic con 
+      <lb ed="#L" n="109"/>tradictoria insunt eidem. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1038">
+                  <lb ed="#L" n="110"/>Secunda vero non soluit. dicit enim, quod 
+      na<lb ed="#L" break="no" n="111"/>tura, &amp; voluntas habent quandam non vnitatem, 
+      <lb ed="#L" n="112"/>habent enim non identitatem formalem, 
+      quam<lb ed="#L" break="no" n="113"/>uis sint omnino idem realiter, haec autem vnitas 
+      <lb ed="#L" n="114"/>non sufficit ad tollendam istam contradictionem, 
+      <lb ed="#L" n="115"/>non videtur autem illud sufficere, immo 
+      omni<lb ed="#L" break="no" n="116"/>no superfluit ponere talem distinctionem, vel non 
+      <lb ed="#L" n="117"/>vnitatem formalem, vt difficultas proposita eua 
+      <lb ed="#L" n="118"/>datur. si enim debet euadi contradictio, de 
+      prae<lb ed="#L" break="no" n="119"/>dicato reali necesse est poni in subiecto non 
+      vni<lb ed="#L" break="no" n="120"/>tatem realem, alietas enim, quae tollit contradi 
+      <lb ed="#L" n="121"/>ctionem debet esse eiusdem generis cum natura 
+      <lb ed="#L" n="122"/>praedicati. si enim praedicatum sit reale, &amp; 
+      abso<lb ed="#L" break="no" n="123"/>lutum, contradictio non tollitur per alietatem 
+      <lb ed="#L" n="124"/>respectiuam. non enim potest Sortes esse albus, 
+      <lb ed="#L" n="125"/>&amp; non albus, secundum diuersos respectus, nec 
+      <lb ed="#L" n="126"/>mons etiam paruus posset dici idem, nisi 
+      ma<lb ed="#L" break="no" n="127"/>gnum, &amp; paruum dicerentur relatiue, sicut 
+      Phi<lb ed="#L" break="no" n="128"/>losophus dicit in praedicamentis, quod si 
+      par<lb ed="#L" break="no" n="129"/>uum, vel magnum dicerentur per se, numquam 
+      <lb ed="#L" n="130"/>quidem mons aliquando paruus millium magnum 
+      <lb ed="#L" n="131"/>diceretur. sic ergo patet, quod talis debet esse- 
+      <!--0237.xml-->
+      <pb ed="#L" n="237"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>alietas in subiecto, qualis est natura praedicati, 
+      <lb ed="#L" n="2"/>Sed constat, quod genetare Filium est aliquid 
+      <lb ed="#L" n="3"/>reale in Diuinis. ergo si aliqua distinctio in Deo 
+      <lb ed="#L" n="4"/>tollit contradictionem respectu generare, vt quod 
+      <lb ed="#L" n="5"/>contradictio non sit, Pater natura generat, 
+      Pa<lb ed="#L" break="no" n="6"/>tor voluntate non generat, necesse est, quod 
+      na<lb ed="#L" break="no" n="7"/>tura, &amp; voluntas habeant distinctionem realem, 
+      <lb ed="#L" n="8"/>siue non vnitatem, propter quod formalitatum 
+      <lb ed="#L" n="9"/>pofitio superfluit in hoc loco, nec 
+      difficulta<lb ed="#L" break="no" n="10"/>tum euadit.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1116">
+                  <lb ed="#L" n="11"/>Et propter hoc dicendum est dupliciter. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1121">
+                  <lb ed="#L" n="12"/>Primo quidem, quod voluntas, &amp; natura non 
+      <lb ed="#L" n="13"/>notant elicitiua principia, cum productiones 
+      <lb ed="#L" n="14"/>non sint elicitae in Diuinis, vt supra dictum est. 
+      <lb ed="#L" n="15"/>Notant ergo diuersos modos, vnde generatio dl 
+      <lb ed="#L" n="16"/>citur productio naturalis, inquantum est 
+      pro<lb ed="#L" break="no" n="17"/>ductiua similitudinis, &amp; imaginis, seu 
+      obiecti<lb ed="#L" break="no" n="18"/>ue apparitionis intra ipsum concipientem: 
+      spi<lb ed="#L" break="no" n="19"/>ratio vero dicitur voluntaria, inquantum est 
+      <lb ed="#L" n="20"/>productiua flatus, siue spiritus amantis, quiae per 
+      <lb ed="#L" n="21"/>eam ponitur amans extra se in esse lato ad 
+      ama<lb ed="#L" break="no" n="22"/>tum: sic ergo, quia productiones illae realiter 
+      di<lb ed="#L" break="no" n="23"/>stinguuntur, &amp; modi eorum intrinsece distinguen 
+      <lb ed="#L" n="24"/>tur, quorum vnus est voluntarius, &amp; alter 
+      natu<lb ed="#L" break="no" n="25"/>ralis, &amp; secundum hoc datur intelligi, quod 
+      Fi<lb ed="#L" break="no" n="26"/>lius producitur natura, non voluntate, quia 
+      mo<lb ed="#L" break="no" n="27"/>do naturali, non voluntario.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1158">
+                  <lb ed="#L" n="28"/>Secundo vero dici posset, esto quod 
+      produ<lb ed="#L" break="no" n="29"/>ctiones essent elicitae, quod natura, &amp; voluntas 
+      <lb ed="#L" n="30"/>non distinguerentur, nisi penes connotata, sicut 
+      <lb ed="#L" n="31"/>Magister dicit in litera, &amp; apparebit inferius de 
+      <lb ed="#L" n="32"/>omnibus attributis. Haec autem distinctio 
+      suffi<lb ed="#L" break="no" n="33"/>ceretad tollendam istam difficultatem. quando 
+      <lb ed="#L" n="34"/>euim praedicatum est connotans, sufficit, quod 
+      <lb ed="#L" n="35"/>in subiectis, de quorum altero affirmatur, &amp; 
+      alte<lb ed="#L" break="no" n="36"/>ro negatur sit distinctio eiusdem generis, 
+      vide<lb ed="#L" break="no" n="37"/>licet in connotatis, vt quia praescientia, &amp; volun 
+      <lb ed="#L" n="38"/>tas demonstrant alia, &amp; alia esse subiecta 
+      Diui<lb ed="#L" break="no" n="39"/>na, ita, quod notant diuersa, dici potest absque 
+      <lb ed="#L" n="40"/>vlla contradictione, quod Deus praescit mala, &amp; 
+      <lb ed="#L" n="41"/>non vult ea, sicut Magister optime dicit, sed con 
+      <lb ed="#L" n="42"/>stat, quod generatio connotat Filium. ergo non 
+      <lb ed="#L" n="43"/>est contradictio, Pater natura generat, 
+      volun<lb ed="#L" break="no" n="44"/>tate non generat, dum tamen natura, &amp; 
+      volun<lb ed="#L" break="no" n="45"/>tas alia connotent, sicut autem est de ipsis, &amp; de 
+      <lb ed="#L" n="46"/>omnibus attributis. connotat enim natura 
+      ta<lb ed="#L" break="no" n="47"/>lem emanationem, voluntas vero talem. Quod 
+      <lb ed="#L" n="48"/>ergo dicebatur, quod est afirmatio, &amp; negatio 
+      <lb ed="#L" n="49"/>de eodem, &amp; quod minus sunt vnum, quam si 
+      es<lb ed="#L" break="no" n="50"/>sent in vnum, quod essenteiusdem principium, 
+      <lb ed="#L" n="51"/>&amp; similia non probatur, quod sit aliqua distinctio 
+      <lb ed="#L" n="52"/>penes intrinseca, sed tantummodo penes 
+      con<lb ed="#L" break="no" n="53"/>notata, vt supra dictum est.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1217">
+                  <lb ed="#L" n="54"/>Quod Filij. productio non sit a voluntate 
+      <lb ed="#L" n="55"/>imperata. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1224">
+                  <lb ed="#L" n="56"/>SECVNDA vero propositio est, quod Filius 
+      <lb ed="#L" n="57"/>&amp;non producitur a voluntate imperante: 
+      nul<lb ed="#L" break="no" n="58"/>lus autem actus intellectus imperatur a volunta 
+      <lb ed="#L" n="59"/>te in Deo, quod patet, quia aliquis actus 
+      intelle<lb ed="#L" break="no" n="60"/>ctus praecessit actum voluntatis. inuisa enim 
+      a<lb ed="#L" break="no" n="61"/>mare possumus, incognita nequaquam, 
+      secun<lb ed="#L" break="no" n="62"/>dum Augustinum; vnde omnem volitionem 
+      prae<lb ed="#L" break="no" n="63"/>tedit cognitio aliqualis. ex quo ergo aliquis 
+      a<lb ed="#L" break="no" n="64"/>ctus intellectus praecedit voluntatem, ideo 
+      neces<lb ed="#L" break="no" n="65"/>soeest, quod omnis actus, cum in Deo non sit ni- 
+      <!--0237.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>si vnicus actus intellectus, &amp; per consequens 
+      <lb ed="#L" n="67"/>cum actus imperatus a voluntate, sit posterior 
+      <lb ed="#L" n="68"/>actu voluntatis imperantis, sequitur, vt nullus 
+      <lb ed="#L" n="69"/>actus intellectus Diuini sit imperatus a volunta 
+      <lb ed="#L" n="70"/>te, sed Filius emanat in actuali intellectione, 
+      <lb ed="#L" n="71"/>cum sit verbum, &amp; Deus positus in esse 
+      conspi<lb ed="#L" break="no" n="72"/>cuo,, vt supra dictum est, &amp; infra melius 
+      appare<lb ed="#L" break="no" n="73"/>bit ergo verbi productia non potes esse imperata. 
+      <lb ed="#L" n="74"/>Praeterea Nullus actus ab aliqua potentia non 
+      <lb ed="#L" n="75"/>elicitus, potest esse d voluntate imperatus. 
+      im<lb ed="#L" break="no" n="76"/>perium enim exigit potentiam exequentem, sed 
+      <lb ed="#L" n="77"/>productio. Filij non elicitur, xt probatum est, er 
+      <lb ed="#L" n="78"/>go nec a voluntate imperatur.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1282">
+                  <lb ed="#L" n="79"/>Sed contra hic videtur, quod August. dicit 9 
+      <lb ed="#L" n="80"/>de Trinit: quod partum mentis praecedit 
+      appe<lb ed="#L" break="no" n="81"/>titus, sed appetitus pertinet ad voluntatem. 
+      er<lb ed="#L" break="no" n="82"/>go verbi productio imperani habet a voluntate. 
+      <lb ed="#L" n="83"/>Praeterea: Augustinus vbique dicit, aibi 
+      tra<lb ed="#L" break="no" n="84"/>ctat de hac materia, quod voluntas copulat 
+      pa<lb ed="#L" break="no" n="85"/>rentem proli, seu verbum menti, sed hoc non 
+      es<lb ed="#L" break="no" n="86"/>set, nisi quatenus verbi productio est 
+      imperati<lb ed="#L" break="no" n="87"/>ne a voluntate. ergo illud, quod prius. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1304">
+                  <lb ed="#L" n="88"/>Praeterea: Quamuis actus intellectus non sit ni 
+      <lb ed="#L" n="89"/>si vnicus in Deo, nihilominus: cum fit in eo 
+      ali<lb ed="#L" break="no" n="90"/>qualis distinctio secundum rationem, poterit ali 
+      <lb ed="#L" n="91"/>qua esse praecessio, &amp; subsecutio, sicut aliqui 
+      di<lb ed="#L" break="no" n="92"/>cunt, quod intellectio creaturarum sequitur 
+      e<lb ed="#L" break="no" n="93"/>manationem verbi ordine rationis, &amp; secundum 
+      <lb ed="#L" n="94"/>hoc prima ratio procedere non videtur. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1322">
+                  <lb ed="#L" n="95"/>Sed istis non obstantibus, dicendum est sicut 
+      <lb ed="#L" n="96"/>prius. semper enim verbum praecedit spiritum 
+      <lb ed="#L" n="97"/>emanantem ex vi amoris, vude etiam in nobis 
+      <lb ed="#L" n="98"/>verbum de vniuersali, &amp; confuso praecedit 
+      com<lb ed="#L" break="no" n="99"/>placentiam in illo confuso verbum enim distin 
+      <lb ed="#L" n="100"/>ctum, &amp; spiritale, ac clarum, praecedit 
+      compla<lb ed="#L" break="no" n="101"/>centiam voluntatis in ipsum. non enim mens in 
+      <lb ed="#L" n="102"/>aliquo complacet, nisi id dixerit in seipsa. sic 
+      er<lb ed="#L" break="no" n="103"/>go Deus non complacet in seipso, donec verbum 
+      <lb ed="#L" n="104"/>emanarit in esse prospecto, vnde verbi 
+      produ<lb ed="#L" break="no" n="105"/>ctio nullo modo potest a voluntate imperari, 
+      <lb ed="#L" n="106"/>nec procedunt instantiae.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1351">
+                  <lb ed="#L" n="107"/>Prima siquidem non, nam Augustinus 
+      intelli<lb ed="#L" break="no" n="108"/>git, quod appetitus inquisitionis, praecedit 
+      par<lb ed="#L" break="no" n="109"/>tum mentis, hoc est verbum explicitum, &amp; 
+      cla<lb ed="#L" break="no" n="110"/>rum, ac determinatum, illum tamen appetitum 
+      <lb ed="#L" n="111"/>praecedit aliquod verbum, puta conceptus de 
+      <lb ed="#L" n="112"/>inquisitione facienda. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1367">
+                  <lb ed="#L" n="113"/>Secunda etiam non, quia illa copulatio intelle 
+      <lb ed="#L" n="114"/>ctionis, vel aciei cogitantis, praeuenitur aliquo 
+      <lb ed="#L" n="115"/>verbo, puta conceptu illius copulationis; nam 
+      <lb ed="#L" n="116"/>praeintelligitur copulatio, antequam volitio im 
+      <lb ed="#L" n="117"/>peret eam. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1380">
+                  <lb ed="#L" n="118"/>Tertia etiam non procedit; quia intellectio 
+      <lb ed="#L" n="119"/>qua se Deus intelligit, qua communicatur 
+      ema<lb ed="#L" break="no" n="120"/>natio verbi in esse conspicuo, &amp; perspecto, de 
+      <lb ed="#L" n="121"/>necessitate praecedit amorem, quid autem sit de 
+      <lb ed="#L" n="122"/>praecessione verbi respectu intellectionis 
+      crea<lb ed="#L" break="no" n="123"/>turarum, inferius dicetur.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1397">
+                  <lb ed="#L" n="124"/>Quod Pater genuit voluntate concomitante, &amp; 
+      <lb ed="#L" n="125"/>complacente. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1404">
+                  <lb ed="#L" n="126"/>TERTIA vero propositio est, quod Pater 
+      <lb ed="#L" n="127"/>complacet in Filij producttione, vnde 
+      vo<lb ed="#L" break="no" n="128"/>lens genuit Filium, sicut dicit Magister, haec 
+      au<lb ed="#L" break="no" n="129"/>tem volitio non est praeueniens, nec subsequens, 
+      <lb ed="#L" n="130"/>sed concomitans in nunc aeternitatis, &amp; quidem 
+      <!--0238.xml-->
+      <pb ed="#L" n="238"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>non est hic dubium de praece ssione, &amp; sequentia 
+      <lb ed="#L" n="2"/>secundum ordinem durationis, sed secundum or 
+      <lb ed="#L" n="3"/>dinem rationis: dixerunt namque aliqui, quod 
+      <lb ed="#L" n="4"/>complacentia voluntatis sequitur ordine 
+      ratio<lb ed="#L" break="no" n="5"/>nis generationem verbi. in quocumque enim signo 
+      <lb ed="#L" n="6"/>Pater concipitur perfecte intelligens, in illo signo 
+      <lb ed="#L" n="7"/>est emanatio verbi, non est enim perfecta 
+      intel<lb ed="#L" break="no" n="8"/>lectio, donec verbum emanet, sed ordine 
+      ratio<lb ed="#L" break="no" n="9"/>nis, Pater praeconcipitur intelligens, quam volens, 
+      <lb ed="#L" n="10"/>vel complacens, ergo in illo signo 
+      praeconcipi<lb ed="#L" break="no" n="11"/>tur emanatio verbi, &amp; ita praecedit 
+      commu<lb ed="#L" break="no" n="12"/>nem actum voluntatis, &amp; placebit productio vo 
+      <lb ed="#L" n="13"/>luntate subsequente secundum rationem. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1452">
+                  <lb ed="#L" n="14"/>Alij vero dixerunt, quod immo omnis volitio 
+      <lb ed="#L" n="15"/>praecedit in Patre personam verbi. Pater enim 
+      <lb ed="#L" n="16"/>praeintelligitur Filio in aliquo priori, sed in illo 
+      <lb ed="#L" n="17"/>esset perfectio simpliciter: tum quia aliter non 
+      <lb ed="#L" n="18"/>communicaret Filio, nisi praehaberet, cum nemo 
+      <lb ed="#L" n="19"/>det quod non habet: tum quia perfectio aliqua 
+      <lb ed="#L" n="20"/>accrescerot sibi ex Filij productione, quod non 
+      <lb ed="#L" n="21"/>est ponendum. ergo omnis volitio praecedit in 
+      <lb ed="#L" n="22"/>Patre productionem verbi, &amp; per consequens 
+      Pa<lb ed="#L" break="no" n="23"/>ter complacet in Filio voluntate antecedente. 
+      <lb ed="#L" n="24"/>Sed isti modi dicendi non videntur posse stare. 
+      <lb ed="#L" n="25"/>dicendum est enim, quod nec volitio antecedit 
+      <lb ed="#L" n="26"/>verbi productionem, nec verbi productio 
+      antece<lb ed="#L" break="no" n="27"/>dit volitionem, sed omnino sunt simul: potest 
+      <lb ed="#L" n="28"/>autem ista simultas referri ad simultatem 
+      dura<lb ed="#L" break="no" n="29"/>tionis, &amp; simultatem originis, &amp; ad simultatem 
+      <lb ed="#L" n="30"/>intelligentiae naturalis. Et de simultate quidem 
+      <lb ed="#L" n="31"/>durationis nullum est dubium, de simultate 
+      au<lb ed="#L" break="no" n="32"/>tem originis, quod non praecedat volitio, contra 
+      <lb ed="#L" n="33"/>modum secundum, nec praecedat productio, 
+      con<lb ed="#L" break="no" n="34"/>tra id, quod dicit modus primus, ex hoc 
+      appa<lb ed="#L" break="no" n="35"/>ret. vbicumque enim est accipere aliquid praece 
+      <lb ed="#L" n="36"/>dens, &amp; consequens, ibi est accipere aliquid, in 
+      <lb ed="#L" n="37"/>quo illud praecedit, &amp; illud consequitur, sed prin 
+      <lb ed="#L" n="38"/>cipium originis, siue principiatum, non dicunt 
+      <lb ed="#L" n="39"/>signum, in quo, sed, ex quo, ordo enim originis 
+      <lb ed="#L" n="40"/>non attenditur nisi penes habitudines, vt aliquo, 
+      <lb ed="#L" n="41"/>aliquis, &amp; qui ab alio, secundum quod August. di 
+      <lb ed="#L" n="42"/>cit contra Maximinum. quod cum dicitur Filius a 
+      <lb ed="#L" n="43"/>Patre genitus, non ostenditur inaequalitas 
+      sub<lb ed="#L" break="no" n="44"/>stantiae; sed ordo naturae, non quo alter sit prior 
+      <lb ed="#L" n="45"/>altero, sed quo alter est ex altero. ergo inter 
+      Pa<lb ed="#L" break="no" n="46"/>trem, &amp; Filium, &amp; ea, quae sunt in Patre, &amp; Filio, 
+      <lb ed="#L" n="47"/>non potest esse praecessio, vel subsecutio 
+      secun<lb ed="#L" break="no" n="48"/>dum originem. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1530">
+                  <lb ed="#L" n="49"/>Et confirmatur, quia non est aliud primum 
+      <lb ed="#L" n="50"/>origine, nisi esse ex se, secundum vero esse ex alio, 
+      <lb ed="#L" n="51"/>sic ergo omnia habet Pater a se, non tamen in 
+      <lb ed="#L" n="52"/>aliquo priori Filius habet a Patre, nec in aliquo 
+      <lb ed="#L" n="53"/>posteriori, sed simul, &amp; in eodem signo, quo 
+      Pa<lb ed="#L" break="no" n="54"/>ter habet a se, Filius habet a Patre. De 
+      simulta<lb ed="#L" break="no" n="55"/>te autem naturalis intelligentiae, etiam cito 
+      pa<lb ed="#L" break="no" n="56"/>tet. conceptus namque Patris in Deitate 
+      perfe<lb ed="#L" break="no" n="57"/>cti, est simul intelligentia naturali cum conceptu 
+      <lb ed="#L" n="58"/>Filij perfecti. impossibile est enim intelligi 
+      Pa<lb ed="#L" break="no" n="59"/>trem, quin intelligatur simul generare, cum 
+      Pa<lb ed="#L" break="no" n="60"/>ter constituatur formaliter per generare, impos 
+      <lb ed="#L" n="61"/>sibile est autem concipi generare, quin concipiatur 
+      <lb ed="#L" n="62"/>generari: generari autem concipi non potest, 
+      <lb ed="#L" n="63"/>quin concipiatur genitus, &amp; ita concipi non po-- 
+      <lb ed="#L" n="64"/>test, quin simul Filius concipiatur, secundum, 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1567">
+                  <lb ed="#L" n="65"/>Adhuc impossibile est intelligi patrem 
+      perfe<lb ed="#L" break="no" n="66"/>quod in praedicamentis dicit Philosophus, 
+      rela<lb ed="#L" break="no" n="67"/>tiua esse simul naturali intelligentia. 
+      <!--0238.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>ctum, quin intelligatur Filius perfectus: tum quia 
+      <lb ed="#L" n="69"/>perfectus Pater, per generare communicat Fi 
+      <lb ed="#L" n="70"/>lio totam suam perfectionem, &amp; in hoc consistit 
+      per<lb ed="#L" break="no" n="71"/>fectio ipsius generare, quod genitus accipiat per 
+      <lb ed="#L" n="72"/>ipsum generare totam perfectionem generantis, 
+      <lb ed="#L" n="73"/>tum quia in Diuinis hoc speciale est, quod non distin 
+      <lb ed="#L" n="74"/>guuntur nisi per generare, &amp; generari, &amp; in 
+      omni<lb ed="#L" break="no" n="75"/>bus aliis perfectionibus sunt idem. Sed constat, quod 
+      <lb ed="#L" n="76"/>in conceptu perfecti Patris, includitur volitio, &amp; 
+      <lb ed="#L" n="77"/>omnis perfectio simpliciter. non enim 
+      potestin<lb ed="#L" break="no" n="78"/>telligi Pater esse perfectus simpliciter, si careat 
+      <lb ed="#L" n="79"/>volitione. ergo relinquitur, quod conceptus 
+      Fi<lb ed="#L" break="no" n="80"/>lij perfecti simul sit cum volitione, ita, vt nec vo 
+      <lb ed="#L" n="81"/>litio Patris praecedat conceptum productionis 
+      <lb ed="#L" n="82"/>Filij, nec conceptus productionis Filij 
+      conce<lb ed="#L" break="no" n="83"/>ptum volitionis. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1615">
+                  <lb ed="#L" n="84"/>Praeterea: Non habet maiorem praecisionem 
+      <lb ed="#L" n="85"/>volitio, vel quaecumque perfectio simpliciter po 
+      <lb ed="#L" n="86"/>sita in Diuinis, quam habeat Deitas ipsa, seu 
+      Di<lb ed="#L" break="no" n="87"/>uina essentia; sed probatum est supra, quod conce 
+      <lb ed="#L" n="88"/>ptus Deitatis praescindi non potest a tribus 
+      pro<lb ed="#L" break="no" n="89"/>prietatibus, &amp; per consequeus nec a tribus 
+      per<lb ed="#L" break="no" n="90"/>sonis, immo simul est naturali intelligentia, 
+      fimi<lb ed="#L" break="no" n="91"/>liter etiam nulla proprietas intelligi potest sine 
+      <lb ed="#L" n="92"/>Deitate. ergo nec volitio poterit concipi sine 
+      <lb ed="#L" n="93"/>tribus, nec aliquis trium sine volitione. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1640">
+                  <lb ed="#L" n="94"/>Est ergo sic concipiendum, quod in 
+      quocum<lb ed="#L" break="no" n="95"/>que signo originis intelligitur Pater, in codem 
+      in<lb ed="#L" break="no" n="96"/>telligitur Filius, &amp; in quo cumque intelligitur vo 
+      <lb ed="#L" n="97"/>litio in Patre, in eodem de necessitate 
+      intelligi<lb ed="#L" break="no" n="98"/>tur volitio in Filio, nisi quod Pater intelligitur 
+      <lb ed="#L" n="99"/>habere in illo signo a se, Filius vero in eodem 
+      si<lb ed="#L" break="no" n="100"/>gno, sed non a se, sed a Patre. Similiter qumodo 
+      <lb ed="#L" n="101"/>cumque in eodem in quo intelligitur Filius 
+      per<lb ed="#L" break="no" n="102"/>fectus, in eodem signo intelligitur habere omnem 
+      <lb ed="#L" n="103"/>perfectionem, sed a Patre, ut sic apparet, quod 
+      <lb ed="#L" n="104"/>nec uolitio, nec acceptatio productionis praecon 
+      <lb ed="#L" n="105"/>cipitur ipsi productioni, nec productio 
+      praeintel<lb ed="#L" break="no" n="106"/>ligitur acceptationi. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1671">
+                  <lb ed="#L" n="107"/>Nec ualet, si dicatur, quod Pater potest 
+      conci<lb ed="#L" break="no" n="108"/>pi intelligens absque hoc, quod concipiatur 
+      uo<lb ed="#L" break="no" n="109"/>lens, &amp; sic conciperetur etiam filius intelligens, 
+      <lb ed="#L" n="110"/>&amp; productus, per consequens absque hoc, quod 
+      <lb ed="#L" n="111"/>intelligatur Pater uolens: siquidem hoc non 
+      ua<lb ed="#L" break="no" n="112"/>let, tum quia secus est de hoc, quod oritur ex 
+      no<lb ed="#L" break="no" n="113"/>stro modo intelligendi in uia, &amp; quod oritur ex na 
+      <lb ed="#L" n="114"/>tura intelligibilitatis Diuinae, loquimur enim hic 
+      <lb ed="#L" n="115"/>de modo, quo aptus natus est intelligi simul 
+      Pa<lb ed="#L" break="no" n="116"/>ter cum Filio, &amp; omnis perfectio in utroque 
+      <lb ed="#L" n="117"/>tum quia si concipitur Pater sine uolitione intel 
+      <lb ed="#L" n="118"/>ligens, apparet, quod concipitur imperfecte, 
+      <lb ed="#L" n="119"/>nec sic Deus habens omnem perfectionem; &amp; per 
+      <lb ed="#L" n="120"/>hoc patet, quod non procedit ratio primae 
+      posi<lb ed="#L" break="no" n="121"/>tionis. intelligere enim perfectum in Patre inclu 
+      <lb ed="#L" n="122"/>dit obiectum intelligibile perfectum. non enim 
+      <lb ed="#L" n="123"/>Pater perfecte intelligit, nisi intelligat se, &amp; 
+      om<lb ed="#L" break="no" n="124"/>nem perfectionem, &amp; per consequens uolitionem 
+      <lb ed="#L" n="125"/>suam. si ergo uerbum intelligitur, tunc 
+      produ<lb ed="#L" break="no" n="126"/>ctum, simul erit conceptus uolitionis, &amp; ipsa 
+      <lb ed="#L" n="127"/>productio, &amp; ita uolitio, nec sequitur 
+      produ<lb ed="#L" break="no" n="128"/>ctionem uerbi, ordine rationis. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1721">
+                  <lb ed="#L" n="129"/>Non ualet etiam si dicatur, quod Pater ideo 
+      <lb ed="#L" n="130"/>praehabet uolitionem, quia illam communicat, 
+      <lb ed="#L" n="131"/>non praehabet enim eam in aliquo priori, aut in 
+      <lb ed="#L" n="132"/>aliquo signo, immo in eodem signo habet Filius 
+      <lb ed="#L" n="133"/>eam: habet tamen a se Pater, &amp; Filius a Patre, &amp; 
+      <lb ed="#L" n="134"/>per hoc patet ad rationem secundae positionis. 
+      <!--0239.xml-->
+      <pb ed="#L" n="239"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Sic ergo tenendum est cum Magistro, quod 
+      Pa<lb ed="#L" break="no" n="2"/>ter genuit Filium volens, voluntate 
+      concomi<lb ed="#L" break="no" n="3"/>tante, &amp; simultanea, simultate durationis, &amp; 
+      <lb ed="#L" n="4"/>originis, &amp; naturalis intelligentiae, &amp; 
+      omnimo<lb ed="#L" break="no" n="5"/>dae rationis. Et hoc sufficiat de secundo Art. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c75609-Dd1e1755">
+               <head xml:id="ol96b1-c75609-Hd1e1757">Articulus 3</head>
+               <p xml:id="ol96b1-c75609-d1e1759">
+                  <lb ed="#L" n="6"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1764">
+                  <lb ed="#L" n="7"/>An filius producatur necessitate complacentiae, 
+      <lb ed="#L" n="8"/>seu concomitante. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1771">
+                  <lb ed="#L" n="9"/>CIRCA tertium autem considerandum est, 
+      <lb ed="#L" n="10"/>quod necessitas accipi potest tripliciter. 
+      <lb ed="#L" n="11"/>Primo quidem necessitas indigentiae, vel ad 
+      <lb ed="#L" n="12"/>conseruandum bonum, quod quis habet, vt cibus 
+      <lb ed="#L" n="13"/>necessarius est animali, vel ad procurandum 
+      bo<lb ed="#L" break="no" n="14"/>num, quod non habet, vt nauigatio est necessaria 
+      <lb ed="#L" n="15"/>mercatori, &amp; ad hunc modum necessitatis 
+      redu<lb ed="#L" break="no" n="16"/>cuntur primi duo, quos Philos. ponit 5. Metaph. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1791">
+                  <lb ed="#L" n="17"/>Secundo vero necessitas violentiae in 
+      natura<lb ed="#L" break="no" n="18"/>libus quidem, vt cum lapis iacitur sursum, in vo 
+      <lb ed="#L" n="19"/>luntariis vero, vt cumi rex cogit seruum, &amp; in 
+      <lb ed="#L" n="20"/>intellectualibus, vt cum aliqua ratio cogit 
+      intel<lb ed="#L" break="no" n="21"/>lectum contrarie opinantis, &amp; tale necessarium 
+      <lb ed="#L" n="22"/>est contristabile, vt dicitur 5. Metaphysicae, &amp; 
+      <lb ed="#L" n="23"/>ad hoc reducitur tertius modus necessitatis 
+      ibi<lb ed="#L" break="no" n="24"/>dem positus. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1812">
+                  <lb ed="#L" n="25"/>Tertio vero dicitur necessitas opposita 
+      con<lb ed="#L" break="no" n="26"/>tingentiae, quae appellatur necessitas 
+      immutabi<lb ed="#L" break="no" n="27"/>litatis, &amp; est quartus, &amp; principalis modus, qui 
+      <lb ed="#L" n="28"/>ponitur in quinto r &amp; definitur, quod necessarium 
+      <lb ed="#L" n="29"/>est illud, quod est impossibile aliter inueniri, vel 
+      <lb ed="#L" n="30"/>aliter se habere, aut transmutari: oritur autem 
+      <lb ed="#L" n="31"/>prima necessitas ex fine. secunda vero ex efficien 
+      <lb ed="#L" n="32"/>te. tertia quoque ex materia, &amp; forma, sed illa, 
+      <lb ed="#L" n="33"/>quae est ex materia transmutari potest, vt 
+      appa<lb ed="#L" break="no" n="34"/>ret in naturalibus, quae autem ex forma, est 
+      om<lb ed="#L" break="no" n="35"/>nimoda necessitas, vt patet in Mathematicis. 
+      <lb ed="#L" n="36"/>Ad propositum ergo de productione Filij a pa 
+      <lb ed="#L" n="37"/>tre dicendum, quod non producitur necessario, 
+      <lb ed="#L" n="38"/>loquendo de necessitate, violentiam inferente, 
+      <lb ed="#L" n="39"/>tum quia nec violentatur natura, cum 
+      produ<lb ed="#L" break="no" n="40"/>ctio omnino sit a se non elicita: tum quia 
+      volun<lb ed="#L" break="no" n="41"/>tas complacentiae omnino concomitatur Patrem, 
+      <lb ed="#L" n="42"/>vt declaratum est supra, de aliis non 
+      necessitati<lb ed="#L" break="no" n="43"/>bus formandae sunt duae propositiones. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1856">
+                  <lb ed="#L" n="44"/>Quod Filius producitur necessitate opposita 
+      con<lb ed="#L" break="no" n="45"/>tingentiae, quae est immutabilitas.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1863">
+                  <lb ed="#L" n="46"/>PRIMA quidem, quod Filius producitur in 
+      <lb ed="#L" n="47"/>Diuinis necessitate immutabilitatis, quae op 
+      <lb ed="#L" n="48"/>ponitur contingentiae, productum namque 
+      ne<lb ed="#L" break="no" n="49"/>cessarium, &amp; impossibile aliter se habere, 
+      produ<lb ed="#L" break="no" n="50"/>citur necessitate, omnem contingentiam 
+      exclu<lb ed="#L" break="no" n="51"/>dente. impossibile est enim productionem 
+      habe<lb ed="#L" break="no" n="52"/>re aliquam contingentiam, quin productum 
+      aliqua<lb ed="#L" break="no" n="53"/>liter sit contingens, sed Filius in Diuinis est 
+      om<lb ed="#L" break="no" n="54"/>nino necesse esse, nec aliqualiter contingens, alias 
+      <lb ed="#L" n="55"/>non esset neus. ergo productio est necessaria, &amp; 
+      im<lb ed="#L" break="no" n="56"/>mutabilis, &amp; omnem contingentiam excludens. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1889">
+                  <lb ed="#L" n="57"/>Praeterea: Attribuendum est Patri in 
+      producen<lb ed="#L" break="no" n="58"/>do, quidquid est perfectionis, &amp; auferendum 
+      <lb ed="#L" n="59"/>quidquid est imperfectionis, sed contingentia 
+      im<lb ed="#L" break="no" n="60"/>perfectionem importat. necessitas enim est 
+      per<lb ed="#L" break="no" n="61"/>etio simpliciter. ergo Pater in producendo 
+      ha<lb ed="#L" break="no" n="62"/>ber omnem necessitatem contingentiam excludentem. 
+      <!--0239.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>Praeterea: Pater immutabiliter est Pater: sed 
+      <lb ed="#L" n="64"/>pater est per generare. ergo generare est 
+      immu<lb ed="#L" break="no" n="65"/>tabile in Diuinis, &amp; per consequens generari, &amp; 
+      <lb ed="#L" n="66"/>Filius generatus. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1918">
+                  <lb ed="#L" n="67"/>Praeterea: Omnis res a se elicita, &amp; penitus im 
+      <lb ed="#L" n="68"/>producta est immutabilis, nec aliquam contingem 
+      <lb ed="#L" n="69"/>tiam habens. nullum enim contingens est a se, 
+      <lb ed="#L" n="70"/>sed probatum est supra, quod generare non 
+      <lb ed="#L" n="71"/>est aliquid elicitum. ergo est necosse esse; &amp; per 
+      <lb ed="#L" n="72"/>consequens Filius est productus 
+      productione<lb ed="#L" break="no" n="73"/>necessaria.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1936">
+                  <lb ed="#L" n="74"/>Quod Filius producitur quodammodo necessitate 
+      <lb ed="#L" n="75"/>indigentiae. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1944">
+                  <lb ed="#L" n="76"/>SECVNDA vero propositio est, quod Filius 
+      <lb ed="#L" n="77"/>producitur aliquo modo necessitate indigen 
+      <lb ed="#L" n="78"/>tiae. Ad cuius euidentiam considerandum est, 
+      <lb ed="#L" n="79"/>quod aliqui dicere voluerunt, quod filius 
+      produ<lb ed="#L" break="no" n="80"/>citur necessitate indigentiae, pro eo, quod actus 
+      <lb ed="#L" n="81"/>intelligendi patris, non esset perfectus, nisi 
+      produ<lb ed="#L" break="no" n="82"/>ceret Filium. nulla enim intellectio perfecta est, 
+      <lb ed="#L" n="83"/>nisi habeat terminum; sed verbum est terminus 
+      <lb ed="#L" n="84"/>intellectualis operationis. ergo non est perfecta 
+      <lb ed="#L" n="85"/>intellectio, nisi terminetur ad verbum 
+      produ<lb ed="#L" break="no" n="86"/>ctum: sic ergo verbum perficit intellectionem 
+      <lb ed="#L" n="87"/>trium suppositorum, &amp; ita Pater producit Filium 
+      <lb ed="#L" n="88"/>necessitate indigentiae, quia aliter non esset perfe 
+      <lb ed="#L" n="89"/>cta intelligentia in Diuinis.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e1977">
+                  <lb ed="#L" n="90"/>Alij vero dixerunt totaliter oppositum: tum 
+      <lb ed="#L" n="91"/>quia intellectio est perfectio simpliciter, sicut bo 
+      <lb ed="#L" n="92"/>nitas, &amp; sapientia, sed si per impossibile 
+      ponere<lb ed="#L" break="no" n="93"/>tur, quod Filius non esset, adhuc pater esset bonus, 
+      <lb ed="#L" n="94"/>&amp; sapiens. ergo similiter intelligens perfecte: tum 
+      <lb ed="#L" n="95"/>quia secundum hoc Pater a Filio acquireret 
+      per<lb ed="#L" break="no" n="96"/>fectionem: tum quia in illo priori, quo Pater 
+      prae<lb ed="#L" break="no" n="97"/>cedit Filium, paterna intellectio non perficitur 
+      <lb ed="#L" n="98"/>per verbum. habet ergo in illo priori 
+      intellectio<lb ed="#L" break="no" n="99"/>nem imperfectam. talem autem communicat 
+      Fi<lb ed="#L" break="no" n="100"/>lio, qualem in illo priori habet, &amp; per consequens 
+      <lb ed="#L" n="101"/>in Filio erit intellectio imperfecta. dicunt ergo 
+      <lb ed="#L" n="102"/>isti, quod nullam perfectionem acquirit Pater 
+      <lb ed="#L" n="103"/>a Filio, propter quod non eget eo, vnde non 
+      pro<lb ed="#L" break="no" n="104"/>ducit eum necessitate indigentiae alicuius. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2012">
+                  <lb ed="#L" n="105"/>Sed vterque istorum modorum loquitur 
+      excessi<lb ed="#L" break="no" n="106"/>ue, vnde mediari oportet. potest enim esse 
+      indi<lb ed="#L" break="no" n="107"/>gentia obiectiua, vel indigentia formalis, 
+      forma<lb ed="#L" break="no" n="108"/>lis quidem sicut lignum indiget albedine, si 
+      de<lb ed="#L" break="no" n="109"/>beat disgregare: obiectiua vero sicut Pater 
+      indi<lb ed="#L" break="no" n="110"/>get filio in humanis, si debeat esse Pater, non 
+      qui<lb ed="#L" break="no" n="111"/>dem formaliter, sed tantum obi ecto, &amp; termino.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2030">
+                  <lb ed="#L" n="112"/>Ad propositum ergo, patrem egere filio 
+      tam<lb ed="#L" break="no" n="113"/>quam formali perfectiuo impossibile est, egere 
+      <lb ed="#L" n="114"/>tamen illo tamquam termino suae perfectionis, 
+      <lb ed="#L" n="115"/>necessitatis est, quod patet multipliciter. quod 
+      <lb ed="#L" n="116"/>enim non repugnat patri quantum ad esse patrem, 
+      <lb ed="#L" n="117"/>siue quantum ad esse, non videtur sibi repugnare 
+      <lb ed="#L" n="118"/>quantum ad bene esse, sed egere filio quoad esse 
+      <lb ed="#L" n="119"/>patrem, non repugnat patri, immo pater in esse 
+      <lb ed="#L" n="120"/>patrem necessario eget filio, tamquam termino. 
+      <lb ed="#L" n="121"/>si enim filius non esset, pater non esset, quia non 
+      <lb ed="#L" n="122"/>potest nec esse, nec intelligi sine termino. ergo 
+      <lb ed="#L" n="123"/>non repugnat patri, quoad bene esse, &amp; secundas 
+      <lb ed="#L" n="124"/>perfectiones egere filio tamquam termino. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2061">
+                  <lb ed="#L" n="125"/>Praeterea: Omnis intellectio actualis eget 
+      tam<lb ed="#L" break="no" n="126"/>quam termino, intellectione obiectiua. impossi 
+      <lb ed="#L" n="127"/>bile est enim rem intelligi, nisi ponatur in esse ap 
+      <!--0240.xml-->
+      <pb ed="#L" n="240"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>parenti, &amp; cognito obiectiue, sed verbum in 
+      Di<lb ed="#L" break="no" n="2"/>uinis non est aliud, quam Diuina essentia a Deo 
+      <lb ed="#L" n="3"/>cognita, posita in esse apparenti, &amp; cognito 
+      ob<lb ed="#L" break="no" n="4"/>iectiue. ergo intellectio Diuina, siue sit in Patre, 
+      <lb ed="#L" n="5"/>siue in Filio, siue in Spiritu sancto eget verbo, 
+      <lb ed="#L" n="6"/>tamquam termino obiectiuo.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2090">
+                  <lb ed="#L" n="7"/>Praeterea: Magis repugnat Deo egere creatu 
+      <lb ed="#L" n="8"/>ris, quam egere Diuino supposito, sed nisi 
+      intel<lb ed="#L" break="no" n="9"/>lectio omnis Diuina terminetur ad Verbum, 
+      tam<lb ed="#L" break="no" n="10"/>quam ad illud, quod de omni recolligitur 
+      obie<lb ed="#L" break="no" n="11"/>ctiue, necesse est ponere, quod intellectio 
+      Diui<lb ed="#L" break="no" n="12"/>na egeat creaturis. si enim Diuina intellectio fer l 
+      <lb ed="#L" n="13"/>tur super rofam, attingit eam in ratione 
+      termi<lb ed="#L" break="no" n="14"/>ni, &amp; ea non existente oportet, quod sit in 
+      pro<lb ed="#L" break="no" n="15"/>spectu Diuino in esse apparenti, ita quod si non 
+      <lb ed="#L" n="16"/>sit in prospectu, intellectio Diuina non erit de 
+      <lb ed="#L" n="17"/>rosa; &amp; per consequens indigebit creatura in 
+      <lb ed="#L" n="18"/>ratione termini. ergo vt creatura non egeat, 
+      ne<lb ed="#L" break="no" n="19"/>cesse est, vt rosa apparens sit illud ipsum, quod 
+      <lb ed="#L" n="20"/>verbum; &amp; per consequens Diuina intellectio 
+      <lb ed="#L" n="21"/>verbo indiget per modum termini, &amp; obiecti.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2126">
+                  <lb ed="#L" n="22"/>Est ergo considerandum, quod sicut non est, 
+      <lb ed="#L" n="23"/>nisi vnica intellectio in Diuinis, sic non est, nisi 
+      <lb ed="#L" n="24"/>vnicum conspicuum, &amp; apparens omnis rei, ita 
+      <lb ed="#L" n="25"/>quod est Diuina essentia, vt apparens, &amp; omnis 
+      <lb ed="#L" n="26"/>res posita in esse apparenti, quod quidem sic 
+      po<lb ed="#L" break="no" n="27"/>situm, est verbum essentiae. &amp; omnis rei, vnde non 
+      <lb ed="#L" n="28"/>est aliud verbum in Diuinis, nisi illud, quod 
+      col<lb ed="#L" break="no" n="29"/>ligitur, vel colligit Diuinus intellectus de se, &amp; 
+      <lb ed="#L" n="30"/>omni creatura, &amp; ponit in esse formato, illud au 
+      <lb ed="#L" n="31"/>tem sic positum non perficit intellectionem 
+      for<lb ed="#L" break="no" n="32"/>maliter, sed intellectio perfecta eget 
+      necessa<lb ed="#L" break="no" n="33"/>rio eo, vt termino, &amp; sic saluatur verbum 
+      <lb ed="#L" n="34"/>Philosophi, quod Deus nihil intelligit extra se 
+      <lb ed="#L" n="35"/>in ratione termini, quia indiget aliquo extra 
+      <lb ed="#L" n="36"/>se: Pater autem Diuinus, &amp; si non indiget aliquo 
+      <lb ed="#L" n="37"/>extra Deum, indiget tamen Deo Filio, &amp; in esse 
+      <lb ed="#L" n="38"/>Patrem, &amp; in esse intelligentem, non quod 
+      perfi<lb ed="#L" break="no" n="39"/>ciatur per filium, sed quia perfectio, quam habet 
+      <lb ed="#L" n="40"/>terminatur ad filium.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2170">
+                  <lb ed="#L" n="41"/>Sic ergo patet, quod prima opinio 
+      excessiue<lb ed="#L" break="no" n="42"/>loquitur dicendo, quod intellectio Diuina 
+      per<lb ed="#L" break="no" n="43"/>ficiatur per Filium. non enim perficitur, sed perfe 
+      <lb ed="#L" n="44"/>cta existens indiget Filio. Ex secunda similiter, 
+      <lb ed="#L" n="45"/>quia dicit, quod intellectio paterna nullo modo 
+      <lb ed="#L" n="46"/>indiget verbo, nec motiua procedunt. licet 
+      e<lb ed="#L" break="no" n="47"/>nim bonitas non connotet filium, connotatur ta 
+      <lb ed="#L" n="48"/>men intellectio, &amp; sapientia verbum, quia 
+      con<lb ed="#L" break="no" n="49"/>notat cognitum, &amp; esse prospectum, quamuis 
+      e<lb ed="#L" break="no" n="50"/>tiam perfectio paterna egeat Filio, non tamen 
+      <lb ed="#L" n="51"/>accipit perfectionem a filio, sic nec esse patrem, 
+      <lb ed="#L" n="52"/>pater etiam in nullo priori habet intellectionem 
+      <lb ed="#L" n="53"/>sine verbo. in illo enim signo originis, in quo 
+      in<lb ed="#L" break="no" n="54"/>telligitur Pater, intelligitur filius, pater quidem 
+      <lb ed="#L" n="55"/>a se, &amp; intelligens, &amp; subsistens: filius autem a 
+      pa<lb ed="#L" break="no" n="56"/>tre, propter quod in illo signo semper adest filius 
+      <lb ed="#L" n="57"/>obiectiue respectu intellectionis, sicut &amp;termina 
+      <lb ed="#L" n="58"/>tiue respectu paternitatis, &amp; in hoc patet propo 
+      <lb ed="#L" n="59"/>sitio praemissa. pater enim genuit Filium, non 
+      <lb ed="#L" n="60"/>vt aliquam perfectionem acquireret, sed 
+      perfe<lb ed="#L" break="no" n="61"/>ctio paterna coindiget Filio in essendo. &amp; hic ter 
+      <lb ed="#L" n="62"/>tius articulus finitur. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2220">
+                  <lb ed="#L" n="63"/>Responsio ad obiecta primo.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2225">
+                  <lb ed="#L" n="64"/>AD ea vero, quae superius primitus 
+      inducun<lb ed="#L" break="no" n="65"/>tur, dicendum est. Ad primum quidem, 
+      <!--0240.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>quod nec natura, nec intellectu pater genuit ver 
+      <lb ed="#L" n="67"/>bum; tamquam principio productiuo, sed quia 
+      <lb ed="#L" n="68"/>productio ipsa intellectualis est, &amp; naturalis; 
+      co<lb ed="#L" break="no" n="69"/>incidit autem iste modus cum illo, quia sicut na 
+      <lb ed="#L" n="70"/>turalis productio est illa, quae est productiua fimi 
+      <lb ed="#L" n="71"/>litudinis, &amp; imaginis intra producentem, sic &amp; 
+      <lb ed="#L" n="72"/>ista intellectualis est, vt dictum est in corpore 
+      <lb ed="#L" n="73"/>quaestionis.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2254">
+                  <lb ed="#L" n="74"/>Ad secundum dicendum, quod licet natura, &amp; 
+      <lb ed="#L" n="75"/>essentia in vno modo significationis sint idem, 
+      <lb ed="#L" n="76"/>non tamen in aliis, vt patet 5. Metaph. natura 
+      <lb ed="#L" n="77"/>enim addit ad essentiam rationem productiui, 
+      <lb ed="#L" n="78"/>&amp; propter hoc non potest concedi, quod 
+      produ<lb ed="#L" break="no" n="79"/>ctio. Filij sit essentialis, quamuis concedatur, 
+      <lb ed="#L" n="80"/>quod est naturalis. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2272">
+                  <lb ed="#L" n="81"/>Ad tertium dicendum, quod aequiuocatur de 
+      <lb ed="#L" n="82"/>natura. non enim dicitur hic naturalis 
+      produ<lb ed="#L" break="no" n="83"/>ctio illa, quae fit per motum, sed illa, quae est cau 
+      <lb ed="#L" n="84"/>satiua imaginis intra producentem. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2284">
+                  <lb ed="#L" n="85"/>Ad quartum dicendum, quod actiones, prout 
+      <lb ed="#L" n="86"/>diuiduntur contra intellectuales non sunt 
+      nobi<lb ed="#L" break="no" n="87"/>lisfimae: prout autem intellectualis productio di 
+      <lb ed="#L" n="88"/>citur naturalis, ratione tacta superius, 
+      produ<lb ed="#L" break="no" n="89"/>ctio naturalis potest nobilissima dici. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2297">
+                  <lb ed="#L" n="90"/>Ad quintum dicendum, quod Hilarius intelli 
+      <lb ed="#L" n="91"/>git per naturalem necessitatem compulsionem 
+      <lb ed="#L" n="92"/>aliquam, quae nullo modo fuit ibi. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2306">
+                  <lb ed="#L" n="93"/>Ad obiecta secundo.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2311">
+                  <lb ed="#L" n="94"/>AD ea vero, quae secundario inducuntur, 
+      <lb ed="#L" n="95"/>A dicendum est. Ad primum quidem, quod 
+      <lb ed="#L" n="96"/>producere voluntarie non est nobilior, quam 
+      pro<lb ed="#L" break="no" n="97"/>ducere intellectualiter , vnde esse amantis 
+      spiri<lb ed="#L" break="no" n="98"/>tum non est nobilius, quam esse conspicuum, &amp; 
+      <lb ed="#L" n="99"/>prospectum. ista enim esse non dicunt 
+      perfectio<lb ed="#L" break="no" n="100"/>nem simpliciter, &amp; si dicatur, quod ratio intelle 
+      <lb ed="#L" n="101"/>ctus est nobilior, quam ratio voluntatis, quia vo 
+      <lb ed="#L" n="102"/>luntas est nobilior potentia, quam intellectus, di 
+      <lb ed="#L" n="103"/>cendum, quod ratio intellectiuae potentiae, aut 
+      <lb ed="#L" n="104"/>voluntatis non est in Deo, vt inferius apparebit; 
+      <lb ed="#L" n="105"/>sed rationes actuum subsistentium, puta 
+      intelli<lb ed="#L" break="no" n="106"/>gere subsistens, &amp; velle subsistens, &amp; si vlterius 
+      <lb ed="#L" n="107"/>proceditur, quod velle est nobilius, quam 
+      intel<lb ed="#L" break="no" n="108"/>ligere, dicendum, quod licet perfectionum sim 
+      <lb ed="#L" n="109"/>pliciter vna aliam non excedat, vel si excedit, 
+      <lb ed="#L" n="110"/>ita quod nobilior sit intellectio, quam 
+      simplici<lb ed="#L" break="no" n="111"/>tas, &amp; volitio, quam intellectio, nihilominus. 
+      <lb ed="#L" n="112"/>productio, qua Spiritus sanctus emanat, non est 
+      <lb ed="#L" n="113"/>nobilior productione verbi, nec econtrario, quia 
+      <lb ed="#L" n="114"/>nec ista intellectio, nec ista volitio. &amp; per hoc pa 
+      <lb ed="#L" n="115"/>tet ad secundum. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2361">
+                  <lb ed="#L" n="116"/>Ad tertium dicendum, quod verbum 
+      Aposto<lb ed="#L" break="no" n="117"/>li debet exponi pro filio dilectionis, hic estt filius 
+      <lb ed="#L" n="118"/>dilectus, vt non notetur voluntatis principiatio, 
+      <lb ed="#L" n="119"/>sed tantum acceptatio, &amp; complacentia summa, 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2372">
+                  <lb ed="#L" n="120"/>Ad quartum dicendum, quod Hilarius non 
+      in<lb ed="#L" break="no" n="121"/>telligit, quod pater mox, vt ex se voluit, 
+      vnige<lb ed="#L" break="no" n="122"/>nitum demonstrauit, quasi voluntate ipsum 
+      ge<lb ed="#L" break="no" n="123"/>nuerit, sed quia volens, &amp; complacens genuit vo 
+      <lb ed="#L" n="124"/>luntate concomitante, &amp; per idem patet ad 
+      con<lb ed="#L" break="no" n="125"/>firmationem. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2389">
+                  <lb ed="#L" n="126"/>Responsio ad obiecta tertio.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2394">
+                  <lb ed="#L" n="127"/>AD ea vero, quae tertio inducuntur, 
+      dicen<lb ed="#L" break="no" n="128"/>dum est. Ad primum quidem, quod neces- 
+      <!--0241.xml-->
+      <pb ed="#L" n="241"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sitari necessitate violentiae ignobilitatem impor 
+      <lb ed="#L" n="2"/>tat, sed non necessitate, quae opponitur 
+      con<lb ed="#L" break="no" n="3"/>tingentiae.
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2414">
+                  <lb ed="#L" n="4"/>Ad secundum dicendum, quod verbum 
+      ema<lb ed="#L" break="no" n="5"/>nat per modum artis, &amp; imaginis; non tamen 
+      <lb ed="#L" n="6"/>propter hoc pater exemplar est, quia exemplar 
+      <lb ed="#L" n="7"/>dicit similitudinem eminentem: pater autem 
+      <lb ed="#L" n="8"/>nullam eminentiam habet respectu filij, cum sit 
+      <lb ed="#L" n="9"/>penitus idem quoad omnem perfectionem, &amp; 
+      <lb ed="#L" n="10"/>quod additur, quod ea, quae procedunt modo 
+      ar<lb ed="#L" break="no" n="11"/>tis, procedunt voluntarie, dicendum, quod 
+      mo<lb ed="#L" break="no" n="12"/>do artis procedunt artificiata, &amp; illa procedunt 
+      <lb ed="#L" n="13"/>voluntariae, vt Philosophus dicit sexto Metaph. 
+      <lb ed="#L" n="14"/>quod artificiatum, &amp; volitum, sunt idem, modo, 
+      <lb ed="#L" n="15"/>etiam artis formaliter, qui est actus intelligendi 
+      <lb ed="#L" n="16"/>procedit ars obiectalis, quae est quidditas 
+      arti<lb ed="#L" break="no" n="17"/>ficiati, vt Philosoph. ait 7. Metaphys. ait enim 
+      <lb ed="#L" n="18"/>quod quidditas domus est in mente, &amp; de tali 
+      ar<lb ed="#L" break="no" n="19"/>te non est verum, quod procedat voluntarie, im- 
+      <!--0241.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>mo necessitate, nec procedit ex actuali 
+      intelle<lb ed="#L" break="no" n="21"/>ctione artificis. Filius ergo in Diuinis non 
+      pro<lb ed="#L" break="no" n="22"/>cedit, vt artificiatum, sed vt ars obiectiua, &amp; 
+      id<lb ed="#L" break="no" n="23"/>circo necessitate naturali. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2464">
+                  <lb ed="#L" n="24"/>Ad tertium dicendum, quod illud procedit 
+      <lb ed="#L" n="25"/>gratuite, quod acceptatur a voluntate concomi 
+      <lb ed="#L" n="26"/>tante, nec esse gratuitum est a bonitate. &amp; per 
+      <lb ed="#L" n="27"/>idem patet ad vltimum. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2475">
+                  <lb ed="#L" n="28"/>Responsio ad obiecta in oppositum. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2480">
+                  <lb ed="#L" n="29"/>AD ea vero, quae in oppositum inducuntur, 
+      <lb ed="#L" n="30"/>
+                  <!-- line coord error -->
+                  <lb ed="#L" n="31"/>dicendum est, quod verum concludunt, si 
+      <lb ed="#L" n="32"/>intelligatur, quod filius producitur natura, hoc 
+      <lb ed="#L" n="33"/>est productione naturali. 
+    </p>
+               <p xml:id="ol96b1-c75609-d1e2497">
+                  <lb ed="#L" n="34"/>Si vero natura, tamquam principio 
+      producti<lb ed="#L" break="no" n="35"/>uo, non verum concluderent, nec aliquo modo 
+      <lb ed="#L" n="36"/>inferrent istud.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="639"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-207524"> <!-- l1d28p1-prae -->
+            <head xml:id="ol96b1-207524-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-207524-d1e104">
+      <!--0639.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="38"/>QVOD NON TANTVM TRES PRAEDJCTAE 
+      <lb ed="#L" n="39"/>proprietates sunt in personis, sed etiam alia, quae alijs 
+      <lb ed="#L" n="40"/>significantur nominibus, vt ingenit. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e117">
+               <lb ed="#L" n="41"/>DISTINCTIO XYVIJJ.
+    </p>
+            <p xml:id="ol96b1-207524-d1e122">
+      <!--0639.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="42"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e132">
+               <lb ed="#L" n="43"/>PRAETEREA considerari 
+      opor<lb ed="#L" break="no" n="44"/>tet, &amp; c. Postquam Magister 
+      <lb ed="#L" n="45"/>determinauit de tribus 
+      pro<lb ed="#L" break="no" n="46"/>prietatibus personalibus cō 
+      <lb ed="#L" n="47"/>stitutiuis personarum, quae 
+      <lb ed="#L" n="48"/>prout visum est in multis 
+      <lb ed="#L" n="49"/>vocabulis exprimuntur; hic 
+      <lb ed="#L" n="50"/>agit de quadam 
+      proprieta<lb ed="#L" break="no" n="51"/>te natiua personae patris, quae dicitur innascibi 
+      <lb ed="#L" n="52"/>litas. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e156">
+               <lb ed="#L" n="53"/>Primo enim agit de ingenito, quod 
+      compe<lb ed="#L" break="no" n="54"/>tit patri. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e163">
+               <lb ed="#L" n="55"/>Secundo vero de sapientia nata, vel genita, 
+      <lb ed="#L" n="56"/>quae conuenit filio. secunda ibi: Sciendum quoque 
+      <lb ed="#L" n="57"/>est. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e172">
+               <lb ed="#L" n="58"/>Primo namque de proprietate, seu notione 
+      <lb ed="#L" n="59"/>ingeniti determinat. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e179">
+               <lb ed="#L" n="60"/>Secundo vero ex determinatis eliminat 
+      ver<lb ed="#L" break="no" n="61"/>sutiam Arrianam. secunda ibi: Illud autem 
+      ta<lb ed="#L" break="no" n="62"/>ceri non oportet. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e188">
+               <lb ed="#L" n="63"/>Circa primum tria facit. Primo enim 
+      deter<lb ed="#L" break="no" n="64"/>minat de proprietate, seu notione, quam 
+      desi<lb ed="#L" break="no" n="65"/>gnat ingenitus, dicens, quod alia notione 
+      di<lb ed="#L" break="no" n="66"/>citur pater ingenitus, &amp; alia pater, vel 
+      geni<lb ed="#L" break="no" n="67"/>tor: tum quia dato, quod non genuisset filium, 
+      <lb ed="#L" n="68"/>nil prohiberet ipsum dici ingenitum, &amp; etiam 
+      <lb ed="#L" n="69"/>e conuerso, non ex hoc, quod genuit est 
+      ingeni<lb ed="#L" break="no" n="70"/>tus. multi enim homines non generant, qui 
+      ge<lb ed="#L" break="no" n="71"/>niti sunt: tum quia inquantum genitor dicitur 
+      <lb ed="#L" n="72"/>ad filium, inquantum autem ingenitus non 
+      <lb ed="#L" n="73"/>dicitur ad ipsum, immo nec ad aliquid, sed 
+      or<lb ed="#L" break="no" n="74"/>do ad alterum, priorem se negatur. vnde 
+      geni<lb ed="#L" break="no" n="75"/>tus non significat, quid sit pater, sed quid non sit. 
+      <!--0639.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="76"/>Addit autem Magister, quod nihilominus 
+      dici<lb ed="#L" break="no" n="77"/>tur relatiue, sicut &amp; genitus, quia affirmatio, &amp; 
+      <lb ed="#L" n="78"/>negatio pertinent ad idem genus. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e231">
+               <lb ed="#L" n="79"/>Secundo ibi: Ideo solet. Magister agit de non 
+      ge<lb ed="#L" break="no" n="80"/>nito, dicens, quod consuetum est dubitari, an 
+      si<lb ed="#L" break="no" n="81"/>cut pater dicitur ingenitus, ita solus dici possit 
+      <lb ed="#L" n="82"/>non genitus, vel non filius. &amp; respondet Magister, 
+      <lb ed="#L" n="83"/>de aliquibus hoc videtur, scilicet, quod spiritus 
+      <lb ed="#L" n="84"/>sanctus, sicut non est ingenitus, ita dici non filius, 
+      <lb ed="#L" n="85"/>vel non genitus, quamuis credi debeat, quod nec 
+      <lb ed="#L" n="86"/>est filius, nec genitus. Aliis tamen videtur, &amp; me 
+      <lb ed="#L" n="87"/>lius, quod spiritus licet non possit dici ingenitus, 
+      <lb ed="#L" n="88"/>posset tamen congrue dici non genitus, vel non filius. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e255">
+               <lb ed="#L" n="89"/>Tertio ibi: Si autem vis scire. inquirit Magister 
+      <lb ed="#L" n="90"/>nomen proprietatis illius, secundum quam 
+      di<lb ed="#L" break="no" n="91"/>citur pater ingenitus, &amp; respondet, quod Aug. 
+      <lb ed="#L" n="92"/>&amp; Hilar. vocant eam innascibilitatem. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e266">
+               <lb ed="#L" n="93"/>Postmodum ibi: Illud autem taceri. Respondet 
+      Ma<lb ed="#L" break="no" n="94"/>gister cuidam versutiae Arrianae, &amp; facit duo. Pri 
+      <lb ed="#L" n="95"/>mo enim respondet argumento Arrianorum, qui 
+      vi<lb ed="#L" break="no" n="96"/>debantur patrem, &amp; filium alterius substantiae 
+      ostende<lb ed="#L" break="no" n="97"/>re, pro eo, quod ille ingenitus, &amp; iste genitus 
+      di<lb ed="#L" break="no" n="98"/>catur, &amp; respondet secundum Ambros. quod nomem 
+      <lb ed="#L" n="99"/>ingeniti numquam legitur in scripturis. Secundo ibi: 
+      <lb ed="#L" n="100"/>Praeterea quaeri solet. Respondet secundum veritatem, 
+      <lb ed="#L" n="101"/>dicens, quod iicut esse patrem, &amp; esse filium non 
+      in<lb ed="#L" break="no" n="102"/>ducit diuersitatem essentiae, sed aliam, &amp; aliam no 
+      <lb ed="#L" n="103"/>tionem, sic esse genitum, &amp; esse ingenitum. vnde cum ar 
+      <lb ed="#L" n="104"/>guebant Arriani, quod diuersum est esse genitum, 
+      <lb ed="#L" n="105"/>vel esse ingenitum. haec diuersitas debet intelligi 
+      <lb ed="#L" n="106"/>relatiua, &amp; non substantialis, &amp; haec est respõ. Aug. 
+    </p>
+            <p xml:id="ol96b1-207524-d1e299">
+               <lb ed="#L" n="107"/>Postmodum ibi: Sciendum quoque est. Agit Magister 
+      <lb ed="#L" n="108"/>de hoc nomine, sapientia nata, vel genita, quae 
+      so<lb ed="#L" break="no" n="109"/>li filio congruit. &amp; facit duo. Primo enim dicit, 
+      <lb ed="#L" n="110"/>quod sapientia genita eandem notionem importat, 
+      <!--0640.xml-->
+      <pb ed="#L" n="640"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quam verbum, &amp; imago, &amp; debet sic exponi, 
+      sa<lb ed="#L" break="no" n="2"/>pientia genita, quod filius est hypostasis genita, 
+      <lb ed="#L" n="3"/>quae vere est sapientia, non quod ipsa sapientia ge 
+      <lb ed="#L" n="4"/>neretur, sicut nec essentia, quemadmodum alias 
+      <lb ed="#L" n="5"/>dictum fuit, ex quo patet, quod verbum in diuinis 
+      <lb ed="#L" n="6"/>non emanat, vt intellectio actualis, quia tunc gene 
+      <lb ed="#L" n="7"/>raretur sapientia, &amp; intellectio ipsa. Secundo ibi: il 
+      <lb ed="#L" n="8"/>lud etiā. pro eo, quod locutus fuerat de imagine, 
+      <lb ed="#L" n="9"/>ostendit Magister, quod non sumitur relatiue 
+      <lb ed="#L" n="10"/>pro notione verbi, immo aliquando signisicat 
+      <lb ed="#L" n="11"/>substantiam, vt cum dicitur, homo factus ad 
+      <lb ed="#L" n="12"/>imaginem Dei. haec est sententia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="87"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c27398"> <!-- l1d1p2-prae -->
+            <head xml:id="ol96b1-c27398-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c27398-d1e104">
+      <!--0087.xml-->
+               <pb ed="#L" n="87"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Capitulum secundum.
+    </p>
+            <p xml:id="ol96b1-c27398-d1e115">
+               <lb ed="#L" n="2"/>
+               <quote xml:id="ol96b1-c27398-Qd1e119" type="lemma">NOTANDVM vero</quote>, &amp;c. Postquam 
+      praemi<lb ed="#L" break="no" n="3"/>sit Magister primam notificationem 
+      frui<lb ed="#L" break="no" n="4"/>tionis, &amp; vsus, in hac parte ponit secundam. Et 
+      <lb ed="#L" n="5"/>circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-c27398-d1e129">
+               <lb ed="#L" n="6"/>Primo enim notificationem ponit. 
+      <lb ed="#L" n="7"/>Secundo ex hac dubitationem inducit: 
+      <lb ed="#L" n="8"/>Tertio dubitationem dissoluit. Secunda ibi: 
+      <lb ed="#L" n="9"/>
+               <quote xml:id="ol96b1-c27398-Qd1e139" type="lemma">Et attende</quote>. Tertia ibi: <quote xml:id="ol96b1-c27398-Qd1e143" type="lemma">Haec ergo</quote>. quae sibi 
+      contra<lb ed="#L" break="no" n="10"/>dicere videtur. 
+    </p>
+            <p xml:id="ol96b1-c27398-d1e150">
+               <lb ed="#L" n="11"/>Dicit itaque primo, quod Augustinus aliter 
+      <lb ed="#L" n="12"/>definit fruitionem, &amp; vsum, quam superius 
+      defi<lb ed="#L" break="no" n="13"/>niuit. Ait enim, quod vti est assumere aliquid 
+      <lb ed="#L" n="14"/>in facultatem voluntatis, hoc est voluntatem 
+      fa<lb ed="#L" break="no" n="15"/>cultate sua aliquid assumere ad aliquid aliud 
+      as<lb ed="#L" break="no" n="16"/>sequendum: frui autem est vti ista re cum gaudio, 
+      <lb ed="#L" n="17"/>non tamen spei, sed iam rei, &amp; ex hoc infertur, 
+      <lb ed="#L" n="18"/>quod fruitio vsum includit, quia omnis, qui 
+      frui<lb ed="#L" break="no" n="19"/>tur assumit aliquid in facultatem voluntatis, 
+      ta<lb ed="#L" break="no" n="20"/>men cum fine gaudij, &amp; delectationis: non 
+      ta<lb ed="#L" break="no" n="21"/>men omnis, qui vtitur fruitur, quia potest 
+      ali<lb ed="#L" break="no" n="22"/>quid assumi in facultatem voluntatis, quod non 
+      <lb ed="#L" n="23"/>propter seipsum, sed propter aliud appetetur, 
+      <lb ed="#L" n="24"/>&amp; ita vtetur, qui sic assumit, &amp; non 
+      delectabi<lb ed="#L" break="no" n="25"/>tur, nec fruetur.
+    </p>
+            <p xml:id="ol96b1-c27398-d1e185">
+               <lb ed="#L" n="26"/>Postmodum ibi: <quote xml:id="ol96b1-c27398-Qd1e189" type="lemma">Et attende</quote>. Magister ex hac 
+      <lb ed="#L" n="27"/>notificatione quandam dubitationem inducit. 
+      <lb ed="#L" n="28"/>videtur enim, quod nullus frui valeat in hac 
+      vi<lb ed="#L" break="no" n="29"/>ta, sed tantummodo vti. constat enim, quod in 
+      <lb ed="#L" n="30"/>hac vita non gaudemus de Deo, nisi in spe, cum 
+      <lb ed="#L" n="31"/>ipsum realiter, &amp; per speciem nullatenus 
+      attinga<lb ed="#L" break="no" n="32"/>mus. statim autem dicit August. quod fruitio est 
+      <lb ed="#L" n="33"/>vsus cum gaudio, non adhuc spei, sed iam rei. 
+      <lb ed="#L" n="34"/>ergo nullus fruitur in hac vita, in oppositum 
+      cu<lb ed="#L" break="no" n="35"/>ius est, quod supra dixerat idem August. frui 
+      es<lb ed="#L" break="no" n="36"/>se amore inhaerere alicui propter se, qualiter 
+      <lb ed="#L" n="37"/>multi adhaerent Deo etiam in hac vita. 
+    </p>
+            <p xml:id="ol96b1-c27398-d1e217">
+               <lb ed="#L" n="38"/>Postmodum ibi: <quote xml:id="ol96b1-c27398-Qd1e221" type="lemma">Haec ergo, quae sibi</quote>. 
+      dubitatio<lb ed="#L" break="no" n="39"/>nem istam soluit. &amp; primo ponit vnam 
+      solutio<lb ed="#L" break="no" n="40"/>nem, dicens, quod &amp; hic, &amp; in futuro frui 
+      possu<lb ed="#L" break="no" n="41"/>mus: hic quidem imperfecte semiplene, ibi autem 
+      <lb ed="#L" n="42"/>proprie, &amp; perfecte. &amp; quod hoc sit verum, 
+      au<lb ed="#L" break="no" n="43"/>ctoritate Augustini consirmat, qui ait, Angelos 
+      <lb ed="#L" n="44"/>Deo fruentes esse beatos, quomodo nos frui 
+      de<lb ed="#L" break="no" n="45"/>sideramus, &amp; quanto in hac vita per speculum 
+      <lb ed="#L" n="46"/>amplius fruimur, tanto peregrinationem 
+      no<lb ed="#L" break="no" n="47"/>stram facilius sustinemus.
+    </p>
+            <p xml:id="ol96b1-c27398-d1e244">
+               <lb ed="#L" n="48"/>Secundo, ibi: <quote xml:id="ol96b1-c27398-Qd1e248" type="lemma">Potes etiam dici</quote>. assignat 
+      solutio<lb ed="#L" break="no" n="49"/>nem aliam dicens, quod illa definitio frui est vti 
+      <lb ed="#L" n="50"/>cum gaudio non adhuc spei, sed iam rei, habet 
+      <lb ed="#L" n="51"/>etiam aliqualiter locum in vita praesenti, in qua 
+      <lb ed="#L" n="52"/>qui Deum diligit, aliqualiter ipsum habet, &amp; 
+      de<lb ed="#L" break="no" n="53"/>lectatur in eo, &amp; sic non est simpliciter in spe, sed 
+      <lb ed="#L" n="54"/>aliqualiter in re, propter quod Deo fruendum est, 
+      <lb ed="#L" n="55"/>etiam dum sumus in via: nulla autem alia re 
+      de<lb ed="#L" break="no" n="56"/>bemus proprie frui. licet enim alia circa Deum 
+      <lb ed="#L" n="57"/>possimus, &amp; diligere, &amp; delectabiliter illis vti, in 
+      <lb ed="#L" n="58"/>nullo tamen alio, praeter Deum sistere spem 
+      no<lb ed="#L" break="no" n="59"/>stram, aut finem laetitiae statuendo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

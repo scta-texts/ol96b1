@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="742"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-240847"> <!-- l1d34p1-prae -->
+            <head xml:id="ol96b1-240847-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-240847-d1e104">
+      <!--0742.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="63"/>OPJNIO QVORVMDAM NON IDEM ESSE 
+      <lb ed="#L" n="64"/>Personam, &amp; essentiam, vel naturam, dicentium, et eandem 
+      <lb ed="#L" n="65"/>essentiam non posse esse Patrem, &amp; Filium, 
+      <lb ed="#L" n="66"/>&amp; Spiritum sanctum. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e120">
+               <lb ed="#L" n="67"/>DISTINCTIO XXXJJJJ. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e125">
+      <!--0742.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="68"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e135">
+               <lb ed="#L" n="69"/>PRAEDICTIS autem 
+      adijcien<lb ed="#L" break="no" n="70"/>dum, &amp; c. Postquam Magister 
+      <lb ed="#L" n="71"/>comparauit proprietates ad 
+      <lb ed="#L" n="72"/>essentiam, &amp; personas, hic 
+      <lb ed="#L" n="73"/>comparat essentiam ad 
+      per<lb ed="#L" break="no" n="74"/>sonas. &amp; circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e151">
+               <lb ed="#L" n="75"/>Primo enim inquirit, an 
+      <lb ed="#L" n="76"/>essentia praedicetur de 
+      per<lb ed="#L" break="no" n="77"/>sonis in recto. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e160">
+               <lb ed="#L" n="78"/>Secundo vero inquirit, vtrum possit de ipsis 
+      <lb ed="#L" n="79"/>dici in obliquo. secunda ibi: Hic considerandum 
+      <lb ed="#L" n="80"/>est. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e169">
+               <lb ed="#L" n="81"/>Primo enim ponit errorem quorumdam, &amp; 
+      <lb ed="#L" n="82"/>eorum motiuum. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e176">
+               <lb ed="#L" n="83"/>Secundo vero remouet ipsum. secunda ibi: 
+      <lb ed="#L" n="84"/>Hoc quidem dicunt. Circa primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e183">
+               <lb ed="#L" n="85"/>Primo namque proponit errorem 
+      quorum<lb ed="#L" break="no" n="86"/>dam, dicens, quod aliqui peruersi sensus 
+      homi<lb ed="#L" break="no" n="87"/>nes, in tantam insaniam sunt prolapsi, quod 
+      di<lb ed="#L" break="no" n="88"/>xerunt Dei naturam non esse hypostases, seu 
+      <lb ed="#L" n="89"/>personas.
+    </p>
+            <p xml:id="ol96b1-240847-d1e197">
+      <!--0742.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="90"/>Secundo ibi: Dicentes. Inducit rationem 
+      eo<lb ed="#L" break="no" n="91"/>rnm, quae talis est: si diuina essentia esset pater, 
+      <lb ed="#L" n="92"/>&amp; filius, eadem res esset pater, &amp; filius, sed hoc 
+      <lb ed="#L" n="93"/>dici non potest sine confusione personarum, 
+      er<lb ed="#L" break="no" n="94"/>go nec aliud poni potest. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e215">
+               <lb ed="#L" n="95"/>Tertio ibi: Idemque testimonium. Inducit 
+      aucto<lb ed="#L" break="no" n="96"/>ritatem Hilarij, per quam suum errorem 
+      confir<lb ed="#L" break="no" n="97"/>mat, dicit enim Hila. quod non est idem natura, &amp; 
+      <lb ed="#L" n="98"/>res naturae, sicut non est idem homo, &amp; quod 
+      <lb ed="#L" n="99"/>hominis est. &amp; concludit, quod secundum hoc 
+      <lb ed="#L" n="100"/>non est idem Deus, &amp; quod Dei, sed res naturae 
+      <lb ed="#L" n="101"/>sunt personae; Deitas vero est ipsa natura. 
+      er<lb ed="#L" break="no" n="102"/>go videtur, quod diuina essentia non sit ipsae 
+      <lb ed="#L" n="103"/>personae. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e237">
+               <lb ed="#L" n="104"/>Postmodum ibi: Hoc quidam dicunt. Remouot 
+      <lb ed="#L" n="105"/>errorem illorum. Et circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e244">
+               <lb ed="#L" n="106"/>Primo namque dat verum intellectum Hilarij. 
+      <lb ed="#L" n="107"/>Secundo vero confirmat veritatem, 
+      opposi<lb ed="#L" break="no" n="108"/>tam praedicto errori. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e253">
+               <lb ed="#L" n="109"/>Tertio quoque respondet ad rationem 
+      erro<lb ed="#L" break="no" n="110"/>ris. secunda ibi: Non ergo secundum corporales 
+      mo<lb ed="#L" break="no" n="111"/>dos. tertia ibi: Nec tamen dimittemur. Circa 
+      pri<lb ed="#L" break="no" n="112"/>mum duo facit.
+    </p>
+            <p xml:id="ol96b1-240847-d1e264">
+      <!--0743.xml-->
+               <pb ed="#L" n="743"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Primo namque ex dictis Hilarij verum 
+      intel<lb ed="#L" break="no" n="2"/>lectum recolligit, dicens, quod ex verbis ipsius 
+      <lb ed="#L" n="3"/>patet, quod spiritus sanctus est res patris, &amp; 
+      fi<lb ed="#L" break="no" n="4"/>lij, tamquam res naturae, &amp; idem spiritus est na 
+      <lb ed="#L" n="5"/>tura Dei. ex quo patet, quod non est distinguen 
+      <lb ed="#L" n="6"/>dum in Deo inter naturam, &amp; rem naturae, sed 
+      <lb ed="#L" n="7"/>tantum in creaturis: nec intentio Hilarij est 
+      <lb ed="#L" n="8"/>ista dicere, nisi de creaturis. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e291">
+               <lb ed="#L" n="9"/>Secundo ibi: Ad naturam ergo. Ostendit hanc esse 
+      <lb ed="#L" n="10"/>Hil. intentionem dicens, quod ex hoc patet, quod 
+      <lb ed="#L" n="11"/>loquitur de creaturis, quia exempla ponit 
+      de<lb ed="#L" break="no" n="12"/>ipsis. quod enim addit, &amp; secundum hoc non est 
+      <lb ed="#L" n="13"/>idem Deus, &amp; quod Dei est, non dicit Hilarius 
+      as<lb ed="#L" break="no" n="14"/>serendo, sed tamquam absonum, concludendo, 
+      <lb ed="#L" n="15"/>si quis de Deo velit ita sentire, sicut reperitur 
+      <lb ed="#L" n="16"/>in creaturis. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e311">
+               <lb ed="#L" n="17"/>Postmodum ibi: Non ergo. Confirmat 
+      Magi<lb ed="#L" break="no" n="18"/>ster veritatem oppositam errori praedicto, indu 
+      <lb ed="#L" n="19"/>cens auctoritatem Hilarij, qui dicit, quod ea, 
+      <lb ed="#L" n="20"/>quae Dei sunt, vtpote personae, non aliud sunt, 
+      <lb ed="#L" n="21"/>quam ipsae. Inducit etiam auctoritatem 
+      Augu<lb ed="#L" break="no" n="22"/>stini, quae superius posita fuit dist. 4. cap. 2. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e327">
+               <lb ed="#L" n="23"/>Postmodum ibi: Non tamen diffitemur. 
+      Respon<lb ed="#L" break="no" n="24"/>det ad rationem, per quam suum errorem 
+      prae<lb ed="#L" break="no" n="25"/>fati haeretici nixi sunt confirmare, dicens, quod 
+      <lb ed="#L" n="26"/>licet essentia sit quid commune tribus personis, 
+      <lb ed="#L" n="27"/>nihilominus sic est tres hypostases, aut personae, 
+      <lb ed="#L" n="28"/>quod ipsae non tantum differunt secundum intel 
+      <lb ed="#L" n="29"/>ligentiae rationem, immo suis proprietatibus 
+      <lb ed="#L" n="30"/>naturae realis: &amp; hoc confirmat auctoritate 
+      <lb ed="#L" n="31"/>Augustini, posita super psal. 68. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e349">
+               <lb ed="#L" n="32"/>Postmodum ibi: Hic considerandum est. Inquirit, 
+      <lb ed="#L" n="33"/>vtrum essentia praedicetur in obliquo de 
+      perso<lb ed="#L" break="no" n="34"/>nis. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e358">
+               <lb ed="#L" n="35"/>Primo enim ponit dubium, dicens, quod con 
+      <lb ed="#L" n="36"/>siderandum est, vtrum essentia comparetur ad 
+      <lb ed="#L" n="37"/>personas in obliquo, ita vt possit dici essentia 
+      <lb ed="#L" n="38"/>trium personarum, aut tres personae vnius 
+      es<lb ed="#L" break="no" n="39"/>sentiae, vel Deus trium personarum, vel tres per 
+      <lb ed="#L" n="40"/>sonae vnius Dei. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e374">
+               <lb ed="#L" n="41"/>Secundo ibi: In his locutionibus. Respondet Ma 
+      <lb ed="#L" n="42"/>gister, quod in concedendo has propositiones 
+      <lb ed="#L" n="43"/>consuetudo Sanctorum, &amp; auctoritas est sequen 
+      <lb ed="#L" n="44"/>da. non legitur autem in dictis Sanctorum haec 
+      <lb ed="#L" n="45"/>propositio: Deus trium personarum. vel illa: 
+      <lb ed="#L" n="46"/>Tres personae vnius Dei. &amp; hoc factum est, quia 
+      <lb ed="#L" n="47"/>videretur notari seruitus, vel subiectio 
+      perso<lb ed="#L" break="no" n="48"/>narum respectu Dei. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e395">
+               <lb ed="#L" n="49"/>Postmodum ibi: Ex praedictis patet. Sequitur 
+      <lb ed="#L" n="50"/>pars superius condiuisa, quia postquam 
+      Magi<lb ed="#L" break="no" n="51"/>ster determinauit de nominibus essentialibus, &amp; 
+      <lb ed="#L" n="52"/>personalibus, hic determinat de nominibus 
+      si<lb ed="#L" break="no" n="53"/>gnificantibus substantiam, quae ex quadam 
+      ap<lb ed="#L" break="no" n="54"/>propriatione significant personas. Et circa hoc 
+      <lb ed="#L" n="55"/>tria facit. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e413">
+               <lb ed="#L" n="56"/>Primo enim dicit, quod potentia, sapientia, 
+      <lb ed="#L" n="57"/>&amp; bonitas significant substantiam, &amp; tamen 
+      re<lb ed="#L" break="no" n="58"/>feruntur ex quadam appropriatione ad 
+      distin<lb ed="#L" break="no" n="59"/>ctas personas. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e424">
+               <lb ed="#L" n="60"/>Secundo vero ibi: Id ergo. Magister huius 
+      ap<lb ed="#L" break="no" n="61"/>propriationis rationem assignat, dicens, quod 
+      <lb ed="#L" n="62"/>patri appropriatur potentia, ne ex 
+      antiquita<lb ed="#L" break="no" n="63"/>te impotens existimetur; filio vero sapientia, ne 
+      <lb ed="#L" n="64"/>ex nouitate insipiens reputetur, spiritui sancto 
+      <lb ed="#L" n="65"/>clementia, ne crudelis, aut rigidus putetur, 
+      <lb ed="#L" n="66"/>quia spiritus nomen est inflammationis, &amp; irae. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e442">
+               <lb ed="#L" n="67"/>Tertio ibi: Hic non est praetermittendum. Magi- 
+      <!--0743.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="68"/>ster ex incidenti tractat de nomine Graeco, 
+      Ho<lb ed="#L" break="no" n="69"/>mousion, &amp; significat idem, quod vnius, 
+      eiusden<lb ed="#L" break="no" n="70"/>que substantiae. &amp; idcirco hic interserit nomen 
+      <lb ed="#L" n="71"/>illud, quia supradictum fuerat, quod potest 
+      ca<lb ed="#L" break="no" n="72"/>tholice concedi, patrem, &amp; filium vnius esse 
+      <lb ed="#L" n="73"/>substantiae. dicit ergo, quod illud nomen est con 
+      <lb ed="#L" n="74"/>tra Arrianos, auctoritate generalis Concilij 
+      in<lb ed="#L" break="no" n="75"/>troductum. 
+    </p>
+            <p xml:id="ol96b1-240847-d1e468">
+               <lb ed="#L" n="76"/>Postmodum ibi: Praeterea sciendum est. 
+      Sequi<lb ed="#L" break="no" n="77"/>tur vltima pars superius condiuisa, in qua 
+      tra<lb ed="#L" break="no" n="78"/>ctat Magister de nominibus translatiue dictis 
+      <lb ed="#L" n="79"/>de Deo, &amp; dat regulam generalem, dicens, quod 
+      <lb ed="#L" n="80"/>ratione similitudinis; considerata in creaturis, 
+      <lb ed="#L" n="81"/>creaturarum aliquarum nomina possunt 
+      attri<lb ed="#L" break="no" n="82"/>bui in diuinis, vtpote speculum, splendor, 
+      cara<lb ed="#L" break="no" n="83"/>cter, figura. cauendum est tamen, ne insurgat 
+      <lb ed="#L" n="84"/>aliquis erroneus intellectus. In fine vero conclu 
+      <lb ed="#L" n="85"/>dit, quod haec sufficiant de sacramentis 
+      vnita<lb ed="#L" break="no" n="86"/>tis, &amp; Trinitatis: haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="31"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-bb9833"> <!-- l1prolp3-prae -->
+            <head xml:id="ol96b1-bb9833-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-bb9833-d1e104">
+               <lb ed="#L" n="84"/>
+               <quote xml:id="ol96b1-bb9833-Qd1e108">Quamuis non ambigamus</quote>, &amp; c. Postquam 
+      assi<lb ed="#L" break="no" n="85"/>gnauit Magister causas mouentes ipsum 
+      respe<lb ed="#L" break="no" n="86"/>ctu suscepti operis, hic loquitur aemulis suis, &amp; 
+      <lb ed="#L" n="87"/>quia aemuli istius operis, aliqui fuerunt de 
+      nume<lb ed="#L" break="no" n="88"/>ro credulorum, &amp; fidelium, aliqui vero de nume 
+      <lb ed="#L" n="89"/>ro errantium, &amp; perfidorum. Idcirco primo 
+      re<lb ed="#L" break="no" n="90"/>spondet aemulis, &amp; fidelibus. Secundo ibi: <quote xml:id="ol96b1-bb9833-Qd1e123">Quam 
+      <lb ed="#L" n="91"/>Deus huius saeculi</quote>. Perfidis, &amp; errantibus. Dicit 
+      <lb ed="#L" n="92"/>itaque primo, quod licet ipse non ambigat 
+      li<lb ed="#L" break="no" n="93"/>brum istum subdendum fore contradictioni, aut 
+      <lb ed="#L" n="94"/>calumniae aemulorum, sicut &amp; omne opus 
+      huma<lb ed="#L" break="no" n="95"/>num, quae quidem conditio oritur ex varietate 
+      <lb ed="#L" n="96"/>affectuum, &amp; ex motibus dissentientibus 
+      volunta<lb ed="#L" break="no" n="97"/>tum, nihilominus ab incepto opere non desistet. 
+      <lb ed="#L" n="98"/>Postmodum ibi: <quote xml:id="ol96b1-bb9833-Qd1e143">Quem Deus huius saeculi</quote>. 
+      Respon<lb ed="#L" break="no" n="99"/>det perfidis, &amp; haereticis. Et duo facit. 
+      Pri<lb ed="#L" break="no" n="100"/>mo enim describit eorum perfidiam, dicens, 
+      <lb ed="#L" n="101"/>quod oritur eorum perfidia ex inuidia, &amp; ex 
+      li<lb ed="#L" break="no" n="102"/>bidine complendi propriam voluntatem, quam 
+      <lb ed="#L" n="103"/>rationi nolunt subdere, nec in discendi studio 1 
+      <lb ed="#L" n="104"/>laborare, sed absque studio, &amp; experientia 
+      som<lb ed="#L" break="no" n="105"/>niant vanitates, quibus verba scripturae 
+      postmo<lb ed="#L" break="no" n="106"/>dum coaptare nituntur, &amp; non sequuntur veri 
+      <lb ed="#L" n="107"/>rationem, sed placiti. &amp; idcirco in fabulas 
+      pro<lb ed="#L" break="no" n="108"/>labuntur. Dicit etiam, quod oritur ex vana 
+      glo<lb ed="#L" break="no" n="109"/>ria, &amp; mendaci hypocrisi, quia non curant 
+      ve<lb ed="#L" break="no" n="110"/>ritatem absque omni foedere impugnare, 
+      quo<lb ed="#L" break="no" n="111"/>niam conscientiam amiserunt, dum tamen in 
+      <lb ed="#L" n="112"/>verbis appareat pietas simulata. Dicit etiam 
+      <lb ed="#L" n="113"/>quod consumatur perfidia in pertinaci 
+      defen<lb ed="#L" break="no" n="114"/>sione. Secundo vero cum dicit: Horum igitur Deo 
+      <lb ed="#L" n="115"/>odibilem, aperit zelum suum, &amp; efficaciam 
+      con<lb ed="#L" break="no" n="116"/>tra eos, dicens, quod ipse nitetur in hoc opere 
+      <lb ed="#L" n="117"/>eorum Ecclesiam Deo odibilem euertere, &amp; ora 
+      <lb ed="#L" n="118"/>opilare, ex testimonijs veritatis in aeternum fun 
+      <lb ed="#L" n="119"/>datis, quas libro isti inseret, diuiso per partes 
+      <lb ed="#L" n="120"/>quatuor principales. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

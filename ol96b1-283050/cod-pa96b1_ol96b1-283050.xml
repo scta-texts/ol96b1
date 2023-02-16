@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="873"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-283050"> <!-- l1d38p1-prae -->
+            <head xml:id="ol96b1-283050-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-283050-d1e104">
+      <!--0873.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="35"/>HIC REDJT AD PROPOSJTVM 
+      <lb ed="#L" n="36"/>repetens superius dicta, vt addet alia.
+    </p>
+            <p xml:id="ol96b1-283050-d1e115">
+               <lb ed="#L" n="37"/>DISTINCTIO XXXVJJJ.
+    </p>
+            <p xml:id="ol96b1-283050-d1e120">
+      <!--0873.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="38"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e130">
+               <lb ed="#L" n="39"/>NVNC ergo ad propositum, &amp;c. 
+      <lb ed="#L" n="40"/>Postquam Magister determi 
+      <lb ed="#L" n="41"/>nauit de diuino intelligere, 
+      <lb ed="#L" n="42"/>prout exprimitur per nomem 
+      <lb ed="#L" n="43"/>scientiae, &amp; sapientiae, hic tra 
+      <lb ed="#L" n="44"/>ctat de ipso, prout 
+      exprimi<lb ed="#L" break="no" n="45"/>tur nomine praescientiae. Et 
+      <lb ed="#L" n="46"/>circa hoc facit tria 
+    </p>
+            <p xml:id="ol96b1-283050-d1e150">
+               <lb ed="#L" n="47"/>Primo namque agit de causalitate diuinae 
+      <lb ed="#L" n="48"/>praescientiae. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e157">
+               <lb ed="#L" n="49"/>Secundo vero de ipsius ineffabilitate. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e162">
+               <lb ed="#L" n="50"/>Tertio quoque de ipsius immutabilitate, an 
+      <lb ed="#L" n="51"/>scilicet possit minui, vel augeri Secunda ibi: Ad 
+      <lb ed="#L" n="52"/>hoc, quod supradictum est. Tertia ibi: dist. 39. Praete 
+      <lb ed="#L" n="53"/>rea quaeri solet. Circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e173">
+               <lb ed="#L" n="54"/>Primo enim ostendit, quod Dei praescientia 
+      <lb ed="#L" n="55"/>non est causa rerum futurarum, aut euentuum 
+      <lb ed="#L" n="56"/>carumdem 
+    </p>
+            <p xml:id="ol96b1-283050-d1e182">
+               <lb ed="#L" n="57"/>Secundo vero ostendit eius conuersam, 
+      scili<lb ed="#L" break="no" n="58"/>cet quod nec res futurae sunt causae vel scientiae, 
+      <lb ed="#L" n="59"/>vel praescientiae Dei. Secunda ibi: Nec etiam res 
+      <lb ed="#L" n="60"/>suturae. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e194">
+               <lb ed="#L" n="61"/>Circa primum duo facit, 
+      <lb ed="#L" n="62"/>Primo enim inducit auctoritates Augustini, 
+      <lb ed="#L" n="63"/>quibus videtur probari, quod praescientia sit cau 
+      <lb ed="#L" n="64"/>sa eorum, quae subsunt, &amp; necessitatem euenien 
+      <lb ed="#L" n="65"/>di eis imponat, dicens, quod hic oritur quaestio non 
+      <lb ed="#L" n="66"/>dissimulanda, an scilicet praescientia Dei rebus 
+      <lb ed="#L" n="67"/>praescitis necessitatem imponat; videtur enim 
+      <lb ed="#L" n="68"/>quod sic; quia nisi Deus ea praescisset, nec 
+      eueni<lb ed="#L" break="no" n="69"/>rent, nec possunt non euenire, prius quam praesci 
+      <lb ed="#L" n="70"/>ta sunt, alioquin praescientia Dei falli posset, 
+      <lb ed="#L" n="71"/>qd impossibile est, &amp; ad hoc adducit Magister 
+      <lb ed="#L" n="72"/>duas auctoritates Augustini, &amp; patent in littera. 
+      <lb ed="#L" n="73"/>Secundo ibi: Quod si ita est. Determinat quaestio 
+      <lb ed="#L" n="74"/>nem dicens, quod hoc nullo modo concedendum 
+      <lb ed="#L" n="75"/>est, quia tunc Deus esset auctor, &amp; causa malorum, 
+      <!--0873.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="76"/>cum mala praesciuerit, sicut &amp; bona; quod 
+      peni<lb ed="#L" break="no" n="77"/>tus falsum est. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e238">
+               <lb ed="#L" n="78"/>Postmodum ibi: Nec etiam res futurae. 
+      Magi<lb ed="#L" break="no" n="79"/>ster inquirit de conuersa, an scilicet futura sint 
+      <lb ed="#L" n="80"/>causa praescientiae Dei, &amp; circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e247">
+               <lb ed="#L" n="81"/>Primo determinat, quod non: dicens, quod 
+      <lb ed="#L" n="82"/>si ideo res praescirentur, quia futurae sunt, seque 
+      <lb ed="#L" n="83"/>rentur inconuenientia multa. Primum quidem quod 
+      <lb ed="#L" n="84"/>aliquid alienum a Deo causa esset alicuius, 
+      aeter<lb ed="#L" break="no" n="85"/>naliter existentis in eo. secundum verc, quia 
+      <lb ed="#L" n="86"/>ex creaturis penderet praescientia creatoris: &amp; 
+      <lb ed="#L" n="87"/>tertium; quia causatum, &amp; creatum esset 
+      cau<lb ed="#L" break="no" n="88"/>sa alicuius increati. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e267">
+               <lb ed="#L" n="89"/>Secundo ibi: Origenes tamen. Instat Magister 
+      <lb ed="#L" n="90"/>contra praedictam determinationem, auctorita 
+      <lb ed="#L" n="91"/>te Origenis, &amp; patet in littera. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e276">
+               <lb ed="#L" n="92"/>Tertia ibi: Hanc ergo. Respondet ad 
+      praedi<lb ed="#L" break="no" n="93"/>ctam auctoritatem. &amp; ad illam Aug. in prima parte 
+      <lb ed="#L" n="94"/>inductam, &amp; reducit ad concordiam dicens, quod 
+      <lb ed="#L" n="95"/>vtraque aeccipit causam, sine qua non; &amp; verum 
+      <lb ed="#L" n="96"/>est, quod Origenes dicit Deum ideo scire 
+      futu<lb ed="#L" break="no" n="97"/>ra, quia futura erant, intelligendo, quod si non 
+      <lb ed="#L" n="98"/>essent futura, non praesciuisset, &amp; verum est 
+      di<lb ed="#L" break="no" n="99"/>ctum Aug. quod quia Deus praesciuit, ideo eueniunt, 
+      <lb ed="#L" n="100"/>intelligendo similiter, quod si non praesciuisset, non 
+      <lb ed="#L" n="101"/>euenissent: non tamen positiue debet intelligi, 
+      <lb ed="#L" n="102"/>quod vnum sit alterius causa, &amp; hunc intellectum 
+      <lb ed="#L" n="103"/>confirmat Magister auctoritate Aug. &amp; patet. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e305">
+               <lb ed="#L" n="104"/>Postmodum ibi: Adhuc autem. Agit de 
+      infal<lb ed="#L" break="no" n="105"/>libilitate diuinae praescientiae. Et facit duo. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e313">
+               <lb ed="#L" n="106"/>Primo enim instat, &amp; soluit, dicens, quod 
+      vi<lb ed="#L" break="no" n="107"/>detur Dei praescientia posse falli; quia si 
+      prae<lb ed="#L" break="no" n="108"/>sciuit hunc lecturum, qui legit, ille potuit non 
+      <lb ed="#L" n="109"/>legisse, &amp; ita potuit praescientia Dei falli. Et 
+      re<lb ed="#L" break="no" n="110"/>spondet ad hoc, quod si non legisset, Deus vtique 
+      <lb ed="#L" n="111"/>praesciuisset: &amp; ita non falleretur. 
+    </p>
+            <p xml:id="ol96b1-283050-d1e329">
+               <lb ed="#L" n="112"/>Vltimo ibi: Sed adhuc vrgent. Replicat contra 
+      <lb ed="#L" n="113"/>praedictam solutionem dicens, quod adhuc 
+      ar<lb ed="#L" break="no" n="114"/>ctant quaestionis difficultatem, quia si Deus prae- 
+      <!--0874.xml-->
+      <pb ed="#L" n="874"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sciuit istum lecturum, aut aliter potest fieri, aut 
+      <lb ed="#L" n="2"/>non; sed non potest dici, quod non possit aliter 
+      <lb ed="#L" n="3"/>fieri, alias de necessitate cuncta euenirent; 
+      er<lb ed="#L" break="no" n="4"/>go aliter potest fieri, quam praescitum sit, &amp; in 
+      <lb ed="#L" n="5"/>Dei praescientia possibile est mutari. Et respondet 
+      <lb ed="#L" n="6"/>Magister quod haec propositio aliter fieri, quam 
+      <lb ed="#L" n="7"/>Deus praesciuit: &amp; similes, multiplicem habent intel 
+      <lb ed="#L" n="8"/>ligentiam, quia possunt intelligi coniunctim, vel 
+      <lb ed="#L" n="9"/>disiunctim, coniũctim quidem, vt conditio sit impli 
+      <lb ed="#L" n="10"/>cata, &amp; tunc est propositio vera, vt sit sensus; 
+      <lb ed="#L" n="11"/>non potest aliter fieri, quam Deus praesciuit: qd' 
+      <lb ed="#L" n="12"/>non potest vtrumque simul esse, scilicet quod Deus 
+      <lb ed="#L" n="13"/>praesciuit ita fieri, &amp; aliter fiat, disiunctim vero; 
+      <lb ed="#L" n="14"/>&amp; non implicando contradictionem, &amp; sic 
+      propo<lb ed="#L" break="no" n="15"/>sitio est falsa, vt sit sensus, hoc aliter non posse 
+      <lb ed="#L" n="16"/>euenire, quam euenit; quod tamen futurum 
+      <lb ed="#L" n="17"/>Deus praesciuit: hoc siquidem falsum est; quia 
+      <lb ed="#L" n="18"/>aliter potest euenire, quam eueniat; &amp; tamen 
+      <lb ed="#L" n="19"/>futurum hoc modo Deus praesciuit. haec est 
+      sen<lb ed="#L" break="no" n="20"/>tentia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

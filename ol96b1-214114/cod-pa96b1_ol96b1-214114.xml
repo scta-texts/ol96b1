@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="659"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-214114"> <!-- l1d30p1-prae -->
+            <head xml:id="ol96b1-214114-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-214114-d1e104">
+      <!--0659.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="72"/>DE HJS QVAE TEMPORALJTER DE DEO 
+      <lb ed="#L" n="73"/>dicuntur, &amp; relatiue secundum accidens, quod 
+      <lb ed="#L" n="74"/>non Deo, sed creaturis accidit. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e117">
+               <lb ed="#L" n="75"/>DISTJNCTIO XXX. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e122">
+      <!--0659.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="76"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e132">
+               <lb ed="#L" n="77"/>SVNT quidam, &amp; c. Postquam 
+      <lb ed="#L" n="78"/>Magister determinauit de no 
+      <lb ed="#L" n="79"/>minibus relatiuis 
+      exprimen<lb ed="#L" break="no" n="80"/>tibus notiones, &amp; personarum 
+      <lb ed="#L" n="81"/>proprietates, &amp; 3. dist. 
+      imme<lb ed="#L" break="no" n="82"/>diate praecedenti mentionem 
+      <lb ed="#L" n="83"/>fecit de principio, quod 
+      rela<lb ed="#L" break="no" n="84"/>tionem importat dictam ex tempore de Deo in 
+      <lb ed="#L" n="85"/>ordine ad creaturas, hic huius gratia tractat 
+      <lb ed="#L" n="86"/>de relationibus, quae dicuntur de Deo ex 
+      tem<lb ed="#L" break="no" n="87"/>pore. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e158">
+               <lb ed="#L" n="88"/>Primo namque ostendit, quod aliqua 
+      dicun<lb ed="#L" break="no" n="89"/>tur de Deo ex tempore. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e165">
+               <lb ed="#L" n="90"/>Secundo vero ex hoc soluit quaestionem 
+      quan<lb ed="#L" break="no" n="91"/>dam de spiritu sancto, quam supra dist. 18. 
+      reli<lb ed="#L" break="no" n="92"/>querat insolutam. Secunda ibi: Hic potest solui. 
+      <lb ed="#L" n="93"/>Adhuc circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e176">
+      <!--0659.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="94"/>Primo namque ostendit, quod multa 
+      relati<lb ed="#L" break="no" n="95"/>ue de Deo dicuntur ex tempore. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e187">
+               <lb ed="#L" n="96"/>Secundo vero ostendit, quod illa nec accidens, nec 
+      <lb ed="#L" n="97"/>mutationem ponunt in Deo. Secunda ibi: Quomodo 
+      <lb ed="#L" n="98"/>ergo obtinebimus. Adhuc circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-214114-d1e196">
+               <lb ed="#L" n="99"/>Primo enim ostendit, quod aliqua dicuntur 
+      <lb ed="#L" n="100"/>de Deo ex tempore relatiue, &amp; ait, quod Deus 
+      <lb ed="#L" n="101"/>dicitur creator, &amp; Dominus ex tempore. non 
+      <lb ed="#L" n="102"/>enim semper fuit Dominus, quia non 
+      sempiter<lb ed="#L" break="no" n="103"/>ne habuit seruum, qui sibi famularetur, nec sem 
+      <lb ed="#L" n="104"/>per creator extitit, sed ex quo coepit esse 
+      crea<lb ed="#L" break="no" n="105"/>tura. Secundo ibi: Sed hic aliquis dicet. Mouet cir 
+      <lb ed="#L" n="106"/>ca hoc dubium dicens, quod non videtur Domi 
+      <lb ed="#L" n="107"/>nus dici ex tempore, cum sit Dominus eius rei, 
+      <lb ed="#L" n="108"/>quae non incoepit in tempore, videlicet ipsius 
+      ten<lb ed="#L" break="no" n="109"/>poris, &amp; respondet, quod licet tempus non inceperit 
+      <lb ed="#L" n="110"/>in tempore, nihilominus Deus coepit esse Do. ni 
+      <lb ed="#L" n="111"/>nus temporis, cum tempus esse coeperit, nec 
+      <lb ed="#L" n="112"/>fuerit ab aeterno. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

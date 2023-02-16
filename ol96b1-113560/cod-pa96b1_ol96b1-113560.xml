@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="348"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-113560"> <!-- l1d11p1-prae -->
+            <head xml:id="ol96b1-113560-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-113560-d1e104">
+      <!--0348.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="60"/>QVOD SPJRJTVS SANCTVS 
+      <lb ed="#L" n="61"/>procedit a Patre, &amp; Filio. 
+      <lb ed="#L" n="62"/>DISTINCTIO XI.
+    </p>
+            <p xml:id="ol96b1-113560-d1e117">
+      <!--0348.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="63"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e126">
+               <lb ed="#L" n="64"/>HIc dicendum est. &amp;c. Postquam 
+      <lb ed="#L" n="65"/>Magister determinauit de 
+      <lb ed="#L" n="66"/>processione spiritus sancti 
+      <lb ed="#L" n="67"/>in ordine ad suum terminum, 
+      <lb ed="#L" n="68"/>inquirendo videlicet, vtrum 
+      <lb ed="#L" n="69"/>Spiritus sanctus emanet, vt 
+      <lb ed="#L" n="70"/>amor, hic aut comparat eam 
+      <lb ed="#L" n="71"/>ad suum principium, inuesti 
+      <lb ed="#L" n="72"/>gando, vtrum spiritus sanctus a solo patre proce 
+      <lb ed="#L" n="73"/>dat, vel simul a patre, &amp; a filio, &amp; circa hoc tria 
+      <lb ed="#L" n="74"/>facit. Primo enim ponit veram opinionem 
+      La<lb ed="#L" break="no" n="75"/>tinorum. Secundo opinionem Graecorum. 
+      Ter<lb ed="#L" break="no" n="76"/>tio eas ad concordiam quandam reducit. 
+      secun<lb ed="#L" break="no" n="77"/>da ibi: Graeci tamen. tertia ibi: Sciendum tamen est. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e160">
+               <lb ed="#L" n="78"/>Dicit itaque primo, quod dicendum est hic 
+      spiri<lb ed="#L" break="no" n="79"/>tum sanctum procedere a filio, &amp; a patre, quod 
+      <lb ed="#L" n="80"/>multi haeretici negauerunt, &amp; quod procedat 
+      <lb ed="#L" n="81"/>ab vtroque, probatur multis auctoritatibus. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e171">
+               <lb ed="#L" n="82"/>Prima enim Apostoli ad Galatas 4. qui dicit, 
+      <lb ed="#L" n="83"/>quod Deus misit spiritum filij sui in corda nostra. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e178">
+               <lb ed="#L" n="84"/>Secunda eiusdem ad Rom. 8. qui ait, quod qui 
+      <lb ed="#L" n="85"/>spiritum Christi non habet, hic non est eius, ex 
+      <lb ed="#L" n="86"/>quibus patet, quod spiritus sanctus dicitur 
+      spiri<lb ed="#L" break="no" n="87"/>tus filij, quod non diceretur, nisi procederet 
+      <lb ed="#L" n="88"/>ab eo.
+    </p>
+            <p xml:id="ol96b1-113560-d1e191">
+      <!--0348.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="89"/>Tertia vero est eiusdem filij Ioan. 15. dicentis 
+      <lb ed="#L" n="90"/>de spiritu suo, quod ipse mittet eum a patre, nec 
+      <lb ed="#L" n="91"/>mitteret, nisi ab ipso procederet. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e204">
+               <lb ed="#L" n="92"/>Quarta est Apostoli ad Romanos 8. qui vocat. 
+      <lb ed="#L" n="93"/>spiritum sanctum, spiritum eius, qui suscitauit Ie 
+      <lb ed="#L" n="94"/>sum a mortuis, &amp; ita spiritum patris. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e213">
+               <lb ed="#L" n="95"/>Quinta, ipsius Christi Matth. o. dicentis: Non 
+      <lb ed="#L" n="96"/>enim vos estis, qui loquimini, sed spiritus patris 
+      <lb ed="#L" n="97"/>vestri, qui loquitur in vobis. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e223">
+               <lb ed="#L" n="98"/>Sexta, Ioan. 14. Quem mittet pater in 
+      nomi<lb ed="#L" break="no" n="99"/>ne meo. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e230">
+               <lb ed="#L" n="100"/>Septima, Io. 15. vbi dicitur, Spiritus, qui a 
+      pa<lb ed="#L" break="no" n="101"/>tre procedit, ille me clarificabit. Ex his ergo, 
+      <lb ed="#L" n="102"/>&amp; pluribus aliis approbatur, quod spiritus a 
+      pa<lb ed="#L" break="no" n="103"/>tre, filioque procedit. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e241">
+               <lb ed="#L" n="104"/>Postmodum ibi: Graeci tamen. Ponit Magister 
+      <lb ed="#L" n="105"/>opinionem Graecorum, &amp; facit duo. Primo enim 
+      <lb ed="#L" n="106"/>ponit rationes eorum tres, dicens, quod Graeci 
+      <lb ed="#L" n="107"/>concedunt spiritum sanctum procedere tantum 
+      <lb ed="#L" n="108"/>a patre, &amp; non a filio propter tria. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e254">
+               <lb ed="#L" n="109"/>Primo quidem, quia non inuenitur in 
+      Euan<lb ed="#L" break="no" n="110"/>geliis, quod procedat a filio, sed quod a 
+      patre<lb ed="#L" break="no" n="111"/>procedit. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e263">
+               <lb ed="#L" n="112"/>Secundo vero, quod in quatuor principalibus 
+      <lb ed="#L" n="113"/>Concilijs, quae apud eos fuerunt in primitiua 
+      <lb ed="#L" n="114"/>Ecclesia celebrata, quorum primum fuit 
+      Nicae<lb ed="#L" break="no" n="115"/>num, aliud Constantinopolitanum, tertium Ephe- 
+      <!--0349.xml-->
+      <pb ed="#L" n="349"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sinum, quartum Calcedonense, quorum quidem 
+      <lb ed="#L" n="2"/>Conciliorum tanta est auctoritas, quod sunt, 
+      <lb ed="#L" n="3"/>quasi sancta quatuor Euangelia ab omnibus 
+      ve<lb ed="#L" break="no" n="4"/>neranda: in his inquam conciliis edita sunt Sym 
+      <lb ed="#L" n="5"/>bola, &amp; anathemata promulgata contra omnes 
+      <lb ed="#L" n="6"/>illos, qui aliter docere, vel praedicare 
+      praesum<lb ed="#L" break="no" n="7"/>pserint de fide catholica, quam in illis Symbolis 
+      <lb ed="#L" n="8"/>continetur. In illis autem Symbolis numquam 
+      <lb ed="#L" n="9"/>fit mentio de spiritu, quod procedat a filio, sed 
+      <lb ed="#L" n="10"/>semper, quod procedat a patre, &amp; ita 
+      conclu<lb ed="#L" break="no" n="11"/>dunt nos anathematis esse reos.
+    </p>
+            <p xml:id="ol96b1-113560-d1e305">
+               <lb ed="#L" n="12"/>Tertio quoque idem probant ex simbolo, quod 
+      <lb ed="#L" n="13"/>in Ecclesia decantatur, quod scripsit Leo 
+      Ter<lb ed="#L" break="no" n="14"/>tius in tabula argentea, &amp; posuit post altare 
+      <lb ed="#L" n="15"/>beati Pauli, propter amorem, vt ipse dixit, &amp; 
+      <lb ed="#L" n="16"/>cautelam fidei orthodoxae. In illo quidem 
+      sym<lb ed="#L" break="no" n="17"/>bolo habetur, Et in Spiritum sanctum 
+      Domi<lb ed="#L" break="no" n="18"/>num viuificantem, qui ex Patre procedit. Illud 
+      <lb ed="#L" n="19"/>enim, quod nos cantamus, Filioque procedit, scri 
+      <lb ed="#L" n="20"/>ptum in illa tabula minime reperitur, propter 
+      <lb ed="#L" n="21"/>quod Graeci dicunt Latinos excommunicatos. 
+      <lb ed="#L" n="22"/>Secundo ibi. Nos autem illa verba. Magister 
+      respon<lb ed="#L" break="no" n="23"/>det ad motiua Graecorum, &amp; primo ad illud de 
+      <lb ed="#L" n="24"/>Conciliis, quod nos non praedicamus aliud in 
+      <lb ed="#L" n="25"/>contrarium, sed addimus, &amp; explicamus; &amp; 
+      <lb ed="#L" n="26"/>idem est de symbolo, quod in Ecclesia 
+      decanta<lb ed="#L" break="no" n="27"/>tur, quod autem aliud intelligatur pro 
+      opposi<lb ed="#L" break="no" n="28"/>to, non pro additamento, probat per 
+      Aposto<lb ed="#L" break="no" n="29"/>lum, qui cum dixisset ad Galat. 1. Si quis aliud 
+      <lb ed="#L" n="30"/>euangelizauerit anathema sit, dicit prima ad 
+      <lb ed="#L" n="31"/>Thessalonicen. tertio, quod cupiebat venire, vt 
+      <lb ed="#L" n="32"/>suppleret, quae illorum fidei deerant, per quod 
+      <lb ed="#L" n="33"/>patet, quod supplere, quod deest, non est aliud 
+      <lb ed="#L" n="34"/>euangelizare, alias ipse anathema esset. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e358">
+               <lb ed="#L" n="35"/>Secundo respondet ad auctoritatem 
+      Euange<lb ed="#L" break="no" n="36"/>lij, dicens, quod filius non negat spiritum 
+      san<lb ed="#L" break="no" n="37"/>ctum procedere a se, sed ideo patrem tantum 
+      <lb ed="#L" n="38"/>nominat, quia ad eum cuncta solet referre, vt 
+      <lb ed="#L" n="39"/>innuat se eius gloriam quaerere, non propriam 
+      <lb ed="#L" n="40"/>laudem, Ioan. 7. dicit: Mea doctrina non est mea. 
+      <lb ed="#L" n="41"/>Rtsu iutn ioit cauntus terts t ste qusgsie 
+      <lb ed="#L" n="42"/>ad concordiam quandam. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e378">
+               <lb ed="#L" n="43"/>Primo enim ostendit, quod quo ad rem conue 
+      <lb ed="#L" n="44"/>niunt, &amp; dissentiunt solum verbis, dicens, quod 
+      <lb ed="#L" n="45"/>Graeci concedunt, spiritum sanctum esse filij, sicut 
+      <lb ed="#L" n="46"/>patris. constat autem, quod non est aliud 
+      spiri<lb ed="#L" break="no" n="47"/>tum esse filij, quam spiritum esse a filio. ergo in 
+      <lb ed="#L" n="48"/>eadem videntur fidei sententia conuenire, etsi 
+      <lb ed="#L" n="49"/>verbis dissentiant. 
+    </p>
+            <p xml:id="ol96b1-113560-d1e396">
+               <lb ed="#L" n="50"/>Secundo ibi: Vnde &amp; quidam. Quod nec etiam 
+      <lb ed="#L" n="51"/>in verbis dissentiunt doctores Graeci. expresse 
+      <lb ed="#L" n="52"/>enim hic confitentur Athanasius, Didimus, 
+      Cy<lb ed="#L" break="no" n="53"/>rillus, &amp; Ioannes Chrysostomus, qui fuerunt 
+      <lb ed="#L" n="54"/>doctores Graeci, &amp; patent sex eorum 
+      auctorita<lb ed="#L" break="no" n="55"/>tes in littera; Haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

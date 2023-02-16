@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="315"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-102663"> <!-- l1d9p1-prae -->
+            <head xml:id="ol96b1-102663-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-102663-d1e104">
+      <!--0315.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="81"/>DE DJSTJNCTJONE TRJVM PERSONARVM, 
+      <lb ed="#L" n="82"/>&amp; coaeternitate. 
+      <lb ed="#L" n="83"/>DISTINCTIO IX.
+    </p>
+            <p xml:id="ol96b1-102663-d1e117">
+      <!--0315.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="84"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e126">
+               <lb ed="#L" n="85"/>NVNC vero ad distinctione 
+      per<lb ed="#L" break="no" n="86"/>sonarum accedamus. Postquam 
+      <lb ed="#L" n="87"/>determinauit Magister de 
+      <lb ed="#L" n="88"/>essentia Diuina, &amp; 
+      essentiali<lb ed="#L" break="no" n="89"/>bus, hic determinat de 
+      per<lb ed="#L" break="no" n="90"/>sonis, &amp; personalibus. Et 
+      cir<lb ed="#L" break="no" n="91"/>ca hoc tria facit. 
+      <lb ed="#L" n="92"/>Primo enim agit de duabus personis, 
+      videli<lb ed="#L" break="no" n="93"/>cet Patre, &amp; Filio, tractando de generatione 
+      Fi<lb ed="#L" break="no" n="94"/>lij a Patre. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e151">
+               <lb ed="#L" n="95"/>Secundo vero agit de Spiritu sancto.
+    </p>
+            <p xml:id="ol96b1-102663-d1e156">
+               <lb ed="#L" n="96"/>Tertio aequiparat personas adinuicem 
+      secun<lb ed="#L" break="no" n="97"/>dum aequalitatem. secunda ibidem dist. Io. Nunc 
+      <lb ed="#L" n="98"/>post Filij aeternitatem. tertia ibi dist. 19. Nunc post 
+      <lb ed="#L" n="99"/>ouaternitatem trium personarum. Circa primum 
+      <lb ed="#L" n="100"/>duo facit. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e169">
+      <!--0315.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="101"/>Primo enim inquirit de generatione Filij a Pa 
+      <lb ed="#L" n="102"/>tre, quomodo sit. Secundo, quomodo exprimi 
+      <lb ed="#L" n="103"/>possit. secunda ibi: Hic quaeri potest. cum 
+      generatio<lb ed="#L" break="no" n="104"/>ne Filij a Patre an sit. secundo, quando sit, &amp; 
+      ter<lb ed="#L" break="no" n="105"/>tio quid sit, &amp; quomodo. secunda ibi: Sed contra 
+      <lb ed="#L" n="106"/>hoc inquit Haereticus. tertia ibi: Sed quaeris a me, 
+      in<lb ed="#L" break="no" n="107"/>quit Ambrosius. Dicit itaque primo, quod ad 
+      di<lb ed="#L" break="no" n="108"/>stinctionem personarum nunc accedendum est, 
+      <lb ed="#L" n="109"/>postquam de vnitate Diuinae substantiae est 
+      tra<lb ed="#L" break="no" n="110"/>ctatum. tenendum est ergo, quod Pater, &amp; Filius, 
+      <lb ed="#L" n="111"/>&amp; Spiritus sanctus sunt vnus Deus, nec tamen 
+      <lb ed="#L" n="112"/>Pater est Filius, aut e conuetso pro eo, quod 
+      ge<lb ed="#L" break="no" n="113"/>nitus est a Patre Filius, &amp; ideo non est alius neus, 
+      <lb ed="#L" n="114"/>nec ante fuit Pater, quam Filius: tres namque 
+      per<lb ed="#L" break="no" n="115"/>sonae sunt mutuo coaeternae. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e208">
+               <lb ed="#L" n="116"/>Postmodum ibi: Sed contra hoc inquit Haereticus. 
+      <lb ed="#L" n="117"/>Magister inquirit, quando generatio sit Filij 
+      osten<lb ed="#L" break="no" n="118"/>dendo, quod sit genitus ab aeterno. Et circa hoc 
+      <!--0316.xml-->
+      <pb ed="#L" n="316"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>facit quatuor. Primo enim ponit argumentum 
+      <lb ed="#L" n="2"/>haeretici contra Filij coaeternitatem, dicens, quod 
+      <lb ed="#L" n="3"/>haereticus Arrius probat, quod Filius non sit aeter 
+      <lb ed="#L" n="4"/>nus, quia omne, quod natum est, principium ha 
+      <lb ed="#L" n="5"/>bet. ergo nullum natum potest esse sine 
+      princi<lb ed="#L" break="no" n="6"/>pio, &amp; ab aeterno, &amp; iterum omne, quod natum est, 
+      <lb ed="#L" n="7"/>aliquando non fuit. erat enim tempus, quando non 
+      <lb ed="#L" n="8"/>erat, quia quod est, generari non potest. videtur 
+      <lb ed="#L" n="9"/>ergo, quod Filius non sit patri coaeternus. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e243">
+               <lb ed="#L" n="10"/>Secundo ibi: Qui hoc dicit, Respondet Magister 
+      <lb ed="#L" n="11"/>secundum Aug. dicens, quod immo potest probari 
+      <lb ed="#L" n="12"/>oppositum ex medio eodem. natum enim coaeternum 
+      <lb ed="#L" n="13"/>est gignenti, &amp; erit coaeternum, si generans sit 
+      aeter<lb ed="#L" break="no" n="14"/>num, sicut patet de splendore, qui coaeternus est 
+      <lb ed="#L" n="15"/>igni, &amp; esset vtique coaeternus, si ignis esset 
+      aeter<lb ed="#L" break="no" n="16"/>nus, &amp; iterum numquam fuit Deus sine virtute, &amp; 
+      si<lb ed="#L" break="no" n="17"/>ne sapientia, sed Filius est Dei virtus, &amp; Dei 
+      sa<lb ed="#L" break="no" n="18"/>pientia secundum Apostolum. ergo numquam fuit 
+      <lb ed="#L" n="19"/>Deus sine Filio, alioquin fuisset sine sapientia, 
+      <lb ed="#L" n="20"/>quod dicere est dementis. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e269">
+               <lb ed="#L" n="21"/>Tertia ibi: Eidem quoque Arrianicae quaestioni. 
+      <lb ed="#L" n="22"/>Respondet Magister secundum Ambr. qui dicit, 
+      <lb ed="#L" n="23"/>quod filius natus est, &amp; hoc ipse catholice confitetur, 
+      <lb ed="#L" n="24"/>sed quod esse caeperit, tanquam impium exhorrescit. 
+      <lb ed="#L" n="25"/>scriptum est enim Isa. 43. nte me non fuit Deus, &amp; 
+      <lb ed="#L" n="26"/>post me non erit. aut ergo dicit Pater, &amp; sic conuin 
+      <lb ed="#L" n="27"/>citur, Filium non esse post Patrem, aut hic dicit Filius, 
+      <lb ed="#L" n="28"/>&amp; sic concluditur, quod Pater non fuit ante ipsum, &amp; 
+      <lb ed="#L" n="29"/>ita quodcumque detur semper habetur intentum. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e292">
+               <lb ed="#L" n="30"/>Quarto ibi: Item dic mihi Haeretice. Magister 
+      in<lb ed="#L" break="no" n="31"/>uehitur ex dictis propriis contra Haereticum 
+      reci<lb ed="#L" break="no" n="32"/>tans verba Ambr. in hunc modum: Tu dicis 
+      Haereti<lb ed="#L" break="no" n="33"/>ce, quod fuit aliquando Deus omnipotens sine na 
+      <lb ed="#L" n="34"/>to, quaeritur ergo a te, Vtrum coeperit esse Pater, 
+      <lb ed="#L" n="35"/>&amp; fuit aliquando Deus sine Patre, quod si sic, Deus 
+      <lb ed="#L" n="36"/>fecit se Patrem, quod est erroneum: si vero 
+      sem<lb ed="#L" break="no" n="37"/>per fuit Pater, ergo semper habuit Filium, quia 
+      <lb ed="#L" n="38"/>Pater, &amp; Filius relatiue dicuntur, nec est Pater 
+      <lb ed="#L" n="39"/>sine Filio, aut Filius sine Patre. 
+    </p>
+            <p xml:id="ol96b1-102663-d1e316">
+               <lb ed="#L" n="40"/>Postmodum ibi: Sed quaeris a me. Magister 
+      in<lb ed="#L" break="no" n="41"/>quirit de generatione Filij quid sit. Et circa hoc 
+      <lb ed="#L" n="42"/>duo facit. Primo ostendit istius materiae 
+      difficul<lb ed="#L" break="no" n="43"/>tatem, dicens, quod in ea mens deficit, &amp; vox silet, inef 
+      <lb ed="#L" n="44"/>fabilis est enim illa generatio, Isaia testante: 
+      Gene<lb ed="#L" break="no" n="45"/>rationem eius, quis enarrabit? Secundo, ibi: Quidam 
+      <lb ed="#L" n="46"/>tamen. reprehendit superfluam subtilitatem, dicens, 
+      <lb ed="#L" n="47"/>quod aliqui de suo inge nio praesumentes, audent 
+      <lb ed="#L" n="48"/>asserere, quod possunt intelligere Diuinam gene 
+      <lb ed="#L" n="49"/>rationem, inhaerentes illi auctoritati Hieronymi, 
+      <lb ed="#L" n="50"/>qui ait super Ecclesiasten, quod saepissime in 
+      <lb ed="#L" n="51"/>Scripturis, qui non pro imposibili, sed pro 
+      diffi<lb ed="#L" break="no" n="52"/>cili ponitur, vt ibi: Generationem eius, quis 
+      enarra<lb ed="#L" break="no" n="53"/>bit? &amp; respondet Magister, quod hoc non dicit 
+      Hie<lb ed="#L" break="no" n="54"/>rony. quasi Filij generatio ad plenum valeat 
+      ex<lb ed="#L" break="no" n="55"/>plicari, sed quia aliquid de ea intelligi potest, &amp; 
+      <lb ed="#L" n="56"/>dici. Haec est sententia 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

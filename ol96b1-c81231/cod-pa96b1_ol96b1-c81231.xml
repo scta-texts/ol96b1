@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="250"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c81231"> <!-- l1d7p2-q1 -->
+            <head xml:id="ol96b1-c81231-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-c81231-Hd1e104" type="question-title">
+        Utrum possint esse plures filij in Diuinis. 
+      </head>
+            <p xml:id="ol96b1-c81231-d1e107">
+               <lb ed="#L" n="112"/>Vtrum possint esse plures filij in Diuinis. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e112">
+               <lb ed="#L" n="113"/>ET quia Magister hic inquirit, quomodo 
+      po<lb ed="#L" break="no" n="114"/>tentia generandi est in Filio, &amp; an filius sit 
+      <lb ed="#L" n="115"/>potens generare, esset autem potens generare, 
+      <lb ed="#L" n="116"/>si esset possibilis alius filius in Deo, ideo 
+      inqui<lb ed="#L" break="no" n="117"/>rendum occurrit, Vtrum possint esse plures 
+      fi<lb ed="#L" break="no" n="118"/>lij in Diuinis. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e129">
+               <lb ed="#L" n="119"/>Quod possint esse plures filij. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e134">
+               <lb ed="#L" n="120"/>ET videtur, quod sic: omni namque produ 
+      <lb ed="#L" n="121"/>ctiuae potentiae correspondet aliquod pro- 
+      <!--0251.xml-->
+      <pb ed="#L" n="251"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ducibile, sed in filio est generatiua potentia, vt 
+      <lb ed="#L" n="2"/>Augustinus dicit in auctoritate saepe allegata, 
+      <lb ed="#L" n="3"/>quod filius non genuit, non quia non potuit, sed 
+      <lb ed="#L" n="4"/>quia, &amp;c. &amp; iterum argumentum haeretici est, quod 
+      <lb ed="#L" n="5"/>pater erit potentior filio, si filius non potuit gene 
+      <lb ed="#L" n="6"/>rare. ergo videtur, quod potentiae generatiuae exi 
+      <lb ed="#L" n="7"/>stenti in filio, correspondeat aliquod 
+      generabi<lb ed="#L" break="no" n="8"/>le, &amp; per consequens alius filius. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e165">
+               <lb ed="#L" n="9"/>Praeterea: Id, quod habet verbum, habet filius 
+      <lb ed="#L" n="10"/>in Diuinis: filius namque &amp; verbum idem sunt; 
+      <lb ed="#L" n="11"/>sed Apost. ad Hebr. innuit, quod filius habet 
+      ver<lb ed="#L" break="no" n="12"/>bum, cum dicit, quod portat omnia verbo virtu 
+      <lb ed="#L" n="13"/>tis suae. ergo filius habet filium, vt videtur. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e178">
+               <lb ed="#L" n="14"/>Praeterea: Omni perfecta intellectione debet 
+      <lb ed="#L" n="15"/>emanare verbum: sed filius, &amp; spiritus sanctus 
+      ae<lb ed="#L" break="no" n="16"/>que perfecte intelligunt, sicut pater. ergo filius 
+      <lb ed="#L" n="17"/>intelligendo, producet verbum; &amp; per 
+      con<lb ed="#L" break="no" n="18"/>sequens erunt plures filij, &amp; plura verba in 
+      <lb ed="#L" n="19"/>Diuinis. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e194">
+               <lb ed="#L" n="20"/>Praeterea; Ex infinita bonitate patris 
+      proce<lb ed="#L" break="no" n="21"/>dit, quod communicet seipsum, filium producen 
+      <lb ed="#L" n="22"/>do: sed aeque bonus est filius, sicut pater. ergo 
+      <lb ed="#L" n="23"/>videtur, quod communicet se, alium filium 
+      pro<lb ed="#L" break="no" n="24"/>ducendo. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e207">
+               <lb ed="#L" n="25"/>Praeterea: Philosophus 4. Metheoror. ait, 
+      per<lb ed="#L" break="no" n="26"/>fectum est vnumquodque cum potest generare 
+      <lb ed="#L" n="27"/>sibi simile, sed constat, quod filius summe 
+      perfe<lb ed="#L" break="no" n="28"/>ctus est. ergo potest sibi simile generare. 
+      <lb ed="#L" n="29"/>Praeterea: Deus cum sit infinitus simpliciter, 
+      <lb ed="#L" n="30"/>debet habere omnem modum infinitatis, sed 
+      in<lb ed="#L" break="no" n="31"/>finitas numeralis est quidam modus infinitatis, 
+      <lb ed="#L" n="32"/>sicut &amp; infinitas perfectionis est alius. ergo sicut 
+      <lb ed="#L" n="33"/>in Deo est infinitas perfectionis, sic debet esse 
+      <lb ed="#L" n="34"/>numerosa infinitas, &amp; per consequens filij infiniti. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e232">
+               <lb ed="#L" n="35"/>Praeterea: Deus est, quo maius excogitari 
+      <lb ed="#L" n="36"/>non potest, sed maius bonum essent duo filij Dei, 
+      <lb ed="#L" n="37"/>quam vnus. ergo erunt plures filij in Diuinis. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e241">
+               <lb ed="#L" n="38"/>Praeterea: Filio attribuendum est quidquid di 
+      <lb ed="#L" n="39"/>gnitatis est in patre, sed genuisse est dignitatis, 
+      <lb ed="#L" n="40"/>&amp; auctoritatis cuiusdam. ergo illud, quod prius. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e250">
+               <lb ed="#L" n="41"/>Praeterea: Filius est imago, &amp; similitudo Dei 
+      <lb ed="#L" n="42"/>patris: sed pater generat. ergo &amp; ipse debet 
+      ge<lb ed="#L" break="no" n="43"/>nerare, vt imitetur patrem. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e259">
+               <lb ed="#L" n="44"/>Praeterea: Non ob aliud videtur, quod non 
+      <lb ed="#L" n="45"/>sint plures filij in Diuinis, nisi quatenus 
+      distin<lb ed="#L" break="no" n="46"/>gui non possent, sed distinguerentur, si essent plu 
+      <lb ed="#L" n="47"/>res, semper enim praecedens distingueretur a 
+      sub<lb ed="#L" break="no" n="48"/>sequente per cooppositam relationem originis, 
+      <lb ed="#L" n="49"/>puta per generare, &amp; generari: vltimus autem 
+      <lb ed="#L" n="50"/>distingueretur a patre primo, quia esset 
+      tantum<lb ed="#L" break="no" n="51"/>modo genitus. pater vero primus 
+      tantummo<lb ed="#L" break="no" n="52"/>do generans: medij autem essent generantes, &amp; 
+      <lb ed="#L" n="53"/>generati. ergo non apparet, quare non sint 
+      plu<lb ed="#L" break="no" n="54"/>res filij in Diuinis. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e285">
+               <lb ed="#L" n="55"/>Quod non possint esse plures filij in Diuinis.
+    </p>
+            <p xml:id="ol96b1-c81231-d1e290">
+               <lb ed="#L" n="56"/>SED in oppositum videtur, quod 
+      impossibi<lb ed="#L" break="no" n="57"/>le sit poni plures filios. in perpetuis enim non 
+      <lb ed="#L" n="58"/>differunt esse, &amp; posse, vt dicit Philos. tertio 
+      Phy<lb ed="#L" break="no" n="59"/>sic. quod haec est natura rerum aeternarum, quod 
+      <lb ed="#L" n="60"/>cum fuerit aliquid possibile, illud erit necessarium, 
+      <lb ed="#L" n="61"/>&amp; non contingens; sed constat, quod non est 
+      ne<lb ed="#L" break="no" n="62"/>cessarium esse plures filios in Diuinis, quia nec 
+      <lb ed="#L" n="63"/>actu sunt. ergo non sunt possibiles esse plures. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e311">
+               <lb ed="#L" n="64"/>Praeterea: Quidquid potest esse necessarium, est 
+      <lb ed="#L" n="65"/>actu necessarium, quia natura possibilis non po- 
+      <!--0251.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>test mutari, vt fiat necessaria, vt Comm. dicit 
+      <lb ed="#L" n="67"/>12. Metaph. sed constat, quod filius, qui esset 
+      pos<lb ed="#L" break="no" n="68"/>sibilis, esset vtique necesse esse. ergo est in actu, 
+      <lb ed="#L" n="69"/>cuius oppositum patet. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e331">
+               <lb ed="#L" n="70"/>Praeterea: Quidquid potest esse Deus, est 
+      a<lb ed="#L" break="no" n="71"/>ctu Deus, iuxta illud Prophetae: Non erit tibi Deus 
+      <lb ed="#L" n="72"/>recens. sed nullus filius est actu Deus, nisi vnus. er 
+      <lb ed="#L" n="73"/>go non est possibilis nisi ille. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e342">
+               <lb ed="#L" n="74"/>Praeterea: Anselm. dicit, quod Deus est, quo 
+      <lb ed="#L" n="75"/>maius excogitari non potest, sed ille filius 
+      possi<lb ed="#L" break="no" n="76"/>bilis cogitaretur, vt Deus in actu existens, 
+      alio<lb ed="#L" break="no" n="77"/>quin maior posset excogitari, quia illud, quod 
+      <lb ed="#L" n="78"/>existit maius est eo, quod non existit, &amp; per con 
+      <lb ed="#L" n="79"/>sequens non esset Deus. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e358">
+               <lb ed="#L" n="80"/>Responsio ad quaestionem. 
+    </p>
+            <p xml:id="ol96b1-c81231-d1e363">
+               <lb ed="#L" n="81"/>AD istam quaestionem respondendo hoc 
+      or<lb ed="#L" break="no" n="82"/>dine procedetur.
+      <lb ed="#L" n="83"/>primo namque ponentur quaedam opiniones 
+      <lb ed="#L" n="84"/>antiquorum. 
+      <lb ed="#L" n="85"/>Secundo vero opiniones quaedam modernae. 
+      <lb ed="#L" n="86"/>Tertio, quod videtur secundum 
+      veritatem<lb ed="#L" break="no" n="87"/>dicendum. 
+    </p>
+            <div xml:id="ol96b1-c81231-Dd1e381">
+               <head xml:id="ol96b1-c81231-Hd1e383">Articulus 1</head>
+               <p xml:id="ol96b1-c81231-d1e385">
+                  <lb ed="#L" n="88"/>ARTJCVLVS PRJMVS.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e390">
+                  <lb ed="#L" n="89"/>Opinio S. Thomae. I. Sent. d. y. art. 2. 
+      <lb ed="#L" n="90"/>
+                  <!-- line coord error -->
+               </p>
+               <p xml:id="ol96b1-c81231-d1e399">
+                  <lb ed="#L" n="91"/>CIRCA primum ergo considerandum est, 
+      <lb ed="#L" n="92"/>quod omnes Catholici habent conuenire 
+      <lb ed="#L" n="93"/>in hoc, quod non sunt plures filij possibiles, vel 
+      <lb ed="#L" n="94"/>patres, vel spiritus sancti, propter rationes 
+      ad<lb ed="#L" break="no" n="95"/>ductas in oppositū. remanet ergo quaestio dubita 
+      <lb ed="#L" n="96"/>bilis tantum in assignatione formalis rationis; 
+      <lb ed="#L" n="97"/>vnde videlicet repugnantia oriatur plurium 
+      <lb ed="#L" n="98"/>personarum eiusdem rationis in Deo. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e419">
+                  <lb ed="#L" n="99"/>Dixerunt ergo aliqui, quod oritur ex 
+      immate<lb ed="#L" break="no" n="100"/>rialitate Diuina, &amp; eorum, quae sunt in Deo. 
+      for<lb ed="#L" break="no" n="101"/>ma enim secundum eosnon plurificatur, nisi per 
+      <lb ed="#L" n="102"/>materiam. &amp; idcirco non possunt esse plures 
+      fi<lb ed="#L" break="no" n="103"/>liationes, aut plures paternitates solo numero 
+      <lb ed="#L" n="104"/>differentes in Deo, cui videtur concordare 
+      di<lb ed="#L" break="no" n="105"/>ctum Philosophi 12. Metaphys. qui ait de primo 
+      <lb ed="#L" n="106"/>principio, quod plurificari non potest, quia non 
+      <lb ed="#L" n="107"/>habet materiam. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e442">
+                  <lb ed="#L" n="108"/>Sed ista ratio deficit propter multa. Primo 
+      <lb ed="#L" n="109"/>quidem, quia dicit omnem plurificationem fieri 
+      <lb ed="#L" n="110"/>per materiam quantam, accipiendo materiam 
+      <lb ed="#L" n="111"/>pro parte essentiali compositi existenti in poten 
+      <lb ed="#L" n="112"/>tia. illud enim, quod potest concipi conceptu 
+      <lb ed="#L" n="113"/>vniuersali, non est principium indiuiduationis, 
+      <lb ed="#L" n="114"/>sed intelligi potest materia conceptu vniuersali, 
+      <lb ed="#L" n="115"/>&amp; materia quanta in conceptu hominis 
+      intelli<lb ed="#L" break="no" n="116"/>gitur corpus organicum, quod includit 
+      mate<lb ed="#L" break="no" n="117"/>riam quantam. ergo materia quanta, non est 
+      <lb ed="#L" n="118"/>causa indiuiduationis, &amp; per consequens nec 
+      <lb ed="#L" n="119"/>plurificationis. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e471">
+                  <lb ed="#L" n="120"/>Praeterea: Ablata causa, aufertur effectus, ma 
+      <lb ed="#L" n="121"/>xime si sit causa praecisa, sed nulla materia existem 
+      <lb ed="#L" n="122"/>te, adhuc animae separatae numeraliter 
+      distin<lb ed="#L" break="no" n="123"/>guuntur. non ergo erat causa numerationis 
+      aui<lb ed="#L" break="no" n="124"/>marum materia quanta. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e484">
+                  <lb ed="#L" n="125"/>Et si dicatur, quod remanet habitudo ad 
+      cor<lb ed="#L" break="no" n="126"/>pus, non valet. numquam enim effectus inest 
+      ali<lb ed="#L" break="no" n="127"/>cui propter habitudinem ad causam, alioquin 
+      <lb ed="#L" n="128"/>superficies esset alba per solam habitudinem ad 
+      <!--0252.xml-->
+      <pb ed="#L" n="252"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>albedinem, &amp; non participaret albedinem in actu, &amp; 
+      <lb ed="#L" n="2"/>similiter lignum erit calidum propter solam 
+      ha<lb ed="#L" break="no" n="3"/>bitudinem ad calorem, sed constat, quod animae 
+      <lb ed="#L" n="4"/>separatae sunt actu indiuiduae, &amp; naturaliter 
+      di<lb ed="#L" break="no" n="5"/>stinctae. ergo causa distinctionis non est sola 
+      ha<lb ed="#L" break="no" n="6"/>bitudo ad materias distinctas. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e515">
+                  <lb ed="#L" n="7"/>Praeterea: Philosophus dicit 4. Metaph. quod 
+      <lb ed="#L" n="8"/>eodem est aliquis homo, &amp; vnus homo, &amp; ille 
+      ho<lb ed="#L" break="no" n="9"/>mo, sed constat, quod non est homo per 
+      mate<lb ed="#L" break="no" n="10"/>riam. ergo nec iste homo. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e526">
+                  <lb ed="#L" n="11"/>Praeterea: Caeli numero distinguuntur 
+      secun<lb ed="#L" break="no" n="12"/>dum Comment. 2. caeli, &amp; mundi. sed non habent 
+      <lb ed="#L" n="13"/>materiam, vt idem dicit, &amp; non dubium, quin 
+      Philos<lb ed="#L" break="no" n="14"/>fuerit eiusdem sententiae. ergo non omnis 
+      distin<lb ed="#L" break="no" n="15"/>ctio est per materiam. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e539">
+                  <lb ed="#L" n="16"/>Secundo vero deficit, quia ait ex hoc 
+      filiatio<lb ed="#L" break="no" n="17"/>nem non posse plurificari in Deo. secundum hoc 
+      <lb ed="#L" n="18"/>enim non plus repugnabit filio plurificari in Di 
+      <lb ed="#L" n="19"/>uinis, quam Michaeli, vel cuilibet Angelo, qui 
+      <lb ed="#L" n="20"/>secundum eum non potest plurificari, quia est 
+      <lb ed="#L" n="21"/>forma abstracta, sed hoc est absonum, quoniam 
+      <lb ed="#L" n="22"/>in Angelis saltem est ratio generis, &amp; speciei, 
+      <lb ed="#L" n="23"/>quamuis non sit. nisi vnum indiuiduum in 
+      quali<lb ed="#L" break="no" n="24"/>bet specie secundum eos. constat autem, quod 
+      <lb ed="#L" n="25"/>a filiatione non potest abstrahi conceptus speci 
+      <lb ed="#L" n="26"/>ficus, aut generis, quia non est genus, aut 
+      spe<lb ed="#L" break="no" n="27"/>cies in Diuinis. ergo ratio illa non est causa 
+      il<lb ed="#L" break="no" n="28"/>lius implurificauilitatis, quam habet filiatio. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e571">
+                  <lb ed="#L" n="29"/>Praeterea: Effectus proprius debet reduci in 
+      <lb ed="#L" n="30"/>causam propriam, sed non plurificari proprium 
+      <lb ed="#L" n="31"/>est filio, &amp; spiritui sancto, tali modo quod non 
+      <lb ed="#L" n="32"/>competit alicui creato: nulla namque creatura 
+      <lb ed="#L" n="33"/>sic immultiplicabilis est, sicut relationes Diuinae. 
+      <lb ed="#L" n="34"/>ergo non debuit pro causa assignari abstractio, 
+      <lb ed="#L" n="35"/>quae communis est creaturis. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e589">
+                  <lb ed="#L" n="36"/>Tertio quoque deficit, quoniam dici posset, 
+      <lb ed="#L" n="37"/>quod non essent in eodem subiecto huiusmodi fi 
+      <lb ed="#L" n="38"/>liationes, non enim essentia est subiectum 
+      pro<lb ed="#L" break="no" n="39"/>prietatum, sed supposita. ergo quot erunt filij, 
+      <lb ed="#L" n="40"/>tot erunt substantiae, &amp; sic filiationes distingui 
+      <lb ed="#L" n="41"/>Pe erut Pue 'psete, paternitates sunt in 
+      eodem<lb ed="#L" break="no" n="42"/>Sorte ad plures filios, &amp; plures similitudines in 
+      <lb ed="#L" n="43"/>eodem albo ad multa coalba, sed illae sunt 
+      eius<lb ed="#L" break="no" n="44"/>dem rationis, &amp; solo numero differentes. ergo 
+      <lb ed="#L" n="45"/>ex hac ratione non tollitur, quin plures 
+      filiatio<lb ed="#L" break="no" n="46"/>nes poni possint in Deo. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e615">
+                  <lb ed="#L" n="47"/>Praeterea: Tales filiationes plures essent inter 
+      <lb ed="#L" n="48"/>alios, &amp; alios terminos, &amp; ita haberent, quo 
+      di<lb ed="#L" break="no" n="49"/>stinguerentur adinuicem, esto quod non per 
+      <lb ed="#L" n="50"/>substantiam. ergo non apparet, quod ratio illa 
+      <lb ed="#L" n="51"/>sufficiat. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e628">
+                  <lb ed="#L" n="52"/>Quarto vero deficit, quia est expresse contra 
+      <lb ed="#L" n="53"/>tres articulos Parisiis excommunicatos. 
+      <lb ed="#L" n="54"/>Primum quidem, qui dicit, quod quia 
+      intelli<lb ed="#L" break="no" n="55"/>gentiae non habent materiam, ex hoc Deus non 
+      <lb ed="#L" n="56"/>potest plures eiusdem speciei facere, error est. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e641">
+                  <lb ed="#L" n="57"/>Secundum vero, qui ait, quod Deus non 
+      pos<lb ed="#L" break="no" n="58"/>sit multiplicare indiuidua sub specie sine 
+      mate<lb ed="#L" break="no" n="59"/>ria, error. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e650">
+                  <lb ed="#L" n="60"/>Tertium vero, qui ait, quod formae non 
+      reci<lb ed="#L" break="no" n="61"/>piāt diuisionem, nisi per materiam, error, nisi 
+      in<lb ed="#L" break="no" n="62"/>telligatur de formis eductis de potentia materiae. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e660">
+                  <lb ed="#L" n="63"/>Opinio Henrici quolib. 6. q. 1.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e665">
+                  <lb ed="#L" n="64"/>PROPTEREA dixerunt alij, quod causa 
+      qua<lb ed="#L" break="no" n="65"/>re filius plurificari non possit, est exhaustio 
+      <!--0252.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>potentiae generatiuae, &amp; ponitur exemplum 
+      de<lb ed="#L" break="no" n="67"/>fonte exhausto per riuum, &amp; Sole per vnicum 
+      ra<lb ed="#L" break="no" n="68"/>dium, vnde filius, qui exhaurit totam foecundita 
+      <lb ed="#L" n="69"/>tem generatiuam, quae est in Deo, impossibile 
+      <lb ed="#L" n="70"/>est alium filium in Diuinis generare. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e687">
+                  <lb ed="#L" n="71"/>Sed haec opinio stare non potest in tribus. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e692">
+                  <lb ed="#L" n="72"/>Primo quidem, quia assignauit causam eius, 
+      <lb ed="#L" n="73"/>quod in Deo est illud, quod nihil est. probatum 
+      <lb ed="#L" n="74"/>est enim supra, quod in Deo non est potentia 
+      <lb ed="#L" n="75"/>productiua, quae nominari debeat foecunditas 
+      <lb ed="#L" n="76"/>generatiua. ergo non potest foecunditatis exhau 
+      <lb ed="#L" n="77"/>stio esse causa alicuius, quod sit in Deo. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e708">
+                  <lb ed="#L" n="78"/>Secundo, quod falsum assumit videlicet, quod 
+      <lb ed="#L" n="79"/>potentia productiua esto quod esset in Deo, exhau 
+      <lb ed="#L" n="80"/>riretur per productionem. nullum enim 
+      produ<lb ed="#L" break="no" n="81"/>ctum exhaurit potentiam productiuam: non 
+      e<lb ed="#L" break="no" n="82"/>nim extrahitur, vel expellitur potentia ab agen 
+      <lb ed="#L" n="83"/>te propter productionem, vt patet, quod ignis 
+      <lb ed="#L" n="84"/>non amittit calefactiuam potentiam per hoc, 
+      <lb ed="#L" n="85"/>quod calefacit, nec valet exemplum de riuo 
+      re<lb ed="#L" break="no" n="86"/>spectu fontis, quia non emanat a fonte, tãquam 
+      <lb ed="#L" n="87"/>productiuo principio, sed tamquam a thesauro, 
+      <lb ed="#L" n="88"/>in quo continebatur non solum virtualiter, sicut 
+      <lb ed="#L" n="89"/>effectus in causa, immo realiter latitabat in eo, 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e737">
+                  <lb ed="#L" n="90"/>Tertio deficit, quia non est verum, quod exau 
+      <lb ed="#L" n="91"/>riatur patris foecunditas, esto per impossibile, 
+      <lb ed="#L" n="92"/>quod esset in eo. nullum enim generans potest 
+      <lb ed="#L" n="93"/>generare, postquam eius foecunditas est 
+      ex<lb ed="#L" break="no" n="94"/>hausta, sed pater, quod patet in Diuinis 
+      con<lb ed="#L" break="no" n="95"/>tinue generat. ergo eius foecunditas non est 
+      <lb ed="#L" n="96"/>exhausta. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e756">
+                  <lb ed="#L" n="97"/>Opinio Varronis. I. Sent. q. 41. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e761">
+                  <lb ed="#L" n="98"/>ET ideo dixerunt alij, quod causa huius 
+      im<lb ed="#L" break="no" n="99"/>Lplurificabilitatis, haec est, quod filius est 
+      pro<lb ed="#L" break="no" n="100"/>ductus per actum adaequantem potentiam, si sem 
+      <lb ed="#L" n="101"/>per stet, &amp; maneat, tollit ne alius posset 
+      produ<lb ed="#L" break="no" n="102"/>ci. si enim alius potest, iam ille non adaequabat, 
+      <lb ed="#L" n="103"/>sed filius producitur per actum intellectus, 
+      im<lb ed="#L" break="no" n="104"/>mo etiam communicatur filio. non ergo potest 
+      <lb ed="#L" n="105"/>aliud verbum, aut alius filius produci. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e781">
+                  <lb ed="#L" n="106"/>Sed haec opinio deficit similiter in tribus. 
+      <lb ed="#L" n="107"/>Primo, quia imaginatur, quod ibi sit aliquis 
+      <lb ed="#L" n="108"/>actus elicitus, &amp; quod filius producitur per 
+      intel<lb ed="#L" break="no" n="109"/>ligere, quod vtique non est verum. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e792">
+                  <lb ed="#L" n="110"/>Secundo vero per hanc rationem alius filius 
+      <lb ed="#L" n="111"/>est possibilis in Diuinis simpliciter, quamuis 
+      <lb ed="#L" n="112"/>permanentia, &amp; aeternitas istius impediat, 
+      ne<lb ed="#L" break="no" n="113"/>possit actu produci. quandocumque enim aliqua 
+      <lb ed="#L" n="114"/>productiua potentia posset aliquem effectum 
+      pro<lb ed="#L" break="no" n="115"/>ducere, nisi quatenus impediatur, talis effectus 
+      <lb ed="#L" n="116"/>dicitur simpliciter possibilis, sed impossibilis 
+      <lb ed="#L" n="117"/>propter impedimentum; sed potentia generatiua, 
+      <lb ed="#L" n="118"/>quae est in patre secundum istos posset producere 
+      <lb ed="#L" n="119"/>alium filium, nisi quia propter aeternam istius 
+      per<lb ed="#L" break="no" n="120"/>manentiam impediatur. ergo simpliciter alius fi 
+      <lb ed="#L" n="121"/>lius est possibilis, &amp; tunc sequitur, quod aliquis 
+      <lb ed="#L" n="122"/>potest esse Deus, qui non est Deus, &amp; necesse esse, 
+      <lb ed="#L" n="123"/>quod non est necesse esse, &amp; multa alia absona. 
+      <lb ed="#L" n="124"/>Tertio quoque, quia vel assumit falsum, vel pe 
+      <lb ed="#L" n="125"/>tit principium. aut enim intelligit per 
+      adaequa<lb ed="#L" break="no" n="126"/>tionem, quod effectus perfectionaliter potentiam 
+      <lb ed="#L" n="127"/>adaequet, vel quod numeraliter, &amp; quantitatiue. 
+      <lb ed="#L" n="128"/>si ergo numeraliter tunc principium in minori 
+      <lb ed="#L" n="129"/>petitur. est enim de hoc quaestio, supponendo quod 
+      <lb ed="#L" n="130"/>in patre sit potentia productiua, vtrum vnus so- 
+      <!--0253.xml-->
+      <pb ed="#L" n="253"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>lus filius adaequet potentiam ipsius; si vero 
+      sumi<lb ed="#L" break="no" n="2"/>tur adaequatio perfectionalis, tunc falsa est 
+      pro<lb ed="#L" break="no" n="3"/>positio maior: nam quilibet radius adaequat po 
+      <lb ed="#L" n="4"/>tentiam illuminatiuam Solis, quo ad gradum 
+      <lb ed="#L" n="5"/>intentionis lucis, &amp; tamen hoc non obstante, 
+      <lb ed="#L" n="6"/>plures radij lucis insimul profunduntur a Sole, 
+      <lb ed="#L" n="7"/>vnde permanentia effectus indirectum 
+      producti<lb ed="#L" break="no" n="8"/>ui principij, non impedit, quin alius producatur, 
+      <lb ed="#L" n="9"/>nisi ratione susceptiui, sed si sunt plura, vel si non 
+      <lb ed="#L" n="10"/>egeat susceptiuo, non apparet, quin eodem 
+      produ<lb ed="#L" break="no" n="11"/>ctiuo principio possint produci plures essectus 
+      <lb ed="#L" n="12"/>numero, quo quilibet perfectionem potentiae 
+      <lb ed="#L" n="13"/>adaequabit.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e875">
+                  <lb ed="#L" n="14"/>Opinio aliorum, &amp; sumitur ex dictis Auicennae. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e880">
+                  <lb ed="#L" n="15"/>QVAPROPTER. dixerunt alij, quod tota 
+      <lb ed="#L" n="16"/>ratio est, quia Deus est singulariras 
+      quae<lb ed="#L" break="no" n="17"/>dam, &amp; quidquid est in eo, est similiter 
+      singula<lb ed="#L" break="no" n="18"/>ritas: singulare autem plurificari non potest, 
+      si<lb ed="#L" break="no" n="19"/>cut patet de Sorte, &amp; idcirco paternitas, nec 
+      <lb ed="#L" n="20"/>filiatio plurificari possunt. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e897">
+                  <lb ed="#L" n="21"/>Sed hic modus dicendi deficit in duobus. 
+      <lb ed="#L" n="22"/>Primo quidem, quia Deus est tota natura 
+      sub<lb ed="#L" break="no" n="23"/>fistens; vnde non est singularis, nec particularis 
+      <lb ed="#L" n="24"/>vt Commentator dicit 12. Meraph.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e908">
+                  <lb ed="#L" n="25"/>Secundo vero, quia esto, quod paternitas 
+      es<lb ed="#L" break="no" n="26"/>set quid singulare, non propter hoc sequeretur, 
+      <lb ed="#L" n="27"/>quin posset sibi similis reperiri in Deo, sicut &amp; 
+      <lb ed="#L" n="28"/>Sorti singulari reperitur aliquis alius similis: vn 
+      <lb ed="#L" n="29"/>de ista ratio concludit, quod paternitas, vel 
+      fi<lb ed="#L" break="no" n="30"/>liatio singularis, quae existit in Deo plurificari 
+      <lb ed="#L" n="31"/>non possit, sicut nec Sortes, sed quin possit simi 
+      <lb ed="#L" n="32"/>lis reperiri, &amp; ita esse alius filius, non concludit.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e928">
+                  <lb ed="#L" n="33"/>ARTLCVLVS SECVNDVS 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e933">
+                  <lb ed="#L" n="34"/>opinio Scoti in primo quolibetorum quaest. 2. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e938">
+                  <lb ed="#L" n="35"/>CIRCA secundum autem considerandum, 
+      <lb ed="#L" n="36"/>quod aliqui moderni subtilius asignarunt 
+      <lb ed="#L" n="37"/>causam dicentes, quod prima pluralitas 
+      opor<lb ed="#L" break="no" n="38"/>tet, quod sit plurium alterius rationis: &amp; quia 
+      <lb ed="#L" n="39"/>pluralitaa personarum est prima, idcirco 
+      opor<lb ed="#L" break="no" n="40"/>ter, quodsint alterius: rationis, vnde non possunt 
+      <lb ed="#L" n="41"/>esse plures filij, aut plures patres in Deo a hanc 
+      <lb ed="#L" n="42"/>autem rationem deduxerunt, ducendo ad impos 
+      <lb ed="#L" n="43"/>sibile, &amp; ostensiuo. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e960">
+                  <lb ed="#L" n="44"/>Primo quidem ducendo ad impossibile sic: Si 
+      <lb ed="#L" n="45"/>possunt esse plutes productiones eiusdem 
+      ratio<lb ed="#L" break="no" n="46"/>nis in Deo: ergo infinitae, et si infinitae sunt, ergo 
+      <lb ed="#L" n="47"/>necesario sunt, consequeus est impossibile, ergo 
+      <lb ed="#L" n="48"/>&amp; antecedens, primam videlicet, quod sint 
+      plu<lb ed="#L" break="no" n="49"/>res productionos eiusdem rationis in Deo, tenet 
+      <lb ed="#L" n="50"/>autemronfequentia prima auctoritate August. 
+      <lb ed="#L" n="51"/>contra Maxim. saepe superius allegata, in cuius 
+      <lb ed="#L" n="52"/>fine concluditur, quod immoderata erit illa 
+      ge<lb ed="#L" break="no" n="53"/>neratio; nec implebitur series, si semper alter. 
+      <lb ed="#L" n="54"/>e areno gigneretur, nec eam perficeret vllus, si 
+      <lb ed="#L" n="55"/>non sufficeret omnipotens vnus, tenet quoque 
+      <lb ed="#L" n="56"/>eadem consequenmaratione, commune quidem 
+      <lb ed="#L" n="57"/>ad sua singularia non determinatur ex se ad 
+      cer<lb ed="#L" break="no" n="58"/>tam pluralitetem, vt patet de homine respectu 
+      <lb ed="#L" n="59"/>infinitorum, principium etiam vnius rationis 
+      <lb ed="#L" n="60"/>non determinarur ex se ad pertam pluralitatem 
+      <lb ed="#L" n="61"/>niincipiatorum, et patet de igne respectu ignium 
+      <lb ed="#L" n="62"/>diniersorum : potest pnim vnus in infinita quan- 
+      <!--0253.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>tum est ex se. ergo non est certa pluralitas: 
+      opor<lb ed="#L" break="no" n="64"/>tet ergo, quod sit aliunde; prima autem 
+      plura<lb ed="#L" break="no" n="65"/>litas non habet causam, quia iam non esset 
+      pri<lb ed="#L" break="no" n="66"/>ma, vnde necesse est, quod certus numerus 
+      oria<lb ed="#L" break="no" n="67"/>tur, quia sunt alterius rationis.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1020">
+                  <lb ed="#L" n="68"/>Secundo vero potest deduci ostensiue: illud 
+      e<lb ed="#L" break="no" n="69"/>nim non potest plurificari in Diuinis, quod non 
+      <lb ed="#L" n="70"/>potest determinari ad aliquam certam 
+      plurali<lb ed="#L" break="no" n="71"/>tatem, sed si filiatio plurificetur in Diuinis, non 
+      <lb ed="#L" n="72"/>potest determinari ad certam pluralitatem. non 
+      <lb ed="#L" n="73"/>enim determinabitur ex formali ratione 
+      filia<lb ed="#L" break="no" n="74"/>tionis, quia qua ratione possunt esse duo, vel tres, 
+      <lb ed="#L" n="75"/>eadem possunt &amp; infinitae, nec determinabitur 
+      <lb ed="#L" n="76"/>ex formali principio, videlicet ex memoria 
+      pa<lb ed="#L" break="no" n="77"/>terna, quia qua ratioue potest in duos filios, 
+      po<lb ed="#L" break="no" n="78"/>test &amp; infinitos, cum sit eiusdem rationis, nec 
+      de<lb ed="#L" break="no" n="79"/>terminabitur per aliquam priorem pluralitatem, 
+      <lb ed="#L" n="80"/>quia nulla est prior, &amp; per consequens 
+      determi<lb ed="#L" break="no" n="81"/>nari non potest certus numerus filiorum, si sunt 
+      <lb ed="#L" n="82"/>plures, quam vnus. ergo non est possibile, quod 
+      <lb ed="#L" n="83"/>sint plures, quam vnus.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1057">
+                  <lb ed="#L" n="84"/>Opinio Heruaei in primo quolibeto quaest. 2. 
+      con<lb ed="#L" break="no" n="85"/>tra Scotum.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1064">
+                  <lb ed="#L" n="86"/>TVERVNT aliqui, qui dixerunt, quod haec 
+      <lb ed="#L" n="87"/>ratio deficit in duobus. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1071">
+                  <lb ed="#L" n="88"/>Primo quidem, quia non reddit rationem, sed 
+      <lb ed="#L" n="89"/>ducit ad inconueniens. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1078">
+                  <lb ed="#L" n="90"/>Secundo vero, quia dato, quod alicui non 
+      re<lb ed="#L" break="no" n="91"/>pugnet pluralitas numeralis absolute sumpta, re 
+      <lb ed="#L" n="92"/>pugnare tamen potest, prout formaliter 
+      consti<lb ed="#L" break="no" n="93"/>tuit aliquod totum, sicut patet, quod anguli 
+      de<lb ed="#L" break="no" n="94"/>terminant sibi trinitatem, prout constituunt trian 
+      <lb ed="#L" n="95"/>gulum, &amp; pari ratione aduersarius dicit, quod 
+      <lb ed="#L" n="96"/>filiatio in Diuinis determinat sibi quaternitatem, 
+      <lb ed="#L" n="97"/>aut alium numerum certum, &amp; ideo concludunt 
+      <lb ed="#L" n="98"/>isti, quod non es alia causa, nisi quod Deus 
+      si<lb ed="#L" break="no" n="99"/>bi determinat trinarium personarum ex se, sicut 
+      <lb ed="#L" n="100"/>triangulus determinat sibi tres angulos, &amp; ita 
+      <lb ed="#L" n="101"/>non possunt filij multiplicari in Diuinis, 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1107">
+                  <lb ed="#L" n="102"/>Defensio Scoti contra Heruaeum.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1113">
+                  <lb ed="#L" n="103"/>ISTIS tamen calumniantibus, verbis 
+      praedi<lb ed="#L" break="no" n="104"/>ccorum non est difficile respondere. videntur 
+      <lb ed="#L" n="105"/>enim isti multo amplius deficere quoad tria.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1122">
+                  <lb ed="#L" n="106"/>Primo quidem, quia dicunt non esse aliam 
+      <lb ed="#L" n="107"/>causam, quare non sunt plures filiationes, aut pa 
+      <lb ed="#L" n="108"/>ternitates in Deo, nisi quia Deus sibi 
+      determi<lb ed="#L" break="no" n="109"/>nat trinarium personarum, sicut triangulus 
+      tri<lb ed="#L" break="no" n="110"/>narium angulorum: haec quidem deficit: tum quia 
+      <lb ed="#L" n="111"/>non dicit, quod non quisuis diceret, sicut 
+      Philo<lb ed="#L" break="no" n="112"/>sophus dicit antiquis Philosophis 1. de generat. 
+      <lb ed="#L" n="113"/>vnde si ille modus dicendi efsetidoneus, omnis 
+      <lb ed="#L" n="114"/>perscrutatio tolleretur. quaerenti enim, quare 
+      <lb ed="#L" n="115"/>Deus, quare intelligens, quare actus, &amp; sic de 
+      <lb ed="#L" n="116"/>alijs, respondebimus, quod Deus determinat sibi 
+      <lb ed="#L" n="117"/>ista, &amp; sic faciliter poterit omnis quaestio solui, &amp; 
+      <lb ed="#L" n="118"/>terminari: tum quia sic ponentes, non ostendunt, 
+      <lb ed="#L" n="119"/>quod Deus ex quidditatiua ratione sic 
+      determi<lb ed="#L" break="no" n="120"/>net sibi personarum trinarium, sicut de triangulo 
+      <lb ed="#L" n="121"/>patet, quod per rationem definitiuam 
+      determi<lb ed="#L" break="no" n="122"/>nat sibi tres angulos: tum quia contingit omni 
+      <lb ed="#L" n="123"/>intellectuali naturae intelligenti se actualiter, &amp; 
+      <lb ed="#L" n="124"/>amanti multiplicari se in tria supposita, vt decla 
+      <lb ed="#L" n="125"/>ratum est supra, secundum mentem August. &amp; sic 
+      <!--0254.xml-->
+      <pb ed="#L" n="254"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>otest inueniri aliqua ratio, quare Deus 
+      deter<lb ed="#L" break="no" n="2"/>minet se ad tria: tum quia in vanum laborauit 
+      <lb ed="#L" n="3"/>Augustinus in toto libro de Trinitate inuestigan 
+      <lb ed="#L" n="4"/>do ex creaturis personarum trinarium, ex quo 
+      <lb ed="#L" n="5"/>sic poterat in vno verbo expediri: tum quia Phi 
+      <lb ed="#L" n="6"/>losophus 8. Physic. reprehendit eos, qui pro 
+      vo<lb ed="#L" break="no" n="7"/>luntate sua faciunt prima principia, &amp; 
+      proposi<lb ed="#L" break="no" n="8"/>tiones indemonstrabiles, nec habentes causam, 
+      <lb ed="#L" n="9"/>nec est adhaerendum talibus, nisi ostendant, quare 
+      <lb ed="#L" n="10"/>tales propositiones debeant censeri immediatae. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1196">
+                  <lb ed="#L" n="11"/>Secundo vero videntur deficere in hoc, quod 
+      <lb ed="#L" n="12"/>calumnientur positoribus primis dicendo, quod 
+      <lb ed="#L" n="13"/>ducunt ad inconueniens, sed causam non 
+      assi<lb ed="#L" break="no" n="14"/>gnant, patet quidem oppositum: assignant 
+      nam<lb ed="#L" break="no" n="15"/>que, quod principium productiuum simpliciter 
+      <lb ed="#L" n="16"/>primum determinatur ad vnum, quia si non 
+      de<lb ed="#L" break="no" n="17"/>terminaretur, tunc sequeretur inconueniens 
+      <lb ed="#L" n="18"/>de infinitis productis, &amp; sic ad inconueniens 
+      <lb ed="#L" n="19"/>deducendo probant, quod duo principia, quae 
+      <lb ed="#L" n="20"/>sunt alterius rationis, si sunt in producendo peni 
+      <lb ed="#L" n="21"/>tus prima, non possunt, nisi in duas productiones 
+      <lb ed="#L" n="22"/>alterius rationis, &amp; per consequens redditur 
+      cau<lb ed="#L" break="no" n="23"/>sa, &amp; ratio a priori, quare non sunt plures fillj 
+      <lb ed="#L" n="24"/>in Diuinis, non quidem ducendo ad impossibile, 
+      <lb ed="#L" n="25"/>sed illud impossibile deducitur, nec haec proposi 
+      <lb ed="#L" n="26"/>tio sit vera, quod productiones primae 
+      impluri<lb ed="#L" break="no" n="27"/>ficabiles sunt pro eo, quod principia productiua 
+      <lb ed="#L" n="28"/>simpliciter determinantur ad vnum. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1238">
+                  <lb ed="#L" n="29"/>Tertio videntur deficere in hoc, quod. 
+      propo<lb ed="#L" break="no" n="30"/>sitionem negant, nisi ex pluribus eiusdem 
+      ratio<lb ed="#L" break="no" n="31"/>nis constituitur aliquod vnum totum, sicut ex 
+      tri<lb ed="#L" break="no" n="32"/>bus angulis constituitur vnus triangulus: 
+      quae<lb ed="#L" break="no" n="33"/>rendum est namque ab istis, quomodo intelligunt, 
+      <lb ed="#L" n="34"/>quod ex tribus personis constituatur vnum 
+      to<lb ed="#L" break="no" n="35"/>tum. aut enim totum integrale, &amp; sic repugnant 
+      <lb ed="#L" n="36"/>dictis Augustini, qui ait contra Maxim. quod 
+      <lb ed="#L" n="37"/>nulla partium fit in Deitatis vnitate diuisio. 
+      ab<lb ed="#L" break="no" n="38"/>sit enim, vt Deus pater pars Dei sit, aut 
+      intelli<lb ed="#L" break="no" n="39"/>gunt totum numerale, &amp; sic procedit propositio, 
+      <lb ed="#L" n="40"/>quod nullum principium productiuum 
+      simplici<lb ed="#L" break="no" n="41"/>ter primum determinatur in suis 
+      productioni<lb ed="#L" break="no" n="42"/>bus ad certum totum numerale, aut intelligunt 
+      <lb ed="#L" n="43"/>totum vniuersale, &amp; adhuc tenet propositio, quod 
+      <lb ed="#L" n="44"/>nullum vniuersale determinatur ex se ad certum 
+      <lb ed="#L" n="45"/>numerum suppositorum eiusdem rationis, &amp; per 
+      <lb ed="#L" n="46"/>consequens patet, quod nulla totalitas poni pos 
+      <lb ed="#L" n="47"/>sibilis in Diuinis est causa, quod plura eiusdem 
+      <lb ed="#L" n="48"/>rationis determinentur ad certum numerum, 
+      <lb ed="#L" n="49"/>propter quod dicta solutio non procedit.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1286">
+                  <lb ed="#L" n="50"/>In quo desiciat opinio Scoti secundum veritatem.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1291">
+                  <lb ed="#L" n="51"/>PRAEDICTA tamen assignatio, etsi non 
+      infrin<lb ed="#L" break="no" n="52"/>gatur ex istis, videtur deficere in duobus. 
+      <lb ed="#L" n="53"/>Primo quidem in maiori, quod sicut 
+      commu<lb ed="#L" break="no" n="54"/>ne eiusdem rationis non habet ex se, quod 
+      deter<lb ed="#L" break="no" n="55"/>minetur ad vnitatem, quia vniuersale sic est 
+      prae<lb ed="#L" break="no" n="56"/>dicabile de pluribus, quod non determinat se 
+      <lb ed="#L" n="57"/>ad vnitatem, sic nec ad certam pluralitatem, &amp; 
+      <lb ed="#L" n="58"/>ita remanet maior propositio sine causa, non 
+      <lb ed="#L" n="59"/>apparet etiam, qualiter duo principia producti 
+      <lb ed="#L" n="60"/>ua alterius rationis determinent se ad 
+      dualita<lb ed="#L" break="no" n="61"/>tem alterius rationis. videtur enim, quod qua 
+      <lb ed="#L" n="62"/>ratione quodlibet potest in vnum, possit ad 
+      infi<lb ed="#L" break="no" n="63"/>nita, nisi alia ratio assignetur. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1323">
+                  <lb ed="#L" n="64"/>Secundo vero deficit in minori. quamuis 
+      e<lb ed="#L" break="no" n="65"/>nim pluralitas prima esset eiusdem rationis, non 
+      <lb ed="#L" n="66"/>secunda pluralitas. prima ergo producta plura 
+      <!--0254.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>erunt filij, &amp; spiritus sancti. secunda vero alius 
+      <lb ed="#L" n="68"/>filius, &amp; alius spiritus sanctus; vnde non videtur, 
+      <lb ed="#L" n="69"/>quod primitas sit causa, quare productiones sunt 
+      <lb ed="#L" n="70"/>implurificabiles in Diuinis. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-c81231-Dd1e1347">
+               <head xml:id="ol96b1-c81231-Hd1e1349">Articulus 3</head>
+               <p xml:id="ol96b1-c81231-d1e1351">
+                  <lb ed="#L" n="71"/>ARTJCVLVS TERTJVS.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1356">
+                  <lb ed="#L" n="72"/>Quid videtur dicendum secundum veritatem.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1361">
+                  <lb ed="#L" n="73"/>CIRCA tertium ergo considerandum, quod 
+      <lb ed="#L" n="74"/>nulla potest alia ratio assignari, quae fit pri 
+      <lb ed="#L" n="75"/>ma, &amp; reddens causam, nisi ista, quae superius 
+      as<lb ed="#L" break="no" n="76"/>signata est, quare Deitas plurificari non potest. 
+      <lb ed="#L" n="77"/>est, quia haec ratio, quod nulla res, quae est to 
+      <lb ed="#L" n="78"/>ta natura, &amp; tota quidditas subsistens potest 
+      <lb ed="#L" n="79"/>plurificari. haec autem propositio probata est su 
+      <lb ed="#L" n="80"/>perius multipliciter, &amp; ideo declarandum, quod 
+      <lb ed="#L" n="81"/>filiatio, &amp; paternitas, &amp; spiratio quaelibet sit 
+      to<lb ed="#L" break="no" n="82"/>ta quidditas, &amp; tota ratio existens in Deo, &amp; vt 
+      <lb ed="#L" n="83"/>hoc melius innotescat, opponendum est primo. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1387">
+                  <lb ed="#L" n="84"/>Videtur ergo, quod filiatio sit quaedam 
+      parti<lb ed="#L" break="no" n="85"/>cularis res, &amp; non vna quidditas tota. si enim ita 
+      <lb ed="#L" n="86"/>sit, sequeretur, quod a filiatione Diuina, &amp; humana, 
+      <lb ed="#L" n="87"/>non possit abstrahi vnus communis conceptus, net 
+      <lb ed="#L" n="88"/>esset eiusdem rationis filiatio creata a filiatione in 
+      <lb ed="#L" n="89"/>creata, sed hoc est inconueniens. ergo inconueniens 
+      <lb ed="#L" n="90"/>est, quod filiatio sit vna quidditas, tota subsistent. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1406">
+                  <lb ed="#L" n="91"/>Praeterea: si res filiationis in Deo non sit particu 
+      <lb ed="#L" n="92"/>laris, sed tota vna natura, sequitur, quod sit 
+      in<lb ed="#L" break="no" n="93"/>finita: sed relationes non sunt finitae, nec 
+      infii<lb ed="#L" break="no" n="94"/>tae. ergo illud, quod prius. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1417">
+                  <lb ed="#L" n="95"/>Praeterea: Si filia tio esset vna quidditas 
+      tota<lb ed="#L" break="no" n="96"/>sequeretur, quod vniuersale esset in rebus, hoc 
+      <lb ed="#L" n="97"/>est impossibile. ergo, &amp; illud. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1426">
+                  <lb ed="#L" n="98"/>Sed istis non obstantib. dicendum, quod filiatio non 
+      <lb ed="#L" n="99"/>est particularis res, sed tota vna quidditas, &amp;vna 
+      <lb ed="#L" n="100"/>totalis natura existens in Deo, quod quidem 
+      pa<lb ed="#L" break="no" n="101"/>tet ex quatuor. Primo namque ex Deitate, 
+      quia<lb ed="#L" break="no" n="102"/>quidquid recipitur in aliquo, recipitur per 
+      mo<lb ed="#L" break="no" n="103"/>dum recipientis, vt Comment. dicit, sed probatum 
+      <lb ed="#L" n="104"/>est supra, quod Deitas non est particularis res, sed 
+      <lb ed="#L" n="105"/>natura simpliciter, &amp; quidditas cota subfisteus. 
+      <lb ed="#L" n="106"/>ergo necesse est, quod filiatio, &amp; paternitas, &amp; 
+      <lb ed="#L" n="107"/>quidquid est in Deo, sint quidditates simpliciter, 
+      <lb ed="#L" n="108"/>&amp; nullo modo particulares. Et confirmatur per 
+      <lb ed="#L" n="109"/>hoc, quod Comment. dicit vbi supra, quod prima 
+      <lb ed="#L" n="110"/>materia, cum sit hoc, non habet naturam recipien 
+      <lb ed="#L" n="111"/>di formas simpliciter. de somno autem, &amp; uigilia 
+      <lb ed="#L" n="112"/>dicit oppositum. aut enim quod formae abstr: 
+      <lb ed="#L" n="113"/>ctae non possunt recipere formas particulares, &amp; 
+      <lb ed="#L" n="114"/>istae cum sint naturae simpliciter. quod ergo dicit 
+      <lb ed="#L" n="115"/>Comment. de omnibus formis abstractis. pouit 
+      <lb ed="#L" n="116"/>enim, quod omnes erant tota natura subsistens, q 
+      <lb ed="#L" n="117"/>cum catholice concedi non potest, nisi de solo Deos 
+      <lb ed="#L" n="118"/>sicut alias declarbitur, quod inquam dicit de om 
+      <lb ed="#L" n="119"/>nibus indubitanter de primo principio est tenen 
+      <lb ed="#L" n="120"/>dum, vnde omne, quod est in eo, est tota sua quids 
+      <lb ed="#L" n="121"/>ditas, &amp; natura simpliciter subsistens. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1481">
+                  <lb ed="#L" n="122"/>Secundo vero idem apparet ex intellectione; 
+      <lb ed="#L" n="123"/>omni namque intellectioni formaliter, respondes 
+      <lb ed="#L" n="124"/>notitia obiectiua adaequata, sed probatum est su 
+      <lb ed="#L" n="125"/>pra, quod Deus est intelligere sui, &amp; omnino 
+      sub<lb ed="#L" break="no" n="126"/>sistens, ita vt sit non aliquod particulare 
+      intelli<lb ed="#L" break="no" n="127"/>gere, sed simpliciter, &amp; totale. ergo &amp; notitia 
+      <lb ed="#L" n="128"/>obiectiua sibi respondens, est notitia 
+      obiecti<lb ed="#L" break="no" n="129"/>ua totalis secundum totam suam rationem, &amp; 
+      <lb ed="#L" n="130"/>quidditatem, subsistens, vnde sicut in Deoust 
+      <lb ed="#L" n="131"/>intelligere sui, &amp; omnium rerum, quod non⸗ 
+      <lb ed="#L" n="132"/>est particulare, sed vna quidditas totalis sab- 
+      <!--0255.xml-->
+      <pb ed="#L" n="255"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sistens, sic filius in Diuinis est verbum collectum 
+      <lb ed="#L" n="2"/>de Deo, &amp; omni creatura, non quidem 
+      particu<lb ed="#L" break="no" n="3"/>lare verbum, sed verbum simpliciter, &amp; totale, 
+      <lb ed="#L" n="4"/>secundum illud Augustini 15. de Trinitate 
+      dicen<lb ed="#L" break="no" n="5"/>tis, quod pater genuit verbum sibi aequale per 
+      om<lb ed="#L" break="no" n="6"/>nia. non enim seipsum integre, perfecteque 
+      dixis<lb ed="#L" break="no" n="7"/>set, si aliquid minus, vel amplius esset in eius 
+      <lb ed="#L" n="8"/>verbo, quam in ipso. &amp; subdit: Et ideo verbum 
+      <lb ed="#L" n="9"/>hoc vere veritas est, quoniam quidquid est in ea 
+      <lb ed="#L" n="10"/>scientia, de qua genitum est, &amp; in ipso est. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1535">
+                  <lb ed="#L" n="11"/>Tertio quoque idem apparet ex ipso 
+      genera<lb ed="#L" break="no" n="12"/>re. quandocumque enim aliquis actus est 
+      subsi<lb ed="#L" break="no" n="13"/>stens simpliciter, impossibile est terminum illius 
+      <lb ed="#L" n="14"/>actus plurificari: necesse est enim terminum, &amp; 
+      <lb ed="#L" n="15"/>actum se connumerare, sed generare, patrem 
+      <lb ed="#L" n="16"/>constituens, est tota paternitas Diuina subsistens, 
+      <lb ed="#L" n="17"/>iuxta illud Apostoli ad Hebr. dicentis, quod ex 
+      <lb ed="#L" n="18"/>paternitate Diuina omnis paternitas in caelo, &amp; 
+      <lb ed="#L" n="19"/>in terra deriuatur, &amp; patet etiam, quod 
+      genera<lb ed="#L" break="no" n="20"/>re est idem, quod dicere, dicere autem est 
+      noti<lb ed="#L" break="no" n="21"/>tiam elicitiuam formare, propter quod si 
+      intel<lb ed="#L" break="no" n="22"/>ligere Diuinum est notitia, et omnis res subsistens, 
+      <lb ed="#L" n="23"/>necesse est, quod dicere sit formare notitiam 
+      ob<lb ed="#L" break="no" n="24"/>iectiuam de omni re, &amp; per consequens, quod non 
+      <lb ed="#L" n="25"/>sit particulare dicere, sed di cere simpliciter, &amp; 
+      <lb ed="#L" n="26"/>totale, sicut intelligere. ergo relinquitur, quod 
+      <lb ed="#L" n="27"/>ipsum generari, seu dici, quod constituit filium, 
+      <lb ed="#L" n="28"/>non sit aliquid particulare, sed aliquid totale 
+      <lb ed="#L" n="29"/>subsistens, vt sic Diuinum gignere perficiatur 
+      <lb ed="#L" n="30"/>per vnum gigni simpliciter. Si esset enim 
+      parti<lb ed="#L" break="no" n="31"/>culare, non perficeret aliquid gigni Diuinam 
+      ge<lb ed="#L" break="no" n="32"/>nerationem secundum illud August. contra 
+      Ma<lb ed="#L" break="no" n="33"/>xim. dicentis, quod Diuinam generationem 
+      <lb ed="#L" n="34"/>non perficeret vllus, si non sufficeret omnipotens 
+      <lb ed="#L" n="35"/>vnus, quasi innuat, quod vnus simpliciter, &amp; 
+      to<lb ed="#L" break="no" n="36"/>talis potest perficere, &amp; tamen non possunt 
+      quot<lb ed="#L" break="no" n="37"/>cumque filij particulares. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1596">
+                  <lb ed="#L" n="38"/>Quarto vero idem apparet per simile in 
+      no<lb ed="#L" break="no" n="39"/>bis. anima enim seipsam dicens, &amp; in esse 
+      con<lb ed="#L" break="no" n="40"/>spicuo ponens, non dubium, quod sistit in uno 
+      <lb ed="#L" n="41"/>verbo, nec verbum illud gignit. non enim illud 
+      <lb ed="#L" n="42"/>esse conspicuum ponit se in alio, &amp; sic in 
+      infini<lb ed="#L" break="no" n="43"/>tum. multo fortius ergo pater seipsum dicens, 
+      <lb ed="#L" n="44"/>sistit in vno verbo, nec verbum illud gignit aliud 
+      <lb ed="#L" n="45"/>verbum. sicut enim se habet verbum nostrum 
+      par<lb ed="#L" break="no" n="46"/>ticulare ad animam particularem, sic se habet 
+      <lb ed="#L" n="47"/>verbum Diuinum ad Deitatem simpliciter. 
+      con<lb ed="#L" break="no" n="48"/>stat autem, quod illa non est particularis, sed 
+      en<lb ed="#L" break="no" n="49"/>titas tota subsistens. ergo &amp; verbum non erit ali 
+      <lb ed="#L" n="50"/>quod particulare, sed vnitas tota subsistens. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1628">
+                  <lb ed="#L" n="51"/>Nec procedunt instantiae. Prima siquidem 
+      <lb ed="#L" n="52"/>non: nec enim debet haberi pro inconuenienti, 
+      <lb ed="#L" n="53"/>immo pro summo conuenienti, quod filius, &amp; 
+      <lb ed="#L" n="54"/>partus mentis Diuinae non sit eiusdem rationis, 
+      <lb ed="#L" n="55"/>cum partu mentis nostrae, aut quod aliqua 
+      com<lb ed="#L" break="no" n="56"/>munis ratio ad minus specifica abstrahi non 
+      <lb ed="#L" n="57"/>possit ab eis, quinimmo habent se, sicut 
+      exem<lb ed="#L" break="no" n="58"/>plar, &amp; exemplatum: verbum nainque nostrum 
+      <lb ed="#L" n="59"/>diminutum est, &amp; participatio quaedam verbi 
+      <lb ed="#L" n="60"/>Diuini. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1652">
+                  <lb ed="#L" n="61"/>Secunda etiam non procedit: nec enim est 
+      in<lb ed="#L" break="no" n="62"/>conueniens, si tota ratio verbi Diuini 
+      quiddita<lb ed="#L" break="no" n="63"/>tiue, &amp; simpliciter, ac in sua totalitate existit in 
+      <lb ed="#L" n="64"/>Deo, immo est necesse, &amp; per consequens erit 
+      <lb ed="#L" n="65"/>formaliter infinita; nec ex hoc sequitur, quod sit 
+      <lb ed="#L" n="66"/>perfectio simpliciter, sicut nec calor esset 
+      perfe<lb ed="#L" break="no" n="67"/>cior simpliciter dato, quod poneretur tota na- 
+      <!--0255.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>tura caloris subsistere, sed de hoc infra amplius 
+      <lb ed="#L" n="69"/>dicetur. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1678">
+                  <lb ed="#L" n="70"/>Tertia quoque non obuiat: nam 
+      vniuersale<lb ed="#L" break="no" n="71"/>praedicabile non potest poni in re extra, sed tota 
+      <lb ed="#L" n="72"/>natura simpliciter, quae nec vniuersalis sit, quia 
+      <lb ed="#L" n="73"/>praedicari potest, nec particularis, quia arctata 
+      <lb ed="#L" n="74"/>non sit, sed ipsa totalis vtique extra intellectum 
+      <lb ed="#L" n="75"/>absque omni repugnantia poni potest, vt 
+      Com<lb ed="#L" break="no" n="76"/>mentator dicit 12. Metaph. expresse loquens de 
+      <lb ed="#L" n="77"/>scientia, &amp; aliis, quae sunt in Deo. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1698">
+                  <lb ed="#L" n="78"/>His ergo praemissis patet, quod non possunt 
+      <lb ed="#L" n="79"/>esse plures filij in Diuinis. filius enim, qui 
+      parti<lb ed="#L" break="no" n="80"/>cularis non est, sed omnis filiatio Diuina 
+      subsi<lb ed="#L" break="no" n="81"/>stens talis plurificari non potest, filius Diuinus 
+      <lb ed="#L" n="82"/>est huiusmodi, vt declaratum est. ergo 
+      plurifi<lb ed="#L" break="no" n="83"/>cari non potest. &amp; in hoc Articulus tertius 
+      ter<lb ed="#L" break="no" n="84"/>minetur. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1716">
+                  <lb ed="#L" n="85"/>Responsio ad obiecta in oppositum. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1721">
+                  <lb ed="#L" n="86"/>AD ea vero, quae in oppositum inducuntur, 
+      <lb ed="#L" n="87"/>dicendum est. Ad primum quidem, quod 
+      <lb ed="#L" n="88"/>in filio non est potentia generandi, quia 
+      poten<lb ed="#L" break="no" n="89"/>tia generandi non nominat principium 
+      produ<lb ed="#L" break="no" n="90"/>ctiuum. sed proprietatem generationis, vt saepe 
+      <lb ed="#L" n="91"/>dictum est: qui autem vellent dicere potentiam 
+      <lb ed="#L" n="92"/>generandi esse principium productiuum, 
+      habe<lb ed="#L" break="no" n="93"/>rent hinc difficultatem indissolubilem, quia vel 
+      <lb ed="#L" n="94"/>dicerent eam esse in filio, &amp; per consequens 
+      pa<lb ed="#L" break="no" n="95"/>ter habebit aliquam potentiam, quam filius non 
+      <lb ed="#L" n="96"/>haberet. vel dicerent eam esse in filio, &amp; non im 
+      <lb ed="#L" n="97"/>peditam, &amp; sic poterit generare, immo 
+      necessa<lb ed="#L" break="no" n="98"/>rio generabit, aut poneret eam impeditam, ita 
+      <lb ed="#L" n="99"/>vt in actum exire non possit, &amp; tunc aliquid erit 
+      <lb ed="#L" n="100"/>impedimentum officiens Deo, &amp; aliquis Deus 
+      e<lb ed="#L" break="no" n="101"/>rit posibilis, sed impeditur, ne sit Deus, &amp; mul 
+      <lb ed="#L" n="102"/>ta alia absona, quae inde sequuntur, quae euitari 
+      <lb ed="#L" n="103"/>non possunt, nisi concessa vnitate praedicta, 
+      vide<lb ed="#L" break="no" n="104"/>licet, quod potentia generandi non nominat, 
+      ni<lb ed="#L" break="no" n="105"/>si proprietatem actualis generationis, sicut 
+      su<lb ed="#L" break="no" n="106"/>pra expositum est secundum intentionem 
+      Augu<lb ed="#L" break="no" n="107"/>stini, &amp; Magistri in litera. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1772">
+                  <lb ed="#L" n="108"/>Ad secundum dicendum, quod Apostolus non 
+      <lb ed="#L" n="109"/>intelligit, quod filius portet omnia verbo 
+      ali<lb ed="#L" break="no" n="110"/>quo mentali a seipso prolato, sed est 
+      intransiti<lb ed="#L" break="no" n="111"/>ua constructio, vt intelligatur, quod portat 
+      om<lb ed="#L" break="no" n="112"/>nia verbo virtutis suae, quia seipso, qui est 
+      ver<lb ed="#L" break="no" n="113"/>bum, &amp; virtus, vel potest per verbum intelligi 
+      <lb ed="#L" n="114"/>iussus imperialis, &amp; virtuosus. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1790">
+                  <lb ed="#L" n="115"/>Ad tertium dicendum, quod in Diuinis non 
+      <lb ed="#L" n="116"/>est, nisi vnica perfecta intellectio, &amp; per 
+      conse<lb ed="#L" break="no" n="117"/>quens non nisi vnicum verbum, quod quidem 
+      <lb ed="#L" n="118"/>emanat ab vno solo, &amp; obiicitur tribus, vt 
+      infe<lb ed="#L" break="no" n="119"/>rius apparebit. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1803">
+                  <lb ed="#L" n="120"/>Ad quartum dicendum, quod producere 
+      <lb ed="#L" n="121"/>non adiicit aliquam bonitatem, vel 
+      perfectio<lb ed="#L" break="no" n="122"/>nem, licet procedat ex bonitate. filius ergo 
+      ean<lb ed="#L" break="no" n="123"/>dem habet bonitatem, quam pater, &amp; eandem 
+      <lb ed="#L" n="124"/>perfectionem, cum ex generatione perfectio non 
+      <lb ed="#L" n="125"/>accrescat. &amp; per idem patet ad quintum. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1819">
+                  <lb ed="#L" n="126"/>Ad sextum dicendum, quod infinitas 
+      numera<lb ed="#L" break="no" n="127"/>lis, siue multitudo nullam perfectionem dicit: 
+      <lb ed="#L" n="128"/>ideo non est ponenda in Deo.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1828">
+                  <lb ed="#L" n="129"/>Ad septimum dicendum, quod duo filij 
+      par<lb ed="#L" break="no" n="130"/>ticulares, immo nec mille millia aequipollent 
+      <lb ed="#L" n="131"/>vni filio totali, in quo subsistat tota ratio 
+      filia<lb ed="#L" break="no" n="132"/>tionis.
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1839">
+      <!--0256.xml-->
+                  <pb ed="#L" n="256"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Ad octauum dicendum, quod generare impor 
+      <lb ed="#L" n="2"/>tat quidem non dignitatem perfectionis, sed quan 
+      <lb ed="#L" n="3"/>dam auctoritatem originis, inquantum habet 
+      <lb ed="#L" n="4"/>quandam rationem principij, ille, qui genuit, 
+      si<lb ed="#L" break="no" n="5"/>cut infra patebit dist. 9. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1860">
+                  <lb ed="#L" n="6"/>Ad nonum dicendum, quod ratio 
+      imaginatio<lb ed="#L" break="no" n="7"/>nis non attenditur penes actum notionalem, qui 
+      <!--0256.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>est generare, sed penes perfectiones essentiales, 
+      <lb ed="#L" n="9"/>&amp; penes modum procedendi per modum verbi, 
+      <lb ed="#L" n="10"/>&amp; notitiae obiectiuae. 
+    </p>
+               <p xml:id="ol96b1-c81231-d1e1878">
+                  <lb ed="#L" n="11"/>Ad vltimum dicendum, quod si ponerentur plu 
+      <lb ed="#L" n="12"/>res filij, vtique filiationes possent distingui, sed 
+      <lb ed="#L" n="13"/>tamen essent particulares, quod repugnat 
+      filia<lb ed="#L" break="no" n="14"/>tioni Diuinae, vt dictum est. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

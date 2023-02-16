@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="316"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-102919"> <!-- l1d9p1-q1 -->
+            <head xml:id="ol96b1-102919-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-102919-Hd1e104" type="question-title">
+        Utrum possit euidenti ratione probari, quod in 
+        Deo sit generatio actiua, vel passiua. 
+      </head>
+            <p xml:id="ol96b1-102919-d1e107">
+               <lb ed="#L" n="57"/>Vtrum possit euidenti ratione probari, quod in 
+      <lb ed="#L" n="58"/>Deo sit generatio actiua, vel passiua. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e114">
+               <lb ed="#L" n="59"/>ET quia Magister hic agit de generatione Fi 
+      <lb ed="#L" n="60"/>lij a Patre, an sit, &amp; quid sit, ideo 
+      inquiren<lb ed="#L" break="no" n="61"/>dum occurrit, vtrum possit necessaria ratione 
+      <lb ed="#L" n="62"/>probari, quod in Deo sit generatio actiua, &amp; 
+      pas<lb ed="#L" break="no" n="63"/>siua, &amp; videtur quod sic. illud enim, quod est cau 
+      <lb ed="#L" n="64"/>sa generationis omnibus, videtur in seipso maxi 
+      <lb ed="#L" n="65"/>me generare, iuxta illud Isaiae vlt. Ego, qui genera- 
+      <!--0316.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>tionem caeteris tribuo, sterilis ero. Sed Deus dat crea 
+      <lb ed="#L" n="67"/>turis omnibus, quod possint producere, &amp; generare. 
+      <lb ed="#L" n="68"/>ergo videtur, quod ipse maxime habeat generare. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e144">
+               <lb ed="#L" n="69"/>Praeterea: Quidquid est nobilitatis 
+      attribuen<lb ed="#L" break="no" n="70"/>dum est Deo, sed generare perfectionis est. 
+      per<lb ed="#L" break="no" n="71"/>fectum est enim vnumquodque, cum potest sibi 
+      <lb ed="#L" n="72"/>simile generare. ergo generatio est in Deo. 
+      <lb ed="#L" n="73"/>Praeterea: Productio naturalis est prima 
+      pro<lb ed="#L" break="no" n="74"/>ductio, &amp; per consequens poni debet in primo 
+      <lb ed="#L" n="75"/>principio, sed nihil extra se producit Deus 
+      pro<lb ed="#L" break="no" n="76"/>ductione naturali, sed tantum voluntaria. ergo 
+      <lb ed="#L" n="77"/>producit intra se naturaliter, &amp; per consequens 
+      <lb ed="#L" n="78"/>generat. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e168">
+               <lb ed="#L" n="79"/>Praeterea: Productio necessaria est perfectior 
+      <lb ed="#L" n="80"/>productione contingenti. necessitas enim est, sim 
+      <lb ed="#L" n="81"/>plex perfectio, &amp; ideo in principio productiuo 
+      <lb ed="#L" n="82"/>ponit perfectionem, sed nulla perfectio Dei ad 
+      <lb ed="#L" n="83"/>extra est necessaria. relinquitur ergo, quod 
+      pro<lb ed="#L" break="no" n="84"/>ductione necessaria producat ad intra, &amp; per 
+      <lb ed="#L" n="85"/>consequens generabit. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e186">
+               <lb ed="#L" n="86"/>Praeterea: Quidquid de ratione sua formali est 
+      <lb ed="#L" n="87"/>principium productiuum, in quocumque est sine im 
+      <lb ed="#L" n="88"/>perfectione, in eo est principium productiuum, 
+      <lb ed="#L" n="89"/>sed memoria perfecta, siue intellectus habens 
+      ob<lb ed="#L" break="no" n="90"/>iectum intelligibile sibi praesens, quod idem est, 
+      <lb ed="#L" n="91"/>haec inquam memoria ex sua formali ratione est 
+      <lb ed="#L" n="92"/>principium notitiae genitae: est autem haec memo 
+      <lb ed="#L" n="93"/>ria vere, &amp; secundum suam rationem in Deo. habet 
+      <lb ed="#L" n="94"/>enim Deus intellectum infinitum, cui praesens est 
+      <lb ed="#L" n="95"/>sua essentia, tamquam intelligibile adaequatum. 
+      <lb ed="#L" n="96"/>ergo memoria existens in Deo est 
+      principium<lb ed="#L" break="no" n="97"/>productiuum notitiae genitae, &amp; ita erit 
+      genera<lb ed="#L" break="no" n="98"/>tio in Diuinis. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e217">
+               <lb ed="#L" n="99"/>Praeterea: Quidquid est per fectionis in 
+      crea<lb ed="#L" break="no" n="100"/>tura, attribuendum est Deo, sed quod obiectum 
+      <lb ed="#L" n="101"/>existens in memoria producat se intellectu, seu 
+      <lb ed="#L" n="102"/>intelligentia, perfectionis est, quamuis 
+      imperfe<lb ed="#L" break="no" n="103"/>ctionis sit, quod sit aliud, prout est in memoria, 
+      <lb ed="#L" n="104"/>quod est essentia Diuina, producat se 
+      intelligen<lb ed="#L" break="no" n="105"/>tia manens vnum, &amp; idem: haec autem productio 
+      <lb ed="#L" n="106"/>est generatio. ergo illud, quod prius.
+    </p>
+            <p xml:id="ol96b1-102919-d1e237">
+               <lb ed="#L" n="107"/>Praeterea: In omni generatione imperfectum 
+      <lb ed="#L" n="108"/>ad perfectum tendit, sed omnis generatio creata 
+      <lb ed="#L" n="109"/>imperfecta est, quod non attingit ad finem genera 
+      <lb ed="#L" n="110"/>tionis, qui est assimilare genitum generanti, non 
+      <lb ed="#L" n="111"/>inuenitur enim in creaturis, quae totaliter 
+      iden<lb ed="#L" break="no" n="112"/>titet in forma communicata genitum generanti, 
+      <lb ed="#L" n="113"/>necesse est ergo deuenire ad aliquam generationem, 
+      <lb ed="#L" n="114"/>quae sit in identitate substantiae, hoc autem esse non 
+      <lb ed="#L" n="115"/>potest, nisi in Deo. erit ergo in Deo generatio. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e259">
+               <lb ed="#L" n="116"/>Praeterea: Deus est lux incorporea iuxta illud 
+      <lb ed="#L" n="117"/>Apostoli 1. ad Thimot. vI. Lucem habitat 
+      inacces<lb ed="#L" break="no" n="118"/>sibilem, &amp; 1. Io. 1. Deus lux est, &amp; tenebra in eo non 
+      <lb ed="#L" n="119"/>sunt, sed de ratione lucis est, vt splendorem 
+      diffun<lb ed="#L" break="no" n="120"/>dat. ergo de ratione Dei est, vt similem sib 
+      pro<lb ed="#L" break="no" n="121"/>ducat. erit ergo generatio in diuinis. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e276">
+               <lb ed="#L" n="122"/>Quod non sit generatio in Deo.
+    </p>
+            <p xml:id="ol96b1-102919-d1e281">
+               <lb ed="#L" n="123"/>SED in oppositum videtur, nil, quod sit imper 
+      <lb ed="#L" n="124"/>Ofectionis poni debet in Deo, sed generate non 
+      <lb ed="#L" n="125"/>est perfectionis, videmus enim, quod creaturae, 
+      <lb ed="#L" n="126"/>quae perfectiores sunt in ordinr vniuersi, non 
+      ge<lb ed="#L" break="no" n="127"/>nerant sibi simile, vt patet de sole, &amp; anima 
+      intel<lb ed="#L" break="no" n="128"/>lectiua, &amp; angelis. ergo generatio non debet 
+      at<lb ed="#L" break="no" n="129"/>tribui Deo, qui est quid nobilissimum omnium 
+      <lb ed="#L" n="130"/>specierum.
+    </p>
+            <p xml:id="ol96b1-102919-d1e301">
+      <!--0317.xml-->
+               <pb ed="#L" n="317"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Praeterta: Generatio est mutatio, a non esse 
+      <lb ed="#L" n="2"/>in suum esse, a non subiecto, in subiectum 
+      secun<lb ed="#L" break="no" n="3"/>dum Philosophum, sed in Deo non est mutatio, 
+      <lb ed="#L" n="4"/>secundum illud Ioan. I. Apud Deum non est 
+      trans<lb ed="#L" break="no" n="5"/>mutatio, nec vicissitudinis obumbratio. ergo in Deo 
+      <lb ed="#L" n="6"/>non est generatio. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e323">
+               <lb ed="#L" n="7"/>Praeterea: Vbicumque est generatio, aliqua 
+      <lb ed="#L" n="8"/>forma substantialis capit, quod fit per eam, sed, 
+      <lb ed="#L" n="9"/>in Deo nihil substantiale, potest esse capere, cum 
+      <lb ed="#L" n="10"/>substantia Deitatis sit omnino a se. ergo 
+      gene<lb ed="#L" break="no" n="11"/>ratio non debet poni in Diuinis.
+    </p>
+            <p xml:id="ol96b1-102919-d1e336">
+               <lb ed="#L" n="12"/>Praeterea: Generans, &amp; genitum, impossibile est, 
+      <lb ed="#L" n="13"/>quod sint idem, etiam penes absoluta, quia 
+      gene<lb ed="#L" break="no" n="14"/>ratio egreditur ab absoluto, &amp; terminatur in 
+      <lb ed="#L" n="15"/>absolutum, vt patet 5. Physic. sed in Deo, 
+      quid<lb ed="#L" break="no" n="16"/>quid est, vnum, &amp; idem est, cum Deus sit omnino 
+      <lb ed="#L" n="17"/>vnus, vt Philosophus dicit duodecimo Metaph. 
+      <lb ed="#L" n="18"/>vbi Commentator ait, quod non est vnus per 
+      in<lb ed="#L" break="no" n="19"/>tentionem additam, sed est vnus simpliciter, ita 
+      <lb ed="#L" n="20"/>quod non est multiplicitas in eo secundum esse, 
+      <lb ed="#L" n="21"/>sed tantummodo secundum intellectum. ergo ge 
+      <lb ed="#L" n="22"/>neratio poni non potest in Deo. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e362">
+               <lb ed="#L" n="23"/>Praeterea: Quando transfertur aliquid ad Di 
+      <lb ed="#L" n="24"/>nina ex creaturis, debet fieri transumptio a 
+      no<lb ed="#L" break="no" n="25"/>bilibus creaturis, sed generatio reperitur in 
+      <lb ed="#L" n="26"/>creaturis ignobilibus, vt in animalibus. ergo 
+      <lb ed="#L" n="27"/>non debuit transferri generationis vocabulum 
+      <lb ed="#L" n="28"/>ad Diuina. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e379">
+               <lb ed="#L" n="29"/>Praeterea: Si generatio esset in Deo, qua 
+      ratio<lb ed="#L" break="no" n="30"/>ne Deus generat, eadem ratione Deus genitus 
+      <lb ed="#L" n="31"/>generabit, cum sit aeque perfectus, &amp; sic 
+      proce<lb ed="#L" break="no" n="32"/>detur in infinitum, sed nulla natura patitur 
+      infi<lb ed="#L" break="no" n="33"/>nitum. ergo Deus non generat, vt videtur. 
+      <lb ed="#L" n="34"/>Praeterea: Generatio data est ad 
+      conseruatio<lb ed="#L" break="no" n="35"/>nem speciei, vt in 2. de ani. sed Deus non indiget, 
+      <lb ed="#L" n="36"/>vt in genito conseruetur, quia aeternus est. ergo 
+      <lb ed="#L" n="37"/>generatio non est in Deo. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e401">
+               <lb ed="#L" n="38"/>Responsio ad quaestionem. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e406">
+               <lb ed="#L" n="39"/>AD istam quaestionem respondendo hoc 
+      or<lb ed="#L" break="no" n="40"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e413">
+               <lb ed="#L" n="41"/>Primo quidem inquiretur, quomodo se habet 
+      <lb ed="#L" n="42"/>generare, seu dicere ad ipsam intellectionem. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e420">
+               <lb ed="#L" n="43"/>Secundo vero inquiretur, quomodo se habet 
+      <lb ed="#L" n="44"/>dicere ad generationem, 
+    </p>
+            <p xml:id="ol96b1-102919-d1e427">
+               <lb ed="#L" n="45"/>Tertio quoque, an passiua generatio repugnet 
+      <lb ed="#L" n="46"/>vero Deo. 
+    </p>
+            <p xml:id="ol96b1-102919-d1e435">
+               <lb ed="#L" n="47"/>Quarto autem, an necessaria generatio possit 
+      <lb ed="#L" n="48"/>demonstratiue probari esse in Deo. 
+    </p>
+            <div xml:id="ol96b1-102919-Dd1e442">
+               <head xml:id="ol96b1-102919-Hd1e444">Articulus 1</head>
+               <p xml:id="ol96b1-102919-d1e446">
+                  <lb ed="#L" n="49"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e451">
+                  <lb ed="#L" n="50"/>Opinio Godo. I. quol. q. σ. &amp; 4. q. 18. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e456">
+                  <lb ed="#L" n="51"/>CIRCA primum ergo considerandum, quod 
+      <lb ed="#L" n="52"/>aliqui dixerunt, quod intelligere non est 
+      a<lb ed="#L" break="no" n="53"/>liud, quam receptio speciei, cuius ratio est, quia 
+      <lb ed="#L" n="54"/>intellectus possibilis, cum sit potentia cognitiua, 
+      <lb ed="#L" n="55"/>non est in potentia immediate, nisi ad actum 
+      co<lb ed="#L" break="no" n="56"/>gnoscendi; est autem in potentia ad speciem 
+      secun<lb ed="#L" break="no" n="57"/>dum Philosoph. restat ergo, quod ipsa intellectio 
+      <lb ed="#L" n="58"/>sit receptio speciei. Et confirmatur, quia Arist. 
+      <lb ed="#L" n="59"/>dicit, quod intelligere est quoddam pati, &amp; Com 
+      <lb ed="#L" n="60"/>ment. dicit, quod olfacere est passio, &amp; receptio 
+      <lb ed="#L" n="61"/>odoris, &amp; dicit, quod passio visus habet nomen, 
+      <lb ed="#L" n="62"/>&amp; est videre, licet sit in figura nominis agentis. 
+      <lb ed="#L" n="63"/>Dicere autem secundum istos non est aliud, quam 
+      <lb ed="#L" n="64"/>gignere intellectionem, seu notitiam actualem. 
+      <!--0317.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>Est autem intellectio passiue quidem ab 
+      intelle<lb ed="#L" break="no" n="66"/>ctu possibili; actiue autem ab intellectu agente, 
+      <lb ed="#L" n="67"/>quod idem non potest esse actiuum respectu 
+      intel<lb ed="#L" break="no" n="68"/>lectionis, vnde respectu primae intellectionis 
+      in<lb ed="#L" break="no" n="69"/>diget phantasmatibus; respectu vero 
+      conclusio<lb ed="#L" break="no" n="70"/>nis eget principiis, &amp; respectu notitiae 
+      determi<lb ed="#L" break="no" n="71"/>natae indiget cōfusa notitia, &amp; respectu actualis, 
+      <lb ed="#L" n="72"/>habitudinali quadam notitia. sic ergo intellectus 
+      <lb ed="#L" n="73"/>agens vna cum intellectu possibili, informato ha 
+      <lb ed="#L" n="74"/>bituali notitia, aut notitia confusa, aut notitia 
+      <lb ed="#L" n="75"/>principiorum, habet rationem perfectae 
+      memo<lb ed="#L" break="no" n="76"/>riae, cuius actus est dicere, hoc est gignere 
+      noti<lb ed="#L" break="no" n="77"/>tiam actualem, &amp; intellectualem. sic ergo se 
+      ha<lb ed="#L" break="no" n="78"/>bet dicere ad intelligere secundum istos, quod 
+      <lb ed="#L" n="79"/>intelligere est receptio speciei; dicere vero est 
+      <lb ed="#L" n="80"/>intellectionem causare. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e528">
+                  <lb ed="#L" n="81"/>Oponio Scoti inI. dist. 3.
+    </p>
+               <p xml:id="ol96b1-102919-d1e534">
+                  <lb ed="#L" n="82"/>FVERVNT quoque alij discordantes ab istis 
+      <lb ed="#L" n="83"/>T quantum ad hoc, quod dicunt intellectionem 
+      <lb ed="#L" n="84"/>esse receptionem speciei, &amp; similiter quo ad hoc, 
+      <lb ed="#L" n="85"/>quod aiunt intellectionem esse ab intellectu 
+      agen<lb ed="#L" break="no" n="86"/>te semper immediate. dixerunt ergo isti, quod 
+      in<lb ed="#L" break="no" n="87"/>tellectio est operatio de genere qualitatis, sicut 
+      <lb ed="#L" n="88"/>lucere, &amp; calere sunt de genere actionis, sicut 
+      il<lb ed="#L" break="no" n="89"/>luminatio, &amp; calefactio. Hanc autem 
+      operatio<lb ed="#L" break="no" n="90"/>nem elicit intellectus possibilis, informatus per 
+      <lb ed="#L" n="91"/>speciem intelligibilem, qui sic informatus, 
+      ha<lb ed="#L" break="no" n="92"/>bet rationem memoriae perfectae. cuius quidem 
+      <lb ed="#L" n="93"/>actus est gignere intelligentiam actualem, 
+      tam<lb ed="#L" break="no" n="94"/>quam verbum, illud autem gignere, non est aliud, 
+      <lb ed="#L" n="95"/>quam dicere, siue loqui, ita, quod dicere est de ge 
+      <lb ed="#L" n="96"/>nere actionis: intelligere vero operatio de 
+      gene<lb ed="#L" break="no" n="97"/>re qualitatis, vt dictum est. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e571">
+                  <lb ed="#L" n="98"/>Opinio Durandi lib. I. dist. 27.
+    </p>
+               <p xml:id="ol96b1-102919-d1e576">
+                  <lb ed="#L" n="99"/>FVERVNT autem alij dicentes, quod dicere, 
+      <lb ed="#L" n="100"/>&amp; intelligere vnum sunt, tum quia Ansel. 
+      di<lb ed="#L" break="no" n="101"/>cit, quod scire, &amp; intelligere non est aliud, quam 
+      <lb ed="#L" n="102"/>intellectum, semper praesens intueri, quod scit, &amp; 
+      <lb ed="#L" n="103"/>intelligit, &amp; sic patet per Ansel. quod dicere non 
+      <lb ed="#L" n="104"/>est aliud, quam cognoscere, vel intueri: tum quia 
+      <lb ed="#L" n="105"/>verbum vocale, &amp; imago, &amp; species dicuntur ver 
+      <lb ed="#L" n="106"/>bum demonstratiue, &amp; quaedam locutiones. 
+      er<lb ed="#L" break="no" n="107"/>go oportet deuenire ad aliquid, quod dicatur lo 
+      <lb ed="#L" n="108"/>cutio per essentiam, &amp; per consequens cognitio est 
+      <lb ed="#L" n="109"/>locutio, &amp; verbum per essentiam: tum quia 
+      dice<lb ed="#L" break="no" n="110"/>re est manifestare formaliter, non 
+      manifestatio<lb ed="#L" break="no" n="111"/>nem facere; actus autem intellectus est quaedam 
+      <lb ed="#L" n="112"/>manifestatio, propter hoc, quod intelligere, &amp; di 
+      <lb ed="#L" n="113"/>cere idem esse videntur, &amp; dicere in Diuinis, 
+      se<lb ed="#L" break="no" n="114"/>cundum istos non est proprie personale, sed essen 
+      <lb ed="#L" n="115"/>tiale, non verbum, quamuis approprietur Filio, 
+      <lb ed="#L" n="116"/>sicut amor Spiritui sancto. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e618">
+                  <lb ed="#L" n="117"/>Opin. S. Tho. I. p. q. 34.ar. I. &amp; Henr. in tract. de Ver 
+      <lb ed="#L" n="118"/>bo, &amp; in suo quol. &amp; Riccardi in impugna 
+      <lb ed="#L" n="119"/>tionibus contra Henricum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e627">
+                  <lb ed="#L" n="120"/>FVERVNT alij, qui dixerunt, quod per actum 
+      <lb ed="#L" n="121"/>intellectus producitur conceptus mentis, qui 
+      <lb ed="#L" n="122"/>quidem non est species impressa intellectui a phan 
+      <lb ed="#L" n="123"/>tasmate, nec est ipse actus intelligendi, sed 
+      dif<lb ed="#L" break="no" n="124"/>fert realiter ab vtroque: est autem quaedam forma 
+      <lb ed="#L" n="125"/>specularis, ad quam intellectio terminatur, &amp; in 
+      <lb ed="#L" n="126"/>qua, tamquam in idolo rem aspicit vltimate. Diffe 
+      <lb ed="#L" n="127"/>runt ergo dicere, &amp; intelligere apud istos, quia 
+      <!--0318.xml-->
+      <pb ed="#L" n="318"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dibere est tale idolum, &amp; formam exemplarem 
+      <lb ed="#L" n="2"/>producere. Intelligere vero est operatio 
+      imma<lb ed="#L" break="no" n="3"/>nens, quae ad illud Idolum obiectiue terminatur 
+      <lb ed="#L" n="4"/>Et est considerandum, quod intellectus, prout 
+      <lb ed="#L" n="5"/>est sub actu intelligendi confuso, &amp; imperfecto, 
+      <lb ed="#L" n="6"/>potest se mouere ad notitiam perfectam, mouendo 
+      <lb ed="#L" n="7"/>autem se, sic gignit hanc formam specularem, in 
+      <lb ed="#L" n="8"/>qua perfecte intelligit, non autem sic, quod 
+      intel<lb ed="#L" break="no" n="9"/>ligere formalitor sit gignere istam formam, quia 
+      <lb ed="#L" n="10"/>intelligere est operatio immanens, sed quia 
+      ip<lb ed="#L" break="no" n="11"/>sum intelligere est formale principium, quo 
+      pro<lb ed="#L" break="no" n="12"/>ducitur ista forma, sicut calere est habere 
+      for<lb ed="#L" break="no" n="13"/>male principium calefactionis, vnde intelligere 
+      <lb ed="#L" n="14"/>est habere formam, quae est intellectio ipsa. 
+      <lb ed="#L" n="15"/>Vlterius etiam dicunt isti, quod talis forma 
+      <lb ed="#L" n="16"/>specularis potest esse obiectiue in phantasmate, 
+      <lb ed="#L" n="17"/>vel in intellectu, sed magis videtur eis rationale 
+      <lb ed="#L" n="18"/>quod sit in intellectu. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e692">
+                  <lb ed="#L" n="19"/>Quod dicere non sit intellectionem gignere, 
+      con<lb ed="#L" break="no" n="20"/>tra Godo, &amp; Sco. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e700">
+                  <lb ed="#L" n="21"/>RESTAT ergo nunc videre, quid veritatis 
+      <lb ed="#L" n="22"/>Jsit in his dictis, &amp; primo quidem proceden 
+      <lb ed="#L" n="23"/>dum est negatiue sub tribus propositionibus. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e709">
+                  <lb ed="#L" n="24"/>Prima siquidem, quod dicere, nec in Diuinis, 
+      <lb ed="#L" n="25"/>nec in nobis est intellectionem gignere, siue 
+      no<lb ed="#L" break="no" n="26"/>titiam actualem: dicete namque non est aliud, 
+      <lb ed="#L" n="27"/>quam verbum proferre, sed intellectio non est ver 
+      <lb ed="#L" n="28"/>bum in nobis, nec etiam in Diuinis, quod non in 
+      <lb ed="#L" n="29"/>nobis, patet per August. qui ait, quod verbum 
+      <lb ed="#L" n="30"/>sine cogitatione esse non potest. cogitamus enim, 
+      <lb ed="#L" n="31"/>quod dicimus esse; constat autem, quod non 
+      om<lb ed="#L" break="no" n="32"/>nem cogitationem cogitamus. si ergo verbum, 
+      <lb ed="#L" n="33"/>quod dicimus cogitamus, verbum non potestt 
+      es<lb ed="#L" break="no" n="34"/>se actus intelligendi, quomodo nec in Deo, patet, 
+      <lb ed="#L" n="35"/>quia tunc verbum haberet directius 
+      intellectio<lb ed="#L" break="no" n="36"/>nem, quam Pater, ex quo emanaret per modum 
+      <lb ed="#L" n="37"/>intellectionis, &amp; esset verbum directius beatum, 
+      <lb ed="#L" n="38"/>quam Pater, &amp; esset duplex intellectio in Deo, 
+      v<lb ed="#L" break="no" n="39"/>na producta, &amp; alia improducta, &amp; sic vna 
+      pro<lb ed="#L" break="no" n="40"/>ductio esset bis in Deo, &amp; Filius esset bis beatus, 
+      <lb ed="#L" n="41"/>&amp; bis intelligens. esset enim intelligens ex 
+      for<lb ed="#L" break="no" n="42"/>mali modo suae productionis, quia emanat, sicut 
+      <lb ed="#L" n="43"/>intellectio, &amp; ex hoc, quod Deus: eo enim est 
+      sa<lb ed="#L" break="no" n="44"/>piens, &amp; beatus, &amp; intelligens, quo Deus secun 
+      <lb ed="#L" n="45"/>dum Augustinum, &amp; iterum eadem perfectio 
+      es<lb ed="#L" break="no" n="46"/>set duplici ratione in Filio. esset enim intellectio 
+      <lb ed="#L" n="47"/>eo, quo verbum, &amp; eo, quo Deus, quod est 
+      con<lb ed="#L" break="no" n="48"/>tra eundem, qui ait, quod non eo sapiens, vel 
+      bo<lb ed="#L" break="no" n="49"/>nus, quo verbum, &amp; sic de aliis attributis, &amp; item 
+      <lb ed="#L" n="50"/>intellectio caperet esse realiter in Diuinis, quod 
+      <lb ed="#L" n="51"/>esse non potest, &amp; multa inconuenientia, quae 
+      de<lb ed="#L" break="no" n="52"/>ducentur inferius, in quaestione de verbo. ergo gi 
+      <lb ed="#L" n="53"/>gnere intellectionem non potest esse verbum.
+    </p>
+               <p xml:id="ol96b1-102919-d1e777">
+                  <lb ed="#L" n="54"/>Praeterea: Cognitio non formatur in 
+      cogni<lb ed="#L" break="no" n="55"/>tione, alids idem formaretur in se, secundum Au 
+      <lb ed="#L" n="56"/>gustinum libro de cognitione verae vitae 
+      respon<lb ed="#L" break="no" n="57"/>sione 22. cum nos aliquam rem cogitamus, 
+      ip<lb ed="#L" break="no" n="58"/>sius rei imaginem in cognitione nostra 
+      forma<lb ed="#L" break="no" n="59"/>mus, sic etiam Deus, cum seipsum cogitat, 
+      co<lb ed="#L" break="no" n="60"/>gitat similem sui per omnia imaginem 
+      forman<lb ed="#L" break="no" n="61"/>do, &amp; ideo hoc verbum, imago, vel similitudo 
+      <lb ed="#L" n="62"/>dicitur. Hoc Augustinus. ergo manifeste patet, 
+      <lb ed="#L" n="63"/>quod nec in nobis, nec in Deo, verbum est 
+      cogi<lb ed="#L" break="no" n="64"/>tatio actualis, sed tantum cogitatio obiectiua, 
+      <lb ed="#L" n="65"/>&amp; ita dicere non est gignere notitiam actualem. 
+      <lb ed="#L" n="66"/>Praeterea: Dicere non est gignere aciem cogi 
+      <!--0318.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>tantis, sed similitudinem gignere in acle cogstan 
+      <lb ed="#L" n="68"/>tis, secundum Augustinum; sed acies cogitantis 
+      <lb ed="#L" n="69"/>non nominat solam potentiam, nec potentiam 
+      <lb ed="#L" n="70"/>instructam per actum, &amp; informatam. ergo 
+      dice<lb ed="#L" break="no" n="71"/>re non est cogitationem informare. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e823">
+                  <lb ed="#L" n="72"/>Praeterea: Cogitatio actus non exprimitur in 
+      <lb ed="#L" n="73"/>cogitatione, sed expresse dicit Ansel. quod quã- 
+      <lb ed="#L" n="74"/>cumque rem mens, seu per imaginationem, seu 
+      <lb ed="#L" n="75"/>per rationem cupit veraciter cogitare, eius 
+      vti<lb ed="#L" break="no" n="76"/>que similitudinem, quantum videlicet in ipsa 
+      <lb ed="#L" n="77"/>sui cogitatione conatur exprimere, quod 
+      quan<lb ed="#L" break="no" n="78"/>to verius facit, tanto verius cogitat, &amp; paulo 
+      <lb ed="#L" n="79"/>ante diximus, quod nulla ratione negari potest, 
+      <lb ed="#L" n="80"/>cum mens rationalis seipsam cogitando intelli⸗ 
+      <lb ed="#L" n="81"/>git imaginem eius nasci in sua cogitatione, &amp; in 
+      <lb ed="#L" n="82"/>fine concludit, quod imago illa verbum ipsius est. 
+      <lb ed="#L" n="83"/>ergo cognitio actualis non potest esse verbum, &amp; 
+      <lb ed="#L" n="84"/>per consequens gignere cogitationem, non est 
+      <lb ed="#L" n="85"/>dicere, nec verbum generare. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e856">
+                  <lb ed="#L" n="86"/>Praeterea: Dicere videtur praesupponere 
+      cogi<lb ed="#L" break="no" n="87"/>tationem, alias non diceretur improperando, m 
+      <lb ed="#L" n="88"/>scis quid loqueris, sed memoria nil cognoscit, 
+      <lb ed="#L" n="89"/>nec intellectus agens. ergo non videtur, quod 
+      <lb ed="#L" n="90"/>memoriae sit dicere, vel loqui, cuius oppo situm 
+      <lb ed="#L" n="91"/>illae primae opiniones dicunt.
+    </p>
+               <p xml:id="ol96b1-102919-d1e872">
+                  <lb ed="#L" n="92"/>Quod dicere non sit idem, quod intelligere, vul 
+      <lb ed="#L" n="93"/>intueri contra Durand. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e880">
+                  <lb ed="#L" n="94"/>SECVNDA vero propositio est, quod dicere 
+      <lb ed="#L" n="95"/>non est intueri, vel cogitare formaliter. 
+      quan<lb ed="#L" break="no" n="96"/>documque enim aliqua sunt vnum, &amp; idem, 
+      cui<lb ed="#L" break="no" n="97"/>cumque competit vnum, &amp; alterum; sed dicere 
+      <lb ed="#L" n="98"/>est proprium Patris in Diuinis, intelligere vero 
+      <lb ed="#L" n="99"/>est tribus commune. ergo intelligere non est 
+      <lb ed="#L" n="100"/>idem, quod dicere 
+    </p>
+               <p xml:id="ol96b1-102919-d1e898">
+                  <lb ed="#L" n="101"/>Et si dicatur, quod immo dicere est commune 
+      <lb ed="#L" n="102"/>tribus, sed tamen appropriatur Patri, hoc est 
+      <lb ed="#L" n="103"/>expresse contra mentem August. qui dicit, quod 
+      <lb ed="#L" n="104"/>Filius in eo, quod verbum, relatiue dicitur, &amp; 
+      te<lb ed="#L" break="no" n="105"/>fertur ad Patrem solum, aut, quod verhum 
+      refer<lb ed="#L" break="no" n="106"/>tur ad dicentem, ex quo patet, quod soli patri 
+      <lb ed="#L" n="107"/>competit verbum dicens in Diuinis.
+    </p>
+               <p xml:id="ol96b1-102919-d1e916">
+                  <lb ed="#L" n="108"/>Praeterea: Filius, &amp; Spiritus sanctus vere intelli 
+      <lb ed="#L" n="109"/>gunt in niuinis, sed nec proferunt verbum, nec dicunt. 
+      <lb ed="#L" n="110"/>ergo intueri, &amp; intelligere non est dicere, quod isti 
+      <lb ed="#L" n="111"/>dicunt, quod immo verbum est essentiale, &amp; com 
+      <lb ed="#L" n="112"/>mune tribus, appropriatur tamen Filio, sicut 
+      a<lb ed="#L" break="no" n="113"/>mor Spiritui sancto, &amp; sapientia eidem Filio, hoc 
+      <lb ed="#L" n="114"/>est expresse contra dicta Sanctorum. de omni 
+      <lb ed="#L" n="115"/>enim attributo, quod est commune tribus, &amp; 
+      ap<lb ed="#L" break="no" n="116"/>propriatur alicui personae, verum dicere, quod eo, 
+      <lb ed="#L" n="117"/>quo Deus est illud attributum, talis persona; 
+      li<lb ed="#L" break="no" n="118"/>cet enim potentia approprietur Patri, &amp; sapien 
+      <lb ed="#L" n="119"/>tia Filio, &amp; amor Spiritui sancto, siue bonitas, ta 
+      <lb ed="#L" n="120"/>men haec est vera, pro eo Pater est Deus, quo 
+      po<lb ed="#L" break="no" n="121"/>tens, &amp; eo Filius sapiens, quo Deus, &amp; eo 
+      Spiri<lb ed="#L" break="no" n="122"/>tus sanctus, amor, quo Deus, &amp; eo bonus, quo 
+      <lb ed="#L" n="123"/>Dens. August. autem negat, quod non eo Deus, 
+      <lb ed="#L" n="124"/>quo verbum, non ergo verbum est appropriatum, 
+      <lb ed="#L" n="125"/>&amp; iterum de omni appropriato, &amp; essentiali 
+      ve<lb ed="#L" break="no" n="126"/>rum est dicere, quod praedicatur in singulari de 
+      <lb ed="#L" n="127"/>tribus. verum est enim, quod tres personae sunt 
+      <lb ed="#L" n="128"/>vnum lumen, vna ars, vna sapientia; &amp; 
+      tamen<lb ed="#L" break="no" n="129"/>Augustinus expresse negat, quod non simul 
+      Pa<lb ed="#L" break="no" n="130"/>ter, &amp; Filius sunt vnum verbum, sed solus Pilius 
+      <lb ed="#L" n="131"/>est verbum. &amp; iterum August. expresse dicitibi- 
+      <!--0319.xml-->
+      <pb ed="#L" n="319"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dem, quod sicut dicitur verbum, quomodo 
+      ima<lb ed="#L" break="no" n="2"/>go, &amp; quomodo Filius. constat autem, quod 
+      nomi<lb ed="#L" break="no" n="3"/>na Filij, &amp; imaginis non sunt essentialia, immo cō 
+      <lb ed="#L" n="4"/>petentia soli personae secundae in Diuinis, vnde 
+      <lb ed="#L" n="5"/>absurdum est dicere, quod verbum sit essentiale, 
+      <lb ed="#L" n="6"/>&amp; commune tribus. non potest ergo dici, quod 
+      <lb ed="#L" n="7"/>intelligere, &amp; dicere, &amp; verbum idem importent.
+    </p>
+               <p xml:id="ol96b1-102919-d1e992">
+                  <lb ed="#L" n="8"/>Quod dicere non sit formam specularem, &amp; 
+      rea<lb ed="#L" break="no" n="9"/>lem producere, quam aspiciat intellectus. 
+      <lb ed="#L" n="10"/>contra S. Thomam, Heruaeum, 
+      <lb ed="#L" n="11"/>&amp; Riccardum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1003">
+                  <lb ed="#L" n="12"/>TERTIA autem propositio est, quod nulla 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1008">
+                  <lb ed="#L" n="13"/>forma realis existens subiectiue in 
+      intelle<lb ed="#L" break="no" n="14"/>ctu, vel in phantasmate est ponenda, ad quam 
+      a<lb ed="#L" break="no" n="15"/>spiciat intellectus, cuius productio, dictio appel 
+      <lb ed="#L" n="16"/>letur, forma siquidem illa, quam nos aspicere 
+      ex<lb ed="#L" break="no" n="17"/>perimur, dum intelligimus rosam simpliciter, aut 
+      <lb ed="#L" n="18"/>florem, illa non est aliquid reale impressum intel 
+      <lb ed="#L" n="19"/>lectui subiectiue, aut phantasmati, sed nec aliquid 
+      <lb ed="#L" n="20"/>reale subsistens, sed est ipsamet res habens esse 
+      <lb ed="#L" n="21"/>intentionale, conspicuum, &amp; licet hoc supra 
+      <lb ed="#L" n="22"/>multipliciter sit deductum, potest nihilominus 
+      <lb ed="#L" n="23"/>nouiter declarari. Nulla enim forma simpliciter 
+      <lb ed="#L" n="24"/>non singularis, nec limitata potest esse inhaerens 
+      <lb ed="#L" n="25"/>intellecui, vel phantasmati, nec esse subsistens. 
+      <lb ed="#L" n="26"/>si enim hoc detur, cum forma simpliciter infinita 
+      <lb ed="#L" n="27"/>sit, &amp; adaequans omnia indiuidua, sequeretur, 
+      <lb ed="#L" n="28"/>quod esset aliqua res infinita inhaerens intellectui, 
+      <lb ed="#L" n="29"/>vel phantasmati, vel subsistens, praeter primam 
+      <lb ed="#L" n="30"/>formam, quae est Deus, quod omnino 
+      impossi<lb ed="#L" break="no" n="31"/>bile est, sed constat, quod rosa ista, quam 
+      aspi<lb ed="#L" break="no" n="32"/>cit intellectus, &amp; forma ista specularis, quae 
+      ter<lb ed="#L" break="no" n="33"/>minat mentis intuitum, illa non est natura singu 
+      <lb ed="#L" n="34"/>laris, sed natura simpliciter, &amp; quidditas tota. 
+      <lb ed="#L" n="35"/>concipiendo enim hominem, vel rosam, non 
+      ter<lb ed="#L" break="no" n="36"/>minamus aspectum ad hanc rosam, vel illam, vel 
+      <lb ed="#L" n="37"/>hominem istum, vel illum, sed ad rosam, vel 
+      ho<lb ed="#L" break="no" n="38"/>minem simpliciter. ergo illa forma specularis, vel 
+      <lb ed="#L" n="39"/>idolum, vel conceptus non potest esse aliquid 
+      rea<lb ed="#L" break="no" n="40"/>le, inhaerens intellectui, vel phantasmati, sed nec 
+      <lb ed="#L" n="41"/>aliquid subsistens. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1074">
+                  <lb ed="#L" n="42"/>Praeterea: Nulla forma non singularis, habet 
+      <lb ed="#L" n="43"/>subiectum singulare, cum accidentia indiuiduenl 
+      <lb ed="#L" n="44"/>tur in subiectis, sed forma specularis, quam 
+      aspi<lb ed="#L" break="no" n="45"/>cit intellectus, non est singularis, immo forma 
+      <lb ed="#L" n="46"/>simpliciter. rosam enim simpliciter, non hanc, 
+      <lb ed="#L" n="47"/>vel illam intuemur. ergo si est subiectiue in intel 
+      <lb ed="#L" n="48"/>lectu, non erit intellectus aliquid singulare, sed 
+      <lb ed="#L" n="49"/>omnia simpliciter; &amp; per consequens erit vnus 
+      <lb ed="#L" n="50"/>intellectus in omnibus, &amp; redit error 
+      Commen<lb ed="#L" break="no" n="51"/>tatoris. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1098">
+                  <lb ed="#L" n="52"/>Praeterea: Illam rosam, quam intellectus specu 
+      <lb ed="#L" n="53"/>latur, aspicit de singularibus, praedicat, &amp; dicit 
+      <lb ed="#L" n="54"/>verificari. dicit enim de rosa visa, quae est rosa, 
+      <lb ed="#L" n="55"/>quam ante concepit. sed constat, quod nulla res 
+      <lb ed="#L" n="56"/>existens in intellectu, vel in phantasmate vere 
+      e<lb ed="#L" break="no" n="57"/>nunciatur de rosis existentibus extra, cum sit 
+      <lb ed="#L" n="58"/>quoddam accidens realiter distinctum ab 
+      omni<lb ed="#L" break="no" n="59"/>bus indiuiduis, quae sunt extra. ergo rosa ista, 
+      <lb ed="#L" n="60"/>quam aspicit intellectus, &amp; formam 
+      specula<lb ed="#L" break="no" n="61"/>rem non est aliquid reale in intellectu, seu 
+      phan<lb ed="#L" break="no" n="62"/>tasmate subiectiue existens. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1124">
+                  <lb ed="#L" n="63"/>Praeterea: Si sit forma aliqua specularis, 
+      rea<lb ed="#L" break="no" n="64"/>liter inhaerens intellectui, ad quam terminetur 
+      <lb ed="#L" n="65"/>aspectas intellectus, aut in illam vltimate quie- 
+      <!--0319.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>scit, aut per illam ad res extra procedit, sed nec 
+      <lb ed="#L" n="67"/>potest dari istud, nec illud. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1142">
+                  <lb ed="#L" n="68"/>Primum quidem non; quia tunc scientiae non 
+      <lb ed="#L" n="69"/>essent de rebus, sed de talibus idolis, quod 
+      om<lb ed="#L" break="no" n="70"/>nino aestimandum est absurdum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1151">
+                  <lb ed="#L" n="71"/>Secundum etiam non: tum quia contra expe 
+      <lb ed="#L" n="72"/>rientiam; experimur enim nos aspicere formam 
+      <lb ed="#L" n="73"/>rosae, &amp; per eam vlterius ferri in rosam: tum quia 
+      <lb ed="#L" n="74"/>primum obiectum intellectus esset aliquid 
+      exi<lb ed="#L" break="no" n="75"/>stens infra intellectum, &amp; non res extra, &amp; eodem 
+      <lb ed="#L" n="76"/>modo primum obiectum habitus scientifici, &amp; 
+      <lb ed="#L" n="77"/>actus eius, qui est scire, esset quaedam forma 
+      spe<lb ed="#L" break="no" n="78"/>cularis, actualis, &amp; rediret quantum ad hoc 
+      er<lb ed="#L" break="no" n="79"/>ror Platonis dicentis, quod intellectus aspicit ad 
+      <lb ed="#L" n="80"/>exemplar, non ad ipsas res. ergo impossibile est, 
+      <lb ed="#L" n="81"/>quod talis forma realis ponatur. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1177">
+                  <lb ed="#L" n="82"/>Praeterea: Non est philosophicum pluralitatem 
+      <lb ed="#L" n="83"/>rerum ponere sine causa. frustra enim fit per plu 
+      <lb ed="#L" n="84"/>ra, quod potest fieri per pauciora, sed nulla 
+      ne<lb ed="#L" break="no" n="85"/>cessitas inducit ad ponendum talem rem, quae 
+      <lb ed="#L" n="86"/>sit forma specularis. non enim oportet eam 
+      po<lb ed="#L" break="no" n="87"/>nere ad terminandum actum intellectus, quia 
+      <lb ed="#L" n="88"/>non terminat eum vltimate, cum per eam non 
+      <lb ed="#L" n="89"/>transeat super rem extra, alioquin res extra non 
+      <lb ed="#L" n="90"/>cognoscerentur a nobis, nec oportet eam 
+      pone<lb ed="#L" break="no" n="91"/>re, vt mediate ipsa res clarius cognoscatur. 
+      suffi<lb ed="#L" break="no" n="92"/>cit enim ad claram notitiam potentia, &amp; actus, 
+      <lb ed="#L" n="93"/>&amp; similitudo medians inter potentiam, &amp; actum; 
+      <lb ed="#L" n="94"/>inter actum vero, &amp; subiectum non est necesse 
+      a<lb ed="#L" break="no" n="95"/>liquam formam mediare, quinimmo 
+      imperfe<lb ed="#L" break="no" n="96"/>ctior esset notitia, sicut patet in visione 
+      sensiti<lb ed="#L" break="no" n="97"/>ua, quae perfectior est, dum attingit immediate 
+      <lb ed="#L" n="98"/>obiectum, quam dum attingit mediante 
+      specu<lb ed="#L" break="no" n="99"/>lo, aut aliquo speculari. ergo si talis forma 
+      pona<lb ed="#L" break="no" n="100"/>tur, erit absque omni causa, &amp; ratione; &amp; per 
+      <lb ed="#L" n="101"/>consequens vanum est ponere eam, &amp;superfluum 
+      <lb ed="#L" n="102"/>in natura. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1226">
+                  <lb ed="#L" n="103"/>Praeterea: Minus non indiget reali termino 
+      o<lb ed="#L" break="no" n="104"/>peratio intellectus, quam operatio sensitiua, sed 
+      <lb ed="#L" n="105"/>sensitiua operatio non indiget reali termino, im 
+      <lb ed="#L" n="106"/>mo terminatur frequenter ad rem ipsam positam 
+      <lb ed="#L" n="107"/>in esse apparenti, siue ad esse intentionale, sicut 
+      <lb ed="#L" n="108"/>Philosophus innuit 2. caeli, &amp; mundi, vbi dicit 
+      Com<lb ed="#L" break="no" n="109"/>mentator, quod circulatio, quae apparet in 
+      Lu<lb ed="#L" break="no" n="110"/>na, forsitan videretur alicui visio, sine veritate, 
+      <lb ed="#L" n="111"/>&amp; non debet aliquis dicere, quod sit visio 
+      tan<lb ed="#L" break="no" n="112"/>tum, quoniam si esset visio appareret, sicut 
+      ap<lb ed="#L" break="no" n="113"/>paret ex sectione piramidis visus ad corpus 
+      Lu<lb ed="#L" break="no" n="114"/>nae in mense, &amp; in augmentatione, &amp; 
+      diminu<lb ed="#L" break="no" n="115"/>tione. videmus enim lineam, quae fit in 
+      sectio<lb ed="#L" break="no" n="116"/>ne eorum aliquando rectam, aliquando 
+      conue<lb ed="#L" break="no" n="117"/>xam, aliquando valde profundam, vult 
+      dice<lb ed="#L" break="no" n="118"/>re Commentator, quod de mente Aristotelis est 
+      <lb ed="#L" n="119"/>illam figuram, secundum quam Luna 
+      aliquan<lb ed="#L" break="no" n="120"/>do apparet nobis circularis, &amp; aliquando 
+      me<lb ed="#L" break="no" n="121"/>dia, non esse in rerum natura, sed 
+      tantummo<lb ed="#L" break="no" n="122"/>do apparere, &amp; breuiter, qui negat, quin actus 
+      <lb ed="#L" n="123"/>visionis possit apparens terminari, cogitur 
+      con<lb ed="#L" break="no" n="124"/>fiteri, quod omnia, quae videntur vera sunt, 
+      con<lb ed="#L" break="no" n="125"/>tra quos disputat Philosophus, quia 
+      contradi<lb ed="#L" break="no" n="126"/>ctoria essent vera, cum vni videatur sic, &amp; 
+      alte<lb ed="#L" break="no" n="127"/>ri aliter. relinquitur ergo, quod actus 
+      intelle<lb ed="#L" break="no" n="128"/>ctus non terminetur ad formam specularem 
+      ha<lb ed="#L" break="no" n="129"/>bentem esse reale, sed ad esse intellectuale tantum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1287">
+                  <lb ed="#L" n="130"/>Praeterea: Opinio fuit Auempacae, vt patet 3. 
+      <lb ed="#L" n="131"/>de anima, quod intentiones imaginatae 
+      respicie<lb ed="#L" break="no" n="132"/>bant formam intellectam, ita quod forma illa erit 
+      <!--0320.xml-->
+      <pb ed="#L" n="320"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>subiectiue in phātasmatibus, sed ista forma intel 
+      <lb ed="#L" n="2"/>lecta non est, nisi forma specularis, quam mentis 
+      <lb ed="#L" n="3"/>intuitu spe culamur. ergo isti, qui ponunt formam 
+      <lb ed="#L" n="4"/>huiusmodi specularem esse forsitan subiectiue 
+      <lb ed="#L" n="5"/>in phantasmatibus, sectantur phantasiam 
+      Auen<lb ed="#L" break="no" n="6"/>pace, quae expresse contradicit Philosopho, vt di 
+      <lb ed="#L" n="7"/>cit Coment. ibid.
+    </p>
+               <p xml:id="ol96b1-102919-d1e1318">
+                  <lb ed="#L" n="8"/>Quod in omni intellectione necesse est, quod res 
+      <lb ed="#L" n="9"/>emanet in esse intentionali, &amp; illa 
+      for<lb ed="#L" break="no" n="10"/>ma est specularis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1327">
+                  <lb ed="#L" n="11"/>NVNC vero oportet procedere 
+      affirmati<lb ed="#L" break="no" n="12"/>ue sub quatuor propositionibus. 
+      <lb ed="#L" n="13"/>Prima quidem, quod omnis intellectio exigit 
+      <lb ed="#L" n="14"/>rem positam in esse intentionali, &amp; illa est 
+      for<lb ed="#L" break="no" n="15"/>ma specularis, de qua isti loquuntur, sed deficiunt 
+      <lb ed="#L" n="16"/>aver itate in tribus. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1343">
+                  <lb ed="#L" n="17"/>Primo quidem, quia putant, quod habeat 
+      es<lb ed="#L" break="no" n="18"/>se reale.
+    </p>
+               <p xml:id="ol96b1-102919-d1e1350">
+                  <lb ed="#L" n="19"/>Secundo, quia dicunt, quod est subiectiue in 
+      <lb ed="#L" n="20"/>intellectu, vel phantasmate. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1358">
+                  <lb ed="#L" n="21"/>Tertio, quia credunt, quod per illum 
+      proce<lb ed="#L" break="no" n="22"/>dat intellectus ad res, cum illa sit vera res, quam 
+      <lb ed="#L" n="23"/>intellectus speculatur. &amp; hoc quidem potest esse 
+      <lb ed="#L" n="24"/>de mente Commentatoris, &amp; Philosophi, &amp; 
+      si<lb ed="#L" break="no" n="25"/>militer Augustini, &amp; Anselmi: Philosophi quidem, 
+      <lb ed="#L" n="26"/>&amp; Commentatoris, quia septimo Metaph. 
+      dici<lb ed="#L" break="no" n="27"/>tur, quod sanitas, quae est in materia, fit a sanita 
+      <lb ed="#L" n="28"/>te, quae est in anima. vbi dicit Commentator, 
+      <lb ed="#L" n="29"/>quod quidditates sunt existentes in anima. 
+      dici<lb ed="#L" break="no" n="30"/>tur enim sanitas de forma, quae est in anima, &amp; 
+      <lb ed="#L" n="31"/>de habitu, qui est in corpore, &amp; ambo sunt idem, 
+      <lb ed="#L" n="32"/>&amp; infra medium est, quod forma dicitur duobus 
+      <lb ed="#L" n="33"/>modis, unus est forma, quae est in anima, &amp; alius 
+      <lb ed="#L" n="34"/>est illa, qnae est extra animam, &amp; sunt idem, 
+      ver<lb ed="#L" break="no" n="35"/>bi gratia, quando sanitas dicitur de intellectu sa 
+      <lb ed="#L" n="36"/>nitatis, qui est in anima, &amp; de sanitate existente 
+      <lb ed="#L" n="37"/>in corpore, &amp; concludit, quod diffinitio 
+      sanita<lb ed="#L" break="no" n="38"/>tis, quae est in anima, est sanitas in rei veritate. 
+      <lb ed="#L" n="39"/>Hoc Commentator, vnde patet, quod sanitas 
+      <lb ed="#L" n="40"/>intellecta, &amp; sanitas, quae est extra, sunt vnum, &amp; 
+      <lb ed="#L" n="41"/>idem realiter, quamuis differant in modo 
+      essen<lb ed="#L" break="no" n="42"/>di, quia in intellectu sanitas habet esse apparens, 
+      <lb ed="#L" n="43"/>&amp; intentionale; extra vero in corpore habet 
+      <lb ed="#L" n="44"/>esse existens, &amp; reale, &amp; propter istam 
+      differen<lb ed="#L" break="no" n="45"/>tiam dicit, quod scire vnum non est scire aliud, 
+      <lb ed="#L" n="46"/>&amp;, quod quodammodo differunt; differunt quidem 
+      <lb ed="#L" n="47"/>in modo essendi, quamuis sit eadem res, est etiam 
+      <lb ed="#L" n="48"/>ista intentio Augustini, quasi vbique, vt superius 
+      <lb ed="#L" n="49"/>in quaestione de memoria, extitit declaratum, &amp; 
+      <lb ed="#L" n="50"/>hoc expresse dicit super Ioãnem; ait enim, quod 
+      <lb ed="#L" n="51"/>cum scribimus literas, facit eas primo cor 
+      no<lb ed="#L" break="no" n="52"/>strum, &amp; deinde manus nostrae, literae sunt 
+      pri<lb ed="#L" break="no" n="53"/>mo in corde, deinde a corde nostro, easdem 
+      au<lb ed="#L" break="no" n="54"/>tem literas facit &amp; cor, &amp; manus, numquid 
+      <lb ed="#L" n="55"/>alias cor, alias manus? easdem quidem facit, sed 
+      <lb ed="#L" n="56"/>non similiter. cor enim facit eas intelligibiliter, 
+      <lb ed="#L" n="57"/>sed manus visibiliter, ecce quomodo sunt eadem 
+      <lb ed="#L" n="58"/>dissimiliter. Hoc August. vnde apparet, 
+      quomo<lb ed="#L" break="no" n="59"/>do res, quae determinant mentis aspectum, &amp; for 
+      <lb ed="#L" n="60"/>mantur in corde, non sunt aliud, quam res extra, 
+      <lb ed="#L" n="61"/>quamuis disimiliter, habens esse, quia in corde 
+      <lb ed="#L" n="62"/>intentionaliter, exterius vero realiter. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1452">
+                  <lb ed="#L" n="63"/>Est etiam intentio Anselmi, monol. 1o. vbi ait, 
+      <lb ed="#L" n="64"/>quod faber facturus aliquod opus suae artis, prius 
+      <lb ed="#L" n="65"/>illud intra se dicit mentis conceptione, etiam 
+      <!--0320.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>sine rationis loquutione; conceptionem hic 
+      in<lb ed="#L" break="no" n="67"/>telligendo, cum res ipsae, vel futurae, vel iam 
+      exi<lb ed="#L" break="no" n="68"/>stentes acie cogitationis in mente 
+      conspiciun<lb ed="#L" break="no" n="69"/>tur. &amp; subdit: quod loqui possumus nec 
+      sensibi<lb ed="#L" break="no" n="70"/>liter, nec insensibiliter, signo vtendo, sed res 
+      ip<lb ed="#L" break="no" n="71"/>sas, vel cordis imaginatione, vel rationis 
+      intelle<lb ed="#L" break="no" n="72"/>ctu intrinsecus in mente dicendo, vt cum eum 
+      <lb ed="#L" n="73"/>ipsum hominem mens, aut per imaginationem, 
+      <lb ed="#L" n="74"/>aut per rationem intuetur, per corporis quidem 
+      <lb ed="#L" n="75"/>imaginationem, cum eius sensibilem figuram ima 
+      <lb ed="#L" n="76"/>ginamur; per rationem vero, cum eius 
+      vniuersa<lb ed="#L" break="no" n="77"/>lem essentiam, quae est animal rationale, 
+      morta<lb ed="#L" break="no" n="78"/>le cogitamus. Hucusque Anselmus; vnde patet, 
+      <lb ed="#L" n="79"/>quomodo res ipsae conspiciuntur mente, &amp; illud, 
+      <lb ed="#L" n="80"/>quod intuemur, non est forma alia specularis, sed 
+      <lb ed="#L" n="81"/>ipsamet res, habens esse apparens, &amp; hoc est mens 
+      <lb ed="#L" n="82"/>tis conceptus, siue notitia obiectiua. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1502">
+                  <lb ed="#L" n="83"/>Quod intellectio actus exigit aliquid absolutum, 
+      <lb ed="#L" n="84"/>a quo huiusmodi apparitio obiectiua 
+      <lb ed="#L" n="85"/>habet, quod sit. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1511">
+                  <lb ed="#L" n="86"/>SECVNDA vero propositio est, quod res non 
+      <lb ed="#L" n="87"/>D potest habere tale esse apparens, nisi ratione 
+      <lb ed="#L" n="88"/>alicuius absoluti realis existentis in intellectu: 
+      <lb ed="#L" n="89"/>esse namque diminutum reducitur ad aliquid 
+      rea<lb ed="#L" break="no" n="90"/>le, alioquin nihil esset in se, &amp; in alio, sed res in 
+      <lb ed="#L" n="91"/>esse apparenti, siue rei apparitio est omnino 
+      <lb ed="#L" n="92"/>quid diminutum, vnde nihil est in se. ergo 
+      neces<lb ed="#L" break="no" n="93"/>se est, quod sit aliquod reale in intellectu, 
+      ratio<lb ed="#L" break="no" n="94"/>ne cuius dicatur esse. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1533">
+                  <lb ed="#L" n="95"/>Praeterea: Sicut se habet realis pictura ad esse 
+      <lb ed="#L" n="96"/>pictum, sic se videtur habere realis apparitio ad 
+      <lb ed="#L" n="97"/>dare esse apparens, sed numquam Caesar 
+      cape<lb ed="#L" break="no" n="98"/>ret esse pictum, nisi quatenus est aliqua realis 
+      <lb ed="#L" n="99"/>pictura. ergo nec res erunt apparentes 
+      intelle<lb ed="#L" break="no" n="100"/>ctui, nisi quatenus est aliqua formalis apparitio, 
+      <lb ed="#L" n="101"/>&amp; realis in intellectu. Hoc autem 
+      impossibile<lb ed="#L" break="no" n="102"/>est, quod sit purus respectus: tum quia respectus 
+      <lb ed="#L" n="103"/>ille indiget fundamento alio a nuda potentia 
+      in<lb ed="#L" break="no" n="104"/>tellectus, aut si intellectus potentia fundaret 
+      <lb ed="#L" n="105"/>istum respectum, omnis, qui habet intellectiuam 
+      <lb ed="#L" n="106"/>potentiam, haberet apparentiam omnium 
+      re<lb ed="#L" break="no" n="107"/>rum in actu, cuius oppositum experimur: tum 
+      <lb ed="#L" n="108"/>quia nulla similitudo, quae sit respectus, vel 
+      rela<lb ed="#L" break="no" n="109"/>tio facit res apparere. est enim similitudo inter 
+      <lb ed="#L" n="110"/>duo alba, &amp; inter iustitiam existentem in volun 
+      <lb ed="#L" n="111"/>tate vnius iusti, &amp; alterius, &amp; similiter intra 
+      <lb ed="#L" n="112"/>grammaticam vnius grammatici, &amp; alterius, nec 
+      <lb ed="#L" n="113"/>ista similitudo facit grammaticam, aut iustitiam 
+      <lb ed="#L" n="114"/>alterius apparere: tum quia similitudo relatio 
+      <lb ed="#L" n="115"/>maior est inter duas animas, vel inter duas 
+      albe<lb ed="#L" break="no" n="116"/>dines, cum sint eiusdem speciei, quam inter 
+      ip<lb ed="#L" break="no" n="117"/>sam albedinem, &amp; speciem illius in oculo 
+      exi<lb ed="#L" break="no" n="118"/>stentem, illae nempe sunt eiusdem speciei: claret 
+      <lb ed="#L" n="119"/>autem, quod anima non facit apparere animam, 
+      <lb ed="#L" n="120"/>nec albedo albedinem; vnde relinquitur, quod 
+      <lb ed="#L" n="121"/>relatio similitudinis, non facit res intellectui 
+      <lb ed="#L" n="122"/>apparere. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1596">
+                  <lb ed="#L" n="123"/>Restat ergo, vt illud, quod facit res cognitas 
+      <lb ed="#L" n="124"/>apparere sit aliquid absolutum: illud autem 
+      po<lb ed="#L" break="no" n="125"/>ni non potest, quod sit qualitas sola, seu species, 
+      <lb ed="#L" n="126"/>seu operatio de genere qualitatis. si enim esset 
+      <lb ed="#L" n="127"/>species, tunc medium, in quo recipiuntur 
+      spe<lb ed="#L" break="no" n="128"/>cies, esset comprehensiuum, &amp; sibi res apparerent, 
+      <lb ed="#L" n="129"/>quod falsum est. Si vero esset operatio de 
+      gene<lb ed="#L" break="no" n="130"/>re qualitatis, vt lucere, &amp; albere, tunc lucere- 
+      <!--0321.xml-->
+      <pb ed="#L" n="321"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>poneret res in esse apparenti, &amp; esset bona 
+      con<lb ed="#L" break="no" n="2"/>structio dicendo, luceo te, vel albeo te, sicut 
+      di<lb ed="#L" break="no" n="3"/>cendo, intelligo te, non est ergo sola qualitas 
+      il<lb ed="#L" break="no" n="4"/>lud, quo res capiunt esse obiectiue. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1632">
+                  <lb ed="#L" n="5"/>Vlterius non potest dici, quod sit qualitas, cum 
+      <lb ed="#L" n="6"/>respectu ad obiectum, tum quia species habet 
+      <lb ed="#L" n="7"/>vtrumque, etiam prout existit in medio: 
+      tum<lb ed="#L" break="no" n="8"/>quia declaratum est, quod respectus 
+      similitudi<lb ed="#L" break="no" n="9"/>nis, non facit rem apparere, alias per picturam 
+      <lb ed="#L" n="10"/>appareret Calar parieti, quod est falsum. 
+      relin<lb ed="#L" break="no" n="11"/>quitur ergo, quod sit illud absolutum, a quo oritur 
+      <lb ed="#L" n="12"/>notitia obiectiua coniũctum quoddam ex poten 
+      <lb ed="#L" n="13"/>tia intellectiua, &amp; ex similitudine ipsa. nec enim 
+      <lb ed="#L" n="14"/>potentia per seipsam ponit res in esse formato, 
+      <lb ed="#L" n="15"/>nec similitudo, aut qualitas quaecumque, sed 
+      v<lb ed="#L" break="no" n="16"/>trumque parit notitiam simul obiectiuam, seu 
+      po<lb ed="#L" break="no" n="17"/>nit res in esse apparenti, quod multipliciter 
+      po<lb ed="#L" break="no" n="18"/>test declarari. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1665">
+                  <lb ed="#L" n="19"/>Primo quidem, quia Augustinus dicit, quod 
+      <lb ed="#L" n="20"/>visio, quae fit in sensu, non gignitur ex sola 
+      re<lb ed="#L" break="no" n="21"/>visibili, nisi adsit, &amp; videns, quo circa ex visibili, 
+      <lb ed="#L" n="22"/>&amp; vidente gignitur visio, ita sane, vt ex vidente 
+      <lb ed="#L" n="23"/>sit oculorum sensus, &amp; aspicientis intentio, infor 
+      <lb ed="#L" n="24"/>matio tamen sensus, quae visio dicitur, a solo cor 
+      <lb ed="#L" n="25"/>pore imprimatur, ideoque non possumus quidem 
+      <lb ed="#L" n="26"/>dicere, quod sensum gignat res visibilis, gignit 
+      <lb ed="#L" n="27"/>tamen formam, velut similitudinem suam, quae 
+      <lb ed="#L" n="28"/>fit in sensu, &amp; multa alia dicit August. Ex quibus 
+      <lb ed="#L" n="29"/>patet, quod fuit eius intentio, quod sola 
+      similitu<lb ed="#L" break="no" n="30"/>do non est sensus, sed similitudo impressa in ocu 
+      <lb ed="#L" n="31"/>lo, vtrumque constituit sensum, ex quo oritur vi 
+      <lb ed="#L" n="32"/>sio obiectiua 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1698">
+                  <lb ed="#L" n="33"/>Secundo vero idem patet, quod esse apparens, 
+      <lb ed="#L" n="34"/>quod capit res per intellectionem, &amp; visionem, 
+      <lb ed="#L" n="35"/>est proprium rei comprehensiuae, &amp; vitam 
+      haben<lb ed="#L" break="no" n="36"/>tis, nulli enim naturae res apparent, nisi sit 
+      com<lb ed="#L" break="no" n="37"/>prehenfiua; vnde illud est proprie susceptio 
+      for<lb ed="#L" break="no" n="38"/>mae sine materia. nulla ergo natura non vitalis 
+      <lb ed="#L" n="39"/>potest constituere res in esse apparenti. oritur 
+      <lb ed="#L" n="40"/>ergo apparitio obiectiua simul ab vtroque, 
+      vide<lb ed="#L" break="no" n="41"/>licet a potentia, &amp; impressa similitudine. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1720">
+                  <lb ed="#L" n="42"/>Tertio quoque patet idem, quia partus debet 
+      <lb ed="#L" n="43"/>assimilari ei, a quo nascitur; notitia vero 
+      obie<lb ed="#L" break="no" n="44"/>ctiua est res, in quodam esse intentionali posita, 
+      <lb ed="#L" n="45"/>&amp; in esse prospecto, quapropter oritur a re ipsa, 
+      <lb ed="#L" n="46"/>&amp; a prospiciente anima: res autem non facit idem 
+      <lb ed="#L" n="47"/>cum anima, nisi per similitudinem suam, quare 
+      <lb ed="#L" n="48"/>relinquitur, quod conceptus, seu partus mentis, 
+      <lb ed="#L" n="49"/>oriatur ab vtroque. Ex quo patet, quod 
+      intelle<lb ed="#L" break="no" n="50"/>ctio actus non nominat solam similitudinem. nec 
+      <lb ed="#L" n="51"/>vnam formam simplicem, sed compositam ex 
+      <lb ed="#L" n="52"/>persona, &amp; ex similitudine rei. ambo enim 
+      con<lb ed="#L" break="no" n="53"/>stitaunt intellectionem, quia sola similitudo nec 
+      <lb ed="#L" n="54"/>est intellectio, nec sola potentia, sed simul 
+      vtrum<lb ed="#L" break="no" n="55"/>que parit obiecti apparitio, siue praesentia 
+      in<lb ed="#L" break="no" n="56"/>tentionalis, &amp; relucentia obiectiua, &amp; quod 
+      v<lb ed="#L" break="no" n="57"/>trumque sit ipsa intellectio, tamquam aliquid 
+      con<lb ed="#L" break="no" n="58"/>stitutum ex potentiali, &amp; accidentali, expresse 
+      <lb ed="#L" n="59"/>dicit Commentator in tertio de anima, &amp; Au- 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1762">
+                  <lb ed="#L" n="60"/>gustinus vbi supra de sensu ait, quod non est 
+      so<lb ed="#L" break="no" n="61"/>la forma impressa a corpore, sed est vtrumque, 
+      <lb ed="#L" n="62"/>vnde decipiuntur, qui quaerunt intellectionem, 
+      <lb ed="#L" n="63"/>tamquam simplicem, cum sit quoddam 
+      compo<lb ed="#L" break="no" n="64"/>situm ex duobus, quorum vnum est potentia, 
+      re<lb ed="#L" break="no" n="65"/>liquum complementum: vtrum autem ista 
+      simi<lb ed="#L" break="no" n="66"/>litudo sit species, aut oporteat speciem ponere, 
+      <lb ed="#L" n="67"/>praeter simisitudinem, quae est pars actus, locum 
+      <!--0321.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>habebit in secundo libro, vnde ad praesens haec 
+      <lb ed="#L" n="69"/>inquisitio relinquatur. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1791">
+                  <lb ed="#L" n="70"/>Quod intellectio actus duplicem habitudinem ha 
+      <lb ed="#L" n="71"/>bes ad rem positam in ese apparenti.
+    </p>
+               <p xml:id="ol96b1-102919-d1e1799">
+                  <lb ed="#L" n="72"/>TERTIA quoque propositio est, quod 
+      noti<lb ed="#L" break="no" n="73"/>tia actualis, quae dicit compositum ex 
+      simi<lb ed="#L" break="no" n="74"/>litudine rei, &amp; ex intellectiua potentia, illud 
+      in<lb ed="#L" break="no" n="75"/>quam sub duplici habitudine respicit rem 
+      pofi<lb ed="#L" break="no" n="76"/>tam obiectiue in esse intentionali, &amp; est prima 
+      <lb ed="#L" n="77"/>habitudo de genere actionis; secunda vero de 
+      ge<lb ed="#L" break="no" n="78"/>nere relationis: talis namque apparentia 
+      obiecta<lb ed="#L" break="no" n="79"/>lis oritur obiectiue a potentia similitudine infor 
+      <lb ed="#L" n="80"/>mata, quae duo constituunt actum intellectionis, 
+      <lb ed="#L" n="81"/>&amp; oritur intra potentiam sic informatam, quod 
+      <lb ed="#L" n="82"/>potest multipliciter declarari. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1825">
+                  <lb ed="#L" n="83"/>Primo quidem, quoniam res posita in esse 
+      ap<lb ed="#L" break="no" n="84"/>parenti, dicitur concipi per actum intellectus, 
+      <lb ed="#L" n="85"/>immo est conceptus intellectualis: conceptus 
+      <lb ed="#L" n="86"/>autem remanet intra concipientem, &amp; est a con 
+      <lb ed="#L" n="87"/>cipiente. ergo res, vt apparens dependet ab actu 
+      <lb ed="#L" n="88"/>intellectus effectiue, &amp; per modum producti, &amp; 
+      <lb ed="#L" n="89"/>contentiue, ac per modum contenti. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1843">
+                  <lb ed="#L" n="90"/>Secundo vero, quia formando huiusmodi con 
+      <lb ed="#L" n="91"/>ceptum mens dicitur sibi loqui, &amp; per consequens 
+      <lb ed="#L" n="92"/>ille conceptus habet habitudinem ad mentem 
+      <lb ed="#L" n="93"/>loquentem, &amp; ad eandem mentem, tamquam ad 
+      <lb ed="#L" n="94"/>illud, cui loquutio fit.
+    </p>
+               <p xml:id="ol96b1-102919-d1e1856">
+                  <lb ed="#L" n="95"/>Tertio autem, quia omne, quod apparet, 
+      ali<lb ed="#L" break="no" n="96"/>cui apparet, &amp; omne, quod lucet, alicui 
+      dici<lb ed="#L" break="no" n="97"/>tur lucere: talis autem conceptus dicitur 
+      appa<lb ed="#L" break="no" n="98"/>ritio, &amp; relucentia quaedam. habet ergo 
+      habi<lb ed="#L" break="no" n="99"/>tudinem ad intellectum in actu, tamquam ad 
+      il<lb ed="#L" break="no" n="100"/>lud, cui lucet, &amp; cui apparet: constat autem, 
+      <lb ed="#L" n="101"/>quod habet habitudinem, tamquam ad illud, cu 
+      <lb ed="#L" n="102"/>ius virtute est, vt declaratum est supra, quod 
+      re<lb ed="#L" break="no" n="103"/>lucentia obiectiua non est, nisi propter realem 
+      <lb ed="#L" n="104"/>relucentiam, quae est actus. ergo patet, quod res 
+      <lb ed="#L" n="105"/>posita in esse intentionali, dupliciter se habet ad 
+      <lb ed="#L" n="106"/>actumintellectus, videlicet, quia virtute eius 
+      re<lb ed="#L" break="no" n="107"/>lucet, &amp; quia sibi lucet. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1887">
+                  <lb ed="#L" n="108"/>Est autem considerandum, quod prima 
+      habi<lb ed="#L" break="no" n="109"/>tudo fundatur super actum taliter, quod impossi 
+      <lb ed="#L" n="110"/>bile est actum intelligi sine huiusmodi relucentia 
+      <lb ed="#L" n="111"/>actiua. sicut enim res posita in esse obiectali, 
+      pu<lb ed="#L" break="no" n="112"/>ta rosa apparens non potest resolui per 
+      intelle<lb ed="#L" break="no" n="113"/>ctum in rem, &amp; apparitionem passiuam, tãquam 
+      <lb ed="#L" n="114"/>in duo, immo rosa, quae obiicitur, videtur 
+      omni<lb ed="#L" break="no" n="115"/>no simplex, nec potest accipi rosa simpliciter, 
+      <lb ed="#L" n="116"/>quin concipiatur res in esse apparenti. non enim 
+      <lb ed="#L" n="117"/>rosa habet, quod sit simpliciter in esse reali, sed 
+      <lb ed="#L" n="118"/>hoc habet in esse apparenti, sic intellectio rosae, 
+      <lb ed="#L" n="119"/>cum sit quaedam actiua apparitio, qua res 
+      appa<lb ed="#L" break="no" n="120"/>ret obiectiue non potest concipi sine ista actiuitate 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1918">
+                  <lb ed="#L" n="121"/>Sed his, quae dicta sunt videntur multa 
+      obuia<lb ed="#L" break="no" n="122"/>re. omne enim absolutum potest concipi absque 
+      <lb ed="#L" n="123"/>respectu; sed actus intellectus, qui resultat ex 
+      <lb ed="#L" n="124"/>potentia, &amp; ex reali similitudine obiecti, est 
+      ali<lb ed="#L" break="no" n="125"/>quid absolutum. ergo poterit intelligi sine respe 
+      <lb ed="#L" n="126"/>ctu actiuitatis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1935">
+                  <lb ed="#L" n="127"/>Praeterea: Supra dicebatur, quod illud, quo 
+      <lb ed="#L" n="128"/>ponuntur res in esse apparenti, non est respectus, 
+      <lb ed="#L" n="129"/>nec per respectum ponitur, hic autem dicitur 
+      <lb ed="#L" n="130"/>oppositum. ergo repugnantia est in dictis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1946">
+                  <lb ed="#L" n="131"/>Praeterea: Omnia verba ista videntur 
+      phan<lb ed="#L" break="no" n="132"/>tasiae. quod enim nil est, produci non potest: res 
+      <!--0322.xml-->
+      <pb ed="#L" n="322"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>enim in esse apparenti, vel e conuerso nihil sunt, 
+      <lb ed="#L" n="2"/>vt supra dictum est. ergo produci non possunt, 
+      <lb ed="#L" n="3"/>nec intellectio habet aliquam actiuitatem annexam. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1966">
+                  <lb ed="#L" n="4"/>Praeterea: Res in esse apparenti videtur 
+      effe<lb ed="#L" break="no" n="5"/>ctus formalis apparitionis formalis, quae est in 
+      <lb ed="#L" n="6"/>intellectu: effectus autem formalis non 
+      produci<lb ed="#L" break="no" n="7"/>tur a forma. ergo res in esse apparenti, non 
+      ca<lb ed="#L" break="no" n="8"/>pit effectiue per intellectionem quod sit, sed 
+      ma<lb ed="#L" break="no" n="9"/>gis videtur, quod a memoria causante 
+      intelle<lb ed="#L" break="no" n="10"/>ctionem, causetur talis apparitio obiectiua 
+    </p>
+               <p xml:id="ol96b1-102919-d1e1984">
+                  <lb ed="#L" n="11"/>His tamen non obstantibus dicendum est, sicut 
+      <lb ed="#L" n="12"/>prius. Est enim considerandum, quod simillimum 
+      <lb ed="#L" n="13"/>est de Diuina essentia cum generatione actiua, 
+      <lb ed="#L" n="14"/>&amp; passiua, &amp; de intellectione cum apparitione 
+      <lb ed="#L" n="15"/>actiua, &amp; re in esse apparenti posita cum 
+      appari<lb ed="#L" break="no" n="16"/>tione passiua, sicut enim impossibile est intelligi 
+      <lb ed="#L" n="17"/>Diuinam essentiam sine generare, sic 
+      impossibi<lb ed="#L" break="no" n="18"/>le concipi intelligere aliquod sine apparitione 
+      <lb ed="#L" n="19"/>actiua, quae res faciat apparere. si enim res non 
+      <lb ed="#L" n="20"/>facit apparere, iam non facit aliquid intueri, nec 
+      <lb ed="#L" n="21"/>intelligere. sicut ergo intellectio est actiua appa 
+      <lb ed="#L" n="22"/>ritio, &amp; non solum quia tunc esset purus 
+      respe<lb ed="#L" break="no" n="23"/>ctus, nec tamen illud, quod est in intellectione 
+      <lb ed="#L" n="24"/>vltra actiuam apparitionem potest praecise 
+      con<lb ed="#L" break="no" n="25"/>cipi sine actiua apparitione. iam enim non 
+      con<lb ed="#L" break="no" n="26"/>ciperetur, vt intellectio, &amp; esset intellectio ens 
+      <lb ed="#L" n="27"/>per accidens compositum ex illo absoluto, &amp; 
+      re<lb ed="#L" break="no" n="28"/>spectu actiuitatis, nec absolutum illud ex se res 
+      <lb ed="#L" n="29"/>faceret apparere, cuius oppositum probatum 
+      <lb ed="#L" n="30"/>est supra. sicut inquantum se habet absolutum 
+      <lb ed="#L" n="31"/>intellectionis ad formare actiue, siue res facere 
+      <lb ed="#L" n="32"/>apparere, sic se habet esse in Diuinis ad 
+      genera<lb ed="#L" break="no" n="33"/>re, quod concipi non potest sine ipso, nec 
+      econ<lb ed="#L" break="no" n="34"/>uerso; vnde sunt vnum vnitate omnimodae 
+      indi<lb ed="#L" break="no" n="35"/>stinctionis: similiter etiam apparitio pasfiua, 
+      <lb ed="#L" n="36"/>per quam rosa capit esse simpliciter concipi non 
+      <lb ed="#L" n="37"/>potest absque rosa simpliciter, nec econuerso; 
+      <lb ed="#L" n="38"/>vnde conceptus rosae, licet non sit purum 
+      conci<lb ed="#L" break="no" n="39"/>pi, immo cum hoc est rosa, resolui tamen non 
+      <lb ed="#L" n="40"/>potest in realitatem rosae, &amp; ipsum concipi, 
+      tam<lb ed="#L" break="no" n="41"/>quam in duo, immo conceptum rosae obiicitur, 
+      <lb ed="#L" n="42"/>tamquam quid simplicissimum, &amp; impossibile 
+      <lb ed="#L" n="43"/>separari in duo, &amp; eodem modo verbum in 
+      Di<lb ed="#L" break="no" n="44"/>uinis, quod includit concipi, seu generari 
+      passi<lb ed="#L" break="no" n="45"/>ue, &amp; cum hoc Diuina essentia resolui non potest 
+      <lb ed="#L" n="46"/>per aliquem intellectum in generare, &amp; essentiam, 
+      <lb ed="#L" n="47"/>immo est aliquid simplicissimum propter vnitatem 
+      <lb ed="#L" n="48"/>indistinctionis omnimodae, quae tanta est 
+      reali<lb ed="#L" break="no" n="49"/>ter in conceptu Diuino, quanta est 
+      intentio<lb ed="#L" break="no" n="50"/>naliter in conceptu rosae, ab intellectu nostro 
+      <lb ed="#L" n="51"/>formato. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2075">
+                  <lb ed="#L" n="52"/>Nec procedunt instantiae. Prima enim falsum 
+      <lb ed="#L" n="53"/>assumit, videlicet, quod omne absolutum possit 
+      <lb ed="#L" n="54"/>intelligi circumscripto respectu: patitur enim 
+      <lb ed="#L" n="55"/>euidentem instantiam in conceptu rosae, quia 
+      <lb ed="#L" n="56"/>realitas rosae simpliciter concipi non potest 
+      abs<lb ed="#L" break="no" n="57"/>que esse apparenti; quia si excludatur esse 
+      appa<lb ed="#L" break="no" n="58"/>rens, &amp; concipiatur rosae realitas, aut illa 
+      rea<lb ed="#L" break="no" n="59"/>litas concipitur, vt plures, &amp; tunc non 
+      concipi<lb ed="#L" break="no" n="60"/>tur rosa simpliciter, nec realitas simpliciter, sed 
+      <lb ed="#L" n="61"/>indiuisibilis. si vero concipitur, vt vna, 
+      concipi<lb ed="#L" break="no" n="62"/>tur, vt apparens, quod non habet veritatem, 
+      ni<lb ed="#L" break="no" n="63"/>si in esse apparenti: similiter etiam actus 
+      intelle<lb ed="#L" break="no" n="64"/>ctus concipi non potest, nisi vt faciens res 
+      obiecti<lb ed="#L" break="no" n="65"/>ue apparere, &amp; ita est in Diuinis, quod essentia 
+      <lb ed="#L" n="66"/>absoluta concipi non potest absque 
+      proprieta<lb ed="#L" break="no" n="67"/>tibus, vnde patitur instantiam illa propositio in 
+      <!--0322.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>verbo, &amp; par ente Dinino, &amp; par ente creato, 
+      si<lb ed="#L" break="no" n="69"/>cut experientia docet. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2121">
+                  <lb ed="#L" n="70"/>Et si dicatur, quod Auicenna dicit 5. Metaph. 
+      <lb ed="#L" n="71"/>quidditatem posse concipi absque hoc, quod 
+      <lb ed="#L" n="72"/>concipiatur in anima, vel extra animam, &amp; ita 
+      <lb ed="#L" n="73"/>videtur, quod rosa concipiatur absque esse appa 
+      <lb ed="#L" n="74"/>renti, quod habet in anima, non valet quidem. 
+      <lb ed="#L" n="75"/>aliud est enim apparentiam claudi in aliquo 
+      con<lb ed="#L" break="no" n="76"/>ceptu, aliud concipi sub ratione apparentis 
+      ro<lb ed="#L" break="no" n="77"/>sa ergo simpliciter, siue equinitas, siue 
+      humani<lb ed="#L" break="no" n="78"/>tas, siue quaecumque quidditas, prout 
+      abstra<lb ed="#L" break="no" n="79"/>hit ab esse in anima, &amp; ab esse extra, &amp; inquantum 
+      <lb ed="#L" n="80"/>abstracte ita concipitur de necessitate, claudit 
+      <lb ed="#L" n="81"/>in se concipi: concipi autem idem est, quod 
+      ob<lb ed="#L" break="no" n="82"/>iectiue apparere. claudit ergo apparere, non 
+      <lb ed="#L" n="83"/>tamen concipitur propter hoc, vt apparens. 
+      a<lb ed="#L" break="no" n="84"/>liud est enim concipi, &amp; aliud sub ratione 
+      con<lb ed="#L" break="no" n="85"/>ceptus concipi. in primo enim concipi 
+      elaudi<lb ed="#L" break="no" n="86"/>tur per modum partis, &amp; dantia tei, quod 
+      con<lb ed="#L" break="no" n="87"/>cipiatur formaliter. in se cundo vero clauditur, 
+      <lb ed="#L" n="88"/>tamquam illud, super quod tranfit conceptio; 
+      <lb ed="#L" n="89"/>sed de hoc magis inferius apparebit.
+    </p>
+               <p xml:id="ol96b1-102919-d1e2168">
+                  <lb ed="#L" n="90"/>Secunda etiam instantia non procedit, quia 
+      <lb ed="#L" n="91"/>nullo modo conceditur, quod respectus ponat 
+      <lb ed="#L" n="92"/>res in esse apparenti, immo absolutum 
+      intellectio<lb ed="#L" break="no" n="93"/>nis ponit actiue in esse apparenti:ista autem 
+      po<lb ed="#L" break="no" n="94"/>sitio non est respectus, sed metaphyfica actis, 
+      si<lb ed="#L" break="no" n="95"/>ne qua absolutum iutellectionis concipituip⸗ 
+      <lb ed="#L" n="96"/>test: debetur euim ili absoluto, inquanim 
+      <lb ed="#L" n="97"/>le, quod ponat res in esse obiectali. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2188">
+                  <lb ed="#L" n="98"/>Tertia quoque deficit, quia res in esseuppares 
+      <lb ed="#L" n="99"/>ti, nihil est in se, nisi diminute, &amp; 
+      metaphoti<lb ed="#L" break="no" n="100"/>ce, eo modo, quo entia rationis esse dicuntur, 
+      <lb ed="#L" n="101"/>&amp; ea, quae non sunt simpliciter, sunt in anima, vt 
+      <lb ed="#L" n="102"/>Commentator dicit 9. Metaph. ait enim, quod 
+      <lb ed="#L" n="103"/>entia, quae non sunt extra animam, non dicuntur 
+      <lb ed="#L" n="104"/>esse simpliciter, sed dicuntur esse in anima 
+      cogi<lb ed="#L" break="no" n="105"/>tatiua. &amp; 7. Metaph. dicit Philos. quod 
+      negatio<lb ed="#L" break="no" n="106"/>nes dicuntur entia modo logico. &amp; similiter 11. 
+      <lb ed="#L" n="107"/>Metaph. sic ergo res in esse apparenti est tantum 
+      <lb ed="#L" n="108"/>metaphorice, sicut actio, quae formaliter est me 
+      <lb ed="#L" n="109"/>taphorica, nec hoc est phantasia, uisi 
+      Augusti<lb ed="#L" break="no" n="110"/>nus reputetur phantasticus, qui dicit, quod tar 
+      <lb ed="#L" n="111"/>ta vis est cogitationis, quod per eam anima 
+      se<lb ed="#L" break="no" n="112"/>ipsam ante se conspicuam constituit, &amp; non fit 
+      <lb ed="#L" n="113"/>phantasticus Commentator, qui dicit, quod si for 
+      <lb ed="#L" n="114"/>mare per intellectum sit aeternum, formatum erit 
+      <lb ed="#L" n="115"/>aeternum, &amp; nisi phantasticus sit Philosophus, 
+      <lb ed="#L" n="116"/>qui isto vocabulo vtitur in 3. de an. secundum an 
+      <lb ed="#L" n="117"/>tiquam translationem, dicens: Formare autem 
+      <lb ed="#L" n="118"/>per intelligentiam res indiuisibiles erit in rebus, 
+      <lb ed="#L" n="119"/>in quibus non est falsitas, vbi dicit 
+      Commenta<lb ed="#L" break="no" n="120"/>tor, quod duplex est actio intellectus, vna, quae 
+      <lb ed="#L" n="121"/>dicitur formatio, &amp; alia, quae appellatur fides, &amp; 
+      <lb ed="#L" n="122"/>nisi etiam phantasticus sit Anselm. qui ait, quod 
+      <lb ed="#L" n="123"/>qui facturus aliquid, prius illud intra se dicie mem 
+      <lb ed="#L" n="124"/>tis conceptione: illa autem similitudo, quae in 
+      <lb ed="#L" n="125"/>in acie mentis rem ipsam cogitantis exprimit, 
+      <lb ed="#L" n="126"/>illud est principale verbum rei; vnde dicendum, 
+      <lb ed="#L" n="127"/>quod cum phantasia dicatur apparitio, 
+      etiam<lb ed="#L" break="no" n="128"/>vocabulum phantasiae demonstrat, quod res 
+      ca<lb ed="#L" break="no" n="129"/>piunt esse apparens per comprehensiones. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2260">
+                  <lb ed="#L" n="130"/>Quarta deinde instantia non obsistit. effectio 
+      <lb ed="#L" n="131"/>enim formalis non differt realiter a forma nnno 
+      <lb ed="#L" n="132"/>autem rosa in esse apparenti posita differt abactu 
+      <lb ed="#L" n="133"/>intellectus, cum de illa scientia fin, &amp; illa 
+      praedi<lb ed="#L" break="no" n="134"/>cetur de particularibus rosis, &amp; ipsa omiiciarur 
+      <!--0323.xml-->
+      <pb ed="#L" n="323"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>actui intellectus. est ergo esse apparens ab intel 
+      <lb ed="#L" n="2"/>lectione, tamquam a memoria producente, 
+      <lb ed="#L" n="3"/>non vt effectus formalis.
+    </p>
+               <p xml:id="ol96b1-102919-d1e2286">
+                  <lb ed="#L" n="4"/>Sub qua habitudine actus intellectus appelletur 
+      <lb ed="#L" n="5"/>conceptio, &amp; sub qua dictio, seu locutio, &amp; 
+      <lb ed="#L" n="6"/>sub qua intellectio. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2295">
+                  <lb ed="#L" n="7"/>QVARTA demum propositio, quod actus 
+      <lb ed="#L" n="8"/>intellectus appellatur conceptio, 
+      inquan<lb ed="#L" break="no" n="9"/>tum aspicit rem formatam sub habitudine 
+      pro<lb ed="#L" break="no" n="10"/>ducentis, &amp; sub habitudine eius, cui producitur 
+      <lb ed="#L" n="11"/>in esse apparenti. concipere enim est producere 
+      <lb ed="#L" n="12"/>lintra se; &amp; ideo mas non concipit, sed femella, 
+      <lb ed="#L" n="13"/>quia per actum intellectus res producitur in 
+      es<lb ed="#L" break="no" n="14"/>se apparenti intra ipsum intelligentem, merito 
+      <lb ed="#L" n="15"/>totum hoc appellatur conceptio, &amp; res, sic 
+      po<lb ed="#L" break="no" n="16"/>sita, appellatur conceptus, &amp; proles, &amp; 
+      par<lb ed="#L" break="no" n="17"/>tus, actus autem intellectus, inquantum aspicit 
+      <lb ed="#L" n="18"/>in ratione producentis rem huiusmodi apparen 
+      <lb ed="#L" n="19"/>tem, intantum appellatur formatio, vel 
+      expres<lb ed="#L" break="no" n="20"/>sio, vel generatio, vel dictio, vel locutio. actus ve 
+      <lb ed="#L" n="21"/>ro intellectus, inquantum est illud, cui res illa 
+      <lb ed="#L" n="22"/>formatur, &amp; cui producitur in esse apparenti, 
+      <lb ed="#L" n="23"/>&amp; relucenti, intantum dicitur intellectio, vel in 
+      <lb ed="#L" n="24"/>tuitio, vel visio, quod apparet ex nominum 
+      in<lb ed="#L" break="no" n="25"/>terpretatione. dicitur enim intellectio, quod in 
+      <lb ed="#L" n="26"/>tus lectio, vel collectio pro eo, quod obiectum 
+      <lb ed="#L" n="27"/>formatum colligitur infra intellectionem. 
+      Di<lb ed="#L" break="no" n="28"/>citur intuitio, quasi intus itio, &amp; visio, quasi 
+      va<lb ed="#L" break="no" n="29"/>datio pro eo, quod mens intus itur, &amp; vaditur 
+      <lb ed="#L" n="30"/>ab obiecto, vt ita liceat loqui. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2350">
+                  <lb ed="#L" n="31"/>Est autem considerandum, quod impossibile 
+      <lb ed="#L" n="32"/>est in nobis esse aliquem actum intellectus sine 
+      <lb ed="#L" n="33"/>ista duplici habitudine, vnde omnis creata 
+      in<lb ed="#L" break="no" n="34"/>tellectio est conceptio, locutio, &amp; intuitio, pro 
+      <lb ed="#L" n="35"/>eo, quod idem absolutum habet necessario habi 
+      <lb ed="#L" n="36"/>tudines ambas: si autem sic esset, quod res 
+      ema<lb ed="#L" break="no" n="37"/>nans in esse apparenti caperet esse tale secundum 
+      <lb ed="#L" n="38"/>rem, &amp; non solum diminute, &amp; metaphorice, tuc 
+      <lb ed="#L" n="39"/>habitudo formantis esset realis, vnde etiam for 
+      <lb ed="#L" n="40"/>mare esset reale, &amp; formari similiter, semper 
+      <lb ed="#L" n="41"/>tamen habitudo, vt cui fit formatio esset 
+      secun<lb ed="#L" break="no" n="42"/>dum rationem, propter quod primam habitudi 
+      <lb ed="#L" n="43"/>nem formantis non potest habere res apparens 
+      <lb ed="#L" n="44"/>ad seipsam, alias idem esset producens, &amp; 
+      pro<lb ed="#L" break="no" n="45"/>ductum realiter, quod esse non potest, secundam 
+      <lb ed="#L" n="46"/>vero habitudinem rationis idem potest habere 
+      <lb ed="#L" n="47"/>ad seipsum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2390">
+                  <lb ed="#L" n="48"/>Ad propositum vtique in Diuinis, cum 
+      essen<lb ed="#L" break="no" n="49"/>tia Deitatis sit quoddam intelligere eminentius 
+      <lb ed="#L" n="50"/>omnis rei, ipsa quidem ponit in esse apparenti 
+      <lb ed="#L" n="51"/>semetipsam, &amp; omnem rem, nec intelligi potest 
+      <lb ed="#L" n="52"/>sine ista actiuitate, qua ponit omnis res in esse 
+      <lb ed="#L" n="53"/>conspicuo, &amp; quoniam ista positio est realis, ne 
+      <lb ed="#L" n="54"/>conceptus eius esse habeat diminutum, 
+      conse<lb ed="#L" break="no" n="55"/>quens est, vt ipsa, &amp; omnis res posita in esse 
+      for<lb ed="#L" break="no" n="56"/>mato habeat esse reale, &amp; hoc est verbum in 
+      Di<lb ed="#L" break="no" n="57"/>uinis, quia cum res ponit seipsam in esse 
+      forma<lb ed="#L" break="no" n="58"/>to, non distinguitur, nisi penes formare, &amp; 
+      for<lb ed="#L" break="no" n="59"/>mari, producere, &amp; produci; vnde necesse est, 
+      <lb ed="#L" n="60"/>quod Deitas posita in esse formato sit eadem 
+      <lb ed="#L" n="61"/>cum Deitate, cui coniungitur formare, &amp; per 
+      <lb ed="#L" n="62"/>consequens, quod sit idem Deus, quamuis sit 
+      rea<lb ed="#L" break="no" n="63"/>lis distinctio infra ipsum, &amp; quia actus 
+      intelle<lb ed="#L" break="no" n="64"/>ctus, prout erat formatiuus appellabatur 
+      dice<lb ed="#L" break="no" n="65"/>re, siue loqui, ideo solus Pater dicit, &amp; loquitur, 
+      <!--0323.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>ac profert verbum in Diuinis, nec 
+      communica<lb ed="#L" break="no" n="67"/>tur Filio actus intellectus, prout virtute eius ca 
+      <lb ed="#L" n="68"/>pit res, quod sit apparens, actus tamen 
+      intelle<lb ed="#L" break="no" n="69"/>ctus, prout sibi res apparet, &amp; est illud, cui fit 
+      di<lb ed="#L" break="no" n="70"/>ctio, vel locutio communicatur Filio, &amp; Spiritui 
+      <lb ed="#L" n="71"/>Sancto: hoc autem erat formalis intellectio, &amp; 
+      <lb ed="#L" n="72"/>intuitio, propter quod quilibet trium 
+      formali<lb ed="#L" break="no" n="73"/>ter intelligit, &amp; intuetur; vnde Pater verbum 
+      <lb ed="#L" n="74"/>concipit intra se, &amp; quia concipit, ideo 
+      gene<lb ed="#L" break="no" n="75"/>rat, loquitur, &amp; dicit, sed quia intra se 
+      obiecti<lb ed="#L" break="no" n="76"/>ue, ideo dicitur intelligere, quasi intra se 
+      lege<lb ed="#L" break="no" n="77"/>re, colligere, &amp; intueri, communicat autem Fi 
+      <lb ed="#L" n="78"/>lio omnia praeter generare, &amp; producere ipsum 
+      <lb ed="#L" n="79"/>Filium, quia hoc communicare non potest: 
+      con<lb ed="#L" break="no" n="80"/>tradictio quidem est, quod idem producat se. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2468">
+                  <lb ed="#L" n="81"/>Restat ergo, quod Filio communicet actum 
+      in<lb ed="#L" break="no" n="82"/>tellectus, prout est illud, cui lucet res formata, 
+      <lb ed="#L" n="83"/>&amp; cui apparet; &amp; quod recipit rem sic positam 
+      <lb ed="#L" n="84"/>obiectiue, &amp; ita communicat sibi suum 
+      intelli<lb ed="#L" break="no" n="85"/>gere, &amp; suum intueri, vt secundum hoc solus Pa 
+      <lb ed="#L" n="86"/>ter dicat verbum sibi, &amp; omnibus tribus. 
+      ipse<lb ed="#L" break="no" n="87"/>enim, &amp; omnes tres simul capiant obiectiue-&amp; 
+      <lb ed="#L" n="88"/>sit vnicum intelligere in omnibus tribus. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2488">
+                  <lb ed="#L" n="89"/>Ex praemissis ergo colligitur, quid sit dicere, 
+      <lb ed="#L" n="90"/>&amp; intelligere in nobis, &amp; quid etiam in Diuinis: 
+      <lb ed="#L" n="91"/>in nobis quidem dictio communicat 
+      intellecti<lb ed="#L" break="no" n="92"/>uam potentiam, informatam reali similitudine 
+      <lb ed="#L" n="93"/>obiecti, inquantum per eam capit res cognita 
+      <lb ed="#L" n="94"/>esse formatum, &amp; apparens, vnde illa actiua for 
+      <lb ed="#L" n="95"/>matio, dictio, seu locutio appellatur. Intellectio 
+      <lb ed="#L" n="96"/>vero nominat eandem potentiam cum eadem 
+      si<lb ed="#L" break="no" n="97"/>militudine, prout est illud, cui obiicitur, seu 
+      for<lb ed="#L" break="no" n="98"/>matur, &amp; ponitur, vt luceat, &amp; appareat, vnde 
+      <lb ed="#L" n="99"/>patet, qomodo intelligendo mens loquitur 
+      sibi<lb ed="#L" break="no" n="100"/>ipsi. exprimit enim sibi rem, quam format. in Di 
+      <lb ed="#L" n="101"/>uinis autem consimiliter dicere nominat 
+      forma<lb ed="#L" break="no" n="102"/>tionem actiuam, qua Deus ponit se in esse 
+      con<lb ed="#L" break="no" n="103"/>spicuo, &amp; formato. intelligere vero nominat 
+      ip<lb ed="#L" break="no" n="104"/>sam Deitatem, inquantum est illud, cui fit ista 
+      <lb ed="#L" n="105"/>relucentia, &amp; formatio. &amp; in hoc primus 
+      Arti<lb ed="#L" break="no" n="106"/>culus terminatur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-102919-Dd1e2531">
+               <head xml:id="ol96b1-102919-Hd1e2533">Articulus 2</head>
+               <p xml:id="ol96b1-102919-d1e2535">
+                  <lb ed="#L" n="107"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2540">
+                  <lb ed="#L" n="108"/>Quomodo se habet dicere ad generationem 
+      acti<lb ed="#L" break="no" n="109"/>uam, opinio communis.
+    </p>
+               <p xml:id="ol96b1-102919-d1e2547">
+                  <lb ed="#L" n="110"/>CIRCA secundum autem considerandum, 
+      <lb ed="#L" n="111"/>quod aliqui dicere voluerunt, quod ratio 
+      <lb ed="#L" n="112"/>generationis transfertur ad Diuina, ex 
+      genera<lb ed="#L" break="no" n="113"/>tione reperta in creaturis, exclusa tamen omni 
+      <lb ed="#L" n="114"/>imperfectione. Inuenitur autem generatio 
+      ap<lb ed="#L" break="no" n="115"/>pellari in creaturis via in substantiam, vnde 
+      <lb ed="#L" n="116"/>ignis dicitur generari ab igne, dicitur autem haec 
+      <lb ed="#L" n="117"/>via generatio ad differentias motuum, &amp; 
+      acqui<lb ed="#L" break="no" n="118"/>sitionum, quae non sunt ad substantiam, sed ad 
+      <lb ed="#L" n="119"/>alia praedicamenta, vt sunt alteratio, &amp; 
+      augmen<lb ed="#L" break="no" n="120"/>tum, &amp; circulatio, &amp; similia. In speciali autem 
+      <lb ed="#L" n="121"/>via in substantiam viuam generatio appellatur, vnde 
+      <lb ed="#L" n="122"/>magis proprie dicitur generatio in viuentibus. 
+      <lb ed="#L" n="123"/>Inuenitur autem adhuc specialius, &amp; maxime 
+      <lb ed="#L" n="124"/>proprie generatio in intellectualibus, vt inter 
+      <lb ed="#L" n="125"/>homines, vbi seruatur habitudo paternitatis, &amp; 
+      <lb ed="#L" n="126"/>filiationis perpetuo. In viuentibus autem, 
+      quam<lb ed="#L" break="no" n="127"/>diu durat indigentia nutrimenti. In non 
+      viuen<lb ed="#L" break="no" n="128"/>tibus autem non inuenitur paternitas, &amp; 
+      filia<lb ed="#L" break="no" n="129"/>tio, vt secundum hoc generatio proprie sumpta 
+      <lb ed="#L" n="130"/>sit via in substantiam viuam, &amp; intellectualem.
+    </p>
+               <p xml:id="ol96b1-102919-d1e2595">
+      <!--0324.xml-->
+                  <pb ed="#L" n="324"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Est autem considerandum, quod istam viam 
+      <lb ed="#L" n="2"/>duplex imperfectio comitatur, prima scilicet, 
+      <lb ed="#L" n="3"/>quia non producitur genitum de tota 
+      substan<lb ed="#L" break="no" n="4"/>tia, sed de parte; secunda vero, quia 
+      gene<lb ed="#L" break="no" n="5"/>rans praecedit genitum duratione, &amp; tempore. 
+      <lb ed="#L" n="6"/>amotis ergo imperfectionibus istis, generatio 
+      <lb ed="#L" n="7"/>reperitur in Deo, in quo est via in Filium, qui est 
+      <lb ed="#L" n="8"/>substantia viua, &amp; intellectualis. sic ergo patet 
+      <lb ed="#L" n="9"/>quid sit generatio in Diuinis secundum istum mo 
+      <lb ed="#L" n="10"/>dum dicendi: quod siquidem stare non potest. 
+      <lb ed="#L" n="11"/>constat enim, quod eadem est proprietas verbi, 
+      <lb ed="#L" n="12"/>&amp; Filij in Diuinis. Dicit enim Aug. quod Filius 
+      <lb ed="#L" n="13"/>in Diuinis eo verbum, quo Filius, &amp; Filius, quo 
+      <lb ed="#L" n="14"/>verbum, sed si ratio generationis, prout est in di 
+      <lb ed="#L" n="15"/>uinis, esset via in substantiam viuentem 
+      intelle<lb ed="#L" break="no" n="16"/>ctualem, non esset eadem proprietas verbi, &amp; Fi 
+      <lb ed="#L" n="17"/>lij: tum quia generatio verbi in nobis non 
+      sem<lb ed="#L" break="no" n="18"/>per terminatur ad substantiam, cum aliquando 
+      <lb ed="#L" n="19"/>formetur verbum de accidentalibus, sed nec in 
+      <lb ed="#L" n="20"/>substantiam viuam, cum formemus verba de non 
+      <lb ed="#L" n="21"/>viuentibus, &amp; similiter nec ad substantiam intel 
+      <lb ed="#L" n="22"/>lectualem: quia verba, &amp; conceptus saepe forman 
+      <lb ed="#L" n="23"/>tur de irrationalibus, tum etiam, quia Filius ge 
+      <lb ed="#L" n="24"/>nitus per talem modum generationis non appel 
+      <lb ed="#L" n="25"/>latur verbum. non enim hominum Filij 
+      appellan<lb ed="#L" break="no" n="26"/>tur verba. ergo generatio in Diuinis non 
+      dici<lb ed="#L" break="no" n="27"/>tur secundum istam rationem. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2664">
+                  <lb ed="#L" n="28"/>Praeterea: Cui competit definitio, &amp; definitum, 
+      <lb ed="#L" n="29"/>sed aeque spiratio in Diuinis terminatur ad 
+      sub<lb ed="#L" break="no" n="30"/>stantiam viuam, &amp; intellectualem, sicut 
+      produ<lb ed="#L" break="no" n="31"/>ctio Filij, quia Spiritus sanctus est 
+      intellectua<lb ed="#L" break="no" n="32"/>liter viuens substantia. ergo si haec esset ratio ge 
+      <lb ed="#L" n="33"/>ne ce ciuuie in Pecs spiritus sanctus aeque geni- 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2680">
+                  <lb ed="#L" n="34"/>Praeterea: Generatio, quae est via in 
+      substan<lb ed="#L" break="no" n="35"/>tiam attingit eam per modum formalis 
+      termi<lb ed="#L" break="no" n="36"/>ni; sed probatum est supra, quod Diuina 
+      essen<lb ed="#L" break="no" n="37"/>tia non est formalis terminus. ergo illud, quod 
+      <lb ed="#L" n="38"/>prius. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2693">
+                  <lb ed="#L" n="39"/>Praeterea: Generatio, quae est via in 
+      substan<lb ed="#L" break="no" n="40"/>tiam intellectualem viuentem, sic attingit 
+      sub<lb ed="#L" break="no" n="41"/>stantiam, vt per eam capiat substantia, quod 
+      <lb ed="#L" n="42"/>sit res, sed probatum est supra, quod per 
+      gene<lb ed="#L" break="no" n="43"/>rationem Deitas non capit, quod sit, non est 
+      er<lb ed="#L" break="no" n="44"/>go in Deo generatio secundum hanc rationem.
+    </p>
+               <p xml:id="ol96b1-102919-d1e2709">
+                  <lb ed="#L" n="45"/>Quid sit generationis ratio, &amp; quomodo se 
+      ha<lb ed="#L" break="no" n="46"/>bet dicere ad generare in Diuinis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2716">
+                  <lb ed="#L" n="47"/>PRopterea dicendum, quod generatio 
+      acci<lb ed="#L" break="no" n="48"/>pi potest tripliciter. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2723">
+                  <lb ed="#L" n="49"/>Primo quidem pro omni productione ad 
+      sub<lb ed="#L" break="no" n="50"/>stantiam terminatam, &amp; huiusmodi diuiditur 
+      <lb ed="#L" n="51"/>in aequiuocam, &amp; vniuocam. aequiuoce enim 
+      <lb ed="#L" n="52"/>Sol producit ignem, quem tamen alius ignis 
+      ge<lb ed="#L" break="no" n="53"/>nerat vniuoce. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2737">
+                  <lb ed="#L" n="54"/>Secundo vero sumitur pro illa productione 
+      <lb ed="#L" n="55"/>substantiae, quae fit ex decisione, &amp; 
+      propagatio<lb ed="#L" break="no" n="56"/>ne, &amp; hoc competit animalibus, &amp; 
+      vegetabili<lb ed="#L" break="no" n="57"/>bus, &amp; in ista etiam cadit aequiuocatio, &amp; vniuo 
+      <lb ed="#L" n="58"/>catio. equus enim generat mulum aequiuoce, &amp; 
+      <lb ed="#L" n="59"/>equum vniuoce, &amp; talis est generatio reperta in 
+      <lb ed="#L" n="60"/>hominibus, secundum quam fit communicatio 
+      <lb ed="#L" n="61"/>specificae naturae. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2757">
+                  <lb ed="#L" n="62"/>Tertio vero sumitur generatio pro illa 
+      pro<lb ed="#L" break="no" n="63"/>ductione, qua producitur imago, siue 
+      similitu<lb ed="#L" break="no" n="64"/>do, vel species, vel splendor. gignit enim Sol splen 
+      <!--0324.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>dorem, &amp; obiectum, speciem, ac imaginem, &amp; 
+      <lb ed="#L" n="66"/>hoc modo intellectus actuatus similitudinibus 
+      <lb ed="#L" n="67"/>rerum, dicitur res gignere, &amp; formare, &amp; quasi 
+      <lb ed="#L" n="68"/>parere, &amp; concipere intra se. Primis inquam 
+      <lb ed="#L" n="69"/>duobus modis non est generatio in Diuinis, quia 
+      <lb ed="#L" n="70"/>nec productio terminatur ad substantiam, quia 
+      <lb ed="#L" n="71"/>non capit esse per eam, nec propagationem, aut 
+      <lb ed="#L" n="72"/>discissionem substantiae aliquis sibi producit, 
+      <lb ed="#L" n="73"/>sed tertio modo est ibi ratio generationis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2790">
+                  <lb ed="#L" n="74"/>Posset autem generatio hoc modo sumpta defini 
+      <lb ed="#L" n="75"/>ri, quod est via in intellectualem imaginem, speciem, 
+      <lb ed="#L" n="76"/>seu conceptum. ex quo enim conceptus mentis est 
+      <lb ed="#L" n="77"/>quasi proles, intellectus enim res gignit, &amp; 
+      for<lb ed="#L" break="no" n="78"/>mat, ac fabricat inesse intellectuali, non mirum 
+      <lb ed="#L" n="79"/>si via in talem prolem generatio appellatur, 
+      vn<lb ed="#L" break="no" n="80"/>de esse formatum est esse prolem, &amp; partum 
+      men<lb ed="#L" break="no" n="81"/>talium, propter quod formare, &amp; formatum 
+      es<lb ed="#L" break="no" n="82"/>se est generatio vera. cum ergo in Diuinis per 
+      <lb ed="#L" n="83"/>actum intellectus ponatur Deitas, &amp; omnis res 
+      <lb ed="#L" n="84"/>in esse formato: Deus autem sic positus est vere 
+      <lb ed="#L" n="85"/>conceptus, proles, &amp; partus mentis paternae, 
+      <lb ed="#L" n="86"/>dicendum est, quod est ibi verissima generatio, 
+      <lb ed="#L" n="87"/>secundum propriissimam rationem, immo 
+      ve<lb ed="#L" break="no" n="88"/>rius, &amp; perfectius, quam in quacumque 
+      crea<lb ed="#L" break="no" n="89"/>tura, sicut testatur Damascenus libro primo di 
+      <lb ed="#L" n="90"/>cens, quod non ex nobis translatum est ad 
+      ve<lb ed="#L" break="no" n="91"/>ram Deitatem paternitatis, &amp; filiationis, &amp; 
+      <lb ed="#L" n="92"/>processionis nomen, sed in contrarium inde 
+      no<lb ed="#L" break="no" n="93"/>bis traditum est, vt ait Apostolus: Propterea 
+      fle<lb ed="#L" break="no" n="94"/>cto genua mea ad Patrem Domini nostri Iesu Christi, ex 
+      <lb ed="#L" n="95"/>quo omnis paternitas in caelo, &amp; in terra. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2840">
+                  <lb ed="#L" n="96"/>Sed forte dicetur, quod generatio intellectua 
+      <lb ed="#L" n="97"/>lis imaginis, sumit rationem generationis ex 
+      <lb ed="#L" n="98"/>secundo modo, qui est sibi simile producere 
+      se<lb ed="#L" break="no" n="99"/>cundum naturam rationis, dicitur generatio 
+      <lb ed="#L" n="100"/>productio rei in esse concepto. illa enim dicitur 
+      <lb ed="#L" n="101"/>generatio pro eo, quod ad substantiam termina 
+      <lb ed="#L" n="102"/>tur: haec autem non, cum possit terminari ad 
+      ac<lb ed="#L" break="no" n="103"/>cidens, immo cum non terminetur ad substantiam, 
+      <lb ed="#L" n="104"/>numquam, sed semper ad apparentiam rei; esse 
+      <lb ed="#L" n="105"/>autem apparens est quoddam concipi, &amp; 
+      quod<lb ed="#L" break="no" n="106"/>dam generari pro eo, quod est similitudo summa, 
+      <lb ed="#L" n="107"/>&amp; imago eius, a quo generatur, &amp; quia similius 
+      <lb ed="#L" n="108"/>est conceptus gignenti, quam quicumque filius 
+      <lb ed="#L" n="109"/>realis productus per primam generationem, vel 
+      <lb ed="#L" n="110"/>secundam, propter hoc si dicantur per prius, &amp; 
+      <lb ed="#L" n="111"/>posterius, per prius dicetur generatio de produ 
+      <lb ed="#L" n="112"/>ctione intellectualis imaginis, &amp; partus 
+      menta<lb ed="#L" break="no" n="113"/>lis. Inter omnes autem mentales generationes, 
+      <lb ed="#L" n="114"/>per prius dicetur de Diuina, vt prius dictum est 
+      <lb ed="#L" n="115"/>secundum Damasce. sic patet, quomodo eadem 
+      <lb ed="#L" n="116"/>est proprietas verbi, &amp; filij, &amp; quomodo 
+      gene<lb ed="#L" break="no" n="117"/>rari idem est, quod dici, &amp; generare idem quod
+      <!-- missing line break -->dicere in Deo. Et hic Art. 2 finitur.
+    </p>
+            </div>
+            <div xml:id="ol96b1-102919-Dd1e2893">
+               <head xml:id="ol96b1-102919-Hd1e2895">Articulus 3</head>
+               <p xml:id="ol96b1-102919-d1e2897">
+                  <lb ed="#L" n="118"/>ARTJCVLVS TERTJVS. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2902">
+                  <lb ed="#L" n="119"/>Vbi ostenditur, quod passiua generatio non 
+      re<lb ed="#L" break="no" n="120"/>pugnet vero Deo. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2909">
+                  <lb ed="#L" n="121"/>CIRCA tertium vero considerandum, quod 
+      <lb ed="#L" n="122"/>sex sunt difficultatem facientia, si ponatur 
+      <lb ed="#L" n="123"/>verus Deus fuisse genitus proprie. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2918">
+                  <lb ed="#L" n="124"/>Primum quidem, quia passiua generatio vide 
+      <lb ed="#L" n="125"/>tur ponere quandam indignitatem. passio enim 
+      <lb ed="#L" n="126"/>indignitatem quandam sonat. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2928">
+                  <lb ed="#L" n="127"/>Secundum vero, quia generatio passiua 
+      vide<lb ed="#L" break="no" n="128"/>tur ponere quandam posterioritatem.
+    </p>
+               <p xml:id="ol96b1-102919-d1e2935">
+      <!--0325.xml-->
+                  <pb ed="#L" n="325"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Tertium vero, quia videtur ponere contingen 
+      <lb ed="#L" n="2"/>tiam, &amp; excludere necessitatem. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2948">
+                  <lb ed="#L" n="3"/>Quartum, quia videtur inducere substantiae di 
+      <lb ed="#L" n="4"/>uersitatem. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2955">
+                  <lb ed="#L" n="5"/>Quintum, quia videtur ponere quandam dependem 
+      <lb ed="#L" n="6"/>tiam geniti, a generante, &amp; quandam infinitatem. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2962">
+                  <lb ed="#L" n="7"/>Sextum, quia videtur aeternitatem excludere, 
+      <lb ed="#L" n="8"/>&amp; nouitatem inducere. ostendendo ergo per or 
+      <lb ed="#L" n="9"/>dinem, quod ex nullo istorum repugnat, quin 
+      ge<lb ed="#L" break="no" n="10"/>nerari possit competere vero Deo. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2973">
+                  <lb ed="#L" n="11"/>Quod non inducat indignitatem. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e2979">
+                  <lb ed="#L" n="12"/>NON repugnat ergo primo ex hoc, quod gene 
+      <lb ed="#L" n="13"/>rari inducat indignitatem, seu 
+      imperfectio<lb ed="#L" break="no" n="14"/>nem. sed huic obuiare videtur, quia 
+      praedicamen<lb ed="#L" break="no" n="15"/>tum passionis, est imperfectius praedicamento 
+      <lb ed="#L" n="16"/>actionis, quod apparet ex 3. Phys. vbi pati 
+      redu<lb ed="#L" break="no" n="17"/>citur ad potentiam, &amp; materiam, agere vero ad 
+      <lb ed="#L" n="18"/>actum, &amp;formam, &amp; similiter 9. Met. sed generari 
+      <lb ed="#L" n="19"/>videtur pertinere ad praedicamentum passionis. 
+      <lb ed="#L" n="20"/>ergo repugnat Deo. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3001">
+                  <lb ed="#L" n="21"/>Praeterea: Secundum Sanctos, &amp; Doctores in Deo 
+      <lb ed="#L" n="22"/>non sunt, nisi duo praedicamenta, s. substantia, &amp; re 
+      <lb ed="#L" n="23"/>latio, sed generari non pertinet ad genus 
+      relatio<lb ed="#L" break="no" n="24"/>nis, cum sit passio. ergo non est in Deo ponenda. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3012">
+                  <lb ed="#L" n="25"/>Praeterea: Reuerentia exhibetur in signum 
+      ex<lb ed="#L" break="no" n="26"/>cellentiae, sed quicumque genitus tenetur ad 
+      reue<lb ed="#L" break="no" n="27"/>rendum patrem. ergo inferioritatem ponit generari in 
+      <lb ed="#L" n="28"/>ordine ad patrem. Ex his motiuis visum fuit aliqui 
+      <lb ed="#L" n="29"/>bus, quod generatio in Diuinis non est passio, sed 
+      <lb ed="#L" n="30"/>respectus de genere relationis: relatio autem non 
+      <lb ed="#L" n="31"/>dicit perfectionem, nec imperfectionem, quamuis 
+      <lb ed="#L" n="32"/>passio imperfectionem importet, vnde Filius non 
+      <lb ed="#L" n="33"/>est imperfectus, quia generatio passio non est, sed 
+      <lb ed="#L" n="34"/>relatio. Sed hoc stare non potest. nullus enim 
+      re<lb ed="#L" break="no" n="35"/>spectus de genere relationis infertur, seu 
+      causa<lb ed="#L" break="no" n="36"/>tur ab opposito respectu: non enim paternitas 
+      <lb ed="#L" n="37"/>causat, aut infert filiationem, alias respectus de 
+      <lb ed="#L" n="38"/>genere relationis esset actiuus, seu actio, &amp; alius 
+      <lb ed="#L" n="39"/>eset passiuus, siue passio, passio enim est effectus, 
+      <lb ed="#L" n="40"/>illatioque actionis secundum Auctorem 6. 
+      principio<lb ed="#L" break="no" n="41"/>rum. sed constat, quod generare in Diuinis infert 
+      <lb ed="#L" n="42"/>generari, &amp; dicere infert dici, &amp; verbum, ac con 
+      <lb ed="#L" n="43"/>cipere concipi, &amp; conceptum. ergo generare, &amp; 
+      <lb ed="#L" n="44"/>generari non sunt respectus de genere relationis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3058">
+                  <lb ed="#L" n="45"/>Praeterea: Simplicius super praedicamenta assi 
+      <lb ed="#L" n="46"/>gnat differentiam inter genus relationis, &amp; 
+      ge<lb ed="#L" break="no" n="47"/>nera actionis, &amp; passionis, dicens, quod ex 
+      rela<lb ed="#L" break="no" n="48"/>tione non prouenit ali quod actum, &amp; ex actione, 
+      <lb ed="#L" n="49"/>&amp; passione prouenit, sed in Diuinis prouenit 
+      ali<lb ed="#L" break="no" n="50"/>quid per modum acti, &amp; producti, scilicet Filius. 
+      <lb ed="#L" n="51"/>ergo generare, &amp; generari non sunt de genere 
+      <lb ed="#L" n="52"/>relationis, sed potius de genere actionis, &amp; pass. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3078">
+                  <lb ed="#L" n="53"/>Praeterea: Generare est vere producere, &amp; ge 
+      <lb ed="#L" n="54"/>nerari est vere produci, alioquin non vere pater 
+      <lb ed="#L" n="55"/>filium produxisset: sed producere, &amp; produci non 
+      <lb ed="#L" n="56"/>sunt de genere relationis, immo relatio 
+      funda<lb ed="#L" break="no" n="57"/>tur super illa, vt patet 5. Met. ergo generare, &amp; 
+      <lb ed="#L" n="58"/>generari non sunt de genere relationis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3094">
+                  <lb ed="#L" n="59"/>Est ergo considerandum, quod passio habet 
+      respe<lb ed="#L" break="no" n="60"/>ctum ad subiectum, quod per eam diciturpati, &amp; ad for 
+      <lb ed="#L" n="61"/>malem terminum, qui per eam capit esse, &amp; habet 
+      ori<lb ed="#L" break="no" n="62"/>ri, &amp; habet aspectum ad totum compositum ex 
+      subie<lb ed="#L" break="no" n="63"/>cto, &amp; ex formali termino, quod habet fieri 
+      dire<lb ed="#L" break="no" n="64"/>cte per eam, &amp; habet aspectum ad constitutum 
+      for<lb ed="#L" break="no" n="65"/>maliter per eam, eo modo, quo generari constituit 
+      <lb ed="#L" n="66"/>genitum, &amp; generare generantem. accipiendo ergo 
+      <!--0325.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>passionem, prout habet aspectum ad subiectum, sic 
+      di<lb ed="#L" break="no" n="68"/>cit imperfectionem. pati enim subiectiue imperfe 
+      <lb ed="#L" n="69"/>ctionis est, &amp; sic non est in Diuinis, cum nec sit ibi es 
+      <lb ed="#L" n="70"/>sentia per modum materiae, nec per modum subiecti, 
+      <lb ed="#L" n="71"/>accipiendo etiam passionem, prout habet aspectum ad 
+      <lb ed="#L" n="72"/>formalem terminum capientem esse, sic etiam non est in 
+      <lb ed="#L" n="73"/>Deo. probatum est enim supra, quod Deitas non est for 
+      <lb ed="#L" n="74"/>malis terminus productionis, sed cōicatur per 
+      <lb ed="#L" n="75"/>modum formae simbolicae, &amp; communis, accipiendo 
+      <lb ed="#L" n="76"/>quo tertio non est etiam in Diuinis, quia non est 
+      <lb ed="#L" n="77"/>ibi aliquod compositum ex subiecto, &amp; ex formali 
+      <lb ed="#L" n="78"/>termino per generationem acquisito: sed quarto 
+      <lb ed="#L" n="79"/>modo accipiendo passionem, prout respicit 
+      consti<lb ed="#L" break="no" n="80"/>tutum formaliter ex ipsa, sic potest poni, quod gene 
+      <lb ed="#L" n="81"/>rari sit, quasi passio, &amp; generare, quasi actio in 
+      <lb ed="#L" n="82"/>niuinis. de ratione enim passionis est, quod sit quae 
+      <lb ed="#L" n="83"/>dam illatio actionis. res ergo generationis 
+      passi<lb ed="#L" break="no" n="84"/>uae, quia illata est vere, ac realiter a re ipsius 
+      ge<lb ed="#L" break="no" n="85"/>nerationis actiuae, aliqualem modum habet 
+      passio<lb ed="#L" break="no" n="86"/>nis, non quod sit proprie conceptus passionis 
+      praedi<lb ed="#L" break="no" n="87"/>camentalis in Diuinis, ficut nec conceptus 
+      praedi<lb ed="#L" break="no" n="88"/>camentalis substantiae, aut relationis. de conceptu 
+      <lb ed="#L" n="89"/>enim passionis est, quod recipiatur in subiecto, &amp; 
+      <lb ed="#L" n="90"/>terminetur ad aliquid esse capiens passiue per eam, 
+      <lb ed="#L" n="91"/>&amp; quod inferatur ab actione. res ergo generatio 
+      <lb ed="#L" n="92"/>nis, quae est in Deo non tenet primum, nec secundum, 
+      <lb ed="#L" n="93"/>sed tertium, vnde non est in praedicamento, quamuis sit 
+      <lb ed="#L" n="94"/>ibi aliquis modus illius praedicamenti. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3180">
+                  <lb ed="#L" n="95"/>Nec procedunt instantiae. Prima siquidem non. 
+      <lb ed="#L" n="96"/>nam pati est per materiam, &amp; per potentiam, 
+      secun<lb ed="#L" break="no" n="97"/>dum aspectum, quo respicit subiectum, non tamen, 
+      <lb ed="#L" n="98"/>inquantum respicit constitutum, imperfectionis 
+      <lb ed="#L" n="99"/>etiam est inquantum aspicit formalem 
+      termi<lb ed="#L" break="no" n="100"/>num, qui esse capit, &amp; originatur, nullo autem 
+      <lb ed="#L" n="101"/>istorum modorum competit vero Deo. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3198">
+                  <lb ed="#L" n="102"/>Secunda etiam non procedit, quia Sancti, &amp; 
+      <lb ed="#L" n="103"/>Doctores non intelligunt, quod substantia, aut 
+      rela<lb ed="#L" break="no" n="104"/>tio praedicamentalis locum habeat in diuinis, sed 
+      <lb ed="#L" n="105"/>tantummodo modus absolutus, &amp; non absolutus, qui 
+      <lb ed="#L" n="106"/>appellatur relatiuus, sub quo continetur modus 
+      <lb ed="#L" n="107"/>passionis, &amp; actionis, &amp; relationis, vnde aliqualis 
+      <lb ed="#L" n="108"/>ratio generationis actiuae, &amp; passiuae 
+      relinqui<lb ed="#L" break="no" n="109"/>tur in Diuinis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3218">
+                  <lb ed="#L" n="110"/>Tertia etiam non obsistit, genitus enim tenetur 
+      <lb ed="#L" n="111"/>ad reuerentiam, quia in eo forma substantialis 
+      ca<lb ed="#L" break="no" n="112"/>pit esse per generationem in humanis, vnde &amp; per 
+      <lb ed="#L" n="113"/>generanté reductus est de imperfecto ad 
+      perfe<lb ed="#L" break="no" n="114"/>ctum, accipiendo a generante esse formae suae, &amp; do 
+      <lb ed="#L" n="115"/>ctrinam, ac nutrimentum, &amp; propter hoc tenetur ad 
+      <lb ed="#L" n="116"/>reuerentiam. In Diuinis autem nullum est horum, 
+      <lb ed="#L" n="117"/>quamuis dici posset, quod &amp; Filius Diuinus honorem 
+      <lb ed="#L" n="118"/>Patri impendit: ad reuerentiam autem pertinet, quod 
+      om<lb ed="#L" break="no" n="119"/>nia attribuit Patri, dicendo, Mea doctrina, non est 
+      <lb ed="#L" n="120"/>mea. Et: Ego gloriam meam non quaero. Et: A me ipso non 
+      <lb ed="#L" n="121"/>veni. &amp; multa similia, vnde &amp; Hilar. dicit, quod in Pa 
+      <lb ed="#L" n="122"/>tre est auctoritas, &amp; in Filio subauctoritas. Posset 
+      <lb ed="#L" n="123"/>ergo ex istis concludi, quod generari non repugnet. 
+      <lb ed="#L" n="124"/>vero Deo. si enim repugnaret, hoc esset, quia 
+      po<lb ed="#L" break="no" n="125"/>nit quandam indignitatem, &amp; quendam modum 
+      <lb ed="#L" n="126"/>passiuum, sed propter hoc non repugnat. non 
+      e<lb ed="#L" break="no" n="127"/>nim per ipsum aliquid patitur subiectiue, aut ter 
+      <lb ed="#L" n="128"/>minatine, sed tantummodo illatiue: hoc autem 
+      <lb ed="#L" n="129"/>non repugnat vero Deo, videlicet, quod sit 
+      pro<lb ed="#L" break="no" n="130"/>ductus taliter, quod Deitas producta non sit, sed 
+      <lb ed="#L" n="131"/>productio sit illata, vt ex productione, &amp; ex neita 
+      <lb ed="#L" n="132"/>te, constituatur vnus simplicissimus productus. er 
+      <lb ed="#L" n="133"/>go generari, quasi passiue non repugnat vero Deo. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3273">
+      <!--0326.xml-->
+                  <pb ed="#L" n="326"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quod generari non includat aliquam 
+      posteriori<lb ed="#L" break="no" n="2"/>tatem, nec excludat primitatem 
+      <lb ed="#L" n="3"/>simpliciter. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3289">
+                  <lb ed="#L" n="4"/>Non reougonut nerts secout t uudu iulteat 
+      <lb ed="#L" n="5"/>pij primitatem. si enim excluderet repugnaret 
+      <lb ed="#L" n="6"/>vero Deo, qui est ens primum, &amp; primum princi 
+      <lb ed="#L" n="7"/>pium simpliciter; sed videtur, quod immo 
+      gene<lb ed="#L" break="no" n="8"/>rari poneret posterioritatem, saltem secundum 
+      <lb ed="#L" n="9"/>originem. Prius enim, &amp; principium videntur esse 
+      <lb ed="#L" n="10"/>idem, vnde omne principium est prius, vt patet 
+      <lb ed="#L" n="11"/>5. Metaph. sed vbi est generare, &amp; generari, ibi 
+      <lb ed="#L" n="12"/>generare est principium, &amp; generari 
+      principia<lb ed="#L" break="no" n="13"/>tum. ergo ibi erit posterius, &amp; prius. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3313">
+                  <lb ed="#L" n="14"/>Praeterea: Omnis ordo attenditur, penes prius 
+      <lb ed="#L" n="15"/>&amp; posterius, sed August. dicit contra Max. lib. 3. 
+      <lb ed="#L" n="16"/>quod inter generantem, &amp; genitum est ordo 
+      na<lb ed="#L" break="no" n="17"/>turae. ergo erit ibi posterius, &amp; prius. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3325">
+                  <lb ed="#L" n="18"/>Praeterea: August. 1. de Trin. dicit, quod nulla 
+      <lb ed="#L" n="19"/>res seipsam gignit, alioquin idem esset prius se, 
+      <lb ed="#L" n="20"/>sed haec ratio non valet, nisi genitum esset 
+      poste<lb ed="#L" break="no" n="21"/>rius, &amp; generans esset prius. ergo in Diuinis 
+      ge<lb ed="#L" break="no" n="22"/>nerari est quid posterius, &amp; Pater generans esset 
+      <lb ed="#L" n="23"/>Pios secun tuim allause ut matutst postum 
+      pra<lb ed="#L" break="no" n="24"/>habens omnia, quae communicat Filio, quasi 
+      in<lb ed="#L" break="no" n="25"/>telligatur generare, sed hoc non esset, nisi in 
+      ali<lb ed="#L" break="no" n="26"/>quo signo prioritatis ipsum praecederet. ergo in 
+      <lb ed="#L" n="27"/>aliquo signo originis Pater Filium praecedit, 
+      pro<lb ed="#L" break="no" n="28"/>pter hoc ergo concedunt aliqui, quod inter 
+      Pa<lb ed="#L" break="no" n="29"/>trem, &amp; Filium est prius, &amp; posterius, non quod Fi 
+      <lb ed="#L" n="30"/>lius sit posterior duratione, aut tempore, nec, 
+      <lb ed="#L" n="31"/>quod sit posterior natura, quia non dependet Fi 
+      <lb ed="#L" n="32"/>lius a Patre, quin etiam e conuerso Pater 
+      depen<lb ed="#L" break="no" n="33"/>deat a Filio, nec sunt alterius essentiae, nec primum 
+      <lb ed="#L" n="34"/>potest esse sine contradictione absque secundo, 
+      <lb ed="#L" n="35"/>quae videntur esse tres contradictiones prioritatum 
+      <lb ed="#L" n="36"/>naturae, nec etiam posterior est Filius secundum 
+      <lb ed="#L" n="37"/>rationem, quia sunt simul naturali intelligentia, 
+      <lb ed="#L" n="38"/>sed tantum videtur esse posterior origine. 
+      Con<lb ed="#L" break="no" n="39"/>tradictio enim videtur, quin intellectus 
+      attri<lb ed="#L" break="no" n="40"/>buat Patri primum signum, in quo praehabeat 
+      <lb ed="#L" n="41"/>quidquid communicat Filio, &amp; in Filio secundum 
+      <lb ed="#L" n="42"/>signum, in quo Pater sibi communicat quidquid 
+      <lb ed="#L" n="43"/>habet ipsum producendo, vt sic nunc aeternitatis 
+      <lb ed="#L" n="44"/>diuidi possit in duo signa. sic ergo repugnaret, 
+      <lb ed="#L" n="45"/>si Filius esset posterior natura, vel duratione, non 
+      <lb ed="#L" n="46"/>repugnat autem, si sit posterior origine, sed iste 
+      <lb ed="#L" n="47"/>modus irrationalis est, quantum ad hoc, quod po 
+      <lb ed="#L" n="48"/>nit prioritatem, cui competat signum, in quo Pa 
+      <lb ed="#L" n="49"/>ter praecedat. est enim intelligendum, quod aliud 
+      <lb ed="#L" n="50"/>est prius in quo, &amp; aliud prius ex quo. puncto 
+      e<lb ed="#L" break="no" n="51"/>nim non est prius in quo, sed ex quo incipit 
+      mo<lb ed="#L" break="no" n="52"/>tus in linea, &amp; similiter Sol est prius splendore, 
+      <lb ed="#L" n="53"/>inquantum prius habet habitudinem ex quo, &amp; 
+      <lb ed="#L" n="54"/>posterius dicit habitudinem eius, quod ab alio; 
+      <lb ed="#L" n="55"/>prius autem in quo semper refertur ad aliquam 
+      <lb ed="#L" n="56"/>mensuram, eo modo, quo dicimus, quod aliquid 
+      <lb ed="#L" n="57"/>est prius in loco, ũel prius in aliquo nũc. sic ergo 
+      <lb ed="#L" n="58"/>impossibile est, quod pater sit principium, &amp; Filius 
+      <lb ed="#L" n="59"/>principiatus, quin Pater sit prior, &amp; Filius poste 
+      <lb ed="#L" n="60"/>rior, accipiendo prius, &amp; posterius primo modo, 
+      <lb ed="#L" n="61"/>videlicet a quo aliud, quod ab alio, sed quod sit 
+      <lb ed="#L" n="62"/>prius in quo, ita vt dicatur, in tali signo Pater 
+      <lb ed="#L" n="63"/>praecedit Filium, hoc est omnino impossibile. quod 
+      <!--0326.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="64"/>sic patet: impossibile est enim, quod ab vna habitudi 
+      <lb ed="#L" n="65"/>ne fiat transitus ad aliam habitudinem sibi repugnan 
+      <lb ed="#L" n="66"/>tem, &amp; dato, quod non repugnet, tamen si sub vna 
+      <lb ed="#L" n="67"/>alia inferatur, &amp; est fallacia figurae dictionis, sed 
+      <lb ed="#L" n="68"/>habitudo a quo aliud, &amp; quod ab alio, siue a se, &amp; 
+      <lb ed="#L" n="69"/>ab alio non est eadem cum habitudine, in quo. non 
+      e<lb ed="#L" break="no" n="70"/>nim esse ab aliquo est esse ab aliquo, nec esse a se, 
+      <lb ed="#L" n="71"/>&amp; a quo aliud est esse, in quo ex habitudine 
+      origi<lb ed="#L" break="no" n="72"/>nis inferre signum, in quo Pater Filium praecedat, 
+      <lb ed="#L" n="73"/>est committere fallaciam figurae dictionis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3453">
+                  <lb ed="#L" n="74"/>Praeterea: Vbi non est praecessio secundum aliquam 
+      <lb ed="#L" n="75"/>men suram, ibi non potest esse praecessio secundum ali 
+      <lb ed="#L" n="76"/>quod signum, vel in aliquo signo, sed Pater Filium non 
+      <lb ed="#L" n="77"/>praecedit secundum aliquam mensuram durationis, 
+      <lb ed="#L" n="78"/>aut loci, aut temporis. ergo nihil est dictu, quod 
+      <lb ed="#L" n="79"/>Pater in aliquo signo praecedat. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3469">
+                  <lb ed="#L" n="80"/>Praeterea: Inter illa non est praecessio secundum 
+      <lb ed="#L" n="81"/>aliquod signum, quorum vnum non potest capere intel 
+      <lb ed="#L" n="82"/>lectus in aliquo signo existere, quin in eodem signo 
+      <lb ed="#L" n="83"/>capiat reliquum coexistere, sed nullus intellectus 
+      <lb ed="#L" n="84"/>in aliquo signo potest concipere patrem existere, 
+      <lb ed="#L" n="85"/>quin in eodem intelligat Filium existere, sed 
+      Pa<lb ed="#L" break="no" n="86"/>trem a se, Filium vero a Patre. ergo inter Patrem, 
+      <lb ed="#L" n="87"/>&amp; Filium non est praecessio secundum signum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3489">
+                  <lb ed="#L" n="88"/>Praeterea: Cuicumque repugnat intelligi non esse, 
+      <lb ed="#L" n="89"/>ei repugnat esse posterius secundum signum. quod 
+      e<lb ed="#L" break="no" n="90"/>nim est posterius secundum aliquod signum, in illo 
+      <lb ed="#L" n="91"/>signo potest intelligi non esse. si enim intelligere 
+      <lb ed="#L" n="92"/>tur esse, iam non esset posterius, sed Filio repugnat 
+      <lb ed="#L" n="93"/>intelligi sub non esse. iam enim non esset necesse es 
+      <lb ed="#L" n="94"/>se, sed possibile, si posset intelligi sub non esse 
+      er<lb ed="#L" break="no" n="95"/>go Filius non est posterior patre secundum 
+      ali<lb ed="#L" break="no" n="96"/>quod signum. Nec procedunt instantiae.
+    </p>
+               <p xml:id="ol96b1-102919-d1e3511">
+                  <lb ed="#L" n="97"/>Prima siquidem non licet enim Pater sit prius, 
+      <lb ed="#L" n="98"/>quia principium, non tamen est prius secundum 
+      <lb ed="#L" n="99"/>aliquod signum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3520">
+                  <lb ed="#L" n="100"/>Secunda etiam non procedit, quia vbi est ordo, 
+      <lb ed="#L" n="101"/>ibi est prius, &amp; posterius, non tamen propterea po 
+      <lb ed="#L" n="102"/>test intelligi Pater in aliquo signo Praecedere 
+      Fi<lb ed="#L" break="no" n="103"/>lium. aliud enim est praecedere, aliud prius esse, 
+      prae<lb ed="#L" break="no" n="104"/>cedere enim videtur referri ad aliquam mensuram: 
+      <lb ed="#L" n="105"/>prius autem esse solum importat habitudinem. Volunt 
+      <lb ed="#L" n="106"/>tamen aliqui dicere, quod inter Patrem, &amp; Filium, est 
+      <lb ed="#L" n="107"/>ordo absque priori, &amp; posteriori, quod videtur 
+      <lb ed="#L" n="108"/>Aug. innuere contra Max. cum dicit, quod inter 
+      pa<lb ed="#L" break="no" n="109"/>trem, &amp; Filium est ordo, non quo vnus sit prior alio, 
+      <lb ed="#L" n="110"/>sed quo vnus est ex alio. Sed istud stare non potest, 
+      <lb ed="#L" n="111"/>quia de ratione principij videtur esse prioritas, 
+      <lb ed="#L" n="112"/>&amp; primitas, &amp; ideo melius est dicendum, quod 
+      Pa<lb ed="#L" break="no" n="113"/>ter non Filio prior, intelligendo per prioritatem 
+      <lb ed="#L" n="114"/>aliquem ordinem, vel mensurae, vel naturae, aut alicu 
+      <lb ed="#L" n="115"/>ius rei participatae secundum prius, &amp; posterius, 
+      <lb ed="#L" n="116"/>sed quod ibi prius dicat solam habitudinem, vt a quo, non 
+      <lb ed="#L" n="117"/>vt in quo. isto enim modo idem est prius, &amp; 
+      princi<lb ed="#L" break="no" n="118"/>pium, sed quia prius videtur importare ordinem 
+      <lb ed="#L" n="119"/>in aliquo participato, propter hoc negat Aug. 
+      <lb ed="#L" n="120"/>quod vnus est prior alio. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3569">
+                  <lb ed="#L" n="121"/>Tertia etiam non procedit, quia Aug. cum 
+      di<lb ed="#L" break="no" n="122"/>cit, quod idem non generat se, quia esset prius 
+      <lb ed="#L" n="123"/>se, non intendit, nisi quod esset contradictio, pro 
+      <lb ed="#L" n="124"/>eo, quod idem esset a se, &amp; ab alio, &amp; per 
+      conse<lb ed="#L" break="no" n="125"/>quens a se, &amp; non a se, vnde refert prius ad 
+      es<lb ed="#L" break="no" n="126"/>se a se. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3585">
+                  <lb ed="#L" n="127"/>Vltima etiam non procedit. falsum est enim, 
+      <lb ed="#L" n="128"/>quod intellectus aliquod signum possit 
+      attri<lb ed="#L" break="no" n="129"/>buere Patri, in quo sit prior alio, vel praecedat. 
+      <lb ed="#L" n="130"/>in eodem enim intelligit Pater Filium esse, aut 
+      <!--0327.xml-->
+      <pb ed="#L" n="327"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>si intelligit sub non esse, concipit ipsum non 
+      ne<lb ed="#L" break="no" n="2"/>cesse esse. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3607">
+                  <lb ed="#L" n="3"/>Potest ergo ex his inferri, quod generari non 
+      <lb ed="#L" n="4"/>vero neo repugnat. si enim repugnaret, hoc esset, 
+      <lb ed="#L" n="5"/>quia excluderet primiprincipij primitatem, hoc 
+      <lb ed="#L" n="6"/>autem non excludit, quia non ponit aliquam 
+      po<lb ed="#L" break="no" n="7"/>sterioritatem, nec naturae, nec durationis, nec 
+      <lb ed="#L" n="8"/>signi alicuius, vt dictum est. ergo non repugnat 
+      <lb ed="#L" n="9"/>vero Deo, quod sit genitus. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3625">
+                  <lb ed="#L" n="10"/>Et si dicatur, quod saltem ponit 
+      posteriorita<lb ed="#L" break="no" n="11"/>tem oppositam primitati principij, dicendum, 
+      <lb ed="#L" n="12"/>quod Deitas non est principiata in Filio, licet Fi 
+      <lb ed="#L" n="13"/>lius sit principiatus: nunc autem Pater ratione 
+      <lb ed="#L" n="14"/>Deitatis est primum principium creaturae 
+      om<lb ed="#L" break="no" n="15"/>nis; &amp; idcirco esse primum principium omnis 
+      <lb ed="#L" n="16"/>creaturae est commune Patri, &amp; Filio, nec ex hoc 
+      <lb ed="#L" n="17"/>tollitur a Filio, qui est generatus a Patre, tollitur 
+      <lb ed="#L" n="18"/>tamen a Deo primitas principij inter personas. 
+      <lb ed="#L" n="19"/>hoc enim competit Patri, qui est fontana 
+      Deita<lb ed="#L" break="no" n="20"/>tis, &amp; principium totius Diuini secundum 
+      Augu<lb ed="#L" break="no" n="21"/>stinum, vel dicendum, quod forte prioritas, sicut &amp; 
+      prae<lb ed="#L" break="no" n="22"/>ceffio non competit habitudini principij, quia 
+      <lb ed="#L" n="23"/>videtur dicere ordinem in aliquo participato se 
+      <lb ed="#L" n="24"/>cundum prius, &amp; posterius, seu sit mensura, seu 
+      <lb ed="#L" n="25"/>sit natura illud participatum, &amp; secundum hoc 
+      <lb ed="#L" n="26"/>simpliciter est negandum, quod Pater non esset 
+      <lb ed="#L" n="27"/>prius Filio, licet sit principium Filij secundum 
+      <lb ed="#L" n="28"/>illud Athanasij dicentis, quod in hac Trinitate 
+      <lb ed="#L" n="29"/>nihil prius, aut posterius, &amp; ad hoc aspexit Aug. 
+      <lb ed="#L" n="30"/>cum dicit, quia ibi est ordo, quo vnus est ab alio, 
+      <lb ed="#L" n="31"/>non quo vnus est prior alio.
+    </p>
+               <p xml:id="ol96b1-102919-d1e3675">
+                  <lb ed="#L" n="32"/>Quod generare non excludat necessitatem, nec 
+      <lb ed="#L" n="33"/>nonat contingentiam. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3682">
+                  <lb ed="#L" n="34"/>NOs ceoqus nut quonus tertiqus tuis gene 
+      <lb ed="#L" n="35"/>tingentiam, quamuis videretur ex hoc, quod su 
+      <lb ed="#L" n="36"/>pra dictum est in quaestione de immutabilitate. 
+      <lb ed="#L" n="37"/>dictum est enim ibi, quod contradictio est 
+      pone<lb ed="#L" break="no" n="38"/>re aliquid necessarium ex se, &amp; quod ab alio 
+      ha<lb ed="#L" break="no" n="39"/>beat esse. ergo repugnat Filio, quod sit necesse, 
+      <lb ed="#L" n="40"/>esse, si generatus est, &amp; per consequens generari 
+      <lb ed="#L" n="41"/>excludit necessitatem. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3703">
+                  <lb ed="#L" n="42"/>Sed hoc non obstante dicendum est, quod non 
+      <lb ed="#L" n="43"/>excludit. Illud enim est necesse esse formaliter, 
+      <lb ed="#L" n="44"/>cuius quidditatiua ratio non abstrahit ab esse 
+      <lb ed="#L" n="45"/>immo per eam potest demonstratiue inferri esse, 
+      <lb ed="#L" n="46"/>ita quod repugnat sibi non esse ex sua definitiua 
+      <lb ed="#L" n="47"/>ratione. ea enim, quae sic competunt alicui, 
+      di<lb ed="#L" break="no" n="48"/>cuntur sibi competere necessitate formali, 
+      si<lb ed="#L" break="no" n="49"/>cut triangulo competit habere tres, &amp; sicut de 
+      <lb ed="#L" n="50"/>aliis necessariis formaliter: sed constat, quod ex 
+      <lb ed="#L" n="51"/>ratione quidditatiua generari in Deo existentis 
+      <lb ed="#L" n="52"/>potest inferri demonstratiue actualis ipsius 
+      exi<lb ed="#L" break="no" n="53"/>stentia, ita quod non existere repugnat sibi secun 
+      <lb ed="#L" n="54"/>dum definitionis rationem: de ratione quidem, 
+      <lb ed="#L" n="55"/>&amp; conceptibilitate passiuae generationis est 
+      ge<lb ed="#L" break="no" n="56"/>nerare diuinum. imposibile est enim concipi 
+      ge<lb ed="#L" break="no" n="57"/>nerari absqne generare, &amp; e conuerso: certum 
+      <lb ed="#L" n="58"/>autem, quod generare est determinatum ad esse 
+      <lb ed="#L" n="59"/>scipso, &amp; eadem necessitate determinat generari 
+      <lb ed="#L" n="60"/>ad esse, &amp; ita generari ex sua quidditatiua 
+      ra<lb ed="#L" break="no" n="61"/>tione determinetur ad esse, &amp; potest 
+      demonstra<lb ed="#L" break="no" n="62"/>ri esse, &amp; repugnat sibi non esse, adhuc 
+      impossi<lb ed="#L" break="no" n="63"/>bile est concipi proprietates sine essentia in 
+      Di<lb ed="#L" break="no" n="64"/>uicis, vt probatum est supra. de conceptu itaque 
+      <!--0327.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>ipsius generari est peitas: peitati autem repugnat 
+      <lb ed="#L" n="66"/>non esse, repugnabit itaque generationi passiuae 
+      <lb ed="#L" n="67"/>non esse ex suo formali conceptu. ergo 
+      relinqui<lb ed="#L" break="no" n="68"/>tur, quod sit necesse esse. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3768">
+                  <lb ed="#L" n="69"/>Ex quibus patet, quod nullum absolutum potest esse 
+      <lb ed="#L" n="70"/>formaliter necessarium, &amp; tamen ab alio productum. 
+      <lb ed="#L" n="71"/>in definitione enim illius, quod est absolutum, non 
+      <lb ed="#L" n="72"/>cadit illud, quod determinaret ipsum ad esse, &amp; 
+      <lb ed="#L" n="73"/>ita non repugnaret sibi non esse, secundum definitiuam 
+      <lb ed="#L" n="74"/>rationem, propter quod esset possibile non esse, 
+      <lb ed="#L" n="75"/>considerata sua forma, &amp; sua natura, vnde potest 
+      <lb ed="#L" n="76"/>conuinci, quod Philosophus non posuit 
+      intelli<lb ed="#L" break="no" n="77"/>gentias productas, ex quo tenuit, quod eorum 
+      na<lb ed="#L" break="no" n="78"/>turae repugnabat non esse, similiter &amp; nullus 
+      re<lb ed="#L" break="no" n="79"/>spectus potest esse simpliciternecessarius, &amp; 
+      pro<lb ed="#L" break="no" n="80"/>ductus in aliena substantia a Deitate. quamuis 
+      e<lb ed="#L" break="no" n="81"/>nim determinaretur ad esse ex alio respectu, qui 
+      <lb ed="#L" n="82"/>clauderetur in sua definitione, quasi extrinsece, 
+      <lb ed="#L" n="83"/>sicut in conceptu generari clauditur generare, 
+      <lb ed="#L" n="84"/>nihilominus non determinaretur ex intimis sui 
+      <lb ed="#L" n="85"/>conceptus, sicut determinatur generari ex 
+      Dei<lb ed="#L" break="no" n="86"/>tate, quae est de conceptibilitate intima, &amp; intrin 
+      <lb ed="#L" n="87"/>seca eiusdem generati, &amp; per hoc patet responsio 
+      <lb ed="#L" n="88"/>ad obiectum, quia non repugnat filio generari, &amp; 
+      <lb ed="#L" n="89"/>cum hoc habere necessitatem essendi ex sua formali 
+      <lb ed="#L" n="90"/>ratione: repugnaret autem cuilibet absoluto. Ex 
+      <lb ed="#L" n="91"/>hoc etia vi.leri potest, quod superius dicebatur, 
+      <lb ed="#L" n="92"/>videlicet, quod nullum possibile non esse producitur 
+      <lb ed="#L" n="93"/>necessitate naturae, ita quod habeat necessitatem 
+      <lb ed="#L" n="94"/>ab alio. omne enim productum necessitate naturae 
+      <lb ed="#L" n="95"/>necessarium est: nullum autem absolutum, si sit productum 
+      <lb ed="#L" n="96"/>necessarium est, &amp; per nullum absolutum 
+      produci<lb ed="#L" break="no" n="97"/>tur necessitate: apparet etiam, quod filius non es 
+      <lb ed="#L" n="98"/>set formaliter necesse esse, quantumcumque produ 
+      <lb ed="#L" n="99"/>ctio foret intra eandem essentiam, nisi peitas esset 
+      de<lb ed="#L" break="no" n="100"/>conceptu ipsius generari, sic quod generari &amp; 
+      si<lb ed="#L" break="no" n="101"/>ne Deitate concipi non posset, nec e conuerso. Po 
+      <lb ed="#L" n="102"/>test ergo probari, quod vero Deo non repugnat, 
+      <lb ed="#L" n="103"/>quod generetur. si enim repugnaret, hoc esset, 
+      <lb ed="#L" n="104"/>quia contingentiam poneret, &amp; necessitatem 
+      <lb ed="#L" n="105"/>ex cluderet: hoc autem non facit, ficut iam 
+      di<lb ed="#L" break="no" n="106"/>ctum est. ergo non repugnat. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3853">
+                  <lb ed="#L" n="107"/>Quod generari non ponat naturae diuersitatem. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e3858">
+                  <lb ed="#L" n="108"/>NON repugnat etiam quarto, quod ponat
+      <lb ed="#L" n="109"/>diuersitatem in essentia, aut in aliquo abso 
+      <lb ed="#L" n="110"/>luto, quamuis ita videretur, pro eo, quod 
+      genera<lb ed="#L" break="no" n="111"/>tio terminetur ad aliquod absolutum. haec tamen 
+      <lb ed="#L" n="112"/>virtus est in omni generatione concepta 
+      intelle<lb ed="#L" break="no" n="113"/>ctuali, qua verbum paritur, &amp; res gignitur in esse 
+      <lb ed="#L" n="114"/>apparenti, &amp; obiectali. In ista autem 
+      generatio<lb ed="#L" break="no" n="115"/>ne non est verum, quod acquiratur aliquid 
+      abso<lb ed="#L" break="no" n="116"/>lutum, sed quod totum absolutum capit esse subsi 
+      <lb ed="#L" n="117"/>stens aliud, &amp; relatiuum. rosae enim, quae existunt 
+      <lb ed="#L" n="118"/>extra, dum ponuntur per intellectum; vnde 
+      ro<lb ed="#L" break="no" n="119"/>sasimpliciter non acquirit aliquid absolutum, sed 
+      <lb ed="#L" n="120"/>tantum esse apparens, similiter &amp; mens cum scip 
+      <lb ed="#L" n="121"/>sam conduplicat, ponendo se conspicuam ante 
+      <lb ed="#L" n="122"/>se secundum Augustinum, constat quod solum 
+      <lb ed="#L" n="123"/>differt, penes ponere, &amp; poni, &amp; non differt in ali 
+      <lb ed="#L" n="124"/>quo absoluto, allas non conspiceret penitus se, sed 
+      <lb ed="#L" n="125"/>aliquidaliud, quod non est verũ: simili itaque mo 
+      <lb ed="#L" n="126"/>do in Diuinis, dum Pater positione reali dicit, 
+      <lb ed="#L" n="127"/>quidquid est in se necessario dicens, &amp; dictus 
+      po<lb ed="#L" break="no" n="128"/>nens, &amp; positus, generans, &amp; genitus idem sunt in 
+      <lb ed="#L" n="129"/>omnibus absolutis, differentes in solo dicere, &amp; 
+      di<lb ed="#L" break="no" n="130"/>ci, generare, &amp; generari, &amp; quia haec positio realis 
+      <!--0328.xml-->
+      <pb ed="#L" n="328"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>necesse est, quod distinguantur realiter, &amp; tamen 
+      <lb ed="#L" n="2"/>non in aliquo reali absoluto.
+    </p>
+               <p xml:id="ol96b1-102919-d1e3921">
+                  <lb ed="#L" n="3"/>Ratio vero, propter quam mentalis 
+      genera<lb ed="#L" break="no" n="4"/>tio potest esse intentionalis, &amp; realis absque 
+      di<lb ed="#L" break="no" n="5"/>stinctione in aliquo reali absoluto, vel 
+      intentio<lb ed="#L" break="no" n="6"/>nali, haec est, quod ipsum generari, seu dici, non 
+      <lb ed="#L" n="7"/>est aliud, quam esse, quod res capit per 
+      dictio<lb ed="#L" break="no" n="8"/>nem, seu generationem mentalem. non capit 
+      e<lb ed="#L" break="no" n="9"/>nim, nisi esse apparens; apparitio autem passiua 
+      <lb ed="#L" n="10"/>infertur ab apparitione actiua, absque hoc, quod 
+      <lb ed="#L" n="11"/>acquiratur aliquid absolutum aliud, nisi quod 
+      <lb ed="#L" n="12"/>totum illud, quod ante praeexistebat ponitur, vt 
+      <lb ed="#L" n="13"/>a pparens, tale autem sic positum non ponitur ex 
+      <lb ed="#L" n="14"/>apparitione, &amp; ex priori absoluto, sed vtrumque 
+      <lb ed="#L" n="15"/>fit vnum simplicissimum constitutum. res enim 
+      <lb ed="#L" n="16"/>posita in esse apparenti non distinguitur ab esse 
+      <lb ed="#L" n="17"/>apparenti, nec e conuerso. si ergo ista apparitio 
+      <lb ed="#L" n="18"/>fit tantum intentionalis, res quae capit tale esse, 
+      <lb ed="#L" n="19"/>non acquirit aliquid absolutum, &amp; tamen cum 
+      <lb ed="#L" n="20"/>hoc sit aliquod suppositum intentionale per 
+      so<lb ed="#L" break="no" n="21"/>lam acquisitionem esse apparentis. Si autem 
+      ta<lb ed="#L" break="no" n="22"/>lis apparitio sit realis, quemadmodum in 
+      Diui<lb ed="#L" break="no" n="23"/>nis, vt infra dicetur, nil etiam acquiret 
+      abso<lb ed="#L" break="no" n="24"/>lutum per tale esse, sed tantum esse ad aliud, 
+      vi<lb ed="#L" break="no" n="25"/>delicet esse dictum, seu esse genitum, &amp; apparens; 
+      <lb ed="#L" n="26"/>&amp; ex hoc patet, quod superius dictum fuit, gene 
+      <lb ed="#L" n="27"/>rari in Diuinis non terminari ad aliquid, quod es 
+      <lb ed="#L" n="28"/>se capiat, nisi per modum constituti. potest ergo 
+      <lb ed="#L" n="29"/>ex his inferri, quod generari non repugnat vero 
+      <lb ed="#L" n="30"/>Deo; si enim repugnaret, hoc esset forsitan, quia 
+      <lb ed="#L" n="31"/>generare, &amp; generari arguerent in Deo 
+      differen<lb ed="#L" break="no" n="32"/>tiam absolutam, &amp; separationem substantiae; hoc 
+      <lb ed="#L" n="33"/>autem non arguunt, nec causant, vt probatum 
+      <lb ed="#L" n="34"/>est, &amp; experimentaliter patet in omni 
+      genera<lb ed="#L" break="no" n="35"/>tione verbi, quod verbum mentale non differt 
+      <lb ed="#L" n="36"/>ab ea re, de qua formatur, penes aliquid 
+      absolu<lb ed="#L" break="no" n="37"/>tum. verbum enim formatum de rosa non 
+      dif<lb ed="#L" break="no" n="38"/>fert a rosa, nec formatum de lapide, differt a 
+      la<lb ed="#L" break="no" n="39"/>pide in aliquo absoluto, sed tantum in hoc, quod 
+      <lb ed="#L" n="40"/>est habere esse apparens, &amp; formatum 
+      mentali<lb ed="#L" break="no" n="41"/>ter. ergo Deus conceptus, &amp; Deus concipiens, 
+      <lb ed="#L" n="42"/>non distinguetur in aliquo absoluto, sed 
+      tantum<lb ed="#L" break="no" n="43"/>modo in concipere, &amp; concipi, &amp; per 
+      conse<lb ed="#L" break="no" n="44"/>quens vero neo generari, &amp; concipi non repugnat. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4015">
+                  <lb ed="#L" n="45"/>Quod generari non ponit dependentiam. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4021">
+                  <lb ed="#L" n="46"/>NON repugnat autem quinto, quia 
+      gene<lb ed="#L" break="no" n="47"/>rari ponat dependentiam geniti ad 
+      gene<lb ed="#L" break="no" n="48"/>rantem, quamuis videretur ad hoc, quod vero 
+      <lb ed="#L" n="49"/>Deo repugnat dependere. constat autem, quod 
+      <lb ed="#L" n="50"/>genitum a generante dependet. ergo vero Deo 
+      <lb ed="#L" n="51"/>repugnare videtur, quod generatus sit. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4037">
+                  <lb ed="#L" n="52"/>Videtur quidem aliquibus, quod haec 
+      difficul<lb ed="#L" break="no" n="53"/>tas sufficienter tollatur, dicendo, quod inter 
+      Pa<lb ed="#L" break="no" n="54"/>trem, &amp; Filium est dependentia mutua, sed sine 
+      <lb ed="#L" n="55"/>dubio hoc non tollit, quod dependentia, seu 
+      soli<lb ed="#L" break="no" n="56"/>taria, seu mutua vero Deo repugnat, propter 
+      <lb ed="#L" n="57"/>quod dicendum, quod dependentia, &amp; mutua 
+      <lb ed="#L" n="58"/>coexistentia sunt aliae relationes, &amp; aliae 
+      habitu<lb ed="#L" break="no" n="59"/>dines. dependentia enim est idem, quod passiua 
+      <lb ed="#L" n="60"/>manutenentia, qua creaturae tenentur in essse per 
+      <lb ed="#L" n="61"/>tentionem Dei actiuam, quae quidem tentio non 
+      <lb ed="#L" n="62"/>est proprie relatio, sed est de genere actionis, &amp; 
+      <lb ed="#L" n="63"/>est alia a creare, sicut est alia actio lapidem 
+      leua<lb ed="#L" break="no" n="64"/>re in aere, &amp; leuatum ibi tenere, sed de hoc erit 
+      <lb ed="#L" n="65"/>sermo amplior. quia ergo. Filius non conserua- 
+      <!--0328.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>tur a Patre, nec manutenetur ab eo, sed produ⸗ 
+      <lb ed="#L" n="67"/>citur productione necessaria, &amp; aeterna, dici non 
+      <lb ed="#L" n="68"/>potest, quod dep endeat ab ipso: inter ambos au 
+      <lb ed="#L" n="69"/>tem est mutua e istentia ad essendum; generare 
+      <lb ed="#L" n="70"/>namque, per quod constituitur Pater non existit, 
+      <lb ed="#L" n="71"/>nisi inferat generari, nec generari, uisi inferatur 
+      <lb ed="#L" n="72"/>a generare, immo generare non est aliud, quam 
+      <lb ed="#L" n="73"/>generari, nec generari est aliud, quam illatio ab 
+      <lb ed="#L" n="74"/>ipso generare. potest ergo inferri, quod 
+      genera<lb ed="#L" break="no" n="75"/>ri non repugnet vero Deo, quia si repugnaret, 
+      <lb ed="#L" n="76"/>hoc esset propter dependentiam, quam poneret 
+      <lb ed="#L" n="77"/>circa Deum, sed nullam ponit, vt dictum est. 
+      er<lb ed="#L" break="no" n="78"/>go id, quod prius. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4102">
+                  <lb ed="#L" n="79"/>Quod generari non inducat nouitatem.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4107">
+                  <lb ed="#L" n="80"/>NON repugnat deinde, quod generari in-
+      <!-- missing line break -->ducat aliquam nouitatem. In hoc enim fuit
+      <lb ed="#L" n="81"/>error Arrij, contra quem procedit Magister in 
+      <lb ed="#L" n="82"/>litera ex verbis Ambrosij, &amp; Augnstini: potest 
+      <lb ed="#L" n="83"/>autem haec veritas breui medio declarari; 
+      pro<lb ed="#L" break="no" n="84"/>ductio siquidem non elicita, nec esse capiens aliun 
+      <lb ed="#L" n="85"/>de de necessitate extitit ab aeterno, sed probatum 
+      <lb ed="#L" n="86"/>est supra, quod in Deo non est aliquid elicitum, 
+      <lb ed="#L" n="87"/>nec entitatem capiens aliunde, immo est a se er 
+      <lb ed="#L" n="88"/>go est aeternum, &amp; immutabile, ac necessarium. 
+      <lb ed="#L" n="89"/>impossibile est autem generare esse aliud 
+      intelli<lb ed="#L" break="no" n="90"/>gi, quin sit generari, &amp; intelligatur, generari 
+      <lb ed="#L" n="91"/>itaque Filij nullam nouitatem ponit. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4138">
+                  <lb ed="#L" n="92"/>Et confirmatur, quia non impeditur 
+      aeterni<lb ed="#L" break="no" n="93"/>tas generationis, nisi vel ex parte agentis, quia 
+      <lb ed="#L" n="94"/>non habet virtutem completam, quae 
+      requiri<lb ed="#L" break="no" n="95"/>tur ad agendum, vel ex parte modi, quia 
+      produ<lb ed="#L" break="no" n="96"/>cit per motum, vel per liberum arbitrium, &amp; ita 
+      <lb ed="#L" n="97"/>indiget tempore ad mouendum, seu ad 
+      liberan<lb ed="#L" break="no" n="98"/>dum, vel ex parte passi, quia non adest materia, 
+      <lb ed="#L" n="99"/>vel si adest, non est tamen disposita. Istorum 
+      <lb ed="#L" n="100"/>autem trium nullum impedit, quiu filij 
+      genera<lb ed="#L" break="no" n="101"/>tio sit aeterna. Pater enim perfectissimus est ab 
+      <lb ed="#L" n="102"/>aeterno. est enim actu Pater per actum 
+      genera<lb ed="#L" break="no" n="103"/>tionis, non produxit deliberando, vel per motum, 
+      <lb ed="#L" n="104"/>non produxit etiam ex materia, vt declaratum 
+      <lb ed="#L" n="105"/>est supra. ergo generari nullam nouitatem 
+      po<lb ed="#L" break="no" n="106"/>nit in Deo, &amp; ita sibi non repugnat, nec 
+      appa<lb ed="#L" break="no" n="107"/>ret aliquid aliud, quod debeat obuiare, 
+      pro<lb ed="#L" break="no" n="108"/>pter quod passiua generatio catholice ponitur 
+      <lb ed="#L" n="109"/>in Diuinis, &amp; actiua similiter, iuxta illud 
+      Pro<lb ed="#L" break="no" n="110"/>phetae: In splendoribus Sanctorum ex vtero ante T 
+      <lb ed="#L" n="111"/>Luciferum genui te. &amp; in hoc tertius Articulus 
+      <lb ed="#L" n="112"/>terminctur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-102919-Dd1e4187">
+               <head xml:id="ol96b1-102919-Hd1e4189">Articulus 4</head>
+               <p xml:id="ol96b1-102919-d1e4191">
+                  <lb ed="#L" n="113"/>ARTJCVLVS QVARTVS.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4196">
+                  <lb ed="#L" n="114"/>An probari possit, quod generatio sit in Deo, 
+      <lb ed="#L" n="115"/>&amp; ostenditur, quod non sunt efficaces 
+      <lb ed="#L" n="116"/>rationes super illius 
+      possibi<lb ed="#L" break="no" n="117"/>lita te in arguendo. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4207">
+                  <lb ed="#L" n="118"/>CIRCA quartum autem considerandum est, 
+      <lb ed="#L" n="119"/>quod rationes superius inductae in 
+      princi<lb ed="#L" break="no" n="120"/>pio quaestionis ad probandum, quod generatio 
+      <lb ed="#L" n="121"/>sit in Deo, omnes quidem videntur supponere 
+      <lb ed="#L" n="122"/>aliquid, quod tamen verum non est in Diuinis,, 
+      <lb ed="#L" n="123"/>vt illa ratio, quae procedit ex hoc, quod 
+      memo<lb ed="#L" break="no" n="124"/>ria est principium productiuum in Deo, 
+      suppo<lb ed="#L" break="no" n="125"/>nit, quod generare sit aliquid elicitum, cuius omia 
+      <lb ed="#L" n="126"/>positum probatum est supra, &amp; illa, quae digino 
+      <!--0329.xml-->
+      <pb ed="#L" n="329"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quod in Deo debet esse perfecta generatio in 
+      <lb ed="#L" n="2"/>summo assimilaut genitum generanti, supponit, 
+      <lb ed="#L" n="3"/>quod generatio in Diuinis habeat pro termino 
+      <lb ed="#L" n="4"/>formali Diuinam essentiam, &amp; illa, quae procedit 
+      <lb ed="#L" n="5"/>ex hoc, quod Deus est lux incorporea, est mistica, 
+      <lb ed="#L" n="6"/>&amp; procedens per metaphoram luminis: talia au 
+      <lb ed="#L" n="7"/>tem argumenta sunt magis rhetorica, vel 
+      poeti<lb ed="#L" break="no" n="8"/>ca, quam philosophica, vt patet ex 3. Rhet. &amp; 
+      il<lb ed="#L" break="no" n="9"/>la, quae procedit ex hoc, quod Deus aliis tribuit 
+      <lb ed="#L" n="10"/>generare, aequiuocat de generatione Diuina. 
+      lo<lb ed="#L" break="no" n="11"/>quitur enim Isaias de filiis Israel, qui quidem 
+      quo<lb ed="#L" break="no" n="12"/>dam peculiari modo dicuntur filij Dei ab eo 
+      ge<lb ed="#L" break="no" n="13"/>nerati, iuxta illud eiusdem: Filios enutriui, &amp; exal 
+      <lb ed="#L" n="14"/>taui. &amp; illa, quae procedit ex hoc, quod generare 
+      <lb ed="#L" n="15"/>est signum perfectionis, vel procedit ex hoc, quod 
+      <lb ed="#L" n="16"/>productio naturalis, seu necessaria est maioris 
+      <lb ed="#L" n="17"/>perfectionis, omnes ille patiuntur istantiam in 
+      <lb ed="#L" n="18"/>Angelis, qui sunt inter omnia creata excellentiae 
+      <lb ed="#L" n="19"/>potioris, &amp; nihilominus non generant, nec 
+      ne<lb ed="#L" break="no" n="20"/>cessitate naturae aliquid agunt, aut producunt; 
+      <lb ed="#L" n="21"/>illa etiam, quae procedit ex hoc, quod contingen 
+      <lb ed="#L" n="22"/>tia imperfectionem dicit in principio 
+      producti<lb ed="#L" break="no" n="23"/>uo, supponit, quod in Deo sit principium produ 
+      <lb ed="#L" n="24"/>ctiuum, vnde patet, quod rationes illae, &amp; 
+      simi<lb ed="#L" break="no" n="25"/>les non sunt efficaces ad probandum, quod sit ge 
+      <lb ed="#L" n="26"/>neratio in Diuinis.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4292">
+                  <lb ed="#L" n="27"/>Via vera, &amp; Sanctorum doctorum ad 
+      proban<lb ed="#L" break="no" n="28"/>dum, generationem esse in Deo. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4300">
+                  <lb ed="#L" n="29"/>PROPTEREA dicendum, quod non est alia 
+      <lb ed="#L" n="30"/>via ad probandum efficaciter generationem 
+      <lb ed="#L" n="31"/>in Deo, nisi via, qua procedit August. &amp; Ansel. 
+      <lb ed="#L" n="32"/>&amp; alij Doctores sancti, quae sumitur ex 
+      enarra<lb ed="#L" break="no" n="33"/>tione intellectuali: illud enim, quod de 
+      necessita<lb ed="#L" break="no" n="34"/>te exigit veram intellectionem, attribui debet Deo, 
+      <lb ed="#L" n="35"/>semota omni imperfectione, Deus quidem vere 
+      <lb ed="#L" n="36"/>intelligens est, propter quod nihil sibi deest ex 
+      <lb ed="#L" n="37"/>iis, quae spectant ad rationem verae 
+      intellectio<lb ed="#L" break="no" n="38"/>nis, cum etiam perfectissimus sit, necesse est, vt 
+      <lb ed="#L" n="39"/>omnis imperfectio tollatur: sed constat, quod in 
+      <lb ed="#L" n="40"/>omni vera intellectione obiectum cognitum 
+      ca<lb ed="#L" break="no" n="41"/>pit esse apparens in nobis, aut &amp; in omni creato 
+      <lb ed="#L" n="42"/>illa apparentia imperfecta est, vtpote 
+      intentio<lb ed="#L" break="no" n="43"/>nalis, &amp; diminuta. Hoc autem apparet superius 
+      <lb ed="#L" n="44"/>multis viis, &amp; quilibet sic experitur, quod 
+      intelli<lb ed="#L" break="no" n="45"/>gendo quamcumque rem, illam intra se concipit, 
+      <lb ed="#L" n="46"/>format, &amp; gignit. ergo &amp; Deus intelligendo se, 
+      <lb ed="#L" n="47"/>vere formabit, &amp; gignet sui similitudinem, 
+      po<lb ed="#L" break="no" n="48"/>nendo totum Deum in esse apparenti, &amp; 
+      forma<lb ed="#L" break="no" n="49"/>to, amota tamen imperfectione 
+      intentionalita<lb ed="#L" break="no" n="50"/>tis, &amp; posita reali perfectione. relinquitur ergo, 
+      <lb ed="#L" n="51"/>quod Deus vere, &amp; realiter seipsum generauit, si 
+      <lb ed="#L" n="52"/>seipsum veraciter intellexit. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4355">
+                  <lb ed="#L" n="53"/>Hac autem via, qua graditur Augustinus 
+      vbi<lb ed="#L" break="no" n="54"/>quo in libro de Trinitate, &amp; expresse in libro de 
+      <lb ed="#L" n="55"/>cognitione verae vitae, responsione 19. dicens, 
+      <lb ed="#L" n="56"/>Cum mens seipsam cogitat, quasi aliam 
+      men<lb ed="#L" break="no" n="57"/>tem sibi similem generat, sic summus Deus, cum 
+      <lb ed="#L" n="58"/>seipsum talem, qualis est cogitauit, proculdubio 
+      <lb ed="#L" n="59"/>sibi similem per omnia imaginem generauit, &amp; 
+      <lb ed="#L" n="60"/>sicut gignens virtus Pater vocatur, ita 
+      rectissi<lb ed="#L" break="no" n="61"/>me genitus filius nominatur. Hoc Augustinus. 
+      <lb ed="#L" n="62"/>vnde patet, qualiter arguit modo praedicto. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4379">
+                  <lb ed="#L" n="63"/>Hac quoque via procedit Anselmus Monolog. 
+      <lb ed="#L" n="64"/>go, dicens, quod tripliciter rem aliquam loqui 
+      <lb ed="#L" n="65"/>polimus: aut enim rem loquimur signis sensibi- 
+      <!--0329.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>libus, aut eandem significatam intra nos 
+      insen<lb ed="#L" break="no" n="67"/>sibiliter cogitamus, aut nec sensibiliter, nec 
+      in<lb ed="#L" break="no" n="68"/>sensibiliter, signis vtendo, sed res ipsas interius 
+      <lb ed="#L" n="69"/>dicendo, &amp; subdit exemplificando, quod aliter 
+      <lb ed="#L" n="70"/>dico hominem, cum eum hoc nomine homo 
+      si<lb ed="#L" break="no" n="71"/>gnifico, aliter cum idem nomen tacens cogito, 
+      <lb ed="#L" n="72"/>aliter cum ipsummet hominem mens intuetur, 
+      <lb ed="#L" n="73"/>&amp; subdit, quod verba tertiae locutionis 
+      natura<lb ed="#L" break="no" n="74"/>lia sunt, &amp; apud omnes gentes eadem, &amp; omnia 
+      <lb ed="#L" n="75"/>alia verba inuenta sunt propter illa, &amp; nullum 
+      <lb ed="#L" n="76"/>aliud verbum est necessarium ad cognoscendam 
+      <lb ed="#L" n="77"/>rem. nullum enim verbum sic exprimit, sicut 
+      il<lb ed="#L" break="no" n="78"/>la similitudo, quae in acie mentis cogitantis rem 
+      <lb ed="#L" n="79"/>ipsam exprimit. illud igitur videtur dicendum 
+      <lb ed="#L" n="80"/>esse maxime proprie, &amp; principale rei verbum, 
+      <lb ed="#L" n="81"/>quapropter si nulla de qualibet re locutio 
+      tan<lb ed="#L" break="no" n="82"/>tum rei appropinquat, quantum illa, quae 
+      huius<lb ed="#L" break="no" n="83"/>modi verbis constat, non immerito videri 
+      po<lb ed="#L" break="no" n="84"/>test apud summam substantiam talem rerum 
+      lo<lb ed="#L" break="no" n="85"/>quutionem fuisse, antequam essent, &amp; per eam 
+      <lb ed="#L" n="86"/>fierent, &amp; esse cum facta sunt, vt per eam 
+      scian<lb ed="#L" break="no" n="87"/>tur. &amp; subdit: Quod constat summam 
+      substan<lb ed="#L" break="no" n="88"/>tiam, prius quam conderet in se dixisse, cunctam 
+      <lb ed="#L" n="89"/>creaturam secundum loquutionem vltimam, 
+      <lb ed="#L" n="90"/>quemadmodum faber prius mente concipit, 
+      <lb ed="#L" n="91"/>quod postea secundum mentis intentionem opus 
+      <lb ed="#L" n="92"/>perficit. Hoc Anselm. Vnde patet, quod ista via 
+      <lb ed="#L" n="93"/>procedit, &amp; similiter cap. 33. &amp; frequenter in 
+      <lb ed="#L" n="94"/>toto libro. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4455">
+                  <lb ed="#L" n="95"/>Instantiae contra praedictam rationem.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4460">
+                  <lb ed="#L" n="96"/>SED ista ratio nullius videtur esse momenti; 
+      <lb ed="#L" n="97"/>nulla enim operatio immanens videtur esse 
+      <lb ed="#L" n="98"/>productiua alicuius operati, vt Philosophus 
+      di<lb ed="#L" break="no" n="99"/>cit 9. Metaph. &amp; primo Ethic. dicit, quod tales 
+      <lb ed="#L" n="100"/>operationes sunt fines, vnde ex ipsis non 
+      sequi<lb ed="#L" break="no" n="101"/>tur aliquod operatum, sed intelligere est 
+      opera<lb ed="#L" break="no" n="102"/>tio immanens, sicut &amp; videre, vt Philosophus 
+      <lb ed="#L" n="103"/>dicit eodem 9. Metaph. ergo videtur, quod per 
+      <lb ed="#L" n="104"/>intellectionem nil emanat in Diuinis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4482">
+                  <lb ed="#L" n="105"/>Praeterea: Quando aliqua sunt penitus vnum, 
+      <lb ed="#L" n="106"/>&amp; idem, nil causatur per vnum, quod non 
+      cau<lb ed="#L" break="no" n="107"/>setur per aliud, sed velle, &amp; intelligere sunt 
+      v<lb ed="#L" break="no" n="108"/>nica, &amp; simplicissima operatio in Deo. ergo 
+      <lb ed="#L" n="109"/>non producitur plus verbum per intelligere, 
+      <lb ed="#L" n="110"/>quam per velle. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4499">
+                  <lb ed="#L" n="111"/>Praeterea: Non minus intelligit Filius, vel Spi 
+      <lb ed="#L" n="112"/>ritus sanctus, quam Pater, sed Filius, &amp; 
+      Spiri<lb ed="#L" break="no" n="113"/>tus sanctus non producunt verbum intelligendo. 
+      <lb ed="#L" n="114"/>ergo non est de ratione intellectionis, quod 
+      ali<lb ed="#L" break="no" n="115"/>quid producatur. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4512">
+                  <lb ed="#L" n="116"/>Praeterea: Apparentia, &amp; res opponuntur, 
+      <lb ed="#L" n="117"/>apparentia enim rei non est res, sed verbum in 
+      <lb ed="#L" n="118"/>Diuinis est aliquid reale. ergo non emanat per 
+      <lb ed="#L" n="119"/>modum Dei positi in esse apparenti per actum 
+      <lb ed="#L" n="120"/>intellectus. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4525">
+                  <lb ed="#L" n="121"/>Praeterea: Quandocumque competit alicui 
+      secun<lb ed="#L" break="no" n="122"/>dum rationem suam, vt producat in esse 
+      intentio<lb ed="#L" break="no" n="123"/>nali, non potest producere in esse reali; sed de ra 
+      <lb ed="#L" n="124"/>tione intellectionis est, quod res cognita 
+      ema<lb ed="#L" break="no" n="125"/>net tantum in esse intentionali. ergo non potest 
+      <lb ed="#L" n="126"/>competere Diuinae intellectioni, vt per eam ema 
+      <lb ed="#L" n="127"/>net in esse reali aliquid.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4543">
+                  <lb ed="#L" n="128"/>Praeterea: Si verbum in Diuinis non est aliud, 
+      <lb ed="#L" n="129"/>quam Deus positus in esse obiectali, &amp; cognitus. 
+      <lb ed="#L" n="130"/>ergo nihil est cognitum in Diuinis, nisi verbum. 
+      <lb ed="#L" n="131"/>pater ergo non est cognitus, nec Spiritus san- 
+      <!--0330.xml-->
+      <pb ed="#L" n="330"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cus: hoc autem absonum; ergo &amp; illud, quod 
+      <lb ed="#L" n="2"/>Deus sit positus in esse obiectali, &amp; cognito. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4565">
+                  <lb ed="#L" n="3"/>Solutio ad instantias.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4570">
+                  <lb ed="#L" n="4"/>SED istis non obstantibus dicendum est, sicut 
+      <lb ed="#L" n="5"/>O prius. per istam enim viam demonstratiue 
+      <lb ed="#L" n="6"/>probatur, quod in Diuinis est generatio, &amp; Deus 
+      <lb ed="#L" n="7"/>genitus saltem in esse intentionali, quod enim 
+      <lb ed="#L" n="8"/>realis sit ista generatio, licet efficaciter 
+      conclu<lb ed="#L" break="no" n="9"/>datur pro eo, quod ad perfectionem 
+      generatio<lb ed="#L" break="no" n="10"/>nis pertinet, quod sit realis. entia enim realia 
+      <lb ed="#L" n="11"/>perfecta sunt, &amp; intentionalia diminuta, 
+      nihilo<lb ed="#L" break="no" n="12"/>minus non est andeo patens demonstratio, quin 
+      <lb ed="#L" n="13"/>posset calumniari, vnde nec aliquid ascendisset 
+      <lb ed="#L" n="14"/>ad istam veritatem, nisi fuisset penitus reuelatum.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4597">
+                  <lb ed="#L" n="15"/>Praedictae vero instantiae non procedunt. 
+      Pri<lb ed="#L" break="no" n="16"/>ma siquidem non: quoniam intelligere respectu 
+      <lb ed="#L" n="17"/>obiecti apparentis, &amp; relucentis sibi habet 
+      du<lb ed="#L" break="no" n="18"/>plicem habitudinem, vt superius dicebatur, 
+      sci<lb ed="#L" break="no" n="19"/>licet habitudinem formantis, quia virtute eius 
+      <lb ed="#L" n="20"/>res apparet, &amp; lucet obiectiue, &amp; habitudinem 
+      <lb ed="#L" n="21"/>terminantis, quoniam res sibi lucet, &amp; apparet: 
+      <lb ed="#L" n="22"/>formare autem non est proprie intelligere. 
+      face<lb ed="#L" break="no" n="23"/>re enim rem apparere alteri, &amp; non sibi, non 
+      es<lb ed="#L" break="no" n="24"/>set intelligere. rem autem apparere sibi est 
+      pro<lb ed="#L" break="no" n="25"/>prie rem intelligere. Est autem attendendum 
+      <lb ed="#L" n="26"/>quod illae duae habitudines non sunt eaedem, 
+      nihi<lb ed="#L" break="no" n="27"/>lominus debentur eidem absoluto, videlicet 
+      a<lb ed="#L" break="no" n="28"/>ctui intellectus, inquantum claudit potentiam, &amp; 
+      <lb ed="#L" n="29"/>similitudinem termini. Cum ergo dicitur, quod 
+      <lb ed="#L" n="30"/>intelligere est operatio immanens, dicendum, 
+      <lb ed="#L" n="31"/>quod verum est sub ratione, qua est intellectio, 
+      <lb ed="#L" n="32"/>cum non sit aliud intelligere, quam sibi rem 
+      ap<lb ed="#L" break="no" n="33"/>parere, non tamen verum est, quin illud 
+      absolu<lb ed="#L" break="no" n="34"/>tum, cui res apparent sit illud, cuius virtute res 
+      <lb ed="#L" n="35"/>habeat, quod luceat, &amp; appareat, &amp; ita eadem 
+      <lb ed="#L" n="36"/>res dici potest intelligere, &amp; vt sic est actus 
+      im<lb ed="#L" break="no" n="37"/>manens, &amp; omnino non transiens, &amp; eadem res 
+      <lb ed="#L" n="38"/>dici potest formatio, siue locutio, inquantum 
+      vir<lb ed="#L" break="no" n="39"/>tute eius habet res, quod appareat obiectiue, &amp; 
+      <lb ed="#L" n="40"/>haec est mens Philosophi, dum dicit istas 
+      opera<lb ed="#L" break="no" n="41"/>tiones non esse transeuntes, nec est putandum, 
+      <lb ed="#L" n="42"/>sicut aliqui volunt, quod intelligere non sit aliud, 
+      <lb ed="#L" n="43"/>quam habere quandam qualitatem absolutam, 
+      <lb ed="#L" n="44"/>sicut lucere est lucem habere, hoc quidem verum 
+      <lb ed="#L" n="45"/>non est, quia tales actus qualitatiui non transeunt 
+      <lb ed="#L" n="46"/>obiectiue. non enim dicitur, Luceo te, sicut 
+      in<lb ed="#L" break="no" n="47"/>telligo te, propter quod intellectio, non est 
+      abso<lb ed="#L" break="no" n="48"/>lutae formae habitio, sed obiecti apparentis 
+      ha<lb ed="#L" break="no" n="49"/>bitio, &amp; recollectio secundum esse apparens: hoc 
+      <lb ed="#L" n="50"/>autem habere, non est in aliud transire, propter 
+      <lb ed="#L" n="51"/>quod intelligere non est operatio transiens secun 
+      <lb ed="#L" n="52"/>dum suum formale, facere tamen apparere rem, 
+      <lb ed="#L" n="53"/>est actio transiens secundum suum formale, 
+      face<lb ed="#L" break="no" n="54"/>re apparere est actio transiens. est enim verbum 
+      <lb ed="#L" n="55"/>formare. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4688">
+                  <lb ed="#L" n="56"/>Secunda etiam non procedit, quod licet intel 
+      <lb ed="#L" n="57"/>ligere, &amp; velle idem sint, &amp; re, ratione in 
+      Dini<lb ed="#L" break="no" n="58"/>nis, differentia tantum, penes connotatum, 
+      di<lb ed="#L" break="no" n="59"/>cere tamen, &amp; spirare non sunt idem, quia 
+      di<lb ed="#L" break="no" n="60"/>cere non est aliud, quam facere rem apparere; 
+      <lb ed="#L" n="61"/>spirare vero est facere spiritum egredi, &amp; exire. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4704">
+                  <lb ed="#L" n="62"/>Tertia quoque non obuiat: licet enim Pater, 
+      <lb ed="#L" n="63"/>&amp; Filius, &amp; Spiritus sanctus per rationem Deita 
+      <lb ed="#L" n="64"/>tis recolligant verbum sub ratione apparentis, 
+      <lb ed="#L" n="65"/>non tamen virtute Deitatis emanat verbum, vt 
+      <lb ed="#L" n="66"/>est in tribus, vnde facere apparere constituit 
+      <!--0330.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>personam Patris, sicut ipsum apparere 
+      consti<lb ed="#L" break="no" n="68"/>tuit personam Filij: commune est autem tribus 
+      <lb ed="#L" n="69"/>intelligere, hoc est obiectiue recipere, non 
+      ta<lb ed="#L" break="no" n="70"/>men dicere, seu obiectum formare. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4730">
+                  <lb ed="#L" n="71"/>Quarta etiam non obsistit: est enim 
+      conside<lb ed="#L" break="no" n="72"/>randum, quod omni relationi reali potest 
+      repe<lb ed="#L" break="no" n="73"/>riri consimilis relatio secundum rationem. 
+      vi<lb ed="#L" break="no" n="74"/>demus enim, quod dextrum, &amp; sinistrum sunt 
+      rea<lb ed="#L" break="no" n="75"/>les relationes in animali, cum autem 
+      attribuun<lb ed="#L" break="no" n="76"/>tur columnae, sunt secundum rationem: similiter 
+      <lb ed="#L" n="77"/>dominium, prout est in creatura, est relatio 
+      rea<lb ed="#L" break="no" n="78"/>lis, prout autem est in Deo, est relatio rationis, 
+      <lb ed="#L" n="79"/>&amp; consimiliter prout per oppositum habitudo 
+      <lb ed="#L" n="80"/>quidditatis ad supppsitum in creatura, &amp; 
+      secun<lb ed="#L" break="no" n="81"/>dum rationem. humanitas enim respicit habens 
+      <lb ed="#L" n="82"/>humanitatem, tamquam idem realiter, sed 
+      di<lb ed="#L" break="no" n="83"/>stinctum conceptibiliter. In Christo autem 
+      hu<lb ed="#L" break="no" n="84"/>manitas respicit suppositum sub habitudine 
+      quid<lb ed="#L" break="no" n="85"/>ditatiua, &amp; reali, &amp; ita quidditatiua habitudo, 
+      <lb ed="#L" n="86"/>quae secundum rationem est in omni homine, iu 
+      <lb ed="#L" n="87"/>Christo est secundum rem, &amp; realis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4769">
+                  <lb ed="#L" n="88"/>Ad propositum itaque apparentia, &amp; esse 
+      for<lb ed="#L" break="no" n="89"/>matum, quod recipit obiectum cognitum per 
+      a<lb ed="#L" break="no" n="90"/>ctum intellectus creati, est apparentia diminuta, 
+      <lb ed="#L" n="91"/>&amp; secundum rationem, cum intentionalis sit 
+      tan<lb ed="#L" break="no" n="92"/>tum; omne autem diminutum arguit aliquod 
+      per<lb ed="#L" break="no" n="93"/>fectum, quare non est irrationabile, immo summe 
+      <lb ed="#L" n="94"/>conueniens, quod alicubi reperiatur talis 
+      appa<lb ed="#L" break="no" n="95"/>rentia vere realis, &amp; perfectz: non est autem 
+      ae<lb ed="#L" break="no" n="96"/>que conueniens alibi reperiri, quam in Deo, 
+      vn<lb ed="#L" break="no" n="97"/>de necesse est, quod obiectum intellectus Diuitl 
+      <lb ed="#L" n="98"/>procedat in esse reali, cuius apparentia, &amp; 
+      relu<lb ed="#L" break="no" n="99"/>centia sit aliquid vere reale. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4798">
+                  <lb ed="#L" n="100"/>Quod ergo dicitur, quod apparentia, &amp; res 
+      <lb ed="#L" n="101"/>opponuntur, seu veritas, &amp; apparentia, 
+      dicen<lb ed="#L" break="no" n="102"/>dum, quod aeliquando apparentia sumitur pro 
+      <lb ed="#L" n="103"/>fictione, &amp; tunc apparentia opponitur veritati, 
+      <lb ed="#L" n="104"/>&amp; realitati, aliquando vero pro relucentia, &amp; 
+      <lb ed="#L" n="105"/>tunc potest esse vera, &amp; realis. In nobis itaque 
+      <lb ed="#L" n="106"/>res habent apparentiam, quia non sunt, nisi 
+      se<lb ed="#L" break="no" n="107"/>cundum rem fictum obiectiue, vnde relucent 
+      <lb ed="#L" n="108"/>quadam relucentia non reali. In Deo vero 
+      ver<lb ed="#L" break="no" n="109"/>bum est Deus relucens vera relucentia, &amp; reali. 
+      <lb ed="#L" n="110"/>de ratione enim verbi est, quod intus luceat, 
+      fi<lb ed="#L" break="no" n="111"/>cut dicit August. vel dicendum, quod 
+      apparen<lb ed="#L" break="no" n="112"/>tia, licet non sit res, cuius est apparentia in se, po 
+      <lb ed="#L" n="113"/>test tamen esse verissima res, verbum autem in 
+      <lb ed="#L" n="114"/>Diuinis est relucentia, &amp; imago Dei Patris, 
+      pro<lb ed="#L" break="no" n="115"/>pter quod in se res est, non tamen est Deus Pater, 
+      <lb ed="#L" n="116"/>&amp; adhuc dicendum, quod relucentia, &amp; 
+      appa<lb ed="#L" break="no" n="117"/>rentia est idem realiter cum re, cuius est 
+      appa<lb ed="#L" break="no" n="118"/>rentia, quantum ad omne absolutum, addit 
+      ta<lb ed="#L" break="no" n="119"/>men aliquid respectiuum, quod quidem potest 
+      <lb ed="#L" n="120"/>esse reale, sicut in Deo, &amp; intentionale, sicut 
+      <lb ed="#L" n="121"/>in nobis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4849">
+                  <lb ed="#L" n="122"/>Quinta etiam non procedit, quamuis enim 
+      <lb ed="#L" n="123"/>intellectus actui, vbi est diminutus competat, 
+      <lb ed="#L" n="124"/>vt obiectum formaret in esse intentionali, vbi ta 
+      <lb ed="#L" n="125"/>men est perfectissimus, vt in Deo, sibi comperit, 
+      <lb ed="#L" n="126"/>vt faciat realiter relucere, vnde intellectui, 
+      pro<lb ed="#L" break="no" n="127"/>ut abstrahit, &amp; est quid commune Deo, &amp; 
+      crea<lb ed="#L" break="no" n="128"/>turis, competit obiectum formare, &amp; ponere in 
+      <lb ed="#L" n="129"/>esse relucenti, qui quidem ponit in tali esse 
+      rea<lb ed="#L" break="no" n="130"/>liter, prout ad Deum applicabitur, sed vt 
+      speci<lb ed="#L" break="no" n="131"/>fcabitur ad nos, ponit in esse diminuto. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4873">
+                  <lb ed="#L" n="132"/>Sexta etiam non concludit: est enim 
+      sciendu<lb ed="#L" break="no" n="133"/>quod res extra dicuntur intelligi pro eo, cad 
+      <!--0331.xml-->
+      <pb ed="#L" n="331"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>de eis colligitur conceptus obiectiuus in 
+      men<lb ed="#L" break="no" n="2"/>te; esse autem obiectiuum, &amp; apparens, non est 
+      <lb ed="#L" n="3"/>idem cum esie extra relatiue, quamuis sit idem 
+      <lb ed="#L" n="4"/>absolute, quia res est eadem, quae habet essse 
+      ap<lb ed="#L" break="no" n="5"/>parens in intellectu, &amp; reale extra. Sic ergo 
+      ali<lb ed="#L" break="no" n="6"/>ter res extra dicuntur intelligi, &amp; esse obiectum 
+      <lb ed="#L" n="7"/>intellectus, &amp; aliter eaedem res, prout habent 
+      es<lb ed="#L" break="no" n="8"/>se apparens. si enim res, prout sunt extra dicun 
+      <lb ed="#L" n="9"/>tur intelligi, quod esse carum extra non est esse 
+      <lb ed="#L" n="10"/>intellectum, vel esse obiectale, prout autem 
+      ha<lb ed="#L" break="no" n="11"/>bent esse in intellectu, sic dicuntur intelligi, 
+      <lb ed="#L" n="12"/>quod esse earum, vt sic, non est aliud, quam &amp; 
+      <lb ed="#L" n="13"/>intellecum, &amp; obiectum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4915">
+                  <lb ed="#L" n="14"/>Ad propositum ergo pater, &amp; Spiritus sanctus, 
+      <lb ed="#L" n="15"/>&amp; omnia, quae sunt in Deo dicuntur esse 
+      cogni<lb ed="#L" break="no" n="16"/>ta, &amp; obiecta intelligibilia, eo modo, quo res 
+      ex<lb ed="#L" break="no" n="17"/>tra, quia esse Patris, &amp; Spiritus sancti non est 
+      es<lb ed="#L" break="no" n="18"/>se obiectale, seu esse formatum, solus autem 
+      Fi<lb ed="#L" break="no" n="19"/>lius dicitur Deus cognitus, quia esse eius, inquam 
+      <lb ed="#L" n="20"/>tum verbum, &amp; Filius non est aliud, quam esse 
+      <lb ed="#L" n="21"/>reluceus, &amp; conspicuum, prout de anima 14. de 
+      <lb ed="#L" n="22"/>Trinit. loquitur August. quod seipsam ponit con 
+      <lb ed="#L" n="23"/>spicuam ante se; ista tamen conspicuitas, &amp; 
+      re<lb ed="#L" break="no" n="24"/>lucentia est vere realis in Deo verbo, &amp; est exem 
+      <lb ed="#L" n="25"/>plum ad hoc de mente seipsam conduplicante 
+      <lb ed="#L" n="26"/>per actum intellectus: licet enim se intelligat, 
+      <lb ed="#L" n="27"/>&amp; prout est in se, &amp; prout est conspicua ante se, 
+      <lb ed="#L" n="28"/>nihilominus esse conspicuum, &amp; obiectale, non 
+      <lb ed="#L" n="29"/>habet, prout est in se. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4952">
+                  <lb ed="#L" n="30"/>Patet ergo, quod illae instantiae non procedant, 
+      <lb ed="#L" n="31"/>quod efficax est ratio praeassumpta. &amp; in hoc Ar 
+      <lb ed="#L" n="32"/>ticulus quartus finitur. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4961">
+                  <lb ed="#L" n="33"/>Responsio ad obiecta in oppositum.
+    </p>
+               <p xml:id="ol96b1-102919-d1e4966">
+                  <lb ed="#L" n="34"/>AD ea vero, quae in oppositum inducuntur, 
+      <lb ed="#L" n="35"/>dicendum est. Ad primum quidem, quod 
+      <lb ed="#L" n="36"/>generare verbum est quidam actus perrinens ad 
+      <lb ed="#L" n="37"/>perfectionem per modum principij ad 
+      intelle<lb ed="#L" break="no" n="38"/>ctionem. impossibile est enim, quod aliquid 
+      re<lb ed="#L" break="no" n="39"/>cipiat relucentiam obiectiuam, nisi relucentia 
+      <lb ed="#L" n="40"/>illa virtute intellectiua formetur, &amp; quod 
+      dici<lb ed="#L" break="no" n="41"/>tur de Sole, &amp; anima intellectiua, &amp; Angelis, 
+      <lb ed="#L" n="42"/>quod non generant, dicendum, quod anima, &amp; 
+      <lb ed="#L" n="43"/>Angeli generant isto modo, dicunt enim intra 
+      <lb ed="#L" n="44"/>se verbum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e4993">
+                  <lb ed="#L" n="45"/>Ad secundum dicendum, quod generatio 
+      ver<lb ed="#L" break="no" n="46"/>bi nec in nobis, nec in Deo est mutatio, sed ema 
+      <lb ed="#L" n="47"/>natio simplex. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e5002">
+                  <lb ed="#L" n="48"/>Ad tertium dicendum, quod per 
+      generatio<lb ed="#L" break="no" n="49"/>nem verbi non capit aliqua substantia esse, nec 
+      <lb ed="#L" n="50"/>in nobis, nec in Deo, nisi accipiatur substantia 
+      <lb ed="#L" n="51"/>pro supposito. verbum enim in nobis est 
+      inten<lb ed="#L" break="no" n="52"/>tionale suppositum: rosa enim intelligitur per 
+      <lb ed="#L" n="53"/>modum subsistentis. capit ergo per 
+      generatio<lb ed="#L" break="no" n="54"/>nem verbi substantia, non quod sit substantia, sed 
+      <lb ed="#L" n="55"/>quod sit per modum relucentis, &amp; apparentis, 
+      <lb ed="#L" n="56"/>relucentia quidem intentionali in nobis, reali 
+      <lb ed="#L" n="57"/>vero in Deo.
+    </p>
+               <p xml:id="ol96b1-102919-d1e5026">
+                  <lb ed="#L" n="58"/>Ad quartum dicendum, quod generans, &amp; ge 
+      <lb ed="#L" n="59"/>nitum in generatione verbi sunt penitus idem, 
+      <lb ed="#L" n="60"/>quantum ad omne absolutum, vt declaratum 
+      <lb ed="#L" n="61"/>est in corpore quaestionis. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e5037">
+                  <lb ed="#L" n="62"/>Ad quintum dicendum, quod generatio non 
+      <lb ed="#L" n="63"/>transfertur a creaturis in Deum, immo per prius 
+      <lb ed="#L" n="64"/>est in Deum secundum Damascenum, &amp; inde 
+      de<lb ed="#L" break="no" n="65"/>riuatir ad creaturas intellectuales, sed modo 
+      <!--0331.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>diminuto, quia non generant verbum reale, sed 
+      <lb ed="#L" n="67"/>intentiona le tantum. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e5057">
+                  <lb ed="#L" n="68"/>Ad sextum dicendum, quod Filius genitus, 
+      <lb ed="#L" n="69"/>non generat aliud verbum, nec hoc sibi 
+      commu<lb ed="#L" break="no" n="70"/>nicatur. sicut enim intellectio est infinita, &amp; 
+      <lb ed="#L" n="71"/>tota subsistens, sic est verbum secundum suam 
+      <lb ed="#L" n="72"/>rationem totaliter subsistens, &amp; similiter tota 
+      <lb ed="#L" n="73"/>ratio dictionis, &amp; generationis infinita est, &amp; 
+      <lb ed="#L" n="74"/>subsistens simpliciter, propter quod plurificari 
+      <lb ed="#L" n="75"/>non potest, vnde non potest esse, nisi vnus Filius, 
+      <lb ed="#L" n="76"/>nec verbi formatio, nisi vna, quae est tota 
+      simpli<lb ed="#L" break="no" n="77"/>citer, quod generare non potest genitus. 
+    </p>
+               <p xml:id="ol96b1-102919-d1e5081">
+                  <lb ed="#L" n="78"/>Ad vltimum dicendum, quod verbi 
+      genera<lb ed="#L" break="no" n="79"/>tio non datur ad conseruationem speciei, sed ad, 
+      <lb ed="#L" n="80"/>completionem intellectionis, inquantum non 
+      <lb ed="#L" n="81"/>est aliud intelligere, quam verbum sibi relucens 
+      <lb ed="#L" n="82"/>habere; generatio vero, quae datur ad 
+      conserua<lb ed="#L" break="no" n="83"/>tionem speciei corruptibilibus creaturis, illa 
+      <lb ed="#L" n="84"/>non est in Deo, nec ratio illius. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

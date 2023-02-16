@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="41"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c12998"> <!-- l1prolp4-prae -->
+            <head xml:id="ol96b1-c12998-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c12998-d1e104">
+               <lb ed="#L" n="64"/>
+               <quote xml:id="ol96b1-c12998-Qd1e108">In quo maiorum</quote>, &amp;c. Postquam Magister causas 
+      <lb ed="#L" n="65"/>aperuit susceptionis operis, &amp; respondit aemulis 
+      <lb ed="#L" n="66"/>suis, hic loquitur discipulis beneuolis, &amp; sedulis. 
+      <lb ed="#L" n="67"/>Et circa hoc quatuor facit. primo enim aperi 
+      <lb ed="#L" n="68"/>bri auctoritatem dicens, quod in hoc libro 
+      pelo<lb ed="#L" break="no" n="69"/>ta sunt dicta Sanctorum, exemplaria, &amp; eorum 
+      <lb ed="#L" n="70"/>doctrina, &amp; pro raro sua sententia insonuit, &amp; 
+      syl<lb ed="#L" break="no" n="71"/>cubi insopuit, a paternis limitibus non discessit? 
+      <lb ed="#L" n="72"/>ex quo colligitur, quantae auctoritatis sit liber iste 
+      <lb ed="#L" n="73"/>Secundo ibi: Non igitur debet. Magister aperit 
+      libri<lb ed="#L" break="no" n="74"/>vtilitatem, dicens equod liber iste non debet 
+      vi<lb ed="#L" break="no" n="75"/>deri superfluus nec indocto ec pigro, quoniam 
+      <lb ed="#L" n="76"/>multum est necessarius: continet nanque Patrum 
+      <lb ed="#L" n="77"/>sententias in vno breui volumine debitis testimo 
+      <lb ed="#L" n="78"/>nijs comprobatas, ita vt non sit necesseipmrenti 
+      <lb ed="#L" n="79"/>dicta sanctorum, numerositatem librorum 
+      euo<lb ed="#L" break="no" n="80"/>luere. nam id quod quaeritur, hic offertur absque 
+      <lb ed="#L" n="81"/>labore. Tertio, ibi: In hoc autem tractatu. Magister 
+      <lb ed="#L" n="82"/>aperit suam humilittm, dicens se desidetare in 
+      <lb ed="#L" n="83"/>tractatu praesenti non tam pium lectorem in 
+      be<lb ed="#L" break="no" n="84"/>nedictis, quam ab omni inuidia, &amp; malitia 
+      libe<lb ed="#L" break="no" n="85"/>rum correctorem, sed detestatur veritatis 
+      con<lb ed="#L" break="no" n="86"/>tradistorem. <quote xml:id="ol96b1-c12998-Qd1e158">Vt autem quod quaeritur</quote>, &amp;c. hic 
+      le<lb ed="#L" break="no" n="87"/>ctio terminatur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

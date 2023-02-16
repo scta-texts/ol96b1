@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="640"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-207768"> <!-- l1d28p1-q1 -->
+            <head xml:id="ol96b1-207768-Hd1e102">Quaestio 1</head>
+            <head xml:id="ol96b1-207768-Hd1e104" type="question-title">Utrum innascibilitas sit proprietas constitutiua patris.</head>
+            <p xml:id="ol96b1-207768-d1e107">
+               <lb ed="#L" n="13"/>Vtrum innascibilitas sit proprietas constitutiua patris. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e112">
+               <lb ed="#L" n="14"/>ET quia Magister hic agit de notione 
+      inge<lb ed="#L" break="no" n="15"/>niti, &amp; innascibilis. Idcirco inquirendum 
+      oc<lb ed="#L" break="no" n="16"/>currit, vtrum innascibilitas sit proprietas 
+      consti<lb ed="#L" break="no" n="17"/>tutiua patris. Et videtur, quod sic. Persona namque 
+      <lb ed="#L" n="18"/>patris constituitur per aliquam proprietatem, quae 
+      <lb ed="#L" n="19"/>sit in ea, sed non potest constitui per communem 
+      <lb ed="#L" n="20"/>spirationem, alioquin resultaret vna communis 
+      <lb ed="#L" n="21"/>persona patri, &amp; filio, nec per paternitatem, cum 
+      <lb ed="#L" n="22"/>paternitas sit posterior, quam generare, 
+      super<lb ed="#L" break="no" n="23"/>quod fundatur ipsa paternitas, a quo 
+      intelligi<lb ed="#L" break="no" n="24"/>tur elici, &amp; profuere. ergo necesse est, quod per 
+      <lb ed="#L" n="25"/>innascibilitatem constituatur, cum non sit ibi 
+      <lb ed="#L" n="26"/>proprietas in patre vltra paternitatem, &amp; spira 
+      <lb ed="#L" n="27"/>tionem actiuam. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e146">
+               <lb ed="#L" n="28"/>Praeterea: Proprietas ad dignitatem pertinens 
+      <lb ed="#L" n="29"/>adueniens primo essentiae constituit personã; sed 
+      <lb ed="#L" n="30"/>innascibilitas ad dignitatem pertinet, sicut patet. 
+      <lb ed="#L" n="31"/>aduenit enim primo essentiae, quam paternitas, 
+      <lb ed="#L" n="32"/>quia filiatio, &amp; paternitas, tãquam correlatiua 
+      <lb ed="#L" n="33"/>sunt simul vera, &amp; intellecta, &amp; per consequens 
+      <lb ed="#L" n="34"/>innascibilitas esset posterior filiatione, &amp; ita cō 
+      <lb ed="#L" n="35"/>municaretur filio, cum omne posterius filiatione 
+      <lb ed="#L" n="36"/>cõicetur sibi. vnde restat, quod innascibilitas non sit 
+      <lb ed="#L" n="37"/>posterior paternitate, immo sit prior ea. ergo 
+      <lb ed="#L" n="38"/>prima persona constituetur per innascibilitatem. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e172">
+               <lb ed="#L" n="39"/>Praeterea: Primum suppositum debet constitui 
+      <lb ed="#L" n="40"/>per proprietatem, quae maxime paternitatem im 
+      <lb ed="#L" n="41"/>portat, sed innascibilitas est huiusmodi. plus est 
+      <lb ed="#L" n="42"/>enim de ratione primi, quod non sit ab alio, quam ab 
+      <lb ed="#L" n="43"/>ipso sit aliud. vnde vltimum in resolutione est 
+      pri<lb ed="#L" break="no" n="44"/>mum in compositione: resoluendo autem statur 
+      <lb ed="#L" n="45"/>in innascibili, quod non est ab alio priore: non sta 
+      <lb ed="#L" n="46"/>tur autem in patre, quia pater potest esse ab 
+      a<lb ed="#L" break="no" n="47"/>lio. ergo innascibilitas constituit primum 
+      sup<lb ed="#L" break="no" n="48"/>positum, &amp; primam personam. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e196">
+               <lb ed="#L" n="49"/>Praeterea: Aug. dicit, quod si pater non genuisset, 
+      <lb ed="#L" n="50"/>nil prohiberet eum dici ingenitum. quaerendum est er 
+      <lb ed="#L" n="51"/>go, quid ingenitũesset. aut enim ꝑsona ingenita 
+      <lb ed="#L" n="52"/>aut essentia, sed non posset dici essentia ingenita, 
+      <lb ed="#L" n="53"/>put ingenitum dicit proprietatem patris. non enim 
+      <lb ed="#L" n="54"/>innascibilitas de essentia praedicatur, nec de 
+      fi<lb ed="#L" break="no" n="55"/>filio, &amp; de spiritu sancto, vt Mag. dicit in litt. 
+      er<lb ed="#L" break="no" n="56"/>go esset persona ingenita, &amp; per consequens consti 
+      <lb ed="#L" n="57"/>tueretur per ingenitum, vel per innascibilitatem. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e218">
+               <lb ed="#L" n="58"/>Praeterea: Persona debet constitui per 
+      proprie<lb ed="#L" break="no" n="59"/>tatem, quae magis perrinet ad dignitatem ipsius, 
+      <lb ed="#L" n="60"/>sed innascibilitas magis exprimit dignitatem 
+      <lb ed="#L" n="61"/>personae primae, quam paternitas, dignius est ha 
+      <lb ed="#L" n="62"/>bere aliquid non communicatum, quam alteri 
+      <lb ed="#L" n="63"/>communicatum, &amp; dignius est non esse ab altero, 
+      <lb ed="#L" n="64"/>quam alterum esse ab eo. vnde maioris dignitatis 
+      <lb ed="#L" n="65"/>est in Deo, quod est a nullo creatus, quam quod 
+      <!--0640.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>creaturae crearentur ab eo. Innascibilitas 
+      expri<lb ed="#L" break="no" n="67"/>mit circa patrem, quod non sit ab asio, 
+      patermi<lb ed="#L" break="no" n="68"/>tas vero, quod aliud sit ab eo. ergo innascibilum 
+      <lb ed="#L" n="69"/>tas magis constituet, quam paternitas, cum 
+      ex<lb ed="#L" break="no" n="70"/>primat perfectius dignitatem primae personae. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e253">
+               <lb ed="#L" n="71"/>Praeterea: In omni genere primum est abfolu 
+      <lb ed="#L" n="72"/>tissimum, sed prima persona non est absolutiffima 
+      <lb ed="#L" n="73"/>in diuinis, si paternitas constitueret eam, imo aeque 
+      <lb ed="#L" n="74"/>dependeret a filio, sicut econuerso, cum relatiua 
+      <lb ed="#L" n="75"/>posita se ponant, &amp; perempta se perimant. ergo 
+      <lb ed="#L" n="76"/>necesse est, quod prima persona diuina 
+      consti<lb ed="#L" break="no" n="77"/>tuatur per proprietatem aliam a paternitate, 
+      <lb ed="#L" n="78"/>&amp; ita per innascibilitatem, cum non possit alia 
+      <lb ed="#L" n="79"/>reperiri, secundum quam sit independems. A 
+      <lb ed="#L" n="80"/>Praeterea: Omne, quod non est ab alio, a quo 
+      <lb ed="#L" n="81"/>est, aliud est, prius intelligitur non esse ab alio, 
+      <lb ed="#L" n="82"/>quam aliud esse ab eo. in omni enim primo essen 
+      <lb ed="#L" n="83"/>tialior est negatio praesens, quam ordo antecedem 
+      <lb ed="#L" n="84"/>tiae respectu posterioris. Et confirmatur, quia in 
+      <lb ed="#L" n="85"/>habente ordinem ad antecedens, &amp; subsequens prior 
+      <lb ed="#L" n="86"/>est ordo ad praecedens, sicut pater, quod in filio 
+      <lb ed="#L" n="87"/>ordo ad patrem, quem filiatio importat est prior re 
+      <lb ed="#L" n="88"/>spectu ad spiritum sanctum, quem importat spira 
+      <lb ed="#L" n="89"/>tio, quare secundum hoc negatio ordinis ad 
+      prae<lb ed="#L" break="no" n="90"/>cedens videtur esse prior, quam ordo ad 
+      subse<lb ed="#L" break="no" n="91"/>quens. affirmatio enim, &amp; negatio sunt in eodem 
+      <lb ed="#L" n="92"/>gradu: sed constat, quod innascibilitas negat in 
+      <lb ed="#L" n="93"/>patre ordinem ad praecedens; paternitas vero 
+      <lb ed="#L" n="94"/>ordinem ponit ad subsequens. ergo persona est 
+      <lb ed="#L" n="95"/>per prius innascibilis, quam pater, &amp; per 
+      con<lb ed="#L" break="no" n="96"/>sequens innascibilitate constituetur. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e312">
+               <lb ed="#L" n="97"/>Praeterea: Si inna scibilitas primam personam 
+      <lb ed="#L" n="98"/>non constitueret, hoc esset, quia puram 
+      negatio<lb ed="#L" break="no" n="99"/>nem dicit, &amp; nihil positiuum: hoc autem non 
+      <lb ed="#L" n="100"/>impedit, quia in modo significandi positionem, 
+      <lb ed="#L" n="101"/>&amp; affirmationem importat: tum quia dicit fon 
+      <lb ed="#L" n="102"/>talem paternitatem: tum quia esse in se est modus 
+      <lb ed="#L" n="103"/>essendi suppositiuus. quare esse a se erit modus 
+      <lb ed="#L" n="104"/>subsistendi positiuus in patre: tum quia esse ab 
+      alio<lb ed="#L" break="no" n="105"/>dicit modum positiuum in filio: non est autem minoris 
+      <lb ed="#L" n="106"/>dignitatis esse a se, quam ab alio: tum quia esse a 
+      <lb ed="#L" n="107"/>se non videtur aliud dicere, quam habere sufficiem 
+      <lb ed="#L" n="108"/>tiam subsistendi sine alio, hoc autem est valde 
+      positi<lb ed="#L" break="no" n="109"/>uum. ergo innascibilitas constituit personam primam. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e344">
+               <lb ed="#L" n="110"/>Praeterea: Eadem proprietate persona patris con 
+      <lb ed="#L" n="111"/>stituitur, &amp; distinguitur, sed distinguitur per 
+      in<lb ed="#L" break="no" n="112"/>nascibilitatem. dicit enim Damasc. quod omnia 
+      quae<lb ed="#L" break="no" n="113"/>cūque habet pater, filij sunt praeter non 
+      generatio<lb ed="#L" break="no" n="114"/>nem, quae non significat substantiae differentiam, 
+      <lb ed="#L" n="115"/>sed existentiae modum, &amp; infra, Omnia habet 
+      fi<lb ed="#L" break="no" n="116"/>lius propter patrem, hoc est, quia pater habet ea 
+      <lb ed="#L" n="117"/>praeter ingenerationem, &amp; generationem, &amp; 
+      pro<lb ed="#L" break="no" n="118"/>cessionem, ideo cap. II. subdit, quod pater, &amp; 
+      fi<lb ed="#L" break="no" n="119"/>lius, &amp; spiritus sanctus secundum omnia sunt vnum 
+      <lb ed="#L" n="120"/>praeter ingenerationem, &amp; generationem. ergo 
+      per<lb ed="#L" break="no" n="121"/>sona patris per innascibilitatem constitui videtur. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e373">
+               <lb ed="#L" n="122"/>Quod innascibilitas non constituat personam patris. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e378">
+               <lb ed="#L" n="123"/>SED in oppositum videtur, quod 
+      innascibili<lb ed="#L" break="no" n="124"/>Otas non sit proprietas constitutiua patris. 
+      <lb ed="#L" n="125"/>quod enim non est proprietas, non est 
+      constitu<lb ed="#L" break="no" n="126"/>tiua proprietas, sed innascibilitas non est 
+      pro<lb ed="#L" break="no" n="127"/>prietas. ergo non constitutiua patris. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e391">
+               <lb ed="#L" n="128"/>Praeterea: Personae in diuinis constituuntur 
+      pro<lb ed="#L" break="no" n="129"/>prietatibus per se relatiuis, sed innascibilitas 
+      <lb ed="#L" n="130"/>non est relatio, nisi per reductionem, sicut reduci- 
+      <!--0641.xml-->
+      <pb ed="#L" n="641"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tur priuatio ad habitum, &amp; ad affirmationem 
+      <lb ed="#L" n="2"/>negatio. ergo personam patris non constituit 
+      <lb ed="#L" n="3"/>innascibilitas in esse suppositum.
+    </p>
+            <p xml:id="ol96b1-207768-d1e413">
+               <lb ed="#L" n="4"/>Praeterea: Prima persona constituitur 
+      forma<lb ed="#L" break="no" n="5"/>liter aliquo positiuo, sed innascibilitas nil 
+      po<lb ed="#L" break="no" n="6"/>nit, sed negat secundum Aug. 5. de Trin. qui ait, 
+      <lb ed="#L" n="7"/>quod cum ingenitus pater dicitur, non quid sit, 
+      <lb ed="#L" n="8"/>sed quod non sit dicitur. ergo non potest 
+      con<lb ed="#L" break="no" n="9"/>stituere personam primam. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e429">
+               <lb ed="#L" n="10"/>Responsio ad quaestionem.
+    </p>
+            <p xml:id="ol96b1-207768-d1e435">
+               <lb ed="#L" n="11"/>AD quaestionem istam respondendo hoc 
+      or<lb ed="#L" break="no" n="12"/>dine procedetur. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e442">
+               <lb ed="#L" n="13"/>Primo namque inquiretur de 
+      innascibilita<lb ed="#L" break="no" n="14"/>te, an significet formaliter aliquid positiuum. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e449">
+               <lb ed="#L" n="15"/>Secundo vero quid sit illud, super quod 
+      fun<lb ed="#L" break="no" n="16"/>datur negatio, quae per innascibile importatur. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e456">
+               <lb ed="#L" n="17"/>Tertio quoque an personam primam 
+      con<lb ed="#L" break="no" n="18"/>stituat. 
+    </p>
+            <p xml:id="ol96b1-207768-d1e463">
+               <lb ed="#L" n="19"/>Quarto vero inquiretur, an saltem sit 
+      notio<lb ed="#L" break="no" n="20"/>nalis proprietas in persona patris. 
+    </p>
+            <div xml:id="ol96b1-207768-Dd1e470">
+               <head xml:id="ol96b1-207768-Hd1e472">Articulus 3</head>
+               <p xml:id="ol96b1-207768-d1e474">
+                  <lb ed="#L" n="21"/>ARTJCVLVS PRJMVS. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e479">
+                  <lb ed="#L" n="22"/>Opinio aliquorum.
+    </p>
+               <p xml:id="ol96b1-207768-d1e484">
+                  <lb ed="#L" n="23"/>CIRCA primum considerandum, quod 
+      ali<lb ed="#L" break="no" n="24"/>qui dicere voluerunt, innascibilitatem 
+      si<lb ed="#L" break="no" n="25"/>gnificare formaliter aliquid positiuum, vtpote 
+      <lb ed="#L" n="26"/>esse a se. sicut enim infinitum, vel indiuisum 
+      si<lb ed="#L" break="no" n="27"/>gnificantur priuatiue, &amp; tamen realiter dicunt 
+      <lb ed="#L" n="28"/>modum positiuum, sic intelligendum est de non 
+      <lb ed="#L" n="29"/>esse ab alio. dicit enim esse a se, haec autem 
+      opi<lb ed="#L" break="no" n="30"/>nio sulciri potest rationibus tactis in 
+      penulti<lb ed="#L" break="no" n="31"/>mo argumento superius arguendo quoad partem 
+      <lb ed="#L" n="32"/>affirmatiuam inducto. Sed iste modus stare non 
+      <lb ed="#L" n="33"/>potest, quia si innascibilitas importat aliquid 
+      <lb ed="#L" n="34"/>positiuum, aut illud est absolutum, aut relatio 
+      <lb ed="#L" n="35"/>ad non genitorem, aut relatio ad patrem, aut 
+      <lb ed="#L" n="36"/>relatio ad filium, &amp; spiritum sanctum, sed non 
+      <lb ed="#L" n="37"/>potest dici, quod signisicet aliquid absolutum, 
+      <lb ed="#L" n="38"/>quia omne tale est commune tribus, secundum 
+      <lb ed="#L" n="39"/>Augustinum, &amp; iterum esse a se non importat 
+      <lb ed="#L" n="40"/>modum absolutum, cum non possit intelligi, 
+      ni<lb ed="#L" break="no" n="41"/>si idem secundum rationem diuidatur in duo, 
+      <lb ed="#L" n="42"/>cum dicitur aliquid esse a se, nec potest dici, quod 
+      <lb ed="#L" n="43"/>relationem importet ad non genitorem, quia 
+      <lb ed="#L" n="44"/>ad id, quod non est, relatio esse non potest. vnde
+      <lb ed="#L" n="45"/>magis potest dici, quod significet negationem
+      <!-- missing line break -->relationis ad genitorem, quam relationem ad
+      <lb ed="#L" n="46"/>non genitorem, vt negetur relatio. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e541">
+                  <lb ed="#L" n="47"/>Nec potest dici, quod significet relationem 
+      <lb ed="#L" n="48"/>personae primae ad filium, vel spiritum sanctum, 
+      <lb ed="#L" n="49"/>quia cum non sit alia ratio primae personae ad 
+      <lb ed="#L" n="50"/>eas, nisi paternitas, &amp; spiratio sequeretur, quod 
+      <lb ed="#L" n="51"/>innascibilitas significaret paternitatem, &amp; 
+      spi<lb ed="#L" break="no" n="52"/>rationem, &amp; ita non esset notio disparata ab eis, 
+      <lb ed="#L" n="53"/>cuius oppositum sancti dicunt. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e560">
+                  <lb ed="#L" n="54"/>Nec potest dici, quod dicat relationem ad ip 
+      <lb ed="#L" n="55"/>sammet personam, quia eiuidem ad se non est 
+      re<lb ed="#L" break="no" n="56"/>latio realis. vnde esse a se non dicit esse 
+      posi<lb ed="#L" break="no" n="57"/>tiue a se, alias sequeretur, quod idem 
+      produce<lb ed="#L" break="no" n="58"/>ret se. ergo nullo modo dici potest, quod 
+      inna<lb ed="#L" break="no" n="59"/>scibilitas significet formaliter aliquid positiuum 
+      <lb ed="#L" n="60"/>pro eo, quod importat esse a se. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e578">
+      <!--0641.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="61"/>Opinio aliorum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e587">
+                  <lb ed="#L" n="62"/>PROPTEREA dixerunt alij, quod 
+      innasci<lb ed="#L" break="no" n="63"/>bilitas non dicit solam negationem, immo 
+      <lb ed="#L" n="64"/>aliquid positiuum, videlicet fontalem plenitudi 
+      <lb ed="#L" n="65"/>nem, vel principium totius Deitatis, vel vniuer 
+      <lb ed="#L" n="66"/>salem auctoritatem originis omnium personarum. 
+      <lb ed="#L" n="67"/>Sed nec istud poni potest. dicit enim hilar. 8. 
+      <lb ed="#L" n="68"/>de Trinit. quod genitus est ab ingenito 
+      proprie<lb ed="#L" break="no" n="69"/>tate in vnoquoque seruata, inna scibilitatis 
+      sci<lb ed="#L" break="no" n="70"/>licet, &amp; originis, &amp; August. 5. de Trinit. dicit, 
+      <lb ed="#L" n="71"/>quod non idem pater, quod ingenitus, ex quibus 
+      <lb ed="#L" n="72"/>colligitur quod innascibilitas est notio dispara 
+      <lb ed="#L" n="73"/>ta a paternitate, &amp; communi spiratione, sed si 
+      <lb ed="#L" n="74"/>importaret principium vniuersale: aut 
+      fonta<lb ed="#L" break="no" n="75"/>lem originem non esset notio disparata a 
+      pa<lb ed="#L" break="no" n="76"/>ternitate, &amp; spiratione, immo esset 
+      vtrum<lb ed="#L" break="no" n="77"/>que concludens, cum pater sit principium filij 
+      <lb ed="#L" n="78"/>per generationem, &amp; per spirationem spiritus 
+      <lb ed="#L" n="79"/>sancti. ergo huiusmodi fontale principium nou 
+      <lb ed="#L" n="80"/>importat. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e631">
+                  <lb ed="#L" n="81"/>Opinio aliorum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e636">
+                  <lb ed="#L" n="82"/>QVAPROPTER dixerunt alij, quod puram 
+      <lb ed="#L" n="83"/>negationem generationis importat, quae 
+      <lb ed="#L" n="84"/>videtur esse mens August. 5. de Trin. qui dicit, 
+      <lb ed="#L" n="85"/>quod cum dicitur pater ingenitus, hoc 
+      ostendi<lb ed="#L" break="no" n="86"/>tur, quod non sit filius. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e649">
+                  <lb ed="#L" n="87"/>Sed nec iste modus est congruus: tum quia 
+      <lb ed="#L" n="88"/>de omni dato dicitur affirmatio, vel negatio; 
+      <lb ed="#L" n="89"/>non est autem verum de spiritu sancto, quod sit 
+      <lb ed="#L" n="90"/>nascibilis, vel innascibilis: tum quia negatio po 
+      <lb ed="#L" n="91"/>test praedicari etiam de non ente. vnde haec est 
+      <lb ed="#L" n="92"/>vera, chymera non est videns, quod sit ingenita, 
+      <lb ed="#L" n="93"/>vel innascibilis. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e668">
+                  <lb ed="#L" n="94"/>Opinio quorumdam aliorum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e673">
+                  <lb ed="#L" n="95"/>ET ideo dixerunt alij, quod non significat 
+      <lb ed="#L" n="96"/>puram negationem, sed priuationem, sicut 
+      <lb ed="#L" n="97"/>caecitas. non enim quaelibet negatio est priuatio, 
+      <lb ed="#L" n="98"/>sed negatio in subiecto apto nato, potest autem 
+      <lb ed="#L" n="99"/>subiectum intelligi esse aptum, vel idem in 
+      nu<lb ed="#L" break="no" n="100"/>mero, sicut Sortes caecus aptus videre, vel secun 
+      <lb ed="#L" n="101"/>dum genus, sicut talpa est caeca, quia animal est 
+      <lb ed="#L" n="102"/>aptum videre, vel secundum communitatem 
+      <lb ed="#L" n="103"/>entis, quia est aptum natum inesse alicui, sicut 
+      <lb ed="#L" n="104"/>lapis dicitur mortuus priuatiue. nunc ergo non 
+      <lb ed="#L" n="105"/>importat priuationem in subiecto apto nato 
+      <lb ed="#L" n="106"/>generari manens idem in numero. non enim 
+      <lb ed="#L" n="107"/>diceret imperfectionem in Deo, sed in subiecto 
+      <lb ed="#L" n="108"/>apto nato secundum genus pro eo, quod 
+      ali<lb ed="#L" break="no" n="109"/>qua persona diuina est apta generari, et si non 
+      <lb ed="#L" n="110"/>illa, quae innascibilis dicitur; accipitur autem 
+      <lb ed="#L" n="111"/>hic ingenitum non solum pro priuatione 
+      gene<lb ed="#L" break="no" n="112"/>rationis proprie dictae, sed generaliter pro 
+      ne<lb ed="#L" break="no" n="113"/>gatione omnis productionis passiue, siue pro 
+      <lb ed="#L" n="114"/>non esse ab alio, &amp; hoc modo competit soli 
+      <lb ed="#L" n="115"/>patri. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e721">
+                  <lb ed="#L" n="116"/>Sed nec ille modus competens est, quoniam 
+      <lb ed="#L" n="117"/>ingenitus, &amp; improductus, &amp; innascibilis, si 
+      de<lb ed="#L" break="no" n="118"/>terminentur adiectiue, vere de essentia 
+      praedi<lb ed="#L" break="no" n="119"/>cantur. vnde haec est vera, quod essentia est res 
+      <lb ed="#L" n="120"/>improducta, &amp; res ingenita, &amp; res innascibilis, 
+      <lb ed="#L" n="121"/>sicut res increata.
+    </p>
+               <p xml:id="ol96b1-207768-d1e737">
+      <!--0642.xml-->
+                  <pb ed="#L" n="642"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Nec potest dici, quin ingentium, &amp; 
+      improdu<lb ed="#L" break="no" n="2"/>ctum, prout de essentia praedicantur teneantur 
+      <lb ed="#L" n="3"/>negatiue tantum, &amp; non priuatiue, quin aliqua 
+      <lb ed="#L" n="4"/>essentia est genita, &amp; producta, &amp; ita priuatur 
+      <lb ed="#L" n="5"/>ab essentia diuina, &amp; competit alicui essentiae, 
+      <lb ed="#L" n="6"/>sed manifestum est, quod innascibile, &amp; ingenitum, 
+      <lb ed="#L" n="7"/>prout notio in diuinis non praedicantur de 
+      es<lb ed="#L" break="no" n="8"/>fentia. ergo non tantummodo sumuntur 
+      priua<lb ed="#L" break="no" n="9"/>tiue. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e766">
+                  <lb ed="#L" n="10"/>Quid dicendum secundum veritatem.
+    </p>
+               <p xml:id="ol96b1-207768-d1e771">
+                  <lb ed="#L" n="11"/>RESTAT ergo nunc dicere, quod uidetur, 
+      <lb ed="#L" n="12"/>Rvbi considerandum est ingenitum, vel 
+      in<lb ed="#L" break="no" n="13"/>nascibile, prout notio in diuinis, non sumuntur 
+      <lb ed="#L" n="14"/>adiectiue, sed substantiue; substantiuum autem 
+      <lb ed="#L" n="15"/>fignificat substantiam cum qualitate. vnde 
+      <lb ed="#L" n="16"/>significat suppositum qualificatum aliqua 
+      qua<lb ed="#L" break="no" n="17"/>litate positiua, vel priuatiua, positiua quidem, vt 
+      <lb ed="#L" n="18"/>homo, negatiua vero, vt si Deus appelletur 
+      sub<lb ed="#L" break="no" n="19"/>stitutiue, &amp; cum articulo immensus. vnde 
+      sub<lb ed="#L" break="no" n="20"/>stantiuum significat suppositum in recto, 
+      qualita<lb ed="#L" break="no" n="21"/>tem vero affirmatiuam, vel negatiuam 
+      denomi<lb ed="#L" break="no" n="22"/>natiue, &amp; in obliquo. ergo sic ingenitus, &amp; 
+      in<lb ed="#L" break="no" n="23"/>nascibilis, prout tenentur substantiue, &amp; sunt 
+      no<lb ed="#L" break="no" n="24"/>tionalia in diuinis significant quidem 
+      supposi<lb ed="#L" break="no" n="25"/>tum qualificatum per priuationem omnis 
+      pro<lb ed="#L" break="no" n="26"/>ductionis passiue, &amp; secundum hoc praedicatur 
+      <lb ed="#L" n="27"/>de solo patre innascibilitas. Item in abstracto 
+      <lb ed="#L" n="28"/>significat priuationem huius, non circa 
+      quod<lb ed="#L" break="no" n="29"/>cumque aptum natum produci secundum 
+      ge<lb ed="#L" break="no" n="30"/>nus suum, quia secundum hoc, de essentia 
+      diui<lb ed="#L" break="no" n="31"/>na diceretur, cum aliqua essentia sit apta nata 
+      <lb ed="#L" n="32"/>causari, &amp; produci, sed significat priuationem 
+      <lb ed="#L" n="33"/>huius circa suppositum ad indeterminatum, 
+      <lb ed="#L" n="34"/>nec significat tantummodo priuationem omnis 
+      <lb ed="#L" n="35"/>passiue productionis in actu, sicut caecitas 
+      desi<lb ed="#L" break="no" n="36"/>gnat priuationem visus non aptitudinaliter, &amp; 
+      <lb ed="#L" n="37"/>actualem, sed significat priuationem 
+      cuiuscum<lb ed="#L" break="no" n="38"/>que aptitudinis ad produci, propter quod 
+      dici<lb ed="#L" break="no" n="39"/>tur innascibilitas. nomina enim talia 
+      priuatio<lb ed="#L" break="no" n="40"/>nem aptitudinis important. Et si dicatur, quod 
+      <lb ed="#L" n="41"/>diuina essentia, est apta nata, produci saltem per 
+      <lb ed="#L" n="42"/>modum formalis termini, vel subiecti secundum 
+      <lb ed="#L" n="43"/>aliquos. dicendum, quod nullo modo 
+      produci<lb ed="#L" break="no" n="44"/>tur, sed tantum communicatur, vt ostensum est 
+      <lb ed="#L" n="45"/>supra, &amp; in hoc articulus primus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-207768-Dd1e851">
+               <head xml:id="ol96b1-207768-Hd1e853">Articulus 2</head>
+               <p xml:id="ol96b1-207768-d1e855">
+                  <lb ed="#L" n="46"/>ARTJCVLVS SECVNDVS. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e860">
+                  <lb ed="#L" n="47"/>Super quod sundetur priuatio per innascibile 
+      ingeni<lb ed="#L" break="no" n="48"/>tum importata. opinio quorumdam. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e867">
+                  <lb ed="#L" n="49"/>CIRCA secundum vero considerandum est, 
+      <lb ed="#L" n="50"/>quod aliqui dicere voluerunt, negationem 
+      <lb ed="#L" n="51"/>importatam per innascibilitatem fundari super 
+      <lb ed="#L" n="52"/>essentiam, &amp; non ab alio, quod patet: tum quia 
+      <lb ed="#L" n="53"/>si non esset in diuinis distinctio personarum, sed 
+      <lb ed="#L" n="54"/>vnum tantum suppositum, illud esset ingenitum, 
+      <lb ed="#L" n="55"/>quia haberet essentiam, non ab alio: tum quia 
+      <lb ed="#L" n="56"/>per non habere essentiam ab alio, sufficienter 
+      <lb ed="#L" n="57"/>pater distinguitur a filio, &amp; spiritu, qui habent 
+      <lb ed="#L" n="58"/>eam ab alio, &amp; per consequens ingenitum, quod 
+      <lb ed="#L" n="59"/>est proprietas, &amp; notio distincta sufsicienter fun 
+      <lb ed="#L" n="60"/>datur in essentia, &amp; non ab alio. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e896">
+                  <lb ed="#L" n="61"/>Sed ille modus dicendi stare non potest, quia 
+      <!--0642.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="62"/>vel per ingenitum, seu innascibile intelligitur ne 
+      <lb ed="#L" n="63"/>gatio, quae fundatur super essentiam ratione 
+      ne<lb ed="#L" break="no" n="64"/>gationis, quam importat non esse ab alio, aut 
+      in<lb ed="#L" break="no" n="65"/>telligitur, quod ingenitum negationem aliam 
+      <lb ed="#L" n="66"/>non significet nisi in esse ab alio, &amp; quod illa su 
+      <lb ed="#L" n="67"/>per essentiam immediate fundetur, sed non potest 
+      <lb ed="#L" n="68"/>dari primum, quia non esse ab alio, &amp; ingenitum. 
+      <lb ed="#L" n="69"/>seu improductum idem sunt; idem autem non 
+      <lb ed="#L" n="70"/>est ratio fundandi seipsum, nec in priuatiuis, 
+      <lb ed="#L" n="71"/>nec in positiuis. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e928">
+                  <lb ed="#L" n="72"/>Nec potest etiam dari secundum: tum 
+      quia<lb ed="#L" break="no" n="73"/>omnis propria negatio requirit propriam 
+      af<lb ed="#L" break="no" n="74"/>firmationem. quod enim homo non sit leo, 
+      ori<lb ed="#L" break="no" n="75"/>tur ex hoc, quod est rationalis, &amp; si non esset po 
+      <lb ed="#L" n="76"/>sitiuum aliquod in homine non esset vera 
+      nega<lb ed="#L" break="no" n="77"/>tio leonis ab homine. cum ergo essentia 
+      com<lb ed="#L" break="no" n="78"/>munis sit patri, &amp; filio; filius autem sit ab alio; 
+      <lb ed="#L" n="79"/>pater vero a nullo, non potest dici, quod nec 
+      <lb ed="#L" n="80"/>negatio super nudam essentiam fundetur: tum 
+      <lb ed="#L" n="81"/>quia communicata essentia, necesse est commu 
+      <lb ed="#L" n="82"/>nicari omne, quod fundatur in ea, siue sit 
+      positi<lb ed="#L" break="no" n="83"/>uum, vt velle, &amp; intelligere, seu priuatiuum, vt infi 
+      <lb ed="#L" n="84"/>nitum, immensum, constat autem quod filio commu 
+      <lb ed="#L" n="85"/>nicatur essentia, &amp; non ingenitum, siue non esse 
+      <lb ed="#L" n="86"/>ab alio. vnde patet, quod negatio immediate 
+      <lb ed="#L" n="87"/>super essentiam non fundatur, praesertim quia 
+      <lb ed="#L" n="88"/>siue essentia ab alio ad essentia m referatur, hoc 
+      <lb ed="#L" n="89"/>non est patri proprium, nec in filio, nec in 
+      spiri<lb ed="#L" break="no" n="90"/>tu sancto esse capiat ab alio, cum sit totaliter in 
+      <lb ed="#L" n="91"/>producta. Si vero referatur non ad essentiam, 
+      <lb ed="#L" n="92"/>sed ad personam, iam non fundatur immediate 
+      <lb ed="#L" n="93"/>super essentiam, sed super aliquid, quo 
+      formali<lb ed="#L" break="no" n="94"/>ter est suppositum, &amp; persona. ergo impossibile 
+      <lb ed="#L" n="95"/>est, innascibilitatem super essentiam 
+      immedia<lb ed="#L" break="no" n="96"/>te fundari. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e985">
+                  <lb ed="#L" n="97"/>Opinio aliorum.
+    </p>
+               <p xml:id="ol96b1-207768-d1e990">
+                  <lb ed="#L" n="98"/>PROPTEREA dixerunt alij, quod fundatur 
+      <lb ed="#L" n="99"/>ista priuatio super naturalem auctoritati 
+      <lb ed="#L" n="100"/>principij omnium qualitercumque 
+      producibi<lb ed="#L" break="no" n="101"/>lium, vel productorum. super illud enim 
+      funda<lb ed="#L" break="no" n="102"/>tur innascibilitas, per quod repugnat 
+      alicuies<lb ed="#L" break="no" n="103"/>se ab alio, cum innascibilitas priuationem dicat, 
+      <lb ed="#L" n="104"/>eius, quod est esse ab alio circa subiectum, non 
+      <lb ed="#L" n="105"/>quidem aptum natum esse ab alio, quia 
+      huius<lb ed="#L" break="no" n="106"/>modi priuatio non sumitur pro carentia, quod 
+      <lb ed="#L" n="107"/>natum est inesse carenti, secundum quod natum 
+      <lb ed="#L" n="108"/>est in esse alicui, quamuis non illi, quod dicitur 
+      <lb ed="#L" n="109"/>esse priuatum, sed manifestum est, quod ex 
+      vni<lb ed="#L" break="no" n="110"/>uersalitate principij omnium producibilium, 
+      <lb ed="#L" n="111"/>&amp; productorum repugnat supposito, quod est 
+      <lb ed="#L" n="112"/>huius essse ab alio. Si enim ponitur esse ab alio, 
+      <lb ed="#L" n="113"/>iam non est primum omnium producibilium 
+      <lb ed="#L" n="114"/>&amp; productorum, quia non sui ipsius, cum nil 
+      <lb ed="#L" n="115"/>producat se. ergo super vniuersalitatem 
+      prin<lb ed="#L" break="no" n="116"/>cipij omnium productorum, &amp; producibilium 
+      <lb ed="#L" n="117"/>fundatur priuatio per innascibilitatem 
+      impor<lb ed="#L" break="no" n="118"/>tata. vnde innascibilitas non dicit formaliter 
+      <lb ed="#L" n="119"/>huiusmodi vniuersalitatem principij: tum quia 
+      <lb ed="#L" n="120"/>non esset distincta notio a paternitate, &amp; spira 
+      <lb ed="#L" n="121"/>tione, inquantum diceret principium 
+      persona<lb ed="#L" break="no" n="122"/>rum: tum quia non esset motio, inquantum 
+      er<lb ed="#L" break="no" n="123"/>primeret, cum esse creatorem sit 
+      communetri<lb ed="#L" break="no" n="124"/>bus, sed fundamentaliter huius 
+      vtilitatem<lb ed="#L" break="no" n="125"/>importat, quam aliqui vocauerunt fontalem foe 
+      <lb ed="#L" n="126"/>cunditatem, vel omnimodam primitatem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1055">
+      <!--0643.xml-->
+                  <pb ed="#L" n="643"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Sed nec ille modus rationalis est. illud enim, 
+      <lb ed="#L" n="2"/>quo circumscripto adhuc remanet quid innasci 
+      <lb ed="#L" n="3"/>bile, non est fundamentum innascibilitatis, sed 
+      <lb ed="#L" n="4"/>circumscripta vniuersalitate productiui princi 
+      <lb ed="#L" n="5"/>pij, respectu omnium qualitercumque 
+      produ<lb ed="#L" break="no" n="6"/>cibilium, vel productorum adhuc potest intelli 
+      <lb ed="#L" n="7"/>gi aliquid innascibile, vel improductum, sicut 
+      <lb ed="#L" n="8"/>supra ostensum est de Philosophis, quod 
+      intelle<lb ed="#L" break="no" n="9"/>xerunt primum principium improductum, 
+      nec<lb ed="#L" break="no" n="10"/>tamen certum extitit apud eos, quod esset 
+      om<lb ed="#L" break="no" n="11"/>nium producibilium principium effectiuum. 
+      er<lb ed="#L" break="no" n="12"/>go non est verum, quod omne ingenitum super 
+      <lb ed="#L" n="13"/>vniuersalitatem productiui principij, seu 
+      prin<lb ed="#L" break="no" n="14"/>cipiationis fundetur. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1094">
+                  <lb ed="#L" n="15"/>Nec motiuum procedit. peccat enim per fal 
+      <lb ed="#L" n="16"/>laciam consequentis. quod enim aliquid sit 
+      im<lb ed="#L" break="no" n="17"/>productum potest contingere, &amp; quia illud 
+      pro<lb ed="#L" break="no" n="18"/>ducibile omne producit, &amp; quia nil producit. 
+      <lb ed="#L" n="19"/>vnde producere, vel non producere videtur sibi 
+      <lb ed="#L" n="20"/>accidere, inquantum non productum. stat enim 
+      <lb ed="#L" n="21"/>cum improducto, &amp; omnia producere, &amp; nihil 
+      <lb ed="#L" n="22"/>producere, vt dictum est, quamuis ex hoc, quod 
+      <lb ed="#L" n="23"/>est omnium productiuum sequatur, quod est im 
+      <lb ed="#L" n="24"/>productum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1118">
+                  <lb ed="#L" n="25"/>Opinio Durandi 1. Sent. dist. 28. q. 2. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1124">
+                  <lb ed="#L" n="26"/>ET idcirco dixerunt alij, quod non potest 
+      ra<lb ed="#L" break="no" n="27"/>tio vniuoca communis dari, quare 
+      ingeni<lb ed="#L" break="no" n="28"/>tum competat absolutis, &amp; relatiuis. in 
+      absolu<lb ed="#L" break="no" n="29"/>tis enim non competit ratione vniuersalitatis, 
+      <lb ed="#L" n="30"/>seu principialitatis principij, quoniam isto 
+      ex<lb ed="#L" break="no" n="31"/>cluso, adhuc posset aliquod absolutum intelligi 
+      <lb ed="#L" n="32"/>improductum. congruit enim absoluto ex eo, 
+      <lb ed="#L" n="33"/>quod non habet essentiam dependentem ab alio 
+      <lb ed="#L" n="34"/>in fieri, vel in esse, vel in vtroque simul: hoc 
+      au<lb ed="#L" break="no" n="35"/>tem oritur ex perfectione essentiali, quam perfe 
+      <lb ed="#L" n="36"/>cte experitur independens. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1150">
+                  <lb ed="#L" n="37"/>In relatiuis vero cuiusmodi sunt personae 
+      di<lb ed="#L" break="no" n="38"/>uinae non potest sumi ratio ex perfectione 
+      hu<lb ed="#L" break="no" n="39"/>ius, quia eadem perfectio communis est 
+      tri<lb ed="#L" break="no" n="40"/>bus, sed sumitur ex vniuersalitate, &amp; primitate 
+      <lb ed="#L" n="41"/>principij. per hoc enim repugnat tali personae 
+      <lb ed="#L" n="42"/>esse ab alio quocumque, quia si esset ab alio, iam 
+      <lb ed="#L" n="43"/>non esset principium vniuersale. nec enim sui es 
+      <lb ed="#L" n="44"/>set principium, nec illius, a quo produceretur. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1170">
+                  <lb ed="#L" n="45"/>Sed nec iste modus dicendi congruus est. vbi 
+      <lb ed="#L" n="46"/>enim a posteriori arguitur ad prius 
+      demonstra<lb ed="#L" break="no" n="47"/>tiue, conuenit quod medium est ratio 
+      cogno<lb ed="#L" break="no" n="48"/>scendi prius, non tamen est ratio simplex ipsius 
+      <lb ed="#L" n="49"/>prioris in essendo, sicut patet, quod non ex scin 
+      <lb ed="#L" n="50"/>tillare probatur planetarum propinquitas, cum 
+      <lb ed="#L" n="51"/>est non scintillare, sed potius econuerso: sed 
+      <lb ed="#L" n="52"/>manifestum est, quod ex vniuersalitate 
+      princi<lb ed="#L" break="no" n="53"/>pij omnium producibilium demonstratiue 
+      se<lb ed="#L" break="no" n="54"/>quitur, quod ei hoc competit esse penitus 
+      im<lb ed="#L" break="no" n="55"/>productum, &amp; omnino improducibile 
+      <lb ed="#L" n="56"/>Hoc autem non est posterius in essendo. magis 
+      <lb ed="#L" n="57"/>enim esse improductum videtur ratio 
+      vniuersa<lb ed="#L" break="no" n="58"/>lis principij respectu omnium aliorum, quam e 
+      <lb ed="#L" n="59"/>conuerso. ergo non apparet ex ista deductione, 
+      <lb ed="#L" n="60"/>quod innascibilitas fundetur super istam 
+      vni<lb ed="#L" break="no" n="61"/>uersalitatem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1209">
+                  <lb ed="#L" n="62"/>Praeterea: Aut illud vniuersale principium, 
+      si<lb ed="#L" break="no" n="63"/>ne fontalis foecunditas, super quam fundatur 
+      <lb ed="#L" n="64"/>ingenitum claudit foecunditatem ad extra 
+      re<lb ed="#L" break="no" n="65"/>spectu creaturarum, &amp; foecunditatem duplicem 
+      <!--0643.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>ad intra respectu personarum simul, aut 
+      inclu<lb ed="#L" break="no" n="67"/>dit tantummodo foecunditatem ad intra. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1229">
+                  <lb ed="#L" n="68"/>Non potest dici, quod includat tres illas 
+      foe<lb ed="#L" break="no" n="69"/>cunditates, quia secundum hoc aliqua notio exi 
+      <lb ed="#L" n="70"/>geret pro fundamento potentiam creatiuam, 
+      <lb ed="#L" n="71"/>quae tamen communis est tribus. nec potest 
+      di<lb ed="#L" break="no" n="72"/>ci, quod includat duplicem tantum, quia 
+      alte<lb ed="#L" break="no" n="73"/>ra illarum, videlicet spiratiua foecunditas, com 
+      <lb ed="#L" n="74"/>munis est patri, &amp; filio. Et iterum Augustinus 
+      <lb ed="#L" n="75"/>dicit 12. de Trinitate, quod si filium non 
+      genuis<lb ed="#L" break="no" n="76"/>set, nihil prohiberet eum dici ingenitum, &amp; 
+      lo<lb ed="#L" break="no" n="77"/>quitur de patre, &amp; pari ratione, si nihil 
+      produ<lb ed="#L" break="no" n="78"/>xisset, nec esset vniuersale principium, nihil prohi 
+      <lb ed="#L" n="79"/>beret eum dici ingenitum. ergo non fundatur 
+      <lb ed="#L" n="80"/>inna scibilitas super vniuersalitatem principij. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1260">
+                  <lb ed="#L" n="81"/>Praeterea: Fundamentum priuationis est de 
+      <lb ed="#L" n="82"/>intellectu priuationis, sicut patet, quod de con 
+      <lb ed="#L" n="83"/>ceptu caecitatis est oculus, sed de conceptu inna 
+      <lb ed="#L" n="84"/>scibilis non est vniuersale principium, immo vt 
+      <lb ed="#L" n="85"/>intelligens personam ingenitam in diuinis, non 
+      <lb ed="#L" n="86"/>oportet, quod intelligat eam esse patrem, aut 
+      <lb ed="#L" n="87"/>spirantem, aut vniuersum creantem, &amp; haec est 
+      <lb ed="#L" n="88"/>ratio Augustini, quare altera notio est 
+      ingeni<lb ed="#L" break="no" n="89"/>tus a genitore. potest enim distincte cognosci 
+      <lb ed="#L" n="90"/>prima persona, vt ingenita, nec cognoscetur, 
+      <lb ed="#L" n="91"/>vt pater. ergo fontalis foecunditas, vel 
+      vniuer<lb ed="#L" break="no" n="92"/>sale principium, non est fundamentum 
+      negatio<lb ed="#L" break="no" n="93"/>nis per ingenitum importatae. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1292">
+                  <lb ed="#L" n="94"/>Et si dicatur, quod hoc probat, quod non sit 
+      <lb ed="#L" n="95"/>de formali conceptu ipsius, sed non quia sit fun 
+      <lb ed="#L" n="96"/>damentum, dicendum, quod immo, quia nullus 
+      <lb ed="#L" n="97"/>intelligit coecum, quin intelligat oculum, &amp; 
+      <lb ed="#L" n="98"/>eodem modo nullus intelligit innascibilem, 
+      <lb ed="#L" n="99"/>quin innascibilitatis concipiat fundamenrum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1308">
+                  <lb ed="#L" n="100"/>Opinio quorumdam aliorum.
+    </p>
+               <p xml:id="ol96b1-207768-d1e1313">
+                  <lb ed="#L" n="101"/>QVAPROPTER dixerunt alij, quod 
+      fun<lb ed="#L" break="no" n="102"/>detur ista priuatio non in ratione 
+      essen<lb ed="#L" break="no" n="103"/>tiae praecise acceptae, quia essentia est in filio, &amp; 
+      <lb ed="#L" n="104"/>tamen innascibilitas non est in eo, nec etiam 
+      ra<lb ed="#L" break="no" n="105"/>tione paternitatis praecise. potest enim aliquis 
+      <lb ed="#L" n="106"/>esse pater, &amp; natus, sed oritur innascibilitas 
+      ra<lb ed="#L" break="no" n="107"/>tione essentiae sub paternitate: nam quia pater 
+      <lb ed="#L" n="108"/>habet essentiam determinantem primam faecun 
+      <lb ed="#L" n="109"/>ditatem sub prima proprietate, quae est 
+      pater<lb ed="#L" break="no" n="110"/>nitas, ideo fundatur innascibilitas super 
+      essen<lb ed="#L" break="no" n="111"/>tiam concurrente secum prima proprietate 
+      <lb ed="#L" n="112"/>personali. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1342">
+                  <lb ed="#L" n="113"/>Sed nec illud stare potest, quia vel 
+      intelligi<lb ed="#L" break="no" n="114"/>tur, quod totum simul essentia, &amp; paternitas 
+      <lb ed="#L" n="115"/>fundent innascibilitatem, vel quod essentia me 
+      <lb ed="#L" n="116"/>re fundet, nihilominus, vt stat sub 
+      paternita<lb ed="#L" break="no" n="117"/>te, quia non potest dari primum, quia 
+      secun<lb ed="#L" break="no" n="118"/>dum Augustinum accidet ingenito, quod sit 
+      pa<lb ed="#L" break="no" n="119"/>ter, &amp; econuerso, accidit genitori, quod sit 
+      <lb ed="#L" n="120"/>ingenitus.
+    </p>
+               <p xml:id="ol96b1-207768-d1e1362">
+                  <lb ed="#L" n="121"/>Nec etiam secundum, quia essentia, quae stat 
+      <lb ed="#L" n="122"/>sub paternitate nihil habet vltra essentiam 
+      <lb ed="#L" n="123"/>nisi coincludatur secum paternitas. 
+      <lb ed="#L" n="124"/>ergo non potest dici, quod 
+      fun<lb ed="#L" break="no" n="125"/>datur innascibilitas 
+      su<lb ed="#L" break="no" n="126"/>per essentiam, vt 
+      <lb ed="#L" n="127"/>stat sub 
+      pa<lb ed="#L" break="no" n="128"/>
+      ternita<lb ed="#L" break="no" n="129"/>te 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1384">
+      <!--0644.xml-->
+                  <pb ed="#L" n="644"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quid dicendum secundum veritatem.
+    </p>
+               <p xml:id="ol96b1-207768-d1e1396">
+                  <lb ed="#L" n="2"/>RESTAT ergo nunc dicere, quod videtur 
+      <lb ed="#L" n="3"/>sub triplici propositione. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1403">
+                  <lb ed="#L" n="4"/>Prima quidem, quod cum de conceptu 
+      inna<lb ed="#L" break="no" n="5"/>scibilis, prout est notio, &amp; sumitur substantiue 
+      <lb ed="#L" n="6"/>sit esse suppositum simpliciter absque 
+      deterrui<lb ed="#L" break="no" n="7"/>natione ad hoc, vel ad illud priuatum cum, 
+      om<lb ed="#L" break="no" n="8"/>ni dependentia ad aliquod producens, &amp; omni 
+      <lb ed="#L" n="9"/>productione passiua, necesse est, quod 
+      huius<lb ed="#L" break="no" n="10"/>modi priuatio fundetur in supposito, ex hoc, 
+      <lb ed="#L" n="11"/>quod omnia, quae concurrum t ad ipsum 
+      consti<lb ed="#L" break="no" n="12"/>tuendum sint a se, nec sua m realitatem 
+      capien<lb ed="#L" break="no" n="13"/>tia aliunde. ex hoc enim sequitur, quod totum 
+      <lb ed="#L" n="14"/>constitutum est quid simplex improductum, &amp; non 
+      <lb ed="#L" n="15"/>est idem fundam, entum suiipsius, quoniam 
+      prin<lb ed="#L" break="no" n="16"/>cipia sunt ratio eorum, quae conueniunt 
+      consti<lb ed="#L" break="no" n="17"/>turo ex iilis, &amp; positiue, &amp; priuatiue. ex hoc 
+      er<lb ed="#L" break="no" n="18"/>go, quod constituentia sunt a se totum constitu 
+      <lb ed="#L" n="19"/>Tum necesse est esse a se, &amp; penitus improductum, 
+      <lb ed="#L" n="20"/>quod si aliquid sit suppositum non claudens, nisi 
+      <lb ed="#L" n="21"/>essentiam absolutam, oritur, quod sit illud 
+      sup<lb ed="#L" break="no" n="22"/>positum improductum, ex hoc, quod essentia 
+      <lb ed="#L" n="23"/>ipsum constituens est a se, &amp; improducta. Si vero 
+      <lb ed="#L" n="24"/>resultet suppositum ex essentia, &amp; ex aliquo alio, 
+      <lb ed="#L" n="25"/>tunc si quid illorum sit a se, nec realitatem 
+      ca<lb ed="#L" break="no" n="26"/>piens aliunde, totum constitutum erit a se, &amp; 
+      <lb ed="#L" n="27"/>simpliciter improductum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1458">
+                  <lb ed="#L" n="28"/>Secunda vero propositio est, quod 
+      applican<lb ed="#L" break="no" n="29"/>do priuationem, quam importat ingenitum ad 
+      <lb ed="#L" n="30"/>personam patris, ista priuatio fundatur super 
+      <lb ed="#L" n="31"/>totam personam: oritur autem ex omnibus con 
+      <lb ed="#L" n="32"/>stitutluis, nam quia personalitas patris resultat 
+      <lb ed="#L" n="33"/>ex essentia, &amp; generare, &amp; spirare; essentia 
+      ve<lb ed="#L" break="no" n="34"/>ro est quaedam res suam realitatem non capiens, 
+      <lb ed="#L" n="35"/>aliunde, generare etiam est res omnino 
+      inelici<lb ed="#L" break="no" n="36"/>ta, nec capiens esse ab alio; suniliter &amp; spirare 
+      <lb ed="#L" n="37"/>est res a se, nullo modo aliunde progrediens, 
+      id<lb ed="#L" break="no" n="38"/>circo totum constitutum est simpliciter indepem 
+      <lb ed="#L" n="39"/>dens a quocumque improductiuo, &amp; ita 
+      conue<lb ed="#L" break="no" n="40"/>nit sibi esse innascibile, &amp; ingenitum. Non ergo 
+      <lb ed="#L" n="41"/>generare, &amp; spirare dant personalita ti patris, 
+      <lb ed="#L" n="42"/>quod sit ingenita, ex hoc, quod sunt 
+      principia<lb ed="#L" break="no" n="43"/>tiones, seu productiones omnium producibilium 
+      <lb ed="#L" n="44"/>in diuinis ex hoc, quod sunt inelicita, nec esse ca 
+      <lb ed="#L" n="45"/>pientia aliunde. dato enim, quod non essent 
+      pro<lb ed="#L" break="no" n="46"/>ductiones, sed modi absoluti, vt ad aliquid 
+      con<lb ed="#L" break="no" n="47"/>stituerent suppositum innascibile, dum tamen 
+      es<lb ed="#L" break="no" n="48"/>sent realitates habentes esse a se, &amp; non aliunde. 
+      <lb ed="#L" n="49"/>vnde patet, quod accidit eis, vt constituunt perso 
+      <lb ed="#L" n="50"/>nam innascibilem, quod importent auctoritatem 
+      <lb ed="#L" n="51"/>vniuersalis principij, vel quod sint fontales 
+      foe<lb ed="#L" break="no" n="52"/>cunditates, &amp; hoc est, quod innuit Augustinus, 
+      <lb ed="#L" n="53"/>cum dicit, quod si pater non genuisset, nil prohi 
+      <lb ed="#L" n="54"/>beret ipsum dici ingenitum. dum tamen omnia 
+      <lb ed="#L" n="55"/>ipsum constituentia essent realitates a se. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1521">
+                  <lb ed="#L" n="56"/>Tertia quoque propositio est, quod ponentes 
+      <lb ed="#L" n="57"/>generare, aut spirare elici in diuinis, &amp; esse 
+      rea<lb ed="#L" break="no" n="58"/>litates capientes suum esse ab alio, non possunt 
+      <lb ed="#L" n="59"/>saluare suppositum patris esse penitus improdu 
+      <lb ed="#L" n="60"/>ctum. necessario enim subsistentia patris, quam 
+      <lb ed="#L" n="61"/>huiusmodi realitates constituunt esse capiet 
+      a<lb ed="#L" break="no" n="62"/>liunde, &amp; erit producta, &amp; ex hoc patet, quare 
+      <lb ed="#L" n="63"/>suppositum filij non est improductum. licet 
+      e<lb ed="#L" break="no" n="64"/>nim in eo sint essentia, &amp; spirare, quae sunt 
+      rea<lb ed="#L" break="no" n="65"/>litates a se, nihilominus est ibi generari, quod 
+      <lb ed="#L" n="66"/>non est a se, immo realitatem, quam habet, ca- 
+      <!--0644.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>pit ex generare, &amp; ratione huius tota 
+      subsisten<lb ed="#L" break="no" n="68"/>tia filij dicitur esse capiens aliunde. &amp; in hoc at 
+      <lb ed="#L" n="69"/>ticulus secundus finitur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-207768-Dd1e1559">
+               <head xml:id="ol96b1-207768-Hd1e1561">Articulus 3</head>
+               <p xml:id="ol96b1-207768-d1e1563">
+                  <lb ed="#L" n="70"/>ARTJCVLVS TERTJVS. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1568">
+                  <lb ed="#L" n="71"/>An innascibilitas constituat primam personum. 
+      <lb ed="#L" n="72"/>Opinio quorumdam. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1575">
+                  <lb ed="#L" n="73"/>CIRCA tertium quoque considerandum est, 
+      <lb ed="#L" n="74"/>Qquod aliqui dicere voluerunt, primam 
+      per<lb ed="#L" break="no" n="75"/>sonam in diuinis constitui per innascibilitatem, 
+      <lb ed="#L" n="76"/>&amp; non per paternitatem: tum quia innascibilitas 
+      <lb ed="#L" n="77"/>dicit modum essendi, paternitas vero modum 
+      com<lb ed="#L" break="no" n="78"/>municandi, &amp; ita inna scibilitas tamquam prior 
+      <lb ed="#L" n="79"/>paternitate videtur esse modus subsistendi 
+      per<lb ed="#L" break="no" n="80"/>sonae: tum quia pater ex hoc videtur generare, 
+      <lb ed="#L" n="81"/>quia innascibilis est, sicut econuerso filius gene 
+      <lb ed="#L" n="82"/>rare non potest, quia genitus est: tum quia 
+      in<lb ed="#L" break="no" n="83"/>nascibilitas competit soli Deo primo diuino 
+      sup<lb ed="#L" break="no" n="84"/>posito: non autem paternitas, cum reperiatur 
+      <lb ed="#L" n="85"/>in creaturis: haec autem opinio fulciri potest 
+      <lb ed="#L" n="86"/>rationibus superius arguendo inductis. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1608">
+                  <lb ed="#L" n="87"/>Quibus non obstantibus minime stare potest. 
+      <lb ed="#L" n="88"/>si enim constituit innascibilitas primam 
+      perso<lb ed="#L" break="no" n="89"/>nam in diuinis, aut hoc facit ratione sui 
+      forma<lb ed="#L" break="no" n="90"/>lis, quod directe importat, aut ratione sui fu 
+      <lb ed="#L" n="91"/>damentalis, quod indirecte significat: sed 
+      ma<lb ed="#L" break="no" n="92"/>nifestum est, quod primum dari non potest, 
+      <lb ed="#L" n="93"/>cum non importet formaliter, nisi negationem 
+      <lb ed="#L" n="94"/>sui, seu priuationem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1629">
+                  <lb ed="#L" n="95"/>Prima autem persona non potest constituiis 
+      <lb ed="#L" n="96"/>sui personalitate per talem negationem: 
+      tum<lb ed="#L" break="no" n="97"/>quia realissima est: tum quia personalitas secun 
+      <lb ed="#L" n="98"/>dae personae, &amp; tertiae, quae constituuntur per 
+      <lb ed="#L" n="99"/>proprietatem positiuam, vt pote per 
+      filiatio<lb ed="#L" break="no" n="100"/>nem, vel spirationem passiuam esset nobilior 
+      <!-- missing line break-->personalitate primae personae. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1647">
+                  <lb ed="#L" n="101"/>Nec etiam potest dari secundum, quin 
+      posi<lb ed="#L" break="no" n="102"/>tiuum, super quod innascibilitas fundari nonpo 
+      <lb ed="#L" n="103"/>test esse sola essentia, vt declaratum est. Si vero 
+      <lb ed="#L" n="104"/>fundamentum illud ponatur fontalis foecundi 
+      <lb ed="#L" n="105"/>tas, seu vniuersale principium, hoc non est aliud. 
+      <lb ed="#L" n="106"/>quam generare, &amp; spirare, &amp; ita prima persom 
+      <lb ed="#L" n="107"/>constituetur per ista, non per ingenitum. 
+      ergoinna<lb ed="#L" break="no" n="108"/>scibilitas non potest esse proprietas constitutiua. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1667">
+                  <lb ed="#L" n="109"/>Propterea dixerunt alij, quod innascibilius 
+      <lb ed="#L" n="110"/>fundatur super aliquem modum positiuum, &amp; 
+      <lb ed="#L" n="111"/>absolutum, qui constituit primam personam: 
+      <lb ed="#L" n="112"/>tum quia ingenitum praeintelligitur paternia 
+      <lb ed="#L" n="113"/>ti, quia si non genuisset, nihil prohiberet eum 
+      <lb ed="#L" n="114"/>esse ingenitum secundum Augustinum: 
+      tum<lb ed="#L" break="no" n="115"/>quia foecunditas ad aliquam productionem non 
+      <lb ed="#L" n="116"/>intelligitur, quasi potentia proxima, nisi in nou 
+      <lb ed="#L" n="117"/>habente illam per actum illius foecunditatis, 
+      fi<lb ed="#L" break="no" n="118"/>cut voluntas non intelligitur foecunda in 
+      spiri<lb ed="#L" break="no" n="119"/>tu sancto, pro eo, quod habetur in ipso, vt com 
+      <lb ed="#L" n="120"/>municata per foecunditatem voluntatis. In 
+      pa<lb ed="#L" break="no" n="121"/>tre tamen, &amp; filio, quoniam habet voluntatem 
+      <lb ed="#L" n="122"/>communicatam sibi per actum voluntatis, intel 
+      <lb ed="#L" n="123"/>ligitur voluntas, vt proximum principium 
+      pro<lb ed="#L" break="no" n="124"/>ducendi. a simili ergo potentia generandi nou 
+      <lb ed="#L" n="125"/>intelligitur in patre, vt proximum priucipiun 
+      <lb ed="#L" n="126"/>generandi, nisi intelligatur, vt non habita, nis 
+      <lb ed="#L" n="127"/>per actum generandi; &amp; per consequens 
+      ingen<lb ed="#L" break="no" n="128"/>tum praecedit generare, &amp; paternitatem in 
+      pa<lb ed="#L" break="no" n="129"/>tre, &amp; sic persona patris praeintelligitur 
+      consi<lb ed="#L" break="no" n="130"/>tuta ipsi paternitati, inquantum concipitur, 
+      <!--0645.xml-->
+      <pb ed="#L" n="645"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vt ingenita: constat autem, quod non est 
+      consti<lb ed="#L" break="no" n="2"/>tuta per negationem, quam importat in 
+      geni<lb ed="#L" break="no" n="3"/>tum. ergo necesse est, quod constituatur per ali 
+      <lb ed="#L" n="4"/>quod positiuum, &amp; absolutum 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1732">
+                  <lb ed="#L" n="5"/>Sed nec iste modus est congruus propter ea, 
+      <lb ed="#L" n="6"/>quae dicta sunt dist. 26. vbi probatum est, quod 
+      <lb ed="#L" n="7"/>nullum suppositum in diuinis potest per absolu 
+      <lb ed="#L" n="8"/>ta constitui. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1743">
+                  <lb ed="#L" n="9"/>Nec motiua istius opinionis procedunt, quod 
+      <lb ed="#L" n="10"/>in genitum in communi praecedit paternitatem, 
+      <lb ed="#L" n="11"/>sed si accipiatur in speciali persona prima 
+      di<lb ed="#L" break="no" n="12"/>uina constituta per generare ingenitum non 
+      <lb ed="#L" n="13"/>praecedit, sed sequitur. Et quod additur de foecum 
+      <lb ed="#L" n="14"/>ditate. dicendum, quod procedit ex falsa 
+      imagi<lb ed="#L" break="no" n="15"/>natione, ac si essent in personis productiuae 
+      po<lb ed="#L" break="no" n="16"/>tentiae, per quas elicerentur productiones. 
+      <lb ed="#L" n="17"/>Non procedunt etiam motiua primae opinio 
+      <lb ed="#L" n="18"/>nis, quia non est verum, quin paternitas, seu ge 
+      <lb ed="#L" n="19"/>nerare dicat modum subsistendi primae personae 
+      <lb ed="#L" n="20"/>nec est verum, quod ideo generet pater, quia 
+      <lb ed="#L" n="21"/>innascibilis est, quia multi nati generant, nec 
+      e<lb ed="#L" break="no" n="22"/>tiam infertur, si paternitas reperibilis est in 
+      <lb ed="#L" n="23"/>creaturis, quod primum suppositum non possit 
+      <lb ed="#L" n="24"/>constituere pro eo, quod diuina paternitas, &amp; 
+      <lb ed="#L" n="25"/>creata sunt omniuo alterius rationis. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1782">
+                  <lb ed="#L" n="26"/>Opinio quorumdam.
+    </p>
+               <p xml:id="ol96b1-207768-d1e1788">
+                  <lb ed="#L" n="27"/>&amp;TT ideo dixerunt alij, quod persona prima 
+      <lb ed="#L" n="28"/>Enon constituitur per innascibilitatem, nec 
+      <lb ed="#L" n="29"/>etiam per paternitatem in actu, quia vt sic 
+      se<lb ed="#L" break="no" n="30"/>quitur generare per aptitudinem, quae importa 
+      <lb ed="#L" n="31"/>tur per generatiuum, vel aptum generare.
+    </p>
+               <p xml:id="ol96b1-207768-d1e1801">
+                  <lb ed="#L" n="32"/>Sed nec ille modus competens est: tum quia 
+      <lb ed="#L" n="33"/>procedit ex falsa imaginatione, quasi generare 
+      <lb ed="#L" n="34"/>sit quid elicitum, quod praecedat aptitudo, seu 
+      <lb ed="#L" n="35"/>potentia generandi: tum quia relatio per 
+      apti<lb ed="#L" break="no" n="36"/>tudinem importata non est realis, cum non sit 
+      <lb ed="#L" n="37"/>ad rem in actu, sed ad filium possibilem, alioquin 
+      <lb ed="#L" n="38"/>quilibet homo referetur ad innumerabiles 
+      fi<lb ed="#L" break="no" n="39"/>lios, respectu quorum habet aptitudinem gene 
+      <lb ed="#L" n="40"/>randi: tum quia persona est actualissima. 
+      vn<lb ed="#L" break="no" n="41"/>de non debet constitui per aptitudinem, sed per 
+      <lb ed="#L" n="42"/>aliquid actuale: tum quia non est rationale, quod 
+      <lb ed="#L" n="43"/>filius constituatur per proprietatem magis 
+      actua<lb ed="#L" break="no" n="44"/>lem, quam pater: tum quia relatio non 
+      consti<lb ed="#L" break="no" n="45"/>tuit personam diuinam, nisi secundum quod est 
+      <lb ed="#L" n="46"/>in re; est autem actualissima, vt est in re, quia ni 
+      <lb ed="#L" n="47"/>hil per aptitudinem generandi: 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1838">
+                  <lb ed="#L" n="48"/>Opinio Scoti r.Sent. dist. 28. q. 2. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1843">
+                  <lb ed="#L" n="49"/>ET idcirco dixerunt alij, quod innascibilitas, 
+      <lb ed="#L" n="50"/>non constituit personam primam, sed 
+      pater<lb ed="#L" break="no" n="51"/>nitas actualis, sed tunc est dubium, quomodo essen 
+      <lb ed="#L" n="52"/>tia determinetur ad eam. si enim ex se, non 
+      vi<lb ed="#L" break="no" n="53"/>detur communis alijs personis. quia enim 
+      de<lb ed="#L" break="no" n="54"/>terminatur ad aliquid ex se, vbicumque sic 
+      ha<lb ed="#L" break="no" n="55"/>bet illud, &amp; per consequens esse, vt in filio 
+      habe<lb ed="#L" break="no" n="56"/>ret paternitatem, &amp; filius esset pater, si autem 
+      <lb ed="#L" n="57"/>ab alio determinetur esse ad paternitatem, iam 
+      <lb ed="#L" n="58"/>non est pater prima persona, quia videtur esse 
+      <lb ed="#L" n="59"/>originatus, vel aliquo modo dependens ab illo, 
+      <lb ed="#L" n="60"/>quod essentiam determinat ad primam 
+      pro<lb ed="#L" break="no" n="61"/>prietatem.
+    </p>
+               <p xml:id="ol96b1-207768-d1e1874">
+                  <lb ed="#L" n="62"/>Potest autem secundum istos ad hoc dici du- 
+      <!--0645.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>pliciter. Primo quidem, quod essentia 
+      determi<lb ed="#L" break="no" n="64"/>nat se, quasi productiue ad primam personalita 
+      <lb ed="#L" n="65"/>tem, vt sint tres productiones secundum triplex 
+      <lb ed="#L" n="66"/>principium, nam essentia sub ratione, qua essen 
+      <lb ed="#L" n="67"/>tia determinat se ad paternitatem; sub ratione 
+      <lb ed="#L" n="68"/>vero, qua voluntas ad spirationem. Et si 
+      argue<lb ed="#L" break="no" n="69"/>retur, quod secundum hoc erunt tres 
+      productio<lb ed="#L" break="no" n="70"/>nes. Vna qua pater producitur; alia vero qua 
+      <lb ed="#L" n="71"/>filius, &amp; alia qua spiritus sanctus, &amp; quaereretur 
+      <lb ed="#L" n="72"/>de illa, qua essentia determinat se productiue 
+      <lb ed="#L" n="73"/>ad patrem, an esset generatio videretur enim, 
+      <lb ed="#L" n="74"/>quod non, cum pater sit ingenitus. dici potest 
+      <lb ed="#L" n="75"/>ad hoc, quod immo talis productio posset 
+      gene<lb ed="#L" break="no" n="76"/>ratio appellari, &amp; productio verbi, dictio, sicut 
+      <lb ed="#L" n="77"/>signis esset intelligens, generaret igneitatem, 
+      <lb ed="#L" n="78"/>&amp; diceret intellectu.
+    </p>
+               <p xml:id="ol96b1-207768-d1e1918">
+                  <lb ed="#L" n="79"/>Et si dicatur vlterius, quod nihil generat se, 
+      <lb ed="#L" n="80"/>dicendum, quod verum est totaliter, aliquid 
+      ta<lb ed="#L" break="no" n="81"/>men produci potest sicut patet in creaturis, quod 
+      <lb ed="#L" n="82"/>aqua prius calefacta, &amp; postea sibi relicta 
+      pro<lb ed="#L" break="no" n="83"/>ducit aquam frigidam reducendo se ad 
+      frigidi<lb ed="#L" break="no" n="84"/>tatem, consimiliter in proposito essentia per se 
+      <lb ed="#L" n="85"/>ens in primo signo, in quo relatio prima, videli 
+      <lb ed="#L" n="86"/>cet paternitas ab ea pullulat producit se in pri 
+      <lb ed="#L" n="87"/>ma relatione, siue magis propriae communicat 
+      <lb ed="#L" n="88"/>se illa. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1943">
+                  <lb ed="#L" n="89"/>Et si dicatur vlterius, quod essentia erit 
+      sup<lb ed="#L" break="no" n="90"/>positum, quia actiones sunt suppositorum, &amp; ita 
+      <lb ed="#L" n="91"/>erit quartum suppositum in diuinis, dicendum 
+      <lb ed="#L" n="92"/>quod omnis forma quioscens non est inhaerens, 
+      <lb ed="#L" n="93"/>vt actus, vel sicut forma substantialis, omnis 
+      ta<lb ed="#L" break="no" n="94"/>lis forma potest esse agens, nec tamen erit 
+      sup<lb ed="#L" break="no" n="95"/>positum, quia non est incommunicabilis, &amp; ita 
+      <lb ed="#L" n="96"/>essentia, cum sit ens per se poterit agere, nec ta 
+      <lb ed="#L" n="97"/>men erit quartum suppositum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e1965">
+                  <lb ed="#L" n="98"/>Adhuc si dicatur vlterius, quod inter 
+      produ<lb ed="#L" break="no" n="99"/>cens, &amp; productum est realis distinctio, &amp; ita 
+      es<lb ed="#L" break="no" n="100"/>sentia distinguetur realiter a prima persona, di 
+      <lb ed="#L" n="101"/>cendum, quod in primo signo intelligitur hic 
+      <lb ed="#L" n="102"/>Deus, tamquam per se ens, &amp; ille producit se pa 
+      <lb ed="#L" n="103"/>trem, inter producens autem, &amp; productum est 
+      <lb ed="#L" n="104"/>realis distinctio, si producens est suppositum, 
+      <lb ed="#L" n="105"/>suppositum namque producens suppositum, 
+      ne<lb ed="#L" break="no" n="106"/>cesario producit distinctum, quia non potest se 
+      <lb ed="#L" n="107"/>illi communicare; ens autem per se singulare, 
+      <lb ed="#L" n="108"/>quale est hic Deus in primo signo potest 
+      produ<lb ed="#L" break="no" n="109"/>cere, inquantum per se, sed communicari 
+      pro<lb ed="#L" break="no" n="110"/>ducto, inquantum non est suppositum, sed 
+      com<lb ed="#L" break="no" n="111"/>municabile ens, &amp; per consequens non 
+      produ<lb ed="#L" break="no" n="112"/>cit distinctum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2000">
+                  <lb ed="#L" n="113"/>Si vero dicatur vlterius, quod sancti dicunt 
+      <lb ed="#L" n="114"/>primum suppositum simpliciter improductum, 
+      <lb ed="#L" n="115"/>dicendum, quod verum est, quia non producitur 
+      <lb ed="#L" n="116"/>a supposito, sed non negant, quin producatur ab 
+      <lb ed="#L" n="117"/>aliquo sui, inquantum constitutiua proprietas ab 
+      <lb ed="#L" n="118"/>aliquo sui, vtpote ab essentia dicitur pullulare. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2016">
+                  <lb ed="#L" n="119"/>Secundo vero potest solui secundum istos 
+      di<lb ed="#L" break="no" n="120"/>stinguendo de indeterminatione. est enim 
+      ali<lb ed="#L" break="no" n="121"/>quid indeterminatum ad vtramque partem 
+      con<lb ed="#L" break="no" n="122"/>tradictionis, &amp; sic essentia non est 
+      indetermi<lb ed="#L" break="no" n="123"/>nata ad proprietates personales, nec ad 
+      perso<lb ed="#L" break="no" n="124"/>nalitates ipsas, &amp; est alia indeterminatio illimi 
+      <lb ed="#L" n="125"/>tationis, eo modo, quo sol est indeterminatus, 
+      <lb ed="#L" n="126"/>ad omnes partes medij illustrandas. si enim 
+      <lb ed="#L" n="127"/>determinat sibi aliquam, sed potest illustrare 
+      <lb ed="#L" n="128"/>omnes, nihilominus ordine quodam, quia- 
+      <!--0646.xml-->
+      <pb ed="#L" n="646"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>prius partem propinquiorem, &amp; deinde 
+      remo<lb ed="#L" break="no" n="2"/>tiorem, &amp; similiter anima habet pro perfectibili 
+      <lb ed="#L" n="3"/>adaequato omnes partes corporis, nec 
+      determi<lb ed="#L" break="no" n="4"/>natur ad vnam, quamuis ordine quodam per 
+      <lb ed="#L" n="5"/>prius cor perficiat, quam manus. vnde patet, 
+      <lb ed="#L" n="6"/>quod loquendo de determinatione 
+      adaequatio<lb ed="#L" break="no" n="7"/>nis, anima non est determinata ad cor perficiē- 
+      <lb ed="#L" n="8"/>dum, cum cor non sit eius perfectibile 
+      adaequa<lb ed="#L" break="no" n="9"/>tum: loquendo vero de determinatione 
+      imme<lb ed="#L" break="no" n="10"/>diationis, anima est determinata ex se ad cor 
+      <lb ed="#L" n="11"/>perficiendum; quia immediate perficit cor, &amp; 
+      <lb ed="#L" n="12"/>partes alias mediante corde, consimiliter in 
+      <lb ed="#L" n="13"/>proposito essentia diuina, ex se 
+      determinata<lb ed="#L" break="no" n="14"/>ad primam personalitatem, non loquendo de 
+      <lb ed="#L" n="15"/>determinatione adaequationis, quia nata est 
+      <lb ed="#L" n="16"/>subsistere non solum in prima, immo in tribus 
+      <lb ed="#L" n="17"/>per sonalibus adaequare; loquendo vero de deter 
+      <lb ed="#L" n="18"/>minatione immediationis, ex se determinatur 
+      <lb ed="#L" n="19"/>ad primam personalitatem, quia immediate 
+      <lb ed="#L" n="20"/>ad secundam vero mediante prima, a qua 
+      produ<lb ed="#L" break="no" n="21"/>citur, &amp; ad tertiam mediante prima, &amp; 
+      secun<lb ed="#L" break="no" n="22"/>da, quoniam tertia producitur ab vtraque. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2094">
+                  <lb ed="#L" n="23"/>Sed iste modus dicendi quamuis quantum ad 
+      <lb ed="#L" n="24"/>hoc contineat veritatem, quod primam 
+      perso<lb ed="#L" break="no" n="25"/>nam dicit constitui per generare, siue 
+      paterni<lb ed="#L" break="no" n="26"/>tatem, nihilominus in hoc deficit, quod essentiam 
+      <lb ed="#L" n="27"/>dicit determinari ad primam proprietatem, 
+      <lb ed="#L" n="28"/>scipsa. potest enim intelligi, quod se 
+      determi<lb ed="#L" break="no" n="29"/>net productiue, quasi essentia primam 
+      proprie<lb ed="#L" break="no" n="30"/>tatem, ex se pullulando emittat, sicut videtur 
+      <lb ed="#L" n="31"/>primus modus soluendi imaginari, quasi 
+      essen<lb ed="#L" break="no" n="32"/>tia sit substratum, &amp; emittat proprietatem, eo 
+      <lb ed="#L" n="33"/>modo, quo aqua calida causat in se frigiditatem, 
+      <lb ed="#L" n="34"/>&amp; hoc modo impossibile est, quod essentia se 
+      <lb ed="#L" n="35"/>determinet productiue. omne enim, quod 
+      rea<lb ed="#L" break="no" n="36"/>liter pullulat ab aliquo esse capiens, &amp; suam 
+      <lb ed="#L" n="37"/>realitatem ab eo, per necessitatem est aliud rea 
+      <lb ed="#L" n="38"/>liter ab eo, alioquin sequeretur, quod eadem res 
+      <lb ed="#L" n="39"/>conduceret seipsam ad esse, &amp; ita esset antequam 
+      <lb ed="#L" n="40"/>esset, &amp; iterum realitas, quae capit esse 
+      impossi<lb ed="#L" break="no" n="41"/>bile est, quod sit illa, quae non capit esse alioquin 
+      <lb ed="#L" n="42"/>eadem realitas esset producta, &amp; non producta, 
+      <lb ed="#L" n="43"/>quod est contradictio, sed proprietas 
+      persona<lb ed="#L" break="no" n="44"/>lis non est distincta res ab essentia. ergo non 
+      <lb ed="#L" n="45"/>productiue pullulat ab ea 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2146">
+                  <lb ed="#L" n="46"/>Praeterea: Nulla res carens propria vnitate, 
+      <lb ed="#L" n="47"/>sed fundans omnimodam vnitatem, &amp; 
+      indisttin<lb ed="#L" break="no" n="48"/>ctionem cum aliquo potest emittere 
+      pullulan<lb ed="#L" break="no" n="49"/>do illud, cum quo fundat omnimodam vnitatem, 
+      <lb ed="#L" n="50"/>nam secundum istos nihil potest producere, nisi 
+      <lb ed="#L" n="51"/>sit ens per se singulare, &amp; ita distinctum, &amp; habens 
+      <lb ed="#L" n="52"/>propriam vnitatem, sed essentia est res penitus 
+      <lb ed="#L" n="53"/>indistincta a proprietate. non enim est alia res, 
+      <lb ed="#L" n="54"/>etiam secundum eos, sed tantum formaliter 
+      di<lb ed="#L" break="no" n="55"/>stinguitur, &amp; est realiter eadem, &amp; secundum 
+      <lb ed="#L" n="56"/>veritatem, nec realiter, nec formaliter ponunt 
+      <lb ed="#L" n="57"/>in numerum, cum persona sit, &amp; formaliter, &amp; 
+      <lb ed="#L" n="58"/>realiter summe simplex. ergo nihil est dictu, 
+      <lb ed="#L" n="59"/>quod essentia productiue emittat primam 
+      <lb ed="#L" n="60"/>proprietatem, aut quod proprietas pullulet ab 
+      <lb ed="#L" n="61"/>eadem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2184">
+                  <lb ed="#L" n="62"/>Praeterea: vere omne genitum potest-filius 
+      <lb ed="#L" n="63"/>appellari, sed secundum istos, hic vere Deus ge 
+      <lb ed="#L" n="64"/>nerat primum suppositum. ergo hic Deus est ve 
+      <lb ed="#L" n="65"/>re pater primi suppositi, &amp; suppositum vere filius 
+      <lb ed="#L" n="66"/>eius, &amp; ita sunt duo patres, &amp; duo filij in diuinis.
+    </p>
+               <p xml:id="ol96b1-207768-d1e2197">
+      <!--0646.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="67"/>Praeterea: Si hic Deus productiue ad primum 
+      <lb ed="#L" n="68"/>suppositum se determinat, necessario inter hunc 
+      <lb ed="#L" n="69"/>Deum, &amp; primum suppositum est relatio realis 
+      <lb ed="#L" n="70"/>productionis ad productum, &amp; econuerso in pri 
+      <lb ed="#L" n="71"/>mo supppsito erit relatio producti ad 
+      produ<lb ed="#L" break="no" n="72"/>cens, &amp; per consequens oppositae relationes ori 
+      <lb ed="#L" n="73"/>ginis erunt inter essentiam, &amp; primam personam, 
+      <lb ed="#L" n="74"/>sed relationes originis sunt incompossibiles in 
+      <lb ed="#L" n="75"/>eodem supposito in diuinis, quia qua ratione 
+      <lb ed="#L" n="76"/>illae stabunt simul in eodem supposito, eadem 
+      ra<lb ed="#L" break="no" n="77"/>tione paternitas primae personae, &amp; filiatio secum 
+      <lb ed="#L" n="78"/>dae stabunt in eodem supposito, &amp; ita pater, &amp; 
+      <lb ed="#L" n="79"/>filius erunt idem suppositum, quod omnino 
+      im<lb ed="#L" break="no" n="80"/>possibile est. ergo essentia producens personam 
+      <lb ed="#L" n="81"/>primam, &amp; prima persona producta erunt duo 
+      <lb ed="#L" n="82"/>supposita, &amp; ita erit quartum suppositum. Et 
+      <lb ed="#L" n="83"/>confirmatur quia idem suppositum non potest 
+      <lb ed="#L" n="84"/>esse pater, &amp; filius secundum Augustinum de 
+      fi<lb ed="#L" break="no" n="85"/>de ad Pet. secundum autem modum istum 
+      dicen<lb ed="#L" break="no" n="86"/>di essentia esset vere pater primae personae, cum 
+      <lb ed="#L" n="87"/>eam produceret, &amp; generaret, &amp; prima 
+      perso<lb ed="#L" break="no" n="88"/>na esset filius essentiae, ac per hoc non esset vnum 
+      <lb ed="#L" n="89"/>suppositum essentia, &amp; prima persona, alioquin 
+      <lb ed="#L" n="90"/>idem suppositum esset pater, &amp; filius, secundo 
+      ve<lb ed="#L" break="no" n="91"/>ro posset intelligi, quod essentia determinaret 
+      <lb ed="#L" n="92"/>se vel formaliter, vel quasi subiectiue ad ipsas 
+      <lb ed="#L" n="93"/>proprietates, sicut dicitur imaginari secundus 
+      <lb ed="#L" n="94"/>modus soluendi, &amp; adhuc iste modus impossibi 
+      <lb ed="#L" n="95"/>lis est. nihil enim determinat se ad aliquid, 
+      ni<lb ed="#L" break="no" n="96"/>si illud ab eo profluat, sicut patet de sole, quod 
+      <lb ed="#L" n="97"/>non determinatur ad illustrandum per prius par 
+      <lb ed="#L" n="98"/>tem aeris sibi propinquiorem, nisi quia illustra 
+      <lb ed="#L" n="99"/>tio profuit ab eo, nec anima ad viuificandum 
+      <lb ed="#L" n="100"/>per prius cor, nisi quia operationes vitales fluunt 
+      <lb ed="#L" n="101"/>ad cor immediate ab anima, vel saltem actus 
+      <lb ed="#L" n="102"/>primus, qui est perficere cor, &amp; viuificare est 
+      <lb ed="#L" n="103"/>prius ab anima circa cor. vnde quando aliqua 
+      <lb ed="#L" n="104"/>sic se habent, quod nec vnum fluit ab alio, nec 
+      <lb ed="#L" n="105"/>aliquid circa alterum fit ab altero, non 
+      ap<lb ed="#L" break="no" n="106"/>paret ibi, quomodo vnum ad se determinet, sed 
+      <lb ed="#L" n="107"/>probatum est, quod proprietates non fluunt ab 
+      <lb ed="#L" n="108"/>essentia, nec etiam esse a proprietatibus, nec es 
+      <lb ed="#L" n="109"/>sentia est forma proprietatum, vt eas perficiat 
+      <lb ed="#L" n="110"/>in aliquo esse, nec subiectum, vt eas recipiat in 
+      <lb ed="#L" n="111"/>seipsa. ergo nihil est dictu, quod essentia 
+      deter<lb ed="#L" break="no" n="112"/>minet se per prius ad paternitatem, quia non 
+      <lb ed="#L" n="113"/>determinat se ad eam, vt eliciat, vel producat 
+      <lb ed="#L" n="114"/>actiue, nec vt perficiat formaliter, nec vt 
+      reci<lb ed="#L" break="no" n="115"/>piat subiectiue, 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2310">
+                  <lb ed="#L" n="116"/>Quid dicendum secundum veritatem 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2315">
+                  <lb ed="#L" n="117"/>RESTAT ergo nunc dicere, quod videtur. 
+      <lb ed="#L" n="118"/>sub duplici propositione. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2322">
+                  <lb ed="#L" n="119"/>Prima quidem, quod prima persona nullo mo 
+      <lb ed="#L" n="120"/>do constituitur per innascibilitatem propter ea, 
+      <lb ed="#L" n="121"/>quae dicta sunt contra primam opinionem, sed 
+      <lb ed="#L" n="122"/>per generare actuale, &amp; spirare, siue 
+      paternita<lb ed="#L" break="no" n="123"/>tem, &amp; spirationem actiuam, propter ea, quae 
+      di<lb ed="#L" break="no" n="124"/>cta sunt contra opinionem tertiam, &amp; propter 
+      <lb ed="#L" n="125"/>dicta superius distinct. 11. vbi ostensum est, quod 
+      <lb ed="#L" n="126"/>infra personalitatem patris intrinsece 
+      claudi<lb ed="#L" break="no" n="127"/>tur spirare, &amp; generare. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2344">
+                  <lb ed="#L" n="128"/>Secunda vero propositio est, quod essentia 
+      <lb ed="#L" n="129"/>non determinat se ad generare, &amp; spirare, nec 
+      <lb ed="#L" n="130"/>aliquo modo haec profluunt, aut pullulant ab ea, 
+      <!--0647.xml-->
+      <pb ed="#L" n="647"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sed sunt realitates omnino ad se, &amp; simpliciter 
+      <lb ed="#L" n="2"/>primae, &amp; ideo seipsis immediate absque 
+      deter<lb ed="#L" break="no" n="3"/>minatione alia esse generare, &amp; spirare 
+      adinui<lb ed="#L" break="no" n="4"/>cem adunantur, &amp; hoc competit eis, non quia es 
+      <lb ed="#L" n="5"/>sentia tantum sit ratio huius determinationis, 
+      <lb ed="#L" n="6"/>nec generare tantum, nec etiam spirare, sed 
+      quod<lb ed="#L" break="no" n="7"/>libet inquantum est res prima, non habens 
+      prae<lb ed="#L" break="no" n="8"/>cisam vnitatem, sed apta nata est cum reliqua 
+      <lb ed="#L" n="9"/>fundare vnitatem, quae libet sic partialiter deter 
+      <lb ed="#L" n="10"/>minatur ad suppositum primum seipsa, &amp; ita to 
+      <lb ed="#L" n="11"/>tum suppositum est simpliciter primum, non egens 
+      <lb ed="#L" n="12"/>aliquo, quod determinet essentiam ad ipsam.
+    </p>
+               <p xml:id="ol96b1-207768-d1e2387">
+                  <lb ed="#L" n="13"/>Nec valet, quod inferatur, quod primum 
+      <lb ed="#L" n="14"/>suppositum erit formaliter in secundo, ex quo 
+      <lb ed="#L" n="15"/>essentia ipsa determinat se ad ipsum, dicendum, 
+      <lb ed="#L" n="16"/>quod non solum determinat se ad primum, 
+      in<lb ed="#L" break="no" n="17"/>quantum generare, &amp; spirare sunt apta nata fun 
+      <lb ed="#L" n="18"/>dare vnitatem eandem, immo &amp; seipsa 
+      deter<lb ed="#L" break="no" n="19"/>minat se ad secundum suppositum, inquantum 
+      <lb ed="#L" n="20"/>generari est aptum fundare aliam vnitatem, sed 
+      <lb ed="#L" n="21"/>quia generari est res non a se, sed aliunde capiens 
+      <lb ed="#L" n="22"/>esse, videlicet a generare, idcirco esse ordine 
+      <lb ed="#L" n="23"/>quodam ad secundum suppositum determinatur, 
+      <lb ed="#L" n="24"/>non quia ille ordo ortum habeat ab essentia, sed 
+      <lb ed="#L" n="25"/>ab ipso generari, quod est res habens originem 
+      <lb ed="#L" n="26"/>originis ad generare, vt dictum est. vnde si 
+      gene<lb ed="#L" break="no" n="27"/>rari esset res a se in diuinis, aeque primo, &amp; 
+      im<lb ed="#L" break="no" n="28"/>mediate adunaretur essentia cum ipso ad 
+      con<lb ed="#L" break="no" n="29"/>stitutionem personae filij, sicut est generare, &amp; 
+      <lb ed="#L" n="30"/>spirare ad constitutionem patris. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2429">
+                  <lb ed="#L" n="31"/>Sed forte dicetur, quod impossibile est esse tres 
+      <lb ed="#L" n="32"/>res primo primas, quin sit deuenire ad vnam, quae 
+      <lb ed="#L" n="33"/>est simpliciter prima, &amp; secundum hoc 
+      genera<lb ed="#L" break="no" n="34"/>re, &amp; spirare ad esse reducentur, tamquam ad 
+      ali<lb ed="#L" break="no" n="35"/>quid primum, a quo pullulant, &amp; quod 
+      deter<lb ed="#L" break="no" n="36"/>minat se ad illa. dicendum ergo ad hoc, quod ve 
+      <lb ed="#L" n="37"/>rum est, quod omnia reducuntur ad vnum 
+      pri<lb ed="#L" break="no" n="38"/>mum, &amp; illud est primum suppositum, sic quod 
+      <lb ed="#L" n="39"/>omnia, quae in eo sunt prima simpliciter, &amp; 
+      im<lb ed="#L" break="no" n="40"/>producta, nec tamen tres res primae, quia non 
+      <lb ed="#L" n="41"/>quaelibet est res vna per se, nec ponunt 
+      adinui<lb ed="#L" break="no" n="42"/>cem numerum, sed sunt penitus indistincta, &amp; 
+      <lb ed="#L" n="43"/>vnam habentia vnitatem. sic ergo patet, quomo 
+      <lb ed="#L" n="44"/>do simul, &amp; in eodem signo intelligenda est 
+      es<lb ed="#L" break="no" n="45"/>sentia in persona prima, &amp; secunda, &amp; tertia, nec 
+      <lb ed="#L" n="46"/>in aliquo signo intelligi potest in vna, quin 
+      in<lb ed="#L" break="no" n="47"/>telligatur in altera, sed est in ipsa, tamquam in 
+      <lb ed="#L" n="48"/>illa, quae est omnino a se, quantum ad omnia, quae 
+      <lb ed="#L" n="49"/>ad constitutionem ipsius concurrunt. In 
+      secun<lb ed="#L" break="no" n="50"/>da vero tamquam in illa, quae profluit ab 
+      vtra<lb ed="#L" break="no" n="51"/>que, nec ille ordo originis excludit simultatem 
+      <lb ed="#L" n="52"/>intelligentiae naturalis, vt sit in prima, &amp; in 
+      ali<lb ed="#L" break="no" n="53"/>quo signo, quin de necessitate in eodem signo 
+      <lb ed="#L" n="54"/>intelligatur in duabus aliis, &amp; in hoc tertius 
+      ar<lb ed="#L" break="no" n="55"/>ticulus terminetur. 
+    </p>
+            </div>
+            <div xml:id="ol96b1-207768-Dd1e2487">
+               <head xml:id="ol96b1-207768-Hd1e2489">Articulus 4</head>
+               <p xml:id="ol96b1-207768-d1e2491">
+                  <lb ed="#L" n="56"/>ARTJCVLVS QVARTVS. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2496">
+                  <lb ed="#L" n="57"/>An innascibilitas sit proprietas, &amp; notio distincta 
+      per<lb ed="#L" break="no" n="58"/>sonae patris. Opinio quorumdam. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2503">
+                  <lb ed="#L" n="59"/>CIRCA quartum autem considerandum est, 
+      <lb ed="#L" n="60"/>quod aliqui dicere voluerunt, 
+      innascibili<lb ed="#L" break="no" n="61"/>tatem ex sua ratione formali non dicere 
+      proprie<lb ed="#L" break="no" n="62"/>tatem, seu notionem personae primae, cum 
+      no<lb ed="#L" break="no" n="63"/>tionalis proprietas debeat esse aliquid ad 
+      di<lb ed="#L" break="no" n="64"/>gnitatem pertinens, &amp; formalis ratio innasci- 
+      <!--0647.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="65"/>bilitatis sit negatio, seu priuatio; negatio vero 
+      <lb ed="#L" n="66"/>nullam dignitatem importat, &amp; se sola est 
+      pro<lb ed="#L" break="no" n="67"/>prietas primae personae ratione cuiusdam 
+      positi<lb ed="#L" break="no" n="68"/>ui, quod connotat ratione fontalis 
+      plenitudi<lb ed="#L" break="no" n="69"/>nis, vel auctoritatis vniuersalis principij. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2534">
+                  <lb ed="#L" n="70"/>Sed hic modus stare non potest, quia Hilar. &amp; 
+      <lb ed="#L" n="71"/>August. ponunt inna scibilitatem indistinctam, 
+      <lb ed="#L" n="72"/>&amp; disparatam a paternitate, &amp; communi 
+      spira<lb ed="#L" break="no" n="73"/>tione; sed si non esset proprietas ratione sui for 
+      <lb ed="#L" n="74"/>malis, sed propter fontalitatem principij, quod 
+      <lb ed="#L" n="75"/>connotat non esset disparata notio, &amp; distincta 
+      <lb ed="#L" n="76"/>a paternitate, &amp; spiratione, siue a generare, &amp; 
+      <lb ed="#L" n="77"/>spirare. non enim est aliter principium fontale, 
+      <lb ed="#L" n="78"/>nisi per generare, &amp; spirare, cum in eo non sit 
+      a<lb ed="#L" break="no" n="79"/>liqua fontalitas potentialitas, sed actus 
+      princi<lb ed="#L" break="no" n="80"/>piandi puri absque omni potentialitate. ergo di 
+      <lb ed="#L" n="81"/>ci non potest, quod innascibilitas sit 
+      proprie<lb ed="#L" break="no" n="82"/>tas ratione fontalis principij, quod habet 
+      con<lb ed="#L" break="no" n="83"/>notaru.
+    </p>
+               <p xml:id="ol96b1-207768-d1e2568">
+                  <lb ed="#L" n="84"/>Opinio sancti Thomae parte prima q. 33. art. 4. in 
+      solu<lb ed="#L" break="no" n="85"/>tione arg. primi. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2575">
+                  <lb ed="#L" n="86"/>PROPTEREA dixerunt alij, quod 
+      ingeni<lb ed="#L" break="no" n="87"/>tus negationem passiuae generationis 
+      im<lb ed="#L" break="no" n="88"/>portat, dicit August. 5. de Trinit. quod tantum 
+      <lb ed="#L" n="89"/>valet ingenitus, quantum non filius, nec propter 
+      <lb ed="#L" n="90"/>hoc sequitur, quod ingenitus non debeat poni 
+      <lb ed="#L" n="91"/>proprietas patris, sicut non habere partes 
+      poni<lb ed="#L" break="no" n="92"/>tur proprietas puncti. dicimus enim punctum 
+      <lb ed="#L" n="93"/>esse, cui pars non est. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2595">
+                  <lb ed="#L" n="94"/>Sed nec iste modus est congruus. quandocum 
+      <lb ed="#L" n="95"/>que enim aliqua aequipollent, de quo potest vnum, 
+      <lb ed="#L" n="96"/>&amp; reliquum, sed de spiritu sancto vere dicitur, 
+      <lb ed="#L" n="97"/>quod est non filius, &amp; tamen non dicitur, quod sit 
+      <lb ed="#L" n="98"/>ingenitus, sed solus pater est innascibilis, &amp; 
+      in<lb ed="#L" break="no" n="99"/>genitus. ergo non aequipollent. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2611">
+                  <lb ed="#L" n="100"/>Praeterea: Augustinus dicit, quod non solus 
+      <lb ed="#L" n="101"/>pater appellatur ingenitus, quia solus non est de 
+      <lb ed="#L" n="102"/>alio, ex quo apparet, quod ingenitus priuat non 
+      <lb ed="#L" n="103"/>solum generationem passiuam, vt isti dicunt, 
+      <lb ed="#L" n="104"/>immo omne esse ab alio, &amp; omnem originem, &amp; 
+      <lb ed="#L" n="105"/>per consequens non aequipollent ingenitus, &amp; 
+      <lb ed="#L" n="106"/>non filius. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2629">
+                  <lb ed="#L" n="107"/>Nec valet motiuum, quia sicut Magister 
+      ca<lb ed="#L" break="no" n="108"/>pit. 2. istius distinct. sic Aug. vbicumque ait, 
+      <lb ed="#L" n="109"/>quod ingenitus tantum valet, quantum non 
+      ge<lb ed="#L" break="no" n="110"/>nitus, vel non filius, dicit hoc ostendendo 
+      nomi<lb ed="#L" break="no" n="111"/>nis ethymologiam, non autem significatum, vel 
+      <lb ed="#L" n="112"/>sensum, quia ingenitus plus excludit, &amp; priuat, 
+      <lb ed="#L" n="113"/>quam non filius. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2647">
+                  <lb ed="#L" n="114"/>Opinio Dur. I. sent. dist. 28. q. 2. &amp; quorundam aliorum.
+    </p>
+               <p xml:id="ol96b1-207768-d1e2653">
+                  <lb ed="#L" n="115"/>ET ideo dixerunt alij, quod cum ingenitus 
+      <lb ed="#L" n="116"/>dicat priuationem omnis originis, &amp; essen 
+      <lb ed="#L" n="117"/>di quomodocumque ab alio, non quidem priua 
+      <lb ed="#L" n="118"/>tionem alicuius, quod innatum sit inesse 
+      caren<lb ed="#L" break="no" n="119"/>ti, sed quod innatum est inesse alicui, sicut Deus, 
+      <lb ed="#L" n="120"/>vel Angelus dicuntur incorporei priuatiue, 
+      quam<lb ed="#L" break="no" n="121"/>uis non sint apti esse corporei; sic inquam 
+      acci<lb ed="#L" break="no" n="122"/>piendo ingenitum est notio propria patris. 
+      om<lb ed="#L" break="no" n="123"/>nes enim concedunt, quod de ratione notionis 
+      <lb ed="#L" n="124"/>sunt tria. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2677">
+                  <lb ed="#L" n="125"/>Primum quidem, quod soli illi conueniat, 
+      cu<lb ed="#L" break="no" n="126"/>ius ponitur notio: omne autem ingenitum con 
+      <lb ed="#L" n="127"/>uenit soli patri, quia illud non potest dici pro- 
+      <!--0648.xml-->
+      <pb ed="#L" n="648"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>prie genitum, quod per generationem procedit, 
+      <lb ed="#L" n="2"/>vt filius, aut generationem supponit, vt 
+      spiri<lb ed="#L" break="no" n="3"/>tus sanctus, aut per generationem 
+      communica<lb ed="#L" break="no" n="4"/>tur, sicut essentia. vnde restat, quod solus pater, 
+      <lb ed="#L" n="5"/>cui ista non competunt, proprie ingenitus dici 
+      <lb ed="#L" n="6"/>possit. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2706">
+                  <lb ed="#L" n="7"/>Secundo vero, quod faciat differentiam 
+      ali<lb ed="#L" break="no" n="8"/>quam in esse relatiuo. Et hoc quidem facit 
+      inge<lb ed="#L" break="no" n="9"/>nitum, non quia ponat relationem, sed quia pri 
+      <lb ed="#L" n="10"/>uat eam. vnde genitus, &amp; ingenitus differunt pe 
+      <lb ed="#L" n="11"/>nes relationem, &amp; non habere, &amp; per consequens 
+      <lb ed="#L" n="12"/>ingenitus differentiam facit in esse relatiuo. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2722">
+                  <lb ed="#L" n="13"/>Tertium vero est, quod sit ad dignitatem 
+      perti<lb ed="#L" break="no" n="14"/>nens: constat autem, quod non esse ab alio ad dignitatem 
+      <lb ed="#L" n="15"/>pertinere videtur: tum quia habere naturam ab alio 
+      <lb ed="#L" n="16"/>potest alicui conuenire modo nobili, &amp; etiam mo 
+      <lb ed="#L" n="17"/>do ignobili, &amp; ideo in non habendo eam ab alio 
+      <lb ed="#L" n="18"/>excluditur omnis modus ignobilis: tum quia non 
+      <lb ed="#L" n="19"/>habere ab alio quandam primitatem importat, 
+      <lb ed="#L" n="20"/>saltem secundum rationem intelligendi, quia 
+      <lb ed="#L" n="21"/>licet non sit pater secundum rem prior filio: 
+      ta<lb ed="#L" break="no" n="22"/>mem secundum modum intelligendi videtur prior, 
+      <lb ed="#L" n="23"/>inquantum est eius principium, &amp; similiter 
+      in<lb ed="#L" break="no" n="24"/>quantum est principium, non de principio 
+      se<lb ed="#L" break="no" n="25"/>cundum nostrum modum intelligendi videtur 
+      <lb ed="#L" n="26"/>quandam primitatem habere, &amp; per 
+      conse<lb ed="#L" break="no" n="27"/>quens dignitatem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2757">
+                  <lb ed="#L" n="28"/>Sed nec iste modus videtur conueniens 
+      quan<lb ed="#L" break="no" n="29"/>tum ad hoc, quod dicit, ingenitum importare 
+      <lb ed="#L" n="30"/>secundum modum intelligendi hanc duplicem 
+      <lb ed="#L" n="31"/>dignitatem. primam quidem, quod ponat omnem 
+      <lb ed="#L" n="32"/>modum habendi ignobilem. secundam vero, 
+      <lb ed="#L" n="33"/>quod ponat secundum intellectum prioritatem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2773">
+                  <lb ed="#L" n="34"/>Et primum quidem patet, quod nulla 
+      natu<lb ed="#L" break="no" n="35"/>ra ex hoc, quod habetur ab alio nullam 
+      contra<lb ed="#L" break="no" n="36"/>hit ignobilitatem, nisi illam, quae consequitur 
+      ip<lb ed="#L" break="no" n="37"/>sam formaliter. si enim natura formaliter sit 
+      <lb ed="#L" n="38"/>aeque nobilis, per hoc, quod erit ab alio, non effi 
+      <lb ed="#L" n="39"/>citur ignobilis. ignis enim generans, &amp; genitus 
+      <lb ed="#L" n="40"/>aeque nobiles sunt in natura, nec generari 
+      indi<lb ed="#L" break="no" n="41"/>gnitatem ponit in genito, dum tamen forma 
+      <lb ed="#L" n="42"/>ignis participetur, &amp; econuerso. cum ergo 
+      ha<lb ed="#L" break="no" n="43"/>bere naturam ab alio nullam ignobilitatem im 
+      <lb ed="#L" n="44"/>portet formaliter, nisi aliunde, quod exceditur 
+      <lb ed="#L" n="45"/>ab alio huiusmodi indignitas contrahatur, non 
+      <lb ed="#L" n="46"/>apparet, quod non habere naturam ab aliquo 
+      <lb ed="#L" n="47"/>dignitatem importet. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2807">
+                  <lb ed="#L" n="48"/>Secundum etiam patet. non enim est verum, 
+      <lb ed="#L" n="49"/>quod pater sit prior filio secundum nostrum 
+      mo<lb ed="#L" break="no" n="50"/>dum intelligendi, cum relatiua sint simul 
+      natu<lb ed="#L" break="no" n="51"/>ra, &amp; intelligibilia. vnde simul intelligitur 
+      pa<lb ed="#L" break="no" n="52"/>ter cum filio, &amp; econuerso, quare nec 
+      ingeni<lb ed="#L" break="no" n="53"/>tum ponet aliquam primitatem secundum 
+      mo<lb ed="#L" break="no" n="54"/>dum intelligendi, non primitatem originis, quae 
+      <lb ed="#L" n="55"/>non est in diuinis tantum secundum intellectum, 
+      <lb ed="#L" n="56"/>immo realiter. non apparet ergo, quomodo 
+      in<lb ed="#L" break="no" n="57"/>genitum pertineat ad dignitatem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2831">
+                  <lb ed="#L" n="58"/>Opinio Scoti 1. sen. dist. 28. q. 3. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2836">
+                  <lb ed="#L" n="59"/>ET ideo dixerunt alij, quod non oportet, 
+      <lb ed="#L" n="60"/>quod notio, seu proprietas personalis 
+      im<lb ed="#L" break="no" n="61"/>portet aliquam dignitatem, quia proprietates 
+      <lb ed="#L" n="62"/>personales non dicunt perfectionem, nec imper 
+      <lb ed="#L" n="63"/>fectionem. Et si omnino instetur, quod 
+      opor<lb ed="#L" break="no" n="64"/>tet, proprietatem dicere dignitatem non absolu 
+      <lb ed="#L" n="65"/>tam, sed personalem, possumus dicere, quod si- 
+      <!--0648.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="66"/>cut dignitas est in secunda persona, quod 
+      ha<lb ed="#L" break="no" n="67"/>beat principium, ita in prima, quod careat prin 
+      <lb ed="#L" n="68"/>cipio, &amp; ita ingenito secundum suam 
+      ratio<lb ed="#L" break="no" n="69"/>nem priuatiuam potest specialis notio asfignari. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2867">
+                  <lb ed="#L" n="70"/>Sed nec iste modus sufficere videtur. Primo 
+      <lb ed="#L" n="71"/>quidem, cum dicit, non oportere, quod notio 
+      <lb ed="#L" n="72"/>pertineat ad dignitatem. hoc enim est contra 
+      <lb ed="#L" n="73"/>illam definitionem vulgatam, quae dicit, quod 
+      <lb ed="#L" n="74"/>persona est hypostasis distincta proprietate ad 
+      <lb ed="#L" n="75"/>dignitatem pertinente. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2883">
+                  <lb ed="#L" n="76"/>Secundo vero cum dicit, non habere 
+      princi<lb ed="#L" break="no" n="77"/>pium dignitatis esse in prima persona, &amp; eius 
+      <lb ed="#L" n="78"/>oppositum, scilicet principium habere 
+      digni<lb ed="#L" break="no" n="79"/>tatis esse in secunda. hoc enim absolute proun 
+      <lb ed="#L" n="80"/>ciatur, nec datur ab istis, quae sit ratio huius. 
+      <lb ed="#L" n="81"/>vnde si videretur, quod sic habere principium 
+      <lb ed="#L" n="82"/>est dignitatis, quod non habere non sit 
+      dignita<lb ed="#L" break="no" n="83"/>tis in quocumque componatur, vel etiam 
+      econ<lb ed="#L" break="no" n="84"/>uerso, cum priuatio dignitatis non videatur 
+      pe<lb ed="#L" break="no" n="85"/>fectionem, seu dignitatem importare. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2907">
+                  <lb ed="#L" n="86"/>Quid dicendum secundum veritatem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2913">
+                  <lb ed="#L" n="87"/>RESTAT ergo nunc dicere, quod videtu 
+      <lb ed="#L" n="88"/>sub quadruplici propositione. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2920">
+                  <lb ed="#L" n="89"/>Prima quidem, quod ingenitum dignitatem 
+      <lb ed="#L" n="90"/>importat. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2927">
+                  <lb ed="#L" n="91"/>Ad cuius euidentiam considerandum est, quod 
+      <lb ed="#L" n="92"/>relatiuorum, quaedam sunt aequiparantia, 
+      quan<lb ed="#L" break="no" n="93"/>tum ad fundamentum, non tamen 
+      quoadrela<lb ed="#L" break="no" n="94"/>tiones, immo intelligitur vna relatio 
+      permo<lb ed="#L" break="no" n="95"/>dum superpositionis, &amp; aliam per modum 
+      sup<lb ed="#L" break="no" n="96"/>positionis, sicut refertur pater ad filium 
+      inhu<lb ed="#L" break="no" n="97"/>manis. quantumcumque enim filius sit aequeno 
+      <lb ed="#L" n="98"/>bilis in naturalibus, &amp; aeque perfectus in 
+      moti<lb ed="#L" break="no" n="99"/>bus, &amp; prudentia, vel forte perfectior patre, 
+      ui<lb ed="#L" break="no" n="100"/>hilominus non refertur ad patrem 
+      secundume<lb ed="#L" break="no" n="101"/>quiparantiam, immo paternitas intelligitur 
+      <lb ed="#L" n="102"/>per modum suppositionis, &amp; filiatio, vt quaedam 
+      <lb ed="#L" n="103"/>suppositio. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e2958">
+                  <lb ed="#L" n="104"/>Quaedam vero sunt relatiua aequiparantiz, &amp; 
+      <lb ed="#L" n="105"/>quoad relationes, &amp; quoad fundamenta. 
+      vde<lb ed="#L" break="no" n="106"/>sunt proprie secundum superpositionem, &amp; sup 
+      <lb ed="#L" n="107"/>positionem, sicut refertur dominus ad seruum, 
+      <lb ed="#L" n="108"/>&amp; seruus ad dominum. sic ergo si loquimur 
+      de<lb ed="#L" break="no" n="109"/>dignitate, quae pertinet proprie adrelationes, 
+      <lb ed="#L" n="110"/>inquantum non est aliud dignitas, quam 
+      qua<lb ed="#L" break="no" n="111"/>dam superpositio, &amp; indignitas superpositionis 
+      <lb ed="#L" n="112"/>relatio, seu auctoritas, &amp; subauctoritas, sic 
+      pos<lb ed="#L" break="no" n="113"/>sumus dicere in diuinis, quod pater, &amp; filius 
+      <lb ed="#L" n="114"/>sunt relatiua superpositionis, &amp; suppositionis 
+      <lb ed="#L" n="115"/>inaequiparantiae relatiuae, non quidem quoad fuu 
+      <lb ed="#L" n="116"/>damenta, sed quoad species, &amp; modos 
+      relatio<lb ed="#L" break="no" n="117"/>num, &amp; haec paternitas dignitatem importat, 
+      <lb ed="#L" n="118"/>quia est inter species relationum, quae contineu 
+      <lb ed="#L" n="119"/>tur sub quodam numero generali, qui 
+      appella<lb ed="#L" break="no" n="120"/>tur suppositio; filiatio vero quandam 
+      subdigni<lb ed="#L" break="no" n="121"/>tatem, seu subauctoritatem, vel suppositionem, 
+      <lb ed="#L" n="122"/>&amp; vniuersaliter omne productum habet 
+      relatio<lb ed="#L" break="no" n="123"/>nem suppositionis, &amp; cuiusdam subdignitatis in 
+      <lb ed="#L" n="124"/>ordine ad producens, quocirca negatio omnis 
+      <lb ed="#L" n="125"/>productionis passiuae negat omnimodam suppo 
+      <lb ed="#L" n="126"/>sitionem, vel omnem relationem pertinere ad 
+      <lb ed="#L" n="127"/>suba uctoritatem, &amp; subdignitatem in ordine ad 
+      <lb ed="#L" n="128"/>producens; negatio vero suppositionis videtur 
+      <lb ed="#L" n="129"/>esse afirmatio superpositionis, &amp; digniratis ca 
+      <lb ed="#L" n="130"/>iusdam, propter quod improductum simpliciter. 
+      <!--0649.xml-->
+      <pb ed="#L" n="649"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>seu ingenitum dicitur negatio pertinens ad 
+      di<lb ed="#L" break="no" n="2"/>gnitatem relatiuam, inquantum negat 
+      relatio<lb ed="#L" break="no" n="3"/>nem suppositionis omnimodae, quae subdignitatem 
+      <lb ed="#L" n="4"/>importat. Et si dicatur, quod secundum hoc per 
+      <lb ed="#L" n="5"/>sona filij non constitueretur per proprietatem ad 
+      <lb ed="#L" n="6"/>dignitatem pertinentem. dicendum, quod esse 
+      fi<lb ed="#L" break="no" n="7"/>lium maioris dignitatis est, quam esse creatum, 
+      <lb ed="#L" n="8"/>vel esse plasmatum, sicut vas plasmatur a figulo, 
+      <lb ed="#L" n="9"/>vel quomodocumque aliter factum. similiter etiam 
+      <lb ed="#L" n="10"/>&amp; esse spiratum inter alios passiuae productionis 
+      <lb ed="#L" n="11"/>est magnae dignitatis. vnde filiatio, &amp; spiratio 
+      <lb ed="#L" n="12"/>sunt relationes dignitatis inter omnes alias, quae 
+      <lb ed="#L" n="13"/>fundantur super esse productum, non tamen ex 
+      <lb ed="#L" n="14"/>hoc colligitur, quin filiatio sit quaedam supposi 
+      <lb ed="#L" n="15"/>tio in ordine ad paternitatem, propter quod 
+      per<lb ed="#L" break="no" n="16"/>sona patris dicitur habere auctoritatem 
+      respe<lb ed="#L" break="no" n="17"/>ctu aliarum personarum. vnde &amp; filius omnem 
+      glo<lb ed="#L" break="no" n="18"/>riam, &amp; omne opus referebat in patrem. 
+      <lb ed="#L" n="19"/>Secunda vero propositio est, quod ingenitum, seu 
+      <lb ed="#L" n="20"/>inna scibilitas est ponenda notio, &amp; proprietas 
+      <lb ed="#L" n="21"/>personalis inter omnes negationes alias. non enim 
+      <lb ed="#L" n="22"/>inspirabilitas, aut non filius dicuntur esse 
+      notio<lb ed="#L" break="no" n="23"/>nes, quia non priuant omnem suppositionem, nam 
+      fi<lb ed="#L" break="no" n="24"/>lius est inspiratus, &amp; spiritus sanctus non filius, vel 
+      <lb ed="#L" n="25"/>non genitus, non tamen priuatur ab eis omnis 
+      <lb ed="#L" n="26"/>suppositio in ordine ad producens: 
+      innascibili<lb ed="#L" break="no" n="27"/>tas autem, quae non est aliud, quam non esse ab alio 
+      <lb ed="#L" n="28"/>quoque priuat omnem suppositionem simpliciter. 
+      <lb ed="#L" n="29"/>vnde reddit personam, cui tribuitur ab omni 
+      sup<lb ed="#L" break="no" n="30"/>positione liberam, vt intelligatur talis persona 
+      <lb ed="#L" n="31"/>per modum cuiusdam authentici aliquid sibi su 
+      <lb ed="#L" n="32"/>perpositum non habentis. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3095">
+                  <lb ed="#L" n="33"/>Tertia quoque propositio est, quod innascibi 
+      <lb ed="#L" n="34"/>litas est notio distincta a paternitate, &amp; 
+      con<lb ed="#L" break="no" n="35"/>spiratione, illa namque proprietas, qua 
+      conce<lb ed="#L" break="no" n="36"/>pta persona patris, ut distincta a ceteris conno 
+      <lb ed="#L" n="37"/>tescit, omni proprietate alia circumscripta est 
+      <lb ed="#L" n="38"/>notio distincta. introductum est. enim nomen notionis 
+      <lb ed="#L" n="39"/>ab innotescendo, quia sufficienter, &amp; distincte fa 
+      <lb ed="#L" n="40"/>cit innotescere. vnde dicta est notio a 
+      notifican<lb ed="#L" break="no" n="41"/>do personam; sed circumscripta paternitate, &amp; 
+      <lb ed="#L" n="42"/>conspiratione, cum concipimus quendam inna 
+      <lb ed="#L" n="43"/>scibilem in diuinis, &amp; quendam genitum, &amp; 
+      <lb ed="#L" n="44"/>quendam spiratum, distincte innotescit nobis 
+      perso<lb ed="#L" break="no" n="45"/>na prima, ita quod per innascibilitatem in 
+      con<lb ed="#L" break="no" n="46"/>ceptu nostro illam distinguimus a ceteris 
+      dua<lb ed="#L" break="no" n="47"/>bus. ergo innascibilitas non incongrue ab Aug. 
+      <lb ed="#L" n="48"/>&amp; Hilar. &amp; ceteris doctoribus posita fuit notio 
+      <lb ed="#L" n="49"/>specialis, &amp; hoc est, quod Aug. dicit, quod non eo 
+      <lb ed="#L" n="50"/>concipimus ipsum ingenitum, quia concipimus 
+      <lb ed="#L" n="51"/>esse patrem, nec e contrario. vnde paternitas non 
+      <lb ed="#L" n="52"/>sufficienter exprimit proprietatem patris, nisi 
+      ad<lb ed="#L" break="no" n="53"/>datur innascibilitas. si enim nosceret aliquis, quod 
+      <lb ed="#L" n="54"/>in diuinis est pater, &amp; dubitaret, vtrum esset 
+      ge<lb ed="#L" break="no" n="55"/>nitus, vel ingenitus, non nosceret eum sufficienter, 
+      <lb ed="#L" n="56"/>sed qui nouit eum patrem ingenitum, perfecte 
+      no<lb ed="#L" break="no" n="57"/>uit eū. vnde patet, quod est quaedam 
+      noscibili<lb ed="#L" break="no" n="58"/>tas, &amp; notio specialis esse ingenitum circa patrem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3154">
+                  <lb ed="#L" n="59"/>Quarta deinde propositio est, quod 
+      innasci<lb ed="#L" break="no" n="60"/>bilitas potest accipi, vel in generali pro 
+      quo<lb ed="#L" break="no" n="61"/>cumque supposito improducto, vel in speciali 
+      <lb ed="#L" n="62"/>pro tali supposito diuino constituto ex essentia, 
+      <lb ed="#L" n="63"/>&amp; duplici proprietate posita, generatione 
+      scili<lb ed="#L" break="no" n="64"/>cet, &amp; spiratione. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3171">
+                  <lb ed="#L" n="65"/>Et si primo modo accipiatur paternitas, &amp; 
+      <lb ed="#L" n="66"/>innascibilitas sunt notiones inter se non 
+      haben<lb ed="#L" break="no" n="67"/>tes, non enim praesupponit inuascibilis, quod a- 
+      <!--0649.xml-->
+      <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="68"/>liquid producatur ab eo, nec etiam ille, a quo 
+      <lb ed="#L" n="69"/>alia producuntur, oportet, quod innascibilis 
+      <lb ed="#L" n="70"/>sit, cum &amp; nati generent &amp; aliqui non nati non 
+      <lb ed="#L" n="71"/>generent, sicut Angeli. vnde patet, quod 
+      inna<lb ed="#L" break="no" n="72"/>scibilitas sumpta in generali, &amp; paternitas sunt 
+      <lb ed="#L" n="73"/>notiones penitus disparatae. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3197">
+                  <lb ed="#L" n="74"/>Si vero innascibilitas accipiatur in speciali 
+      <lb ed="#L" n="75"/>in supposito tali ex essentia, &amp; proprietate 
+      du<lb ed="#L" break="no" n="76"/>plici. constituto, sic est posterior secundum 
+      ra<lb ed="#L" break="no" n="77"/>tionem paternitate. fundatur enim super eam. 
+      <lb ed="#L" n="78"/>vnde dicimus patrem ingenitum, quasi 
+      ingeni<lb ed="#L" break="no" n="79"/>tus determinet patrem, &amp; similiter spiratorem 
+      <lb ed="#L" n="80"/>ingenitum, &amp; Deum ingenitum, quoniam 
+      fun<lb ed="#L" break="no" n="81"/>datur negatio improducti super hoc, quod gene 
+      <lb ed="#L" n="82"/>rare, &amp; spirare, &amp; essentia quodlibet est res a se 
+      <lb ed="#L" n="83"/>non esse capiens aliunde, quod si aliquis ex istis 
+      <lb ed="#L" n="84"/>esse caperet ab aliquo, iam non esset suppositum 
+      <lb ed="#L" n="85"/>constitutum ex his similiter improductum, &amp; in 
+      <lb ed="#L" n="86"/>hoc 4. artic. terminetur. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3228">
+                  <lb ed="#L" n="87"/>Responsio ad obiecta.
+    </p>
+               <p xml:id="ol96b1-207768-d1e3233">
+                  <lb ed="#L" n="88"/>AD ea ergo, quae superius inducuntur, 
+      di<lb ed="#L" break="no" n="89"/>cendum est. Ad primum quidem, quod 
+      <lb ed="#L" n="90"/>persona patris constituitur fundamentaliter es 
+      <lb ed="#L" n="91"/>sentia, paternitate, &amp; spiratione, inquantum 
+      <lb ed="#L" n="92"/>ex ipsis oritur per se vnitas, &amp; perseitas 
+      ter<lb ed="#L" break="no" n="93"/>t ij modi, vt supra dictum fuit, nec est verum, 
+      <lb ed="#L" n="94"/>quod generare sit posterius per modum eliciti, 
+      <lb ed="#L" n="95"/>&amp; profluentis a personalita te patris, immo clau 
+      <lb ed="#L" n="96"/>ditur intrinsece infra eam. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3255">
+                  <lb ed="#L" n="97"/>Ad secundum di cendum, quod innascibilitas 
+      <lb ed="#L" n="98"/>non aduenit primo essentiae, quam paternitas, im 
+      <lb ed="#L" n="99"/>mo essentia, paternitas, &amp; spiratio sunt vnum fun 
+      <lb ed="#L" n="100"/>damentum innascibilitatis, vt dictum est, &amp; cum 
+      <lb ed="#L" n="101"/>additur, quod filiatio est simul cum paternitate, 
+      <lb ed="#L" n="102"/>verum est simul cum simultate intelligentiae, non 
+      <lb ed="#L" n="103"/>tamen originis, ideo non sequitur, quod 
+      inna<lb ed="#L" break="no" n="104"/>scibilitas communicetur filio, quia 
+      fundamen<lb ed="#L" break="no" n="105"/>tum ipsius, videlicet paternitas non 
+      communi<lb ed="#L" break="no" n="106"/>catur sibi, immo potius res opposita 
+      paternita<lb ed="#L" break="no" n="107"/>ti est in filio, quia generari, quod capit esse 
+      a<lb ed="#L" break="no" n="108"/>liunde, &amp; ideo repugnat filio, quod 
+      innascibili<lb ed="#L" break="no" n="109"/>tatem, seu ingenitum fundet. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3286">
+                  <lb ed="#L" n="110"/>Ad tertium dicendum, quod innascibilitas 
+      <lb ed="#L" n="111"/>non est proprietas maxime prima, &amp; quod 
+      di<lb ed="#L" break="no" n="112"/>citur, quod in resoluendo vltimum est 
+      innasci<lb ed="#L" break="no" n="113"/>bilitas, si loquamur de resolutione personae con 
+      <lb ed="#L" n="114"/>stitutiua, sic non est verum, quod sit vltimum, 
+      <lb ed="#L" n="115"/>aut primum, in quod resoluatur persona 
+      pa<lb ed="#L" break="no" n="116"/>tris, cum innascibilitas personalitatem eius 
+      <lb ed="#L" n="117"/>non ingrediatur per modum constitutiui. Si 
+      ve<lb ed="#L" break="no" n="118"/>ro loquamur de resolutione personae in 
+      perso<lb ed="#L" break="no" n="119"/>nam, donec deueniatur ad vltimum, bene statur 
+      <lb ed="#L" n="120"/>in innascibili persona, non tamen in 
+      proprieta<lb ed="#L" break="no" n="121"/>te innascibilitatis, quoniam adhuc restat 
+      quae<lb ed="#L" break="no" n="122"/>stio, quid sit illud positiuum, super quod fundatur 
+      <lb ed="#L" n="123"/>innascibilitas, quia omnis negatio habet causam. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3320">
+                  <lb ed="#L" n="124"/>Ad quartum dicendum, quod Augustinus 
+      lo<lb ed="#L" break="no" n="125"/>quitur concipiendo hypostasim ingenitam in 
+      ge<lb ed="#L" break="no" n="126"/>nerali, quia si non excludatur paternitas adhuc 
+      <lb ed="#L" n="127"/>remanebit conceptus personae in generali, quae 
+      <lb ed="#L" n="128"/>poterit apprehendi ingenita, sed si loquamur 
+      <lb ed="#L" n="129"/>de persona diuina in speciali constituta ex essen 
+      <lb ed="#L" n="130"/>tia, &amp; duplici proprietate nullo modo 
+      rema<lb ed="#L" break="no" n="131"/>nebit talis persona ingenita, si paternitas 
+      ex<lb ed="#L" break="no" n="132"/>cludatur.
+    </p>
+               <p xml:id="ol96b1-207768-d1e3342">
+      <!--0650.xml-->
+                  <pb ed="#L" n="650"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Ad quintum dicendum, quod innascibilitas 
+      <lb ed="#L" n="2"/>etsi exprimat dignitatem, non tamen est 
+      ali<lb ed="#L" break="no" n="3"/>quod positiuum, &amp; ideo non potest primam 
+      per<lb ed="#L" break="no" n="4"/>sonam constituere. Et quod additur, quod ma 
+      <lb ed="#L" n="5"/>iorem dignitatem importat, quam paternitas, 
+      <lb ed="#L" n="6"/>non est verum, cum paternitas sit aliquid 
+      po<lb ed="#L" break="no" n="7"/>sitiuum 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3366">
+                  <lb ed="#L" n="8"/>Et quod dicitur, quod dignius est non esse ab 
+      <lb ed="#L" n="9"/>eterno, quod fundatur super habitudinem illam, 
+      <lb ed="#L" n="10"/>per quam aliquid est ab eo falsum est, sicut in 
+      <lb ed="#L" n="11"/>proposito innascibilitas super generare. 
+      <lb ed="#L" n="12"/>Ad sextum dicendum secundum aliquos, quod 
+      <lb ed="#L" n="13"/>innascibilitas dicit relationem ingeniti ad non 
+      <lb ed="#L" n="14"/>genitorem, &amp; hoc videtur Augustinus sentire 
+      <lb ed="#L" n="15"/>quinto de Trinitate, vbi dicit, quod sicut filius 
+      <lb ed="#L" n="16"/>ad patrem, &amp; genitus ad genitorem refertur, 
+      <lb ed="#L" n="17"/>ita &amp; non filius ad non patrem, &amp; non genitus ad 
+      <lb ed="#L" n="18"/>non genitorem, sed hoc nihil est dictu, inter 
+      ter<lb ed="#L" break="no" n="19"/>minos namque negatiuos non apparet, quod 
+      <lb ed="#L" n="20"/>sit habitudo aliqua positiua. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3397">
+                  <lb ed="#L" n="21"/>Et ideo dicendum aliter, quod non genitus 
+      <lb ed="#L" n="22"/>non relinquit relationem, quasi negetur, nisi 
+      <lb ed="#L" n="23"/>dicendo non genitum, &amp; non genitorem, &amp; 
+      affir<lb ed="#L" break="no" n="24"/>metur relatio inter eos, quin potius negetur 
+      <lb ed="#L" n="25"/>habitudo omnis originis, &amp; hoc intelligit 
+      Au<lb ed="#L" break="no" n="26"/>gustinus. ait enim, quod relatiue negamus, 
+      di<lb ed="#L" break="no" n="27"/>cendo non genitum. sic ergo innascibilitas etsi 
+      <lb ed="#L" n="28"/>non sit relatio positiua, est tamen negatio 
+      rela<lb ed="#L" break="no" n="29"/>tionis, propter quod constituendo personam 
+      <lb ed="#L" n="30"/>non daret esse absolutum, sed esse relatum, non 
+      <lb ed="#L" n="31"/>positiuum, sed negatiuum. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3423">
+      <!--0650.xml-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>Ad septimum dicendum, quod non est verun 
+      <lb ed="#L" n="33"/>in illo, quod non habet esse ab alio, &amp; a quo 
+      <lb ed="#L" n="34"/>aliud habet esse, quod non esse ab alio sitprius, 
+      <lb ed="#L" n="35"/>quam a quo aliud, nisi a quo aliud esset 
+      funda<lb ed="#L" break="no" n="36"/>mentum negationis illius, quam importatuo 
+      <lb ed="#L" n="37"/>esse ab alio: sic autem est in proposito, &amp; ides 
+      <lb ed="#L" n="38"/>paternitas praecedit innascibilitem. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3445">
+                  <lb ed="#L" n="39"/>Ad octauum dicendum, quod innascibilitas 
+      <lb ed="#L" n="40"/>non significat aliquid positiuum, quamuis fun 
+      <lb ed="#L" n="41"/>detur super positiuum, nec est verum, quod 
+      <lb ed="#L" n="42"/>dicat fontalem paternitatem, vt declaratum es 
+      <lb ed="#L" n="43"/>in corpore quaestionis. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3459">
+                  <lb ed="#L" n="44"/>Quod vero additur, quod esse in se est 
+      mo<lb ed="#L" break="no" n="45"/>dus essendi positiuus in substantia, &amp; per 
+      conf<lb ed="#L" break="no" n="46"/>quens esse a se est modus positiuus subsistendi 
+      <lb ed="#L" n="47"/>in patre, diceudum, quod non est verum, quia esse 
+      <lb ed="#L" n="48"/>in se non addit ad substantiam aliquid 
+      posui<lb ed="#L" break="no" n="49"/>uum, sed negationem dependentiae, quae 
+      con<lb ed="#L" break="no" n="50"/>petit accidenti, nec est simile de esse ab alio. 
+      <lb ed="#L" n="51"/>haec enim est vera passiua productio, &amp; de esea 
+      <lb ed="#L" n="52"/>se, quod omnem productionem excludit, nec est 
+      <lb ed="#L" n="53"/>verum, quod esse a se dicat sufficientiam 
+      subsi<lb ed="#L" break="no" n="54"/>stendi in patre formaliter, quamuis 
+      fundamen<lb ed="#L" break="no" n="55"/>taliter exigat eam. 
+    </p>
+               <p xml:id="ol96b1-207768-d1e3488">
+                  <lb ed="#L" n="56"/>Ad vltimum dicendum, quod Damascenus 
+      <lb ed="#L" n="57"/>non negat, quin per paternitatem prima 
+      per<lb ed="#L" break="no" n="58"/>sona constituatur, immo expresse hoc dicit. 
+      vn<lb ed="#L" break="no" n="59"/>de aliquando exprimit, quod distinguuntur per 
+      <lb ed="#L" n="60"/>ingenerationem, &amp; processionem, aliquando 
+      <lb ed="#L" n="61"/>quod per paternalem filiationem, &amp; 
+      processio<lb ed="#L" break="no" n="62"/>nalem proprietatem, vt patet ibidem. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

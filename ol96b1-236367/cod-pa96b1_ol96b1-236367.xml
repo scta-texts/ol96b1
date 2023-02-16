@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="728"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-236367"> <!-- l1d33p1-prae -->
+            <head xml:id="ol96b1-236367-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-236367-d1e104">
+      <!--0728.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="92"/>VTRVM PROPRJETATES PERSONARVM 
+      <lb ed="#L" n="93"/>sint ipsae personae, vel Deus, id est diuina essentia. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e115">
+               <lb ed="#L" n="94"/>DJSTJNCTIO XXXJJJ. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e120">
+      <!--0728.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="95"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-236367-d1e130">
+               <lb ed="#L" n="96"/>POST praedicta, &amp;c. Postquam 
+      <lb ed="#L" n="97"/>Magister determinauit de 
+      <lb ed="#L" n="98"/>proprietatibus psonalibus, 
+      <lb ed="#L" n="99"/>&amp; ceteris nominibus 
+      relati<lb ed="#L" break="no" n="100"/>uis, in hac parte comparat 
+      <lb ed="#L" n="101"/>ea ad essentiam, &amp; personas. 
+      <lb ed="#L" n="102"/>Et circa hoc duo facit. 
+      <lb ed="#L" n="103"/>Primo namque proprietates comparat ad es 
+      <!--0728.xml-->
+      <cb ed="#L" n="e"/>
+               <lb ed="#L" n="104"/>sentiam, &amp; personas. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e156">
+               <lb ed="#L" n="105"/>Secundo vero, gratia huius, comparat 
+      perso<lb ed="#L" break="no" n="106"/>nas ad essentiam, &amp; econuerso. Secunda ibi: 
+      <lb ed="#L" n="107"/>dist. 34. Praedictis autem est adijciendum. Circa 
+      <lb ed="#L" n="108"/>primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e167">
+               <lb ed="#L" n="109"/>Primo namque determinat catholicam veritatem. 
+      <lb ed="#L" n="110"/>Secundo ex hoc reprobat haereticam 
+      praui<lb ed="#L" break="no" n="111"/>tatem, se in oppositum extollentem. Secunda 
+      <lb ed="#L" n="112"/>ibi: Hoc autem aliqui negant. Adhuc circa 
+      pri<lb ed="#L" break="no" n="113"/>mum facit tria. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e180">
+      <!--0729.xml-->
+               <pb ed="#L" n="729"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Primo namque ostendit, quod proprietates 
+      <lb ed="#L" n="2"/>sunt in personis, dicens, quod hoc nemo audet 
+      <lb ed="#L" n="3"/>inficiari, cum aperte clamet auctoritas, quod 
+      <lb ed="#L" n="4"/>in personis est proprietas, &amp; in essentia vnitas. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e198">
+               <lb ed="#L" n="5"/>Secunda ibi: Cum ergo proprietates. Ostendit 
+      <lb ed="#L" n="6"/>Magister, quod proprietates sunt personae, &amp; 
+      <lb ed="#L" n="7"/>personae proprietates, &amp; adducit ad hoc Hiero 
+      <lb ed="#L" n="8"/>nimum, qui ait, quod tres personas expressas 
+      <lb ed="#L" n="9"/>sub proprietate, siue nominum proprietates, hoc 
+      <lb ed="#L" n="10"/>est personas, vel vt Graeci exprimunt hypostases, 
+      <lb ed="#L" n="11"/>hoc est subsistentias, confiteamur. adducit etiam 
+      <lb ed="#L" n="12"/>ad hoc auctoritates supra positas distin. 8. per 
+      <lb ed="#L" n="13"/>quas probatur diuina simplicitas: ex eisdem 
+      <lb ed="#L" n="14"/>enim sequitur, quod proprietates sint ipsae 
+      per<lb ed="#L" break="no" n="15"/>sonae, quia tolleretur simplicitas earundem. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e224">
+               <lb ed="#L" n="16"/>Tertia ibi: Quod enim proprietas. Ostendit, quod 
+      <lb ed="#L" n="17"/>essentia diuina sint ipsae proprietates, &amp; e 
+      con<lb ed="#L" break="no" n="18"/>uerso per tres auctoritates Hilarij, quae patent 
+      <lb ed="#L" n="19"/>in littera. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e236">
+               <lb ed="#L" n="20"/>Postmodum ibi: Hoc autem aliqui negant. 
+      Eli<lb ed="#L" break="no" n="21"/>dit Magister haereticorum perfidiam contrariam 
+      <lb ed="#L" n="22"/>veritati praecedenti. Et duo facit. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e245">
+               <lb ed="#L" n="23"/>Primo enim ostendit motina haereticorum, 
+      <lb ed="#L" n="24"/>quae innituntur rationi, esse inania. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e252">
+               <lb ed="#L" n="25"/>Secundo vero idem ostendit de 
+      auctoritati<lb ed="#L" break="no" n="26"/>bus, quibus suum errorem fulciri nituntur. 
+      Se<lb ed="#L" break="no" n="27"/>cunda ibi: Verumtamen nondum desistunt. Circa 
+      <lb ed="#L" n="28"/>primum tria facit, secundum tres replicationes 
+      <lb ed="#L" n="29"/>haereticorum, &amp; tres responsiones ipsius. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e265">
+               <lb ed="#L" n="30"/>Primo ergo ponit ad instantiam primam hae 
+      <lb ed="#L" n="31"/>reticorum, dicens, quod aliqui concedunt 
+      qui<lb ed="#L" break="no" n="32"/>dem proprietates esse in personis, vel in diuina 
+      <lb ed="#L" n="33"/>essentia, non tamen esse interius, sicut bonitas, 
+      <lb ed="#L" n="34"/>&amp; iustitia, &amp;c. quae de Deo substantialiter 
+      dicun<lb ed="#L" break="no" n="35"/>tur, sed extrinsecus esse affixas, &amp; per 
+      conse<lb ed="#L" break="no" n="36"/>quens non esse ipsam diuinam essentiam, vel 
+      per<lb ed="#L" break="no" n="37"/>sonas: &amp; ratio illorum est, quod personae 
+      distin<lb ed="#L" break="no" n="38"/>guuntur proprietatibus; idem autem a seipso, 
+      <lb ed="#L" n="39"/>non distinguitur. sed respondet Magister, quod 
+      <lb ed="#L" n="40"/>immo personae se ipsis differunt, vt testatur Hie 
+      <lb ed="#L" n="41"/>ronimus; &amp; propter hoc inducit aliam rationem 
+      <lb ed="#L" n="42"/>haereticorum, quae multo fortior est. arguunt 
+      <lb ed="#L" n="43"/>enim, quod personae sunt vnum in essentia, sed 
+      <lb ed="#L" n="44"/>proprietates sunt diuina essentia. ergo 
+      perso<lb ed="#L" break="no" n="45"/>nae sunt vnum in proprietatibus, &amp; per 
+      conse<lb ed="#L" break="no" n="46"/>quens non realiter distinguuntur. Respondet 
+      <lb ed="#L" n="47"/>ad hoc Magister ex auctoritate Hilarij, 
+      decla<lb ed="#L" break="no" n="48"/>rans, quod in tanta difficultate debemus 
+      pieta<lb ed="#L" break="no" n="49"/>ti fidei ingenia subiugare. &amp; patet auctoritas 
+      <lb ed="#L" n="50"/>in littera. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e313">
+               <lb ed="#L" n="51"/>Secundo ibi: Caeterum haereticorum. Ponit 
+      Ma<lb ed="#L" break="no" n="52"/>gister replicationem dicens, quod haeretici sic 
+      <lb ed="#L" n="53"/>arguunt: Quod habet in se paternitatem, &amp; 
+      filia<lb ed="#L" break="no" n="54"/>tionem, est Pater, &amp; Filius; generat, &amp; 
+      genera<lb ed="#L" break="no" n="55"/>tur. sed secundum rem, eadem res, scilicet 
+      diui<lb ed="#L" break="no" n="56"/>na essentia, est in se, habens paternitatem, &amp; 
+      <lb ed="#L" n="57"/>filiationem; ergo eadem res generat, &amp; 
+      genera<lb ed="#L" break="no" n="58"/>tur, &amp; est sibi Pater, &amp; Filius, quod est omnino 
+      <lb ed="#L" n="59"/>absonum, &amp; incidens in haeresim Sabellianam. 
+      <lb ed="#L" n="60"/>Respondet enim Magister, quod paternitas, &amp; 
+      <lb ed="#L" n="61"/>filiatio aliter sunt in diuina essentia, &amp; aliter in 
+      <lb ed="#L" n="62"/>personis. sic enim sunt in diuina essentia, quod 
+      <lb ed="#L" n="63"/>eam non determinant, nec distinguunt: &amp; ideo 
+      <lb ed="#L" n="64"/>non potest dici, quod eadem res sit sibi ipsi 
+      Pa<lb ed="#L" break="no" n="65"/>ter, &amp; Filius, &amp; generet, &amp; generetur. in 
+      perso<lb ed="#L" break="no" n="66"/>nis sic sunt, quod illas determinant, &amp; distin- 
+      <!--0729.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="67"/>guunt, &amp; idcirco alia est persona generans, alia 
+      <lb ed="#L" n="68"/>est generata. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e359">
+               <lb ed="#L" n="69"/>Tertio ibi: Sed forte quaeres. Ponit Magister 
+      <lb ed="#L" n="70"/>replicationem, dicens, quod adhuc restat dubium, 
+      <lb ed="#L" n="71"/>quomodo proprietates sint in essentia, &amp; eam 
+      <lb ed="#L" n="72"/>non determinent, nec distinguant: &amp; 
+      respon<lb ed="#L" break="no" n="73"/>det, auctoritate Hilarij, quod hoc excedit 
+      hu<lb ed="#L" break="no" n="74"/>manam intelligentiam. &amp; ideo cessare debet 
+      <lb ed="#L" n="75"/>dolor quaerelarum; &amp; est pulchra auctoritas, quae 
+      <lb ed="#L" n="76"/>patet in littera. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e380">
+               <lb ed="#L" n="77"/>Postmodum ibi: Verumtamen non dum desisunt. 
+      <lb ed="#L" n="78"/>Respondet Magister ad auctoritates, quibus 
+      <lb ed="#L" n="79"/>errorem suum fulcire nituntur. Et facit duo. 
+      <lb ed="#L" n="80"/>Primo enim inducit auctoritatem Augustini 
+      <lb ed="#L" n="81"/>super Psal. 6s. qui dicit, quod cum pater est, non 
+      <lb ed="#L" n="82"/>illud est, quod est, eo enim, quo Deus est, substan 
+      <lb ed="#L" n="83"/>tia est: at vero quod pater est, non substantiae est, 
+      <lb ed="#L" n="84"/>non quod pater est, sed refertur ad Filium. ex 
+      qui<lb ed="#L" break="no" n="85"/>bus videtur sequi, quod paternitas non sit 
+      substan<lb ed="#L" break="no" n="86"/>tia: &amp; respondet Magister, quod Aug. intelligit, quod 
+      <lb ed="#L" n="87"/>non ex eo, quo Pater est Pater, substantia est, quia 
+      <lb ed="#L" n="88"/>proprietate generationis est pater, qua subitan 
+      <lb ed="#L" n="89"/>tia non est, non tamen negat proprietatem esse 
+      sub<lb ed="#L" break="no" n="90"/>stantiam. vnde non est Pater essentia, sed notione. 
+    </p>
+            <p xml:id="ol96b1-236367-d1e413">
+               <lb ed="#L" n="91"/>Secundo ibi: Item alijs verbis. Inducit 
+      aucto<lb ed="#L" break="no" n="92"/>ritatem aliam Augustini, positam 7. de Trinit. 
+      <lb ed="#L" n="93"/>c. 5. qui dicit, quod verbum, secundum quod est 
+      <lb ed="#L" n="94"/>sapientia, &amp; essentia, est hoc, quod pater; 
+      secun<lb ed="#L" break="no" n="95"/>dum autem quod est verbum, non est, quod Pater, 
+      <lb ed="#L" n="96"/>ex hoc sic arguitur: verbum, in eo, quod verbum, 
+      <lb ed="#L" n="97"/>non est illud, quod pater est; sed illud, quo pater 
+      <lb ed="#L" n="98"/>est. est diuina essentia, ergo verbum, in co, quod 
+      <lb ed="#L" n="99"/>verbum, non est diuina essentia. &amp; respondet Ma 
+      <lb ed="#L" n="100"/>gister, quod licet secundum quod verbum, non 
+      <lb ed="#L" n="101"/>sit hoc, quod pater, est proprietas tamen, qua 
+      <lb ed="#L" n="102"/>verbum est diuina essentia. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

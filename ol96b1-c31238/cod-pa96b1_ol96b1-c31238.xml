@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="98"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c31238"> <!-- l1d1p3-prae -->
+            <head xml:id="ol96b1-c31238-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c31238-d1e104">
+               <lb ed="#L" n="87"/>Capitulum tertium.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e109">
+               <lb ed="#L" n="88"/>CVM autem homines, &amp;c. Postquam Magister 
+      <lb ed="#L" n="89"/>Adiuisionem suam praemisit, &amp; diuisionis mem 
+      <lb ed="#L" n="90"/>bra notificauit, in hac parte tres quaestiones mo 
+      <lb ed="#L" n="91"/>uet, circa illam materiam, &amp; dissoluit. Et 
+      cir<lb ed="#L" break="no" n="92"/>ca hoc tria facit, secundum quod mouet tres 
+      <lb ed="#L" n="93"/>quaestiones. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e125">
+               <lb ed="#L" n="94"/>Primam quidem, de fruitionis obiecto, &amp; est 
+      <lb ed="#L" n="95"/>vtrum hominibus sit vtendum, vel fruendum. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e133">
+               <lb ed="#L" n="96"/>Secundam vero de fruitionis subiecto, &amp; est, 
+      <lb ed="#L" n="97"/>Vtrum Deus fruatur nobis, vel vtatur. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e140">
+               <lb ed="#L" n="98"/>Tertiam quoque de fruitionis medio, scilicet 
+      <lb ed="#L" n="99"/>de virtutibus, &amp; est quaestio, Vtrum virtutibus 
+      <lb ed="#L" n="100"/>vtendum sit, aut fruendum. secunda ibi: Sed cum 
+      <lb ed="#L" n="101"/>Deus diligat nos. tertia ibi: Hoc considerandum estt, 
+      <lb ed="#L" n="102"/>vtrum in virtutibus. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e153">
+               <lb ed="#L" n="103"/>Circa primum quatuor facit.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e158">
+               <lb ed="#L" n="104"/>Primo namque quaestionem proponit dicens, 
+      <lb ed="#L" n="105"/>quod quaestio est, vtrum homines debeant seipsis 
+      <lb ed="#L" n="106"/>frui, an vti. videtur enim, quod debeant, cum 
+      <lb ed="#L" n="107"/>sint alique res: videtur autem quod non: quia 
+      <lb ed="#L" n="108"/>ipsi sunt qui fruuntur, &amp; vtuntur. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e171">
+               <lb ed="#L" n="109"/>Secundo ibi: Ad quod respondet Augustinus. 
+      Quae<lb ed="#L" break="no" n="110"/>stionem propositam dissoluit auctoritate 
+      Au<lb ed="#L" break="no" n="111"/>gustini dicens, quod cum illud sit tantummodo 
+      <lb ed="#L" n="112"/>propter se diligendum, in quo vita beata 
+      consti<lb ed="#L" break="no" n="113"/>tuitur, cuius nos etiam spes hoc 
+      peregrinatio<lb ed="#L" break="no" n="114"/>nis tempore consolatur: in homine autem spes 
+      <lb ed="#L" n="115"/>ponenda non est, quia maledictus homo, qui spem 
+      <lb ed="#L" n="116"/>suam ponit in homine, manifeste concluditur, 
+      <lb ed="#L" n="117"/>quod necessario debet, aut seipsum, aut 
+      homi<lb ed="#L" break="no" n="118"/>nem alium propter se diligere, &amp; per consequens 
+      <lb ed="#L" n="119"/>nec frui alio, fiec seipso. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e197">
+               <lb ed="#L" n="120"/>Tertio ibi: Hoc autem contrarium videtur. quod 
+      <lb ed="#L" n="121"/>solutionem istam arguit, dicens, quod 
+      Aposto<lb ed="#L" break="no" n="122"/>lus videtur oppositum innuere, scilicet cum ait, 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e207">
+               <lb ed="#L" n="123"/>Ita frater ego te fruar in Domino. 
+      <lb ed="#L" n="124"/>Quarto ibi, Quod ita determinat Augustinus, 
+      <lb ed="#L" n="125"/>instantiam illam tollit, dicens, quod quia 
+      Apo<lb ed="#L" break="no" n="126"/>stolus ait: In Domino tollitur difficultas. cum enim 
+      <lb ed="#L" n="127"/>se ait homine frui in Deo, innuit se potius, quam 
+      <lb ed="#L" n="128"/>homine frui Deo.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e223">
+               <lb ed="#L" n="129"/>Postmodum ibi: Sed cum Deus diligat nos. 
+      Per<lb ed="#L" break="no" n="130"/>tractat secundam quaestionem, &amp; circa hoc duo 
+      <!--0099.xml-->
+      <pb ed="#L" n="99"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>facit. Primo namque ad quaestionem dubitat. 
+      <lb ed="#L" n="2"/>Secundo questionem determinat ibi: Non ergo 
+      <lb ed="#L" n="3"/>fruitur nobis.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e243">
+               <lb ed="#L" n="4"/>Dicit itaque primo, quod Scriptura sacra 
+      te<lb ed="#L" break="no" n="5"/>statur, quod Deus multum diligit nos, vt Ioan. 
+      <lb ed="#L" n="6"/>3. patet: Sic Deus dilexit Mundum, vt Pilium 
+      vnige<lb ed="#L" break="no" n="7"/>nitum daret. &amp; Apostolus dicit, quod commendas 
+      <lb ed="#L" n="8"/>scilicet charitatem in nobis. &amp; prima Ioann. 
+      dici<lb ed="#L" break="no" n="9"/>tur, quod in hoc est charitas, non quia nos 
+      dile<lb ed="#L" break="no" n="10"/>ximus Deum, sed quia ipse prior dilexit nos: &amp; 
+      <lb ed="#L" n="11"/>ideo merito dubitatur, vtrum ipse diligendo 
+      <lb ed="#L" n="12"/>fruatur nobis, aut vtatur; &amp; quod non fruatur 
+      <lb ed="#L" n="13"/>manifeste patet. omnis enim qui fruitur eget eo 
+      <lb ed="#L" n="14"/>quo fruitur. Deus autem bonorum nostrorum 
+      <lb ed="#L" n="15"/>non indiget, quia omne bonum nostrum, vel 
+      ip<lb ed="#L" break="no" n="16"/>se est, vel ab ipso.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e274">
+               <lb ed="#L" n="17"/>Postmodum ibi: Non ergo fruitur. Questionem 
+      <lb ed="#L" n="18"/>determinat. Et circa hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e281">
+               <lb ed="#L" n="19"/>Primo namque eam determinat ad hanc 
+      par<lb ed="#L" break="no" n="20"/>te, quod Deus vtitur nobis, &amp; non fruitur, quia si 
+      <lb ed="#L" n="21"/>nec stueretur, nec vteretur, non occurrit qualiter 
+      <lb ed="#L" n="22"/>nos amaret, cum omnis amor sit fruitio, vel vsus. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e292">
+               <lb ed="#L" n="23"/>Secundo ibi: Nec tamen sic vtitur. 
+      Determina<lb ed="#L" break="no" n="24"/>donem modificat, dicens, quod non sic nobis 
+      <lb ed="#L" n="25"/>vtitur Deus, sicut nos alijs rebus. Deus enim 
+      v<lb ed="#L" break="no" n="26"/>titur nobis ad suam gloriam, &amp; vtilitatem 
+      no<lb ed="#L" break="no" n="27"/>stram. nos vero alijs rebus vtimur, vt bonitate 
+      <lb ed="#L" n="28"/>Dei finaliter perfruamur.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e309">
+               <lb ed="#L" n="29"/>Postmodum ibi: Hoc considerandum est. 
+      Magi<lb ed="#L" break="no" n="30"/>ster monet tertiam quaestionem. Et circa hoc 
+      <lb ed="#L" n="31"/>tria facit.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e318">
+               <lb ed="#L" n="32"/>Primo enim in qõne duas opiniones recitat. 
+      <lb ed="#L" n="33"/>Secundo istas opiniones concordat. 
+      <lb ed="#L" n="34"/>Tertio contra concordiam instat. secunda, ibi: 
+      <lb ed="#L" n="35"/>
+               <quote xml:id="ol96b1-c31238-Qd1e328">Nos antem harum</quote>. tertia, ibi: <quote xml:id="ol96b1-c31238-Qd1e331">Si dicet aliquis</quote>.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e334">
+               <lb ed="#L" n="36"/>Circa primum facit duo. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e339">
+               <lb ed="#L" n="37"/>Primo enim recitat opinionem primam, 
+      di<lb ed="#L" break="no" n="38"/>cens, quod cum quaeritur, vtrum virtutibus sit 
+      <lb ed="#L" n="39"/>fruendum, vel vtendum. quibusdam videtur, 
+      <lb ed="#L" n="40"/>quod sit eis vtendum, non fruendum, quod 
+      pro<lb ed="#L" break="no" n="41"/>bat duplici ratione. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e352">
+               <lb ed="#L" n="42"/>Primo quidem, quod secundum Augustinum, 
+      <lb ed="#L" n="43"/>non est fruendum, nisi Trinitate, quod est 
+      sum<lb ed="#L" break="no" n="44"/>mum, &amp; incommutabile bonum. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e361">
+               <lb ed="#L" n="45"/>Secundo vero, quia soluit, eo fruendum est, 
+      <lb ed="#L" n="46"/>quod est propter se amandum, virtutes autem 
+      <lb ed="#L" n="47"/>secuudum Augustinum propter solam beatitudi 
+      <lb ed="#L" n="48"/>nem sunt amandae. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e373">
+               <lb ed="#L" n="49"/>Secundo, ibi: <quote xml:id="ol96b1-c31238-Qd1e377">Alijs vero</quote>. Recitat secundam 
+      o<lb ed="#L" break="no" n="50"/>pinionem, dicens, quod alijs videtur, quod sit 
+      <lb ed="#L" n="51"/>virtutibus fruendum, &amp; hoc probant 
+      auctorita<lb ed="#L" break="no" n="52"/>te Ambrosij, qui dicit, quod virtutes propterea 
+      <lb ed="#L" n="53"/>fructus sunt, quia propter se sunt amandae, &amp; per 
+      <lb ed="#L" n="54"/>consequens fruendum est eis. 
+    </p>
+            <p xml:id="ol96b1-c31238-d1e391">
+               <lb ed="#L" n="55"/>Postmodum, ibi: <quote xml:id="ol96b1-c31238-Qd1e395">Nos autem harum</quote>. Has duas 
+      <lb ed="#L" n="56"/>opiniones concordat, dicens, quod vt istarum 
+      <lb ed="#L" n="57"/>repugnantia de medio eximatur, sciendum est, 
+      <lb ed="#L" n="58"/>quod &amp; virtutes propter se sunt amandae, &amp; 
+      pro<lb ed="#L" break="no" n="59"/>pter beatitudinem solam, propter se quidem, 
+      <lb ed="#L" n="60"/>quia delectant suos possessores sincera, &amp; sancta 
+      <lb ed="#L" n="61"/>delectatione, &amp; in eis imprimit gaudium 
+      spiritua<lb ed="#L" break="no" n="62"/>le. Propter beatitudinem autem amandae sunt, 
+      <lb ed="#L" n="63"/>quoniam in eis non est gressus dilectionis 
+      figen<lb ed="#L" break="no" n="64"/>dus, sed vltra gradiendo referendae sunt ad illud 
+      <lb ed="#L" n="65"/>summum, &amp; incommutabile bonum, cui soli est 
+      <lb ed="#L" n="66"/>finaliter inhaerendum; &amp; idcirco proprie 
+      acci<lb ed="#L" break="no" n="67"/>piendo fruitionem non est eis fruendum.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e424">
+      <!--0099.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="68"/>Postmodum, ibi: <quote xml:id="ol96b1-c31238-Qd1e432">Sed dicet aliquis</quote>. Contra ista 
+      <lb ed="#L" n="69"/>Magister instat, dicens, quod videntur in his 
+      di<lb ed="#L" break="no" n="70"/>ctis contradictoria implicari, ponendo 
+      videli<lb ed="#L" break="no" n="71"/>cet, quod virtutes propter se sint amandae; &amp; 
+      ta<lb ed="#L" break="no" n="72"/>men non sit eis fruendum, cum frui non sit aliud 
+      <lb ed="#L" n="73"/>quam amore propter seipsam alicui rei 
+      inhaere<lb ed="#L" break="no" n="74"/>re. Soluit autem istam instantiam dicens, quod 
+      <lb ed="#L" n="75"/>in hac descriptione, cum dicitur propter seipsam, 
+      <lb ed="#L" n="76"/>intelligendum est tantummodo, &amp; vltimate, sic 
+      <lb ed="#L" n="77"/>quod ad nullum aliud dilectio referatur: isto 
+      au<lb ed="#L" break="no" n="78"/>tem modo nec virtus, nec etiam voluntas, nec 
+      <lb ed="#L" n="79"/>aliquid amandum, nisi Deus, &amp; idcirco eo solo 
+      <lb ed="#L" n="80"/>vere, &amp; proprie est fruendum.
+    </p>
+            <p xml:id="ol96b1-c31238-d1e461">
+               <lb ed="#L" n="81"/>Vltimo, ibi: <quote xml:id="ol96b1-c31238-Qd1e465">Omnium ergo, quae dicta sunt</quote>. 
+      Post<lb ed="#L" break="no" n="82"/>quam praemisit distinctionem, applicat ad libri 
+      <lb ed="#L" n="83"/>sui diuisionem dicens, quod cum rerum aliae sint, 
+      <lb ed="#L" n="84"/>quibus fruendum est, vt Deus Trinitas, aliae 
+      qui<lb ed="#L" break="no" n="85"/>bus vtendum est, vt omnis creata entitas, aliae 
+      <lb ed="#L" n="86"/>quae fruuntur, &amp; vtuntur, vt omnes 
+      intellectua<lb ed="#L" break="no" n="87"/>les, in quibus est ratio, &amp; voluntas; &amp; aliae, per 
+      <lb ed="#L" n="88"/>quas fruimur, vt virtutes, &amp; potentiae animi 
+      in<lb ed="#L" break="no" n="89"/>tellectus scilicet, &amp; ipsa voluntas, de omnibus istis 
+      <lb ed="#L" n="90"/>rebus in tribus libris tractandum est, &amp; vltimo 
+      <lb ed="#L" n="91"/>in Quarto de signis, &amp; Sacramentis. Inter res 
+      <lb ed="#L" n="92"/>autem primo tractandum est de fruibilibus, 
+      vi<lb ed="#L" break="no" n="93"/>delicet de Sancta, atque indiuidua Trinitate, 
+      <lb ed="#L" n="94"/>&amp; hoc in primo libro, haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

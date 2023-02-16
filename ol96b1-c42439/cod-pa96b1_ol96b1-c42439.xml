@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="132"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-c42439"> <!-- l1d2p2-prae -->
+            <head xml:id="ol96b1-c42439-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-c42439-d1e104">
+               <lb ed="#L" n="126"/>SECVNDA PARS. 
+    </p>
+            <p xml:id="ol96b1-c42439-d1e109">
+               <lb ed="#L" n="127"/>
+               <quote xml:id="ol96b1-c42439-Qd1e113">Proponamus ergo</quote>, &amp;c. Postquam 
+      Ma<lb ed="#L" break="no" n="128"/>gister modum, quo procedendum 
+      <lb ed="#L" n="129"/>est, inquisiuit, hic iuxta illum 
+      mo<lb ed="#L" break="no" n="130"/>dum procedit, &amp; circa hoc duo sa 
+      <lb ed="#L" n="131"/>cit, iuxta modum duplicem proce 
+      <lb ed="#L" n="132"/>dendi, quem docuit, primum quidem ex testimo 
+      <!--0133.xml-->
+      <pb ed="#L" n="133"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nijs Scripturarum. Secundo vero, ex 
+      manudu<lb ed="#L" break="no" n="2"/>ctionibus rationum, secundum facit dist. tertia 
+      <lb ed="#L" n="3"/>Aposolus namque ait. circa primum duo facit. 
+    </p>
+            <p xml:id="ol96b1-c42439-d1e140">
+               <lb ed="#L" n="4"/>Primo quidem auctoritates inducit, praecisae 
+      <lb ed="#L" n="5"/>probantes Diuinae essentiae vnitatem. 
+    </p>
+            <p xml:id="ol96b1-c42439-d1e148">
+               <lb ed="#L" n="6"/>Secundo auctoritates inducit, similiter 
+      pro<lb ed="#L" break="no" n="7"/>bantes vnitatem essentiae, &amp; personarum 
+      plu<lb ed="#L" break="no" n="8"/>ralitatem. secunda, ibi: Personarum quoque 
+      plura<lb ed="#L" break="no" n="9"/>litatem. Inducit inquam primo quatuor 
+      auctori<lb ed="#L" break="no" n="10"/>tates, quibus probatur Diuina vnitas. 
+    </p>
+            <p xml:id="ol96b1-c42439-d1e161">
+               <lb ed="#L" n="11"/>Prima sumitur ex Deuteronomio, vbi 
+      dici<lb ed="#L" break="no" n="12"/>tur, Audi Israel Dominus Deus tuus vnus est.
+    </p>
+            <p xml:id="ol96b1-c42439-d1e168">
+               <lb ed="#L" n="13"/>Secunda Exodi, vbi dicitur, Ego sum Dominus 
+      <lb ed="#L" n="14"/>Deus tuus, non erunt tibi alij dij praeter me.
+    </p>
+            <p xml:id="ol96b1-c42439-d1e175">
+               <lb ed="#L" n="15"/>Tertia Exodi, vbi arguit Dominus: Ego sum, 
+      <lb ed="#L" n="16"/>qui sum, &amp; qui est misit me ad vos. non enim dixit, 
+      <lb ed="#L" n="17"/>Qui sumus, vel qui sunt in plurali.
+    </p>
+            <p xml:id="ol96b1-c42439-d1e184">
+               <lb ed="#L" n="18"/>Quarta sumitur Exodi, vbi dicitur: Dominus 
+      <lb ed="#L" n="19"/>omnipotens nomen est illi. haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

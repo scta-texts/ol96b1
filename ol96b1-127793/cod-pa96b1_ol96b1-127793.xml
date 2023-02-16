@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="391"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-127793"> <!-- l1d15p1-prae -->
+            <head xml:id="ol96b1-127793-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-127793-d1e104">
+      <!--0391.xml-->
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="59"/>VTRVM SPJRJTVS SANCTVSA SEJPSO 
+      <lb ed="#L" n="60"/>detur, cuius occasione agitur per totum de missione Filij. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e115">
+               <lb ed="#L" n="61"/>DISTINCTIO XV.
+    </p>
+            <p xml:id="ol96b1-127793-d1e120">
+      <!--0391.xml-->
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="62"/>Expositio textus. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e130">
+               <lb ed="#L" n="63"/>HIc considerandum est, &amp;c. 
+      Post<lb ed="#L" break="no" n="64"/>quam Magister determinauit 
+      <lb ed="#L" n="65"/>de processione temporali spiri 
+      <lb ed="#L" n="66"/>tus sancti sub proprio proces 
+      <lb ed="#L" n="67"/>sionis nomine, hic 
+      determi<lb ed="#L" break="no" n="68"/>nat de ipsa sub vocabulo mis 
+      <lb ed="#L" n="69"/>sionis. Et circa hoc tria 
+      fa<lb ed="#L" break="no" n="70"/>cit. Primo enim agit de 
+      mis<lb ed="#L" break="no" n="71"/>sione spiritus sancti, de qua intendit 
+      principali<lb ed="#L" break="no" n="72"/>ter, &amp; secundo de missione Filij; &amp; tertio 
+      inqui<lb ed="#L" break="no" n="73"/>rit, quare missio non conueniat patri. secunda ibi: 
+      <lb ed="#L" n="74"/>Ne autem mireris. tertia ibi: Hic quaeritur, cur Pater. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e159">
+               <lb ed="#L" n="75"/>Dicit itaque primo, quod hic considerari 
+      opor<lb ed="#L" break="no" n="76"/>tet, an spiritus sanctus detur, &amp; mittatur a 
+      seip<lb ed="#L" break="no" n="77"/>so, &amp; videtur, quod non, quia mitti non est aliud, 
+      <lb ed="#L" n="78"/>quam procedere: constat autem, quod spiritus 
+      <lb ed="#L" n="79"/>sanctus non procedit a se. &amp; respondet 
+      Magi<lb ed="#L" break="no" n="80"/>ster, quod immo spiritus sanctus a seipso datur, 
+      <lb ed="#L" n="81"/>&amp; mittitur, &amp; probat tripliciter. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e177">
+               <lb ed="#L" n="82"/>Primo, quia Deus est, &amp; inquantum Deus 
+      po<lb ed="#L" break="no" n="83"/>test esse donum. donare ergo, &amp; seipsum, cum 
+      do<lb ed="#L" break="no" n="84"/>num, &amp; datum sit. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e186">
+               <lb ed="#L" n="85"/>Secundo vero, quia indiuisa sunt opera trium 
+      <lb ed="#L" n="86"/>personarum, quod tamen non esset, si pater, &amp; 
+      fi<lb ed="#L" break="no" n="87"/>lius spiritum sanctum emitterent, ipse autem 
+      <lb ed="#L" n="88"/>non mitteret seipsum. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e197">
+      <!--0391.xml-->
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="89"/>Tertio idem ostendit auctoritate Augustini, 
+      <lb ed="#L" n="90"/>qui dicit, quod ita datur spiritus, sicut donum 
+      <lb ed="#L" n="91"/>Dei, &amp; etiam seipsum det, sicut Deus, vnde infert 
+      <lb ed="#L" n="92"/>Magister, quod si spiritus sanctus seipsum dare 
+      <lb ed="#L" n="93"/>non posset, pater autem, &amp; filius dare possent, 
+      a<lb ed="#L" break="no" n="94"/>liquid possent pater, &amp; filius, quod non posset spi 
+      <lb ed="#L" n="95"/>ritus sanctus, &amp; iterum sequeretur, quod aliquid 
+      <lb ed="#L" n="96"/>operarentur pater, &amp; filius, quod non 
+      operare<lb ed="#L" break="no" n="97"/>tur spiritus sanctus, propter quod concludit, 
+      <lb ed="#L" n="98"/>quod a seipso temporaliter mittitur, &amp; 
+      proce<lb ed="#L" break="no" n="99"/>dit, &amp; datur. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e228">
+               <lb ed="#L" n="100"/>Postmodum ibi: Non autem mireris. Magister 
+      <lb ed="#L" n="101"/>agit incidentaliter de missione Filij, &amp; circa hoc 
+      <lb ed="#L" n="102"/>tria facit. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e238">
+               <lb ed="#L" n="103"/>Primo ostendit, filium esse missum, sicut &amp; 
+      spi<lb ed="#L" break="no" n="104"/>ritum sanctum. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e245">
+               <lb ed="#L" n="105"/>Secundo vero inquirit, a quo filius missus sit. 
+      <lb ed="#L" n="106"/>Tertio, quo missus sit. secunda ibi: Et quod a 
+      <lb ed="#L" n="107"/>Spiritu sancto. tertia ibi: Hic quaeritur, vtrum semel. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e254">
+               <lb ed="#L" n="108"/>Dicit itaque primo, quod Augustinus probat 
+      <lb ed="#L" n="109"/>de filio, &amp; spiritu sancto, quod vterque sit missus; 
+      <lb ed="#L" n="110"/>nam de spiritu sancto dicitur Ioan. 14. Quem 
+      mit<lb ed="#L" break="no" n="111"/>tet Pater in nomine meo. &amp; iterum: Si abiero, mittam 
+      <lb ed="#L" n="112"/>eum ad vos. de filio vero legitur, quod ipsemet ait 
+      <lb ed="#L" n="113"/>Ioan. 16. Exiui a Patre, &amp; veni in mundum. &amp; ad Ga 
+      <lb ed="#L" n="114"/>lat. 4. Misit Deus Filium suum factum ex muliere. ex 
+      <lb ed="#L" n="115"/>quibus colligitur, quod vterque, filius videlicet, 
+      <lb ed="#L" n="116"/>&amp; spiritus sanctus missus sit: pater autem in nul- 
+      <!--0392.xml-->
+      <pb ed="#L" n="392"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>la scriptura legitur missus esse. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e285">
+               <lb ed="#L" n="2"/>Postmodum ibi: Et quod a Spiritu sancto. 
+      Ma<lb ed="#L" break="no" n="3"/>gister inquirit, a quo missus sit filius, &amp; facit 
+      <lb ed="#L" n="4"/>quatuor. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e294">
+               <lb ed="#L" n="5"/>Primo enim ostendit, quod missus est a spiritu 
+      <lb ed="#L" n="6"/>sancto, quod patet per verbum Isaiae scriptum 
+      <lb ed="#L" n="7"/>c. 48. vbi dicitur: Nunc misit me Dominus, &amp; spi 
+      <lb ed="#L" n="8"/>ritus eius. Et per Ambrosium lib. 3. de spiritu 
+      san<lb ed="#L" break="no" n="9"/>cto, qui dicit, quod pater, &amp; spiritus miserunt 
+      fi<lb ed="#L" break="no" n="10"/>lium. &amp; subdit ibidem, quod datus est a patre, 
+      <lb ed="#L" n="11"/>vt Isaias dicit: Filius natus est nobis, filius 
+      da<lb ed="#L" break="no" n="12"/>tus est nobis. datus est, audeo dicere, dicit 
+      Am<lb ed="#L" break="no" n="13"/>bros. a spiritu sancto, quia &amp; a spiritu missus est. 
+      <lb ed="#L" n="14"/>Secundo ibi: Deinde ostendit. Magister probat, 
+      <lb ed="#L" n="15"/>quod etiam filius datus est a seipso, &amp; inducit 
+      <lb ed="#L" n="16"/>verbum Ambrosij dicentis, quod datus est filius 
+      <lb ed="#L" n="17"/>gratia Trinitatis, ita, vt filius etiam dederit se. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e325">
+               <lb ed="#L" n="18"/>Tertio ibi: Qui autem a se. Probat etiam, quod 
+      <lb ed="#L" n="19"/>filius missus sit a seipso, auctoritate August. qui 
+      <lb ed="#L" n="20"/>ait, quod ipse seipsum misit, &amp; respondit obiicien 
+      <lb ed="#L" n="21"/>ti, quomodo pater eum misit, quod vtrumque 
+      <lb ed="#L" n="22"/>verum est, quia &amp; pater eum misit, &amp; ipse 
+      seip<lb ed="#L" break="no" n="23"/>sum misit, sicut pater eum sanctificauit, &amp; ipse 
+      <lb ed="#L" n="24"/>scipsum sanctificauit, &amp; pater eum tradidit, &amp; 
+      <lb ed="#L" n="25"/>ipse seipsum tradidit, &amp; pater eum suscitauit, &amp; 
+      <lb ed="#L" n="26"/>ipse seipsum suscitauit. Haec omnia leguntur in 
+      <lb ed="#L" n="27"/>scriptura; vnde a simili, filius misit seipsum, vt 
+      <lb ed="#L" n="28"/>missus fuit a patre. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e352">
+               <lb ed="#L" n="29"/>Quarto ibi: Ex supradictis. Magister praedeter 
+      <lb ed="#L" n="30"/>minatam recolligit, &amp; arguit contra seipsum 
+      di<lb ed="#L" break="no" n="31"/>cens, quod ex praedictis apparet, quod filius 
+      mis<lb ed="#L" break="no" n="32"/>sus est a patre, &amp; spiritu, &amp; etiam a seipso. Sed 
+      <lb ed="#L" n="33"/>huic videtur contrariari, quod ipse dicit Ioan. 
+      <lb ed="#L" n="34"/>4. A meipso non veni. &amp; respondet Magister 
+      se<lb ed="#L" break="no" n="35"/>cundum Augustinum, quod ibi loquitur 
+      Chri<lb ed="#L" break="no" n="36"/>stus secundum formam serui, in qua missus est, 
+      <lb ed="#L" n="37"/>non secundum formam Dei, qua etiam misit 
+      <lb ed="#L" n="38"/>seipsum. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e376">
+               <lb ed="#L" n="39"/>Postmodum ibi: Hic quaeritur, vtrum semel. 
+      Ma<lb ed="#L" break="no" n="40"/>gister inquirit, quomodo fit missio filij, &amp; 
+      fa<lb ed="#L" break="no" n="41"/>cit tria. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e385">
+               <lb ed="#L" n="42"/>Primo enim ponit duos modos missionis, 
+      di<lb ed="#L" break="no" n="43"/>cens, quod praeter illam aeternam generationem, 
+      <lb ed="#L" n="44"/>quae ineffabilis est, duobus modis mittitur filius, 
+      <lb ed="#L" n="45"/>primo quidem visibiliter, &amp; sic missus est, dum 
+      <lb ed="#L" n="46"/>in mundo apparuit carne indutus, de qua 
+      mis<lb ed="#L" break="no" n="47"/>sione scriptum est, Exiui a patre, &amp; veni in 
+      mun<lb ed="#L" break="no" n="48"/>dum. secundo vero inuisibiliter, dum 
+      cognosci<lb ed="#L" break="no" n="49"/>tur, &amp; percipitur mente. de qua missione 
+      scri<lb ed="#L" break="no" n="50"/>bitur Sapientiae 9. Et mitte illam de aedibus 
+      san<lb ed="#L" break="no" n="51"/>ctitatis tuae, &amp; a sede maiestatis tuae. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e409">
+               <lb ed="#L" n="52"/>Secundo ibi: Ecce distincti. Magister assignat 
+      v<lb ed="#L" break="no" n="53"/>nam differentiam inter hos duos modos 
+      missio<lb ed="#L" break="no" n="54"/>nis, &amp; ait, quod secundum primum modum 
+      vi<lb ed="#L" break="no" n="55"/>sibilem, missus est tantum semel in fine temporum, 
+      <lb ed="#L" n="56"/>cum factus est homo, secundum vero alterum 
+      <lb ed="#L" n="57"/>misssionis modum, mittitur continue ad 
+      homi<lb ed="#L" break="no" n="58"/>nes, &amp; angelos, cum in animas sanctas se transfert. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e427">
+               <lb ed="#L" n="59"/>Tertio ibi: Praeterea nondum. Assignat 
+      secun<lb ed="#L" break="no" n="60"/>dam differentiam, &amp; ait, quod per modum 
+      pri<lb ed="#L" break="no" n="61"/>mum missionis, filius dicitur missus in mundum 
+      <lb ed="#L" n="62"/>visibiliter, &amp; corporaliter, secundum vero inui 
+      <lb ed="#L" n="63"/>sibilem modum, non dicitur mitti in mundum, 
+      <lb ed="#L" n="64"/>quia anima, prout veritatem percipit, iam non 
+      <lb ed="#L" n="65"/>est in mundo, vnde nos secundum quod mente 
+      <lb ed="#L" n="66"/>aliquid aeternum percipimus, in mundo non sumus. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e447">
+               <lb ed="#L" n="67"/>Postmodum ibi: Hic quaeritur. inquirit Magi- 
+      <!--0392.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="68"/>ster, quare non conueniat patri mitti. Et circa 
+      <lb ed="#L" n="69"/>hoc duo facit. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e461">
+               <lb ed="#L" n="70"/>Primo enim respondit ad hoc, dicens, quod 
+      <lb ed="#L" n="71"/>pater est principium totius Deitatis, propter 
+      <lb ed="#L" n="72"/>quod debetur sibi auctoritas: mittens autem ha 
+      <lb ed="#L" n="73"/>bet auctoritatem respectu eius, quem mittit, 
+      <lb ed="#L" n="74"/>propter quod absurdissime diceretur, pater mis 
+      <lb ed="#L" n="75"/>sus a filio, aut a spiritu sancto, cum filius ab eo 
+      <lb ed="#L" n="76"/>sit genitus, &amp; spiritus procedat ab eo. 
+    </p>
+            <p xml:id="ol96b1-127793-d1e479">
+               <lb ed="#L" n="77"/>Secundo ibi: Ideoque. Remouet quorumdam 
+      <lb ed="#L" n="78"/>haereticorum errorem, qui propter hoc patrem 
+      <lb ed="#L" n="79"/>maiorem filio putauerunt, quod pater non 
+      legi<lb ed="#L" break="no" n="80"/>tur missus, sed potius filium, aut spiritum 
+      san<lb ed="#L" break="no" n="81"/>ctum misisse, &amp; dicit Magister, quod hoc non est, 
+      <lb ed="#L" n="82"/>quia pater sit maior, sed propter principij 
+      com<lb ed="#L" break="no" n="83"/>mendationem, vt innuatur, quod pater est 
+      prin<lb ed="#L" break="no" n="84"/>cipium totius Deitatis, vel quia numquam 
+      ap<lb ed="#L" break="no" n="85"/>paruit, sicut illi in uisibili creatura. haec est 
+      sen<lb ed="#L" break="no" n="86"/>tentia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

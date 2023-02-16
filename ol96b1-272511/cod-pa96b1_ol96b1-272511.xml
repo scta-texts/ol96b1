@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-02-16">February 16, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-pa96b1">Paris 1596</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-02-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="840"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ol96b1-272511"> <!-- l1d36p2-prae -->
+            <head xml:id="ol96b1-272511-Hd1e102">Praeambulum</head>
+            <p xml:id="ol96b1-272511-d1e104">
+      <!--0840.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>SECVNDA PARS. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e113">
+               <lb ed="#L" n="64"/>Vtrum mala debeant dici esse in Deo, vbi 
+      <lb ed="#L" n="65"/>sunt omnia bona, cum vtraque sint 
+      <lb ed="#L" n="66"/>in eius cognitione, et 
+      praesen<lb ed="#L" break="no" n="67"/>tia: omnia enim cognoscit. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e124">
+               <lb ed="#L" n="68"/>Expositio textus.
+    </p>
+            <p xml:id="ol96b1-272511-d1e130">
+               <lb ed="#L" n="69"/>POST praedicta quaeritur, &amp;c. Ped 
+      <lb ed="#L" n="70"/>quam Magister expediuit pri⸗ 
+      <lb ed="#L" n="71"/>mam dubitationem, quae fuit, 
+      <lb ed="#L" n="72"/>vtrum omnia dici possint in 
+      <lb ed="#L" n="73"/>Dei essentia, quemadmodum 
+      <lb ed="#L" n="74"/>esse dicuntur in eius 
+      cognitio<lb ed="#L" break="no" n="75"/>ne, &amp; praesentia; hic secundam prosequitur, 
+      vi<lb ed="#L" break="no" n="76"/>delicet, vtrum mala possint dici in Deo esse, 
+      si<lb ed="#L" break="no" n="77"/>cut &amp; bona. Et circa hoc tria facit. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e152">
+               <lb ed="#L" n="78"/>Primo namque prosequitur huiusmodi 
+      quae<lb ed="#L" break="no" n="79"/>stionem. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e159">
+               <lb ed="#L" n="80"/>Secundo vero ponit quorumdam 
+      vocabule<lb ed="#L" break="no" n="81"/>rum declarationem. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e166">
+               <lb ed="#L" n="82"/>Tertio ponit eorum, quae dicta sunt summam, 
+      <lb ed="#L" n="83"/>&amp; recollectionem. secunda ibi: Proinde, si 
+      alli<lb ed="#L" break="no" n="84"/>genter. tertia ibi: In praemissis apertum est. Circa 
+      <lb ed="#L" n="85"/>primum tria facit. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e177">
+               <lb ed="#L" n="86"/>Primo namque arguit ad vnam partem 
+      que<lb ed="#L" break="no" n="87"/>stionis, dicens, quod mala videntur esse in Deo 
+      <lb ed="#L" n="88"/>tamen nil aliud sit esse in eo, quam cognosci, &amp; 
+      <lb ed="#L" n="89"/>esse sibi praesens per cognitionem. constat 
+      au<lb ed="#L" break="no" n="90"/>tem, quod Deus mala cognoscit. ergo sunt 
+      <lb ed="#L" n="91"/>in Deo. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e193">
+               <lb ed="#L" n="92"/>Secundo ibi: Sed quis, nisi insanus. Arguit ad 
+      <lb ed="#L" n="93"/>partem aliam, dicens. quod nil est in Deo, nisi 
+      <lb ed="#L" n="94"/>sit per ipsum, &amp; ex ipso. illa enim tria coniuu. 
+      <lb ed="#L" n="95"/>git Aposto. ad Rom. cum ait Ex ipso, &amp;per ipsum, 
+      <lb ed="#L" n="96"/>&amp; in ipso sunt omnia. sed constat, quod mala non 
+      <lb ed="#L" n="97"/>sunt per ipsum, aut ex ipso, quia non est auctor, 
+      <lb ed="#L" n="98"/>nisi bonorum. ergo non sunt mala in ipso. 
+      <lb ed="#L" n="99"/>Tertio ibi: Non ergo mala. Soluit praedictam 
+      <lb ed="#L" n="100"/>quaestionem, dicens, quod mala nouit Deus 
+      tan<lb ed="#L" break="no" n="101"/>tummodo per notitiam, &amp; non per 
+      approbatio<lb ed="#L" break="no" n="102"/>nem; bona vero nouit scientia approbatiua, &amp; 
+      <lb ed="#L" n="103"/>complacendo in eis: &amp; hinc est, quod mala 
+      di<lb ed="#L" break="no" n="104"/>cuntur abscondita in Psalm. cum dicitur: Et de 
+      <lb ed="#L" n="105"/>ab sconditis tuis adimpletur venter eorum. &amp; 
+      <lb ed="#L" n="106"/>Matth. 7. inducitur verbum Christi, in Iudicio 
+      <lb ed="#L" n="107"/>alloquentis peccatores, &amp; dicentis: Amen dico 
+      <lb ed="#L" n="108"/>vobis, non noui vos. propter hoc etiam dicitur 
+      <lb ed="#L" n="109"/>in Psalm. Et alta a longe cognoscit. non ergo 
+      <lb ed="#L" n="110"/>sunt in Deo solum, quae cognoscuntur 
+      notitia<lb ed="#L" break="no" n="111"/>quasi speculatiua, sed illa, quae sciuntur, notitia 
+      <lb ed="#L" n="112"/>quadam approbatiua: cogitans vero aliqua, nes 
+      <lb ed="#L" n="113"/>approbans, sed repellens, non proprie dicitur il 
+      <lb ed="#L" n="114"/>la retinere in se, sed potius abiicere a se. &amp; 
+      pro<lb ed="#L" break="no" n="115"/>pterea bona dicuntur esse in Deo, mala vero lon 
+      <lb ed="#L" n="116"/>ge esse ab eo, nec esse in eo. 
+      
+      
+      <lb ed="#L" n="117"/>postmodi ibi: Deinde, si diligenter. Inducit 
+      Ma<lb ed="#L" break="no" n="118"/>gister praedictorum vocabulorum per ipsum, 
+      e<lb ed="#L" break="no" n="119"/>ipso, &amp; in ipso, declarationem, &amp; facit tria 
+    </p>
+            <p xml:id="ol96b1-272511-d1e257">
+               <lb ed="#L" n="120"/>Primo namque declarat ista vocabula, dicent 
+      <lb ed="#L" n="121"/>quod haec tria vnum significant, &amp; per eandem ra 
+      <lb ed="#L" n="122"/>tionem dicuntur secundum quod Ambrs. 
+      expo<lb ed="#L" break="no" n="123"/>nit. ex quo patet, quod non omnia dicuntur asa 
+      <lb ed="#L" n="124"/>in Deo solum, quia cognoscit ea, cum per ipsum⸗ 
+      <lb ed="#L" n="125"/>&amp; ex ipso importent causalitatem, &amp; hinc ioa 
+      <!--0841.xml-->
+      <pb ed="#L" n="841"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod mala non sunt in ipso, sed omnes naturae, 
+      <lb ed="#L" n="2"/>&amp; ea, quae naturaliter subsistunt. 
+    </p>
+            <p xml:id="ol96b1-272511-d1e283">
+               <lb ed="#L" n="3"/>Secundo ibi: Praeterea sciendum est. Ostendit Ma 
+      <lb ed="#L" n="4"/>gister, quod haec vocabula communia sint 
+      tri<lb ed="#L" break="no" n="5"/>bus personis, dicens, quod licet in verbis illis 
+      <lb ed="#L" n="6"/>diuinarum personarum distinctio denotari, vt 
+      <lb ed="#L" n="7"/>dicatur ex ipso propter patrem, per ipsum 
+      pro<lb ed="#L" break="no" n="8"/>pter filium, &amp; in ipso propter spiritum sanctum; 
+      <lb ed="#L" n="9"/>tamen omnia dicuntur ex patre, per patrem, &amp; 
+      <lb ed="#L" n="10"/>in patre. &amp; similiter de filio, &amp; spiritu sancto 
+      <lb ed="#L" n="11"/>est intelligendum.
+    </p>
+            <p xml:id="ol96b1-272511-d1e305">
+               <lb ed="#L" n="12"/>Tertio ibi: Illud autem omittendum est. Assignat 
+      <lb ed="#L" n="13"/>Magister differentiam inter has duas 
+      locutio<lb ed="#L" break="no" n="14"/>nes, Ex ipso, &amp; de ipso, dicens, quod in plus se 
+      <lb ed="#L" n="15"/>habet vnum, quam reliquum. omnia namque, 
+      <lb ed="#L" n="16"/>quae dicuntur de ipso, dicuntur etiam ex ipso, 
+      <lb ed="#L" n="17"/>sicut patet de filio, qui dicitur de patre, &amp; ex pa 
+      <lb ed="#L" n="18"/>tre natus; non tamen e conuerso omnia, quae 
+      <lb ed="#L" n="19"/>dicuntur ex Deo, dicuntur de Deo. caelum enim, 
+      <lb ed="#L" n="20"/>&amp; terra sunt ex ipso, nec tamen sunt de ipso. &amp; 
+      <lb ed="#L" n="21"/>ratio huius est, quia haec propositio, ex, 
+      impor<lb ed="#L" break="no" n="22"/>tat solam habitudinem originis, &amp; causalitatis; 
+      <lb ed="#L" n="23"/>de, vero cum hoc, quod importat originem, no 
+      <lb ed="#L" n="24"/>tat etiam consubstantialitatem.
+    </p>
+            <p xml:id="ol96b1-272511-d1e336">
+               <lb ed="#L" n="25"/>Vltimo ibi: In praemissis actum est. Intelligit Ma 
+      <lb ed="#L" n="26"/>gister in summa, quae dicta sunt, dicens, quod 
+      <lb ed="#L" n="27"/>ex praemissis apparet, quod licet in Dei 
+      cogni<lb ed="#L" break="no" n="28"/>tione, atque praesentia sint &amp; bona, &amp; mala, non 
+      <lb ed="#L" n="29"/>tamen mala sunt proprie in ipso, quia non sunt 
+      <lb ed="#L" n="30"/>per ipsum, aut ex ipso. Apparet enim ex praedi 
+      <lb ed="#L" n="31"/>ctis, quod aliud est esse de ipso, quam ex ipso. 
+      <lb ed="#L" n="32"/>haec est sententia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
