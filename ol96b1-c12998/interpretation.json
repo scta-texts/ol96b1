@@ -1,0 +1,55 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "scta-create-interpretation-v1",
+    "source_commit": "97c8064",
+    "generation_method": "hierarchical",
+    "source_file": "cod-pa96b1_ol96b1-c12998.xml"
+  },
+  "ol96b1-c12998": {
+    "summary": "A one-paragraph literal exposition of the closing 'In quo maiorum' section of Lombard's prologue, addressed to benevolent students. It sets out the book's authority (it is woven from the Fathers' sayings and Lombard does not depart from them), its utility (a compact collection that spares readers from searching many books), and Lombard's humility (he welcomes correction without malice while rejecting contradiction of truth).",
+    "claims": [
+      "The Sentences derive their authority from the Fathers.",
+      "The Sentences are useful as a compact patristic anthology.",
+      "Lombard invites honest correction."
+    ],
+    "concepts": [
+      "prologue of the Sentences",
+      "authority",
+      "utility",
+      "humility"
+    ],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ol96b1-c12998-d1e104"
+      ]
+    }
+  },
+  "ol96b1-c12998-d1e104": {
+    "summary": "Literal exposition of the 'In quo maiorum' section of Lombard's prologue, addressed to well-disposed and diligent students. It names four tasks and covers three. (1) The book's authority: it is full of the sayings, examples and teaching of the saints, Lombard's own view sounds rarely, and where it does he does not depart from the Fathers. (2) Its utility ('Non igitur debet'): it is not superfluous even to the unlearned or lazy, since it gathers the Fathers' sentences, confirmed by testimonies, into one short volume, sparing the reader from searching many books. (3) Lombard's humility ('In hoc autem tractatu'): he wants not so much a devout reader as a corrector free of envy and malice, while condemning anyone who contradicts truth. The lesson ends at 'Ut autem quod quaeritur'. (The text is partly corrupt.)",
+    "claims": [
+      "The Sentences' authority comes from being composed of the Fathers' sayings, with Lombard rarely adding his own view.",
+      "The Sentences are useful because they collect patristic opinions in one short volume.",
+      "Lombard invites correction free of malice but condemns contradiction of the truth."
+    ],
+    "concepts": [
+      "authority of the Sentences",
+      "utility of the Sentences",
+      "Fathers",
+      "humility",
+      "divisio textus"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-c12998",
+        "ol96b1-bb9833-d1e104"
+      ]
+    }
+  }
+}

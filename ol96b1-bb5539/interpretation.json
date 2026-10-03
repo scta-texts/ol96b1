@@ -1,0 +1,128 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "scta-create-interpretation-v1",
+    "source_commit": "97c8064",
+    "generation_method": "hierarchical",
+    "source_file": "cod-pa96b1_ol96b1-bb5539.xml"
+  },
+  "ol96b1-bb5539": {
+    "summary": "Brief literal exposition of Lombard's prologue. It divides the whole Sentences into prologue, treatise and epilogue, divides the prologue into the causes of the work, a reply to rivals, and an address to readers, and expounds the three causes Lombard gives: trust in divine help and hope of reward (the Good Samaritan), zeal to defend the faith against carnal errors, and charity toward students who asked for his teaching in writing.",
+    "claims": [
+      "The Sentences divide into prologue, treatise and epilogue.",
+      "Lombard gives three causes for writing: hope of divine reward, refutation of errors, and love of his students."
+    ],
+    "concepts": [
+      "divisio textus",
+      "prologue of the Sentences",
+      "causes of the work",
+      "defense of faith"
+    ],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ol96b1-bb5539-d1e104",
+        "ol96b1-bb5539-d1e109",
+        "ol96b1-bb5539-d1e140",
+        "ol96b1-bb5539-d1e161",
+        "ol96b1-bb5539-d1e185"
+      ]
+    }
+  },
+  "ol96b1-bb5539-d1e104": {
+    "summary": "Rubric marking this short text as the exposition of Lombard's prologue (Prooemium).",
+    "claims": [],
+    "concepts": [
+      "rubric",
+      "prologue of the Sentences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-bb5539",
+        "ol96b1-bb5539-d1e109"
+      ]
+    }
+  },
+  "ol96b1-bb5539-d1e109": {
+    "summary": "A divisio textus of Lombard's Sentences. The whole book is divided into Prologue ('Cupientes'), Treatise (from 'Veteris ac novae legis continentiam') and Epilogue (end of book 4). The Prologue in turn does three things: it gives the causes for undertaking the work, answers rivals ('Quamvis non ambigamus'), and addresses diligent and well-disposed readers ('In quo maiorum exempla'). Three causes are to be shown.",
+    "claims": [
+      "The Sentences divide into prologue, treatise and epilogue.",
+      "Lombard's prologue gives the causes of the work, answers critics, and addresses benevolent readers."
+    ],
+    "concepts": [
+      "divisio textus",
+      "structure of the Sentences",
+      "prologue",
+      "causes of the work"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-bb5539",
+        "ol96b1-bb5539-d1e140"
+      ]
+    }
+  },
+  "ol96b1-bb5539-d1e140": {
+    "summary": "First cause of Lombard's undertaking: hope of reward and trust in divine help. Lombard says he presumed to climb to hard things beyond his strength, placing his confidence in the Good Samaritan, who paid two denarii for the half-dead man and promised to repay whatever more was spent.",
+    "claims": [
+      "Lombard undertook the work trusting in divine aid and hoping for reward."
+    ],
+    "concepts": [
+      "Good Samaritan",
+      "divine help",
+      "reward",
+      "humility topos"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-bb5539-d1e109"
+      ]
+    }
+  },
+  "ol96b1-bb5539-d1e161": {
+    "summary": "Second cause: refuting errors ('Delectat nos veritas pollicentis'). Although the great labor and risk of failure deterred him, zeal for God's house drove Lombard to fortify our faith with the shield of David's tower against the errors of carnal men.",
+    "claims": [
+      "Lombard wrote the Sentences in part to defend the faith against errors."
+    ],
+    "concepts": [
+      "refutation of error",
+      "zeal for the house of God",
+      "defense of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-bb5539-d1e109"
+      ]
+    }
+  },
+  "ol96b1-bb5539-d1e185": {
+    "summary": "Third cause: love of his students ('Non valentes'). Unable to resist his brethren's and students' requests to serve them with pen and tongue, Lombard devoted both to their charity by composing the book, so that those he had taught orally he might instruct in writing.",
+    "claims": [
+      "Lombard composed the Sentences at his students' request, to put his oral teaching into writing."
+    ],
+    "concepts": [
+      "teaching",
+      "charity",
+      "written instruction",
+      "origin of the Sentences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-bb5539-d1e109"
+      ]
+    }
+  }
+}

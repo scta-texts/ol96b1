@@ -1,0 +1,70 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "scta-create-interpretation-v1",
+    "source_commit": "97c8064",
+    "generation_method": "hierarchical",
+    "source_file": "cod-pa96b1_ol96b1-c16664.xml"
+  },
+  "ol96b1-c16664": {
+    "summary": "Brief literal exposition of the final section of Lombard's prologue, where he shows his diligence by prefixing chapter titles so that readers can find what they seek, and then lists the titles of book 1's two hundred and nine chapters. The first paragraph also contains a displaced fragment concluding the previous question on theology's unity (formally one habit, several by connection).",
+    "claims": [
+      "Lombard's chapter titles serve readers' ease in finding material.",
+      "Book 1 is divided into two hundred and nine titled chapters."
+    ],
+    "concepts": [
+      "prologue of the Sentences",
+      "chapter titles",
+      "Lombard's diligence"
+    ],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ol96b1-c16664-d1e104",
+        "ol96b1-c16664-d1e133"
+      ]
+    }
+  },
+  "ol96b1-c16664-d1e104": {
+    "summary": "Begins the literal exposition of the last section of Lombard's prologue ('Ut autem quod quaeritur facilius occurrat'). Having shown the book's authority, utility and his humility, the Master now shows his diligence by setting out in advance the chapter titles of book 1, in two steps. (A displaced fragment from the end of the preceding question, 'formally theology is one habit, but by connection several', has been printed inside this paragraph.)",
+    "claims": [
+      "Lombard's prefixed chapter titles show his diligence."
+    ],
+    "concepts": [
+      "divisio textus",
+      "chapter titles",
+      "Lombard's diligence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-c16664",
+        "ol96b1-c12998-d1e104",
+        "ol96b1-c13061-d1e3598"
+      ]
+    }
+  },
+  "ol96b1-c16664-d1e133": {
+    "summary": "Completes the exposition. Lombard first states his purpose in general: he took such care that he prefixed titles distinguishing each book's chapters so what is sought can be found easily. Then ('Omnis doctrina') he carries it out in particular by giving titles for all the chapters of book 1, two hundred and nine, matching the number of chapters; where each title begins is clear enough.",
+    "claims": [
+      "Lombard prefixed chapter titles to make the work easy to search.",
+      "Book 1 has two hundred and nine chapter titles."
+    ],
+    "concepts": [
+      "chapter titles",
+      "structure of book 1",
+      "usability of the Sentences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-c16664-d1e104"
+      ]
+    }
+  }
+}

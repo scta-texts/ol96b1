@@ -1,0 +1,57 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "scta-create-interpretation-v1",
+    "source_commit": "97c8064",
+    "generation_method": "hierarchical",
+    "source_file": "cod-pa96b1_ol96b1-bb9833.xml"
+  },
+  "ol96b1-bb9833": {
+    "summary": "A one-paragraph literal exposition of the 'Quamvis non ambigamus' section of Lombard's prologue. Lombard first answers faithful critics, persevering despite the inevitable contradiction that any human work meets. He then answers heretics, analyzing their faithlessness as rooted in envy, self-will, neglect of study, vainglory and hypocrisy and sealed by stubbornness, and announces his zeal to silence them with the testimonies of truth gathered in the four books.",
+    "claims": [
+      "Lombard perseveres in his work despite the criticism every human work meets.",
+      "Heresy springs from moral rather than intellectual failings and is sealed by obstinacy.",
+      "The Sentences are designed to refute heretics with authoritative testimonies."
+    ],
+    "concepts": [
+      "prologue of the Sentences",
+      "critics",
+      "heresy",
+      "refutation of heretics"
+    ],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "ol96b1-bb9833-d1e104"
+      ]
+    }
+  },
+  "ol96b1-bb9833-d1e104": {
+    "summary": "Literal exposition of the section of Lombard's prologue beginning 'Quamvis non ambigamus'. Having given his motives, the Master turns to rivals of two kinds, faithful critics and faithless heretics. To the first he says that, though every human work, his included, will meet contradiction because wills and desires differ, he will not abandon the work. To heretics ('Quem Deus huius saeculi') he first describes the roots of their faithlessness: envy, lust to follow their own will rather than reason, unwillingness to study, dreaming up vanities and fitting Scripture to them, following what pleases rather than truth, vainglory and hypocrisy, and stubborn defense. Then ('Horum igitur Deo odibilem') he declares his zeal to overturn their church and stop their mouths with the eternal testimonies of truth gathered in this book of four parts.",
+    "claims": [
+      "Every human work is subject to contradiction because human wills differ.",
+      "Lombard answers faithful critics and heretics differently.",
+      "Heresy arises from envy, self-will, neglect of study, vainglory and hypocrisy, and ends in stubbornness.",
+      "The Sentences aim to refute heretics with the testimonies of truth."
+    ],
+    "concepts": [
+      "divisio textus",
+      "prologue of the Sentences",
+      "critics",
+      "heresy",
+      "refutation of heretics",
+      "Lombard's zeal"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "ol96b1-bb9833",
+        "ol96b1-bb5539-d1e109"
+      ]
+    }
+  }
+}
